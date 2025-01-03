@@ -111,7 +111,7 @@ Sometimes it becomes necessary to move a page from one place in the documentatio
 
 However, people link to our documentation from many sources that we do not control. Blogs, websites, and other documentation sites can direct people here using links that they may never update. It is a terrible experience to follow a link from a different site and land on a 404 page, left to your own devices to find your way in restructured documentation.
 
-We use a tool called Rediraffe to avoid this bad experience. Rediraffe creates redirect pages which can send a user from an old, invalid link to a new, useful link. Please create a redirect link when changing a page's name or moving a page within the documentation's directory structure. Redirect links are created by placing the filename of the old document and the filename of the new document, relative to the documentation's root, in the `redirects.txt file <https://github.com/ubports/docs.ubports.com/blob/master/redirects.txt>`_.
+We use a tool called Rediraffe to avoid this bad experience. Rediraffe creates redirect pages which can send a user from an old, invalid link to a new, useful link. Please create a redirect link when changing a page's name or moving a page within the documentation's directory structure. Redirect links are created by placing the filename of the old document and the filename of the new document, relative to the documentation's root, in the `redirects.txt file <https://gitlab.com/ubports/docs/docs.ubports.com/-/blob/master/redirects.txt>`_.
 
 We use Rediraffe's ``checkdiff`` builder to ensure that pages are not deleted from the documentation without a redirect in place. This builder is run as part of the ``build.sh`` script in the repository and as part of our automated build once you submit a Pull Request.
 
@@ -141,31 +141,31 @@ There is no restriction on line length in this repository. Please do not break l
 Contribution workflow
 ---------------------
 
-The following steps will help you to make a contribution to this documentation after you have written a document.
+The following steps explain how you can make a contribution to this documentation.
 
 .. Note::
-    You will need a GitHub account to complete these steps. If you do not have one, click `here <https://github.com/join>`_ to begin the process of making an account.
+    You will need a GitLab account to complete these steps. If you do not have an account, go to `gitlab.com <https://gitlab.com>`_ to create one.
 
 Forking the repository
 ^^^^^^^^^^^^^^^^^^^^^^
 
-You can make more advanced edits to our documentation by forking `ubports/docs.ubports.com <https://github.com/ubports/docs.ubports.com>`_ on GitHub. If you're not sure how to do this, check out the excellent GitHub guide on `forking projects <https://guides.github.com/activities/forking/>`_.
+You can make more advanced edits to the documentation by forking `ubports/docs.ubports.com <https://gitlab.com/ubports/docs/docs.ubports.com>`_ on GitLab.
 
 Building the documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you'd like to build this documentation *before* sending a PR (which you should), follow these instructions on your *local copy* of your fork of the repository.
+To build this documentation, follow these instructions on your *local copy* of your fork of the repository.
 
 The documentation can be built by running ``./build.sh`` in the root of this repository. The script will also create a virtual build environment in ``~/ubportsdocsenv`` if none is present.
 
 If all went well, you can enter the ``_build/html`` directory and open ``index.html`` to view the UBports documentation.
 
-If you have trouble building the docs, the first thing to try is deleting the build environment. Run ``rm -r ~/ubportsdocsenv`` and try the build again. Depending on when you first used the build script, you may need to run the ``rm`` command with ``sudo``.
+If you have trouble building the docs, the first thing to try is deleting the build environment. Run ``rm -r ~/ubportsdocsenv`` and try the build again.
 
 Final check of your contribution
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-After you have created your PR on github, the CI (continuous integration) system will make a test build of your contribution. Please double check whether this builds successfully and whether the result looks as you intended it to:
+After you have created your Merge Request (MR) on GitLab, the Continuous Integration (CI) system will make a test build of your contribution. Please double check whether this builds successfully and whether the result looks as you intended it to:
 
 * Scroll to the bottom of the "Conversation" tab of your PR on github, here you will see the checks (You may have to click on "Show all checks")
 * It can have a yellow dot, i.e., "pending" then wait a few more seconds.
@@ -176,7 +176,7 @@ After you have created your PR on github, the CI (continuous integration) system
 * then "_build/html/..index.html",
 * and finally on "Go to start page".
 
-Now you can browse a complete build of the UBports docs site with your contribution included. Double check whether your changes look ok.
+Now you can browse a complete build of the UBports docs site online with your contribution included. Double check whether your changes look ok.
 
 
 Alternative methods to contribute
@@ -195,12 +195,12 @@ If you would like to write documents for UBports but are not comfortable writing
 Uncomfortable with Git
 ^^^^^^^^^^^^^^^^^^^^^^
 
-If you've written a complete document in ReStructuredText but aren't comfortable using Git or GitHub, please post it on the `UBports Forum`_ in the relevant section (likely General). Someone will be able to help you revise your draft and submit it to this documentation.
+If you've written a complete document in ReStructuredText but aren't comfortable using Git or GitLab, please post it on the `UBports Forum`_ in the relevant section (likely General). Someone will be able to help you revise your draft and submit it to this documentation.
 
 Current TODOs
 -------------
 
-This section lists the TODOs that have been included in this documentation. If you know how to fix one, please send us a Pull Request to make it better!
+This section lists the TODOs that have been included in this documentation. If you know how to fix one, please send us a Merge Request to make it better!
 
 To create a todo, add this markup to your page::
 
