@@ -210,5 +210,13 @@ To create a todo, add this markup to your page::
 
 .. todolist::
 
+ReadTheDocs hosting
+-------------------
+
+The actual `documents website <https://docs.ubports.com>`_  is built and hosted for us by the `Read The Docs <https://readthedocs.org>`_ project.
+Our RTD setup contains one main project for English and one additional project for each supported language added as translations to the main project.
+If you are a maintainer and want to add a language first create a new project with manual import and set the language appropriately.
+Afterwards add this as a translation in the Admin page of the main project.
+
 .. _Its project in UBports Weblate: https://translate.ubports.com/projects/ubports-docs/
 .. _UBports Forum: https://forums.ubports.com/
