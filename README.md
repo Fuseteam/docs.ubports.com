@@ -21,14 +21,13 @@ You can easily contribute to the localization of this project (i.e. the translat
 
 ### Build status
 
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom/badge/?version=latest)](https://docs.ubports.com/en/latest/?badge=latest) English
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-catalan/badge/?version=latest)](https://docs.ubports.com/ca/latest/?badge=latest) Catalan 
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-french/badge/?version=latest)](https://docs.ubports.com/fr/latest/?badge=latest) French
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-german/badge/?version=latest)](https://docs.ubports.com/de/latest/?badge=latest) German
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-italian/badge/?version=latest)](https://docs.ubports.com/it/latest/?badge=latest) Italian
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-romanian/badge/?version=latest)](https://docs.ubports.com/ro/latest/?badge=latest) Romanian
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-ru/badge/?version=latest)](https://docs.ubports.com/ru/latest/?badge=latest) Russian
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-rturkish/badge/?version=latest)](https://docs.ubports.com/tr/latest/?badge=latest) Turkish
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-spanish/badge/?version=latest)](https://docs.ubports.com/es/latest/?badge=latest) Spanish
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-zh-cn/badge/?version=latest)](https://docs.ubports.com/zh_CN/latest/?badge=latest) Simplified Chinese
-
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab/badge/?version=latest)](https://docs.ubports.com/en/latest/?badge=latest) English
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ca/badge/?version=latest)](https://docs.ubports.com/ca/latest/?badge=latest) Catalan
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-fr/badge/?version=latest)](https://docs.ubports.com/fr/latest/?badge=latest) French
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-de/badge/?version=latest)](https://docs.ubports.com/de/latest/?badge=latest) German
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-it/badge/?version=latest)](https://docs.ubports.com/it/latest/?badge=latest) Italian
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ro/badge/?version=latest)](https://docs.ubports.com/ro/latest/?badge=latest) Romanian
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ru/badge/?version=latest)](https://docs.ubports.com/ru/latest/?badge=latest) Russian
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-tr/badge/?version=latest)](https://docs.ubports.com/tr/latest/?badge=latest) Turkish
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-es/badge/?version=latest)](https://docs.ubports.com/es/latest/?badge=latest) Spanish
+* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-zh-cn/badge/?version=latest)](https://docs.ubports.com/zh_CN/latest/?badge=latest) Simplified Chinese
