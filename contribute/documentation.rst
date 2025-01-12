@@ -167,6 +167,7 @@ Final check of your contribution
 
 After you have created your Merge Request (MR) on GitLab, the Continuous Integration (CI) system will make a test build of your contribution. Please double check whether this builds successfully and whether the result looks as you intended it to:
 
+* ..todo The instructions below are left over from GitHub ... once there is a working CI setup on GitLab this must be updated
 * Scroll to the bottom of the "Conversation" tab of your PR on github, here you will see the checks (You may have to click on "Show all checks")
 * It can have a yellow dot, i.e., "pending" then wait a few more seconds.
 * Or it may have a red X, i.e., it failed. In this case please check why it failed
