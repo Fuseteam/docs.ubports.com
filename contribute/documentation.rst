@@ -109,11 +109,13 @@ Moving pages
 
 Sometimes it becomes necessary to move a page from one place in the documentation to another. Generally this is to improve document flow: For example, it makes more sense for the page to come after a page you've just added in a different section.
 
-However, people link to our documentation from many sources that we do not control. Blogs, websites, and other documentation sites can direct people here using links that they may never update. It is a terrible experience to follow a link from a different site and land on a 404 page, left to your own devices to find your way in restructured documentation.
+However, people link to our documentation from many sources that we do not control.
+Blogs, websites, and other documentation sites can direct people here using links that they may never update.
+It is a terrible experience to follow a link from a different site and land on a 404 page, being forced to search manually in our documentation.
 
-We use a tool called Rediraffe to avoid this bad experience. Rediraffe creates redirect pages which can send a user from an old, invalid link to a new, useful link. Please create a redirect link when changing a page's name or moving a page within the documentation's directory structure. Redirect links are created by placing the filename of the old document and the filename of the new document, relative to the documentation's root, in the `redirects.txt file <https://gitlab.com/ubports/docs/docs.ubports.com/-/blob/master/redirects.txt>`_.
+We use a tool called Rediraffe to avoid such a bad experience. Rediraffe creates redirect pages, which can send a user from an old, invalid link to a new, useful link. Please create a redirect link when changing a page's name or moving a page within the documentation's directory structure. Redirect links are created by placing the filename of the old document and the filename of the new document, relative to the documentation's root, in the `redirects.txt file <https://gitlab.com/ubports/docs/docs.ubports.com/-/blob/master/redirects.txt>`_.
 
-We use Rediraffe's ``checkdiff`` builder to ensure that pages are not deleted from the documentation without a redirect in place. This builder is run as part of the ``build.sh`` script in the repository and as part of our automated build once you submit a Pull Request.
+We use Rediraffe's ``checkdiff`` builder to ensure that pages are not deleted from the documentation without a redirect in place. This builder is run as part of the ``build.sh`` script in the repository and as part of our automated build once you submit a Merge Request (MR).
 
 What follows are some examples of situations where you should create redirects.
 
@@ -165,7 +167,7 @@ If you have trouble building the docs, the first thing to try is deleting the bu
 Final check of your contribution
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-After you have created your Merge Request (MR) on GitLab, the Continuous Integration (CI) system will make a test build of your contribution. Please double check whether this builds successfully and whether the result looks as you intended it to:
+After you have created your Merge Request on GitLab, the Continuous Integration (CI) system will make a test build of your contribution. Please double check whether this builds successfully and whether the result looks as you intended it to:
 
 * ..todo The instructions below are left over from GitHub ... once there is a working CI setup on GitLab this must be updated
 * Scroll to the bottom of the "Conversation" tab of your PR on github, here you will see the checks (You may have to click on "Show all checks")
@@ -201,7 +203,7 @@ If you've written a complete document in ReStructuredText but aren't comfortable
 Current TODOs
 -------------
 
-This section lists the TODOs that have been included in this documentation. If you know how to fix one, please send us a Merge Request to make it better!
+This section lists the TODOs that have been included in this documentation. If you know how to fix one, please send us a merge request to make it better!
 
 To create a todo, add this markup to your page::
 
@@ -216,7 +218,7 @@ ReadTheDocs hosting
 
 The actual `documents website <https://docs.ubports.com>`_  is built and hosted for us by the `Read The Docs <https://readthedocs.org>`_ project.
 Our RTD setup contains one main project for English and one additional project for each supported language added as translations to the main project.
-If you are a maintainer and want to add a language first create a new project with manual import and set the language appropriately.
+If you are a maintainer and want to add a language, first create a new project with manual import and set the language appropriately.
 Afterwards add this as a translation in the Admin page of the main project.
 
 .. _Its project in UBports Weblate: https://translate.ubports.com/projects/ubports-docs/
