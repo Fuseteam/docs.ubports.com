@@ -19,15 +19,17 @@ Strings can be translated on [Hosted Weblate](https://hosted.weblate.org/project
 We welcome translators from all different languages. Thank you for your contribution!
 You can easily contribute to the localization of this project (i.e. the translation into your language) by visiting (and signing up with) the Hosted Weblate service as linked above and start translating by using the webinterface. To add a new language, log into weblate, goto tools --> start new translation.
 
-### Build status
+### Project status
 
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab/badge/?version=latest)](https://docs.ubports.com/en/latest) English
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ca/badge/?version=latest)](https://docs.ubports.com/ca/latest) Catalan
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-fr/badge/?version=latest)](https://docs.ubports.com/fr/latest) French
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-de/badge/?version=latest)](https://docs.ubports.com/de/latest) German
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-it/badge/?version=latest)](https://docs.ubports.com/it/latest) Italian
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ro/badge/?version=latest)](https://docs.ubports.com/ro/latest) Romanian
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ru/badge/?version=latest)](https://docs.ubports.com/ru/latest) Russian
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-tr/badge/?version=latest)](https://docs.ubports.com/tr/latest) Turkish
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-es/badge/?version=latest)](https://docs.ubports.com/es/latest) Spanish
-* [![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-zh-cn/badge/?version=latest)](https://docs.ubports.com/zh_CN/latest) Simplified Chinese
+|Language           |Build status |Translation status |
+|-------------------|-------------|-------------------|
+|English            |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab/badge/?version=latest      )](https://docs.ubports.com/en/latest   ) | |
+|Catalan            |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ca/badge/?version=latest   )](https://docs.ubports.com/ca/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/ca/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/ca/   ) |
+|French             |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-fr/badge/?version=latest   )](https://docs.ubports.com/fr/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/fr/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/fr/   ) |
+|German             |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-de/badge/?version=latest   )](https://docs.ubports.com/de/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/de/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/de/   ) |
+|Italian            |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-it/badge/?version=latest   )](https://docs.ubports.com/it/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/it/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/it/   ) |
+|Romanian           |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ro/badge/?version=latest   )](https://docs.ubports.com/ro/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/ro/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/ro/   ) |
+|Russian            |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ru/badge/?version=latest   )](https://docs.ubports.com/ru/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/ru/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/ru/   ) |
+|Turkish            |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-tr/badge/?version=latest   )](https://docs.ubports.com/tr/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/tr/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/tr/   ) |
+|Spanish            |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-es/badge/?version=latest   )](https://docs.ubports.com/es/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/es/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/es/   ) |
+|Simplified Chinese |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-zh-cn/badge/?version=latest)](https://docs.ubports.com/zh_CN/latest) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/zh_CN/svg-badge.svg)](https://hosted.weblate.org/engage/ubports/-/zh_CN/) |
