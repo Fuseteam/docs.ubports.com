@@ -9,7 +9,7 @@ This page will guide you through writing great documentation for the UBports pro
 Documentation guidelines
 ------------------------
 
-These rules govern how you should write your documentation to avoid problems with style, format, or linking.
+These rules govern how you should write documentation to avoid problems with style, format or linking.
 
 Title
 ^^^^^
@@ -67,7 +67,7 @@ Incorrect examples of titles include:
 Headings
 ^^^^^^^^
 
-There are several levels of headings that you may place on your page. These levels are shown here in order:
+There are several levels of headings that you may place on a page. These levels are shown here in order:
 
 .. code-block:: rst
 
@@ -83,14 +83,12 @@ There are several levels of headings that you may place on your page. These leve
     Level three
     """""""""""
 
-Each heading level creates a sub-section in the global table of contents tree available when the documentation is built. In the primary (web) version of the documentation, this only shows four levels deep from the top level of the documentation. Please refrain from using more heading levels than will show in this tree as it makes navigating your document difficult. If you must use this many heading levels, it is a good sign that your document should be split up into multiple pages.
+Please refrain from using more than four levels. If you think you need more levels, it is a good sign that the document should be split up into multiple pages. Furthermore the web version of the documentation only shows four levels in it's table of contents.
 
 Table of contents
 ^^^^^^^^^^^^^^^^^
 
-People can't navigate to your new page if they can't find it. Neither can Sphinx. That's why you need to add new pages to Sphinx's table of contents.
-
-You can do this by adding the page to the ``index.rst`` file in the same directory that you created it. For example, if you create a file called "newpage.rst", you would add the line marked with a chevron (>) in the nearest index:
+If you add a new page you also have to add it to the table of contents. You can do this by adding the page to the ``index.rst`` file in the same directory where you created it. For example, if you create a file called "newpage.rst", you would add the line marked with a chevron (>) in the nearest index:
 
 .. code-block:: rst
 
@@ -102,7 +100,7 @@ You can do this by adding the page to the ``index.rst`` file in the same directo
         anotheroldpage
     >   newpage
 
-The order matters. If you would like your page to appear in a certain place in the table of contents, place it there. In the previous example, newpage would be added to the end of this table of contents.
+The order matters. If you would like your page to appear in a certain position in the table of contents, place it there. In the previous example, newpage would be added to the end of this table of contents.
 
 Moving pages
 ^^^^^^^^^^^^
@@ -130,7 +128,7 @@ You are moving ``appdev/clickable.rst`` into several pages in ``appdev/clickable
 Warnings
 ^^^^^^^^
 
-Your edits must not introduce any warnings into the documentation build. If any warnings occur, the build will fail and your pull request will be marked with a red 'X'. Please ensure that your RST is valid and correct before you create a pull request. This is done automatically (via sphinx-build crashing with your error) if you follow :ref:`our build instructions <doc-contribution-workflow>` below.
+Your edits must not introduce any warnings into the documentation build. If any warnings occur, the build will fail and the merge request will be marked with a red 'X'. Please ensure that your RST is valid and correct before you create a merge request. This is done automatically (via sphinx-build crashing with your error) if you follow :ref:`our build instructions <doc-contribution-workflow>` below.
 
 
 Line length
