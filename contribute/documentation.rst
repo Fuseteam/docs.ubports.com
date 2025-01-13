@@ -167,18 +167,17 @@ Final check of your contribution
 
 After you have created your Merge Request on GitLab, the Continuous Integration (CI) system will make a test build of your contribution. Please double check whether this builds successfully and whether the result looks as you intended it to:
 
-* ..todo The instructions below are left over from GitHub ... once there is a working CI setup on GitLab this must be updated
-* Scroll to the bottom of the "Conversation" tab of your PR on github, here you will see the checks (You may have to click on "Show all checks")
-* It can have a yellow dot, i.e., "pending" then wait a few more seconds.
-* Or it may have a red X, i.e., it failed. In this case please check why it failed
-* If it shows a green check mark, it means the PR could be built successfully
-* Now please click on "Details",
-* then "Artifacts" on the top right,
-* then "_build/html/..index.html",
-* and finally on "Go to start page".
-
-Now you can browse a complete build of the UBports docs site online with your contribution included. Double check whether your changes look ok.
-
+* at the top of the "Overview" tab of your MR on gitlab you will see the "pipeline status"
+* if it says "Checking pipeline status" then please wait another minute.
+* if it shows a red X and says "Pipeline failed" then something went wrong, please click on the link to find the details
+* if it shows a green check mark and says "Pipeline passed", it means the MR could be built successfully
+* now please click on link of that pipeline
+* click on "jenkinsci/mr-merge
+* click on "Artifacts" on the top right
+* click on "_build/html/..index.html"
+* and finally click on "Go to start page"
+* now you can browse a complete build of the UBports docs site online with your contribution included
+* double check whether your changes look ok
 
 Alternative methods to contribute
 ---------------------------------
