@@ -3,45 +3,37 @@
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-01-18 23:00+0000\n"
+"Last-Translator: Guilherme <guilhermelibsoa@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"ubports/doc-ubports-com/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports 1.0)  #-#-#-#-#\n"
-"#-#-#-#-#  appdev.po (UBports 1.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.2.2\n"
-"#-#-#-#-#  contribute.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.2.2\n"
-"#-#-#-#-#  index.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  porting.po (UBports 1.0)  #-#-#-#-#\n"
-"#-#-#-#-#  userguide.po (UBports 1.0)  #-#-#-#-#\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 #: ../../about/introduction.rst:4
 msgid ""
 "Our goal is to create a copylefted libre mobile operating system. One you "
 "can use, study, change and share; with all."
 msgstr ""
+"Nosso objetivo é criar um sistema operacional móvel livre com copyleft. Um "
+"sistema que você possa usar, estudar, alterar e compartilhar com todos."
 
 #: ../../about/introduction.rst:7
 msgid "About UBports"
-msgstr ""
+msgstr "Sobre o UBports"
 
 #: ../../about/introduction.rst:9
 msgid ""
@@ -49,6 +41,10 @@ msgid ""
 "place where developers could share ideas and educate each other in hopes of "
 "bringing the Ubuntu Touch platform to more mobile devices."
 msgstr ""
+"O projeto foi fundado por Marius Gripsgard em 2015 e, em sua infância, era "
+"um lugar onde os desenvolvedores podiam compartilhar ideias e educar uns aos "
+"outros na esperança de levar a plataforma Ubuntu Touch a mais dispositivos "
+"móveis."
 
 #: ../../about/introduction.rst:11
 msgid ""
@@ -59,10 +55,17 @@ msgid ""
 "possibilities for the future. Today, UBports is a volunteer group, "
 "formalised as a charitable foundation."
 msgstr ""
+"Depois que a Canonical anunciou repentinamente `planos para encerrar o "
+"suporte ao Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_ em "
+"abril de 2017, o UBports e seus projetos irmãos começaram a trabalhar no "
+"código-fonte; mantendo e expandindo suas possibilidades para o futuro. Hoje, "
+"o UBports é um grupo de voluntários, formalizado como uma fundação de "
+"caridade."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
-msgstr ""
+msgstr "Sobre a documentação"
 
 #: ../../about/introduction.rst:16
 msgid ""
@@ -73,6 +76,12 @@ msgid ""
 "readthedocs.io>`_. Start contributing by checking out the :doc:"
 "`Documentation contribution document </contribute/documentation>`."
 msgstr ""
+"As alterações na documentação são feitas pela comunidade UBports. Ela é "
+"escrita em reStructuredText e convertida nesta forma legível por `Sphinx "
+"<https://www.sphinx-doc.org/en/master/>`_, `recommonmark <http://"
+"recommonmark.readthedocs.io/en/latest/>`_, e `Read the Docs "
+"<https://readthedocs.io>`_. Comece a contribuir dando uma olhada no :doc:`"
+"Documentation contribution document </contribute/documentation>`."
 
 #: ../../about/introduction.rst:18
 msgid ""
@@ -80,10 +89,13 @@ msgid ""
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
 "attribution to \"The UBports Community\"."
 msgstr ""
+"Todos os documentos estão licenciados pela Creative Commons Attribution "
+"ShareAlike 4.0 (`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/"
+"4.0/>`_). Por favor, atribua a autoria a “The UBports Community”."
 
 #: ../../about/introduction.rst:21
 msgid "Attribution"
-msgstr ""
+msgstr "Atribuição"
 
 #: ../../about/introduction.rst:23
 msgid ""
@@ -91,22 +103,29 @@ msgid ""
 "Documentation <https://docs.godotengine.org/en/stable/>`_, by Juan "
 "Linietsky, Ariel Manzur and the Godot community."
 msgstr ""
+"Essa documentação foi fortemente modelada com base na `Documentação do "
+"mecanismo Godot <https://docs.godotengine.org/en/stable/>`_, de Juan "
+"Linietsky, Ariel Manzur e da comunidade Godot."
 
 #: ../../about/process/branch-naming.rst:2
 msgid "Branch-naming convention"
-msgstr ""
+msgstr "Convenção de nomenclatura de ramificações"
 
 #: ../../about/process/branch-naming.rst:4
 msgid ""
 "Our branch-naming convention ensures software can be built by our CI and "
 "tested easily by other developers."
 msgstr ""
+"Nossa convenção de nomenclatura de ramificações garante que o software possa "
+"ser criado por nossa CI e testado facilmente por outros desenvolvedores."
 
 #: ../../about/process/branch-naming.rst:6
 msgid ""
 "Every Git repository's README file should state which branch-naming "
 "convention is used and any deviations from the norm."
 msgstr ""
+"O arquivo README de cada repositório Git deve indicar qual convenção de "
+"nomeação de ramificação é usada e quaisquer desvios da norma."
 
 #: ../../about/process/branch-naming.rst:9
 msgid "Click-Packages"
@@ -120,10 +139,16 @@ msgid ""
 "merged into master when the time comes. Ideally Git tags or GitHub releases "
 "should be used to mark and archive milestones in the development history."
 msgstr ""
+"O software distribuído exclusivamente como um click-package (e não também "
+"como um DEB) usa apenas uma ramificação ``master`` que é protegida. Ramos de "
+"desenvolvimento temporários separados com nomes descritivos arbitrários "
+"podem ser criados e mesclados ao master quando chegar a hora. Idealmente, as "
+"tags do Git ou as versões do GitHub devem ser usadas para marcar e arquivar "
+"marcos no histórico de desenvolvimento."
 
 #: ../../about/process/branch-naming.rst:14
 msgid "DEB Packages"
-msgstr ""
+msgstr "Pacotes DEB"
 
 #: ../../about/process/branch-naming.rst:16
 msgid ""
@@ -131,14 +156,18 @@ msgid ""
 "our CI automatically build our Git repositories into a number of APT "
 "archives hosted at http://repo.ubports.com/, according to the branch name."
 msgstr ""
+"Para nos ajudar a fornecer nosso código para o Ubuntu Touch da forma mais "
+"simples possível, nosso CI cria automaticamente nossos repositórios Git em "
+"vários arquivos APT hospedados em http://repo.ubports.com/, de acordo com o "
+"nome da ramificação."
 
 #: ../../about/process/branch-naming.rst:18
 msgid "We maintain the following branches across Git repositories:"
-msgstr ""
+msgstr "Mantemos as seguintes ramificações nos repositórios do Git:"
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
-msgstr ""
+msgstr "Ramificações do Git"
 
 #: ../../about/process/branch-naming.rst:22
 #: ../../appdev/guides/pushnotifications.rst:170
@@ -153,7 +182,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
