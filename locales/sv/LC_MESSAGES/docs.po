@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2022-11-23 04:04+0000\n"
+"PO-Revision-Date: 2025-01-21 20:37+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
-"Language-Team: Swedish <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-index/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "Introduktion"
 
 #: ../../about/introduction.rst:4
 msgid ""
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../about/introduction.rst:21
 msgid "Attribution"
-msgstr ""
+msgstr "Tilldelning"
 
 #: ../../about/introduction.rst:23
 msgid ""
@@ -100,7 +100,6 @@ msgid ""
 msgstr ""
 
 #: ../../about/process/branch-naming.rst:9
-#, fuzzy
 msgid "Click-Packages"
 msgstr "Klick-paket"
 
@@ -146,7 +145,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
-msgstr ""
+msgstr "Beskrivning"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
@@ -156,7 +155,7 @@ msgstr ""
 #: ../../about/process/security-vulnerabilities.rst:31
 #: ../../porting/configure_test_fix/device_info/index.rst:43
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: ../../about/process/branch-naming.rst:23
 msgid "Base distro"
@@ -182,7 +181,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:28
 msgid "``devel-debian``"
-msgstr ""
+msgstr "``devel-debian``"
 
 #: ../../about/process/branch-naming.rst:28
 msgid "Debian testing."
@@ -210,7 +209,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``ubports/focal``"
-msgstr ""
+msgstr "``ubports/focal``"
 
 #: ../../about/process/branch-naming.rst:38
 msgid ""
@@ -220,7 +219,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``focal``"
-msgstr ""
+msgstr "``focal``"
 
 #: ../../about/process/branch-naming.rst:38
 #: ../../about/process/branch-naming.rst:43
@@ -229,7 +228,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``ubports/focal_-_<ext>``"
-msgstr ""
+msgstr "``ubports/focal_-_<ext>``"
 
 #: ../../about/process/branch-naming.rst:43
 msgid ""
@@ -239,7 +238,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``focal_-_<ext>``"
-msgstr ""
+msgstr "``focal_-_<ext>``"
 
 #: ../../about/process/branch-naming.rst:48
 msgid "``personal/<user>/<name>``, and any other branches."
@@ -309,7 +308,7 @@ msgstr ""
 
 #: ../../about/process/index.rst:2
 msgid "Processes"
-msgstr ""
+msgstr "Processer"
 
 #: ../../about/process/index.rst:4
 msgid ""
@@ -432,7 +431,7 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:55
 msgid "Labels"
-msgstr ""
+msgstr "Etiketter"
 
 #: ../../about/process/issue-tracking.rst:57
 msgid ""
@@ -543,7 +542,7 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:99
 msgid "Milestones"
-msgstr ""
+msgstr "Milstolpar"
 
 #: ../../about/process/issue-tracking.rst:101
 msgid ""
@@ -579,7 +578,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Mir.rst:63
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
 msgid "Examples"
-msgstr ""
+msgstr "Exempel"
 
 #: ../../about/process/issue-tracking.rst:120
 msgid "Bug Lifecycle"
@@ -826,15 +825,15 @@ msgstr ""
 
 #: ../../about/process/security-vulnerabilities.rst:35
 msgid "Solution"
-msgstr ""
+msgstr "Lösning"
 
 #: ../../about/process/security-vulnerabilities.rst:36
 msgid "Recommendations"
-msgstr ""
+msgstr "Rekommendationer"
 
 #: ../../about/process/security-vulnerabilities.rst:37
 msgid "Timeline"
-msgstr ""
+msgstr "Tidslinje"
 
 #: ../../about/process/security-vulnerabilities.rst:38
 msgid "Credit"
@@ -851,10 +850,12 @@ msgid ""
 "https://docs.gitlab.com/ee/user/project/merge_requests/confidential."
 "html#create-a-confidential-merge-request"
 msgstr ""
+"https://docs.gitlab.com/ee/user/project/merge_requests/"
+"confidential.html#create-a-confidential-merge-request"
 
 #: ../../about/process/security-vulnerabilities.rst:43
 msgid "https://curl.se/docs/security.html"
-msgstr ""
+msgstr "https://curl.se/docs/security.html"
 
 #: ../../appdev/code-editor.rst:2
 msgid "Code editor integrations"
@@ -862,7 +863,7 @@ msgstr ""
 
 #: ../../appdev/code-editor.rst:4
 msgid "QtCreator"
-msgstr ""
+msgstr "QtCreator"
 
 #: ../../appdev/code-editor.rst:6
 msgid ""
@@ -990,9 +991,8 @@ msgid ""
 msgstr ""
 
 #: ../../appdev/guides/contenthub.rst:28
-#, fuzzy
 msgid "Importing"
-msgstr "Portering"
+msgstr "Importerar"
 
 #: ../../appdev/guides/contenthub.rst:33
 msgid "Webapp Creator on the OpenStore"
@@ -1021,9 +1021,8 @@ msgid ""
 msgstr ""
 
 #: ../../appdev/guides/contenthub.rst:55
-#, fuzzy
 msgid "Exporting"
-msgstr "Portering"
+msgstr "Exporterar"
 
 #: ../../appdev/guides/contenthub.rst:60
 msgid "Gelek in the OpenStore"
@@ -1137,7 +1136,7 @@ msgstr ""
 #: ../../appdev/guides/dependencies.rst:7
 #: ../../porting/build_and_boot/index.rst:11
 msgid "Building"
-msgstr ""
+msgstr "Bygger"
 
 #: ../../appdev/guides/dependencies.rst:8
 msgid ""
@@ -1149,7 +1148,7 @@ msgstr ""
 
 #: ../../appdev/guides/dependencies.rst:11
 msgid "Compilation"
-msgstr ""
+msgstr "Kompilering"
 
 #: ../../appdev/guides/dependencies.rst:12
 msgid ""
@@ -1245,7 +1244,7 @@ msgstr ""
 
 #: ../../appdev/guides/dependencies.rst:78
 msgid "Usage"
-msgstr ""
+msgstr "Användningsområde"
 
 #: ../../appdev/guides/dependencies.rst:79
 msgid ""
@@ -1468,7 +1467,7 @@ msgstr ""
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:146
 msgid "Tools"
-msgstr ""
+msgstr "Verktyg"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:148
 msgid ""
@@ -1565,7 +1564,7 @@ msgstr ""
 
 #: ../../appdev/guides/index.rst:33
 msgid "Playground"
-msgstr ""
+msgstr "Lekplats"
 
 #: ../../appdev/guides/index.rst:35
 msgid ""
@@ -1642,7 +1641,7 @@ msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:7
 msgid "QML"
-msgstr ""
+msgstr "QML"
 
 #: ../../appdev/guides/port-to-focal.rst:9
 msgid ""
@@ -1663,9 +1662,8 @@ msgid "Configuration Files"
 msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:32
-#, fuzzy
 msgid "clickable.yaml"
-msgstr "Klickbar"
+msgstr "clickable.yaml"
 
 #: ../../appdev/guides/port-to-focal.rst:33
 msgid ""
@@ -1696,7 +1694,7 @@ msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:76
 msgid "CMakeLists.txt"
-msgstr ""
+msgstr "CMakeLists.txt"
 
 #: ../../appdev/guides/port-to-focal.rst:77
 msgid ""
@@ -1706,7 +1704,7 @@ msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:91
 msgid ".gitlab-ci.yml"
-msgstr ""
+msgstr ".gitlab-ci.yml"
 
 #: ../../appdev/guides/port-to-focal.rst:92
 msgid "If you have a Gitlab CI file, you need to update it:"
@@ -1850,7 +1848,7 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:261
 #: ../../appdev/guides/pushnotifications.rst:275
 msgid "Parameter"
-msgstr ""
+msgstr "Parameter"
 
 #: ../../appdev/guides/pushnotifications.rst:170
 #: ../../appdev/guides/pushnotifications.rst:195
@@ -1859,7 +1857,7 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:261
 #: ../../appdev/guides/pushnotifications.rst:275
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: ../../appdev/guides/pushnotifications.rst:172
 msgid "appid"
@@ -1874,7 +1872,7 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:235
 #: ../../appdev/guides/pushnotifications.rst:243
 msgid "string"
-msgstr ""
+msgstr "sträng"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. ID of the application that will receive the notification,"
@@ -1918,7 +1916,7 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:252
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Discards all previous pending notifications. Usually in response to"
@@ -1942,12 +1940,12 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:187
 msgid "data"
-msgstr ""
+msgstr "data"
 
 #: ../../appdev/guides/pushnotifications.rst:187
 #: ../../appdev/guides/pushnotifications.rst:192
 msgid "Data"
-msgstr ""
+msgstr "Data"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object. The contents of the data field are arbitrary. We can use"
@@ -1959,12 +1957,12 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:197
 msgid "notification"
-msgstr ""
+msgstr "avisering"
 
 #: ../../appdev/guides/pushnotifications.rst:197
 #: ../../appdev/guides/pushnotifications.rst:203
 msgid "Notification"
-msgstr ""
+msgstr "Avisering"
 
 #: ../../appdev/guides/pushnotifications.rst:197
 msgid "A JSON object which defines how this notification will be presented."
@@ -1972,11 +1970,11 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "message"
-msgstr ""
+msgstr "meddelande"
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "object"
-msgstr ""
+msgstr "objekt"
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "A JSON object that is passed as-is to the application via PopAll."
@@ -1984,7 +1982,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:208
 msgid "tag"
-msgstr ""
+msgstr "tagg"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "The tag of the push notification."
@@ -1992,7 +1990,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:210
 msgid "sound"
-msgstr ""
+msgstr "ljud"
 
 #: ../../appdev/guides/pushnotifications.rst:210
 msgid "bool or string"
@@ -2020,7 +2018,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:216
 msgid "vibrate"
-msgstr ""
+msgstr "vibrera"
 
 #: ../../appdev/guides/pushnotifications.rst:216
 msgid "bool or Vibrate"
@@ -2056,12 +2054,12 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:223
 msgid "card"
-msgstr ""
+msgstr "kort"
 
 #: ../../appdev/guides/pushnotifications.rst:223
 #: ../../appdev/guides/pushnotifications.rst:227
 msgid "Card"
-msgstr ""
+msgstr "Kort"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object with information about the notification card."
@@ -2069,7 +2067,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:232
 msgid "summary"
-msgstr ""
+msgstr "sammanfattning"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. A title. The card will not be presented if this is"
@@ -2077,7 +2075,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "missing."
-msgstr ""
+msgstr "saknas."
 
 #: ../../appdev/guides/pushnotifications.rst:235
 msgid "body"
@@ -2118,7 +2116,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:243
 msgid "icon"
-msgstr ""
+msgstr "ikon"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "An icon relating to the event being notified. Defaults to"
@@ -2134,7 +2132,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:247
 msgid "timestamp"
-msgstr ""
+msgstr "tidsstämpel"
 
 #: ../../appdev/guides/pushnotifications.rst:247
 #: ../../appdev/guides/pushnotifications.rst:266
@@ -2176,11 +2174,11 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:258
 msgid "Vibrate"
-msgstr ""
+msgstr "Vibrera"
 
 #: ../../appdev/guides/pushnotifications.rst:263
 msgid "pattern"
-msgstr ""
+msgstr "mönster"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid ""
@@ -2193,7 +2191,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:266
 msgid "repeat"
-msgstr ""
+msgstr "upprepa"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Number of times the pattern has to be repeated (defaults to 1, 0 is the"
@@ -2318,7 +2316,7 @@ msgstr ""
 
 #: ../../appdev/guides/user-metrics.rst:78
 msgid "``metric.update(0)``"
-msgstr ""
+msgstr "``metric.update(0)``"
 
 #: ../../appdev/guides/user-metrics.rst:80
 msgid ""
@@ -2623,7 +2621,7 @@ msgstr ""
 
 #: ../../appdev/index.rst:25 ../../porting/configure_test_fix/Overlay.rst:7
 msgid "Overview"
-msgstr ""
+msgstr "Förhandsgranska"
 
 #: ../../appdev/index.rst:27
 msgid ""
@@ -2760,7 +2758,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:26
 msgid "accounts"
-msgstr ""
+msgstr "konton"
 
 #: ../../appdev/platform/apparmor.rst:28
 msgid "Description: Can use Online Accounts."
@@ -2791,7 +2789,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:36
 msgid "audio"
-msgstr ""
+msgstr "ljud"
 
 #: ../../appdev/platform/apparmor.rst:38
 msgid ""
@@ -2807,7 +2805,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:46
 msgid "bluetooth"
-msgstr ""
+msgstr "blåtand"
 
 #: ../../appdev/platform/apparmor.rst:48
 msgid "Description: Use bluetooth (bluez5) as an administrator."
@@ -2836,7 +2834,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:56
 msgid "calendar"
-msgstr ""
+msgstr "kalender"
 
 #: ../../appdev/platform/apparmor.rst:58
 msgid "Description: Can access the calendar."
@@ -2856,7 +2854,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:68
 msgid "camera"
-msgstr ""
+msgstr "kamera"
 
 #: ../../appdev/platform/apparmor.rst:70
 msgid "Description: Can access the camera(s)"
@@ -2883,7 +2881,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:88
 msgid "contacts"
-msgstr ""
+msgstr "kontakter"
 
 #: ../../appdev/platform/apparmor.rst:90
 msgid "Description: Can access contacts."
@@ -2975,7 +2973,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:145
 msgid "history"
-msgstr ""
+msgstr "historik"
 
 #: ../../appdev/platform/apparmor.rst:147
 msgid ""
@@ -2994,7 +2992,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:161
 msgid "location"
-msgstr ""
+msgstr "plats"
 
 #: ../../appdev/platform/apparmor.rst:163
 msgid "Description: Can access Location"
@@ -3006,7 +3004,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:171
 msgid "microphone"
-msgstr ""
+msgstr "mikrofon"
 
 #: ../../appdev/platform/apparmor.rst:173
 msgid "Description: Can access the microphone"
@@ -3063,7 +3061,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:209
 msgid "nfc"
-msgstr ""
+msgstr "nfc"
 
 #: ../../appdev/platform/apparmor.rst:211
 msgid "Description: Can access the NFC functionality"
@@ -3121,7 +3119,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:247
 msgid "sensors"
-msgstr ""
+msgstr "sensorer"
 
 #: ../../appdev/platform/apparmor.rst:249
 msgid "Description: Can access the sensors"
@@ -3147,7 +3145,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:267
 msgid "video"
-msgstr ""
+msgstr "video"
 
 #: ../../appdev/platform/apparmor.rst:269
 msgid ""
@@ -3192,7 +3190,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:295
 msgid "webview"
-msgstr ""
+msgstr "webbvy"
 
 #: ../../appdev/platform/apparmor.rst:297
 msgid "Description: Can use the UbuntuWebview"
@@ -3404,7 +3402,7 @@ msgstr ""
 
 #: ../../appdev/webapp/guide.rst:15
 msgid "Launching"
-msgstr ""
+msgstr "Startar"
 
 #: ../../appdev/webapp/guide.rst:17
 msgid "You can launch a webapp from the terminal with:::"
@@ -3685,7 +3683,7 @@ msgstr ""
 
 #: ../../appdev/webapp/guide.rst:169
 msgid "Storage"
-msgstr ""
+msgstr "Lagring"
 
 #: ../../appdev/webapp/guide.rst:171
 msgid ""
@@ -3735,7 +3733,7 @@ msgstr ""
 
 #: ../../appdev/webapp/index.rst:19 ../../systemdev/kernel-hal.rst:57
 msgid "Todo"
-msgstr ""
+msgstr "Att göra"
 
 #: ../../appdev/webapp/index.rst:21
 msgid ""
@@ -4034,7 +4032,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:7
 msgid "Assumptions"
-msgstr ""
+msgstr "Antaganden"
 
 #: ../../contribute/code.rst:9
 msgid ""
@@ -4054,7 +4052,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:14
 msgid "Definitions"
-msgstr ""
+msgstr "Definitioner"
 
 #: ../../contribute/code.rst:16
 msgid ""
@@ -4080,7 +4078,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:24
 msgid "Reasoning"
-msgstr ""
+msgstr "Motivering"
 
 #: ../../contribute/code.rst:26
 msgid ""
@@ -4235,7 +4233,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:77
 msgid "What?"
-msgstr ""
+msgstr "Vad?"
 
 #: ../../contribute/code.rst:78
 msgid ""
@@ -4247,7 +4245,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:79
 msgid "Why?"
-msgstr ""
+msgstr "Varför?"
 
 #: ../../contribute/code.rst:80
 msgid ""
@@ -4259,7 +4257,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:81
 msgid "Who?"
-msgstr ""
+msgstr "Vem?"
 
 #: ../../contribute/code.rst:82
 msgid ""
@@ -4655,7 +4653,7 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:2
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: ../../contribute/documentation.rst:5
 msgid ""
@@ -4682,7 +4680,7 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:15
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: ../../contribute/documentation.rst:17
 msgid ""
@@ -4852,7 +4850,7 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
-msgstr ""
+msgstr "Varningar"
 
 #: ../../contribute/documentation.rst:131
 msgid ""
@@ -5000,7 +4998,7 @@ msgstr ""
 #: ../../contribute/documentation.rst:186 ../../contribute/translations.rst:2
 #: ../../humanguide/other-design-considerations/translations.rst:2
 msgid "Translations"
-msgstr ""
+msgstr "Översättningar"
 
 #: ../../contribute/documentation.rst:188
 msgid ""
@@ -5133,7 +5131,7 @@ msgstr ""
 
 #: ../../contribute/preinstalled-apps.rst:25
 msgid "Calculator"
-msgstr ""
+msgstr "Miniräknare"
 
 #: ../../contribute/preinstalled-apps.rst:25
 msgid "`Calculator on OpenStore`_"
@@ -5145,7 +5143,7 @@ msgstr ""
 
 #: ../../contribute/preinstalled-apps.rst:26
 msgid "Calendar"
-msgstr ""
+msgstr "Kalender"
 
 #: ../../contribute/preinstalled-apps.rst:26
 msgid "`Calendar on OpenStore`_"
@@ -5157,7 +5155,7 @@ msgstr ""
 
 #: ../../contribute/preinstalled-apps.rst:27
 msgid "Clock"
-msgstr ""
+msgstr "Klocka"
 
 #: ../../contribute/preinstalled-apps.rst:27
 msgid "`Clock on OpenStore`_"
@@ -5181,7 +5179,7 @@ msgstr ""
 
 #: ../../contribute/preinstalled-apps.rst:29
 msgid "Gallery"
-msgstr ""
+msgstr "Galleri"
 
 #: ../../contribute/preinstalled-apps.rst:29
 msgid "`Gallery on OpenStore`_"
@@ -5194,7 +5192,7 @@ msgstr ""
 #: ../../contribute/preinstalled-apps.rst:30
 #: ../../userguide/dailyuse/libertine.rst:116
 msgid "Music"
-msgstr ""
+msgstr "Musik"
 
 #: ../../contribute/preinstalled-apps.rst:30
 msgid "`Music on OpenStore`_"
@@ -5207,7 +5205,7 @@ msgstr ""
 #: ../../contribute/preinstalled-apps.rst:31
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:484
 msgid "Notes"
-msgstr ""
+msgstr "Anteckningar"
 
 #: ../../contribute/preinstalled-apps.rst:31
 msgid "`Notes on OpenStore`_"
@@ -5219,7 +5217,7 @@ msgstr ""
 
 #: ../../contribute/preinstalled-apps.rst:32
 msgid "OpenStore"
-msgstr ""
+msgstr "OpenStore"
 
 #: ../../contribute/preinstalled-apps.rst:32
 msgid "`OpenStore... on OpenStore`_"
@@ -5231,7 +5229,7 @@ msgstr ""
 
 #: ../../contribute/preinstalled-apps.rst:33
 msgid "Terminal"
-msgstr ""
+msgstr "Terminal"
 
 #: ../../contribute/preinstalled-apps.rst:33
 msgid "`Terminal on OpenStore`_"
@@ -5255,7 +5253,7 @@ msgstr ""
 
 #: ../../contribute/preinstalled-apps.rst:35
 msgid "Weather"
-msgstr ""
+msgstr "Väder"
 
 #: ../../contribute/preinstalled-apps.rst:35
 msgid "`Weather on OpenStore`_"
@@ -5526,7 +5524,7 @@ msgstr ""
 
 #: ../../contribute/translations.rst:32
 msgid "How-To"
-msgstr ""
+msgstr "Hur man gör"
 
 #: ../../contribute/translations.rst:35
 msgid "Hosted Weblate"
@@ -5689,7 +5687,7 @@ msgstr ""
 
 #: ../../contribute/translations.rst:87
 msgid "License"
-msgstr ""
+msgstr "Licens"
 
 #: ../../contribute/translations.rst:89
 msgid ""
@@ -5747,7 +5745,7 @@ msgstr ""
 
 #: ../../humanguide/app-layout/dialogs.rst:2
 msgid "Dialogs"
-msgstr ""
+msgstr "Dialoger"
 
 #: ../../humanguide/app-layout/dialogs.rst:4
 msgid ""
@@ -6035,7 +6033,7 @@ msgstr ""
 
 #: ../../humanguide/app-layout/quick-actions.rst:11
 msgid "Hint"
-msgstr ""
+msgstr "Ledtråd"
 
 #: ../../humanguide/app-layout/quick-actions.rst:13
 msgid ""
@@ -6116,7 +6114,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:34
 msgid "Details"
-msgstr ""
+msgstr "Detaljer"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:36
 msgid ""
@@ -6128,7 +6126,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:41
 msgid "Colours"
-msgstr ""
+msgstr "Färger"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:43
 msgid ""
@@ -6138,7 +6136,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:48
 msgid "Gradients"
-msgstr ""
+msgstr "Graderingar"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:50
 msgid ""
@@ -6177,7 +6175,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:75
 msgid "Grids"
-msgstr ""
+msgstr "Rutnät"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:77
 msgid ""
