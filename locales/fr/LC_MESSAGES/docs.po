@@ -3,62 +3,41 @@
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2021-03-11 01:15+0000\n"
-"Last-Translator: AO-LocLab <ao@localizationlab.org>\n"
-"Language-Team: French <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-userguide/fr/>\n"
+"PO-Revision-Date: 2025-02-16 18:25+0000\n"
+"Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports 1.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  appdev.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.1\n"
-"#-#-#-#-#  contribute.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  index.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  porting.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.1\n"
-"#-#-#-#-#  userguide.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.10\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
-#, fuzzy
 msgid "Introduction"
-msgstr "Introduction au portage"
+msgstr "Introduction"
 
 #: ../../about/introduction.rst:4
 msgid ""
 "Our goal is to create a copylefted libre mobile operating system. One you "
 "can use, study, change and share; with all."
 msgstr ""
+"Notre objectif est de créer un système d'exploitation mobile libre et sans "
+"copyright. Un système que vous pouvez utiliser, étudier, modifier et "
+"partager avec tous."
 
 #: ../../about/introduction.rst:7
 msgid "About UBports"
 msgstr "À propos d'UBports"
 
 #: ../../about/introduction.rst:9
-#, fuzzy
 msgid ""
 "The project was founded by Marius Gripsgard in 2015 and in its infancy a "
 "place where developers could share ideas and educate each other in hopes of "
@@ -70,7 +49,6 @@ msgstr ""
 "Ubuntu Touch."
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -80,17 +58,16 @@ msgid ""
 "formalised as a charitable foundation."
 msgstr ""
 "Après que Canonical a annoncé soudainement « sa volonté d'arrêter le "
-"développement d'Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-"
-"ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/> »_ en avril "
-"2017, UBports et ses projets frères ont commencé à travailler sur le code "
-"open source, en le maintenant et en étendant ses possibilités futures."
+"développement d'Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/> »_ en "
+"avril 2017, UBports et ses projets frères ont commencé à travailler sur le "
+"code open source, en le maintenant et en étendant ses possibilités futures."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
 msgstr "À propos de la documentation"
 
 #: ../../about/introduction.rst:16
-#, fuzzy
 msgid ""
 "Changes to the documentation are made by the UBports community. It is "
 "written in reStructuredText and converted into this readable form by `Sphinx "
@@ -101,14 +78,13 @@ msgid ""
 msgstr ""
 "Cette documentation s'améliore en permanence grâce aux membres de la "
 "communauté d'UBports. Elle est écrite en ReStructuredText et convertie dans "
-"cette forme lisible par `Sphinx <http://www.sphinx-doc.org/en/stable/>`_, "
-"`ReCommonMark <http://recommonmark.readthedocs.io/en/latest/>`_, et `Read "
-"the Docs <https://readthedocs.io>`_. Vous pouvez commencer à contribuer en "
-"jetant un œil à :doc:`l'introduction à la documentation </contribute/"
+"cette forme lisible par `Sphinx <http://www.sphinx-doc.org/en/stable/>`_, `"
+"ReCommonMark <http://recommonmark.readthedocs.io/en/latest/>`_, et `Read the "
+"Docs <https://readthedocs.io>`_. Vous pouvez commencer à contribuer en "
+"jetant un œil à :doc:`l'introduction à la documentation </contribute/"
 "documentation>`."
 
 #: ../../about/introduction.rst:18
-#, fuzzy
 msgid ""
 "All documents are licensed Creative Commons Attribution ShareAlike 4.0 (`CC-"
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
@@ -124,34 +100,37 @@ msgid "Attribution"
 msgstr "Attribution"
 
 #: ../../about/introduction.rst:23
-#, fuzzy
 msgid ""
 "This documentation was heavily modeled after the `Godot Engine's "
 "Documentation <https://docs.godotengine.org/en/stable/>`_, by Juan "
 "Linietsky, Ariel Manzur and the Godot community."
 msgstr ""
 "Cette documentation s'est beaucoup inspirée de l'attribution de `la "
-"documentation du moteur Godot <http://docs.godotengine.org/en/stable/>`_, à "
+"Documentation du moteur Godot <http://docs.godotengine.org/en/stable/>`_, de "
 "Juan Linietsky, Ariel Manzur et la communauté de Godot."
 
 #: ../../about/process/branch-naming.rst:2
 msgid "Branch-naming convention"
-msgstr ""
+msgstr "Convention d'appellation des branches"
 
 #: ../../about/process/branch-naming.rst:4
 msgid ""
 "Our branch-naming convention ensures software can be built by our CI and "
 "tested easily by other developers."
 msgstr ""
+"Notre convention d’appellation des branches garantit que les logiciels "
+"peuvent être construits par notre CI et testés facilement par d'autres "
+"développeurs."
 
 #: ../../about/process/branch-naming.rst:6
 msgid ""
 "Every Git repository's README file should state which branch-naming "
 "convention is used and any deviations from the norm."
 msgstr ""
+"Le fichier README de chaque dépôt Git doit indiquer la convention de nommage "
+"des branches utilisée et les écarts éventuels par rapport à la norme."
 
 #: ../../about/process/branch-naming.rst:9
-#, fuzzy
 msgid "Click-Packages"
 msgstr "Paquets Click"
 
@@ -163,11 +142,17 @@ msgid ""
 "merged into master when the time comes. Ideally Git tags or GitHub releases "
 "should be used to mark and archive milestones in the development history."
 msgstr ""
+"Les logiciels distribués exclusivement sous forme de paquets click (et non "
+"sous forme de DEB) n'utilisent qu'une seule branche « master » qui est "
+"protégée. Des branches de développement temporaires séparées avec des noms "
+"descriptifs arbitraires peuvent être créées et fusionnées dans la branche "
+"master le moment venu. Idéalement, des étiquettes Git ou des versions GitHub "
+"devraient être utilisées pour marquer et archiver les étapes importantes de "
+"l'histoire du développement."
 
 #: ../../about/process/branch-naming.rst:14
-#, fuzzy
 msgid "DEB Packages"
-msgstr "Paquets Click"
+msgstr "Paquets DEB"
 
 #: ../../about/process/branch-naming.rst:16
 msgid ""
@@ -175,14 +160,18 @@ msgid ""
 "our CI automatically build our Git repositories into a number of APT "
 "archives hosted at http://repo.ubports.com/, according to the branch name."
 msgstr ""
+"Pour nous aider à livrer notre code dans Ubuntu Touch aussi facilement que "
+"possible, notre CI construit automatiquement nos dépôts Git dans un certain "
+"nombre d'archives APT hébergées à http://repo.ubports.com/, en fonction du "
+"nom de la branche."
 
 #: ../../about/process/branch-naming.rst:18
 msgid "We maintain the following branches across Git repositories:"
-msgstr ""
+msgstr "Nous maintenons les branches suivantes dans les dépôts Git :"
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
-msgstr ""
+msgstr "branches GIT"
 
 #: ../../about/process/branch-naming.rst:22
 #: ../../appdev/guides/pushnotifications.rst:170
@@ -201,48 +190,49 @@ msgstr "Description"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "Archives APT correspondantes"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
 #: ../../porting/configure_test_fix/device_info/index.rst:43
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: ../../about/process/branch-naming.rst:23
 msgid "Base distro"
-msgstr ""
+msgstr "Distribution de base"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``main``, ``ubports/latest``"
-msgstr ""
+msgstr "``main``, ``ubports/latest``"
 
 #: ../../about/process/branch-naming.rst:25
 msgid ""
 "Represents the latest development of Ubuntu Touch. All kinds of changes are "
 "allowed in this branch."
 msgstr ""
+"Représente le dernier développement d'Ubuntu Touch. Tous les types de "
+"changements sont autorisés dans cette branche."
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``devel-<Ubuntu LTS>`` (e.g. ``devel-noble``)"
-msgstr ""
+msgstr "``devel-<Ubuntu LTS>`` (e.g. ``devel-noble``)"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "Latest or upcoming Ubuntu LTS."
-msgstr ""
+msgstr "Ubuntu LTS la plus récente ou à venir."
 
 #: ../../about/process/branch-naming.rst:28
 msgid "``devel-debian``"
-msgstr ""
+msgstr "``devel-debian``"
 
 #: ../../about/process/branch-naming.rst:28
-#, fuzzy
 msgid "Debian testing."
-msgstr "Bêta test"
+msgstr "Tests de Debian."
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
-msgstr ""
+msgstr "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid ""
@@ -251,51 +241,60 @@ msgid ""
 "releases of that major version. Only bugfixes and non-breaking changes are "
 "allowed in this branch."
 msgstr ""
+"Représente le code d'une version majeure particulière. Elle se détache de la "
+"branche ``main`` avant la version majeure, et fera partie des versions de "
+"cette version majeure. Seules les corrections de bogues et les changements "
+"non destructifs sont autorisés dans cette branche."
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``<major version>.x`` (e.g. ``24.6.x``)"
-msgstr ""
+msgstr "``<major version>.x`` (e.g. ``24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "Ubuntu LTS at the time of branching."
-msgstr ""
+msgstr "Ubuntu LTS au moment de la dérivation."
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``ubports/focal``"
-msgstr ""
+msgstr "``ubports/focal``"
 
 #: ../../about/process/branch-naming.rst:38
 msgid ""
 "A special case of ``ubports/<major version>.x``, which is branched after the "
 "release of Ubuntu Touch 20.04 OTA-4."
 msgstr ""
+"Un cas particulier de ``ubports/<major version>.x``, qui est branché après "
+"la sortie d'Ubuntu Touch 20.04 OTA-4."
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``focal``"
-msgstr ""
+msgstr "``focal``"
 
 #: ../../about/process/branch-naming.rst:38
 #: ../../about/process/branch-naming.rst:43
 msgid "Ubuntu 20.04 LTS."
-msgstr ""
+msgstr "Ubuntu 20.04 LTS."
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``ubports/focal_-_<ext>``"
-msgstr ""
+msgstr "``ubports/focal_-_<ext>``"
 
 #: ../../about/process/branch-naming.rst:43
 msgid ""
 "Branches which use the deprecated \"branch extensions\" system for cross-"
 "components changes. No longer recommended for usage."
 msgstr ""
+"Branches qui utilisent le système obsolète des « extensions de branches » "
+"pour les modifications inter-composants. Leur utilisation n'est plus "
+"recommandée."
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``focal_-_<ext>``"
-msgstr ""
+msgstr "``focal_-_<ext>``"
 
 #: ../../about/process/branch-naming.rst:48
 msgid "``personal/<user>/<name>``, and any other branches."
-msgstr ""
+msgstr "``personnel/<utilisateur>/<nom>``, et toutes les autres branches."
 
 #: ../../about/process/branch-naming.rst:48
 msgid ""
@@ -303,11 +302,16 @@ msgid ""
 "reasons. Theses branches are not built by the CI unless proposed as a merge "
 "request."
 msgstr ""
+"Toutes les autres branches peuvent être utilisées pour proposer des demandes "
+"de fusion ou pour d'autres raisons. Ces branches ne sont pas construites par "
+"l'IC à moins qu'elles ne soient proposées comme demande de fusion."
 
 #: ../../about/process/branch-naming.rst:48
 msgid ""
 "N/A, unless proposed as an MR against aforementioned branches (see below)."
 msgstr ""
+"N/A, sauf s'il est proposé comme RM contre les branches susmentionnées (voir "
+"ci-dessous)."
 
 #: ../../about/process/branch-naming.rst:55
 msgid ""
@@ -316,6 +320,11 @@ msgid ""
 "branches. An exception is when a change is not applicable to the ``main`` "
 "branch anymore due to other changes in that branch."
 msgstr ""
+"Pour s'assurer que la branche ``main`` ne manque aucun changement, tous les "
+"changements doivent être faits d'abord sur la branche ``main`` avant d'être "
+"rétroportés sur les branches des versions majeures. Une exception est faite "
+"lorsqu'un changement n'est plus applicable à la branche ``principale`` à "
+"cause d'autres changements dans cette branche."
 
 #: ../../about/process/branch-naming.rst:58
 msgid ""
@@ -325,10 +334,16 @@ msgid ""
 "packages built against that version. When the changeset is ready for merge, "
 "the changeset must be re-targeted to the ``main`` branch."
 msgstr ""
+"Si la prochaine version de développement n'est pas encore disponible pour "
+"les tests, et que vous avez besoin que le changement soit disponible pour "
+"l'installation pour les tests, il est permis de cibler temporairement le jeu "
+"de modifications sur la branche de la version majeure pour que les paquets "
+"soient construits avec cette version. Lorsque le jeu de modifications est "
+"prêt pour la fusion, il doit être redirigé sur la branche ``main``."
 
 #: ../../about/process/branch-naming.rst:61
 msgid "APT archives for Merge Requests"
-msgstr ""
+msgstr "Archives de l'APT pour les demandes de fusion"
 
 #: ../../about/process/branch-naming.rst:63
 msgid ""
@@ -339,6 +354,13 @@ msgid ""
 "target branch, and then will append ``_-_PR_<repository name>_<MR number>`` "
 "to them [1]_. For example:"
 msgstr ""
+"En plus des archives mentionnées ci-dessus, nous créons également des "
+"archives APT pour les RM effectuées sur nos dépôts Git. Cela nous permet de "
+"tester le résultat de la construction sur des appareils réels en utilisant "
+"ubports-qa_ avant de fusionner le code. Pour chaque MR, l'IC va compiler le "
+"code contre toutes les mêmes cibles que la branche cible de la MR, et va "
+"ensuite leur ajouter ``_-_PR_<nom du dépôt>_<numéro de la MR>`` [1]_. Par "
+"exemple:"
 
 #: ../../about/process/branch-naming.rst:65
 msgid ""
@@ -346,6 +368,9 @@ msgid ""
 "``lomiri`` (when the current Ubuntu LTS is ``noble``) will have APT archives "
 "named ``devel-noble_-_PR_lomiri_100`` *and* ``devel-debian_-_PR_lomiri_100``."
 msgstr ""
+"Un MR numéroté 100 fait sur la branche ``main`` du dépôt Git ``lomiri`` ("
+"quand le LTS Ubuntu actuel est ``noble``) aura des archives APT nommées "
+"``devel-noble_-_PR_lomiri_100` *et* ``devel-debian_-_PR_lomiri_100``."
 
 #: ../../about/process/branch-naming.rst:66
 msgid ""
@@ -353,11 +378,15 @@ msgid ""
 "repository ``morph-browser`` will have an APT archive named ``24.6.x_-"
 "_PR_morph-browser_125``."
 msgstr ""
+"Un MR numéroté 125 fait sur la branche ``ubports/24.6.x`` du dépôt Git "
+"``morph-browser`` aura une archive APT nommée ``24.6.x_-_PR_morph-"
+"browser_125`"
 
 #: ../../about/process/branch-naming.rst:68
 msgid ""
 "The word ``PR`` stuck around from the time we hosted our code on GitHub."
 msgstr ""
+"Le mot  ``RP `` est apparu dès que nous avons hébergé notre code sur GitHub."
 
 #: ../../about/process/index.rst:2
 msgid "Processes"
@@ -384,14 +413,13 @@ msgid "Issue-Tracking Guidelines"
 msgstr "Recommandations pour le suivi des problèmes"
 
 #: ../../about/process/issue-tracking.rst:4
-#, fuzzy
 msgid ""
 "This document describes the standard process of dealing with new issues in "
 "UBports projects. (Not to be confused with the :doc:`guide on writing a good "
 "bugreport </contribute/bugreporting>`.)"
 msgstr ""
 "Ce document décrit la méthode standard de gestion des nouveaux problèmes "
-"dans les projets d'UBports. À ne pas confondre avec le :doc:`guide de "
+"dans les projets d'UBports. À ne pas confondre avec le :doc:`guide de "
 "rédaction d'un bon rapport de problème </contribute/bugreporting>`."
 
 #: ../../about/process/issue-tracking.rst:8
@@ -399,7 +427,6 @@ msgid "Where are bugs tracked?"
 msgstr "Où sont suivis les problèmes ?"
 
 #: ../../about/process/issue-tracking.rst:10
-#, fuzzy
 msgid ""
 "Since quality assurance depends heavily on community effort, issues are "
 "tracked where users expect them, instead of separated by repository. This "
@@ -418,7 +445,6 @@ msgstr ""
 "via l'OpenStore."
 
 #: ../../about/process/issue-tracking.rst:17
-#, fuzzy
 msgid ""
 "Most other repositories track issues locally. You will find out whether a "
 "repository uses its own tracker or not in its README.md file. Repositories "
@@ -439,20 +465,18 @@ msgstr ""
 "aux autres projets."
 
 #: ../../about/process/issue-tracking.rst:25
-#, fuzzy
 msgid ""
 "Practical exceptions to purity are to be described in the project's README."
 "md file."
 msgstr ""
-"La pratique l'emporte sur la théorie ! Des exceptions peuvent être "
-"justifiées et doivent être décrites dans le fichier README.md des projets."
+"Les exceptions pratiques doivent être décrites dans le fichier README.md du "
+"projet."
 
 #: ../../about/process/issue-tracking.rst:28
 msgid "GitHub projects"
 msgstr "Les projets GitHub"
 
 #: ../../about/process/issue-tracking.rst:30
-#, fuzzy
 msgid ""
 "In the interest of transparency and communication, GitHub projects (Kanban-"
 "Boards) are used wherever practical. In case of github.com/ubports/ubuntu-"
@@ -460,20 +484,18 @@ msgid ""
 "by labels, so that only issues belonging to a specific team or ones "
 "affecting a specific device can be viewed."
 msgstr ""
-"Pour améliorer transparence et communication, les projets GitHub (tableaux "
-"kanban) sont utilisés partout où cela est pertinent du point de vue "
-"pratique. Dans le cas de github.com/ubports/ubuntu-touch, un seul projet est "
-"utilisé pour tous les suivis de problèmes. Les projets comportent un "
-"filtrage par mots-clés, afin que les suivis qui concernent une équipe "
-"spécifique ou un matériel spécifique puissent être recherchés et consultés "
-"facilement."
+"Dans un souci de transparence et de communication, des projets GitHub "
+"(Kanban-Boards) sont utilisés dans la mesure du possible. Dans le cas de "
+"github.com/ubports/ubuntu-touch, un seul projet est utilisé pour tous les "
+"problèmes. Les projets prennent en charge le filtrage par étiquettes, de "
+"sorte que seuls les problèmes appartenant à une équipe spécifique ou ceux "
+"affectant un appareil spécifique peuvent être visualisés."
 
 #: ../../about/process/issue-tracking.rst:36
 msgid "These are the standard columns:"
 msgstr "Voici les colonnes standards :"
 
 #: ../../about/process/issue-tracking.rst:38
-#, fuzzy
 msgid ""
 "**None (awaiting triage)**: Issue approved by a member of the QA team "
 "awaiting review from the responsible development team. If a bug, "
@@ -481,27 +503,26 @@ msgid ""
 "feature request, it has passed a primary sanity check by the QA team, but "
 "not yet been accepted by the responsible development-team."
 msgstr ""
-"**None (awaiting triage)** (Aucun, en attente de tri) : Le problème a été "
-"approuvé par un membre de l'équipe de l'assurance qualité et attend une "
-"vérification par l'équipe de développement concernée. Si le problème est un "
-"bogue, les instructions pour le reproduire sont incluses dans la description "
-"du problème. Si le problème est une demande de fonctionnalité, il a passé "
-"une première vérification par l'équipe de l'assurance qualité mais n'a pas "
-"encore été accepté par l'équipe de développement concernée."
+"**None (awaiting triage)**: Le problème a été approuvé par un membre de "
+"l'équipe de l'assurance qualité et attend une vérification par l'équipe de "
+"développement concernée. Si le problème est un bogue, les instructions pour "
+"le reproduire sont incluses dans la description du problème. Si le problème "
+"est une demande de fonctionnalité, il a passé une première vérification par "
+"l'équipe de l'assurance qualité mais n'a pas encore été accepté par l'équipe "
+"de développement concernée."
 
 #: ../../about/process/issue-tracking.rst:41
-#, fuzzy
 msgid ""
 "**Accepted**: Issue accepted by the responsible development-team. If a "
 "bugreport, the team has decided it should be fixable and accept "
 "responsibility. If a feature request, the team thinks it should be "
 "implemented as described."
 msgstr ""
-"**Accepted** (Accepté) : Le problème a été accepté par l'équipe de "
-"développement concernée. Si le problème est un rapport de bogue, l'équipe a "
-"décidé qu'il pouvait être corrigé et en accepte la responsabilité. Si le "
-"problème est une demande de fonctionnalité, l'équipe pense que celle-ci peut "
-"être implémentée telle que décrite."
+"**Accepted**: Le problème a été accepté par l'équipe de développement "
+"concernée. Si le problème est un rapport de bogue, l'équipe a décidé qu'il "
+"pouvait être corrigé et en accepte la responsabilité. Si le problème est une "
+"demande de fonctionnalité, l'équipe pense que celle-ci peut être implémentée "
+"telle que décrite."
 
 #: ../../about/process/issue-tracking.rst:44
 #, fuzzy
