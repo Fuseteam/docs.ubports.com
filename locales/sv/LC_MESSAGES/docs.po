@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-01-21 20:37+0000\n"
+"PO-Revision-Date: 2025-02-26 15:27+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.10.2-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -837,7 +837,7 @@ msgstr "Tidslinje"
 
 #: ../../about/process/security-vulnerabilities.rst:38
 msgid "Credit"
-msgstr ""
+msgstr "Tack till"
 
 #: ../../about/process/security-vulnerabilities.rst:40
 msgid ""
@@ -1885,7 +1885,7 @@ msgstr "Välkommen till dokumentationen för UBports!"
 
 #: ../../appdev/guides/pushnotifications.rst:175
 msgid "expire_on"
-msgstr ""
+msgstr "sluta gälla_den"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. Expiration date/time for this message, in"
@@ -1897,7 +1897,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:178
 msgid "token"
-msgstr ""
+msgstr "nyckel"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. The token identifying the user+device to which the message is"
@@ -1909,7 +1909,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:181
 msgid "clear_pending"
-msgstr ""
+msgstr "rensa_pågående"
 
 #: ../../appdev/guides/pushnotifications.rst:181
 #: ../../appdev/guides/pushnotifications.rst:250
@@ -1928,7 +1928,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:184
 msgid "replace_tag"
-msgstr ""
+msgstr "ersätt_tagg"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If there's a pending notification with the same tag, delete it before"
@@ -2050,7 +2050,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "counter."
-msgstr ""
+msgstr "räknare."
 
 #: ../../appdev/guides/pushnotifications.rst:223
 msgid "card"
@@ -2087,7 +2087,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:237
 msgid "actions"
-msgstr ""
+msgstr "åtgärder"
 
 #: ../../appdev/guides/pushnotifications.rst:237
 #: ../../appdev/guides/pushnotifications.rst:263
@@ -2207,7 +2207,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "count"
-msgstr ""
+msgstr "räkna"
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "A number to be displayed over the application's icon in the launcher."
@@ -2470,7 +2470,7 @@ msgstr ""
 
 #: ../../appdev/guides/writeable-dirs.rst:11
 msgid "Config"
-msgstr ""
+msgstr "Ställ in"
 
 #: ../../appdev/guides/writeable-dirs.rst:12
 msgid "Path: ``/home/phablet/.config/<fullappname>/``"
@@ -2485,7 +2485,7 @@ msgstr ""
 
 #: ../../appdev/guides/writeable-dirs.rst:17
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 #: ../../appdev/guides/writeable-dirs.rst:18
 msgid "Path: ``/home/phablet/.cache/<fullappname>/``"
@@ -2866,7 +2866,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:78
 msgid "connectivity"
-msgstr ""
+msgstr "anslutbarhet"
 
 #: ../../appdev/platform/apparmor.rst:80
 msgid "Description: Can access coarse network connectivity information"
@@ -2924,7 +2924,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:118
 msgid "debug"
-msgstr ""
+msgstr "avlusa"
 
 #: ../../appdev/platform/apparmor.rst:120
 msgid ""
