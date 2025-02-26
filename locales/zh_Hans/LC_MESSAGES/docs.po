@@ -35,40 +35,21 @@
 # Copyright (C) 2017, The UBports project (Creative Commons BY-SA 4.0)
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2021-08-20 19:08+0000\n"
-"Last-Translator: GrieferPig <grieferpig@163.com>\n"
-"Language-Team: Chinese (Simplified) <https://translate.ubports.com/projects/"
-"ubports-docs/documentation-userguide/zh_Hans/>\n"
+"PO-Revision-Date: 2025-02-26 15:27+0000\n"
+"Last-Translator: kuailexs <952415538@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/ubports/doc-ubports-com/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports 1.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  appdev.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.2.2\n"
-"#-#-#-#-#  contribute.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2.20\n"
-"#-#-#-#-#  humanguide.po (UBports )  #-#-#-#-#\n"
-"#-#-#-#-#  index.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  porting.po (Chinese (Simplified) (UBports Docs))  #-#-#-#-#\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  systemdev.po (UBports)  #-#-#-#-#\n"
-"#-#-#-#-#  userguide.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.10.2-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 #, fuzzy
@@ -79,7 +60,8 @@ msgstr "移植简介"
 msgid ""
 "Our goal is to create a copylefted libre mobile operating system. One you "
 "can use, study, change and share; with all."
-msgstr ""
+msgstr "我们的目标是创建一个版权自由的移动操作系统。一个你可以使用、研究、改变并与所"
+"有人分享的系统。"
 
 #: ../../about/introduction.rst:7
 msgid "About UBports"
@@ -157,7 +139,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:2
 msgid "Branch-naming convention"
-msgstr "文件命名规则"
+msgstr "分支命名规则"
 
 #: ../../about/process/branch-naming.rst:4
 #, fuzzy
@@ -205,14 +187,17 @@ msgid ""
 "our CI automatically build our Git repositories into a number of APT "
 "archives hosted at http://repo.ubports.com/, according to the branch name."
 msgstr ""
+"为了帮助我们尽可能轻松地将代码交付到 Ubuntu Touch 中，我们的 CI "
+"会根据分支名称自动将我们的 Git 仓库构建到 http://repo.ubports.com/ "
+"托管的多个 APT 档案中。"
 
 #: ../../about/process/branch-naming.rst:18
 msgid "We maintain the following branches across Git repositories:"
-msgstr ""
+msgstr "我们在 Git 仓库中维护以下分支："
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
-msgstr ""
+msgstr "Git 分支"
 
 #: ../../about/process/branch-naming.rst:22
 #: ../../appdev/guides/pushnotifications.rst:170
@@ -227,51 +212,51 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
-msgstr ""
+msgstr "说明"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "相应的 APT 档案"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
 #: ../../porting/configure_test_fix/device_info/index.rst:43
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: ../../about/process/branch-naming.rst:23
 msgid "Base distro"
-msgstr ""
+msgstr "基础发行版"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``main``, ``ubports/latest``"
-msgstr ""
+msgstr "``main``, ``ubports/latest``"
 
 #: ../../about/process/branch-naming.rst:25
 msgid ""
 "Represents the latest development of Ubuntu Touch. All kinds of changes are "
 "allowed in this branch."
-msgstr ""
+msgstr "代表 Ubuntu Touch 的最新开发成果。该分支允许所有类型的更改。"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``devel-<Ubuntu LTS>`` (e.g. ``devel-noble``)"
-msgstr ""
+msgstr "``devel-<Ubuntu LTS>`` (例如 ``devel-noble``)"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "Latest or upcoming Ubuntu LTS."
-msgstr ""
+msgstr "最新或即将推出的 Ubuntu LTS。"
 
 #: ../../about/process/branch-naming.rst:28
 msgid "``devel-debian``"
-msgstr ""
+msgstr "``devel-debian``"
 
 #: ../../about/process/branch-naming.rst:28
 msgid "Debian testing."
-msgstr ""
+msgstr "Debian 实验版。"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
-msgstr ""
+msgstr "``ubports/<主版本>.x`` (例如 ``ubports/24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid ""
@@ -280,63 +265,67 @@ msgid ""
 "releases of that major version. Only bugfixes and non-breaking changes are "
 "allowed in this branch."
 msgstr ""
+"代表特定主要版本中的代码。它在主要版本发布前从 ``main`` "
+"分支分支出来，并将成为该主要版本发布的一部分。该分支只允许进行错误修复和非破"
+"坏性修改。"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``<major version>.x`` (e.g. ``24.6.x``)"
-msgstr ""
+msgstr "``<主版本>.x`` (例如``24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "Ubuntu LTS at the time of branching."
-msgstr ""
+msgstr "在分枝Ubuntu LTS的时候"
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``ubports/focal``"
-msgstr ""
+msgstr "``ubports/focal``"
 
 #: ../../about/process/branch-naming.rst:38
 msgid ""
 "A special case of ``ubports/<major version>.x``, which is branched after the "
 "release of Ubuntu Touch 20.04 OTA-4."
-msgstr ""
+msgstr "ubports/<主版本>.x 的一个特例，它是在 Ubuntu Touch 20.04 OTA-4 发布后分支的。"
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``focal``"
-msgstr ""
+msgstr "``focal``"
 
 #: ../../about/process/branch-naming.rst:38
 #: ../../about/process/branch-naming.rst:43
 msgid "Ubuntu 20.04 LTS."
-msgstr ""
+msgstr "Ubuntu 20.04 LTS."
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``ubports/focal_-_<ext>``"
-msgstr ""
+msgstr "``ubports/focal_-_<ext>``"
 
 #: ../../about/process/branch-naming.rst:43
 msgid ""
 "Branches which use the deprecated \"branch extensions\" system for cross-"
 "components changes. No longer recommended for usage."
-msgstr ""
+msgstr "使用已废弃的 “分支扩展 ”系统进行跨组件更改的分支。不再推荐使用。"
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``focal_-_<ext>``"
-msgstr ""
+msgstr "``focal_-_<ext>``"
 
 #: ../../about/process/branch-naming.rst:48
 msgid "``personal/<user>/<name>``, and any other branches."
-msgstr ""
+msgstr "``personal/<user>/<name>``, 以及任何其他分支."
 
 #: ../../about/process/branch-naming.rst:48
 msgid ""
 "All other branches may be used for proposing merge requests or for other "
 "reasons. Theses branches are not built by the CI unless proposed as a merge "
 "request."
-msgstr ""
+msgstr "所有其他分支可用于提出合并请求或其他原因。除非提出合并请求，否则 CI "
+"不会构建这些分支。"
 
 #: ../../about/process/branch-naming.rst:48
 msgid ""
 "N/A, unless proposed as an MR against aforementioned branches (see below)."
-msgstr ""
+msgstr "不适用，除非提议作为对上述分支的MR（见下文）。"
 
 #: ../../about/process/branch-naming.rst:55
 msgid ""
