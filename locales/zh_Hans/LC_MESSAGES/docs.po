@@ -40,7 +40,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-02-26 15:27+0000\n"
+"PO-Revision-Date: 2025-02-27 07:18+0000\n"
 "Last-Translator: kuailexs <952415538@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/ubports/doc-ubports-com/zh_Hans/>\n"
@@ -52,9 +52,8 @@ msgstr ""
 "X-Generator: Weblate 5.10.2-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
-#, fuzzy
 msgid "Introduction"
-msgstr "移植简介"
+msgstr "简介"
 
 #: ../../about/introduction.rst:4
 msgid ""
@@ -68,17 +67,16 @@ msgid "About UBports"
 msgstr "关于 UBports"
 
 #: ../../about/introduction.rst:9
-#, fuzzy
 msgid ""
 "The project was founded by Marius Gripsgard in 2015 and in its infancy a "
 "place where developers could share ideas and educate each other in hopes of "
 "bringing the Ubuntu Touch platform to more mobile devices."
 msgstr ""
-"UBports 项目由 Marius Gripsgard 于 2015 年创立，在其初期阶段，开发人员可以分"
-"享想法并互相教育，希望将 Ubuntu Touch 平台带入越来越多的设备。"
+"该项目由 Marius Gripsgard 于 2015 "
+"年创立，在其初期阶段是一个开发人员可以分享想法并互相学习的地方，希望将 "
+"Ubuntu Touch 平台带到更多的移动设备上去。"
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -87,17 +85,18 @@ msgid ""
 "possibilities for the future. Today, UBports is a volunteer group, "
 "formalised as a charitable foundation."
 msgstr ""
-"在 2017 年四月 Canonical 突然宣布：“他们计划终止对 Ubuntu Touch 的支持后 "
-"<https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-iot-"
-"rather-than-phone-and-convergence/>”，UBports 及其姐妹项目开始研究开源代码，"
-"保持并扩展其未来的可能性。"
+"2017 年 4 月，Canonical 突然宣布 `计划终止对 Ubuntu Touch 的支持<https://"
+"insights.ubuntu.com/2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_ ，"
+"此后 UBports "
+"及其姊妹项目开始对源代码进行开发，维护并扩展其未来的可能性。如今，UBports "
+"已成为一个志愿者团体，并正式成为一个慈善基金会。"
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
 msgstr "关于本文档"
 
 #: ../../about/introduction.rst:16
-#, fuzzy
 msgid ""
 "Changes to the documentation are made by the UBports community. It is "
 "written in reStructuredText and converted into this readable form by `Sphinx "
@@ -106,57 +105,51 @@ msgid ""
 "readthedocs.io>`_. Start contributing by checking out the :doc:"
 "`Documentation contribution document </contribute/documentation>`."
 msgstr ""
-"感谢 UBports 社区的成员，本文档得以不断改进。它由 ReStructuredText 写成并由 "
-"`Sphinx <http://www.sphinx-doc.org/en/stable/>`_ 、 `ReCommonMark <http://"
-"recommonmark.readthedocs.io/en/latest/>`_ 和 `Read the Docs <https://"
-"readthedocs.io>`_ 转换为可读格式。您可以通过阅读 :doc:`介绍 </contribute/"
-"documentation>` 开始你的贡献。"
+"文档的修改由 UBports 社区完成。它由 ReStructuredText 写成并由 `Sphinx "
+"<http://www.sphinx-doc.org/en/stable/>`_ 、 `ReCommonMark <http://"
+"recommonmark.readthedocs.io/en/latest/>`_ 和 `Read the Docs "
+"<https://readthedocs.io>`_ 转换为可读格式。您可以通过阅读 :doc:`介绍 </"
+"contribute/documentation>` 开始你的贡献。"
 
 #: ../../about/introduction.rst:18
-#, fuzzy
 msgid ""
 "All documents are licensed Creative Commons Attribution ShareAlike 4.0 (`CC-"
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
 "attribution to \"The UBports Community\"."
 msgstr ""
-"所有文件均根据知识共享署名相同方式共享4.0 (CC-BY-SA 4.0 <https://"
-"creativecommons.org/licenses/by-sa/4.0/> `_) 许可证。请给予“UBports 社区”的署"
-"名。"
+"所有文件均已获得 Creative Commons Attribution ShareAlike 4.0 (CC-BY-SA 4.0 "
+"<https://creativecommons.org/licenses/by-sa/4.0/> `_) 许可。请给予“UBports "
+"社区”的署名。"
 
 #: ../../about/introduction.rst:21
 msgid "Attribution"
 msgstr "归属"
 
 #: ../../about/introduction.rst:23
-#, fuzzy
 msgid ""
 "This documentation was heavily modeled after the `Godot Engine's "
 "Documentation <https://docs.godotengine.org/en/stable/>`_, by Juan "
 "Linietsky, Ariel Manzur and the Godot community."
 msgstr ""
-"本文档高度依赖 `Godot Engine’s Documentation <http://docs.godotengine.org/en/"
-"stable/>`_  建模，归属于 Juan Linietsky, Ariel Manzur 和 Godot 社区。"
+"该文档在很大程度上参照了 `Godot 引擎的文档 <http://docs.godotengine.org/en/"
+"stable/>`_ ，归属于 Juan Linietsky, Ariel Manzur 和 Godot 社区。"
 
 #: ../../about/process/branch-naming.rst:2
 msgid "Branch-naming convention"
 msgstr "分支命名规则"
 
 #: ../../about/process/branch-naming.rst:4
-#, fuzzy
 msgid ""
 "Our branch-naming convention ensures software can be built by our CI and "
 "tested easily by other developers."
-msgstr ""
-"我们的约定好分支命名的规则以确保我们的CI可以构建软件并由其他开发人员轻松测"
-"试。"
+msgstr "我们的约定好分支命名规则确保软件可以由我们的 CI "
+"构建，并由其他开发人员轻松测试。"
 
 #: ../../about/process/branch-naming.rst:6
-#, fuzzy
 msgid ""
 "Every Git repository's README file should state which branch-naming "
 "convention is used and any deviations from the norm."
-msgstr ""
-"每个Git存储库的README文件都应该说明使用哪个分支命名约定以及可能与规范的偏差。"
+msgstr "每个 Git 仓库的 README 文件都应说明所使用的分支命名规范，以及与规范的偏差。"
 
 #: ../../about/process/branch-naming.rst:9
 msgid "Click-Packages"
