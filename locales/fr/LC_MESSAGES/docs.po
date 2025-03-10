@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-02-16 18:25+0000\n"
+"PO-Revision-Date: 2025-03-11 03:29+0000\n"
 "Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -534,13 +534,12 @@ msgstr ""
 "Cela signifie généralement qu'un développeur est assigné à ce problème."
 
 #: ../../about/process/issue-tracking.rst:46
-#, fuzzy
 msgid ""
 "**Quality Assurance**: A completed patch passing initial testing. The QA "
 "team will review it and provide feedback. If problems are found, the issue "
 "is moved back to \"Accepted\"."
 msgstr ""
-"**Quality Assurance** (Assurance qualité) : le correctif est finalisé et a "
+"**Quality Assurance** (Assurance qualité) : le correctif est finalisé et a "
 "passé les premiers tests. L'équipe de l'assurance qualité va maintenant le "
 "tester sur tous les matériels et fournir un retour. Si des "
 "dysfonctionnements sont trouvés, le problème est rétrogradé à l'état « "
@@ -671,6 +670,10 @@ msgid ""
 "fix it. It is an excellent place for someone new to learn about the project "
 "by fixing a real issue."
 msgstr ""
+"**bon premier signalement de problème** : Le rapport contient les "
+"instructions ou les conseils nécessaires à la résolution du problème. C'est "
+"un excellent moyen pour un nouveau venu de se familiariser avec le projet en "
+"corrigeant un problème réel."
 
 #: ../../about/process/issue-tracking.rst:77
 #, fuzzy
@@ -827,6 +830,9 @@ msgid ""
 "The *QA-Team* labels it **needs confirmation** and tries to work with the "
 "user to confirm the bug and add potentially missing info to the report."
 msgstr ""
+"L'équipe *QA* a défini le statut **nécessite une confirmation** et tente de "
+"travailler avec l'utilisateur pour confirmer le bogue et ajouter les "
+"informations éventuellement manquantes au rapport."
 
 #: ../../about/process/issue-tracking.rst:129
 #, fuzzy
@@ -848,6 +854,8 @@ msgid ""
 "The affected *Team* triages the issue and either rejects (label **wontfix**, "
 "closes and removes from the project) or accepts the issue."
 msgstr ""
+"L'« équipe » affectée trie le problème et le rejette (étiquette **wontfix**, "
+"fermeture et retrait du projet) ou l'accepte."
 
 #: ../../about/process/issue-tracking.rst:131
 #, fuzzy
@@ -877,6 +885,9 @@ msgid ""
 "Once a *developer* is assigned and starts working on the issue, it is moved "
 "to \"In Development\"."
 msgstr ""
+"Une fois qu'un *développeur* est désigné et commence à travailler sur le "
+"problème, celui-ci est déplacé dans la catégorie « En cours de développement "
+"»."
 
 #: ../../about/process/issue-tracking.rst:133
 #, fuzzy
@@ -926,10 +937,12 @@ msgid ""
 "Ubuntu Touch has four software update channels: Stable, Release Candidate, "
 "Devel, and Edge."
 msgstr ""
+"Ubuntu Touch dispose de quatre canaux de mise à jour logicielle : Stable, "
+"Release Candidate, Devel et Edge."
 
 #: ../../about/process/release-schedule.rst:6
 msgid "Stable Channel"
-msgstr ""
+msgstr "Canal Stable"
 
 #: ../../about/process/release-schedule.rst:7
 msgid ""
@@ -939,10 +952,16 @@ msgid ""
 "Releases are ready when they're ready. Stable releases should not introduce "
 "new bugs or ship very incomplete features."
 msgstr ""
+"**Il s'agit du canalal de mises à jour le plus fiable.** Il est recommandé "
+"aux utilisateurs qui préfèrent la stabilité aux nouvelles fonctionnalités. "
+"En général, Stable reçoit des mises à jour OTA (over the air) toutes les "
+"semaines. Mais il n'y a pas de calendrier précis. Les versions sont prêtes "
+"quand elles sont prêtes. Les versions stables ne devraient pas introduire de "
+"nouveaux bogues ou proposer des fonctionnalités très incomplètes."
 
 #: ../../about/process/release-schedule.rst:15
 msgid "Release Candidate (RC) Channel"
-msgstr ""
+msgstr "Canal Release Candidate (RC)"
 
 #: ../../about/process/release-schedule.rst:16
 msgid ""
@@ -952,10 +971,17 @@ msgid ""
 "does not depend on your phone, and you can live with some downtime - RC is "
 "for you. It does get updates generally every week."
 msgstr ""
+"**Il est relativement stable mais peut occasionnellement contenir des bugs.**"
+" Ce canal est destiné à effectuer les derniers tests avant de publier les "
+"fonctionnalités sur le canal Stable. Si vous voulez des fonctionnalités plus "
+"rapidement, et que vous voulez aider à tester, mais que votre vie ne dépend "
+"pas de votre téléphone, et que vous pouvez vivre avec un certain temps "
+"d'arrêt - RC est pour vous. Il reçoit des mises à jour généralement toutes "
+"les semaines."
 
 #: ../../about/process/release-schedule.rst:22
 msgid "Devel Channel"
-msgstr ""
+msgstr "Canal Devel"
 
 #: ../../about/process/release-schedule.rst:23
 msgid ""
@@ -964,10 +990,16 @@ msgid ""
 "use Devel if you can't live with the fact that new features might break "
 "things. Updates come if something has changed - so frequency can be daily."
 msgstr ""
+"**C'est là que les nouvelles fonctionnalités sont testées pour la première "
+"fois.** Bien que les changements aient été validés avant d'être publiés, il "
+"faut s'attendre à des bogues. N'utilisez pas Devel si vous ne pouvez pas "
+"vivre avec le fait que les nouvelles fonctionnalités peuvent casser des "
+"choses. Les mises à jour interviennent si quelque chose a changé - la "
+"fréquence peut donc être quotidienne."
 
 #: ../../about/process/release-schedule.rst:29
 msgid "Edge Channel"
-msgstr ""
+msgstr "Canal Edge"
 
 #: ../../about/process/release-schedule.rst:30
 msgid ""
@@ -978,6 +1010,14 @@ msgid ""
 "used at all. Basically, if you need to ask what's in Edge, then it is not "
 "for you."
 msgstr ""
+"**C'est ici que vivent les dragons.** Ici les idées et les nouvelles "
+"fonctionnalités sont transformées en code pour que les développeurs puissent "
+"travailler dessus et ainsi les intrépides puissent les essayer. Ne mettez "
+"pas ce canal sur un téléphone que vous utilisez quotidiennement. Les mises à "
+"jour se font au fur et à mesure que les développeurs ont des idées. Parfois, "
+"elles sont très fréquentes, parfois le canal n'est pas utilisé du tout. En "
+"résumé, si vous avez besoin de savoir ce qu'il y a dans Edge, ce canal n'est "
+"pas fait pour vous."
 
 #: ../../about/process/security-vulnerabilities.rst:2
 #, fuzzy
@@ -994,16 +1034,28 @@ msgid ""
 "work with the reported issue. We might contact you via the issue if there is "
 "additional information needed. And we'll determine the disclosure."
 msgstr ""
+"Nous prenons les failles de sécurité au sérieux. Si vous en avez trouvé une, "
+"la meilleure façon de la signaler est de créer un problème confidentiel sur "
+"notre `bug tracker <https://gitlab.com/ubports/ubuntu-touch>`_. Assurez-vous "
+"de sélectionner « Ce problème est confidentiel et ne devrait être visible "
+"que par les membres de l'équipe ayant au moins un accès Reporter » lorsque "
+"vous créez le problème. Ensuite, nous nous mettrons au travail sur le "
+"problème signalé. Il se peut que nous vous contactions par l'intermédiaire "
+"du problème si des informations supplémentaires sont nécessaires. Et nous "
+"déterminerons la divulgation."
 
 #: ../../about/process/security-vulnerabilities.rst:7
 msgid "How to handle a security fix"
-msgstr ""
+msgstr "Comment gérer un correctif de sécurité"
 
 #: ../../about/process/security-vulnerabilities.rst:9
 msgid ""
 "For UBports development members, these are recommended steps to handle "
 "fixing the issue without disclosing to public before the fix is ready:"
 msgstr ""
+"Pour les membres du développement d'UBports, il s'agit des étapes "
+"recommandées pour résoudre le problème sans le divulguer au public avant que "
+"le correctif ne soit prêt :"
 
 #: ../../about/process/security-vulnerabilities.rst:11
 msgid ""
@@ -1011,18 +1063,26 @@ msgid ""
 "fork from the main project to the same namespace, but set the visibility to "
 "private."
 msgstr ""
+"Étant donné un repo principal, s'assurer que le repo ``<projet>.secfix`` "
+"existe. Si ce n'est pas le cas, il faut faire un fork depuis le projet "
+"principal vers le même espace de noms, mais en mettant la visibilité à "
+"private."
 
 #: ../../about/process/security-vulnerabilities.rst:13
 msgid ""
 "The ``.secfix`` suffix will prevent CI from touching this repo, preventing "
 "the repo from leaking."
 msgstr ""
+"Le suffixe ``.secfix`` empêchera CI de toucher ce repo, évitant ainsi les "
+"fuites."
 
 #: ../../about/process/security-vulnerabilities.rst:15
 msgid ""
 "If there isn't an issue for it already, create a confidential issue on the "
 "main project."
 msgstr ""
+"S'il n'existe pas encore de problème, créez un problème confidentiel sur le "
+"projet principal."
 
 #: ../../about/process/security-vulnerabilities.rst:16
 msgid ""
@@ -1030,18 +1090,26 @@ msgid ""
 "and the source branch appropriately. Then, push to this branch from your "
 "local Git tree."
 msgstr ""
+"Sur le problème, utilisez « Créer une demande de fusion confidentielle ». "
+"Définissez le nom de la branche et la branche source de manière appropriée. "
+"Ensuite, poussez vers cette branche à partir de votre arbre Git local."
 
 #: ../../about/process/security-vulnerabilities.rst:18
 msgid ""
 "This MR will target the ``.secfix`` repo, NOT the main repo [1]_. This "
 "allows reviewing the patch to happen in private."
 msgstr ""
+"Ce MR ciblera le repo ``.secfix``, PAS le repo principal [1]_. Cela permet "
+"de réviser le correctif en privé."
 
 #: ../../about/process/security-vulnerabilities.rst:20
 msgid ""
 "Another developer then reviews and merges the merge request. If backport is "
 "needed, it must also happen in the ``.secfix`` fork."
 msgstr ""
+"Un autre développeur révise alors la demande de fusion et la fusionne. Si un "
+"rétro-portage est nécessaire, il doit aussi se faire dans la fourche "
+"``.secfix``."
 
 #: ../../about/process/security-vulnerabilities.rst:22
 msgid ""
@@ -1049,6 +1117,9 @@ msgid ""
 "reviewer's responsibility to ensure that the code will compile, pass tests, "
 "and is tested locally."
 msgstr ""
+"Comme nous ne disposons pas encore d'un système d'IC confidentiel, il "
+"incombe au développeur et au réviseur de s'assurer que le code se compile, "
+"passe les tests et est testé localement."
 
 #: ../../about/process/security-vulnerabilities.rst:24
 msgid ""
@@ -1057,6 +1128,11 @@ msgid ""
 "main repo. After that, the confidential issue is marked unconfidential. This "
 "makes the issue public for the first time."
 msgstr ""
+"Environ un jour avant la date de publication d'une version candidate, un "
+"développeur (généralement le responsable de la publication) fusionne toutes "
+"les branches du repo ``.secfix`` avec le repo principal. Après cela, le "
+"problème confidentiel est marqué comme non confidentiel. Cela rend le "
+"problème public pour la première fois."
 
 #: ../../about/process/security-vulnerabilities.rst:26
 msgid ""
@@ -1064,26 +1140,33 @@ msgid ""
 "merge result actually passes CI and that at least the basic functionality of "
 "this component is not broken."
 msgstr ""
+"À ce stade, il incombe au développeur de s'assurer que le résultat de la "
+"fusion est effectivement accepté par l'IC et qu'au moins la fonctionnalité "
+"de base de ce composant n'est pas interrompue."
 
 #: ../../about/process/security-vulnerabilities.rst:28
 msgid ""
 "The release manager will ensure that the fix actually lands in the daily "
 "image before choosing such image as an RC."
 msgstr ""
+"Le responsable de la publication s'assurera que le correctif se trouve "
+"effectivement dans l'image quotidienne avant de choisir cette image comme RC."
 
 #: ../../about/process/security-vulnerabilities.rst:29
 msgid ""
 "Before the release date, the fixing developer will prepare the security "
 "advisory, containing (the list is inspired by Curl's advisories [2]_):"
 msgstr ""
+"Avant la date de publication, le développeur du correctif préparera l'avis "
+"de sécurité, contenant (la liste est inspirée des avis de Curl [2]_) :"
 
 #: ../../about/process/security-vulnerabilities.rst:32
 msgid "Vulnerability (how a user is vulnerable)"
-msgstr ""
+msgstr "Vulnérabilité (comment un utilisateur est vulnérable)"
 
 #: ../../about/process/security-vulnerabilities.rst:33
 msgid "Info (how the vulnerable exists)"
-msgstr ""
+msgstr "Info (comment la vulnérabilité existe)"
 
 #: ../../about/process/security-vulnerabilities.rst:34
 #, fuzzy
@@ -1102,27 +1185,31 @@ msgstr "Plus de documentation"
 
 #: ../../about/process/security-vulnerabilities.rst:37
 msgid "Timeline"
-msgstr ""
+msgstr "Chronologie"
 
 #: ../../about/process/security-vulnerabilities.rst:38
 msgid "Credit"
-msgstr ""
+msgstr "Crédit"
 
 #: ../../about/process/security-vulnerabilities.rst:40
 msgid ""
 "At the release date, the security advisory will be published on the forum, "
 "in the \"OS > Security advisories\" section."
 msgstr ""
+"A la date de publication, l'avis de sécurité sera publié sur le forum, dans "
+"la section « OS > Security advisories »."
 
 #: ../../about/process/security-vulnerabilities.rst:42
 msgid ""
 "https://docs.gitlab.com/ee/user/project/merge_requests/confidential."
 "html#create-a-confidential-merge-request"
 msgstr ""
+"https://docs.gitlab.com/ee/user/project/merge_requests/"
+"confidential.html#create-a-confidential-merge-request"
 
 #: ../../about/process/security-vulnerabilities.rst:43
 msgid "https://curl.se/docs/security.html"
-msgstr ""
+msgstr "https://curl.se/docs/security.html"
 
 #: ../../appdev/code-editor.rst:2
 #, fuzzy
@@ -1131,7 +1218,7 @@ msgstr "Intégration de l'éditeur de code"
 
 #: ../../appdev/code-editor.rst:4
 msgid "QtCreator"
-msgstr ""
+msgstr "QtCreator"
 
 #: ../../appdev/code-editor.rst:6
 msgid ""
@@ -1140,6 +1227,11 @@ msgid ""
 "auto setup the project for you, you will have code completion and navigation "
 "for Ubuntu Touch components as well as run/debug facilities."
 msgstr ""
+"Disponible sur l'image docker cliquable, la commande ``clickable ide "
+"qtcreator`` dans le répertoire de votre projet lancera une instance de "
+"QtCreator et configurera automatiquement le projet pour vous, vous aurez la "
+"complétion de code et la navigation pour les composants Ubuntu Touch ainsi "
+"que des facilités d'exécution et de débogage."
 
 #: ../../appdev/code-editor.rst:8
 #, fuzzy
@@ -1169,7 +1261,7 @@ msgstr ""
 
 #: ../../appdev/external-docs.rst:2
 msgid "API docs"
-msgstr ""
+msgstr "Documents API"
 
 #: ../../appdev/external-docs.rst:4
 #, fuzzy
