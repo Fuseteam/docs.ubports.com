@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2022-06-18 05:54+0000\n"
-"Last-Translator: Quilty weavy <quiltywea@gmail.com>\n"
-"Language-Team: Tamil <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-about/ta/>\n"
+"PO-Revision-Date: 2025-03-13 06:00+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -153,14 +153,17 @@ msgid ""
 "our CI automatically build our Git repositories into a number of APT "
 "archives hosted at http://repo.ubports.com/, according to the branch name."
 msgstr ""
+"எங்கள் குறியீட்டை உபுண்டு தொடுதலில் முடிந்தவரை சிரமமின்றி வழங்க எங்களுக்கு உதவ, கிளை "
+"பெயரின் படி, எங்கள் தொஒ தானாகவே எங்கள் அறிவிலி களஞ்சியங்களை http://repo.ubports.com/"
+" இல் வழங்கிய பல பொருத்தமான காப்பகங்களாக உருவாக்குகிறது."
 
 #: ../../about/process/branch-naming.rst:18
 msgid "We maintain the following branches across Git repositories:"
-msgstr ""
+msgstr "அறிவிலி களஞ்சியங்களில் பின்வரும் கிளைகளை நாங்கள் பராமரிக்கிறோம்:"
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
-msgstr ""
+msgstr "அறிவிலி கிளைகள்"
 
 #: ../../about/process/branch-naming.rst:22
 #: ../../appdev/guides/pushnotifications.rst:170
@@ -175,51 +178,53 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
-msgstr ""
+msgstr "விவரம்"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "தொடர்புடைய APT காப்பகங்கள்"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
 #: ../../porting/configure_test_fix/device_info/index.rst:43
 msgid "Name"
-msgstr ""
+msgstr "பெயர்"
 
 #: ../../about/process/branch-naming.rst:23
 msgid "Base distro"
-msgstr ""
+msgstr "அடிப்படை டிச்ட்ரோ"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``main``, ``ubports/latest``"
-msgstr ""
+msgstr "`` MAIN``, `` UBPORTS/LIVE ``"
 
 #: ../../about/process/branch-naming.rst:25
 msgid ""
 "Represents the latest development of Ubuntu Touch. All kinds of changes are "
 "allowed in this branch."
 msgstr ""
+"உபுண்டு தொடுதலின் அண்மைக் கால வளர்ச்சியைக் குறிக்கிறது. இந்த கிளையில் அனைத்து வகையான "
+"மாற்றங்களும் அனுமதிக்கப்படுகின்றன."
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``devel-<Ubuntu LTS>`` (e.g. ``devel-noble``)"
-msgstr ""
+msgstr "`` devel- <ubuntu lts> `` (எ.கா. `` டெவெல்-நோபல்``)"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "Latest or upcoming Ubuntu LTS."
-msgstr ""
+msgstr "அண்மைக் கால அல்லது வரவிருக்கும் உபுண்டு எல்.டி.எச்."
 
 #: ../../about/process/branch-naming.rst:28
 msgid "``devel-debian``"
-msgstr ""
+msgstr "`` டெவெல்-டெபியன்``"
 
 #: ../../about/process/branch-naming.rst:28
 msgid "Debian testing."
-msgstr ""
+msgstr "டெபியன் சோதனை."
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
-msgstr ""
+msgstr "`` ubports/<ager பதிப்பு> .x`` (எ.கா. `` ubports/24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid ""
@@ -228,51 +233,59 @@ msgid ""
 "releases of that major version. Only bugfixes and non-breaking changes are "
 "allowed in this branch."
 msgstr ""
+"ஒரு குறிப்பிட்ட பெரிய பதிப்பில் குறியீட்டைக் குறிக்கிறது. இது பெரிய வெளியீட்டிற்கு முன் "
+"`` பிரதான`` கிளையிலிருந்து கிளைக்கிறது, மேலும் அந்த முக்கிய பதிப்பின் வெளியீடுகளின் "
+"ஒரு பகுதியாக மாறும். இந்த கிளையில் பிழைத்திருத்தங்கள் மற்றும் உடைக்காத மாற்றங்கள் மட்டுமே "
+"அனுமதிக்கப்படுகின்றன."
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``<major version>.x`` (e.g. ``24.6.x``)"
-msgstr ""
+msgstr "`` <முக்கிய பதிப்பு> .x`` (எ.கா. `` 24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "Ubuntu LTS at the time of branching."
-msgstr ""
+msgstr "கிளை நேரத்தில் உபுண்டு எல்.டி.எச்."
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``ubports/focal``"
-msgstr ""
+msgstr "`` ubports/focial``"
 
 #: ../../about/process/branch-naming.rst:38
 msgid ""
 "A special case of ``ubports/<major version>.x``, which is branched after the "
 "release of Ubuntu Touch 20.04 OTA-4."
 msgstr ""
+"`` Ubports/<ager பதிப்பு> .x`` இன் சிறப்பு வழக்கு, இது உபுண்டு டச் 20.04 OTA-4 "
+"வெளியான பிறகு கிளைத்துள்ளது."
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``focal``"
-msgstr ""
+msgstr "`` குவியல்``"
 
 #: ../../about/process/branch-naming.rst:38
 #: ../../about/process/branch-naming.rst:43
 msgid "Ubuntu 20.04 LTS."
-msgstr ""
+msgstr "உபுண்டு 20.04 எல்.டி.எச்."
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``ubports/focal_-_<ext>``"
-msgstr ""
+msgstr "`` ubports/focial _ -_ <ext> ``"
 
 #: ../../about/process/branch-naming.rst:43
 msgid ""
 "Branches which use the deprecated \"branch extensions\" system for cross-"
 "components changes. No longer recommended for usage."
 msgstr ""
+"குறுக்கு-கூறுகளின் மாற்றங்களுக்கு நீக்கப்பட்ட \"கிளை நீட்டிப்புகள்\" முறையைப் பயன்படுத்தும் "
+"கிளைகள். இனி பயன்பாட்டிற்கு பரிந்துரைக்கப்படவில்லை."
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``focal_-_<ext>``"
-msgstr ""
+msgstr "`` குவிய _ -_ <ext> ``"
 
 #: ../../about/process/branch-naming.rst:48
 msgid "``personal/<user>/<name>``, and any other branches."
-msgstr ""
+msgstr "`` தனிப்பட்ட/<பயனர்>/<aname> ``, மற்றும் வேறு எந்த கிளைகளும்."
 
 #: ../../about/process/branch-naming.rst:48
 msgid ""
@@ -280,11 +293,15 @@ msgid ""
 "reasons. Theses branches are not built by the CI unless proposed as a merge "
 "request."
 msgstr ""
+"ஒன்றிணைக்கும் கோரிக்கைகளை முன்மொழிய அல்லது பிற காரணங்களுக்காக மற்ற அனைத்து கிளைகளும் "
+"பயன்படுத்தப்படலாம். ஒன்றிணைக்கும் கோரிக்கையாக முன்மொழியாவிட்டால் இந்த கிளைகள் தொஒ ஆல் "
+"கட்டப்படாது."
 
 #: ../../about/process/branch-naming.rst:48
 msgid ""
 "N/A, unless proposed as an MR against aforementioned branches (see below)."
 msgstr ""
+"இதற்கில்லை, மேற்கூறிய கிளைகளுக்கு எதிராக MR ஆக முன்மொழியாவிட்டால் (கீழே காண்க)."
 
 #: ../../about/process/branch-naming.rst:55
 msgid ""
@@ -293,6 +310,10 @@ msgid ""
 "branches. An exception is when a change is not applicable to the ``main`` "
 "branch anymore due to other changes in that branch."
 msgstr ""
+"`` பிரதான`` கிளை எந்த மாற்றங்களையும் தவறவிடாது என்பதை உறுதிப்படுத்த, முக்கிய "
+"வெளியீட்டுக் கிளைகளுக்கு பின்வாங்குவதற்கு முன் முதலில் `` பிரதான`` கிளைக்கு எதிராக "
+"அனைத்து மாற்றங்களும் செய்யப்பட வேண்டும். அந்த கிளையில் உள்ள பிற மாற்றங்களால் இனி `` "
+"பிரதான`` கிளைக்கு மாற்றம் பொருந்தாதபோது விதிவிலக்கு."
 
 #: ../../about/process/branch-naming.rst:58
 msgid ""
@@ -302,10 +323,15 @@ msgid ""
 "packages built against that version. When the changeset is ready for merge, "
 "the changeset must be re-targeted to the ``main`` branch."
 msgstr ""
+"அடுத்த மேம்பாட்டு பதிப்பு இன்னும் சோதனைக்கு கிடைக்கவில்லை என்றால், சோதனைக்கு நிறுவலுக்கு "
+"மாற்றம் கிடைக்க வேண்டும் என்றால், அந்த பதிப்பிற்கு எதிராக கட்டப்பட்ட தொகுப்புகளைப் பெறுவதற்கு"
+" முக்கிய பதிப்பு கிளைக்கு மாற்றத்தை தற்காலிகமாக குறிவைக்க அனுமதிக்கப்பட்டுள்ளது. சேஞ்ச் "
+"செட் ஒன்றிணைக்கத் தயாராக இருக்கும்போது, மாற்றங்களை `` பிரதான`` கிளைக்கு மீண்டும் இலக்கு "
+"வைக்க வேண்டும்."
 
 #: ../../about/process/branch-naming.rst:61
 msgid "APT archives for Merge Requests"
-msgstr ""
+msgstr "ஒன்றிணைக்கும் கோரிக்கைகளுக்கு பொருத்தமான காப்பகங்கள்"
 
 #: ../../about/process/branch-naming.rst:63
 msgid ""
@@ -316,6 +342,12 @@ msgid ""
 "target branch, and then will append ``_-_PR_<repository name>_<MR number>`` "
 "to them [1]_. For example:"
 msgstr ""
+"மேலே குறிப்பிட்டுள்ள காப்பகங்களுக்கு மேலதிகமாக, எங்கள் அறிவிலி களஞ்சியங்களுக்கு எதிராக "
+"தயாரிக்கப்பட்ட எம்.ஆர்.எச்சிற்கான பொருத்தமான காப்பகங்களையும் உருவாக்குகிறோம். குறியீட்டை "
+"இணைப்பதற்கு முன் UBPORTS-QA_ ஐப் பயன்படுத்தி உண்மையான சாதனங்களை உருவாக்கியதன் முடிவை "
+"சோதிக்க இது நம்மை அனுமதிக்கிறது. ஒவ்வொரு எம்.ஆருக்கும், சி.ஐ.யின் இலக்கு கிளை போன்ற "
+"அனைத்து இலக்குகளுக்கு எதிராக குறியீட்டை உருவாக்கும், பின்னர் `_-_ பி.ஆர்_ <களஞ்சிய பெயர்"
+"> _ <மிச்டர் எண்>` `அவர்களுக்கு [1] _. உதாரணமாக:"
 
 #: ../../about/process/branch-naming.rst:65
 msgid ""
@@ -323,6 +355,9 @@ msgid ""
 "``lomiri`` (when the current Ubuntu LTS is ``noble``) will have APT archives "
 "named ``devel-noble_-_PR_lomiri_100`` *and* ``devel-debian_-_PR_lomiri_100``."
 msgstr ""
+"ஒரு எம்.ஆர் எண்ணற்ற 100 `` பிரதான` `கிட் களஞ்சியத்தின் கிளைக்கு எதிராக` `லோமிரி`` "
+"(தற்போதைய உபுண்டு எல்.டி.எச்` `உன்னதமான``) க்கு எதிராக` `` டெவெல்-நோபல் _ -_ "
+"pr_lomiri_100` * மற்றும் * `` `` டெவல்-டெவல்-டெவல்-டெவல்-டெவல்-டெபியன்."
 
 #: ../../about/process/branch-naming.rst:66
 msgid ""
@@ -330,11 +365,15 @@ msgid ""
 "repository ``morph-browser`` will have an APT archive named ``24.6.x_-"
 "_PR_morph-browser_125``."
 msgstr ""
+"ஒரு எம்.ஆர் எண்ணற்ற 125 `` யுபோர்ட்ச்/24.6.x`` சிஐடி களஞ்சியத்தின் கிளைக்கு எதிராக `` "
+"மோர்ப்-உலாவி`` `` 24.6.x _ -_ pr_morph-Browser_125`` என்ற பெயரில் பொருத்தமான "
+"காப்பகத்தைக் கொண்டிருக்கும்."
 
 #: ../../about/process/branch-naming.rst:68
 msgid ""
 "The word ``PR`` stuck around from the time we hosted our code on GitHub."
 msgstr ""
+"`` Pr`` என்ற சொல் கிட்அப்பில் எங்கள் குறியீட்டை வழங்கிய நேரத்திலிருந்து சிக்கிக்கொண்டது."
 
 #: ../../about/process/index.rst:2
 msgid "Processes"
@@ -356,7 +395,7 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:2
 msgid "Issue-Tracking Guidelines"
-msgstr ""
+msgstr "வெளியீட்டு-கண்காணிப்பு வழிகாட்டுதல்கள்"
 
 #: ../../about/process/issue-tracking.rst:4
 msgid ""
@@ -364,10 +403,12 @@ msgid ""
 "UBports projects. (Not to be confused with the :doc:`guide on writing a good "
 "bugreport </contribute/bugreporting>`.)"
 msgstr ""
+"இந்த ஆவணம் யுபோர்ட்ச் திட்டங்களில் புதிய சிக்கல்களைக் கையாள்வதற்கான நிலையான செயல்முறையை "
+"விவரிக்கிறது. ."
 
 #: ../../about/process/issue-tracking.rst:8
 msgid "Where are bugs tracked?"
-msgstr ""
+msgstr "பிழைகள் எங்கே கண்காணிக்கப்படுகின்றன?"
 
 #: ../../about/process/issue-tracking.rst:10
 msgid ""
@@ -378,6 +419,11 @@ msgid ""
 "touch>`__. An exception to this are click-apps, which can be updated "
 "independently through the OpenStore."
 msgstr ""
+"தர பொறுப்பு சமூக முயற்சியைப் பொறுத்தது என்பதால், களஞ்சியத்தால் பிரிக்கப்படுவதற்குப் பதிலா"
+"க, பயனர்கள் அவற்றை எதிர்பார்க்கும் இடத்தில் சிக்கல்கள் கண்காணிக்கப்படுகின்றன. இதன் பொருள் "
+"கிட்டத்தட்ட அனைத்து விநியோகிக்கப்பட்ட கூறுகளின் சிக்கல்கள் (கணினி உருவத்தைப் போல) `உபுண்டு "
+"டச் டிராக்கர் <https://gitlab.com/ubports/ubuntu-touch> __. இதற்கு விதிவிலக்கு "
+"கிளிக்-அப்ச் ஆகும், அவை ஓபன்ச்டோர் மூலம் சுயாதீனமாக புதுப்பிக்கப்படலாம்."
 
 #: ../../about/process/issue-tracking.rst:17
 msgid ""
@@ -385,22 +431,28 @@ msgid ""
 "repository uses its own tracker or not in its README.md file. Repositories "
 "that don't track issues locally have their bugtracker turned off."
 msgstr ""
+"பெரும்பாலான பிற களஞ்சியங்கள் உள்நாட்டில் சிக்கல்களைக் கண்காணிக்கின்றன. ஒரு களஞ்சியம் அதன் சொந்"
+"த டிராக்கரைப் பயன்படுத்துகிறதா இல்லையா என்பதை நீங்கள் கண்டுபிடிப்பீர்கள். உள்நாட்டில் "
+"சிக்கல்களைக் கண்காணிக்காத களஞ்சியங்கள் அவற்றின் பிழைத்திருத்தியை முடக்குகின்றன."
 
 #: ../../about/process/issue-tracking.rst:21
 msgid ""
 "This page is mainly about the Ubuntu Touch tracker, but most principles "
 "apply to other projects as well."
 msgstr ""
+"இந்த பக்கம் முக்கியமாக உபுண்டு டச் டிராக்கரைப் பற்றியது, ஆனால் பெரும்பாலான கொள்கைகள் பிற "
+"திட்டங்களுக்கும் பொருந்தும்."
 
 #: ../../about/process/issue-tracking.rst:25
 msgid ""
 "Practical exceptions to purity are to be described in the project's README."
 "md file."
 msgstr ""
+"தூய்மைக்கான நடைமுறை விதிவிலக்குகள் திட்டத்தின் README.MD கோப்பில் விவரிக்கப்பட வேண்டும்."
 
 #: ../../about/process/issue-tracking.rst:28
 msgid "GitHub projects"
-msgstr ""
+msgstr "அறிவிலிமையம் திட்டங்கள்"
 
 #: ../../about/process/issue-tracking.rst:30
 msgid ""
@@ -410,10 +462,15 @@ msgid ""
 "by labels, so that only issues belonging to a specific team or ones "
 "affecting a specific device can be viewed."
 msgstr ""
+"வெளிப்படைத்தன்மை மற்றும் தகவல்தொடர்பு நலனுக்காக, அறிவிலிமையம் திட்டங்கள் (கான்பன்-பலகைகள்) "
+"நடைமுறையில் எங்கிருந்தாலும் பயன்படுத்தப்படுகின்றன. Github.com/ubports/ubuntu-touch இன்"
+" விசயத்தில், அனைத்து சிக்கல்களுக்கும் ஒரு திட்டம் பயன்படுத்தப்படுகிறது. திட்டங்கள் லேபிள்களால்"
+" வடிகட்டுவதை ஆதரிக்கின்றன, இதனால் ஒரு குறிப்பிட்ட குழுவுக்கு சொந்தமான சிக்கல்கள் அல்லது "
+"ஒரு குறிப்பிட்ட சாதனத்தை பாதிக்கும் பிரச்சினைகள் மட்டுமே பார்க்க முடியும்."
 
 #: ../../about/process/issue-tracking.rst:36
 msgid "These are the standard columns:"
-msgstr ""
+msgstr "இவை நிலையான நெடுவரிசைகள்:"
 
 #: ../../about/process/issue-tracking.rst:38
 msgid ""
@@ -423,6 +480,9 @@ msgid ""
 "feature request, it has passed a primary sanity check by the QA team, but "
 "not yet been accepted by the responsible development-team."
 msgstr ""
+". ஒரு பிழை என்றால், இனப்பெருக்கம் செய்வதற்கான வழிமுறைகள் வெளியீட்டு விளக்கத்தில் "
+"சேர்க்கப்பட்டுள்ளன. அம்சக் கோரிக்கை என்றால், அது QA குழுவால் ஒரு முதன்மை நல்லறிவு காசோலையை"
+" நிறைவேற்றியுள்ளது, ஆனால் இன்னும் பொறுப்பான மேம்பாட்டு-அணியால் ஏற்றுக்கொள்ளப்படவில்லை."
 
 #: ../../about/process/issue-tracking.rst:41
 msgid ""
@@ -431,12 +491,18 @@ msgid ""
 "responsibility. If a feature request, the team thinks it should be "
 "implemented as described."
 msgstr ""
+"** ஏற்றுக்கொள்ளப்பட்டது **: பொறுப்பான அபிவிருத்தி-அணியால் ஏற்றுக்கொள்ளப்பட்டது. ஒரு "
+"பிழைத்திருத்தமாக இருந்தால், அது சரிசெய்யக்கூடியதாக இருக்க வேண்டும் மற்றும் பொறுப்பை ஏற்க "
+"வேண்டும் என்று குழு முடிவு செய்துள்ளது. ஒரு அம்சக் கோரிக்கை என்றால், விவரிக்கப்பட்டுள்ளபடி "
+"அதை செயல்படுத்த வேண்டும் என்று குழு கருதுகிறது."
 
 #: ../../about/process/issue-tracking.rst:44
 msgid ""
 "**In Development**: A patch in development. Usually means a developer is "
 "assigned to the issue."
 msgstr ""
+"** வளர்ச்சியில் **: வளர்ச்சியில் ஒரு இணைப்பு. பொதுவாக ஒரு உருவாக்குபவர் பிரச்சினைக்கு "
+"நியமிக்கப்படுகிறார்."
 
 #: ../../about/process/issue-tracking.rst:46
 msgid ""
@@ -444,6 +510,9 @@ msgid ""
 "team will review it and provide feedback. If problems are found, the issue "
 "is moved back to \"Accepted\"."
 msgstr ""
+"** தரமான பொறுப்பு **: ஆரம்ப சோதனையை கடக்கும் ஒரு முழுமையான இணைப்பு. QA குழு அதை "
+"மதிப்பாய்வு செய்து கருத்துக்களை வழங்கும். சிக்கல்கள் காணப்பட்டால், சிக்கல் மீண்டும் "
+"\"ஏற்றுக்கொள்ளப்பட்ட\" க்கு நகர்த்தப்படும்."
 
 #: ../../about/process/issue-tracking.rst:48
 msgid ""
@@ -452,6 +521,10 @@ msgid ""
 "next over-the-air update on the `rc` channel, and (provided  everything   "
 "goes well) in the next release of the `stable` channel."
 msgstr ""
+"** வெளியீடு வேட்பாளர் **: ஒரு ஒட்டு கடந்து செல்லும் QA, வெளியீட்டிற்கு தயாராக உள்ளது. "
+"கணினி-படத்தில் சேர்க்கப்பட்டுள்ள டெப் தொகுப்புகளைப் பொறுத்தவரை, `ஆர்.சி` சேனலில் அடுத்த "
+"ஓவர்-ஏர் புதுப்பிப்பில் இணைப்பு சேர்க்கப்படும், மேலும் ((எல்லாம் சரியாகிவிட்டால்)` நிலையான` "
+"சேனலின் அடுத்த வெளியீட்டில்."
 
 #: ../../about/process/issue-tracking.rst:50
 msgid ""
@@ -460,10 +533,14 @@ msgid ""
 "patch has been released on the stable channel (a comment on the issue should "
 "link to the patch) or the issue is rejected (labeled \"wontfix\")."
 msgstr ""
+"** எதுவுமில்லை (திட்டத்திலிருந்து நீக்கப்பட்டது) **: திறந்த வெளியீடு \"உதவி தேவை\" என்று"
+" பெயரிடப்பட்டது. அதைத் தீர்க்க சமூக பங்களிப்புகள் தேவை. அது மூடப்பட்டால், நிலையான சேனலில் "
+"ஒரு இணைப்பு வெளியிடப்பட்டுள்ளது (பிரச்சினை குறித்த கருத்து பேட்சுடன் இணைக்கப்பட வேண்டும்) "
+"அல்லது சிக்கல் நிராகரிக்கப்படுகிறது (\"WontFix\" என்று பெயரிடப்பட்டது)."
 
 #: ../../about/process/issue-tracking.rst:55
 msgid "Labels"
-msgstr ""
+msgstr "சிட்டைகள்"
 
 #: ../../about/process/issue-tracking.rst:57
 msgid ""
@@ -474,52 +551,65 @@ msgid ""
 "Consult the `GitHub help pages <https://help.github.com/articles/about-"
 "searching-on-github/>`__ to learn more about searching and filtering."
 msgstr ""
+"அனைத்து சிக்கல்களும் - மூடியவை கூட - கிட்அப்பின் உலகளாவிய வடிகட்டலைப் பயன்படுத்த அனுமதிக்"
+"க பெயரிடப்பட வேண்டும். எடுத்துக்காட்டாக, `இவை அனைத்தும் 'மேம்பாடு' என்று பெயரிடப்பட்ட "
+"சிக்கல்கள் அனைத்தும் @ubports <https://github.com/search? தேடுதல் மற்றும் வடிகட்டுதல் "
+"பற்றி மேலும் அறிய __ __ __."
 
 #: ../../about/process/issue-tracking.rst:60
 msgid "List of labels normally used by all repositories:"
-msgstr ""
+msgstr "பொதுவாக அனைத்து களஞ்சியங்களால் பயன்படுத்தப்படும் லேபிள்களின் பட்டியல்:"
 
 #: ../../about/process/issue-tracking.rst:62
 msgid ""
 "**needs confirmation**: The bug needs confirmation and / or further "
 "detailing by affected users."
 msgstr ""
+"** உறுதிப்படுத்தல் தேவை **: பிழைக்கு பாதிக்கப்பட்ட பயனர்களால் உறுதிப்படுத்தல் மற்றும் / "
+"அல்லது மேலும் விவரம் தேவை."
 
 #: ../../about/process/issue-tracking.rst:64
 msgid ""
 "**bug**: This issue is a confirmed bug. If it's reproducible, reproduction "
 "steps are described."
 msgstr ""
+"** பிழை **: இந்த சிக்கல் உறுதிப்படுத்தப்பட்ட பிழை. இது இனப்பெருக்கம் செய்தால், இனப்பெருக்கம்"
+" படிகள் விவரிக்கப்படுகின்றன."
 
 #: ../../about/process/issue-tracking.rst:66
 msgid "**opinion**: This issue needs further discussion."
-msgstr ""
+msgstr "** கருத்து **: இந்த பிரச்சினைக்கு மேலும் விவாதம் தேவை."
 
 #: ../../about/process/issue-tracking.rst:67
 msgid "**enhancement**: This issue is a feature request."
-msgstr ""
+msgstr "** விரிவாக்கம் **: இந்த சிக்கல் ஒரு அம்ச கோரிக்கை."
 
 #: ../../about/process/issue-tracking.rst:68
 msgid "**question**: This issue is a support request or general question."
-msgstr ""
+msgstr "** கேள்வி **: இந்த சிக்கல் ஒரு உதவி கோரிக்கை அல்லது பொதுவான கேள்வி."
 
 #: ../../about/process/issue-tracking.rst:69
 msgid ""
 "**invalid**: This issue can not be confirmed or was reported in the wrong "
 "tracker."
 msgstr ""
+"** தவறானது **: இந்த சிக்கலை உறுதிப்படுத்த முடியாது அல்லது தவறான டிராக்கரில் "
+"தெரிவிக்கப்பட்டது."
 
 #: ../../about/process/issue-tracking.rst:71
 msgid ""
 "**duplicate**: This has already been reported elsewhere. Please provide a "
 "link and close."
 msgstr ""
+"** நகல் **: இது ஏற்கனவே வேறு இடங்களில் பதிவாகியுள்ளது. தயவுசெய்து ஒரு இணைப்பை வழங்கி "
+"மூடு."
 
 #: ../../about/process/issue-tracking.rst:73
 msgid ""
 "**help wanted**: This issue is ready to be picked up by a community "
 "developer."
 msgstr ""
+"** உதவி தேவை **: இந்த சிக்கல் ஒரு சமூக உருவாக்குநரால் எடுக்க தயாராக உள்ளது."
 
 #: ../../about/process/issue-tracking.rst:75
 msgid ""
@@ -527,6 +617,9 @@ msgid ""
 "fix it. It is an excellent place for someone new to learn about the project "
 "by fixing a real issue."
 msgstr ""
+"** நல்ல முதல் சிக்கல் **: அறிக்கையில் அதை சரிசெய்ய தேவையான வழிமுறைகள் அல்லது குறிப்புகள்"
+" உள்ளன. ஒரு உண்மையான சிக்கலை சரிசெய்வதன் மூலம் திட்டத்தைப் பற்றி அறிந்து கொள்வது புதிதாக "
+"ஒருவருக்கு இது ஒரு சிறந்த இடம்."
 
 #: ../../about/process/issue-tracking.rst:77
 msgid ""
@@ -534,18 +627,24 @@ msgid ""
 "resolve itself, be too much work, isn't fixable, or an underlying component "
 "will soon change."
 msgstr ""
+"** wontfix **: அதை சரிசெய்வது அர்த்தமல்ல, ஏனெனில் அது தன்னைத் தீர்த்துக் கொள்ளும், அதிக "
+"வேலையாக இருக்கும், சரிசெய்ய முடியாதது, அல்லது ஒரு அடிப்படை கூறு விரைவில் மாறும்."
 
 #: ../../about/process/issue-tracking.rst:81
 msgid ""
 "Additional special labels can be defined. As an example, these are the "
 "labels used in the Ubuntu Touch tracker:"
 msgstr ""
+"கூடுதல் சிறப்பு லேபிள்களை வரையறுக்கலாம். உதாரணமாக, உபுண்டு டச் டிராக்கரில் "
+"பயன்படுத்தப்படும் லேபிள்கள் இவை:"
 
 #: ../../about/process/issue-tracking.rst:84
 msgid ""
 "**critical (devel)**: Critical issue only occuring on the `devel` channel is "
 "blocking the release of the next `rc` image."
 msgstr ""
+"** விமர்சன (உருவாக்கு) **: `டெவெல்` சேனலில் மட்டுமே நிகழும் முக்கியமான சிக்கல் அடுத்த` "
+"rc` படத்தின் வெளியீட்டைத் தடுக்கிறது."
 
 #: ../../about/process/issue-tracking.rst:86
 msgid ""
@@ -554,27 +653,37 @@ msgid ""
 "that can not simply be moved to a different release and have the power to "
 "postpone the release are labeled this way."
 msgstr ""
+"** விமர்சன (ஆர்.சி) **: `டெவெல்` மற்றும்` ஆர்.சி` சேனலில் மட்டுமே நிகழும் முக்கியமான "
+"சிக்கல் அடுத்த நிலையான வெளியீட்டின் வெளியீட்டைத் தடுக்கிறது. வழக்கமாக, வெறுமனே வேறு "
+"வெளியீட்டிற்கு நகர்த்த முடியாத மற்றும் வெளியீட்டை ஒத்திவைக்கும் சக்தியைக் கொண்ட சிக்கல்கள் இந்த "
+"வழியில் பெயரிடப்பட்டுள்ளன."
 
 #: ../../about/process/issue-tracking.rst:90
 msgid ""
 "**device: [DEVICE CODENAME]**: Issue affecting only the specified device(s)."
 msgstr ""
+"** சாதனம்: [சாதன குறியீட்டு பெயர்] **: குறிப்பிட்ட சாதனத்தை (களை) மட்டுமே பாதிக்கும் "
+"சிக்கல்."
 
 #: ../../about/process/issue-tracking.rst:92
 msgid ""
 "**team: [TEAM NAME]**: Issue falls under the responsibility of a specific "
 "team (HAL, middleware, UI)."
 msgstr ""
+"** குழு: [குழு பெயர்] **: வெளியீடு ஒரு குறிப்பிட்ட குழுவின் பொறுப்பின் கீழ் வருகிறது ("
+"HAL, மிடில்வேர், UI)."
 
 #: ../../about/process/issue-tracking.rst:95
 msgid ""
 "If a repository tracking issues locally defines it's own labels, they should "
 "be documented in the README.md."
 msgstr ""
+"ஒரு களஞ்சிய கண்காணிப்பு சிக்கல்கள் உள்நாட்டில் அதன் சொந்த லேபிள்களை வரையறுத்தால், அவை "
+"ReadMe.md இல் ஆவணப்படுத்தப்பட வேண்டும்."
 
 #: ../../about/process/issue-tracking.rst:99
 msgid "Milestones"
-msgstr ""
+msgstr "மைல்கற்கள்"
 
 #: ../../about/process/issue-tracking.rst:101
 msgid ""
@@ -584,10 +693,14 @@ msgid ""
 "adjusted afterwards. Learn more in :doc:`release-schedule <release-"
 "schedule>`."
 msgstr ""
+"நிலையான OTA வெளியீடுகளுக்கு மட்டுமே மைல்கற்கள் பயன்படுத்தப்படுகின்றன. பொதுவாக, வேலை "
+"செய்யும் முன்னேற்றம் OTA மற்றும் அடுத்த OTA க்கான மைல்கற்கள் உருவாக்கப்படுகின்றன. வெளியீட்டில் "
+"பணிகள் தொடங்கியதும் ETA அமைக்கப்படுகிறது (அதாவது தொடக்க தேதியிலிருந்து 6 வாரங்கள்), "
+"ஆனால் பின்னர் சரிசெய்யலாம். மேலும் அறிக: டாக்: `வெளியீட்டு-பள்ளி <வெளியீட்டு-பள்ளி>`."
 
 #: ../../about/process/issue-tracking.rst:107
 msgid "Assignees"
-msgstr ""
+msgstr "ஒதுக்கியவர்கள்"
 
 #: ../../about/process/issue-tracking.rst:109
 msgid ""
@@ -597,12 +710,19 @@ msgid ""
 "@ubports <https://github.com/search?"
 "utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>`_."
 msgstr ""
+"ஒரு பிரச்சினையில் யார் பணியாற்றுகிறார்கள் என்பதை வெளிப்படையானதாக மாற்ற, டெவலப்பரை "
+"நியமிக்க வேண்டும். இது கிதூப்பின் உலகளாவிய வடிகட்டலை ஒரு வகை செய்யவேண்டிய பட்டியலாகப் "
+"பயன்படுத்த அனுமதிக்கிறது. எடுத்துக்காட்டாக, `இதுதான் @ubports <https://github.com/"
+"search?utf8=%E2%9C%93&q=is%3AOPEN+ORG%3Aubports+ASIGNEE%3Amariogrip&Type=>` "
+"_."
 
 #: ../../about/process/issue-tracking.rst:114
 msgid ""
 "Developers are encouraged to keep their list short and update the status of "
 "their issues."
 msgstr ""
+"உருவாக்குபவர்கள் தங்கள் பட்டியலை குறுகியதாக வைத்திருக்கவும், அவர்களின் சிக்கல்களின் நிலையைப்"
+" புதுப்பிக்கவும் ஊக்குவிக்கப்படுகிறார்கள்."
 
 #: ../../about/process/issue-tracking.rst:117
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:23
@@ -610,11 +730,11 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Mir.rst:63
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
 msgid "Examples"
-msgstr ""
+msgstr "எடுத்துக்காட்டுகள்"
 
 #: ../../about/process/issue-tracking.rst:120
 msgid "Bug Lifecycle"
-msgstr ""
+msgstr "பிழை வாழ்க்கை சுழற்சி"
 
 #: ../../about/process/issue-tracking.rst:123
 msgid ""
@@ -622,16 +742,23 @@ msgid ""
 "**enhancement** instead of **bug**. **needs confirmation** is not applicable "
 "for feature requests."
 msgstr ""
+"அம்சக் கோரிக்கைகளுக்கு இதே கொள்கை பொருந்தும், அவை ** பிழை ** க்கு பதிலாக ** விரிவாக்கம்"
+" ** என்று பெயரிடப்படுகின்றன. ** உறுதிப்படுத்தல் தேவை ** அம்ச கோரிக்கைகளுக்கு "
+"பொருந்தாது."
 
 #: ../../about/process/issue-tracking.rst:127
 msgid "A *user* files a new bug using the issue-template."
 msgstr ""
+"ஒரு * பயனர் * வெளியீடு-தற்காலிகத்தைப் பயன்படுத்தி புதிய பிழையை தாக்கல் செய்கிறார்."
 
 #: ../../about/process/issue-tracking.rst:128
 msgid ""
 "The *QA-Team* labels it **needs confirmation** and tries to work with the "
 "user to confirm the bug and add potentially missing info to the report."
 msgstr ""
+"*QA-team*அதை லேபிளிடுகிறது ** உறுதிப்படுத்தல் தேவை ** மற்றும் பிழையை "
+"உறுதிப்படுத்தவும், காணாமல் போன தகவல்களை அறிக்கையில் சேர்க்கவும் பயனருடன் இணைந்து பணியாற்ற "
+"முயற்சிக்கிறது."
 
 #: ../../about/process/issue-tracking.rst:129
 msgid ""
@@ -639,12 +766,17 @@ msgid ""
 "issue will be put on the **awaiting-triage-list** of the project and the "
 "label needs confirmation will be replaced with **bug**."
 msgstr ""
+"அறிக்கை முடிந்ததும் ** குழு-லேபிள் ** சிக்கலில் சேர்க்கப்பட்டால், திட்டத்தின் ** "
+"காத்திருக்கும்-சோதனை-பட்டியல் ** இல் சிக்கல் வைக்கப்படும், மேலும் சிட்டை தேவைகள் "
+"உறுதிப்படுத்தல் ** பிழை ** உடன் மாற்றப்படும்."
 
 #: ../../about/process/issue-tracking.rst:130
 msgid ""
 "The affected *Team* triages the issue and either rejects (label **wontfix**, "
 "closes and removes from the project) or accepts the issue."
 msgstr ""
+"பாதிக்கப்பட்ட*குழு*சிக்கலை முக்கிந்து நிராகரிக்கிறது (லேபிள் ** wontfix **, "
+"திட்டத்திலிருந்து மூடப்பட்டு நீக்குகிறது) அல்லது சிக்கலை ஏற்றுக்கொள்கிறது."
 
 #: ../../about/process/issue-tracking.rst:131
 msgid ""
@@ -655,12 +787,20 @@ msgid ""
 "fix should be implemented if necessary). For non-critical issues trivial to "
 "fix, the label **good first issue** can be added as well."
 msgstr ""
+"இந்த சிக்கலை வீட்டிலேயே சரிசெய்யலாமா (\"ஏற்றுக்கொள்ளப்பட்ட\" மற்றும் ஒரு குழு உறுப்பினரை "
+"நியமிக்கவும்) அல்லது ஒரு சமூக உருவாக்குபவர் அதை எடுப்பதற்காக காத்திருக்கலாமா என்று குழு"
+" தீர்மானிக்கிறது (அதை லேபிளிடுவதன் மூலம் ** உதவி வேண்டும் **, திட்ட வாரியத்திலிருந்து "
+"அதை அகற்றி, சிக்கலை எவ்வாறு தீர்ப்பது என்பதற்கான குறிப்புகளை வழங்குதல் மற்றும் தேவைப்பட்டால் "
+"சரிசெய்தல் எவ்வாறு செயல்படுத்தப்பட வேண்டும் என்பது குறித்த விவரங்களை வழங்குதல்). முக்கியமா"
+"ன அல்லாத சிக்கல்களை சரிசெய்ய, ** நல்ல முதல் வெளியீடு ** சிட்டை சேர்க்கப்படலாம்."
 
 #: ../../about/process/issue-tracking.rst:132
 msgid ""
 "Once a *developer* is assigned and starts working on the issue, it is moved "
 "to \"In Development\"."
 msgstr ""
+"A * உருவாக்குபவர் * ஒதுக்கப்பட்டதும், பிரச்சினையில் வேலை செய்யத் தொடங்கியதும், அது "
+"\"வளர்ச்சியில்\" நகர்த்தப்படுகிறது."
 
 #: ../../about/process/issue-tracking.rst:133
 msgid ""
@@ -669,6 +809,9 @@ msgid ""
 "If necessary, the developer provides hints on how to test the patch in a "
 "comment on the issue."
 msgstr ""
+"காண்பிக்க ஏதேனும் கிடைத்தவுடன், சிக்கல் மூடப்பட்டு தானாகவே QA குழுவின் பின்னூட்டத்திற்காக "
+"\"தர உத்தரவாதத்திற்கு\" நகர்த்தப்படும். தேவைப்பட்டால், உருவாக்குபவர் பிரச்சினையில் ஒரு "
+"கருத்தில் இணைப்பை எவ்வாறு சோதிப்பது என்பது குறித்த குறிப்புகளை வழங்குகிறது."
 
 #: ../../about/process/issue-tracking.rst:134
 msgid ""
@@ -677,26 +820,34 @@ msgid ""
 "\"Accepted\", otherwise it is moved to \"Release Candidate\" for inclusion "
 "in the next release."
 msgstr ""
+"* QA-team * அனைத்து சாதனங்களிலும் பிழைத்திருத்தத்தை சோதித்து டெவலப்பருக்கு கருத்துக்களை "
+"வழங்குகிறது. சிக்கல்கள் கண்டறிந்தால், சிக்கல் மீண்டும் திறக்கப்பட்டு மீண்டும் "
+"\"ஏற்றுக்கொள்ளப்பட்டதாக\" செல்கிறது, இல்லையெனில் அடுத்த வெளியீட்டில் சேர்ப்பதற்காக "
+"\"வேட்பாளரை விடுவிப்பதற்காக\" நகர்த்தப்படுகிறது."
 
 #: ../../about/process/issue-tracking.rst:135
 msgid ""
 "If not done already, the issue is added to the next milestone, which once "
 "released removes the issue from the project board."
 msgstr ""
+"ஏற்கனவே செய்யப்படாவிட்டால், சிக்கல் அடுத்த மைல்கல்லில் சேர்க்கப்படுகிறது, இது "
+"வெளியிடப்பட்டதும் திட்ட வாரியத்திலிருந்து சிக்கலை நீக்குகிறது."
 
 #: ../../about/process/release-schedule.rst:2
 msgid "Release Schedule"
-msgstr ""
+msgstr "வெளியீட்டு அட்டவணை"
 
 #: ../../about/process/release-schedule.rst:3
 msgid ""
 "Ubuntu Touch has four software update channels: Stable, Release Candidate, "
 "Devel, and Edge."
 msgstr ""
+"உபுண்டு டச் நான்கு மென்பொருள் புதுப்பிப்பு சேனல்களைக் கொண்டுள்ளது: நிலையான, வெளியீட்டு "
+"வேட்பாளர், டெவெல் மற்றும் எட்ச்."
 
 #: ../../about/process/release-schedule.rst:6
 msgid "Stable Channel"
-msgstr ""
+msgstr "நிலையான சேனல்"
 
 #: ../../about/process/release-schedule.rst:7
 msgid ""
@@ -706,10 +857,15 @@ msgid ""
 "Releases are ready when they're ready. Stable releases should not introduce "
 "new bugs or ship very incomplete features."
 msgstr ""
+"** இது மிகவும் நம்பகமான வெளியீட்டு சேனலாகும். ** புதிய அம்சங்களை விட ச்திரத்தன்மையை "
+"விரும்பும் பயனர்களுக்கு இது பரிந்துரைக்கப்படுகிறது. பொதுவாக நிலையானது ஒவ்வொரு பல "
+"வாரங்களுக்கும் OTA (காற்றுக்கு மேல்) புதுப்பிப்புகளைப் பெறுகிறது. ஆனால் உறுதியான அட்டவணை"
+" எதுவும் இல்லை. வெளியீடுகள் தயாராக இருக்கும்போது தயாராக உள்ளன. நிலையான வெளியீடுகள் "
+"புதிய பிழைகள் அல்லது கப்பல் மிகவும் முழுமையற்ற அம்சங்களை அறிமுகப்படுத்தக்கூடாது."
 
 #: ../../about/process/release-schedule.rst:15
 msgid "Release Candidate (RC) Channel"
-msgstr ""
+msgstr "வெளியீட்டு வேட்பாளர் (ஆர்.சி) சேனலை"
 
 #: ../../about/process/release-schedule.rst:16
 msgid ""
@@ -719,10 +875,15 @@ msgid ""
 "does not depend on your phone, and you can live with some downtime - RC is "
 "for you. It does get updates generally every week."
 msgstr ""
+"** இது ஒப்பீட்டளவில் நிலையானது, ஆனால் எப்போதாவது பிழைகள் இருக்கலாம். ** இந்த சேனல் "
+"நிலையான சேனலுக்கு அம்சங்களை வெளியிடுவதற்கு முன்பு கடைசி சோதனைகளைச் செய்வதற்காகவே. "
+"நீங்கள் அம்சங்களை விரைவாக விரும்பினால், நீங்கள் சோதிக்க உதவ விரும்பினால், ஆனால் உங்கள் வாழ்க்கை"
+" உங்கள் தொலைபேசியைப் பொறுத்தது அல்ல, மேலும் நீங்கள் சில வேலையில்லா நேரத்துடன் வாழலாம் - "
+"ஆர்.சி உங்களுக்கானது. இது பொதுவாக ஒவ்வொரு வாரமும் புதுப்பிப்புகளைப் பெறுகிறது."
 
 #: ../../about/process/release-schedule.rst:22
 msgid "Devel Channel"
-msgstr ""
+msgstr "டெவெல் சேனல்"
 
 #: ../../about/process/release-schedule.rst:23
 msgid ""
@@ -731,10 +892,14 @@ msgid ""
 "use Devel if you can't live with the fact that new features might break "
 "things. Updates come if something has changed - so frequency can be daily."
 msgstr ""
+"** இங்குதான் புதிய நற்பொருத்தங்கள் முதல் சோதனைக்கு இறங்குகின்றன. ** வெளியிடப்படுவதற்கு "
+"முன்பு மாற்றங்கள் சரிபார்க்கப்பட்டாலும், பிழைகள் எதிர்பார்க்கப்பட வேண்டும். புதிய நற்பொருத்தங்கள்"
+" விசயங்களை உடைக்கக்கூடும் என்ற உண்மையுடன் நீங்கள் வாழ முடியாவிட்டால் டெவலைப் பயன்படுத்த "
+"வேண்டாம். ஏதேனும் மாறிவிட்டால் புதுப்பிப்புகள் வரும் - எனவே அதிர்வெண் நாள்தோறும் இருக்கும்."
 
 #: ../../about/process/release-schedule.rst:29
 msgid "Edge Channel"
-msgstr ""
+msgstr "எட்ச் சேனல்"
 
 #: ../../about/process/release-schedule.rst:30
 msgid ""
@@ -745,10 +910,14 @@ msgid ""
 "used at all. Basically, if you need to ask what's in Edge, then it is not "
 "for you."
 msgstr ""
+"** இங்குதான் டிராகன்கள் வசிக்கின்றன. இந்த சேனலை நீங்கள் தினமும் பயன்படுத்தும் தொலைபேசியில் "
+"அமைக்க வேண்டாம். டெவலப்பர்களுக்கு சிந்தனைகள் நிகழும்போது புதுப்பிப்புகள் வந்துள்ளன. சில "
+"நேரங்களில் மிகவும் அடிக்கடி, சில நேரங்களில் சேனல் பயன்படுத்தப்படாது. அடிப்படையில், "
+"விளிம்பில் என்ன இருக்கிறது என்று நீங்கள் கேட்க வேண்டும் என்றால், அது உங்களுக்காக அல்ல."
 
 #: ../../about/process/security-vulnerabilities.rst:2
 msgid "Security vulnerabilities"
-msgstr ""
+msgstr "பாதுகாப்பு பாதிப்புகள்"
 
 #: ../../about/process/security-vulnerabilities.rst:4
 msgid ""
@@ -760,16 +929,26 @@ msgid ""
 "work with the reported issue. We might contact you via the issue if there is "
 "additional information needed. And we'll determine the disclosure."
 msgstr ""
+"பாதுகாப்பு பாதிப்புகளை நாங்கள் தீவிரமாக எடுத்துக்கொள்கிறோம். நீங்கள் ஒன்றைக் கண்டறிந்தால், "
+"அதைப் புகாரளிப்பதற்கான சிறந்த வழி, எங்கள் `பிழை டிராக்கர் <https://gitlab.com/"
+"ubports/ubuntu-touch>` _ இல் ஒரு ரகசிய சிக்கலை உருவாக்குவதாகும். சிக்கலை உருவாக்கும்"
+" போது \"இந்த சிக்கல் ரகசியமானது மற்றும் குறைந்தபட்சம் நிருபர் அணுகலுடன் குழு "
+"உறுப்பினர்களுக்கு மட்டுமே தெரியும்\" என்பதை நீங்கள் தேர்ந்தெடுத்துள்ளீர்கள் என்பதை "
+"உறுதிப்படுத்திக் கொள்ளுங்கள். அதன்பிறகு, அறிக்கையிடப்பட்ட சிக்கலுடன் நாங்கள் பணியாற்றுவோம். "
+"கூடுதல் தகவல்கள் தேவைப்பட்டால் நாங்கள் உங்களைத் தொடர்பு கொள்ளலாம். மேலும் வெளிப்படுத்தலை "
+"நாங்கள் தீர்மானிப்போம்."
 
 #: ../../about/process/security-vulnerabilities.rst:7
 msgid "How to handle a security fix"
-msgstr ""
+msgstr "பாதுகாப்பு பிழைத்திருத்தத்தை எவ்வாறு கையாள்வது"
 
 #: ../../about/process/security-vulnerabilities.rst:9
 msgid ""
 "For UBports development members, these are recommended steps to handle "
 "fixing the issue without disclosing to public before the fix is ready:"
 msgstr ""
+"யுபோர்ட்ச் மேம்பாட்டு உறுப்பினர்களைப் பொறுத்தவரை, பிழைத்திருத்தம் தயாராக இருப்பதற்கு முன்பு "
+"பொதுமக்களுக்கு வெளிப்படுத்தாமல் சிக்கலை சரிசெய்வதைக் கையாள பரிந்துரைக்கப்பட்ட நடவடிக்கைகள்:"
 
 #: ../../about/process/security-vulnerabilities.rst:11
 msgid ""
@@ -777,18 +956,25 @@ msgid ""
 "fork from the main project to the same namespace, but set the visibility to "
 "private."
 msgstr ""
+"ஒரு முதன்மையான ரெப்போவைக் கொடுத்தால், `` <திட்டம்> .secfix`` ரெப்போ இருப்பதை உறுதிசெய்"
+"க. இல்லையென்றால், முதன்மையான திட்டத்திலிருந்து அதே பெயர்வெளிக்கு முட்கரண்டி, ஆனால் "
+"தெரிவுநிலையை தனிப்பட்டதாக அமைக்கவும்."
 
 #: ../../about/process/security-vulnerabilities.rst:13
 msgid ""
 "The ``.secfix`` suffix will prevent CI from touching this repo, preventing "
 "the repo from leaking."
 msgstr ""
+"`` .Secfix`` பின்னொட்டு தொஒ இந்த ரெப்போவைத் தொடுவதைத் தடுக்கும், ரெப்போ கசிந்து கொள்வதைத்"
+" தடுக்கும்."
 
 #: ../../about/process/security-vulnerabilities.rst:15
 msgid ""
 "If there isn't an issue for it already, create a confidential issue on the "
 "main project."
 msgstr ""
+"அதற்கு ஏற்கனவே ஒரு சிக்கல் இல்லையென்றால், முதன்மையான திட்டத்தில் ஒரு ரகசிய சிக்கலை "
+"உருவாக்கவும்."
 
 #: ../../about/process/security-vulnerabilities.rst:16
 msgid ""
@@ -796,18 +982,25 @@ msgid ""
 "and the source branch appropriately. Then, push to this branch from your "
 "local Git tree."
 msgstr ""
+"சிக்கலில், \"ரகசிய ஒன்றிணைப்பு கோரிக்கையை உருவாக்கு\" ஐப் பயன்படுத்தவும். கிளை பெயர் "
+"மற்றும் மூல கிளையை சரியான முறையில் அமைக்கவும். பின்னர், உங்கள் உள்ளக அறிவிலி "
+"மரத்திலிருந்து இந்த கிளைக்கு தள்ளுங்கள்."
 
 #: ../../about/process/security-vulnerabilities.rst:18
 msgid ""
 "This MR will target the ``.secfix`` repo, NOT the main repo [1]_. This "
 "allows reviewing the patch to happen in private."
 msgstr ""
+"இந்த எம்.ஆர் `` .secfix`` ரெப்போவை குறிவைக்கும், முதன்மையான ரெப்போ அல்ல [1] _. இது "
+"பேட்சை மதிப்பாய்வு செய்ய அனுமதிக்கிறது."
 
 #: ../../about/process/security-vulnerabilities.rst:20
 msgid ""
 "Another developer then reviews and merges the merge request. If backport is "
 "needed, it must also happen in the ``.secfix`` fork."
 msgstr ""
+"மற்றொரு உருவாக்குபவர் பின்னர் ஒன்றிணைக்கும் கோரிக்கையை மதிப்பாய்வு செய்து இணைக்கிறார். "
+"பேக்போர்ட் தேவைப்பட்டால், அது `` .secfix`` ஃபோர்க்கிலும் நடக்க வேண்டும்."
 
 #: ../../about/process/security-vulnerabilities.rst:22
 msgid ""
@@ -815,6 +1008,9 @@ msgid ""
 "reviewer's responsibility to ensure that the code will compile, pass tests, "
 "and is tested locally."
 msgstr ""
+"எங்களிடம் இன்னும் ரகசிய தொஒ இல்லை என்பதால், குறியீடு தொகுத்தல், சோதனைகளை அனுப்பும், மற்றும்"
+" உள்நாட்டில் சோதிக்கப்படும் என்பதை உறுதிப்படுத்துவது உருவாக்குபவர் மற்றும் மதிப்பாய்வாளரின் "
+"பொறுப்பு."
 
 #: ../../about/process/security-vulnerabilities.rst:24
 msgid ""
@@ -823,6 +1019,10 @@ msgid ""
 "main repo. After that, the confidential issue is marked unconfidential. This "
 "makes the issue public for the first time."
 msgstr ""
+"வெளியீட்டு வேட்பாளரின் வெளியீட்டு தேதிக்கு 1 நாள் முன்பு, ஒரு உருவாக்குபவர் (வழக்கமாக "
+"வெளியீட்டு மேலாளர்) `` .secfix`` ரெப்போவின் அனைத்து கிளைகளையும் முதன்மையான ரெப்போவுடன் "
+"இணைக்கிறார். அதன் பிறகு, ரகசிய சிக்கல் இணக்கமற்றது என்று குறிக்கப்பட்டுள்ளது. இது முதல் "
+"முறையாக பிரச்சினையை பகிரங்கப்படுத்துகிறது."
 
 #: ../../about/process/security-vulnerabilities.rst:26
 msgid ""
@@ -830,71 +1030,80 @@ msgid ""
 "merge result actually passes CI and that at least the basic functionality of "
 "this component is not broken."
 msgstr ""
+"இந்த கட்டத்தில், ஒன்றிணைப்பு முடிவு உண்மையில் தொஒ ஐ கடந்து செல்வதை உறுதி செய்வது இந்த "
+"டெவலப்பரின் பொறுப்பாகும், மேலும் இந்த கூறுகளின் அடிப்படை செயல்பாடு உடைக்கப்படவில்லை."
 
 #: ../../about/process/security-vulnerabilities.rst:28
 msgid ""
 "The release manager will ensure that the fix actually lands in the daily "
 "image before choosing such image as an RC."
 msgstr ""
+"ஆர்.சி போன்ற படத்தைத் தேர்ந்தெடுப்பதற்கு முன்பு பிழைத்திருத்தம் உண்மையில் நாள்தோறும் படத்தில் "
+"இறங்குவதை வெளியீட்டு மேலாளர் உறுதி செய்வார்."
 
 #: ../../about/process/security-vulnerabilities.rst:29
 msgid ""
 "Before the release date, the fixing developer will prepare the security "
 "advisory, containing (the list is inspired by Curl's advisories [2]_):"
 msgstr ""
+"வெளியீட்டு தேதிக்கு முன், சரிசெய்தல் உருவாக்குபவர் பாதுகாப்பு ஆலோசனையைத் தயாரிப்பார், "
+"இதில் (பட்டியல் கர்லின் ஆலோசனைகளால் ஈர்க்கப்பட்டுள்ளது [2] _):"
 
 #: ../../about/process/security-vulnerabilities.rst:32
 msgid "Vulnerability (how a user is vulnerable)"
-msgstr ""
+msgstr "பாதிப்பு (ஒரு பயனர் எவ்வாறு பாதிக்கப்படக்கூடியவர்)"
 
 #: ../../about/process/security-vulnerabilities.rst:33
 msgid "Info (how the vulnerable exists)"
-msgstr ""
+msgstr "செய்தி (பாதிக்கப்படக்கூடியது எவ்வாறு உள்ளது)"
 
 #: ../../about/process/security-vulnerabilities.rst:34
 msgid "Affected versions"
-msgstr ""
+msgstr "பாதிக்கப்பட்ட பதிப்புகள்"
 
 #: ../../about/process/security-vulnerabilities.rst:35
-#, fuzzy
 msgid "Solution"
-msgstr "அறிமுகம்"
+msgstr "நீர்மக்கூழ்"
 
 #: ../../about/process/security-vulnerabilities.rst:36
 msgid "Recommendations"
-msgstr ""
+msgstr "பரிந்துரைகள்"
 
 #: ../../about/process/security-vulnerabilities.rst:37
 msgid "Timeline"
-msgstr ""
+msgstr "காலவரிசை"
 
 #: ../../about/process/security-vulnerabilities.rst:38
 msgid "Credit"
-msgstr ""
+msgstr "கடன்"
 
 #: ../../about/process/security-vulnerabilities.rst:40
 msgid ""
 "At the release date, the security advisory will be published on the forum, "
 "in the \"OS > Security advisories\" section."
 msgstr ""
+"வெளியீட்டு தேதியில், பாதுகாப்பு அறிவுரை மன்றத்தில், \"OS> பாதுகாப்பு ஆலோசனைகள்\" "
+"பிரிவில் வெளியிடப்படும்."
 
 #: ../../about/process/security-vulnerabilities.rst:42
 msgid ""
 "https://docs.gitlab.com/ee/user/project/merge_requests/confidential."
 "html#create-a-confidential-merge-request"
 msgstr ""
+"https://docs.gitlab.com/ee/user/project/merge_requests/"
+"confidential.html#create-a-confidential-merge-request"
 
 #: ../../about/process/security-vulnerabilities.rst:43
 msgid "https://curl.se/docs/security.html"
-msgstr ""
+msgstr "https://curl.se/docs/security.html"
 
 #: ../../appdev/code-editor.rst:2
 msgid "Code editor integrations"
-msgstr ""
+msgstr "குறியீடு எடிட்டர் ஒருங்கிணைப்புகள்"
 
 #: ../../appdev/code-editor.rst:4
 msgid "QtCreator"
-msgstr ""
+msgstr "Qtcreator"
 
 #: ../../appdev/code-editor.rst:6
 msgid ""
@@ -903,10 +1112,14 @@ msgid ""
 "auto setup the project for you, you will have code completion and navigation "
 "for Ubuntu Touch components as well as run/debug facilities."
 msgstr ""
+"சொடுக்கு செய்யக்கூடிய கப்பல்துறை படத்தின் மேல் கிடைக்கிறது, `` சொடுக்கு செய்யக்கூடிய IDE "
+"QTCREATOR`` கட்டளை உங்கள் திட்ட கோப்பகத்திற்குள் ஒரு Qtcreator நிகழ்வைத் தொடங்கி "
+"உங்களுக்காக திட்டத்தை அமைக்கும், உபுண்டு தொடுதல் கூறுகள் மற்றும் ரன்/பிழைத்திருத்த "
+"வசதிகளுக்கான குறியீடு நிறைவு மற்றும் வழிசெலுத்தல் இருக்கும்."
 
 #: ../../appdev/code-editor.rst:8
 msgid "Ubuntu SDK ( Unmaintained )"
-msgstr ""
+msgstr "உபுண்டு எச்.டி.கே (மதிப்பிடப்படாதது)"
 
 #: ../../appdev/code-editor.rst:10
 msgid ""
@@ -915,47 +1128,60 @@ msgid ""
 "Canonical, and UBports has chosen to not support it either due to lack of "
 "manpower."
 msgstr ""
+"மாற்றாக பழைய `உபுண்டு எச்.டி.கே ஐடி <https://docs.ubuntu.com/phone/en/platform/"
+"sdk> __. இது இனி நியமனத்தால் ஆதரிக்கப்படாது என்பதை அறிந்து கொள்ளுங்கள், மேலும் "
+"மனிதவளத்தின் பற்றாக்குறை காரணமாக அதை ஆதரிக்க வேண்டாம் என்று யுபோர்ட்ச் தேர்வு செய்துள்ளார்."
 
 #: ../../appdev/code-editor.rst:12
 msgid ""
 "You can still install the SDK IDE in Ubuntu 16.04, but it is not guaranteed "
 "to work correctly. You can use the following commands to install::"
 msgstr ""
+"நீங்கள் இன்னும் SDK IDE ஐ உபுண்டு 16.04 இல் நிறுவலாம், ஆனால் சரியாக வேலை செய்வதற்கு "
+"பொறுப்பு இல்லை. நிறுவ பின்வரும் கட்டளைகளைப் பயன்படுத்தலாம் ::"
 
 #: ../../appdev/external-docs.rst:2
 msgid "API docs"
-msgstr ""
+msgstr "பநிஇ டாக்ச்"
 
 #: ../../appdev/external-docs.rst:4
 msgid ""
 "In this section you find the various APIs you can use to develop Ubuntu "
 "Touch apps."
 msgstr ""
+"இந்த பிரிவில் உபுண்டு டச் பயன்பாடுகளை உருவாக்க நீங்கள் பயன்படுத்தக்கூடிய பல்வேறு பநிஇ களை "
+"நீங்கள் காணலாம்."
 
 #: ../../appdev/external-docs.rst:6
 msgid ""
 "Firstly there are the QML and HTML APIs that you can use for the front end:"
 msgstr ""
+"முதலில் நீங்கள் முன் இறுதியில் பயன்படுத்தக்கூடிய QML மற்றும் உஉகுமொ பநிஇ கள் உள்ளன:"
 
 #: ../../appdev/external-docs.rst:8
 msgid "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
-msgstr ""
+msgstr "`Qml பநிஇ <https://api-docs.ubports.com/sdk/apps/qml/index.html> ____"
 
 #: ../../appdev/external-docs.rst:9
 msgid "`All 5.12 QML types <https://doc.qt.io/qt-5.12/qmltypes.html>`__"
 msgstr ""
+"`அனைத்து 5.12 QML வகைகளும் <https://doc.qt.io/qt-5.12/qmltypes.html>` __"
 
 #: ../../appdev/external-docs.rst:10
 msgid ""
 "`Cordova HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/index."
 "html>`__"
 msgstr ""
+"`கோர்டோவா html5 தேனீக்கள் <https://api-docs.ubports.com/sdk/apps/html5/"
+"index.html> ____"
 
 #: ../../appdev/external-docs.rst:12
 msgid ""
 "Secondly, the platform documentation describes how to integrate your app "
 "into the system:"
 msgstr ""
+"இரண்டாவதாக, உங்கள் பயன்பாட்டை கணினியில் எவ்வாறு ஒருங்கிணைப்பது என்பதை மேடையில் ஆவணங்கள் "
+"விவரிக்கிறது:"
 
 #: ../../appdev/external-docs.rst:19
 msgid ""
@@ -964,24 +1190,31 @@ msgid ""
 "apps for Ubuntu Touch. If running on other operating systems is a "
 "requirement for your app, you can refer to these APIs instead:"
 msgstr ""
+"மூன்றாவதாக, உபுண்டு குறிப்பிட்ட பநிஇ களைச் சார்ந்து இல்லாத குறுக்கு-தளம் பயன்பாடுகளை "
+"உருவாக்க முடியும், இருப்பினும் இது உபுண்டு தொடுதலுக்கான பயன்பாடுகளை உருவாக்குவதற்கான "
+"அதிகாரப்பூர்வ வழி அல்ல. பிற இயக்க முறைமைகளில் இயங்குவது உங்கள் பயன்பாட்டிற்கான தேவையாக "
+"இருந்தால், அதற்கு பதிலாக இந்த பநிஇ களை நீங்கள் குறிப்பிடலாம்:"
 
 #: ../../appdev/external-docs.rst:21
 msgid "`Kirigami API <https://api.kde.org/frameworks/kirigami/html/>`__"
 msgstr ""
+"`கியாகாமி தியா п/படுக்கைகள்: /ba.kde.org/frameworks/kipigami/html/> __ __ __"
 
 #: ../../appdev/external-docs.rst:22
 msgid ""
 "`Qt Quick Controls 2 API <https://doc.qt.io/qt-5/qtquickcontrols-index."
 "html>`__"
 msgstr ""
+"`QT விரைவு கட்டுப்பாடுகள் 2 பநிஇ <https://doc.qt.io/qt-5/qtquickcontrols-"
+"index.html> ____ __ __"
 
 #: ../../appdev/guides/contenthub.rst:4
 msgid "The content hub - tips and tricks"
-msgstr ""
+msgstr "உள்ளடக்க நடுவண் - உதவிக்குறிப்புகள் மற்றும் தந்திரங்கள்"
 
 #: ../../appdev/guides/contenthub.rst:9
 msgid "Content Hub Share Page"
-msgstr ""
+msgstr "உள்ளடக்க நடுவண் பகிர்வு பக்கம்"
 
 #: ../../appdev/guides/contenthub.rst:11
 msgid ""
@@ -989,10 +1222,13 @@ msgid ""
 "is through the Content Hub, a part of the system that takes care of file "
 "import, export and sharing."
 msgstr ""
+"உபுண்டு தொடுதலில் பயன்பாடுகள் கட்டுப்படுத்தப்பட்டுள்ளன. அவற்றுக்கு இடையில் கோப்புகளைப் "
+"பகிர்வதற்கான வழி, கோப்பு இறக்குமதி, ஏற்றுமதி மற்றும் பகிர்வு ஆகியவற்றை கவனித்துக்கொள்ளும் "
+"அமைப்பின் ஒரு பகுதியான உள்ளடக்க மையத்தின் மூலம்."
 
 #: ../../appdev/guides/contenthub.rst:14
 msgid "Different ways of sharing the content"
-msgstr ""
+msgstr "உள்ளடக்கத்தைப் பகிர்வதற்கான வெவ்வேறு வழிகள்"
 
 #: ../../appdev/guides/contenthub.rst:16
 msgid ""
@@ -1000,32 +1236,41 @@ msgid ""
 "com/sdk/apps/qml/Ubuntu.Content/ContentHandler.html#detailed-description>`_, "
 "there are several ways of handling the file to be shared:"
 msgstr ""
+"`உள்ளடக்க மைய ஆவணத்தில் <https://api-docs.ubports.com/sdk/apps/qml/"
+"ubuntu.content/contenthandler.html#detailed-description>` _, கோப்பை கையாண்டுள்ள "
+"பல வழிகள் பகிரப்பட வேண்டும் என நாம் காணலாம்:"
 
 #: ../../appdev/guides/contenthub.rst:18
 msgid ""
 "``ContentHandler.Source`` (The selected app will provide a file to be "
 "imported)"
 msgstr ""
+"`` ContentHandler.source`` (தேர்ந்தெடுக்கப்பட்ட பயன்பாடு இறக்குமதி செய்ய வேண்டிய கோப்பை"
+" வழங்கும்)"
 
 #: ../../appdev/guides/contenthub.rst:19
 msgid ""
 "``ContentHandler.Destination`` (The selected app will be the destination for "
 "the exported file)"
 msgstr ""
+"`` ContentHandler.Destinatination`` (தேர்ந்தெடுக்கப்பட்ட பயன்பாடு ஏற்றுமதி செய்யப்பட்ட "
+"கோப்பிற்கான இடமாக இருக்கும்)"
 
 #: ../../appdev/guides/contenthub.rst:20
 msgid ""
 "``ContentHandler.Share`` (The selected app will be the destination for the "
 "exported file, which will then be shared externally)"
 msgstr ""
+"`` ContentHandler.share`` (தேர்ந்தெடுக்கப்பட்ட பயன்பாடு ஏற்றுமதி செய்யப்பட்ட கோப்பிற்கான "
+"இடமாக இருக்கும், பின்னர் அது வெளிப்புறமாக பகிரப்படும்)"
 
 #: ../../appdev/guides/contenthub.rst:28
 msgid "Importing"
-msgstr ""
+msgstr "இறக்குமதி"
 
 #: ../../appdev/guides/contenthub.rst:33
 msgid "Webapp Creator on the OpenStore"
-msgstr ""
+msgstr "ஓபன்ச்டோரில் வெப்ஆப் உருவாக்கியவர்"
 
 #: ../../appdev/guides/contenthub.rst:35
 msgid ""
@@ -1035,10 +1280,15 @@ msgid ""
 "Creator source code <https://gitlab.com/cibersheep/webapp-creator/blob/"
 "master/webapp-creator/app/ImportPage.qml#L38>`_)"
 msgstr ""
+"வெப்ஆப் படைப்பாளரின் குறியீட்டைப் பார்க்கும்போது, ஐகானாகப் பயன்படுத்தப்பட வேண்டிய படத்தை "
+"இறக்குமதி செய்வதற்கான குறியீட்டைக் கண்டுபிடிப்போம். இடத்தை வைத்திருப்பவரைத் தட்டுவது படத்தை "
+"எங்கிருந்து இறக்குமதி செய்ய வேண்டும் என்பதைத் தேர்வுசெய்யும் உள்ளடக்க மையத்தைத் திறக்கும் "
+"(`வெப்ஆப் கிரியேட்டர் மூலக் குறியீட்டைக் காண்க <https://gitlab.com/cibersheep/"
+"webapp-crieator/blob/master/webapp-creator/app/importpage.qml#38>` _ _)"
 
 #: ../../appdev/guides/contenthub.rst:46
 msgid "``ContentPeerPicker`` is the element that shows the apps."
-msgstr ""
+msgstr "`` ContentPeerPicker`` என்பது பயன்பாடுகளைக் காட்டும் உறுப்பு."
 
 #: ../../appdev/guides/contenthub.rst:52
 msgid ""
@@ -1048,14 +1298,20 @@ msgid ""
 "``handler`` is passed in the same line as ContentHandler.Source. As we want "
 "to import an image from the app selected in the Content Hub."
 msgstr ""
+"`` ContentType`` `main.qml <https://gitlab.com/cibersheep/webapp-creator/"
+"blob/master/webapp-creator/app/main.qml#l118>` _ அச் contantype.pictures இல் "
+"அனுப்பப்படுகிறது. எனவே, படங்களை மட்டுமே இறக்குமதி செய்யக்கூடிய பயன்பாடுகளை மட்டுமே "
+"பார்ப்போம். `` ஏண்ட்லர்`` ContentHandler.source இன் அதே வரியில் அனுப்பப்படுகிறது. உள்ளடக்"
+"க மையத்தில் தேர்ந்தெடுக்கப்பட்ட பயன்பாட்டிலிருந்து ஒரு படத்தை இறக்குமதி செய்ய "
+"விரும்புகிறோம்."
 
 #: ../../appdev/guides/contenthub.rst:55
 msgid "Exporting"
-msgstr ""
+msgstr "ஏற்றுமதி"
 
 #: ../../appdev/guides/contenthub.rst:60
 msgid "Gelek in the OpenStore"
-msgstr ""
+msgstr "ஓபன்ச்டோரில் கெலெக்"
 
 #: ../../appdev/guides/contenthub.rst:62
 msgid ""
@@ -1063,12 +1319,17 @@ msgid ""
 "our device or share with ourselves (in Telegram and then save them to our "
 "computer)."
 msgstr ""
+"கெலெக்கில், நாங்கள் எங்கள் சாதனத்தில் சேமிக்க விரும்பும் சில சேமித்த விளையாட்டுகளுடன் "
+"முடிவுக்கு வரப்போகிறோம் அல்லது நம்முடன் பகிர்ந்து கொள்ளலாம் (டெலிகிராமில் அவற்றை எங்கள் "
+"கணினியில் சேமிக்கவும்)."
 
 #: ../../appdev/guides/contenthub.rst:66
 msgid ""
 "Tapping on the download icon we will get a Content Hub to *save* the game "
 "file (which is actually an export)."
 msgstr ""
+"பதிவிறக்க ஐகானைத் தட்டினால், விளையாட்டு கோப்பை * சேமிக்க * உள்ளடக்க மையத்தைப் பெறுவோம் "
+"(இது உண்மையில் ஏற்றுமதி)."
 
 #: ../../appdev/guides/contenthub.rst:68
 msgid ""
@@ -1076,6 +1337,10 @@ msgid ""
 "we are sending a file of type ``All`` (`see the Install Page code <https://"
 "gitlab.com/cibersheep/gelek/blob/master/app/InstallPage.qml#L38>`_)."
 msgstr ""
+"விளையாட்டு கோப்பு `` glksave`` வகை கோப்பு. `` அனைத்தையும்` 'என்ற வகையின் கோப்பை நாங்கள்"
+" அனுப்புகிறோம் என்று உள்ளடக்க மையமாகக் கூறுவோம் (`நிறுவும் பக்கக் குறியீட்டைக் காண்க "
+"<https://gitlab.com/cibersheep/gelek/blob/master/app/installpage.qml#l38>` "
+"_)."
 
 #: ../../appdev/guides/contenthub.rst:81
 msgid ""
@@ -1083,16 +1348,22 @@ msgid ""
 "able to receive unmarked file types. ``handler`` is ``ContentHandler."
 "Destination``, so the app selected should store the saved game."
 msgstr ""
+"`` ContentType`` என்பது `` ContentType.all``, எனவே குறிக்கப்படாத கோப்பு வகைகளைப் "
+"பெறக்கூடிய பயன்பாடுகளை மட்டுமே நாங்கள் காண்போம். `` ஏண்ட்லர்`` என்பது `` "
+"ContentHandler.destinatination``, எனவே தேர்ந்தெடுக்கப்பட்ட பயன்பாடு சேமித்த "
+"விளையாட்டை சேமிக்க வேண்டும்."
 
 #: ../../appdev/guides/contenthub.rst:83
 msgid ""
 "Tapping on the File Manager we will save the saved game in the folder we "
 "choose."
 msgstr ""
+"கோப்பு மேலாளரைத் தட்டினால், சேமித்த விளையாட்டை நாங்கள் தேர்ந்தெடுக்கும் கோப்புறையில் "
+"சேமிப்போம்."
 
 #: ../../appdev/guides/contenthub.rst:86
 msgid "Sharing"
-msgstr ""
+msgstr "பகிர்வு"
 
 #: ../../appdev/guides/contenthub.rst:88
 msgid ""
@@ -1103,46 +1374,57 @@ msgid ""
 "the destination app may share the content externally (for example, over "
 "Telegram or text message)."
 msgstr ""
+"இதேபோல், சேர் ஐகானைத் தட்டுவது டெலிகிராம் மூலம் சேமித்த விளையாட்டை நாமே அனுப்ப "
+"அனுமதிக்கும் (`வெப்ஆப் கிரியேட்டர் இறக்குமதி பக்க மூலக் குறியீட்டைக் காண்க <https://"
+"gitlab.com/cibersheep/webapp-creator/blob/master/webapp-creator/"
+"iproatpage.qmll> kmoptage.qml> பகிர்வு ஏற்றுமதிக்கு ஒத்ததாகும், தவிர இலக்கு பயன்பாடு"
+" உள்ளடக்கத்தை வெளிப்புறமாக பகிர்ந்து கொள்ளலாம் (எடுத்துக்காட்டாக, தந்தி அல்லது உரை செய்தி "
+"வழியாக)."
 
 #: ../../appdev/guides/contenthub.rst:101
 msgid ""
 "The only difference between this and the previous code is that ``handler`` "
 "is ``ContentHandler.Share``."
 msgstr ""
+"இதற்கும் முந்தைய குறியீட்டிற்கும் உள்ள ஒரே வேறுபாடு என்னவென்றால், `` ஏண்ட்லர்`` என்பது `` "
+"ContentHandler.share``."
 
 #: ../../appdev/guides/contenthub.rst:104
 msgid "Wait a minute. Why the different apps?"
-msgstr ""
+msgstr "ஒரு மணித்துளி காத்திருங்கள். வெவ்வேறு பயன்பாடுகள் ஏன்?"
 
 #: ../../appdev/guides/contenthub.rst:109
 msgid "Content Hub: Export vs Share"
-msgstr ""
+msgstr "உள்ளடக்க மையம்: ஏற்றுமதி vs பங்கு"
 
 #: ../../appdev/guides/contenthub.rst:111
 msgid ""
 "Each developer can decide the rules each app would follow in relation to the "
 "Content Hub. Why the OpenStore is shown as the destination of an export?"
 msgstr ""
+"உள்ளடக்க மையத்துடன் ஒவ்வொரு பயன்பாடும் பின்பற்றும் விதிகளை ஒவ்வொரு டெவலப்பரும் தீர்மானிக்க "
+"முடியும். ஓபன்ச்டோர் ஏன் ஏற்றுமதியின் இலக்காகக் காட்டப்படுகிறது?"
 
 #: ../../appdev/guides/contenthub.rst:113
 msgid "Let’s check its manifest.json"
-msgstr ""
+msgstr "அதன் Manifest.json ஐ சரிபார்க்கலாம்"
 
 #: ../../appdev/guides/contenthub.rst:126
 msgid ""
 "The above code defines that the hooks for the app named ``\"openstore\"`` in "
 "relation to the ``\"content-hub\"`` should follow the rules defined in "
 "``openstore-contenthub.json``"
-msgstr ""
+msgstr "`` \"உள்ளடக்க-அப்\" `` `` OpenStore-conthub.json``"
 
 #: ../../appdev/guides/contenthub.rst:136
 msgid ""
 "This means, the OpenStore will be the destination for *all* ``ContentTypes``."
 msgstr ""
+"இதன் பொருள், ஓபன்ச்டோர் * அனைத்து * `` ContentTypes`` க்கான இடமாக இருக்கும்."
 
 #: ../../appdev/guides/contenthub.rst:138
 msgid "What about uMatriks? Let’s see its ``content-hub.json``"
-msgstr ""
+msgstr "உமாத்ரிக்ச் பற்றி என்ன? அதன் `` உள்ளடக்க-HUB.JSON`` ஐப் பார்ப்போம்"
 
 #: ../../appdev/guides/contenthub.rst:166
 msgid ""
@@ -1150,10 +1432,13 @@ msgid ""
 "and share app for all kinds of ``ContentType``. What about the other hooks "
 "in the ``manifest.json``? That is discussed in the next guide."
 msgstr ""
+"எனவே, இந்த எடுத்துக்காட்டுடன், உமாட்ரிக்ச் அனைத்து வகையான `` உள்ளடக்க வகை`` என்பதற்கும் "
+"இலக்கு, மூலமாக மற்றும் பகிர்வு பயன்பாடாக இருக்க முடியும். `` Manifest.json`` இல் உள்ள "
+"மற்ற கொக்கிகள் பற்றி என்ன? அது அடுத்த வழிகாட்டியில் விவாதிக்கப்படுகிறது."
 
 #: ../../appdev/guides/dependencies.rst:2
 msgid "Handle C++ dependencies with Clickable"
-msgstr ""
+msgstr "C ++ சார்புகளை சொடுக்கு செய்யக்கூடியதாகக் கையாளவும்"
 
 #: ../../appdev/guides/dependencies.rst:4
 msgid ""
@@ -1161,11 +1446,14 @@ msgid ""
 "the app needs to ship it inside the click package. This guide shows how this "
 "can be done with Clickable."
 msgstr ""
+"ஒரு பயன்பாடு உபுண்டு டச்சில் முன்பே நிறுவப்படாத ஒரு நூலகத்தைப் பொறுத்தது என்றால், "
+"பயன்பாடு அதை சொடுக்கு தொகுப்புக்குள் அனுப்ப வேண்டும். சொடுக்கு செய்யக்கூடிய மூலம் இதை "
+"எவ்வாறு செய்ய முடியும் என்பதை இந்த வழிகாட்டி காட்டுகிறது."
 
 #: ../../appdev/guides/dependencies.rst:7
 #: ../../porting/build_and_boot/index.rst:11
 msgid "Building"
-msgstr ""
+msgstr "கட்டிடம்"
 
 #: ../../appdev/guides/dependencies.rst:8
 msgid ""
@@ -1174,10 +1462,14 @@ msgid ""
 "control over the whole process and may lead to better results (e.g. better "
 "performance or smaller package sizes)."
 msgstr ""
+"சில நேரங்களில் நூலகங்கள் முன்பே கட்டப்பட்டுள்ளன, இது உருவாக்க படிநிலையைத் தவிர்க்க உங்களை "
+"அனுமதிக்கிறது. உங்கள் சார்புநிலையைத் தொகுத்தல் பரிந்துரைக்கப்படுகிறது, ஏனெனில் இது முழு "
+"செயல்முறையிலும் உங்களுக்கு கூடுதல் கட்டுப்பாட்டை அளிக்கிறது மற்றும் சிறந்த முடிவுகளுக்கு "
+"வழிவகுக்கும் (எ.கா. சிறந்த செயல்திறன் அல்லது சிறிய தொகுப்பு அளவுகள்)."
 
 #: ../../appdev/guides/dependencies.rst:11
 msgid "Compilation"
-msgstr ""
+msgstr "தொகுப்பு"
 
 #: ../../appdev/guides/dependencies.rst:12
 msgid ""
@@ -1187,24 +1479,33 @@ msgid ""
 "is a good idea to add it as a `git submodule <https://git-scm.com/book/de/v1/"
 "Git-Tools-Submodule>`_. Otherwise add a script to download the sources."
 msgstr ""
+"நூலகத்தின் மூலக் குறியீட்டை `` libs/libname`` (நூலகத்தின் பெயரால் `` libname`` ஐ "
+"மாற்றுவது) இல் வைக்கவும், ஏனென்றால் சொடுக்கு செய்யக்கூடியது இயல்பாகவே இதைத் தேடும். சார்பு"
+" மூலக் குறியீடு ஒரு அறிவிலி களஞ்சியமாக கிடைத்தால், அதை `கிட் துணைமோடல் <https://git-"
+"scm.com/book/de/v1/git-tools-submodule>` _. இல்லையெனில் ஆதாரங்களைப் பதிவிறக்க ஒரு "
+"ச்கிரிப்டைச் சேர்க்கவும்."
 
 #: ../../appdev/guides/dependencies.rst:14
 msgid ""
 "Add a `libraries section <https://clickable.bhdouglass.com/en/latest/project-"
 "config.html#libraries>`_ to your clickable.yaml, like this:"
-msgstr ""
+msgstr "இது போன்ற `நூலகங்கள் பிரிவு <https://clickable.bhdouglass."
 
 #: ../../appdev/guides/dependencies.rst:24
 msgid ""
 "If the library does not contain a CMake configuration, you need to use the "
 "`qmake` or `custom` builder instead."
 msgstr ""
+"நூலகத்தில் CMAKE உள்ளமைவு இல்லை என்றால், அதற்கு பதிலாக `QMake` அல்லது` Custom` "
+"பில்டரைப் பயன்படுத்த வேண்டும்."
 
 #: ../../appdev/guides/dependencies.rst:26
 msgid ""
 "Optionally, configure the compilation by adding ``build_args``, which may "
 "look like this:"
 msgstr ""
+"விருப்பமாக, `` Build_args`` ஐச் சேர்ப்பதன் மூலம் தொகுப்பை உள்ளமைக்கவும், இது இப்படி "
+"தோன்றலாம்:"
 
 #: ../../appdev/guides/dependencies.rst:41
 msgid ""
@@ -1212,6 +1513,8 @@ msgid ""
 "build instructions and also look for ``option`` settings in its ``CMakeLists."
 "txt`` ."
 msgstr ""
+"பெரும்பாலான உருவாக்க வாதங்கள் திட்டமானவை. எனவே, நூலகத்தின் உருவாக்க வழிமுறைகளைப் "
+"படித்து, அதன் `` cmakelists.txt`` இல் `` விருப்பம்` அமைப்புகளையும் தேடுங்கள்."
 
 #: ../../appdev/guides/dependencies.rst:43
 msgid ""
@@ -1220,21 +1523,27 @@ msgid ""
 "build --libs --arch amd64``. Don't forget to mention this step in your "
 "README, so that others can reproduce the build process."
 msgstr ""
+"அனைத்து கட்டமைப்புகளுக்கும் நூலகத்தை உருவாக்க உண்மையில் `` சொடுக்கு செய்யக்கூடிய - -லிப்ச் "
+"--arch armhf``, `` சொடுக்கு செய்யக்கூடிய கட்டமைப்பை - -லிப்ச் --arch ARM64`` மற்றும் "
+"`` சொடுக்கு செய்யக்கூடிய உருவாக்கம் - -லிப்ச் --arch amd64`` ஆகியவற்றை இயக்கவும். உங்கள் "
+"README இல் இந்த படியைக் குறிப்பிட மறக்காதீர்கள், இதன் மூலம் மற்றவர்கள் உருவாக்க செயல்முறையை "
+"மீண்டும் உருவாக்க முடியும்."
 
 #: ../../appdev/guides/dependencies.rst:45
 msgid ""
 "See how `Teleports clickable.yaml <https://gitlab.com/ubports/development/"
 "apps/teleports/-/blob/main/clickable.yaml#L26>`_ uses the libraries feature "
 "to build its dependency tdlib."
-msgstr ""
+msgstr "`டெலிபோர்ட்ச் சொடுக்கு செய்யக்கூடியது."
 
 #: ../../appdev/guides/dependencies.rst:48
 msgid "Pre-built"
-msgstr ""
+msgstr "முன் கட்டப்பட்ட"
 
 #: ../../appdev/guides/dependencies.rst:49
 msgid "If you compiled your library as described above, skip this step."
 msgstr ""
+"மேலே விவரிக்கப்பட்டுள்ளபடி உங்கள் நூலகத்தை தொகுத்தால், இந்த படியைத் தவிர்க்கவும்."
 
 #: ../../appdev/guides/dependencies.rst:51
 msgid ""
@@ -1246,12 +1555,19 @@ msgid ""
 "need (likely ``armhf`` or ``arm64``). In this case you have to compile the "
 "library as described above."
 msgstr ""
+"முன்பே கட்டப்பட்ட நூலகம் பொதுவாக பகிரப்பட்ட பொருளாக மட்டுமே கிடைக்கிறது, இது மாறும் "
+"வகையில் இணைக்கப்பட வேண்டும். மேலும், இது உங்களுக்குத் தேவையில்லாத கூறுகளைக் கொண்டிருக்கலாம்"
+", இதன் விளைவாக வீங்கிய பயன்பாடு ஏற்படுகிறது. அதை நீங்களே தொகுத்து நீங்கள் அடையக்கூடிய "
+"ஒன்றை கூட இழக்கக்கூடும். சில நேரங்களில், உபுண்டு களஞ்சியங்களில் ஒரு நூலகம் கிடைக்கிறது, "
+"ஆனால் உங்களுக்குத் தேவையான கட்டிடக்கலைக்கு (`` ARMHF`` அல்லது `` ARM64``) நிறுவ "
+"முடியாதது. இந்த வழக்கில் நீங்கள் மேலே விவரிக்கப்பட்டுள்ளபடி நூலகத்தை தொகுக்க வேண்டும்."
 
 #: ../../appdev/guides/dependencies.rst:53
 msgid ""
 "If the library is available in the Ubuntu Repositories, you can add it to "
 "the dependencies list, like this:"
 msgstr ""
+"உபுண்டு களஞ்சியங்களில் நூலகம் கிடைத்தால், இது போன்ற சார்பு பட்டியலில் இதைச் சேர்க்கலாம்:"
 
 #: ../../appdev/guides/dependencies.rst:62
 msgid ""
@@ -1260,20 +1576,25 @@ msgid ""
 "Tools' clickable.json <https://github.com/t-mon/guitar-tools/blob/master/"
 "clickable.json#L4>`_."
 msgstr ""
+"சொடுக்கு செய்யக்கூடியது உருவாக்கக் கொள்கலனுக்குள் இலக்கு கட்டமைப்பிற்கு குறிப்பிட்ட தொகுப்பை"
+" தானாக நிறுவும். ஒரு உதாரணத்தை `கிதார் கருவிகள் 'சொடுக்கு செய்யக்கூடியது."
 
 #: ../../appdev/guides/dependencies.rst:64
 msgid ""
 "If the library can be found in a PPA, you can add the PPA to the clickable."
 "yaml, too. For example:"
 msgstr ""
+"ஒரு பிபிஏவில் நூலகத்தைக் காண முடிந்தால், நீங்கள் பிபிஏவை சொடுக்கு செய்யக்கூடியது. "
+"ஐம்லிலும் சேர்க்கலாம். உதாரணமாக:"
 
 #: ../../appdev/guides/dependencies.rst:75
 msgid "Otherwise add a script to download the pre-built library."
 msgstr ""
+"இல்லையெனில் முன்பே கட்டப்பட்ட நூலகத்தைப் பதிவிறக்க ஒரு ச்கிரிப்டைச் சேர்க்கவும்."
 
 #: ../../appdev/guides/dependencies.rst:78
 msgid "Usage"
-msgstr ""
+msgstr "பயன்பாடு"
 
 #: ../../appdev/guides/dependencies.rst:79
 msgid ""
@@ -1281,6 +1602,9 @@ msgid ""
 "found that you include into the app's source code. Second, you need to link "
 "the library's binary against your app's binary."
 msgstr ""
+"முதலில், பயன்பாட்டின் மூலக் குறியீட்டில் நீங்கள் சேர்த்துள்ள தலைப்புகள் காணக்கூடிய கோப்பகத்தை "
+"நீங்கள் குறிப்பிட வேண்டும். இரண்டாவதாக, உங்கள் பயன்பாட்டின் பைனரிக்கு எதிராக நூலகத்தின் "
+"பைனரியை இணைக்க வேண்டும்."
 
 #: ../../appdev/guides/dependencies.rst:81
 msgid ""
@@ -1290,6 +1614,10 @@ msgid ""
 "variables pointing to the library's binary and include directories. The "
 "additional lines on your CMakeLists.txt then may look like:"
 msgstr ""
+"நூலகத்தில் ஒரு CMAKE உள்ளமைவு கோப்பு இருந்தால், நீங்கள் `find_package <https://"
+"cmake.org/cmake/help/latest/command/find_package.html> _ _ கட்டளை, இது "
+"இயக்குநர்கள் மற்றும் மாறுபாடுகளைச் சேர்ப்பதற்கான இலக்கை உங்களுக்கு வழங்குகிறது. உங்கள் "
+"cmakelists.txt இல் கூடுதல் வரிகள் அப்படி இருக்கலாம்:"
 
 #: ../../appdev/guides/dependencies.rst:90
 msgid ""
@@ -1302,22 +1630,33 @@ msgid ""
 "camera-scanner/blob/master/plugins/ImageProcessing/CMakeLists.txt#L23>`_ for "
 "a real world example."
 msgstr ""
+"`` Find_package`` கட்டளை வழக்கமாக கோப்பகத்திற்கான பாதையை `` "
+"somelibrary_include_dirs`` மற்றும் நூலகத்தின் பைனரிகளை `` SomeLibrary_libs`` "
+"(அவர்களின் CMAKE உள்ளமைவு சரியாக வழங்கும் நூலகத்தின் ஆவணங்களை சரிபார்க்கவும்) "
+"வரையறுக்கிறது. `` `சேர்க்கப்பட்ட_டரெக்டரிகள்`` மற்றும்` `இலக்கு_எல்ங்க்_லிபிரரிச்` "
+"கட்டளைகளுடன் அவற்றைப் பயன்படுத்தவும். `கேமரா ச்கேனர் இமேச் புரோசெசிங் cmakelists.txt "
+"<https://github.com/jonnius/camera-scanner/blob/master/plugins/"
+"imageprocessing/cmakelists.txt#l23>` _ ஒரு உண்மையான உலக உதாரணத்திற்கு."
 
 #: ../../appdev/guides/dependencies.rst:92
 msgid ""
 "At this point you should already be able to test with Clickable's desktop "
 "mode running ``clickable desktop``."
 msgstr ""
+"இந்த கட்டத்தில் நீங்கள் ஏற்கனவே சொடுக்கு செய்யக்கூடிய டெச்க்டாப் பயன்முறையை `` சொடுக்கு "
+"செய்யக்கூடிய டெச்க்டாப்`` உடன் சோதிக்க முடியும்."
 
 #: ../../appdev/guides/dependencies.rst:95
 msgid "Deployment"
-msgstr ""
+msgstr "வரிசைப்படுத்தல்"
 
 #: ../../appdev/guides/dependencies.rst:96
 msgid ""
 "If you linked the library statically, you can skip this step, as the "
 "library's binary is already inside your app's binary."
 msgstr ""
+"நீங்கள் நூலகத்தை சட்டப்பூர்வமாக இணைத்திருந்தால், நூலகத்தின் பைனரி ஏற்கனவே உங்கள் பயன்பாட்டின் "
+"பைனரிக்குள் இருப்பதால், இந்த படிநிலையைத் தவிர்க்கலாம்."
 
 #: ../../appdev/guides/dependencies.rst:98
 msgid ""
@@ -1326,6 +1665,10 @@ msgid ""
 "You should see an error message telling you which shared object file was "
 "missing."
 msgstr ""
+"எந்த பகிரப்பட்ட பொருள் கோப்புகள் (``*.SO``) நீங்கள் அனுப்ப வேண்டும் என்பதைக் கண்டறியவும். "
+"உங்கள் சாதனத்தில் பயன்பாட்டை `` சொடுக்கு செய்யக்கூடிய && சொடுக்கு செய்யக்கூடிய பதிவுகள்` "
+"வழியாகத் தொடங்குவதன் மூலம் நீங்கள் அவ்வாறு செய்யலாம். எந்த பகிரப்பட்ட பொருள் கோப்பு இல்லை "
+"என்று சொல்லும் பிழை செய்தியை நீங்கள் காண வேண்டும்."
 
 #: ../../appdev/guides/dependencies.rst:100
 msgid ""
@@ -1338,6 +1681,13 @@ msgid ""
 "error messages you can ignore). In general, ``/usr/lib``  is a good bet when "
 "looking for the shared object files."
 msgstr ""
+"பகிரப்பட்ட பொருள் கோப்புகளுக்கான பாதையைக் கண்டறியவும். சொடுக்கு செய்யக்கூடிய வழியாக "
+"கட்டப்பட்ட நூலகங்களுக்கு, அவை நூலகத்தின் நிறுவல் டி.ஐ.ஆரில் எங்காவது அமைந்துள்ளன, இது "
+"இயல்பாக நூலகத்தின் உருவாக்க டிர் உள்ளே அமைந்துள்ளது (எ.கா. முன்பே கட்டப்பட்ட நூலகங்களுக்கு "
+"`` சொடுக்கு செய்யக்கூடிய ரன் \"கண்டுபிடி / -name 'libsomething.so'\" \"` `(` "
+"`libsomething.so`` ஐ மாற்றுவது நீங்கள் தேடும் கோப்பின் மூலம்) இயக்கவும். இது கோப்பிற்கான "
+"பாதையை அச்சிட வேண்டும் (நீங்கள் புறக்கணிக்கக்கூடிய சில பிழை செய்திகளுடன்). பொதுவாக, "
+"பகிரப்பட்ட பொருள் கோப்புகளைத் தேடும்போது ``/usr/lib`` ஒரு நல்ல பந்தயம்."
 
 #: ../../appdev/guides/dependencies.rst:102
 msgid ""
@@ -1345,6 +1695,9 @@ msgid ""
 "clickable.bhdouglass.com/en/latest/project-config.html#install-lib>`_ key to "
 "your clickable.yaml:"
 msgstr ""
+"கோப்புகளை சொடுக்கு தொகுப்பில் பெற, `install_lib <https://"
+"clickable.bhdouglass.com/en/latest/project-config.html#install-lib>` _ _ உங்கள்"
+" சொடுக்கு செய்யக்கூடியது."
 
 #: ../../appdev/guides/dependencies.rst:115
 msgid ""
@@ -1352,22 +1705,29 @@ msgid ""
 "built with Clickable. The asterisk in ``.so*`` helps to catch symbolic links "
 "along with the actual library which are used to point to the current version."
 msgstr ""
+"மேலே உள்ள கோடுகளில் இரண்டு எடுத்துக்காட்டுகள் உள்ளன. முதல் ஒன்று சொடுக்கு செய்யக்கூடிய ஒரு"
+" நூலகத்தை நிறுவுகிறது. `` .SO*`` இல் உள்ள விண்மீன் தற்போதைய பதிப்பை சுட்டிக்காட்டப் "
+"பயன்படும் உண்மையான நூலகத்துடன் குறியீட்டு இணைப்புகளைப் பிடிக்க உதவுகிறது."
 
 #: ../../appdev/guides/dependencies.rst:117
 msgid ""
 "Depending on the library, you might need to ship some additional data. In "
 "that case consult the library's readme or install instructions."
 msgstr ""
+"நூலகத்தைப் பொறுத்து, நீங்கள் சில கூடுதல் தரவை அனுப்ப வேண்டியிருக்கும். அவ்வாறான நிலையில் "
+"நூலகத்தின் README ஐ அணுகவும் அல்லது வழிமுறைகளை நிறுவவும்."
 
 #: ../../appdev/guides/dependencies.rst:119
 msgid ""
 "You should be set up to build and install your click package on a device "
 "connected to your computer now by running ``clickable``."
 msgstr ""
+"`` சொடுக்கு செய்யக்கூடிய`` இயங்குவதன் மூலம் இப்போது உங்கள் கணினியுடன் இணைக்கப்பட்ட "
+"சாதனத்தில் உங்கள் சொடுக்கு தொகுப்பை உருவாக்க மற்றும் நிறுவ நீங்கள் அமைக்கப்பட வேண்டும்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:2
 msgid "Importing from Content Hub and URLdispatcher"
-msgstr ""
+msgstr "உள்ளடக்க நடுவண் மற்றும் urldispatcher இலிருந்து இறக்குமதி செய்தல்"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:15
 msgid ""
@@ -1375,14 +1735,17 @@ msgid ""
 "In this guide we will see how ``URLdispatcher`` works and how to handle "
 "imported data from the Content Hub."
 msgstr ""
+"முந்தைய வழிகாட்டியில் உள்ளடக்க நடுவண் எவ்வாறு செயல்படுகிறது என்பதைப் பற்றி கொஞ்சம் பார்த்தோம்"
+". இந்த வழிகாட்டியில் `` urldispatcher`` எவ்வாறு செயல்படுகிறது மற்றும் உள்ளடக்க "
+"மையத்திலிருந்து இறக்குமதி செய்யப்பட்ட தரவை எவ்வாறு கையாள்வது என்பதைக் காண்போம்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:18
 msgid "Handle data from the Content Hub"
-msgstr ""
+msgstr "உள்ளடக்க மையத்திலிருந்து தரவைக் கையாளவும்"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:23
 msgid "OpenStore app from open-store.io"
-msgstr ""
+msgstr "திறந்த-STORE.IO இலிருந்து OpenStore பயன்பாடு"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:25
 msgid ""
@@ -1390,6 +1753,9 @@ msgid ""
 "yourself on Telegram, and opening that click file with the OpenStore through "
 "the Content Hub:"
 msgstr ""
+"ஒரு பயன்பாட்டைச் சோதிப்பதற்கான எளிதான வழிகளில் ஒன்று, டெலிகிராமில் ஒரு சோதனை கிளிக்கை "
+"உங்களுக்கு அனுப்புவதும், அந்தக் சொடுக்கு கோப்பை OpenStore உடன் உள்ளடக்க மையத்தின் மூலம் "
+"திறப்பதும் ஆகும்:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:30
 msgid ""
@@ -1398,6 +1764,10 @@ msgid ""
 "app <https://github.com/UbuntuOpenStore/openstore-app/blob/master/openstore/"
 "Main.qml#L85>`_ to see how it is done:"
 msgstr ""
+"நாங்கள் ஓபன்ச்டோர் பயன்பாட்டில் தட்டினால், அது திறக்கப்படும், மேலும் சொடுக்கு கோப்பை நிறுவ "
+"விரும்புகிறீர்களா என்று கேட்கும். பயன்பாட்டின் `main.qml குறியீட்டைப் பார்ப்போம் <https://"
+"github.com/ubuntuopenstore/openstore-app/blob/master/openstore/main.qml#l85>`"
+" _ இது எவ்வாறு செய்யப்படுகிறது என்பதைக் காண:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:49
 msgid ""
@@ -1406,10 +1776,13 @@ msgid ""
 "from the Content Hub (``transfer.items[0].url`` is the url of the first data "
 "sent) and open a ``PopUp`` element to let the user install the click."
 msgstr ""
+"ContentHub ஐ குறிவைக்கும் இணைப்புகள் உறுப்பை நீங்கள் காண்கிறீர்களா? இது சமிக்ஞை "
+"மேலோட்டத்தைப் பெறும்போது, உள்ளடக்க மையத்திலிருந்து அனுப்பப்பட்ட தரவின் முகவரி ஐ அது "
+"எடுக்கும் (`` பரிமாற்றம்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:52
 msgid "What about the URLdispatcher?"
-msgstr ""
+msgstr "Urldispatcher பற்றி என்ன?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:54
 msgid ""
@@ -1419,12 +1792,19 @@ msgid ""
 "on an http protocol. If we tap on a map link it is handy to open it with "
 "uNav or to open a twitter link in the Twitter app! How does that work?"
 msgstr ""
+"முகவரி அனுப்பியவர் என்பது உள்ளடக்க மையத்தைப் போன்ற ஒரு மென்பொருளாகும், இது ஒரு குறிப்பிட்"
+"ட நெறிமுறைக்கு சரியான பயன்பாட்டைத் தேர்வுசெய்ய எங்கள் வாழ்க்கையை எளிதாக்குகிறது. "
+"எடுத்துக்காட்டாக: HTTP நெறிமுறையைத் தட்டும்போது வலை உலாவியைத் திறக்க விரும்புகிறோம். "
+"வரைபட இணைப்பில் நாம் தட்டினால், அதை USAV உடன் திறப்பது அல்லது ட்விட்டர் பயன்பாட்டில் ட்விட்டர்"
+" இணைப்பைத் திறப்பது எளிது! அது எவ்வாறு செயல்படுகிறது?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:56
 msgid ""
 "The ``URLdispatcher`` selects which app (according to their ``manifest."
 "json``) will open a certain link."
 msgstr ""
+"`` Urldispatcher`` எந்த பயன்பாட்டைத் தேர்ந்தெடுக்கிறது (அவற்றின் `` manifest.json`` இன்"
+" படி) ஒரு குறிப்பிட்ட இணைப்பைத் திறக்கும்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:61
 msgid ""
@@ -1432,6 +1812,8 @@ msgid ""
 "hooks for the ``URLdispatcher`` in its `manifest.json code <https://bazaar."
 "launchpad.net/~unav-devs/unav/trunk/view/head:/manifest.json#L9>`_:"
 msgstr ""
+"எங்கள் வழிசெலுத்தல் பயன்பாடு எவ்வாறு உள்ளே இருக்கும் என்று பார்ப்போம். அதன் `மேனிஃபெச்ட்.சான் "
+"குறியீட்டில்` `urldispatcher` க்கான சிறப்பு கொக்கிகள் UNAV இன் மேனிஃபெச்ட் காட்டுகிறது."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:91
 msgid ""
@@ -1439,22 +1821,29 @@ msgid ""
 "be opened in uNav. And that’s defined in lines 2 and 3, where it looks for "
 "protocol http followed by map.unav.me."
 msgstr ""
+"இதன் பொருள் http://map.unav.me/xxxxx,எக்ச்எக்ச்எக்ச்எக்ச் போன்ற ஒரு இணைப்பு USAV இல் "
+"திறக்கப்படும். இது 2 மற்றும் 3 வரிகளில் வரையறுக்கப்பட்டுள்ளது, அங்கு இது நெறிமுறை http "
+"ஐத் தொடர்ந்து MAP.Unav.me."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:93
 msgid ""
 "Also, a URI formatted geo:xxx,xxx should open in uNav, as it’s defined in "
 "line 11."
 msgstr ""
+"மேலும், ஒரு யூரி வடிவமைக்கப்பட்ட சியோ: XXX, XXX AVAV இல் திறக்கப்பட வேண்டும், ஏனெனில் "
+"இது 11 வது வரிசையில் வரையறுக்கப்பட்டுள்ளது."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:96
 msgid "And how do we manage the received URL?"
-msgstr ""
+msgstr "பெறப்பட்ட முகவரி ஐ எவ்வாறு நிர்வகிப்பது?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:98
 msgid ""
 "After the ``URLdispatcher`` sends the link to the correspondent app, we need "
 "to handle that URL or URI in the targeted app. Let’s see how to do that:"
 msgstr ""
+"`` Urldispatcher`` அந்த இணைப்பை நிருபர் பயன்பாட்டிற்கு அனுப்பிய பிறகு, அந்த முகவரி "
+"அல்லது யூரி ஐ இலக்கு பயன்பாட்டில் கையாள வேண்டும். அதை எப்படி செய்வது என்று பார்ப்போம்:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:100
 msgid ""
@@ -1464,6 +1853,10 @@ msgid ""
 "simple/blob/master/qml/Main.qml#L212>`_ with a Connections element setting "
 "``UriHandler`` as a target."
 msgstr ""
+"முதன்மையான QML கோப்பில், அனுப்பப்பட்ட முகவரி உடன் என்ன செய்வது என்பதை அறிய சில "
+"குறியீடுகளைச் சேர்க்க வேண்டும். யுஆர்ஐ ஏண்ட்லர் <https://gitlab.com/ubports-linphone/"
+"linbhone-simple/blob/master/qml/main.qml#l212> `_ ஒரு இணைப்பு அமைப்புடன்` "
+"`urihandlerler."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:117
 msgid ""
@@ -1471,6 +1864,9 @@ msgid ""
 "the app is opened. But what do we need to do to handle this link when the "
 "app is closed?"
 msgstr ""
+"பயன்பாடு திறக்கப்படும் போது `` லின்ஃபோன்: // SIP: XXX@xxx.xx`` வடிவத்தில் இந்த குறியீடு"
+" ஒரு யூரி ஐ நிர்வகிக்கும். பயன்பாடு மூடப்படும் போது இந்த இணைப்பைக் கையாள நாம் என்ன செய்ய "
+"வேண்டும்?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:119
 msgid ""
@@ -1478,12 +1874,17 @@ msgid ""
 "linphone-simple/blob/master/qml/Main.qml#L76>`_ that will cover two cases: "
 "1) We receive one URL 2) We receive more than one URL"
 msgstr ""
+"சிறிது `கூடுதல் குறியீட்டை <https://gitlab.com/ubports-linphone/linbhone-simple/"
+"blob/master/qml/main.qml#l 76>` _ இரண்டு நிகழ்வுகளை உள்ளடக்கும்: 1) நாம் ஒரு முகவரி"
+" 2 ஐ விட அதிகமாகப் பெறுகிறோம்"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:123
 msgid ""
 "Let's check if ``Qt.application.arguments`` is not empty and if not, if any "
 "argument matches our URI format."
 msgstr ""
+"`` Qt.application.arguments`` காலியாக இல்லாவிட்டால், இல்லையென்றால், ஏதேனும் உரையாடல் "
+"எங்கள் யூரி வடிவத்துடன் பொருந்தினால்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:143
 msgid ""
@@ -1492,16 +1893,21 @@ msgid ""
 "com/ubports-linphone/linphone-simple/-/blob/master/linphone.desktop.in#L7>`_ "
 "file of the app."
 msgstr ""
+"`.Desktop <https://gitlab.com/ubports-linphone/linbhone-simple/-/blob/manter/"
+"manter/mantere/manternphone."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:146
 msgid "Tools"
-msgstr ""
+msgstr "கருவிகள்"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:148
 msgid ""
 "From command line, ``lomiri-url-dispatcher-dump`` command will give you the "
 "full list of registered protocol schemes and their corresponding app."
 msgstr ""
+"கட்டளை வரியிலிருந்து, `` லோமிரி-யுஆர்எல்-டிச்பாட்சர்-டம்ப்`` கட்டளை பதிவுசெய்யப்பட்ட "
+"நெறிமுறை திட்டங்களின் முழு பட்டியலையும் அவற்றுடன் தொடர்புடைய பயன்பாட்டையும் உங்களுக்கு "
+"வழங்கும்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:150
 msgid ""
@@ -1510,16 +1916,23 @@ msgid ""
 "app. e.g: ``lomiri-url-dispatcher https://youtu.be/CIX-a-i6B1w`` will launch "
 "youtube webapp."
 msgstr ""
+"மற்றொரு பயனுள்ள கருவி, ஆனால் சாதனங்களில் இயல்புநிலையாக நிறுவப்படாதது `` "
+"லோமிரி-யுஆர்எல்-டிச்பாட்சர்-டூல்ச்``, இது மூன்றாம் தரப்பு பயன்பாட்டின் அழைப்பை உருவகப்படுத்த "
+"உங்களை அனுமதிக்கிறது. எ.கா: `` லோமிரி-யுஆர்எல்-டிச்பாட்சர் https: // youtu.be/"
+"cix-a-i6b1w`` YouTube வெப்ஆப்பைத் தொடங்கும்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:152
 msgid ""
 "To install, it make your partition writable (``sudo mount -o rw,remount /``) "
 "and install it via ``sudo apt install lomiri-url-dispatcher-tools``"
 msgstr ""
+"நிறுவ, இது உங்கள் பகிர்வை எழுதக்கூடியதாக ஆக்குகிறது (`` sudo mount -o rw, remount "
+"/``) மற்றும் அதை `` sudo apt வழியாக நிறுவவும்"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:157
 msgid "What happens if more than one app has the same URL type defined?"
 msgstr ""
+"ஒன்றுக்கு மேற்பட்ட பயன்பாட்டில் ஒரே முகவரி வகை வரையறுக்கப்பட்டால் என்ன ஆகும்?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:159
 msgid ""
@@ -1527,72 +1940,92 @@ msgid ""
 "a URL handled by the ``URLdispatcher`` as protocol ``http`` or the protocol "
 "``http://twitter``?"
 msgstr ""
+"ஒரு நல்ல கேள்வி. ட்விட்டர் இணைப்பில் தட்டினால் என்ன ஆகும்? அத்தகைய முகவரி `` "
+"urldispatcher`` ஆல் நெறிமுறை `` http`` அல்லது நெறிமுறை `` http: // twitter`` "
+"ஆகியவற்றால் எவ்வாறு கையாளப்படுகிறது?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:161
 msgid "What happens if two apps have the same defined protocol?"
-msgstr ""
+msgstr "இரண்டு பயன்பாடுகளில் ஒரே வரையறுக்கப்பட்ட நெறிமுறை இருந்தால் என்ன ஆகும்?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:163
 msgid "Now it’s time to do some tests and share the results in the next guide."
 msgstr ""
+"இப்போது சில சோதனைகளைச் செய்து அடுத்த வழிகாட்டியில் முடிவுகளைப் பகிர்ந்து கொள்ள வேண்டிய "
+"நேரம் இது."
 
 #: ../../appdev/guides/index.rst:4
 msgid "Developer guides"
-msgstr ""
+msgstr "உருவாக்குபவர் வழிகாட்டிகள்"
 
 #: ../../appdev/guides/index.rst:6
 msgid ""
 "To get started with your first app check out the following developer guides:"
 msgstr ""
+"உங்கள் முதல் பயன்பாட்டுடன் தொடங்க பின்வரும் உருவாக்குபவர் வழிகாட்டிகளைப் பாருங்கள்:"
 
 #: ../../appdev/guides/index.rst:8
 msgid ""
 "`Qt programming course by mimecar for Ubuntu Touch <https://docs.innerzaurus."
 "com>`__"
 msgstr ""
+"`உபுண்டு டச் <https://docs.innerzaurus.com> க்கான மைம்கார் எழுதிய கியுடி நிரலாக்க "
+"பாடநெறி __ __ __ __"
 
 #: ../../appdev/guides/index.rst:9
 msgid ""
 "`Application Templates by fulvio <https://github.com/fulvio999/"
 "ubports_app_templates>`__"
 msgstr ""
+"Fulvio இன் பயன்பாட்டு வார்ப்புருக்கள் <https://github.com/fulvio999/"
+"ubports_app_templates> __ __ __"
 
 #: ../../appdev/guides/index.rst:10
 msgid ""
 "`Python examples by pavelprosto <https://forums.ubports.com/topic/5525/"
 "python-examples>`__"
 msgstr ""
+"`பைதான் எடுத்துக்காட்டுகள் பாவெல்ரோச்டோ <https://forums.ubports.com/topic/5525/"
+"python-examples>` __"
 
 #: ../../appdev/guides/index.rst:11
 msgid ""
 "`QML templates by Joan CiberSheep <https://gitlab.com/cibersheep/qml-"
 "templates-for-ubuntutouch>`__."
 msgstr ""
+"`QML வார்ப்புருக்கள் சோன் சிபர்சீப் <https://gitlab.com/cibersheep/qml-templates-for-"
+"ubuntutouch> __."
 
 #: ../../appdev/guides/index.rst:12
 msgid "`First steps with QML <https://doc.qt.io/qt-5/qmlfirststeps.html>`__."
 msgstr ""
+"Q QML உடன் முதல் படிகள் <https://doc.qt.io/qt-5/qmlfirststeps.html> ____."
 
 #: ../../appdev/guides/index.rst:13
 msgid ""
 "`Qt examples and tutorials <https://doc.qt.io/qt-5.12/qtexamplesandtutorials."
 "html>`__."
 msgstr ""
+"`Qt எடுத்துக்காட்டுகள் மற்றும் பயிற்சிகள் <https://doc.qt.io/qt-5.12/"
+"qtexamplesandtutorials.html> __."
 
 #: ../../appdev/guides/index.rst:15
 msgid ""
 "If you are interested in helping to create developer guides check out our "
 "`GitLab Project <https://gitlab.com/ubports/apps/development-resources>`__."
 msgstr ""
+"உருவாக்குபவர் வழிகாட்டிகளை உருவாக்க உதவுவதில் நீங்கள் ஆர்வமாக இருந்தால், எங்கள் `கிட்லாப் "
+"திட்டத்தை <https://gitlab.com/ubports/apps/development-resources> __."
 
 #: ../../appdev/guides/index.rst:18
 msgid ""
 "To get familiar with some more advanced concepts see the following sections:"
 msgstr ""
+"இன்னும் சில மேம்பட்ட கருத்துக்களை நன்கு அறிய பின்வரும் பிரிவுகளைப் பார்க்கவும்:"
 
 #: ../../appdev/guides/index.rst:33
 msgid "Playground"
-msgstr ""
+msgstr "விளையாட்டு மைதானம்"
 
 #: ../../appdev/guides/index.rst:35
 msgid ""
@@ -1602,6 +2035,10 @@ msgid ""
 "do exactly that: Explore. The purpose of this list is to show the unlimited "
 "possibilities of an open platform like Ubuntu Touch."
 msgstr ""
+"முற்றிலும் இலவச மற்றும் திறந்த மூல சமூகத்தில், சமூக உறுப்பினர்கள் பல திசைகளில் தளத்தின் "
+"வரம்புகளை ஆராய்வது இயல்பானது. இந்த பிரிவில் அதைச் சரியாகச் செய்யும் வெளிப்புற "
+"ஆதாரங்களுக்கான இணைப்புகளைக் காண்பீர்கள்: ஆராயுங்கள். இந்த பட்டியலின் நோக்கம் உபுண்டு டச் போன்ற "
+"திறந்த தளத்தின் வரம்பற்ற சாத்தியக்கூறுகளைக் காண்பிப்பதாகும்."
 
 #: ../../appdev/guides/index.rst:38
 msgid ""
@@ -1609,18 +2046,24 @@ msgid ""
 "endorsed way of developing applications for Ubuntu Touch, but are "
 "interesting experiments."
 msgstr ""
+"இங்கு பட்டியலிடப்பட்டுள்ள வளங்கள் உபுண்டு தொடுதலுக்கான விண்ணப்பங்களை உருவாக்குவதற்கான "
+"அதிகாரப்பூர்வமாக அங்கீகரிக்கப்பட்ட வழியைக் குறிக்கவில்லை, ஆனால் அவை சுவையான சோதனைகள்."
 
 #: ../../appdev/guides/index.rst:40
 msgid ""
 "`Free Pascal development for Ubuntu Touch <http://kriscode.blogspot."
 "tw/2016/09/freepascal-development-for-ubuntu-phone.html>`__"
 msgstr ""
+"`உபுண்டு தொடுதலுக்கான இலவச பாச்கல் மேம்பாடு <http://kriscode.blogspot.tw/2016/09/"
+"freepascal- அபிவிருத்தி-bountu-phone.html>` __ __"
 
 #: ../../appdev/guides/index.rst:41
 msgid ""
 "`Lazarus development for Ubuntu Touch <http://kriscode.blogspot.tw/2016/10/"
 "lazarus-development-for-ubuntu-phone.html>`__"
 msgstr ""
+"`உபுண்டு தொடுதலுக்கான லாசரச் மேம்பாடு <http://kriscode.blogspot.tw/2016/10/"
+"lazarus-development-bountu-phone.html>` __ __ __"
 
 #: ../../appdev/guides/index.rst:42
 msgid ""
@@ -1628,37 +2071,48 @@ msgid ""
 "and compiler for multiple languages <http://kriscode.blogspot.tw/2017/10/"
 "geany-on-ubuntu-touch-device-as-text.html>`__"
 msgstr ""
+"`உபுண்டு டச் சாதனத்தில் உரை எடிட்டராக, மூலக் குறியீடு எடிட்டர், பிழைத்திருத்தம் மற்றும் பல "
+"மொழிகளுக்கான கம்பைலர் <http://kriscode.blogspot.tw/2017/10"
 
 #: ../../appdev/guides/index.rst:43
 msgid ""
 "`Deploy your existing Qt QML app to Ubuntu Touch using QMake (Video) "
 "<https://youtu.be/ehqlwRNrfO0>`__"
 msgstr ""
+"Q உங்கள் இருக்கும் கியுடி QML பயன்பாட்டை Qmake (வீடியோ) ஐப் பயன்படுத்தி உபுண்டு "
+"தொடுதலுக்கு வரிசைப்படுத்தவும்"
 
 #: ../../appdev/guides/index.rst:44
 msgid ""
 "`Deploy your existing Qt QML app to Ubuntu Touch using CMake (Video) "
 "<https://youtu.be/c2sq6aLeGec>`__"
 msgstr ""
+"`உங்கள் இருக்கும் கியுடி QML பயன்பாட்டை cmake (Video) ஐப் பயன்படுத்தி உபுண்டு "
+"தொடுதலுக்கு வரிசைப்படுத்தவும் <https://youtu.be/c2sq6alegec>"
 
 #: ../../appdev/guides/index.rst:45
 msgid ""
 "`Getting started with Clickable (Video) <https://youtu.be/TE-s5522v0Y>`__"
 msgstr ""
+"`கிளிக் செய்யக்கூடிய (வீடியோ) <https://youtu.be/te-s5522v0y> __ __ __ உடன் "
+"தொடங்குதல்"
 
 #: ../../appdev/guides/index.rst:46
 msgid "`Content Hub overview (Video) <https://youtu.be/AihwC2sPIk0>`__"
 msgstr ""
+"`உள்ளடக்க மைய கண்ணோட்டம் (வீடியோ) <https://youtu.be/aihwc2spik0> ____ __ __"
 
 #: ../../appdev/guides/index.rst:47
 msgid ""
 "`Import files to your app with Content Hub (Video) <https://youtu.be/"
 "q6zzM16jw1U>`__"
 msgstr ""
+"உள்ளடக்க மையத்துடன் உங்கள் பயன்பாட்டிற்கு கோப்புகளை இறக்குமதி செய்யுங்கள் (வீடியோ) <https://"
+"youtu.be/q6zzm16jw1u>"
 
 #: ../../appdev/guides/port-to-focal.rst:2
 msgid "Porting Apps to Focal"
-msgstr ""
+msgstr "பயன்பாடுகளை குவியத்திற்கு போர்ட்டிங்"
 
 #: ../../appdev/guides/port-to-focal.rst:4
 msgid ""
@@ -1666,10 +2120,13 @@ msgid ""
 "order to ensure that the app will continue working, it is recommended to "
 "update your app to Focal."
 msgstr ""
+"குவியலுக்கான சுவிட்சின் போது பயன்பாட்டு சூழலில் சில மாற்றங்கள் செய்யப்பட்டன. பயன்பாடு "
+"தொடர்ந்து செயல்படும் என்பதை உறுதிப்படுத்த, உங்கள் பயன்பாட்டை குவியத்திற்கு புதுப்பிக்க "
+"பரிந்துரைக்கப்படுகிறது."
 
 #: ../../appdev/guides/port-to-focal.rst:7
 msgid "QML"
-msgstr ""
+msgstr "QML"
 
 #: ../../appdev/guides/port-to-focal.rst:9
 msgid ""
@@ -1677,6 +2134,10 @@ msgid ""
 "were removed from QML Imports, and most QML classes. While there is a "
 "compatability layer, it is recommended to move to the Lomiri Modules."
 msgstr ""
+"எந்த QML கோப்புகளிலும் பெரும்பாலான மாற்றங்கள் செய்யப்பட வேண்டும். உபுண்டு பற்றிய குறிப்புகள்"
+" QML இறக்குமதியிலிருந்தும், பெரும்பாலான QML வகுப்புகளிலிருந்தும் அகற்றப்பட்டன. ஒரு "
+"பொருந்தக்கூடிய அடுக்கு இருக்கும்போது, லோமிரி தொகுதிகளுக்கு செல்ல "
+"பரிந்துரைக்கப்படுகிறது."
 
 #: ../../appdev/guides/port-to-focal.rst:17
 msgid ""
@@ -1684,14 +2145,17 @@ msgid ""
 "`UbuntuColors` being renamed `LomiriColors`. These must also be updated. "
 "This can be somewhat automated:"
 msgstr ""
+"உபுண்டுவைப் பற்றிய பிற குறிப்புகள் லோமிரிக்கு மாற்றப்பட்டன, அதாவது `உபுண்டுகோலர்கள்`` "
+"லோமிரிகோலர்ச்` என மறுபெயரிடப்பட்டது. இவை புதுப்பிக்கப்பட வேண்டும். இது ஓரளவு "
+"தானியங்கிதாக இருக்கலாம்:"
 
 #: ../../appdev/guides/port-to-focal.rst:29
 msgid "Configuration Files"
-msgstr ""
+msgstr "உள்ளமைவு கோப்புகள்"
 
 #: ../../appdev/guides/port-to-focal.rst:32
 msgid "clickable.yaml"
-msgstr ""
+msgstr "Clickable.yaml"
 
 #: ../../appdev/guides/port-to-focal.rst:33
 msgid ""
@@ -1699,49 +2163,55 @@ msgid ""
 "file, it is recommended to first convert the JSON file to a YAML file. "
 "Afterwards, add the following:"
 msgstr ""
+"உங்கள் திட்டத்திற்கு `கிளிக் செய்யக்கூடியது` சொடுக்கு செய்யக்கூடியது. Yaml` கோப்புக்கு "
+"பதிலாக `Clickable.json` கோப்பு இருந்தால், முதலில் சாதொபொகு கோப்பை YAML கோப்பாக மாற்"
+"ற பரிந்துரைக்கப்படுகிறது. பின்னர், பின்வருவனவற்றைச் சேர்க்கவும்:"
 
 #: ../../appdev/guides/port-to-focal.rst:42
 msgid "AppArmor file"
-msgstr ""
+msgstr "Apparmor கோப்பு"
 
 #: ../../appdev/guides/port-to-focal.rst:43
 msgid "Update the policy version in the AppArmor file:"
-msgstr ""
+msgstr "Apparmor கோப்பில் கொள்கை பதிப்பைப் புதுப்பிக்கவும்:"
 
 #: ../../appdev/guides/port-to-focal.rst:57
 msgid "Desktop File"
-msgstr ""
+msgstr "டெச்க்டாப் கோப்பு"
 
 #: ../../appdev/guides/port-to-focal.rst:59
 msgid "Change `X-Ubuntu-Touch` to `X-Lomiri-Touch`:"
-msgstr ""
+msgstr "`X-bubuntu-touch` ஐ` x-lomiri-touch` ஆக மாற்றவும்:"
 
 #: ../../appdev/guides/port-to-focal.rst:73
 msgid "Build Files"
-msgstr ""
+msgstr "கோப்புகளை உருவாக்குங்கள்"
 
 #: ../../appdev/guides/port-to-focal.rst:76
 msgid "CMakeLists.txt"
-msgstr ""
+msgstr "Cmakelists.txt"
 
 #: ../../appdev/guides/port-to-focal.rst:77
 msgid ""
 "If the app is based on one of the App Templates, update the default Click "
 "Framework in the CMake file:"
 msgstr ""
+"பயன்பாடு பயன்பாட்டு வார்ப்புருக்களில் ஒன்றை அடிப்படையாகக் கொண்டால், CMAKE கோப்பில் "
+"இயல்புநிலை சொடுக்கு கட்டமைப்பைப் புதுப்பிக்கவும்:"
 
 #: ../../appdev/guides/port-to-focal.rst:91
 msgid ".gitlab-ci.yml"
-msgstr ""
+msgstr ".t.r-in.yl"
 
 #: ../../appdev/guides/port-to-focal.rst:92
 msgid "If you have a Gitlab CI file, you need to update it:"
 msgstr ""
+"உங்களிடம் அறிவிலிஆய்வு தொஒ கோப்பு இருந்தால், நீங்கள் அதை புதுப்பிக்க வேண்டும்:"
 
 #: ../../appdev/guides/pushnotifications.rst:2
 #: ../../appdev/platform/index.rst:11
 msgid "Push notifications"
-msgstr ""
+msgstr "அறிவிப்புகளை அழுத்தவும்"
 
 #: ../../appdev/guides/pushnotifications.rst:4
 msgid ""
@@ -1749,6 +2219,10 @@ msgid ""
 "the OpenStore. But now you want to be able to send Push Notifications to "
 "your users. First of all, you need to understand how this is working:"
 msgstr ""
+"சொடுக்கு செய்யக்கூடிய மற்றும் ஓபன்ச்டோரில் வெளியிடப்பட்ட ஒரு பயன்பாடு உங்களிடம் உள்ளது என்று"
+" வைத்துக் கொள்வோம். ஆனால் இப்போது நீங்கள் உங்கள் பயனர்களுக்கு புச் அறிவிப்புகளை அனுப்ப "
+"விரும்புகிறீர்கள். முதலாவதாக, இது எவ்வாறு செயல்படுகிறது என்பதை நீங்கள் புரிந்து கொள்ள "
+"வேண்டும்:"
 
 #: ../../appdev/guides/pushnotifications.rst:10
 msgid ""
@@ -1756,22 +2230,29 @@ msgid ""
 "identifies the user, the device and the app itself. The token is generated "
 "by the UBports Push Service."
 msgstr ""
+"புச் அறிவிப்புகளைப் பயன்படுத்தும் ஒவ்வொரு பயன்பாடும் ஒரு தனித்துவமான கிள்ளாக்கைப் "
+"பெற்றுள்ளது. இந்த கிள்ளாக்கு பயனர், சாதனம் மற்றும் பயன்பாட்டை அடையாளம் காட்டுகிறது. "
+"கிள்ளாக்கு யுபோர்ட்ச் புச் சேவையால் உருவாக்கப்படுகிறது."
 
 #: ../../appdev/guides/pushnotifications.rst:11
 msgid ""
 "You will need the token to send a push notification. So the app sends its "
 "token to the app developer's server."
 msgstr ""
+"புச் அறிவிப்பை அனுப்ப உங்களுக்கு கிள்ளாக்கு தேவைப்படும். எனவே பயன்பாடு அதன் கிள்ளாக்கை "
+"பயன்பாட்டு டெவலப்பரின் சேவையகத்திற்கு அனுப்புகிறது."
 
 #: ../../appdev/guides/pushnotifications.rst:12
 msgid ""
 "With the token you can send a HTTP request to the UBports Push Server which "
 "will forward the notification the user's device."
 msgstr ""
+"கிள்ளாக்கு மூலம் நீங்கள் யுபோர்ட்ச் புச் சேவையகத்திற்கு ஒரு HTTP கோரிக்கையை அனுப்பலாம், இது "
+"பயனரின் சாதனத்தின் அறிவிப்பை அனுப்பும்."
 
 #: ../../appdev/guides/pushnotifications.rst:14
 msgid "Let's practice this step-by-step."
-msgstr ""
+msgstr "இந்த படிப்படியான படிப்பைப் பயிற்சி செய்வோம்."
 
 #: ../../appdev/guides/pushnotifications.rst:17
 msgid ""
@@ -1780,26 +2261,33 @@ msgid ""
 "the user about the communication with your server by providing a privacy "
 "policy!"
 msgstr ""
+"பின்வரும் எடுத்துக்காட்டில் நாங்கள் ஒரு சேவையகத்தை செயல்படுத்த மாட்டோம். உங்கள் பயன்பாட்டிற்கும்"
+" உங்கள் சேவையகத்திற்கும் இடையிலான தொடர்பு உங்களுடையது. தனியுரிமைக் கொள்கையை வழங்குவதன் "
+"மூலம் உங்கள் சேவையகத்துடனான தகவல்தொடர்பு குறித்து பயனருக்கு தெரிவிக்கவும்!"
 
 #: ../../appdev/guides/pushnotifications.rst:20
 msgid "Make the app ready for push notifications"
-msgstr ""
+msgstr "புச் அறிவிப்புகளுக்கு பயன்பாட்டை ஆயத்தம் செய்யுங்கள்"
 
 #: ../../appdev/guides/pushnotifications.rst:23
 msgid "Implementing the PushClient"
-msgstr ""
+msgstr "புச்க்ளியனை செயல்படுத்துகிறது"
 
 #: ../../appdev/guides/pushnotifications.rst:25
 msgid ""
 "First we need to add the policy group \"push-notification-client\". Your "
 "apparmor file could look like this:"
 msgstr ""
+"முதலில் நாம் கொள்கைக் குழுவை \"புச்-நோடிஃபிகேசன்-கிளையன்ட்\" சேர்க்க வேண்டும். உங்கள் "
+"Apparmor கோப்பு இப்படி இருக்கும்:"
 
 #: ../../appdev/guides/pushnotifications.rst:38
 msgid ""
 "In the next step we need to modify the Qml parts. We need to add a "
 "pushclient component:"
 msgstr ""
+"அடுத்த கட்டத்தில் நாம் QML பகுதிகளை மாற்ற வேண்டும். நாம் ஒரு புச்க்ளியண்ட் கூறுகளைச் சேர்க்க "
+"வேண்டும்:"
 
 #: ../../appdev/guides/pushnotifications.rst:54
 msgid ""
@@ -1811,10 +2299,17 @@ msgid ""
 "But the app is not yet ready to receive a push notification. For this we "
 "need something called a pushhelper!"
 msgstr ""
+"நீங்கள் சரியான பயன்பாட்டை அமைக்க வேண்டும்! உங்கள் மேனிஃபெச்ட் கோப்பில் உள்ள பயன்பாட்டு பெயர் "
+"myapp.yourname மற்றும் முதன்மையான ஊக்கின் பெயர் (.desktop கோப்பைக் கையாளும் ஒன்று) ஊக் "
+"பெயர் என்றால், appid: myapp.yourname_hookname. நாங்கள் இப்போது பயன்பாட்டைத் "
+"தொடங்கும்போது, அது ஒரு கிள்ளாக்கைப் பெற்று இந்த கிள்ளாக்கை பதிவுகளில் அச்சிடும். சொடுக்கு "
+"செய்யக்கூடிய பதிவுகள் மூலம் இந்த கிள்ளாக்கை முனையத்திலிருந்து நகலெடுக்க முடியும். ஆனால் "
+"பயன்பாடு இன்னும் புச் அறிவிப்பைப் பெற தயாராக இல்லை. இதற்காக நமக்கு புச்எல்பர் என்று ஒன்று "
+"தேவை!"
 
 #: ../../appdev/guides/pushnotifications.rst:58
 msgid "Implementing the pushhelper"
-msgstr ""
+msgstr "புச்எல்பரை செயல்படுத்துகிறது"
 
 #: ../../appdev/guides/pushnotifications.rst:60
 msgid ""
@@ -1824,6 +2319,11 @@ msgid ""
 "json-file in the correct format. The pushhelper is seperated from the app. "
 "So we need a new hook in the manifest. It could look like this:"
 msgstr ""
+"புச்எல்பர் என்பது பயன்பாட்டின் ஒரு பகுதியாகும், இது அனைத்து புச் அறிவிப்புகளையும் பெற்று "
+"அவற்றை கணினி அறிவிப்பு மையத்திற்கு அனுப்புவதற்கு முன்பு அவற்றை செயலாக்கும். இது ஒரு "
+"JSON-FILE ஐப் பெறும், மேலும் மற்றொரு JSON-FILE ஐ சரியான வடிவத்தில் வெளியிட வேண்டும். "
+"புச்எல்பர் பயன்பாட்டிலிருந்து பிரிக்கப்பட்டுள்ளது. எனவே எங்களுக்கு ஒரு புதிய கொக்கி தேவை. "
+"இது போல் தோன்றலாம்:"
 
 #: ../../appdev/guides/pushnotifications.rst:83
 msgid ""
@@ -1831,30 +2331,38 @@ msgid ""
 "different executable file. The **push-apparmor.json** file must only contain "
 "the policy group push-notification-client and should look like this:"
 msgstr ""
+"எங்களுக்கு இப்போது வேறு APPARMOR கோப்பு மற்றும் வேறு இயங்கக்கூடிய கோப்பு தேவை என்பது "
+"தெளிவாக இருக்க வேண்டும். ** push-apparmor.json ** கோப்பில் கொள்கை குழு "
+"புச்-அறிவிப்பு-கிளையன்ட் மட்டுமே இருக்க வேண்டும், மேலும் இதுபோன்று இருக்க வேண்டும்:"
 
 #: ../../appdev/guides/pushnotifications.rst:95
 msgid "The **push.json** is for redirecting to the executable file:"
-msgstr ""
+msgstr "** push.json ** என்பது இயங்கக்கூடிய கோப்பிற்கு திருப்பி விடுவதாகும்:"
 
 #: ../../appdev/guides/pushnotifications.rst:103
 msgid ""
 "In our tutorial we will use python to create a executable named **pushexec** "
 "which will forward the notification without changing anything:"
 msgstr ""
+"எங்கள் டுடோரியலில் நாம் பைத்தானைப் பயன்படுத்துவோம் ** புசெக்செக் ** என்ற பெயரிடப்பட்ட ஒரு "
+"இயங்கக்கூடியது, இது எதையும் மாற்றாமல் அறிவிப்பை அனுப்பும்:"
 
 #: ../../appdev/guides/pushnotifications.rst:115
 msgid ""
 "We also need to add this new files to the **CMakeLists.txt** and make the "
 "pushexec executable::"
 msgstr ""
+"இந்த புதிய கோப்புகளை ** cmakelists.txt ** இல் சேர்க்க வேண்டும் மற்றும் புசெக்செக் "
+"இயங்கக்கூடியதாக மாற்ற வேண்டும் ::"
 
 #: ../../appdev/guides/pushnotifications.rst:125
 msgid "Now the app is ready to receive and process push notifications!"
 msgstr ""
+"இப்போது பயன்பாடு புச் அறிவிப்புகளைப் பெறவும் செயலாக்கவும் தயாராக உள்ளது!"
 
 #: ../../appdev/guides/pushnotifications.rst:128
 msgid "Using the Push Service API"
-msgstr ""
+msgstr "புச் பணி பநிஇ ஐப் பயன்படுத்துதல்"
 
 #: ../../appdev/guides/pushnotifications.rst:130
 msgid ""
@@ -1864,10 +2372,15 @@ msgid ""
 "application/json and it must fit in the correct format. A example in "
 "javascript could look like this:"
 msgstr ""
+"எனவே இப்போது உங்களிடம் கிள்ளாக்கு உள்ளது மற்றும் பயன்பாடு புச் அறிவிப்புகளைப் பெறவும் "
+"செயலாக்கவும் தயாராக உள்ளது. ஒரு அறிவிப்பை அனுப்ப, நீங்கள் இந்த முகவரிக்கு ஒரு HTTP "
+"கோரிக்கையை அனுப்ப வேண்டும்: https://push.ubports.com/ உள்ளடக்க வகை பயன்பாடு/json ஆக "
+"இருக்க வேண்டும், அது சரியான வடிவத்தில் பொருந்த வேண்டும். சாவாச்கிரிப்டில் ஒரு "
+"எடுத்துக்காட்டு இப்படி இருக்கக்கூடும்:"
 
 #: ../../appdev/guides/pushnotifications.rst:167
 msgid "Push Notification Object"
-msgstr ""
+msgstr "அறிவிப்பு பொருளை அழுத்தவும்"
 
 #: ../../appdev/guides/pushnotifications.rst:170
 #: ../../appdev/guides/pushnotifications.rst:195
@@ -1876,7 +2389,7 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:261
 #: ../../appdev/guides/pushnotifications.rst:275
 msgid "Parameter"
-msgstr ""
+msgstr "கூறளவு"
 
 #: ../../appdev/guides/pushnotifications.rst:170
 #: ../../appdev/guides/pushnotifications.rst:195
@@ -1885,11 +2398,11 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:261
 #: ../../appdev/guides/pushnotifications.rst:275
 msgid "Type"
-msgstr ""
+msgstr "வகை"
 
 #: ../../appdev/guides/pushnotifications.rst:172
 msgid "appid"
-msgstr ""
+msgstr "Appid"
 
 #: ../../appdev/guides/pushnotifications.rst:172
 #: ../../appdev/guides/pushnotifications.rst:175
@@ -1900,361 +2413,373 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:235
 #: ../../appdev/guides/pushnotifications.rst:243
 msgid "string"
-msgstr ""
+msgstr "சரம்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. ID of the application that will receive the notification,"
-msgstr ""
+msgstr "தேவை. அறிவிப்பைப் பெறும் பயன்பாட்டின் ஐடி,"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "as described in the client side documentation."
-msgstr ""
+msgstr "கிளையன்ட் பக்க ஆவணத்தில் விவரிக்கப்பட்டுள்ளபடி."
 
 #: ../../appdev/guides/pushnotifications.rst:175
 msgid "expire_on"
-msgstr ""
+msgstr "காலாவதியாகும்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. Expiration date/time for this message, in"
-msgstr ""
+msgstr "தேவை. இந்த செய்திக்கான காலாவதி தேதி/நேரம், இல்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "`ISO8601 Extendendformat <https://www.w3.org/TR/NOTE-datetime>`_."
-msgstr ""
+msgstr "`Iso8601 expendendformat <https://www.w3.org/tr/note-datetime>` _."
 
 #: ../../appdev/guides/pushnotifications.rst:178
 msgid "token"
-msgstr ""
+msgstr "கிள்ளாக்கு"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. The token identifying the user+device to which the message is"
-msgstr ""
+msgstr "தேவை. செய்தி இருக்கும் பயனர்+சாதனத்தை அடையாளம் காணும் கிள்ளாக்கு"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "directed, as described in the client side documentation."
-msgstr ""
+msgstr "கிளையன்ட் பக்க ஆவணத்தில் விவரிக்கப்பட்டுள்ளபடி இயக்கப்பட்டது."
 
 #: ../../appdev/guides/pushnotifications.rst:181
 msgid "clear_pending"
-msgstr ""
+msgstr "clear_pending"
 
 #: ../../appdev/guides/pushnotifications.rst:181
 #: ../../appdev/guides/pushnotifications.rst:250
 #: ../../appdev/guides/pushnotifications.rst:252
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "bool"
-msgstr ""
+msgstr "பூல்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Discards all previous pending notifications. Usually in response to"
 msgstr ""
+"முந்தைய நிலுவையில் உள்ள அனைத்து அறிவிப்புகளையும் நிராகரிக்கிறது. பொதுவாக பதிலளிக்கும்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "getting a \"too-many-pending\" error. Defaults to false."
-msgstr ""
+msgstr "\"மிகவும் நிலுவையில் உள்ள\" பிழையைப் பெறுதல். இயல்புநிலைகள் பொய்."
 
 #: ../../appdev/guides/pushnotifications.rst:184
 msgid "replace_tag"
-msgstr ""
+msgstr "மாற்றியமைக்க_டாக்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If there's a pending notification with the same tag, delete it before"
 msgstr ""
+"அதே குறிச்சொல்லுடன் நிலுவையில் உள்ள அறிவிப்பு இருந்தால், அதை முன் நீக்கு"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "queuing this new one."
-msgstr ""
+msgstr "இந்த புதிய ஒன்றை வரிசைப்படுத்துதல்."
 
 #: ../../appdev/guides/pushnotifications.rst:187
 msgid "data"
-msgstr ""
+msgstr "தகவல்கள்"
 
 #: ../../appdev/guides/pushnotifications.rst:187
 #: ../../appdev/guides/pushnotifications.rst:192
 msgid "Data"
-msgstr ""
+msgstr "தகவல்கள்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object. The contents of the data field are arbitrary. We can use"
 msgstr ""
+"ஒரு சாதொபொகு பொருள். தரவு புலத்தின் உள்ளடக்கங்கள் தன்னிச்சையானவை. நாம் பயன்படுத்தலாம்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "it to send any data to the app."
-msgstr ""
+msgstr "பயன்பாட்டிற்கு எந்த தரவையும் அனுப்ப இது."
 
 #: ../../appdev/guides/pushnotifications.rst:197
 msgid "notification"
-msgstr ""
+msgstr "அறிவிப்பு"
 
 #: ../../appdev/guides/pushnotifications.rst:197
 #: ../../appdev/guides/pushnotifications.rst:203
 msgid "Notification"
-msgstr ""
+msgstr "அறிவிப்பு"
 
 #: ../../appdev/guides/pushnotifications.rst:197
 msgid "A JSON object which defines how this notification will be presented."
 msgstr ""
+"இந்த அறிவிப்பு எவ்வாறு வழங்கப்படும் என்பதை வரையறுக்கும் சாதொபொகு பொருள்."
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "message"
-msgstr ""
+msgstr "செய்தி"
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "object"
-msgstr ""
+msgstr "பொருள்"
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "A JSON object that is passed as-is to the application via PopAll."
 msgstr ""
+"ஒரு சாதொபொகு பொருள்-கடந்து செல்லப்படுகிறது-இது போபால் வழியாக பயன்பாட்டிற்கு."
 
 #: ../../appdev/guides/pushnotifications.rst:208
 msgid "tag"
-msgstr ""
+msgstr "குறிச்சொல்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "The tag of the push notification."
-msgstr ""
+msgstr "புச் அறிவிப்பின் குறிச்சொல்."
 
 #: ../../appdev/guides/pushnotifications.rst:210
 msgid "sound"
-msgstr ""
+msgstr "ஒலி"
 
 #: ../../appdev/guides/pushnotifications.rst:210
 msgid "bool or string"
-msgstr ""
+msgstr "பூல் அல்லது சரம்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "This is either a boolean (play a predetermined sound) or the"
-msgstr ""
+msgstr "இது ஒரு பூலியன் (முன்னரே தீர்மானிக்கப்பட்ட ஒலி) அல்லது"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "path to a sound file. The user can disable it, so don't rely"
-msgstr ""
+msgstr "ஒலி கோப்பிற்கான பாதை. பயனர் அதை முடக்க முடியும், எனவே நம்ப வேண்டாம்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "on it exclusively. Defaults to empty (no sound). The path is"
-msgstr ""
+msgstr "அதன் மீது பிரத்தியேகமாக. இயல்புநிலை காலியாக உள்ளது (ஒலி இல்லை). பாதை"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "relative, and will be looked up in (a) the application's"
-msgstr ""
+msgstr "உறவினர், மற்றும் (அ) பயன்பாட்டில் பார்க்கப்படும்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "``.local/share/<pkgname>``, and (b) standard xdg dirs."
-msgstr ""
+msgstr "`."
 
 #: ../../appdev/guides/pushnotifications.rst:216
 msgid "vibrate"
-msgstr ""
+msgstr "அதிர்வு"
 
 #: ../../appdev/guides/pushnotifications.rst:216
 msgid "bool or Vibrate"
-msgstr ""
+msgstr "பூல் அல்லது அதிர்வு"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "The notification can contain a vibrate field, causing haptic"
-msgstr ""
+msgstr "அறிவிப்பில் ஒரு அதிர்வு புலம் இருக்கலாம், இதனால் ஆப்டிக் ஏற்படுகிறது"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "feedback, which can be either a boolean (if true, vibrate a"
-msgstr ""
+msgstr "கருத்து, இது ஒரு பூலியன் ஆக இருக்கலாம் (உண்மையாக இருந்தால், அதிர்வு a"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "predetermined way) or an Vibrate object."
-msgstr ""
+msgstr "முன்னரே தீர்மானிக்கப்பட்ட வழி) அல்லது அதிர்வுறும் பொருள்."
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "emblem-counter"
-msgstr ""
+msgstr "சின்னம்-கவுண்டர்"
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "Emblem-counter"
-msgstr ""
+msgstr "சின்னம்-கவுண்டர்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object, which defines how to display the emblem"
 msgstr ""
+"ஒரு சாதொபொகு பொருள், இது சின்னத்தை எவ்வாறு காண்பிப்பது என்பதை வரையறுக்கிறது"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "counter."
-msgstr ""
+msgstr "கவுண்டர்."
 
 #: ../../appdev/guides/pushnotifications.rst:223
 msgid "card"
-msgstr ""
+msgstr "அட்டை"
 
 #: ../../appdev/guides/pushnotifications.rst:223
 #: ../../appdev/guides/pushnotifications.rst:227
 msgid "Card"
-msgstr ""
+msgstr "அட்டை"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object with information about the notification card."
-msgstr ""
+msgstr "அறிவிப்பு அட்டை பற்றிய தகவல்களைக் கொண்ட சாதொபொகு பொருள்."
 
 #: ../../appdev/guides/pushnotifications.rst:232
 msgid "summary"
-msgstr ""
+msgstr "சுருக்கம்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. A title. The card will not be presented if this is"
-msgstr ""
+msgstr "தேவை. ஒரு தலைப்பு. இது இருந்தால் அட்டை வழங்கப்படாது"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "missing."
-msgstr ""
+msgstr "இல்லை."
 
 #: ../../appdev/guides/pushnotifications.rst:235
 msgid "body"
-msgstr ""
+msgstr "உடல்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Longer text, defaults to empty."
-msgstr ""
+msgstr "நீண்ட உரை, இயல்புநிலை காலியாக உள்ளது."
 
 #: ../../appdev/guides/pushnotifications.rst:237
 msgid "actions"
-msgstr ""
+msgstr "செயல்கள்"
 
 #: ../../appdev/guides/pushnotifications.rst:237
 #: ../../appdev/guides/pushnotifications.rst:263
 msgid "array"
-msgstr ""
+msgstr "வரிசை"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If empty (the default), a bubble notification is"
-msgstr ""
+msgstr "காலியாக இருந்தால் (இயல்புநிலை), ஒரு குமிழி அறிவிப்பு"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "non-clickable. If you add a URL, then bubble notifications"
 msgstr ""
+"சொடுக்கு செய்ய முடியாதது. நீங்கள் ஒரு முகவரி ஐ சேர்த்தால், குமிழி அறிவிப்புகள்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "are clickable and launch that URL. One use for this is using"
 msgstr ""
+"சொடுக்கு செய்யக்கூடியவை மற்றும் அந்த முகவரி ஐத் தொடங்கவும். இதற்கு ஒரு பயன்பாடு "
+"பயன்படுத்துகிறது"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "a URL like ``appid://com.ubuntu.developer.ralsina.hello``"
-msgstr ""
+msgstr "`` appid: // com.ubuntu.developer.ralsina.hello`` போன்ற முகவரி"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "which will switch to the app or launch it."
-msgstr ""
+msgstr "இது பயன்பாட்டிற்கு மாறும் அல்லது தொடங்கும்."
 
 #: ../../appdev/guides/pushnotifications.rst:243
 msgid "icon"
-msgstr ""
+msgstr "படவுரு"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "An icon relating to the event being notified. Defaults to"
-msgstr ""
+msgstr "நிகழ்வு தொடர்பான ஒரு படவுரு அறிவிக்கப்படுகிறது. இயல்புநிலை"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "empty (no icon); a secondary icon relating to the application"
-msgstr ""
+msgstr "வெற்று (ஐகான் இல்லை); பயன்பாடு தொடர்பான இரண்டாம் நிலை படவுரு"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "will be shown as well, regardless of this field."
-msgstr ""
+msgstr "இந்த துறையைப் பொருட்படுத்தாமல், காண்பிக்கப்படும்."
 
 #: ../../appdev/guides/pushnotifications.rst:247
 msgid "timestamp"
-msgstr ""
+msgstr "நேர முத்திரை"
 
 #: ../../appdev/guides/pushnotifications.rst:247
 #: ../../appdev/guides/pushnotifications.rst:266
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "integer"
-msgstr ""
+msgstr "முழு எண்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Seconds since the unix epoch, only used for persist for now."
 msgstr ""
+"யுனிக்ச் சகாப்தத்திலிருந்து விநாடிகள், இப்போதைக்கு மட்டுமே பயன்படுத்தப்படுகின்றன."
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If zero or unset, defaults to current timestamp."
 msgstr ""
+"பூச்சியம் அல்லது அமைக்கப்படாவிட்டால், தற்போதைய நேர முத்திரைக்கு இயல்புநிலை."
 
 #: ../../appdev/guides/pushnotifications.rst:250
 msgid "persist"
-msgstr ""
+msgstr "தொடர்ந்து"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Whether to show in notification centre; defaults to false."
-msgstr ""
+msgstr "அறிவிப்பு மையத்தில் காட்ட வேண்டுமா; இயல்புநிலைகள் பொய்."
 
 #: ../../appdev/guides/pushnotifications.rst:252
 msgid "popup"
-msgstr ""
+msgstr "பாப் அப்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Whether to show in a bubble. Users can disable this, and can"
-msgstr ""
+msgstr "ஒரு குமிழியில் காட்ட வேண்டுமா. பயனர்கள் இதை முடக்கலாம், மேலும் முடியும்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "easily miss them, so don't rely on it exclusively. Defaults"
 msgstr ""
+"அவற்றை எளிதில் இழக்கவும், எனவே அதை பிரத்தியேகமாக நம்ப வேண்டாம். இயல்புநிலை"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "to false."
-msgstr ""
+msgstr "பொய்."
 
 #: ../../appdev/guides/pushnotifications.rst:258
 msgid "Vibrate"
-msgstr ""
+msgstr "அதிர்வு"
 
 #: ../../appdev/guides/pushnotifications.rst:263
 msgid "pattern"
-msgstr ""
+msgstr "முறை"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid ""
 "A list of integers describing a vibration pattern (duration of alternating"
-msgstr ""
+msgstr "அதிர்வு முறையை விவரிக்கும் முழு எண்களின் பட்டியல் (மாற்றீட்டின் காலம்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "vibration/no vibration times, in milliseconds)."
-msgstr ""
+msgstr "அதிர்வு/அதிர்வு நேரங்கள் இல்லை, மில்லி விநாடிகளில்)."
 
 #: ../../appdev/guides/pushnotifications.rst:266
 msgid "repeat"
-msgstr ""
+msgstr "மீண்டும்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Number of times the pattern has to be repeated (defaults to 1, 0 is the"
-msgstr ""
+msgstr "முறை மீண்டும் மீண்டும் செய்யப்பட வேண்டும் (இயல்புநிலை 1, 0 ஆகும்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "same as 1)."
-msgstr ""
+msgstr "1) அதே)."
 
 #: ../../appdev/guides/pushnotifications.rst:272
 msgid "Emblem-Counter"
-msgstr ""
+msgstr "சின்னம்-கவுண்டர்"
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "count"
-msgstr ""
+msgstr "எண்ணுங்கள்"
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "A number to be displayed over the application's icon in the launcher."
-msgstr ""
+msgstr "துவக்கத்தில் பயன்பாட்டின் ஐகானில் காண்பிக்கப்பட வேண்டிய எண்."
 
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "visible"
-msgstr ""
+msgstr "தெரியும்"
 
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "Set to true to show the counter, or false to hide it."
-msgstr ""
+msgstr "கவுண்டரைக் காட்ட உண்மையாக அமைக்கவும், அல்லது அதை மறைக்க தவறானது."
 
 #: ../../appdev/guides/user-metrics.rst:2
 msgid "User Metrics"
-msgstr ""
+msgstr "பயனர் அளவீடுகள்"
 
 #: ../../appdev/guides/user-metrics.rst:5
 msgid "What are User Metrics?"
-msgstr ""
+msgstr "பயனர் அளவீடுகள் என்றால் என்ன?"
 
 #: ../../appdev/guides/user-metrics.rst:7
 msgid ""
@@ -2263,49 +2788,63 @@ msgid ""
 "the user’s activity. Double tap on the middle of the circle, and you will "
 "see more \"metrics\" about the user."
 msgstr ""
+"நீங்கள் பூட்டுத் திரையில் பார்த்தால், நீங்கள் ஒரு வட்டத்தைக் காண்பீர்கள். வட்டத்தின் உள்ளே உரை உள்ளது"
+". நெருக்கமாகப் பாருங்கள், மேலும் உரையில் பயனரின் செயல்பாடு தொடர்பான தரவு இருப்பதை நீங்கள் "
+"கவனிப்பீர்கள். வட்டத்தின் நடுவில் இருமுறை தட்டவும், மேலும் பயனரைப் பற்றி மேலும் "
+"\"அளவீடுகளை\" காண்பீர்கள்."
 
 #: ../../appdev/guides/user-metrics.rst:11
 msgid "This shows \"7 text messages sent today.\" How did it know?"
 msgstr ""
+"இது \"இன்று அனுப்பப்பட்ட 7 குறுஞ்செய்திகள்\" காட்டுகிறது. அது எப்படி தெரியும்?"
 
 #: ../../appdev/guides/user-metrics.rst:15
 msgid ""
 "This is from a 3rd-party application (`nCounter <https://gitlab.com/"
 "joboticon/ncounter/>`_) that makes use of the User Metrics feature."
 msgstr ""
+"இது 3 வது தரப்பு பயன்பாட்டிலிருந்து (`ncounter <https://gitlab.com/joboticon/"
+"ncounter/>` _) பயனர் அளவீட்டு அம்சத்தைப் பயன்படுத்துகிறது."
 
 #: ../../appdev/guides/user-metrics.rst:17
 msgid ""
 "For the most part, these messages are quite clearly state what they are "
 "counting, and which app is related. But where do these metrics come from?"
 msgstr ""
+"பெரும்பாலும், இந்த செய்திகள் அவை எதைக் கணக்கிடுகின்றன, எந்த பயன்பாடு தொடர்புடையது என்பதை "
+"தெளிவாகக் கூறுகின்றன. ஆனால் இந்த அளவீடுகள் எங்கிருந்து வருகின்றன?"
 
 #: ../../appdev/guides/user-metrics.rst:20
 msgid "How can I use User Metrics in my application?"
-msgstr ""
+msgstr "எனது பயன்பாட்டில் பயனர் அளவீடுகளை எவ்வாறு பயன்படுத்துவது?"
 
 #: ../../appdev/guides/user-metrics.rst:22
 msgid ""
 "All of the following information will be based on the code for `nCounter`_."
 msgstr ""
+"பின்வரும் தகவல்கள் அனைத்தும் `ncounter`_ க்கான குறியீட்டின் அடிப்படையில் இருக்கும்."
 
 #: ../../appdev/guides/user-metrics.rst:24
 msgid "Your app's apparmor file must include ``usermetrics`` in the policy:"
 msgstr ""
+"உங்கள் பயன்பாட்டின் Apparmor கோப்பில் கொள்கையில் `` `` `` `` `` `` `` `` `` `` `` `` "
+"`` `` `` `` `` `` `usermetrics`` ஐக் கொண்டிருக்க வேண்டும்:"
 
 #: ../../appdev/guides/user-metrics.rst:35
 msgid ""
 "Next, you will need to import the module in the QML file that will handle "
 "the User Metrics:"
 msgstr ""
+"அடுத்து, பயனர் அளவீடுகளைக் கையாளும் QML கோப்பில் நீங்கள் தொகுதியை இறக்குமதி செய்ய வேண்டும்:"
 
 #: ../../appdev/guides/user-metrics.rst:41
 msgid "(There may be updated versions of this above 0.1)"
-msgstr ""
+msgstr "(இதன் மூலம் புதுப்பிக்கப்பட்ட பதிப்புகள் 0.1) இருக்கலாம்)"
 
 #: ../../appdev/guides/user-metrics.rst:43
 msgid "Next, the specific Metric must be defined in the code as an object:"
 msgstr ""
+"அடுத்து, குறிப்பிட்ட மெட்ரிக் குறியீட்டில் ஒரு பொருளாக வரையறுக்கப்பட வேண்டும்:"
 
 #: ../../appdev/guides/user-metrics.rst:56
 msgid ""
@@ -2313,69 +2852,80 @@ msgid ""
 "\"emptyFormat\" when an event takes place by referencing the variables in "
 "the Metric object."
 msgstr ""
+"இப்போது மெட்ரிக் உருவாக்கப்பட்டுள்ளதால், மெட்ரிக் பொருளில் உள்ள மாறிகளைக் குறிப்பிடுவதன் "
+"மூலம் ஒரு நிகழ்வு நடைபெறும்போது \"வடிவம்\" அல்லது \"வெற்றுஃபார்மேட்\" புதுப்பிக்கலாம்."
 
 #: ../../appdev/guides/user-metrics.rst:66
 msgid ""
 "Here we assign a new value to the circleMetric string variable that’s inside "
 "the Metric object:"
 msgstr ""
+"மெட்ரிக் பொருளுக்குள் இருக்கும் வட்டமெதி சரம் மாறிக்கு புதிய மதிப்பை இங்கே ஒதுக்குகிறோம்:"
 
 #: ../../appdev/guides/user-metrics.rst:68
 msgid "(Remember that circleMetric is the variable value assigned to format)"
 msgstr ""
+"(வட்டமளிப்பு என்பது வடிவத்திற்கு ஒதுக்கப்பட்ட மாறி மதிப்பு என்பதை நினைவில் கொள்ளுங்கள்)"
 
 #: ../../appdev/guides/user-metrics.rst:70
 msgid "Metric Id [dot] Variable Name [equals] New variable information"
-msgstr ""
+msgstr "மெட்ரிக் ஐடி [புள்ளி] மாறி பெயர் [சமம்] புதிய மாறி செய்தி"
 
 #: ../../appdev/guides/user-metrics.rst:72
 msgid "``metric.circleMetric = \"New Metric Message\"``"
-msgstr ""
+msgstr "`` metric.circlemetric = \"புதிய மெட்ரிக் செய்தி\" ``"
 
 #: ../../appdev/guides/user-metrics.rst:74
 msgid "We then tell the lock screen to update the metric."
-msgstr ""
+msgstr "மெட்ரிக்கைப் புதுப்பிக்க பூட்டுத் திரையை நாங்கள் சொல்கிறோம்."
 
 #: ../../appdev/guides/user-metrics.rst:76
 msgid ""
 "Metric ID [dot] update (specific amount to set if included in the format)"
 msgstr ""
+"மெட்ரிக் ஐடி [டாட்] புதுப்பிப்பு (வடிவமைப்பில் சேர்க்கப்பட்டால் அமைக்க குறிப்பிட்ட தொகை)"
 
 #: ../../appdev/guides/user-metrics.rst:78
 msgid "``metric.update(0)``"
-msgstr ""
+msgstr "`` metric.update (0) ``"
 
 #: ../../appdev/guides/user-metrics.rst:80
 msgid ""
 "(Note: In this example, ``0`` is arbitrary since the metric value doesn't "
 "include a counter)"
 msgstr ""
+"(குறிப்பு: இந்த எடுத்துக்காட்டில், மெட்ரிக் மதிப்பில் ஒரு கவுண்டர் இல்லை என்பதால் `` 0`` "
+"தன்னிச்சையானது)"
 
 #: ../../appdev/guides/user-metrics.rst:82
 msgid ""
 "We have now updated the metric for today. When the time rolls over to "
 "tomorrow, the metric will be reset to whatever is in ``emptyFormat``."
 msgstr ""
+"இன்று மெட்ரிக்கை புதுப்பித்துள்ளோம். நேரம் நாளைக்கு உருளும் போது, மெட்ரிக் `` "
+"வெற்றுஃபார்மேட்`` இல் உள்ளவற்றிற்கு மீட்டமைக்கப்படும்."
 
 #: ../../appdev/guides/user-metrics.rst:84
 msgid "For most apps, this defaults to 0 counts for messages, calls, etc."
 msgstr ""
+"பெரும்பாலான பயன்பாடுகளுக்கு, இது செய்திகள், அழைப்புகள் போன்றவற்றுக்கு 0 எண்ணிக்கையை "
+"உருவாக்குகிறது."
 
 #: ../../appdev/guides/user-metrics.rst:87
 msgid "How do User Metrics work?"
-msgstr ""
+msgstr "பயனர் அளவீடுகள் எவ்வாறு செயல்படுகின்றன?"
 
 #: ../../appdev/guides/user-metrics.rst:89
 msgid "User Metrics are made up of two \"formats\":"
-msgstr ""
+msgstr "பயனர் அளவீடுகள் இரண்டு \"வடிவங்களால்\" ஆனவை:"
 
 #: ../../appdev/guides/user-metrics.rst:91
 msgid "metrics/messages for today (``format``)"
-msgstr ""
+msgstr "இன்றைய அளவீடுகள்/செய்திகள் (`` வடிவமைப்பு``)"
 
 #: ../../appdev/guides/user-metrics.rst:92
 msgid "metrics/messages for tomorrow (``emptyFormat``)"
-msgstr ""
+msgstr "நாளைக்கான அளவீடுகள்/செய்திகள் (`` வெற்றுஃபார்மேட்``)"
 
 #: ../../appdev/guides/user-metrics.rst:94
 msgid ""
@@ -2383,14 +2933,17 @@ msgid ""
 "value has been stored in ``format``. In order to display a new value of "
 "``format`` the metric must be updated."
 msgstr ""
+"`` வெற்றுஃபார்மேட்`` இன் மதிப்பு, `` வடிவமைப்பு`` இல் எந்த மதிப்பும் சேமிக்கப்படாதபோது "
+"பூட்டுத் திரையில் காண்பிக்கப்படும். `` வடிவமைப்பு`` இன் புதிய மதிப்பைக் காண்பிக்க மெட்ரிக் "
+"புதுப்பிக்கப்பட வேண்டும்."
 
 #: ../../appdev/guides/user-metrics.rst:96
 msgid "There are two options for updating the metric:"
-msgstr ""
+msgstr "மெட்ரிக்கைப் புதுப்பிக்க இரண்டு விருப்பங்கள் உள்ளன:"
 
 #: ../../appdev/guides/user-metrics.rst:98
 msgid "Set the metric to a specific amount:"
-msgstr ""
+msgstr "மெட்ரிக்கை ஒரு குறிப்பிட்ட தொகைக்கு அமைக்கவும்:"
 
 #: ../../appdev/guides/user-metrics.rst:100
 msgid ""
@@ -2399,21 +2952,27 @@ msgid ""
 "The counter value can be included in the ``format`` setting by using ``%1``. "
 "e.g. ``format: \"%1 buttons pressed today\"``"
 msgstr ""
+"`` metricid.update (x) `` (அங்கு ஃச் என்பது எதிர் மதிப்புக்கு அமைக்க பல வகை `இரட்டை` "
+"ஆகும்). `` மெட்ரிகிட்`` என்பது `` ஐடி: `` என்பது மெட்ரிக் உருப்படியில் "
+"குறிப்பிடப்பட்டுள்ளது. ``%1`` ஐப் பயன்படுத்துவதன் மூலம் `` வடிவமைப்பு`` அமைப்பில் எதிர் "
+"மதிப்பு சேர்க்கப்படலாம். எ.கா. `` வடிவம்: \"%1 பொத்தான்கள் இன்று அழுத்தப்படுகின்றன\" ``"
 
 #: ../../appdev/guides/user-metrics.rst:102
 msgid "Increment the metric:"
-msgstr ""
+msgstr "மெட்ரிக்கை அதிகரிக்கவும்:"
 
 #: ../../appdev/guides/user-metrics.rst:104
 msgid ""
 "``metricID.increment(x)`` (where x is the amount to add to the current "
 "counter)"
 msgstr ""
+"`` metricid.increment (x) `` (அங்கு ஃச் என்பது தற்போதைய கவுண்டரில் சேர்க்கும் அளவு)"
 
 #: ../../appdev/guides/user-metrics.rst:106
 msgid ""
 "The metric will reset back to the value stored in ``emptyFormat`` each day."
 msgstr ""
+"மெட்ரிக் ஒவ்வொரு நாளும் `` வெற்றுஃபார்மேட்`` இல் சேமிக்கப்பட்ட மதிப்புக்கு மீட்டெடுக்கும்."
 
 #: ../../appdev/guides/user-metrics.rst:108
 msgid ""
@@ -2424,16 +2983,22 @@ msgid ""
 "lib/usermetrics <https://github.com/ubports/libusermetrics/tree/xenial/doc/"
 "pages>`_)."
 msgstr ""
+"ஒரு குறிப்பிட்ட நிகழ்வு நடைபெறும்போதெல்லாம் \"வடிவங்களை\" அமைத்து புதுப்பிப்பதன் மூலம் "
+"பயன்பாடுகள் பயனர் அளவீடுகளைப் பயன்படுத்துகின்றன. எ.கா. நீங்கள் டெலிகிராமில் அனுப்பு என்பதை "
+"அழுத்தும்போது, அல்லது தொலைபேசி அழைப்பைப் பெறும்போது. பயன்பாடு கையாளுதலுக்கான தரவைச் "
+"சேமிக்கக்கூடும், ஆனால் பொதுவாக தரவு கணினியில் சேமிக்கப்படுகிறது (`/var/lib/"
+"usermetrics <https://github.com/ubports/libusermetrics/tree/xenial/doc/"
+"pages>` _)."
 
 #: ../../appdev/guides/user-metrics.rst:111
 msgid ""
 "(See this `blog post <https://daker.me/2013/11/adding-usermetrics-to-your-"
 "app-on-ubuntu-touch.html>`_ for a simple example)"
-msgstr ""
+msgstr "(இந்த `வலைப்பதிவு இடுகையைப் பார்க்கவும் <https://daker.me/2013/11"
 
 #: ../../appdev/guides/user-metrics.rst:114
 msgid "Limitations and wonders"
-msgstr ""
+msgstr "வரம்புகள் மற்றும் அதிசயங்கள்"
 
 #: ../../appdev/guides/user-metrics.rst:115
 msgid ""
@@ -2443,6 +3008,11 @@ msgid ""
 "this file and rebooting will remove all stored metrics. Presumably, the db "
 "file could be edited instead of deleted."
 msgstr ""
+"ஒரு மெட்ரிக் பதிவு செய்யப்பட்டவுடன், பயன்பாடு நிறுவல் நீக்கப்பட்ட பிறகும் அது பூட்டுத் "
+"திரையில் இருக்கும். ஒரு தரவுத்தள கோப்பு (டிபி) `/var/lib/usermetrics` இல் "
+"சேமிக்கப்படுகிறது, இது ரூட் மூலம் நீக்கப்படலாம் (ஆனால் சூடோவுடன் அல்ல). இந்த கோப்பை நீக்கி "
+"மறுதொடக்கம் செய்வது சேமிக்கப்பட்ட அனைத்து அளவீடுகளையும் அகற்றும். மறைமுகமாக, டி.பி. "
+"கோப்பை நீக்குவதற்கு பதிலாக திருத்தலாம்."
 
 #: ../../appdev/guides/user-metrics.rst:117
 msgid ""
@@ -2450,6 +3020,9 @@ msgid ""
 "maintain a running tally beyond one day (though not impossible. See "
 "`FluffyChat <https://gitlab.com/ChristianPauly/fluffychat>`_)."
 msgstr ""
+"\"வடிவங்கள்\" எவ்வாறு அமைக்கப்பட்டன என்பதை அடிப்படையாகக் கொண்டு, ஒரு நாளுக்கு அப்பால் "
+"இயங்கும் எண்ணிக்கையை பராமரிப்பது கடினம் என்று தெரிகிறது (சாத்தியமற்றது என்றாலும். "
+"`பஞ்சுபோன்ற <https://gitlab.com/christianpauly/fluffychat>` _) ஐப் பார்க்கவும்."
 
 #: ../../appdev/guides/user-metrics.rst:119
 msgid ""
@@ -2460,6 +3033,12 @@ msgid ""
 "This, however, nearly defeats the purpose of the metric entirely, other than "
 "having a neat stat reminder for the day."
 msgstr ""
+"`Ncounter`_ பயன்பாட்டின் விசயத்தில். நான் நாட்களின் எண்ணிக்கையை எண்ண விரும்பினேன், ஆனால் "
+"மெட்ரிக் ஒவ்வொரு நாளும் \"மீட்டமைக்கிறது\" என்பதால், அது ஒரு சிக்கலை முன்வைக்கிறது. "
+"பயன்பாடு திறக்கப்படும் ஒவ்வொரு முறையும் மெட்ரிக்கைப் புதுப்பிக்கும் ஒரு பணித்தொகுப்பை நான் "
+"உருவாக்கினேன். எனவே, `` வெற்றுஃபார்மட்`` (இயல்புநிலை) பயன்பாட்டைத் திறக்க பயனரிடம் "
+"கூறுகிறது. எவ்வாறாயினும், இது மெட்ரிக்கின் நோக்கத்தை முழுவதுமாக தோற்கடிக்கிறது, அன்றைய "
+"நாள் சுத்தமாக புள்ளிவிவர நினைவூட்டலைக் கொண்டிருப்பதைத் தவிர."
 
 #: ../../appdev/guides/user-metrics.rst:121
 msgid ""
@@ -2468,10 +3047,14 @@ msgid ""
 "Indicator Weather app. This runs a process every X minutes to update the "
 "weather indicator automatically without having to open the app."
 msgstr ""
+"ஒரு குறிப்பிட்ட பயன்பாட்டுக் குறியீட்டிலிருந்து தரவை மீட்டெடுக்க ஒரு செயல்முறை பின்னணியில் "
+"(எ.கா. CRON) சுயாதீனமாக இயங்க ஒரு வழி இருக்க வேண்டும். ஒரு முன்னணி காட்டி வானிலை "
+"பயன்பாடு. பயன்பாட்டைத் திறக்காமல் வானிலை குறிகாட்டியை தானாக புதுப்பிக்க இது ஒவ்வொரு ஃச் "
+"நிமிடங்களுக்கும் ஒரு செயல்முறையை இயக்குகிறது."
 
 #: ../../appdev/guides/writeable-dirs.rst:2
 msgid "Writable directories"
-msgstr ""
+msgstr "எழுதக்கூடிய கோப்பகங்கள்"
 
 #: ../../appdev/guides/writeable-dirs.rst:4
 msgid ""
@@ -2481,10 +3064,15 @@ msgid ""
 "write files that are located in one of three app specific directories "
 "explained in this guide."
 msgstr ""
+"பயன்பாட்டு சிறைவாசம் என்பது உபுண்டு டச் பாதுகாப்பு கருத்தின் ஒரு பகுதியாகும். Apparmor "
+"கொள்கைகளின்படி மட்டுமே பயன்பாடுகளுக்கு இடையில் தரவைப் பரிமாறிக்கொள்ள முடியும், "
+"முக்கியமாக: ref: `ContentHub <ContentHub>`. இந்த வழிகாட்டியில் விளக்கப்பட்டுள்ள மூன்று"
+" பயன்பாட்டு குறிப்பிட்ட கோப்பகங்களில் ஒன்றில் அமைந்துள்ள கோப்புகளை மட்டுமே பயன்பாடுகள் "
+"படித்து எழுத முடியும்."
 
 #: ../../appdev/guides/writeable-dirs.rst:7
 msgid "Standard Paths"
-msgstr ""
+msgstr "நிலையான பாதைகள்"
 
 #: ../../appdev/guides/writeable-dirs.rst:8
 msgid ""
@@ -2494,14 +3082,19 @@ msgid ""
 "messages to the log file, use the `Qt debug <https://doc.qt.io/qt-5/qdebug."
 "html>`_ functions."
 msgstr ""
+"கீழே விளக்கப்பட்டுள்ள பயன்பாட்டு கோப்பகங்களுக்கான எழுதும் அணுகலைத் தவிர, பயன்பாடு `` /"
+"home/phablet/.cache/upstart/application-click-<fullappname> _ <ppyname> _ "
+"<perssion> .log`` இல் அமைந்துள்ள பயன்பாட்டு பதிவு கோப்பில் பிழைத்திருத்த செய்திகளை "
+"எழுதலாம். பதிவு கோப்பில் செய்திகளைச் சேர்க்க, `Qt பிழைத்திருத்த <https://doc.qt.io/"
+"qt-5/qdebug.html> _ _ செயல்பாடுகளைப் பயன்படுத்தவும்."
 
 #: ../../appdev/guides/writeable-dirs.rst:11
 msgid "Config"
-msgstr ""
+msgstr "கட்டமைப்பு"
 
 #: ../../appdev/guides/writeable-dirs.rst:12
 msgid "Path: ``/home/phablet/.config/<fullappname>/``"
-msgstr ""
+msgstr "பாதை: `` /home/phablet/.config/ <fullappname>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:14
 msgid ""
@@ -2509,14 +3102,16 @@ msgid ""
 "example stores its configuration to ``/home/phablet/.config/com.ubuntu.music/"
 "com.ubuntu.music.conf``."
 msgstr ""
+"உள்ளமைவு கோப்புகளை சேமிக்க இது இடம். எடுத்துக்காட்டாக, இசை பயன்பாடு அதன் உள்ளமைவை ``/"
+"home/phablet/.config/com.ubuntu.music/com.ubuntu.music.conf`` க்கு சேமிக்கிறது."
 
 #: ../../appdev/guides/writeable-dirs.rst:17
 msgid "Cache"
-msgstr ""
+msgstr "கேச்"
 
 #: ../../appdev/guides/writeable-dirs.rst:18
 msgid "Path: ``/home/phablet/.cache/<fullappname>/``"
-msgstr ""
+msgstr "பாதை: `` /home/phablet/.cache/ <fullappname>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:20
 msgid ""
@@ -2524,6 +3119,9 @@ msgid ""
 "Content Hub. Files that have been shared with the music app for example can "
 "be found in ``/home/phablet/.cache/com.ubuntu.music/HubIncoming/``."
 msgstr ""
+"பிற்கால பயன்பாட்டிற்கான தரவை கேச் செய்வதற்கான இடம் இது. கேச் உள்ளடக்க மையத்தால் "
+"பயன்படுத்தப்படுகிறது. எடுத்துக்காட்டாக இசை பயன்பாட்டுடன் பகிரப்பட்ட கோப்புகளை ``/home/"
+"pablet/.cache/com.ubuntu.music/hubincomming/`` இல் காணலாம்."
 
 #: ../../appdev/guides/writeable-dirs.rst:23
 msgid ""
@@ -2532,30 +3130,38 @@ msgid ""
 "is commonly done to recover some space on the device. Don't store user "
 "account info here :)"
 msgstr ""
+"கேச் கோப்பகத்தில் உள்ள தரவு தற்காலிகமாக கருதப்பட வேண்டும், மேலும் இந்த அடைவு அழிக்கப்பட்டால்"
+" பயன்பாடு பொதுவாக செயல்பட வேண்டும் - சாதனத்தில் சில இடங்களை மீட்டெடுக்க கேச் அழித்தல் "
+"பொதுவாக செய்யப்படுகிறது. பயனர் கணக்கு தகவலை இங்கே சேமிக்க வேண்டாம் :)"
 
 #: ../../appdev/guides/writeable-dirs.rst:26
 msgid "App data"
-msgstr ""
+msgstr "பயன்பாட்டு தரவு"
 
 #: ../../appdev/guides/writeable-dirs.rst:27
 msgid "Path: ``/home/phablet/.local/share/<fullappname>/``"
-msgstr ""
+msgstr "பாதை: `` /home/phablet/.local/share/ <fullappname>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:29
 msgid ""
 "This is where your app stores any data. The music app for example stores its "
 "data bases to ``/home/phablet/.local/share/com.ubuntu.music/Databases/``."
 msgstr ""
+"உங்கள் பயன்பாடு எந்த தரவையும் சேமிக்கிறது. எடுத்துக்காட்டாக, இசை பயன்பாடு அதன் தரவு "
+"தளங்களை ``/home/pablet/.local/share/com.ubuntu.music/தரவுத்தளங்கள்/`` என "
+"சேமிக்கிறது."
 
 #: ../../appdev/guides/writeable-dirs.rst:33
 msgid "Using Standard Paths in C++"
-msgstr ""
+msgstr "சி ++ இல் நிலையான பாதைகளைப் பயன்படுத்துதல்"
 
 #: ../../appdev/guides/writeable-dirs.rst:34
 msgid ""
 "The Qt header ``QStandardPaths`` provides the app's writable locations in C+"
 "+:"
 msgstr ""
+"கியுடி தலைப்பு `` QStandardPaths`` பயன்பாட்டின் எழுதக்கூடிய இடங்களை C ++ இல் "
+"வழங்குகிறது:"
 
 #: ../../appdev/guides/writeable-dirs.rst:45
 msgid ""
@@ -2564,6 +3170,9 @@ msgid ""
 "html#applicationName-prop>`_, this needs to be the same as the clickable "
 "application name."
 msgstr ""
+"QStandardPaths சரங்களின் மதிப்பு `QT பயன்பாட்டு பெயர் <https://doc.qt.io/qt-5/"
+"qcoreapplication.html#applicationname-prop>` _ ஆகியவற்றால் தீர்மானிக்கப்படுவதால், "
+"இது சொடுக்கு செய்யக்கூடிய பயன்பாட்டு பெயராக இருக்க வேண்டும்."
 
 #: ../../appdev/guides/writeable-dirs.rst:48
 msgid ""
@@ -2572,10 +3181,14 @@ msgid ""
 "functions too - if you need to do this, set it to the clickable application "
 "name as well, otherwise the paths won't work on the device."
 msgstr ""
+"`அமைப்பு பெயர் <https://doc.qt.io/qt-5/qcoraeapplication.html#organizationname-"
+"prop>` _ இந்த செயல்பாடுகளால் திரும்பிய பாதைகளையும் மாற்றும்-நீங்கள் இதைச் செய்ய "
+"வேண்டுமானால், அதை சொடுக்கு செய்யக்கூடிய பயன்பாட்டு பெயருக்கும் அமைக்கவும், இல்லையெனில் "
+"பாதைகள் சாதனத்தில் வேலை செய்யாது."
 
 #: ../../appdev/guides/writeable-dirs.rst:51
 msgid "Using Standard Paths in QML"
-msgstr ""
+msgstr "QML இல் நிலையான பாதைகளைப் பயன்படுத்துதல்"
 
 #: ../../appdev/guides/writeable-dirs.rst:52
 msgid ""
@@ -2583,6 +3196,9 @@ msgid ""
 "labs-platform-standardpaths.html>`_ provides the app's writable locations in "
 "QML:"
 msgstr ""
+"கியுடி தொகுதி `qt.labs.platform <https://doc.qt.io/archives/qt-5.10/qml-qt-"
+"labs-platform-standardpaths.html>` _ QML இல் பயன்பாட்டின் எழுதக்கூடிய இருப்பிடங்களை "
+"வழங்குகிறது:"
 
 #: ../../appdev/guides/writeable-dirs.rst:72
 msgid ""
@@ -2591,62 +3207,70 @@ msgid ""
 "must be considered specially if the app is sharing location strings between "
 "QML and C++."
 msgstr ""
+"`` Qstandardpaths`` பாதைகளை (`` '/பேப்லெட்/ஓம்/...' ``) தருகிறது என்பதைக் "
+"கவனியுங்கள், மேலும் QML `` ச்டாண்டர்ட்பாத்ச்`` முகவரி களைத் தருகிறது (`` 'கோப்பு: /// "
+"பேப்லெட்/ஓம்/...' `` `). பயன்பாடு QML மற்றும் C ++ க்கு இடையில் இருப்பிட சரங்களை "
+"பகிர்ந்து கொண்டால் இது சிறப்பாக கருதப்பட வேண்டும்."
 
 #: ../../appdev/index.rst:2
 msgid "App development"
-msgstr ""
+msgstr "பயன்பாட்டு மேம்பாடு"
 
 #: ../../appdev/index.rst:4
 msgid "You'd like to develop an app for Ubuntu Touch? Great!"
-msgstr ""
+msgstr "உபுண்டு தொடுதலுக்கான பயன்பாட்டை உருவாக்க விரும்புகிறீர்களா? பெரிய!"
 
 #: ../../appdev/index.rst:9 ../../appdev/webapp/index.rst:37
 msgid "Quick start"
-msgstr ""
+msgstr "விரைவான தொடக்க"
 
 #: ../../appdev/index.rst:11
 msgid "Building your first app should be as simple as:"
 msgstr ""
+"உங்கள் முதல் பயன்பாட்டை உருவாக்குவது மிகவும் எளிமையானதாக இருக்க வேண்டும்:"
 
 #: ../../appdev/index.rst:13
 msgid "`Install clickable <https://clickable-ut.dev/en/latest/install.html>`_"
 msgstr ""
+"`கிளிக் செய்யக்கூடிய <https://clickable-ut.dev/en/latest/install.html>` _"
 
 #: ../../appdev/index.rst:14
 msgid "Plug in your Ubuntu Touch device"
-msgstr ""
+msgstr "உங்கள் உபுண்டு டச் சாதனத்தில் செருகவும்"
 
 #: ../../appdev/index.rst:15
 msgid "Enable developer mode in System Settings"
-msgstr ""
+msgstr "கணினி அமைப்புகளில் உருவாக்குபவர் பயன்முறையை இயக்கவும்"
 
 #: ../../appdev/index.rst:16
 msgid "Run ``clickable create``"
-msgstr ""
+msgstr "`` சொடுக்கு செய்யக்கூடிய உருவாக்கு`` ஐ இயக்கவும்"
 
 #: ../../appdev/index.rst:17
 msgid "Choose \"QML Only\" from the list of app templates"
 msgstr ""
+"பயன்பாட்டு வார்ப்புருக்களின் பட்டியலிலிருந்து \"QML மட்டும்\" என்பதைத் தேர்வுசெய்க"
 
 #: ../../appdev/index.rst:18
 msgid "Fill in the requested information for this new app"
-msgstr ""
+msgstr "இந்த புதிய பயன்பாட்டிற்கான கோரப்பட்ட தகவல்களை நிரப்பவும்"
 
 #: ../../appdev/index.rst:19
 msgid "When the app has been generated, enter the newly created directory"
 msgstr ""
+"பயன்பாடு உருவாக்கப்பட்டதும், புதிதாக உருவாக்கப்பட்ட கோப்பகத்தை உள்ளிடவும்"
 
 #: ../../appdev/index.rst:20
 msgid "Run ``clickable``"
-msgstr ""
+msgstr "`` சொடுக்கு செய்யக்கூடிய`` ஐ இயக்கவும்"
 
 #: ../../appdev/index.rst:22
 msgid "Voilà you have your first app running on Ubuntu Touch!"
-msgstr ""
+msgstr "Voilà உங்கள் முதல் பயன்பாடு உபுண்டு தொடுதலில் இயங்குகிறது!"
 
 #: ../../appdev/index.rst:25 ../../porting/configure_test_fix/Overlay.rst:7
 msgid "Overview"
-msgstr ""
+msgstr "கண்ணோட்டம்"
 
 #: ../../appdev/index.rst:27
 msgid ""
@@ -2655,10 +3279,14 @@ msgid ""
 "JavaScript, C++, Python, Rust, or Go. Secondly, *web apps* are special "
 "containers to run websites in."
 msgstr ""
+"உபுண்டு டச் இரண்டு வகையான பயன்பாடுகளை ஆதரிக்கிறது: முதலாவதாக, * சொந்த பயன்பாடுகள் * "
+"அவற்றின் பயனர் இடைமுகத்தை QML அல்லது உஉகுமொ இல் எழுதப்பட்டுள்ளன மற்றும் சாவாச்கிரிப்ட், சி "
+"++, பைதான், ரச்ட் அல்லது கோ ஆகியவற்றில் அவற்றின் வணிக வழக்கு உள்ளது. இரண்டாவதாக, * வலை "
+"பயன்பாடுகள் * வலைத்தளங்களை இயக்க சிறப்பு கொள்கலன்கள்."
 
 #: ../../appdev/index.rst:36
 msgid "The following sections provide guides and API documentation."
-msgstr ""
+msgstr "பின்வரும் பிரிவுகள் வழிகாட்டிகள் மற்றும் பநிஇ ஆவணங்களை வழங்குகின்றன."
 
 #: ../../appdev/index.rst:38
 msgid ""
@@ -2668,12 +3296,19 @@ msgid ""
 "app. It also provides various templates to get you started with app "
 "development."
 msgstr ""
+"`கிளிக் செய்யக்கூடிய <https://clickable-ut.dev>` _ என்பது உபுண்டு தொடுதலில் "
+"பயன்பாடுகளை உருவாக்குவதற்கான முக்கிய கருவியாகும். நிறைய சிறந்த அம்சங்களைக் கொண்ட கட்டளை "
+"வரி கருவியைப் பயன்படுத்த எளிதானது. உங்கள் பயன்பாட்டை தொகுக்கவும், உருவாக்கவும், "
+"சோதிக்கவும், வெளியிடவும் சொடுக்கு செய்யக்கூடியது. பயன்பாட்டு மேம்பாட்டுடன் தொடங்குவதற்கு "
+"இது பல்வேறு வார்ப்புருக்களையும் வழங்குகிறது."
 
 #: ../../appdev/index.rst:40
 msgid ""
 "You can use any code editor or IDE to work on the code. Then you build your "
 "app from the command line with Clickable."
 msgstr ""
+"குறியீட்டில் வேலை செய்ய நீங்கள் எந்த குறியீடு எடிட்டர் அல்லது IDE ஐப் பயன்படுத்தலாம். கட்டளை "
+"வரியிலிருந்து உங்கள் பயன்பாட்டை சொடுக்கு செய்யக்கூடியதாக உருவாக்கவும்."
 
 #: ../../appdev/index.rst:44
 msgid ""
@@ -2682,10 +3317,14 @@ msgid ""
 "Note also that most apps in the OpenStore are open source and can serve as "
 "references and inspiration."
 msgstr ""
+"பயன்பாடுகள் A: ref: `கிளிக் <கிளிக்>` தொகுப்பாக அனுப்பப்படுகின்றன, மேலும் அதிகாரப்பூர்வ "
+"ஆப் ச்டோரில் `ஓபன்ச்டோர் <https://open-store.io> __. __. ஓபன்ச்டோரில் உள்ள பெரும்பாலான "
+"பயன்பாடுகள் திறந்த மூலங்கள் மற்றும் குறிப்புகள் மற்றும் உத்வேகமாக செயல்பட முடியும் என்பதையும்"
+" நினைவில் கொள்க."
 
 #: ../../appdev/index.rst:47
 msgid "References and guides"
-msgstr ""
+msgstr "குறிப்புகள் மற்றும் வழிகாட்டிகள்"
 
 #: ../../appdev/index.rst:57
 msgid ""
