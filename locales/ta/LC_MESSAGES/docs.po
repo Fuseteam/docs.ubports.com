@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-03-13 06:00+0000\n"
+"PO-Revision-Date: 2025-03-13 17:07+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/ta/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -3338,10 +3338,19 @@ msgid ""
 "<preinstalledapps>`. Contributions to those are greatly appreciated and "
 "directly reach a larger audience."
 msgstr ""
+"இது ஒரு பயனுள்ள மற்றும் வரவேற்கத்தக்க சமூகம் மற்றும் குழுப்பணியில் எல்லாம் சிறப்பாக "
+"செயல்படுகிறது! உங்கள் பயன்பாட்டில் உங்களுடன் ஒத்துழைக்க விரும்பும் பிற டெவலப்பர்களைத் "
+"தேடுகிறீர்களா? டாக்சில் பதிலளிக்காத கேள்விகள் உள்ளதா அல்லது பிற உபுண்டு டச் டெவலப்பர்களுடன்"
+" அரட்டை அடிக்க விரும்புகிறீர்களா? எங்கள் `ubports ut பயன்பாடு dev tegedigral குழுவில் "
+"சேரவும் <https://t.me/ubuntuappdeven>` _ அல்லது `Ubports பயன்பாட்டு மேம்பாட்டு "
+"மன்றத்தில் <https://forums.ubports.com/category/35/app- வளர்ச்சியடைந்த>` _! எங்கள் "
+"பட்டியலையும் நீங்கள் பார்க்கலாம்: ref: `முன்பே நிறுவப்பட்ட பயன்பாடுகளை "
+"<preinstalledapps>`. அவற்றுக்கான பங்களிப்புகள் பெரிதும் பாராட்டப்படுகின்றன, மேலும் பெரி"
+"ய பார்வையாளர்களை நேரடியாக அடைகின்றன."
 
 #: ../../appdev/index.rst:64
 msgid "Maintainers wanted"
-msgstr ""
+msgstr "பராமரிப்பாளர்கள் விரும்பினர்"
 
 #: ../../appdev/index.rst:66
 msgid ""
@@ -3351,6 +3360,12 @@ msgid ""
 "maintainer for one of our core apps. The maintainer reviews MR's, triages "
 "and investigates issue reports and helps to develop the app."
 msgstr ""
+"எல்லா பயன்பாடுகளும் பங்களிப்புகளை விரும்புகின்றன. ஆனால் சில முக்கிய பயன்பாடுகள் "
+"பராமரிப்பாளர்கள் இல்லை. முக்கிய பயன்பாடுகளின் பட்டியலை <https://gitlab.com/ubports/"
+"ubuntu-touch/-/blob/master/core_apps.md> _ _ ஐப் பார்த்து, எங்கள் முக்கிய "
+"பயன்பாடுகளில் ஒன்றிற்கு புதிய பராமரிப்பாளராக நீங்கள் முன்னேற விரும்புகிறீர்களா என்று "
+"பாருங்கள். பராமரிப்பாளர் எம்.ஆர்., ட்ரையாச் மற்றும் வினவல் வெளியீட்டு அறிக்கைகளை மதிப்பாய்வு "
+"செய்கிறார் மற்றும் பயன்பாட்டை உருவாக்க உதவுகிறார்."
 
 #: ../../appdev/index.rst:68
 msgid ""
@@ -3358,10 +3373,12 @@ msgid ""
 "know that you are interested. Or join our matrix group at `#ubcd:matrix.org "
 "<https://matrix.to/#/#ubcd:matrix.org>`_ and introduce yourself."
 msgstr ""
+"சில பங்களிப்புகளைச் செய்வதன் மூலமும், நீங்கள் ஆர்வமாக இருப்பதை விமர்சகர்களுக்குத் "
+"தெரியப்படுத்துவதன் மூலமும் தொடங்குவதற்கான சிறந்த வழி. ."
 
 #: ../../appdev/nativeapp/index.rst:4
 msgid "Native apps"
-msgstr ""
+msgstr "சொந்த பயன்பாடுகள்"
 
 #: ../../appdev/nativeapp/index.rst:6
 msgid ""
@@ -3371,6 +3388,11 @@ msgid ""
 ">QML Qt model, you can use also Python, Go, Rust or even Javascript for your "
 "backend."
 msgstr ""
+"உபுண்டு தொடுதலில் ஒரு சொந்த பயன்பாட்டை உருவாக்க பரிந்துரைக்கப்பட்ட வழி `qt <https://"
+"doc.qt.io.io/> __ கட்டமைப்பைப் பயன்படுத்துவதாகும் (செனியல் OTA-16 முதல் கியுடி "
+"5.12.9 என்பதால் தற்போதைய பதிப்பு). நீங்கள் பாரம்பரிய சி ++ <-> கியூஎம்எல் க்யூடி "
+"மாதிரியுடன் ஒட்டிக்கொள்ள வேண்டியதில்லை, உங்கள் பின்தளத்தில் பைதான், கோ, ரச்ட் அல்லது "
+"சாவாச்கிரிப்டையும் பயன்படுத்தலாம்."
 
 #: ../../appdev/nativeapp/index.rst:10
 msgid ""
@@ -3380,32 +3402,42 @@ msgid ""
 "latest/>`__, but you can also ship your cross platform app using standard Qt "
 "QML QtQuick2 components."
 msgstr ""
+"உங்கள் பயன்பாட்டின் வளர்ச்சியைக் குறைக்க உபுண்டு டச் கியுடி QML கூறுகளின் துணைக்குழுவை "
+"வழங்குகிறது: `QML பநிஇ <https://api-docs.ubports.com <http://docs.ubports.com/"
+"projects/icons/en/latest/> ____, ஆனால் நிலையான கியுடி QML QTQuick2 கூறுகளைப் "
+"பயன்படுத்தி உங்கள் குறுக்கு மேடை பயன்பாட்டையும் அனுப்பலாம்."
 
 #: ../../appdev/nativeapp/index.rst:13
 msgid ""
 "You can use `Clickable <http://clickable.bhdouglass.com/en/latest/>`_ to "
 "facilitate Packaging, deploying, publishing and tests ."
 msgstr ""
+"பேக்கேசிங், வரிசைப்படுத்துதல், வெளியீடு மற்றும் சோதனைகளை எளிதாக்க நீங்கள் `கிளிக் "
+"செய்யக்கூடிய <http://clickable.bhdouglass.com/en/latest/> _ _ _ பயன்படுத்தலாம்."
 
 #: ../../appdev/nativeapp/index.rst:15
 msgid ""
 "Check out informations about the platform and confinement model in :ref:"
 "`Platform <platform>` section"
 msgstr ""
+"தளம் மற்றும் சிறைவாசம் பற்றிய தகவல்களைப் பாருங்கள்: குறிப்பு: `இயங்குதள <இயங்குதள>` "
+"பிரிவு"
 
 #: ../../appdev/platform/apparmor.rst:2
 msgid "AppArmor Policy Groups"
-msgstr ""
+msgstr "Apparmor கொள்கை குழுக்கள்"
 
 #: ../../appdev/platform/apparmor.rst:4
 msgid ""
 "This document contains a full list of Ubuntu Touch's available policy groups "
 "and a description of what they give your app permission to access."
 msgstr ""
+"இந்த ஆவணத்தில் உபுண்டு டச்சின் கிடைக்கக்கூடிய கொள்கைக் குழுக்களின் முழு பட்டியலும், அவர்கள் "
+"உங்கள் பயன்பாட்டிற்கு இசைவு அளிப்பதற்கான விளக்கமும் உள்ளன."
 
 #: ../../appdev/platform/apparmor.rst:6
 msgid "Each entry follows this format"
-msgstr ""
+msgstr "ஒவ்வொரு நுழைவும் இந்த வடிவமைப்பைப் பின்பற்றுகிறது"
 
 #: ../../appdev/platform/apparmor.rst:21
 msgid ""
@@ -3413,20 +3445,25 @@ msgid ""
 "Apps containing policies with common usage are generally accepted "
 "immediately, while reserved usage policies will need to be manually reviewed."
 msgstr ""
+"உங்கள் பயன்பாடு ஓபன்ச்டோரால் ஏற்றுக்கொள்ளப்படுமா என்பதை கொள்கை பயன்பாடு பாதிக்கிறது. பொதுவா"
+"ன பயன்பாட்டுடன் கொள்கைகளைக் கொண்ட பயன்பாடுகள் பொதுவாக உடனடியாக ஏற்றுக்கொள்ளப்படுகின்றன, "
+"அதே நேரத்தில் ஒதுக்கப்பட்ட பயன்பாட்டுக் கொள்கைகளை கைமுறையாக மதிப்பாய்வு செய்ய வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:23
 msgid ""
 "Coding tip: Everytime you change your apparmor policy file you need to "
 "update your app's version for this to be taken into account."
 msgstr ""
+"குறியீட்டு உதவிக்குறிப்பு: ஒவ்வொரு முறையும் உங்கள் Apparmor கொள்கை கோப்பை மாற்றும்போது, "
+"இது உங்கள் பயன்பாட்டின் பதிப்பை கணக்கில் எடுத்துக்கொள்ள வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:26
 msgid "accounts"
-msgstr ""
+msgstr "கணக்குகள்"
 
 #: ../../appdev/platform/apparmor.rst:28
 msgid "Description: Can use Online Accounts."
-msgstr ""
+msgstr "விளக்கம்: நிகழ்நிலை கணக்குகளைப் பயன்படுத்தலாம்."
 
 #: ../../appdev/platform/apparmor.rst:30 ../../appdev/platform/apparmor.rst:40
 #: ../../appdev/platform/apparmor.rst:72 ../../appdev/platform/apparmor.rst:82
@@ -3443,22 +3480,25 @@ msgstr ""
 #: ../../appdev/platform/apparmor.rst:271
 #: ../../appdev/platform/apparmor.rst:299
 msgid "Usage: common"
-msgstr ""
+msgstr "பயன்பாடு: பொதுவானது"
 
 #: ../../appdev/platform/apparmor.rst:32
 msgid ""
 "The accounts policy gives your app the permissions it needs to access the "
 "`Online Accounts API`_."
 msgstr ""
+"கணக்குகள் கொள்கை உங்கள் பயன்பாட்டிற்கு `ஆன்லைன் கணக்குகள் API`_ ஐ அணுக அனுமதிக்க வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:36
 msgid "audio"
-msgstr ""
+msgstr "ஆடியோ"
 
 #: ../../appdev/platform/apparmor.rst:38
 msgid ""
 "Description: Can play audio (allows playing remote content via media-hub)"
 msgstr ""
+"விளக்கம்: ஆடியோவை இயக்க முடியும் (மீடியா-அப் வழியாக தொலை உள்ளடக்கத்தை இயக்க "
+"அனுமதிக்கிறது)"
 
 #: ../../appdev/platform/apparmor.rst:42
 msgid ""
@@ -3466,14 +3506,17 @@ msgid ""
 "media-hub. The permission also gives it the ability to send album art to the "
 "thumbnailer service, which is then shown on the sound indicator."
 msgstr ""
+"உங்கள் பயன்பாடு பல்சியுடியோ அல்லது மீடியா-அப் வழியாக ஆடியோவை இயக்க ஆடியோ கொள்கை தேவை. "
+"சிறுபட சேவைக்கு ஆல்பம் கலையை அனுப்பும் திறனையும் இந்த இசைவு வழங்குகிறது, பின்னர் அது "
+"ஒலி காட்டியில் காட்டப்பட்டுள்ளது."
 
 #: ../../appdev/platform/apparmor.rst:46
 msgid "bluetooth"
-msgstr ""
+msgstr "ஊடலை"
 
 #: ../../appdev/platform/apparmor.rst:48
 msgid "Description: Use bluetooth (bluez5) as an administrator."
-msgstr ""
+msgstr "விளக்கம்: நிர்வாகியாக ஊடலை (ப்ளூச் 5) ஐப் பயன்படுத்தவும்."
 
 #: ../../appdev/platform/apparmor.rst:50 ../../appdev/platform/apparmor.rst:60
 #: ../../appdev/platform/apparmor.rst:92 ../../appdev/platform/apparmor.rst:122
@@ -3487,7 +3530,7 @@ msgstr ""
 #: ../../appdev/platform/apparmor.rst:279
 #: ../../appdev/platform/apparmor.rst:289
 msgid "Usage: reserved"
-msgstr ""
+msgstr "பயன்பாடு: ஒதுக்கப்பட்டுள்ளது"
 
 #: ../../appdev/platform/apparmor.rst:52
 msgid ""
@@ -3495,46 +3538,52 @@ msgid ""
 "for administration of bluetooth and as a stepping stone towards developing a "
 "safe bluetooth API all apps can access."
 msgstr ""
+"இந்த கொள்கை ஊடலை சாதனங்களுக்கு கட்டுப்பாடற்ற அணுகலை வழங்குகிறது. இது புளூடூத்தின் "
+"நிர்வாகத்திற்கும், பாதுகாப்பான ஊடலை பநிஇ வளர்ப்பதற்கான ஒரு படிப்படியாக வழங்கப்படுகிறது."
 
 #: ../../appdev/platform/apparmor.rst:56
 msgid "calendar"
-msgstr ""
+msgstr "நாட்காட்டி"
 
 #: ../../appdev/platform/apparmor.rst:58
 msgid "Description: Can access the calendar."
-msgstr ""
+msgstr "விளக்கம்: காலெண்டரை அணுகலாம்."
 
 #: ../../appdev/platform/apparmor.rst:62
 msgid ""
 "Calendar grants access to the Evolution dataserver's calendar and alarms "
 "APIs. It also grants access to sync-monitor."
 msgstr ""
+"காலண்டர் படிமலர்ச்சி டேட்டாசர்வரின் காலெண்டர் மற்றும் அலாரங்கள் பநிஇ களுக்கான அணுகலை "
+"வழங்குகிறது. இது ஒத்திசைவு-மானிட்டருக்கான அணுகலையும் வழங்குகிறது."
 
 #: ../../appdev/platform/apparmor.rst:64
 msgid ""
 "This policy is reserved since it grants free access to all calendars on the "
 "device at any time. The legacy bug about this situation is `LP #1227824`_ ."
 msgstr ""
+"எந்த நேரத்திலும் சாதனத்தில் உள்ள அனைத்து காலெண்டர்களுக்கும் இலவச அணுகலை வழங்குவதால் இந்த "
+"கொள்கை ஒதுக்கப்பட்டுள்ளது. இந்த நிலைமையைப் பற்றிய மரபு பிழை `எல்பி #1227824`_."
 
 #: ../../appdev/platform/apparmor.rst:68
 msgid "camera"
-msgstr ""
+msgstr "கேமரா"
 
 #: ../../appdev/platform/apparmor.rst:70
 msgid "Description: Can access the camera(s)"
-msgstr ""
+msgstr "விளக்கம்: கேமரா (களை) அணுகலாம்"
 
 #: ../../appdev/platform/apparmor.rst:74
 msgid "The camera policy grants access to device cameras."
-msgstr ""
+msgstr "கேமரா கொள்கை சாதன கேமராக்களுக்கான அணுகலை வழங்குகிறது."
 
 #: ../../appdev/platform/apparmor.rst:78
 msgid "connectivity"
-msgstr ""
+msgstr "இணைப்பு"
 
 #: ../../appdev/platform/apparmor.rst:80
 msgid "Description: Can access coarse network connectivity information"
-msgstr ""
+msgstr "விளக்கம்: கரடுமுரடான பிணைய இணைப்பு தகவல்களை அணுகலாம்"
 
 #: ../../appdev/platform/apparmor.rst:84
 msgid ""
@@ -3542,14 +3591,17 @@ msgid ""
 "device's connectivity. This includes whether the device is connected to the "
 "Internet and whether it is connected via a Wi-Fi or mobile data connection."
 msgstr ""
+"இணைப்புக் கொள்கை சாதனத்தின் இணைப்பு பற்றிய தோராயமான தகவல்களைத் தீர்மானிக்க பயன்பாடுகளை "
+"அனுமதிக்கிறது. சாதனம் இணையத்துடன் இணைக்கப்பட்டுள்ளதா என்பதையும், அது வைஃபை அல்லது மொபைல் "
+"தரவு இணைப்பு வழியாக இணைக்கப்பட்டுள்ளதா என்பதையும் உள்ளடக்கியது."
 
 #: ../../appdev/platform/apparmor.rst:88
 msgid "contacts"
-msgstr ""
+msgstr "தொடர்புகள்"
 
 #: ../../appdev/platform/apparmor.rst:90
 msgid "Description: Can access contacts."
-msgstr ""
+msgstr "விளக்கம்: தொடர்புகளை அணுகலாம்."
 
 #: ../../appdev/platform/apparmor.rst:94
 msgid ""
@@ -3557,38 +3609,45 @@ msgid ""
 "It is marked as reserved because it allows access to sync-monitor and "
 "unfettered access to the address book."
 msgstr ""
+"சாதனங்கள் பயனரின் தொடர்புகள் பட்டியலை அணுக பயன்பாடுகளை தொடர்புகள் கொள்கை அனுமதிக்கிறது. "
+"இது ஒதுக்கப்பட்டதாகக் குறிக்கப்பட்டுள்ளது, ஏனெனில் இது ஒத்திசைவு-மானிட்டரை அணுக "
+"அனுமதிக்கிறது மற்றும் முகவரி புத்தகத்திற்கு தடையற்ற அணுகல்."
 
 #: ../../appdev/platform/apparmor.rst:98
 msgid "content_exchange"
-msgstr ""
+msgstr "content_exchange"
 
 #: ../../appdev/platform/apparmor.rst:100
 msgid "Description: Can request/import data from other applications"
-msgstr ""
+msgstr "விளக்கம்: பிற பயன்பாடுகளிலிருந்து தரவைக் கோரலாம்/இறக்குமதி செய்யலாம்"
 
 #: ../../appdev/platform/apparmor.rst:104
 msgid ""
 "Using the content_exchange policy allows your app to be a consumer of "
 "content on content-hub."
 msgstr ""
+"Content_exchange கொள்கையைப் பயன்படுத்துவது உள்ளடக்கத்தில் உள்ளடக்கத்தின் நுகர்வோர் இருக்க "
+"உங்கள் பயன்பாட்டை அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:108
 msgid "content_exchange_source"
-msgstr ""
+msgstr "content_exchange_source"
 
 #: ../../appdev/platform/apparmor.rst:110
 msgid "Description: Can provide/export data to other applications"
-msgstr ""
+msgstr "விளக்கம்: பிற பயன்பாடுகளுக்கு தரவை வழங்க/ஏற்றுமதி செய்யலாம்"
 
 #: ../../appdev/platform/apparmor.rst:114
 msgid ""
 "The content_exchange_source policy allows your app to provide content on "
 "content-hub."
 msgstr ""
+"Content_exchange_source கொள்கை உள்ளடக்க-HUB இல் உள்ளடக்கத்தை வழங்க உங்கள் பயன்பாட்டை "
+"அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:118
 msgid "debug"
-msgstr ""
+msgstr "பிழைத்திருத்தம்"
 
 #: ../../appdev/platform/apparmor.rst:120
 msgid ""
@@ -3598,10 +3657,15 @@ msgid ""
 "considered secure. You should never run untrusted programs using this policy "
 "group."
 msgstr ""
+"விளக்கம்: சிறப்பு பிழைத்திருத்த கருவிகளைப் பயன்படுத்தவும். இது வளர்ச்சியில் மட்டுமே "
+"பயன்படுத்தப்பட வேண்டும், ஆனால் விளைவாக்கம் தொகுப்புகளுக்கு அல்ல. குறிப்பு: இந்த கொள்கைக் "
+"குழுவின் பயன்பாடு இயல்பை விட கணிசமாக வேறுபட்ட சிறைவாசத்தை வழங்குகிறது மற்றும் இது "
+"பாதுகாப்பாக கருதப்படவில்லை. இந்த கொள்கைக் குழுவைப் பயன்படுத்தி நீங்கள் ஒருபோதும் நம்பத்தகாத "
+"திட்டங்களை இயக்கக்கூடாது."
 
 #: ../../appdev/platform/apparmor.rst:126
 msgid "document_files"
-msgstr ""
+msgstr "ஆவணம்_ கோப்புகள்"
 
 #: ../../appdev/platform/apparmor.rst:128
 msgid ""
@@ -3610,16 +3674,21 @@ msgid ""
 "should typically use the content_exchange policy group and API to access "
 "document files instead."
 msgstr ""
+"விளக்கம்: ஆவணக் கோப்புகளுக்கு படித்து எழுதலாம். இந்த கொள்கைக் குழு ஆவண பார்வையாளர்கள் போன்"
+"ற சில விண்ணப்பங்களுக்கு ஒதுக்கப்பட்டுள்ளது. உருவாக்குபவர்கள் பொதுவாக ஆவணக் கோப்புகளை அணுக "
+"Content_exchange கொள்கை குழு மற்றும் பநிஇ ஐப் பயன்படுத்த வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:132
 msgid ""
 "This policy allows apps to read and write to the \"Documents\" folders in "
 "the user's home directory and external media."
 msgstr ""
+"இந்த கொள்கை பயன்பாடுகளை பயனரின் வீட்டு அடைவு மற்றும் வெளிப்புற ஊடகங்களில் உள்ள \"ஆவணங்கள்\""
+" கோப்புறைகளைப் படித்து எழுத அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:135
 msgid "document_files_read"
-msgstr ""
+msgstr "document_files_read"
 
 #: ../../appdev/platform/apparmor.rst:137
 msgid ""
@@ -3628,16 +3697,21 @@ msgid ""
 "use the content_exchange policy group and API to access document files "
 "instead."
 msgstr ""
+"விளக்கம்: எல்லா ஆவணக் கோப்புகளையும் படிக்கலாம். இந்த கொள்கைக் குழு ஆவண பார்வையாளர்கள் போன்ற "
+"சில விண்ணப்பங்களுக்கு ஒதுக்கப்பட்டுள்ளது. உருவாக்குபவர்கள் பொதுவாக ஆவணக் கோப்புகளை அணுக "
+"Content_exchange கொள்கை குழு மற்றும் பநிஇ ஐப் பயன்படுத்த வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:141
 msgid ""
 "This policy allows apps to read the \"Documents\" folders in the user's home "
 "directory and external media."
 msgstr ""
+"இந்த கொள்கை பயன்பாடுகளை பயனரின் வீட்டு அடைவு மற்றும் வெளிப்புற ஊடகங்களில் \"ஆவணங்கள்\" "
+"கோப்புறைகளைப் படிக்க அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:145
 msgid "history"
-msgstr ""
+msgstr "வரலாறு"
 
 #: ../../appdev/platform/apparmor.rst:147
 msgid ""
@@ -3645,39 +3719,42 @@ msgid ""
 "for vetted applications only in this version of the policy. A future version "
 "of the policy may move this out of reserved status."
 msgstr ""
+"விளக்கம்: வரலாறு-சேவையை அணுகலாம். இந்த கொள்கைக் குழு கொள்கையின் இந்த பதிப்பில் மட்டுமே "
+"சரிபார்க்கப்பட்ட பயன்பாடுகளுக்காக ஒதுக்கப்பட்டுள்ளது. கொள்கையின் எதிர்கால பதிப்பு இதை "
+"ஒதுக்கப்பட்ட நிலைக்கு வெளியே நகர்த்தக்கூடும்."
 
 #: ../../appdev/platform/apparmor.rst:153
 msgid "keep-display-on"
-msgstr ""
+msgstr "வைத்திருங்கள்"
 
 #: ../../appdev/platform/apparmor.rst:155
 msgid "Description: Can request keeping the screen on"
-msgstr ""
+msgstr "விளக்கம்: திரையை வைத்திருக்க கோரலாம்"
 
 #: ../../appdev/platform/apparmor.rst:161
-#, fuzzy
 msgid "location"
-msgstr "அறிமுகம்"
+msgstr "இடம்"
 
 #: ../../appdev/platform/apparmor.rst:163
 msgid "Description: Can access Location"
-msgstr ""
+msgstr "விளக்கம்: இருப்பிடத்தை அணுகலாம்"
 
 #: ../../appdev/platform/apparmor.rst:167
 msgid "Allows an app to request access to the device's current location."
 msgstr ""
+"சாதனத்தின் தற்போதைய இருப்பிடத்திற்கான அணுகலைக் கோர ஒரு பயன்பாட்டை அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:171
 msgid "microphone"
-msgstr ""
+msgstr "ஒலிவாங்கி"
 
 #: ../../appdev/platform/apparmor.rst:173
 msgid "Description: Can access the microphone"
-msgstr ""
+msgstr "விளக்கம்: மைக்ரோஃபோனை அணுகலாம்"
 
 #: ../../appdev/platform/apparmor.rst:179
 msgid "music_files"
-msgstr ""
+msgstr "மியூசிக்_ஃபைல்ச்"
 
 #: ../../appdev/platform/apparmor.rst:181
 msgid ""
@@ -3686,16 +3763,21 @@ msgid ""
 "typically use the content_exchange policy group and API to access music "
 "files instead."
 msgstr ""
+"விளக்கம்: இசைக் கோப்புகளுக்கு படித்து எழுதலாம். இந்த கொள்கைக் குழு மியூசிக் பிளேயர்கள் போன்"
+"ற சில பயன்பாடுகளுக்கு ஒதுக்கப்பட்டுள்ளது. உருவாக்குபவர்கள் பொதுவாக இசைக் கோப்புகளை அணுக "
+"Content_Exchange கொள்கை குழு மற்றும் பநிஇ ஐப் பயன்படுத்த வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:185
 msgid ""
 "The music_files policy group allows an app to read or write to the Music "
 "directories in the user's home folder or on external media."
 msgstr ""
+"மியூசிக்_ஃபைல்ச் கொள்கைக் குழு பயனரின் வீட்டு கோப்புறையில் அல்லது வெளிப்புற ஊடகங்களில் உள்ள "
+"இசை கோப்பகங்களைப் படிக்க அல்லது எழுத ஒரு பயன்பாட்டை அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:189
 msgid "music_files_read"
-msgstr ""
+msgstr "Music_files_read"
 
 #: ../../appdev/platform/apparmor.rst:191
 msgid ""
@@ -3703,44 +3785,54 @@ msgid ""
 "certain applications, such as music players. Developers should typically use "
 "the content_exchange policy group and API to access music files instead."
 msgstr ""
+"விளக்கம்: எல்லா இசைக் கோப்புகளையும் படிக்க முடியும். இந்த கொள்கைக் குழு மியூசிக் பிளேயர்கள்"
+" போன்ற சில பயன்பாடுகளுக்கு ஒதுக்கப்பட்டுள்ளது. உருவாக்குபவர்கள் பொதுவாக இசைக் கோப்புகளை "
+"அணுக Content_Exchange கொள்கை குழு மற்றும் பநிஇ ஐப் பயன்படுத்த வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:195
 msgid ""
 "The music_files_read policy group allows an app to read the Music "
 "directories in the user's home folder or on external media."
 msgstr ""
+"மியூசிக்_ஃபைல்கள்_ரெட் கொள்கைக் குழு பயனரின் வீட்டு கோப்புறையில் அல்லது வெளிப்புற ஊடகங்களில்"
+" இசை கோப்பகங்களைப் படிக்க ஒரு பயன்பாட்டை அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:199
 msgid "networking"
-msgstr ""
+msgstr "நெட்வொர்க்கிங்"
 
 #: ../../appdev/platform/apparmor.rst:201
 msgid "Description: Can access the network"
-msgstr ""
+msgstr "விளக்கம்: பிணையத்தை அணுகலாம்"
 
 #: ../../appdev/platform/apparmor.rst:205
 msgid ""
 "The networking policy group allows an app to contact network devices and use "
 "the `download manager`_."
 msgstr ""
+"நெட்வொர்க்கிங் கொள்கைக் குழு பிணையம் சாதனங்களைத் தொடர்பு கொள்ளவும், `பதிவிறக்கம் மேலாளர்`_ "
+"ஐப் பயன்படுத்தவும் ஒரு பயன்பாட்டை அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:209
 msgid "nfc"
-msgstr ""
+msgstr "NFC"
 
 #: ../../appdev/platform/apparmor.rst:211
 msgid "Description: Can access the NFC functionality"
-msgstr ""
+msgstr "விளக்கம்: NFC செயல்பாட்டை அணுகலாம்"
 
 #: ../../appdev/platform/apparmor.rst:215
 msgid ""
 "The nfc policy group allows an app to read and write NFC tags via NDEF data "
 "as well as establishing a peer-to-peer connection between two devices."
 msgstr ""
+"NFC கொள்கைக் குழு ஒரு பயன்பாட்டை NDEF தரவு வழியாக NFC குறிச்சொற்களைப் படிக்கவும் "
+"எழுதவும் அனுமதிக்கிறது, அத்துடன் இரண்டு சாதனங்களுக்கிடையில் ஒரு பியர்-டு-பியர் இணைப்பை "
+"நிறுவுகிறது."
 
 #: ../../appdev/platform/apparmor.rst:219
 msgid "picture_files"
-msgstr ""
+msgstr "படம்_ கோப்புகள்"
 
 #: ../../appdev/platform/apparmor.rst:221
 msgid ""
@@ -3749,16 +3841,21 @@ msgid ""
 "should typically use the content_exchange policy group and API to access "
 "picture files instead."
 msgstr ""
+"விளக்கம்: படக் கோப்புகளுக்கு படித்து எழுதலாம். இந்த கொள்கை குழு கேலரி பயன்பாடுகள் போன்ற "
+"சில விண்ணப்பங்களுக்கு ஒதுக்கப்பட்டுள்ளது. உருவாக்குபவர்கள் பொதுவாக படக் கோப்புகளை அணுக "
+"Content_Exchange கொள்கை குழு மற்றும் பநிஇ ஐப் பயன்படுத்த வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:225
 msgid ""
 "The picture_files policy group allows an app to read and write to the "
 "Pictures directories in the user's home folder or on external media."
 msgstr ""
+"பிக்சர்_ஃபைல்ச் கொள்கைக் குழு பயனரின் வீட்டு கோப்புறையில் அல்லது வெளிப்புற ஊடகங்களில் உள்ள "
+"படக் கோப்பகங்களைப் படிக்கவும் எழுதவும் ஒரு பயன்பாட்டை அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:229
 msgid "picture_files_read"
-msgstr ""
+msgstr "படம்_பைல்ச்_ரெட்"
 
 #: ../../appdev/platform/apparmor.rst:231
 msgid ""
@@ -3767,59 +3864,68 @@ msgid ""
 "typically use the content_exchange policy group and API to access picture "
 "files instead."
 msgstr ""
+"விளக்கம்: எல்லா படக் கோப்புகளையும் படிக்கலாம். இந்த கொள்கை குழு கேலரி பயன்பாடுகள் போன்ற சி"
+"ல விண்ணப்பங்களுக்கு ஒதுக்கப்பட்டுள்ளது. உருவாக்குபவர்கள் பொதுவாக படக் கோப்புகளை அணுக "
+"Content_Exchange கொள்கை குழு மற்றும் பநிஇ ஐப் பயன்படுத்த வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:235
 msgid ""
 "The picture_files_read policy group allows an app to read the Pictures "
 "directories in the user's home folder or on external media."
 msgstr ""
+"Picture_files_read கொள்கைக் குழு பயனரின் வீட்டு கோப்புறையில் அல்லது வெளிப்புற ஊடகங்களில்"
+" படக் கோப்பகங்களை படிக்க ஒரு பயன்பாட்டை அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:239
 msgid "push-notification-client"
-msgstr ""
+msgstr "புச்-நோடிஃபிகேசன்-கிளையன்ட்"
 
 #: ../../appdev/platform/apparmor.rst:241
 msgid "Description: Can use push notifications as a client"
-msgstr ""
+msgstr "விளக்கம்: புச் அறிவிப்புகளை ஒரு கிளையண்டாகப் பயன்படுத்தலாம்"
 
 #: ../../appdev/platform/apparmor.rst:247
 msgid "sensors"
-msgstr ""
+msgstr "சென்சார்கள்"
 
 #: ../../appdev/platform/apparmor.rst:249
 msgid "Description: Can access the sensors"
-msgstr ""
+msgstr "விளக்கம்: சென்சார்களை அணுகலாம்"
 
 #: ../../appdev/platform/apparmor.rst:253
 msgid "Allows apps to access `device sensors`_"
-msgstr ""
+msgstr "பயன்பாடுகளை `சாதன சென்சார்கள்`_ ஐ அணுக அனுமதிக்கிறது"
 
 #: ../../appdev/platform/apparmor.rst:257
 msgid "usermetrics"
-msgstr ""
+msgstr "பயனர்கள்"
 
 #: ../../appdev/platform/apparmor.rst:259
 msgid "Description: Can use UserMetrics to update the InfoGraphic"
-msgstr ""
+msgstr "விளக்கம்: விளக்கப்படத்தைப் புதுப்பிக்க பயனர்பெயரிகளைப் பயன்படுத்தலாம்"
 
 #: ../../appdev/platform/apparmor.rst:263
 msgid ""
 "Allows an app to write metrics to the UserMetrics service so they can be "
 "displayed on the InfoGraphic."
 msgstr ""
+"பயனற்ற சேவைக்கு அளவீடுகளை எழுத ஒரு பயன்பாட்டை அனுமதிக்கிறது, எனவே அவை விளக்கப்படத்தில் "
+"காட்டப்படும்."
 
 #: ../../appdev/platform/apparmor.rst:267
 msgid "video"
-msgstr ""
+msgstr "ஒளிதோற்றம்"
 
 #: ../../appdev/platform/apparmor.rst:269
 msgid ""
 "Description: Can play video (allows playing remote content via media-hub)"
 msgstr ""
+"விளக்கம்: வீடியோவை இயக்க முடியும் (மீடியா-அப் வழியாக தொலை உள்ளடக்கத்தை இயக்க "
+"அனுமதிக்கிறது)"
 
 #: ../../appdev/platform/apparmor.rst:275
 msgid "video_files"
-msgstr ""
+msgstr "வீடியோ_ஃபைல்ச்"
 
 #: ../../appdev/platform/apparmor.rst:277
 msgid ""
@@ -3828,16 +3934,21 @@ msgid ""
 "should typically use the content_exchange policy group and API to access "
 "video files instead."
 msgstr ""
+"விளக்கம்: வீடியோ கோப்புகளுக்கு படித்து எழுதலாம். இந்த கொள்கை குழு கேலரி பயன்பாடுகள் போன்"
+"ற சில விண்ணப்பங்களுக்கு ஒதுக்கப்பட்டுள்ளது. உருவாக்குபவர்கள் பொதுவாக வீடியோ கோப்புகளை அணு"
+"க Content_Exchange கொள்கை குழு மற்றும் பநிஇ ஐப் பயன்படுத்த வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:281
 msgid ""
 "The video_files policy group allows an app to read and write to the Videos "
 "directories in the user's home folder or on external media."
 msgstr ""
+"வீடியோ_ஃபைல்ச் கொள்கைக் குழு பயனரின் வீட்டு கோப்புறையில் அல்லது வெளிப்புற ஊடகங்களில் உள்ள "
+"வீடியோக்கள் கோப்பகங்களைப் படிக்கவும் எழுதவும் ஒரு பயன்பாட்டை அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:285
 msgid "video_files_read"
-msgstr ""
+msgstr "video_files_read"
 
 #: ../../appdev/platform/apparmor.rst:287
 msgid ""
@@ -3846,115 +3957,131 @@ msgid ""
 "typically use the content_exchange policy group and API to access video "
 "files instead."
 msgstr ""
+"விளக்கம்: எல்லா வீடியோ கோப்புகளையும் படிக்கலாம். இந்த கொள்கை குழு கேலரி பயன்பாடுகள் போன்ற "
+"சில விண்ணப்பங்களுக்கு ஒதுக்கப்பட்டுள்ளது. உருவாக்குபவர்கள் பொதுவாக வீடியோ கோப்புகளை அணுக "
+"Content_Exchange கொள்கை குழு மற்றும் பநிஇ ஐப் பயன்படுத்த வேண்டும்."
 
 #: ../../appdev/platform/apparmor.rst:291
 msgid ""
 "The video_files_read policy group allows an app to read the Videos "
 "directories in the user's home folder or on external media."
 msgstr ""
+"Video_files_read கொள்கைக் குழு பயனரின் வீட்டு கோப்புறையில் அல்லது வெளிப்புற ஊடகங்களில் "
+"வீடியோக்களின் கோப்பகங்களைப் படிக்க ஒரு பயன்பாட்டை அனுமதிக்கிறது."
 
 #: ../../appdev/platform/apparmor.rst:295
 msgid "webview"
-msgstr ""
+msgstr "வெப்வியூ"
 
 #: ../../appdev/platform/apparmor.rst:297
 msgid "Description: Can use the UbuntuWebview"
-msgstr ""
+msgstr "விளக்கம்: உபுண்டுவெப்வியூவைப் பயன்படுத்தலாம்"
 
 #: ../../appdev/platform/apparmor.rst:301
 msgid "The webview policy group allows apps to embed a `web browser view`_."
 msgstr ""
+"`வலை உலாவி பார்வை`_ ஐ உட்பொதிக்க பயன்பாடுகளை வெப்வியூ கொள்கைக் குழு அனுமதிக்கிறது."
 
 #: ../../appdev/platform/click.rst:4
-#, fuzzy
 msgid "Click package"
-msgstr "கிளிக்-பேக்கேஜ்கள்"
+msgstr "தொகுப்பு என்பதைக் சொடுக்கு செய்க"
 
 #: ../../appdev/platform/click.rst:6
 msgid "Every ``click`` application package must embed at least 3 files:"
 msgstr ""
+"ஒவ்வொரு `` கிளிக்`` பயன்பாட்டு தொகுப்பும் குறைந்தது 3 கோப்புகளை உட்பொதிக்க வேண்டும்:"
 
 #: ../../appdev/platform/click.rst:8
 msgid "``manifest.json`` file"
-msgstr ""
+msgstr "`` manifest.json`` கோப்பு"
 
 #: ../../appdev/platform/click.rst:9
 msgid ""
 "Contains application declarations such as application name, description, "
 "author, framework sdk target, and version."
 msgstr ""
+"பயன்பாட்டு பெயர், விளக்கம், ஆசிரியர், கட்டமைப்பு SDK இலக்கு மற்றும் பதிப்பு போன்ற பயன்பாட்டு"
+" அறிவிப்புகளைக் கொண்டுள்ளது."
 
 #: ../../appdev/platform/click.rst:11
 msgid "Example ``manifest.json`` file::"
-msgstr ""
+msgstr "எடுத்துக்காட்டு `` manifest.json`` கோப்பு ::"
 
 #: ../../appdev/platform/click.rst:28
 msgid "AppArmor profile policy file"
-msgstr ""
+msgstr "Apparmor சுயவிவர கொள்கை கோப்பு"
 
 #: ../../appdev/platform/click.rst:29
 msgid ""
 "Contains which policy the app needs to work properly. See `Security and app "
 "isolation`_ below for more information on this file."
 msgstr ""
+"பயன்பாட்டின் எந்தக் கொள்கையை சரியாக வேலை செய்ய வேண்டும். இந்த கோப்பில் கூடுதல் தகவலுக்கு "
+"கீழே `பாதுகாப்பு மற்றும் பயன்பாட்டு தனிமைப்படுத்தல்`_ ஐப் பார்க்கவும்."
 
 #: ../../appdev/platform/click.rst:31
 msgid "``.desktop`` file"
-msgstr ""
+msgstr "`` .desktop`` கோப்பு"
 
 #: ../../appdev/platform/click.rst:32
 msgid ""
 "The launcher file will tell UT how to launch the app, which name and icon to "
 "display on the home screen, and some other properties."
 msgstr ""
+"பயன்பாட்டை எவ்வாறு தொடங்குவது, எந்த பெயர் மற்றும் படவுரு முகப்புத் திரையில் காண்பிக்க "
+"வேண்டும் மற்றும் வேறு சில பண்புகள் ஆகியவற்றை லாஞ்சர் கோப்பு UT க்குச் சொல்லும்."
 
 #: ../../appdev/platform/click.rst:34
 msgid "Example of ``app.desktop``::"
-msgstr ""
+msgstr "`` App.desktop`` ::"
 
 #: ../../appdev/platform/click.rst:44
 msgid "Non exhaustive list of properties:"
-msgstr ""
+msgstr "பண்புகளின் முழுமையான பட்டியல்:"
 
 #: ../../appdev/platform/click.rst:46
 msgid "Name: Application title has shown in the dash"
-msgstr ""
+msgstr "பெயர்: பயன்பாட்டு தலைப்பு கோடில் காட்டப்பட்டுள்ளது"
 
 #: ../../appdev/platform/click.rst:47
 msgid "Exec: Path to the executable file"
-msgstr ""
+msgstr "நிர்வாகி: இயங்கக்கூடிய கோப்பிற்கான பாதை"
 
 #: ../../appdev/platform/click.rst:48
 msgid "Icon: Path to the icon to display"
-msgstr ""
+msgstr "ஐகான்: காண்பிக்க ஐகானுக்கு பாதை"
 
 #: ../../appdev/platform/click.rst:49
 msgid "Terminal: ``false`` if will not run in terminal window"
-msgstr ""
+msgstr "முனையம்: டெர்மினல் சாளரத்தில் இயங்காவிட்டால் `` தவறு``"
 
 #: ../../appdev/platform/click.rst:50
 msgid ""
 "Type: Specifies the type of the launcher file. The type can be Application, "
 "Link or Directory."
 msgstr ""
+"வகை: லாஞ்சர் கோப்பின் வகையைக் குறிப்பிடுகிறது. வகை பயன்பாடு, இணைப்பு அல்லது கோப்பகமாக "
+"இருக்கலாம்."
 
 #: ../../appdev/platform/click.rst:51
 msgid "X-Ubuntu-Touch: ``true`` to make the app visible"
-msgstr ""
+msgstr "எக்ச்-ஆப்டு-டச்: பயன்பாட்டைக் காண `` உண்மை``"
 
 #: ../../appdev/platform/click.rst:52
 msgid "X-Ubuntu-XMir-Enable: ``true`` if your app is built for X"
-msgstr ""
+msgstr "X-buntu-xmir-enable: `` உண்மை`` உங்கள் பயன்பாடு ஃச் க்காக கட்டப்பட்டால்"
 
 #: ../../appdev/platform/click.rst:53
 msgid ""
 "X-Ubuntu-Supported-Orientations: ``landscape`` or ``portrait`` to force your "
 "app start in landscape mode and portrait mode respectively."
 msgstr ""
+"எக்ச்-பகுண்டு-ஆதரவு-நோக்குநிலைகள்: உங்கள் பயன்பாட்டை முறையே இயற்கை பயன்முறை மற்றும் "
+"உருவப்படம் பயன்முறையில் கட்டாயப்படுத்த `` நிலப்பரப்பு` அல்லது `உருவப்படம்``."
 
 #: ../../appdev/platform/click.rst:60
 msgid "Security and app isolation"
-msgstr ""
+msgstr "பாதுகாப்பு மற்றும் பயன்பாட்டு தனிமை"
 
 #: ../../appdev/platform/click.rst:62
 msgid ""
@@ -3966,28 +4093,37 @@ msgid ""
 "groups are needed for the app or scope to function properly with an apparmor "
 "``.json`` file."
 msgstr ""
+"அனைத்து உபுண்டு பயன்பாடுகளும் Apparmor அணுகல் கட்டுப்பாட்டு பொறிமுறையை மதிக்கும் "
+"(`பயன்பாட்டு சிறைவாசம் <https://wiki.ubuntu.com/securityteam/specifications/"
+"applicationConfinement#app_confinement_with_apparmor>` _), அவற்றின் சொந்த "
+"வளங்களிலிருந்து மட்டுமே அணுகல் மற்றும் பிற வளங்கள் மற்றும் தனிமைப்படுத்தப்பட்டவை. பயன்பாடு "
+"அல்லது நோக்கம் ஒரு பயன்பாட்டு `` .json`` கோப்புடன் சரியாக செயல்பட எந்த கொள்கைக் குழுக்கள் "
+"தேவை என்பதை உருவாக்குபவர் அறிவிக்க வேண்டும்."
 
 #: ../../appdev/platform/click.rst:64
 msgid "Example ``apparmor.json`` file::"
-msgstr ""
+msgstr "எடுத்துக்காட்டு `` apparmor.json`` கோப்பு ::"
 
 #: ../../appdev/platform/click.rst:76
 msgid "For a full list of available policy groups, see :doc:`apparmor`."
 msgstr ""
+"கிடைக்கக்கூடிய கொள்கைக் குழுக்களின் முழு பட்டியலுக்கு, காண்க: DOC: `apparmor`."
 
 #: ../../appdev/platform/index.rst:4 ../../index.rst:76
 msgid "Platform"
-msgstr ""
+msgstr "இயங்குதளம்"
 
 #: ../../appdev/platform/index.rst:6
 msgid ""
 "Here are Ubuntu Touch platforms key topics when you want to extend your app "
 "with Ubuntu Touch ecosystem:"
 msgstr ""
+"உபுண்டு டச் சுற்றுச்சூழல் அமைப்புடன் உங்கள் பயன்பாட்டை நீட்டிக்க விரும்பும் போது உபுண்டு டச் "
+"தளங்கள் முக்கிய தலைப்புகள் இங்கே:"
 
 #: ../../appdev/platform/index.rst:8
 msgid "Content Hub"
-msgstr ""
+msgstr "உள்ளடக்க நடுவண்"
 
 #: ../../appdev/platform/index.rst:9
 msgid ""
@@ -3995,26 +4131,33 @@ msgid ""
 "precise control over what can be imported, exported or shared with the world "
 "and other apps."
 msgstr ""
+"ஒவ்வொரு பயன்பாடும் அதன் சாண்ட்பாக்சுக்கு வெளியே உள்ளடக்கத்தை அம்பலப்படுத்தலாம், மேலும் "
+"உலகத்துடனும் பிற பயன்பாடுகளுடனும் இறக்குமதி செய்ய, ஏற்றுமதி செய்யக்கூடிய அல்லது "
+"பகிரக்கூடியவற்றில் பயனருக்கு துல்லியமான கட்டுப்பாட்டைக் கொடுக்கும்."
 
 #: ../../appdev/platform/index.rst:12
 msgid ""
 "By using a push server and a companion client, instantly serve users with "
 "the latest information from their network and apps."
 msgstr ""
+"புச் சேவையகம் மற்றும் துணை கிளையண்டைப் பயன்படுத்துவதன் மூலம், பயனர்களுக்கு அவர்களின் பிணையம்"
+" மற்றும் பயன்பாடுகளிலிருந்து அண்மைக் கால தகவல்களுடன் உடனடியாக பணி செய்யுங்கள்."
 
 #: ../../appdev/platform/index.rst:14
 msgid "URL dispatcher"
-msgstr ""
+msgstr "முகவரி அனுப்பியவர்"
 
 #: ../../appdev/platform/index.rst:15
 msgid ""
 "Help users navigate between your apps and drive their journey with the URL "
 "dispatcher."
 msgstr ""
+"பயனர்கள் உங்கள் பயன்பாடுகளுக்கு இடையில் செல்லவும், முகவரி அனுப்பியவருடன் தங்கள் பயணத்தை "
+"இயக்கவும் உதவுங்கள்."
 
 #: ../../appdev/platform/index.rst:17
 msgid "Online accounts"
-msgstr ""
+msgstr "நிகழ்நிலை கணக்குகள்"
 
 #: ../../appdev/platform/index.rst:18
 msgid ""
@@ -4022,38 +4165,44 @@ msgid ""
 "accounts API. Accounts added by the user on the device are registered in a "
 "centralized hub, allowing other apps to re-use them."
 msgstr ""
+"நிகழ்நிலை கணக்குகள் பநிஇ உடன் ஒருங்கிணைப்பதன் மூலம் நிகழ்நிலை சேவைகளுக்கான பயனர் அணுகலை "
+"எளிதாக்குங்கள். சாதனத்தில் பயனரால் சேர்க்கப்பட்ட கணக்குகள் மையப்படுத்தப்பட்ட மையத்தில் பதிவு "
+"செய்யப்பட்டுள்ளன, மற்ற பயன்பாடுகளை மீண்டும் பயன்படுத்த அனுமதிக்கிறது."
 
 #: ../../appdev/platform/index.rst:21
 msgid "`Read the docs <https://docs.ubuntu.com/phone/en/platform/>`__"
-msgstr ""
+msgstr "`டாக்சைப் படியுங்கள் <https://docs.ubuntu.com/phone/en/platform/> __ __"
 
 #: ../../appdev/platform/index.rst:24
 msgid "Packaging your app"
-msgstr ""
+msgstr "உங்கள் பயன்பாட்டை பேக்கேசிங் செய்தல்"
 
 #: ../../appdev/platform/index.rst:26
 msgid ""
 "Here you will get some informations about the confinment model and the "
 "packaging system:"
 msgstr ""
+"அடைப்பு மாதிரி மற்றும் பேக்கேசிங் அமைப்பு பற்றிய சில தகவல்களை இங்கே பெறுவீர்கள்:"
 
 #: ../../appdev/webapp/guide.rst:2
 msgid "Webapp guide"
-msgstr ""
+msgstr "வெப்ஆப் வழிகாட்டி"
 
 #: ../../appdev/webapp/guide.rst:5
 msgid "How the webapp fits into the shell"
-msgstr ""
+msgstr "வெப்ஆப் செல்லில் எவ்வாறு பொருந்துகிறது"
 
 #: ../../appdev/webapp/guide.rst:7
 msgid ""
 "A web app displays in a webview inside a webapp-container that runs as an "
 "Ubuntu app in the Ubuntu/Unity shell."
 msgstr ""
+"உபுண்டு/யூனிட்டி செல்லில் உபுண்டு பயன்பாடாக இயங்கும் வெப்ஆப்-கான்டைனருக்குள் ஒரு வலை "
+"பயன்பாடு வெப்வியூவில் காண்பிக்கப்படுகிறது."
 
 #: ../../appdev/webapp/guide.rst:9
 msgid "Taking a closer look:"
-msgstr ""
+msgstr "ஒரு நெருக்கமான பார்வை:"
 
 #: ../../appdev/webapp/guide.rst:11
 msgid ""
@@ -4063,34 +4212,43 @@ msgid ""
 "handles things like file dialogs (using ContentHub), downloads, permissions, "
 "etc."
 msgstr ""
+"உள் மட்டத்தில், உருவாக்குபவர் முகவரி ஆல் அடையாளம் காணும் ஒரு வலைத்தளம் உள்ளது. வலைத்தளம் "
+"வழங்கப்பட்டு கியுடி வெபெங்கின் அடிப்படையிலான வெப்வியூவில் இயங்குகிறது. வெப்வியூ முன்பே "
+"நிறுவப்பட்ட மோர்ப் உலாவியால் வழங்கப்படுகிறது மற்றும் கோப்பு உரையாடல்கள் (ContentHub ஐப் "
+"பயன்படுத்தி), பதிவிறக்கங்கள், அனுமதிகள் போன்றவற்றை தானாகவே கையாளுகிறது."
 
 #: ../../appdev/webapp/guide.rst:15
 msgid "Launching"
-msgstr ""
+msgstr "தொடங்குதல்"
 
 #: ../../appdev/webapp/guide.rst:17
 msgid "You can launch a webapp from the terminal with:::"
-msgstr ""
+msgstr "முனையத்திலிருந்து ஒரு வெப்ஆப்பைத் தொடங்கலாம் :::"
 
 #: ../../appdev/webapp/guide.rst:21
 msgid "For example:::"
-msgstr ""
+msgstr "உதாரணமாக :::"
 
 #: ../../appdev/webapp/guide.rst:25
 msgid ""
 "This simple form works, but almost every webapp uses other features as well, "
 "such as URL containment with URL patterns as described below."
 msgstr ""
+"இந்த எளிய வடிவம் செயல்படுகிறது, ஆனால் கிட்டத்தட்ட ஒவ்வொரு வெப்ஆப்பும் மற்ற அம்சங்களையும் "
+"பயன்படுத்துகின்றன, அதாவது முகவரி கட்டுப்பாடு முகவரி வடிவங்களுடன் கீழே "
+"விவரிக்கப்பட்டுள்ளபடி."
 
 #: ../../appdev/webapp/guide.rst:28
 msgid "User interface"
-msgstr ""
+msgstr "பயனர் இடைமுகம்"
 
 #: ../../appdev/webapp/guide.rst:30
 msgid ""
 "A webapp generally fills the entire app screen space, without the need of "
 "the UI controls generally found on standard browsers."
 msgstr ""
+"நிலையான உலாவிகளில் பொதுவாகக் காணப்படும் இடைமுகம் கட்டுப்பாடுகள் தேவையில்லாமல், ஒரு "
+"வெப்ஆப் பொதுவாக முழு பயன்பாட்டுத் திரை இடத்தையும் நிரப்புகிறது."
 
 #: ../../appdev/webapp/guide.rst:32
 msgid ""
@@ -4098,22 +4256,28 @@ msgid ""
 "Forward buttons, or an address bar. These are enabled with command line "
 "arguments:"
 msgstr ""
+"சில சந்தர்ப்பங்களில் சில வழிசெலுத்தல் கட்டுப்பாடுகள் பின்புறம் மற்றும் முன்னோக்கி பொத்தான்கள் "
+"அல்லது முகவரி பட்டி போன்றவை. இவை கட்டளை வரி வாதங்களுடன் இயக்கப்பட்டுள்ளன:"
 
 #: ../../appdev/webapp/guide.rst:34
 msgid ""
 "``--enable-back-forward`` Enable the display of the back and forward buttons "
 "in the toolbar (at the bottom of the webapp window)"
 msgstr ""
+"`` --enable-back-forvard`` கருவிப்பட்டியில் பின்புறம் மற்றும் முன்னோக்கி பொத்தான்களைக் "
+"காண்பிப்பதை இயக்கவும் (வெப்ஆப் சாளரத்தின் அடிப்பகுதியில்)"
 
 #: ../../appdev/webapp/guide.rst:35
 msgid ""
 "``--enable-addressbar`` Enable the display of the address bar (at the bottom "
 "of the webapp window)"
 msgstr ""
+"`` --enable-addressbar`` முகவரி பட்டியின் காட்சியை இயக்கவும் (வெப்ஆப் சாளரத்தின் "
+"அடிப்பகுதியில்)"
 
 #: ../../appdev/webapp/guide.rst:38
 msgid "URL patterns"
-msgstr ""
+msgstr "முகவரி வடிவங்கள்"
 
 #: ../../appdev/webapp/guide.rst:40
 msgid ""
@@ -4122,28 +4286,38 @@ msgid ""
 "(all other URLs are opened in the browser). This is done with URL patterns "
 "as part of the webapp command line."
 msgstr ""
+"வெப்ஆப் ஆசிரியர்கள் பெரும்பாலும் இலக்கு வலைத்தளத்திற்கு உலாவலைக் கட்டுப்படுத்த "
+"விரும்புகிறார்கள். அதாவது, உருவாக்குபவர் வெப்ஆப்பில் திறக்கக்கூடிய முகவரி களை கட்டுப்படுத்"
+"த விரும்புகிறார் (மற்ற அனைத்து முகவரி களும் உலாவியில் திறக்கப்பட்டுள்ளன). இது வெப்ஆப் "
+"கட்டளை வரியின் ஒரு பகுதியாக முகவரி வடிவங்களுடன் செய்யப்படுகிறது."
 
 #: ../../appdev/webapp/guide.rst:42
 msgid ""
 "However, many web apps use pages that are hosted over multiple sites or that "
 "use external resources and pages."
 msgstr ""
+"இருப்பினும், பல வலை பயன்பாடுகள் பல தளங்களில் புரவலன் செய்யப்பட்ட அல்லது வெளிப்புற வளங்கள் "
+"மற்றும் பக்கங்களைப் பயன்படுத்தும் பக்கங்களைப் பயன்படுத்துகின்றன."
 
 #: ../../appdev/webapp/guide.rst:44
 msgid ""
 "Both containment and access to specified external URLs are implemented with "
 "URL patterns provided as arguments at launch time. Let’s take a closer look."
 msgstr ""
+"வெளியீட்டு நேரத்தில் வாதங்களாக வழங்கப்பட்ட முகவரி வடிவங்களுடன் குறிப்பிட்ட வெளிப்புற "
+"முகவரி களுக்கான கட்டுப்பாடு மற்றும் அணுகல் இரண்டும் செயல்படுத்தப்படுகின்றன. உற்று நோக்கலாம்."
 
 #: ../../appdev/webapp/guide.rst:47
 msgid "Uncontained by default"
-msgstr ""
+msgstr "இயல்புநிலையாக இல்லை"
 
 #: ../../appdev/webapp/guide.rst:49
 msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
 msgstr ""
+"இயல்பாக, முகவரி கட்டுப்பாடு இல்லை. எந்தவொரு வடிவமும் இல்லாமல் ஒரு வெப்ஆப்பையும் இது போன்"
+"ற ஒரு தொடக்க முகவரி மட்டுமே தொடங்குகிறீர்கள் என்று வைத்துக்கொள்வோம் :::"
 
 #: ../../appdev/webapp/guide.rst:53
 msgid ""
@@ -4151,16 +4325,21 @@ msgid ""
 "click the Developer button at the top, they navigate to developer.ubuntu."
 "com, and it displays in the webapp."
 msgstr ""
+"பயனர் எந்த முகவரி க்கும் வரம்பில்லாமல் செல்லலாம். எடுத்துக்காட்டாக, அவர்கள் மேலே உள்ள "
+"உருவாக்குபவர் பொத்தானைக் சொடுக்கு செய்தால், அவை டெவலப்பர்.பண்ட்யூ.காமுக்கு செல்லவும், அது "
+"வெப்ஆப்பில் காண்பிக்கப்படும்."
 
 #: ../../appdev/webapp/guide.rst:55
 msgid ""
 "Tip: You can see the URL of the current page by enabling the address bar "
 "with ``--enable-addressbar``."
 msgstr ""
+"உதவிக்குறிப்பு: முகவரி பட்டியை `` --enable-addressbar`` உடன் இயக்குவதன் மூலம் தற்போதை"
+"ய பக்கத்தின் முகவரி ஐ நீங்கள் காணலாம்."
 
 #: ../../appdev/webapp/guide.rst:58
 msgid "Simple containment to the site"
-msgstr ""
+msgstr "தளத்திற்கு எளிய கட்டுப்பாடு"
 
 #: ../../appdev/webapp/guide.rst:60
 msgid ""
@@ -4169,16 +4348,23 @@ msgid ""
 "of www.ubuntu.com. This is done by adding a wildcard URL pattern to the "
 "launch command, as follows:::"
 msgstr ""
+"ஒருவர் பெரும்பாலும் தளத்திலேயே பயனர்களைக் கொண்டிருக்க விரும்புகிறார். அதாவது, வலைத்தளம் "
+"www.ubuntu.com என்றால், www.ubuntu.com இன் துணைப்பகுதிகளுக்கு மட்டுமே வெப்ஆப் "
+"பயனர்களைக் கொண்டிருப்பது பயனுள்ளதாக இருக்கும். இது ஒரு வைல்டு அட்டை முகவரி வடிவத்தை "
+"வெளியீட்டு கட்டளையில் சேர்ப்பதன் மூலம் செய்யப்படுகிறது, பின்வருமாறு :::"
 
 #: ../../appdev/webapp/guide.rst:64
 msgid "``--webappUrlPatterns=`` indicates a pattern is next"
 msgstr ""
+"``--வெபாப்பூர்ல்பட்டர்ன்ச் = `` ஒரு முறை அடுத்ததாக இருப்பதைக் குறிக்கிறது"
 
 #: ../../appdev/webapp/guide.rst:65
 msgid ""
 "https://www.ubuntu.com/* is the pattern The asterisk is a wildcard that "
 "matches any valid sequence of characters in a URL"
 msgstr ""
+"https://www.ubuntu.com/* என்பது விண்மீன் என்பது ஒரு முகவரி இல் உள்ள எந்தவொரு சரியான "
+"எழுத்துக்களுடன் பொருந்தக்கூடிய ஒரு வைல்டு அட்டை ஆகும்"
 
 #: ../../appdev/webapp/guide.rst:68
 msgid ""
@@ -4189,6 +4375,12 @@ msgid ""
 "com/tablet). But, clicking Developer opens the corresponding URL in the "
 "browser."
 msgstr ""
+"இந்த வெளியீட்டு கட்டளை மற்றும் முகவரி வடிவத்தின் மூலம், பயனர் https://www.ubuntu.com/ "
+"உடன் தொடங்கும் எந்த முகவரி ஐ வெபாப்பில் செல்லவும் திறக்கவும் முடியும். எடுத்துக்காட்டாக, "
+"அவர்கள் பேனரில் உள்ள தொலைபேசி பொத்தானை (https://www.ubuntu.com/phone) சொடுக்கு "
+"செய்யலாம், அது வெப்ஆப்பில் திறக்கிறது அல்லது டேப்லெட் பொத்தானை (https://www.ubuntu.com/"
+"tablet) திறக்கிறது. ஆனால், டெவலப்பரைக் சொடுக்கு செய்தால் உலாவியில் தொடர்புடைய முகவரி "
+"ஐத் திறக்கிறது."
 
 #: ../../appdev/webapp/guide.rst:70
 msgid ""
@@ -4196,10 +4388,14 @@ msgid ""
 "https://www.ubuntu.com instead of www.ubuntu.com. Not specifying the "
 "protocol would create an ambiguous URL and thus introduce security concerns."
 msgstr ""
+"உதவிக்குறிப்பு: உங்கள் தொடக்க முகவரி இல் உள்ள நெறிமுறையை குறிப்பிடுவதை உறுதிசெய்து "
+"கொள்ளுங்கள், அதாவது, www.ubuntu.com க்கு பதிலாக https://www.ubuntu.com ஐப் "
+"பயன்படுத்தவும். நெறிமுறையைக் குறிப்பிடாதது தெளிவற்ற முகவரி ஐ உருவாக்கும், இதனால் "
+"பாதுகாப்பு கவலைகளை அறிமுகப்படுத்தும்."
 
 #: ../../appdev/webapp/guide.rst:74
 msgid "More complex wildcard patterns"
-msgstr ""
+msgstr "மிகவும் சிக்கலான வைல்டு அட்டை வடிவங்கள்"
 
 #: ../../appdev/webapp/guide.rst:76
 msgid ""
@@ -4209,10 +4405,12 @@ msgid ""
 "access to www.ubuntu.com/desktop/features and www.ubuntu.com/phone/features "
 "while not allowing access to www.ubuntu.com/desktop or www.ubuntu.com/phone::"
 msgstr ""
+"உங்கள் தளத்தின் சில துணைப்பகுதிகளுக்கு மட்டுமே அணுகலை வெப்ஆப்பிலிருந்து மட்டும் கட்டுப்படுத்"
+"த விரும்பலாம். வைல்டு அட்டை வடிவங்களுடன் இது எளிதானது. ."
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
-msgstr ""
+msgstr "பல வடிவங்கள்"
 
 #: ../../appdev/webapp/guide.rst:84
 msgid ""
@@ -4220,23 +4418,26 @@ msgid ""
 "the following allows access only to www.ubuntu.com/desktop/features and www."
 "ubuntu.com/phone/features:::"
 msgstr ""
+"கமாவுடன் பிரிப்பதன் மூலம் பல வடிவங்களைப் பயன்படுத்தலாம். எடுத்துக்காட்டாக, பின்வருபவை "
+"www.ubuntu.com/desktop/features மற்றும் www.ubuntu.com/phone/features :::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
 "Tip: Multiple patterns are often necessary to achieve the intended "
 "containment behavior."
 msgstr ""
+"உதவிக்குறிப்பு: நோக்கம் கொண்ட கட்டுப்பாட்டு நடத்தை அடைய பல வடிவங்கள் பெரும்பாலும் தேவை."
 
 #: ../../appdev/webapp/guide.rst:92
 msgid "Adding a specific subdomain"
-msgstr ""
+msgstr "ஒரு குறிப்பிட்ட துணை டொமைனைச் சேர்ப்பது"
 
 #: ../../appdev/webapp/guide.rst:94
 msgid ""
 "Many URLs have one or more subdomains. (For example, in the following, "
 "\"developer\" is the subdomain: developer.ubuntu.com.) You can allow access "
 "to a single subdomain (and all of its subpages) with a pattern like this:::"
-msgstr ""
+msgstr "பல முகவரி களில் ஒன்று அல்லது அதற்கு மேற்பட்ட துணை டொமைன்கள் உள்ளன. ."
 
 #: ../../appdev/webapp/guide.rst:98
 msgid ""
@@ -4244,6 +4445,9 @@ msgid ""
 "starting URL (and its subpages). So, if the starting URL is https://www."
 "ubuntu.com, a second pattern is needed:::"
 msgstr ""
+"இருப்பினும், ஒருவர் வழக்கமாக பயனர் தொடக்க முகவரி க்கு (மற்றும் அதன் துணைப்பிரிவுகளுக்கு) "
+"செல்ல முடியும் என்று விரும்புகிறார். எனவே, தொடக்க முகவரி https://www.ubuntu.com "
+"என்றால், இரண்டாவது முறை தேவை ::::"
 
 #: ../../appdev/webapp/guide.rst:102
 msgid ""
@@ -4251,10 +4455,13 @@ msgid ""
 "com and allows navigation to https://developer.ubuntu.com and subpages and "
 "back to https://www.ubuntu.com and subpages:::"
 msgstr ""
+"இவற்றை ஒன்றாக இணைத்து, https://www.ubuntu.com இல் தொடங்கி, வழிசெலுத்தலை https://"
+"developer.ubuntu.com மற்றும் துணைப் பகுதிகளுக்கு அனுமதிக்கிறது மற்றும் https://"
+"www.ubuntu.com மற்றும் துணை பக்கங்கள் ::::"
 
 #: ../../appdev/webapp/guide.rst:107
 msgid "Adding subdomains with a wildcard"
-msgstr ""
+msgstr "வைல்டு கார்டுடன் துணை டொமைன்களைச் சேர்ப்பது"
 
 #: ../../appdev/webapp/guide.rst:109
 msgid ""
@@ -4262,6 +4469,9 @@ msgid ""
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
+"சில முகவரி களில் பல துணை டொமைன்கள் உள்ளன. எடுத்துக்காட்டாக, www.ubuntu.com "
+"வடிவமைப்பைக் கொண்டுள்ளது. துணை டொமைன் நிலையில் வைல்டு அட்டை கொண்ட அனைத்து துணை "
+"டொமைன்களுக்கும் அணுகலை நீங்கள் சேர்க்கலாம் :::"
 
 #: ../../appdev/webapp/guide.rst:113
 msgid ""
@@ -4270,10 +4480,14 @@ msgid ""
 "subdomain and subpages, including back to the starting URL (https://www."
 "ubuntu.com) and its subpages."
 msgstr ""
+"குறிப்பு: துணை டொமைன் நிலையில் உள்ள ஒரு விண்மீன் எந்த செல்லுபடியாகும் ஒற்றை துணை "
+"டொமைனுடன் பொருந்துகிறது. தொடக்க முகவரி (https://www.ubuntu.com) மற்றும் அதன் "
+"துணைப்பிரிவுகள் உள்ளிட்ட எந்தவொரு துணை டொமைன் மற்றும் துணைப்பகுதிகளுக்கும் உலாவலை இயக்க "
+"இந்த ஒற்றை முறை போதுமானது."
 
 #: ../../appdev/webapp/guide.rst:116
 msgid "Adding http"
-msgstr ""
+msgstr "HTTP ஐச் சேர்க்கிறது"
 
 #: ../../appdev/webapp/guide.rst:118
 msgid ""
@@ -4282,44 +4496,57 @@ msgid ""
 "launchpad.net on both https and http inside the webapp (and all subpages due "
 "to the wildcard):::"
 msgstr ""
+"சில நேரங்களில் ஒரு தளம் அதன் சில முகவரி களுக்கு HTTP ஐப் பயன்படுத்துகிறது. பொதுவாக "
+"இது பாதுகாப்பற்றது மற்றும் தவிர்க்கப்பட வேண்டும், ஆனால் இங்கே ஒரு எடுத்துக்காட்டு "
+"www.launcpad.net ஐ HTTPS மற்றும் HTTP இரண்டிலும் வெப்ஆப்பிற்குள் (மற்றும் வைல்டு அட்டை "
+"காரணமாக அனைத்து துணைப்பொருட்களும்) :::"
 
 #: ../../appdev/webapp/guide.rst:122
 msgid ""
 "Note: the question mark in https?. This means the preceding character (the "
 "‘s’) is optional. If https is always required, omit the question mark."
 msgstr ""
+"குறிப்பு: HTTPS இல் கேள்விக்குறி ?. இதன் பொருள் முந்தைய எழுத்து (‘கள்’) விருப்பமானது. "
+"HTTP கள் எப்போதும் தேவைப்பட்டால், கேள்விக்குறியைத் தவிர்க்கவும்."
 
 #: ../../appdev/webapp/guide.rst:125
 msgid "Command line arguments"
-msgstr ""
+msgstr "கட்டளை வரி வாதங்கள்"
 
 #: ../../appdev/webapp/guide.rst:127
 msgid ""
 "The webapp-container accepts many options to fine tune how it hosts various "
 "web applications."
 msgstr ""
+"வெப்ஆப்-கான்டெய்னர் பல்வேறு வலை பயன்பாடுகளை எவ்வாறு வழங்குகிறது என்பதை நன்றாக மாற்ற பல "
+"விருப்பங்களை ஏற்றுக்கொள்கிறது."
 
 #: ../../appdev/webapp/guide.rst:129
 msgid "See all help with:::"
-msgstr ""
+msgstr "எல்லா உதவிகளையும் காண்க :::"
 
 #: ../../appdev/webapp/guide.rst:133
 msgid "Note: Only the following options apply to converged Ubuntu.::"
 msgstr ""
+"குறிப்பு: ஒருங்கிணைந்த உபுண்டுக்கு பின்வரும் விருப்பங்கள் மட்டுமே பொருந்தும். ::"
 
 #: ../../appdev/webapp/guide.rst:147
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
 msgstr ""
+"Chrome விருப்பங்கள் (எதுவும் குறிப்பிடப்படவில்லை என்றால், எந்த Chrome இயல்பாகவும் "
+"காட்டப்படவில்லை) :::"
 
 #: ../../appdev/webapp/guide.rst:152
 msgid ""
 "Note: The other available options are specific to desktop webapps. It is "
 "recommended to not use them anymore."
 msgstr ""
+"குறிப்பு: கிடைக்கக்கூடிய பிற விருப்பங்கள் டெச்க்டாப் வெப்ஆப்புகளுக்கு குறிப்பிட்டவை. இனி "
+"அவற்றைப் பயன்படுத்த வேண்டாம் என்று பரிந்துரைக்கப்படுகிறது."
 
 #: ../../appdev/webapp/guide.rst:155
 msgid "User-Agent string override"
-msgstr ""
+msgstr "பயனர்-முகவர் சரம் மேலெழுதும்"
 
 #: ../../appdev/webapp/guide.rst:157
 msgid ""
@@ -4328,14 +4555,19 @@ msgid ""
 "While not a recommended practice, it is sometimes necessary to change the "
 "default string sent by the webapp container."
 msgstr ""
+"சில வலைத்தளங்கள் வலை இயந்திர அடையாளத்தின் குறிப்பிட்ட பகுதிகளைச் சரிபார்கின்றன, "
+"பயனர்-முகவர் சரம், அவற்றின் விளக்கக்காட்சியை சரிசெய்ய அல்லது சில அம்சங்களை இயக்க. "
+"பரிந்துரைக்கப்பட்ட நடைமுறை அல்ல என்றாலும், வெப்ஆப் கொள்கலன் அனுப்பிய இயல்புநிலை சரத்தை மாற்"
+"ற சில நேரங்களில் தேவை."
 
 #: ../../appdev/webapp/guide.rst:159
 msgid "To change the string from the command line, use the following option:::"
 msgstr ""
+"கட்டளை வரியிலிருந்து சரத்தை மாற்ற, பின்வரும் விருப்பத்தைப் பயன்படுத்தவும் :::"
 
 #: ../../appdev/webapp/guide.rst:164
 msgid "Browser data containment"
-msgstr ""
+msgstr "உலாவி தரவுக் கட்டுப்பாடு"
 
 #: ../../appdev/webapp/guide.rst:166
 msgid ""
@@ -4344,10 +4576,13 @@ msgid ""
 "browser, such as history, cookies and so on. Other browsers on the system do "
 "not access the webapp’s data."
 msgstr ""
+"வெப்ஆப் பட்டறிவு உலாவி தரவு பார்வையில் இருந்து தனிமைப்படுத்தப்பட்டுள்ளது. அதாவது, வரலாறு"
+", குக்கீகள் போன்ற வேறு எந்த நிறுவப்பட்ட உலாவிகளிலிருந்தும் தரவை வெப்ஆப்ச் அணுகாது. "
+"கணினியில் உள்ள பிற உலாவிகள் வெப்ஆப்பின் தரவை அணுகாது."
 
 #: ../../appdev/webapp/guide.rst:169
 msgid "Storage"
-msgstr ""
+msgstr "சேமிப்பு"
 
 #: ../../appdev/webapp/guide.rst:171
 msgid ""
@@ -4355,22 +4590,28 @@ msgid ""
 "and the deprecated WebSQL. FileSystem API is not supported because apps "
 "cannot access the filesystem directly."
 msgstr ""
+"பின்வரும் சேமிப்பக விருப்பங்கள் ஆதரிக்கப்படுகின்றன: உள்ளூர்/அமர்வு சேமிப்பிடம், குறியீட்டியல் "
+"மற்றும் நீக்கப்பட்ட WebsQL. கோப்பு முறைமை பநிஇ ஆதரிக்கப்படவில்லை, ஏனெனில் பயன்பாடுகளால் "
+"கோப்பு முறைமையை நேரடியாக அணுக முடியாது."
 
 #: ../../appdev/webapp/index.rst:4
 msgid "Web apps"
-msgstr ""
+msgstr "வலை பயன்பாடுகள்"
 
 #: ../../appdev/webapp/index.rst:6
 msgid ""
 "Ubuntu Webapps can be a nice way to deliver online web applications into "
 "Ubuntu."
 msgstr ""
+"உபுண்டுவில் நிகழ்நிலை வலை பயன்பாடுகளை வழங்க உபுண்டு வெப்ஆப்ச் ஒரு சிறந்த வழியாகும்."
 
 #: ../../appdev/webapp/index.rst:8
 msgid ""
 "The Ubuntu platform provides an advanced web engine container to run online "
 "applications on the Ubuntu client devices."
 msgstr ""
+"உபுண்டு கிளையன்ட் சாதனங்களில் நிகழ்நிலை பயன்பாடுகளை இயக்க மேம்பட்ட வலை இயந்திர கொள்கலனை "
+"உபுண்டு இயங்குதளம் வழங்குகிறது."
 
 #: ../../appdev/webapp/index.rst:10
 msgid ""
@@ -4379,6 +4620,10 @@ msgid ""
 "also have a rich user interface or use the WebGL extension to deliver games "
 "online."
 msgstr ""
+"வலை பயன்பாடுகள் ஆன்லைனில் புரவலன் செய்யப்படுகின்றன. அவை நிகழ்நிலை செய்தி தளத்தைப் போல ஒரு"
+" வலைத்தளத்தைப் போல எளிமையாக இருக்கக்கூடும், அல்லது வீடியோக்கள் போன்ற உள்ளடக்கத்தை அவர்கள் "
+"விநியோகிக்கலாம். அவர்கள் ஒரு பணக்கார பயனர் இடைமுகத்தையும் கொண்டிருக்கலாம் அல்லது ஆன்லைனில் "
+"கேம்களை வழங்க வெப்சிஎல் நீட்டிப்பைப் பயன்படுத்தலாம்."
 
 #: ../../appdev/webapp/index.rst:13
 msgid ""
@@ -4387,6 +4632,10 @@ msgid ""
 "whereas HTML5 apps install their content (and usually provide an Ubuntu "
 "HTML5 GUI). Webapps also have restricted access to platform APIs."
 msgstr ""
+"உபுண்டு வெப்ஆப்ச் மற்றும் உபுண்டு HTML5 பயன்பாடுகள் ஒத்தவை ஆனால் ஒரே மாதிரியானவை அல்ல. "
+"முக்கிய வேறுபாடு என்னவென்றால், ஒரு WEBAPP இன் உள்ளடக்கம் முகவரி மூலம் வழங்கப்படுகிறது, "
+"அதேசமயம் HTML5 பயன்பாடுகள் அவற்றின் உள்ளடக்கத்தை நிறுவுகின்றன (பொதுவாக உபுண்டு HTML5 "
+"GUI ஐ வழங்கும்). இயங்குதள பநிஇ களுக்கான அணுகலையும் வெப்ஆப்ச் தடைசெய்துள்ளது."
 
 #: ../../appdev/webapp/index.rst:17
 msgid ""
@@ -4394,10 +4643,13 @@ msgid ""
 "create shortcuts directly yourself with `webber app <https://open-store.io/"
 "app/webber.timsueberkrueb>`__."
 msgstr ""
+"திறந்த கடையில் வெளியிடப்பட்ட வெப்ஆப்புகளுக்கு வேறுபட்ட அணுகுமுறை `வெபர் பயன்பாடு <https"
+"://open-store.io/app/webber.timsueberkrueb> __ __ உடன் குறுக்குவழிகளை நேரடியாக "
+"உருவாக்குவதாகும்."
 
 #: ../../appdev/webapp/index.rst:19 ../../systemdev/kernel-hal.rst:57
 msgid "Todo"
-msgstr ""
+msgstr "அனைத்தும்"
 
 #: ../../appdev/webapp/index.rst:21
 msgid ""
@@ -4410,38 +4662,50 @@ msgid ""
 "salta>`__ from Mateo Salta which has quite some modifications on top of the "
 "template."
 msgstr ""
+"சில நேரங்களில் வெப்ஆப்+ அல்லது மாற்றுக் கொள்கலன் என குறிப்பிடப்படும் சற்றே அம்சமான "
+"வெப்அப்புகளை உருவாக்க மற்றொரு வழி உள்ளது. இந்த தேவை முறையாக ஆவணப்படுத்தப்பட வேண்டும். "
+"இது ஒரு எளிய QML பயன்பாடாகும், இது எளிதாக உள்ளமைக்க முடியும். உருவாக்கம் 'கிளாசிக்' "
+"வெப்ஆப்பைப் போலவே எளிமையானது, ஆனால் ஒரு நல்ல வழிசெலுத்தல் அம்சத்துடன் முடிவு மிகவும் "
+"சக்திவாய்ந்ததாகும். இதற்கு ஒரு மேம்பட்ட எடுத்துக்காட்டு `யூடியூப் பயன்பாடு <https://open-"
+"store.io/app/youtube-web.mateo-lta>` __ மேடியோ சால்டாவிலிருந்து வார்ப்புருவின் மேல்"
+" சில மாற்றங்களைக் கொண்டுள்ளது."
 
 #: ../../appdev/webapp/index.rst:28
 msgid "Guide"
-msgstr ""
+msgstr "வழிகாட்டி"
 
 #: ../../appdev/webapp/index.rst:39
 msgid ""
 "There are several tools to help you package and deploy your webapp to your "
 "device:"
 msgstr ""
+"உங்கள் சாதனத்தில் உங்கள் வெப்ஆப்பை தொகுத்து வரிசைப்படுத்த உங்களுக்கு உதவ பல கருவிகள் உள்ளன:"
 
 #: ../../appdev/webapp/index.rst:41
 msgid ""
 "`Webapp creator <https://open-store.io/app/webapp-creator.jujuyeh>`_ "
 "application available from the openstore"
 msgstr ""
+"`வெப்ஆப் உருவாக்கியவர் <https://open-store.io/app/webapp-creator.jujuyeh>` _ "
+"ஓபன்ச்டோரிலிருந்து கிடைக்கும் பயன்பாடு"
 
 #: ../../appdev/webapp/index.rst:42
 msgid "`Clickable <https://clickable-ut.dev>`_ CLI"
-msgstr ""
+msgstr "`கிளிக் செய்யக்கூடிய <https://clickable-ut.dev>` _ cli"
 
 #: ../../appdev/webapp/index.rst:46
 msgid "Debugging your webapp"
-msgstr ""
+msgstr "உங்கள் வெப்ஆப்பை பிழைத்திருத்துகிறது"
 
 #: ../../appdev/webapp/index.rst:48
 msgid "This guide give you some tips to help you debug your webapp."
 msgstr ""
+"உங்கள் வெப்ஆப்பை பிழைத்திருத்த உதவும் சில உதவிக்குறிப்புகளை இந்த வழிகாட்டி உங்களுக்கு "
+"வழங்குகிறது."
 
 #: ../../appdev/webapp/webdebug.rst:2
 msgid "Debug webapps"
-msgstr ""
+msgstr "வெப்அப்சை பிழைத்திருத்த"
 
 #: ../../appdev/webapp/webdebug.rst:4
 msgid ""
@@ -4450,28 +4714,37 @@ msgid ""
 "modern web standards, and most webapps will just work without further "
 "changes."
 msgstr ""
+"வழக்கமான உலாவி சூழலில் அவற்றின் குறியீட்டு முறை மற்றும் பிழைத்திருத்தத்தை பெரும்பாலான "
+"வலை-DEV கள் விரும்பலாம். உபுண்டு டச் உலாவி நவீன வலைத் தரங்களுடன் இணங்குகிறது, மேலும் "
+"பெரும்பாலான வெப்அப்ச் மேலும் மாற்றங்கள் இல்லாமல் செயல்படும்."
 
 #: ../../appdev/webapp/webdebug.rst:6
 msgid ""
 "For those (hopefully) rare cases where further debugging is needed, there "
 "are two ways to gain further information on the failure."
 msgstr ""
+"மேலும் பிழைத்திருத்தம் தேவைப்படும் (வட்டம்) அரிதான நிகழ்வுகளுக்கு, தோல்வி குறித்த கூடுதல் "
+"தகவல்களைப் பெற இரண்டு வழிகள் உள்ளன."
 
 #: ../../appdev/webapp/webdebug.rst:9
 msgid "Watch the logs"
-msgstr ""
+msgstr "பதிவுகளைப் பாருங்கள்"
 
 #: ../../appdev/webapp/webdebug.rst:11
 msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
 msgstr ""
+"சி.எல்.ஐ சூழலில் நீங்கள் வசதியாக இருந்தால், பெரும்பாலான சாவாச்கிரிப்ட் பிழைகள் பயன்பாட்டு "
+"பதிவு கோப்பில் ஒரு உள்ளீட்டை அனுப்பும் ::"
 
 #: ../../appdev/webapp/webdebug.rst:15
 msgid ""
 "You can check the log file in the terminal or use the `LogViewer <https://"
 "open-store.io/app/logviewer.neothethird>`_ app."
 msgstr ""
+"நீங்கள் முனையத்தில் பதிவு கோப்பை சரிபார்க்கலாம் அல்லது `logViewer <https://open-"
+"store.io/app/logviewer.neothethird>` _ பயன்பாட்டைப் பயன்படுத்தலாம்."
 
 #: ../../appdev/webapp/webdebug.rst:19
 msgid ""
@@ -4479,10 +4752,13 @@ msgid ""
 "Without developer mode enabled, logs will get deleted after you close the "
 "app."
 msgstr ""
+"அடுத்த மறுதொடக்கம் வரை பதிவுகளை வைத்திருக்க பிழைத்திருத்தத்திற்கான உருவாக்குபவர் "
+"பயன்முறையை இயக்கவும். உருவாக்குபவர் பயன்முறை இயக்கப்படாமல், நீங்கள் பயன்பாட்டை மூடிய பிறகு "
+"பதிவுகள் நீக்கப்படும்."
 
 #: ../../appdev/webapp/webdebug.rst:22
 msgid "Debugging in the browser"
-msgstr ""
+msgstr "உலாவியில் பிழைத்திருத்தம்"
 
 #: ../../appdev/webapp/webdebug.rst:24
 msgid ""
@@ -4490,20 +4766,25 @@ msgid ""
 "also used in Chrome/Chromium. By starting the browser in a special mode, you "
 "have access to the regular Chrome-style debugger."
 msgstr ""
+"இயல்புநிலை உபுண்டு டச் உலாவி Chrome/குரோமியத்திலும் பயன்படுத்தப்படும் ஒளிரும் "
+"தொழில்நுட்பத்தை அடிப்படையாகக் கொண்டது. ஒரு சிறப்பு பயன்முறையில் உலாவியைத் தொடங்குவதன் "
+"மூலம், வழக்கமான குரோம் பாணி பிழைத்திருத்திக்கான அணுகல் உங்களுக்கு உள்ளது."
 
 #: ../../appdev/webapp/webdebug.rst:26
 msgid "On your phone, start the browser in inspector mode:::"
-msgstr ""
+msgstr "உங்கள் தொலைபேசியில், உலாவியை இன்ச்பெக்டர் பயன்முறையில் தொடங்கவும் :::"
 
 #: ../../appdev/webapp/webdebug.rst:31
 msgid ""
 "Now on your computer, launch Chrome/Chromium browser, and point address to "
 "``http://YOUR_UT_IP_ADDRESS:9221``"
 msgstr ""
+"இப்போது உங்கள் கணினியில், குரோம்/குரோமியம் உலாவியைத் தொடங்கவும், மேலும் `` http: // "
+"your_ut_ip_address: 9221``"
 
 #: ../../contribute/bugreporting.rst:2
 msgid "Bug reporting"
-msgstr ""
+msgstr "பிழை அறிக்கை"
 
 #: ../../contribute/bugreporting.rst:4
 msgid ""
@@ -4512,10 +4793,14 @@ msgid ""
 "reporting bugs in apps, most of the time their entry in the OpenStore will "
 "specify where and how to do that."
 msgstr ""
+"இந்தப் பக்கத்தில் உபுண்டு தொடுதலுக்கான செயல்படக்கூடிய பிழையைப் புகாரளிப்பதன் மூலம் "
+"எங்களுக்கு உதவ உதவும் தகவல்கள் உள்ளன. பயன்பாடுகளில் பிழைகள் புகாரளிப்பது பற்றிய தகவல்களை "
+"இது கொண்டிருக்கவில்லை, பெரும்பாலான நேரங்களில் ஓபன்ச்டோரில் அவர்களின் நுழைவு எங்கு, எப்படி "
+"செய்வது என்று குறிப்பிடும்."
 
 #: ../../contribute/bugreporting.rst:7
 msgid "Get the latest Ubuntu Touch"
-msgstr ""
+msgstr "அண்மைக் கால உபுண்டு தொடுதலைப் பெறுங்கள்"
 
 #: ../../contribute/bugreporting.rst:9
 msgid ""
@@ -4526,22 +4811,32 @@ msgid ""
 "do a little dance! The bug has already been fixed and you can continue using "
 "Ubuntu Touch."
 msgstr ""
+"இது வெளிப்படையாகத் தோன்றலாம், ஆனால் தவறவிடுவது எளிது. (அமைப்புகள் - புதுப்பிப்புகள்) "
+"க்குச் சென்று, உங்கள் சாதனத்தில் உபுண்டு புதுப்பிப்புகள் எதுவும் இல்லை என்பதை "
+"உறுதிப்படுத்தவும். இல்லையென்றால், இந்த வழிகாட்டியின் மூலம் தொடரவும். அப்படியானால், உங்கள் "
+"சாதனத்தைப் புதுப்பித்து, பிழையை இனப்பெருக்கம் செய்ய முயற்சிக்கவும். அது இன்னும் ஏற்பட்டால், "
+"இந்த வழிகாட்டியின் மூலம் தொடரவும். இல்லையென்றால், கொஞ்சம் நடனம் செய்யுங்கள்! பிழை ஏற்கனவே "
+"சரி செய்யப்பட்டுள்ளது, மேலும் நீங்கள் தொடர்ந்து உபுண்டு டச் பயன்படுத்தலாம்."
 
 #: ../../contribute/bugreporting.rst:12
 msgid "Check if the bug is already reported"
-msgstr ""
+msgstr "பிழை ஏற்கனவே புகாரளிக்கப்பட்டதா என்று சரிபார்க்கவும்"
 
 #: ../../contribute/bugreporting.rst:14
 msgid ""
 "Open up the bug tracker for `ubuntu-touch <https://gitlab.com/ubports/ubuntu-"
 "touch>`_."
 msgstr ""
+"`உபுண்டு-டச் <https://gitlab.com/ubports/ubuntu-touch> _ _ க்கான பிழை டிராக்கரைத் "
+"திறக்கவும்."
 
 #: ../../contribute/bugreporting.rst:17
 msgid ""
 "Pinephone users should check for and report bugs `here <https://gitlab.com/"
 "ubports/community-ports/pinephone>`_"
 msgstr ""
+"பைன்போன் பயனர்கள் பிழைகளை சரிபார்த்து புகாரளிக்க வேண்டும் `இங்கே <https://gitlab.com/"
+"ubports/community-ports/pinephone>` _"
 
 #: ../../contribute/bugreporting.rst:19
 msgid ""
@@ -4550,6 +4845,10 @@ msgid ""
 "a few words that describe what you're seeing. For example, \"Lock screen "
 "transparent\" or \"Lock screen shows activities\"."
 msgstr ""
+"முதலில், நீங்கள் புகாரளிக்க முயற்சிக்கும் பிழை இதற்கு முன்பு புகாரளிக்கப்படவில்லை என்பதை "
+"உறுதிப்படுத்த வேண்டும். புகாரளிக்கப்பட்ட பிழைகள் மூலம் தேடுங்கள். தேடும்போது, நீங்கள் "
+"பார்ப்பதை விவரிக்கும் சில சொற்களைப் பயன்படுத்துங்கள். எடுத்துக்காட்டாக, "
+"\"பூட்டு திரை வெளிப்படையானது\" அல்லது \"பூட்டுத் திரை செயல்பாடுகளைக் காட்டுகிறது\"."
 
 #: ../../contribute/bugreporting.rst:21
 msgid ""
@@ -4557,16 +4856,21 @@ msgid ""
 "Reaction\" button (it looks like a smiley face) and select the +1 (thumbs "
 "up) reaction. This shows that you are also experiencing the bug."
 msgstr ""
+"பிழை அறிக்கை ஏற்கனவே இருப்பதை நீங்கள் கண்டால், \"உங்கள் எதிர்வினையைச் சேர்\" பொத்தானைத் "
+"தேர்ந்தெடுத்து (இது ஒரு ச்மைலி முகம் போல் தெரிகிறது) மற்றும் +1 (கட்டைவிரல்) "
+"எதிர்வினையைத் தேர்ந்தெடுக்கவும். நீங்கள் பிழையை அனுபவிக்கிறீர்கள் என்பதை இது காட்டுகிறது."
 
 #: ../../contribute/bugreporting.rst:23
 msgid ""
 "If the report is missing any of the information specified later in this "
 "document, please add it yourself to help the developers fix the bug."
 msgstr ""
+"இந்த ஆவணத்தில் பின்னர் குறிப்பிடப்பட்ட எந்தவொரு தகவலையும் அறிக்கை காணவில்லை என்றால், "
+"உருவாக்குபவர்கள் பிழையை சரிசெய்ய உதவுவதற்கு அதை நீங்களே சேர்க்கவும்."
 
 #: ../../contribute/bugreporting.rst:26
 msgid "Reproduce the issue you've found"
-msgstr ""
+msgstr "நீங்கள் கண்டறிந்த சிக்கலை இனப்பெருக்கம் செய்யுங்கள்"
 
 #: ../../contribute/bugreporting.rst:28
 msgid ""
@@ -4576,46 +4880,62 @@ msgid ""
 "continue on to the next step. `If not... <https://youtu.be/nn2FB1P_Mn8?"
 "t=10s>`_"
 msgstr ""
+"அடுத்து, நீங்கள் கண்டறிந்த பிழையை எவ்வாறு மீண்டும் உருவாக்குவது என்பதைக் கண்டறியவும். சிக்கலை"
+" விரிவாகக் கண்டுபிடிக்க நீங்கள் எடுத்த சரியான படிகளை ஆவணப்படுத்தவும். பின்னர், உங்கள் "
+"தொலைபேசியை மறுதொடக்கம் செய்து மீண்டும் அந்த படிகளைச் செய்யுங்கள். சிக்கல் இன்னும் ஏற்பட்டால், "
+"அடுத்த கட்டத்திற்கு தொடரவும். `இல்லையென்றால் ... <https://youtu.be/"
+"nn2fb1p_mn8?t=10S>` _"
 
 #: ../../contribute/bugreporting.rst:31
 msgid "Making the bug report"
-msgstr ""
+msgstr "பிழை அறிக்கையை உருவாக்குதல்"
 
 #: ../../contribute/bugreporting.rst:33
 msgid ""
 "Now it's time for what you've been waiting for, the bug report itself! Bug "
 "reports need to be filed in English."
 msgstr ""
+"இப்போது நீங்கள் காத்திருக்கும் நேரம் இது, பிழை அறிக்கை! பிழை அறிக்கைகள் ஆங்கிலத்தில் தாக்கல் "
+"செய்யப்பட வேண்டும்."
 
 #: ../../contribute/bugreporting.rst:35
 msgid ""
 "First, pull up the `bug tracker <https://gitlab.com/ubports/ubuntu-touch>`_ "
 "and click \"New Issue\". Log in to GitHub if you haven't yet."
 msgstr ""
+"முதலில், `பிழை டிராக்கரை <https://gitlab.com/ubports/ubuntu-touch> _ _ மற்றும்"
+"\" புதிய சிக்கல் \"என்பதைக் சொடுக்கு செய்க. நீங்கள் இன்னும் இல்லையென்றால் கிதுபில் உள்நுழைக."
 
 #: ../../contribute/bugreporting.rst:37
 msgid ""
 "Next, you'll need to name your bug. Pick a name that says what's happening, "
 "but don't be too wordy. Four to eight words should be enough."
 msgstr ""
+"அடுத்து, உங்கள் பிழையை நீங்கள் பெயரிட வேண்டும். என்ன நடக்கிறது என்று சொல்லும் பெயரைத் "
+"தேர்ந்தெடுக்கவும், ஆனால் மிகவும் சொற்களஞ்சியமாக இருக்க வேண்டாம். நான்கு முதல் எட்டு "
+"வார்த்தைகள் போதுமானதாக இருக்க வேண்டும்."
 
 #: ../../contribute/bugreporting.rst:39
 msgid "Now, write your bug report. A good bug report includes the following:"
 msgstr ""
+"இப்போது, உங்கள் பிழை அறிக்கையை எழுதுங்கள். ஒரு நல்ல பிழை அறிக்கையில் பின்வருவன அடங்கும்:"
 
 #: ../../contribute/bugreporting.rst:41
 msgid "What happened: A synopsis of the erroneous behavior"
-msgstr ""
+msgstr "என்ன நடந்தது: தவறான நடத்தையின் சுருக்கம்"
 
 #: ../../contribute/bugreporting.rst:42
 msgid ""
 "What I expected to happen: A synopsis of what should have happened, if there "
 "wasn't an error"
 msgstr ""
+"நான் என்ன நடக்கும் என்று எதிர்பார்த்தேன்: பிழை இல்லையென்றால் என்ன நடந்திருக்க வேண்டும் என்பதற்கா"
+"ன சுருக்கம்"
 
 #: ../../contribute/bugreporting.rst:43
 msgid "Steps to reproduce: You wrote these down earlier, right?"
 msgstr ""
+"இனப்பெருக்கம் செய்வதற்கான படிகள்: நீங்கள் இதை முன்பு எழுதியுள்ளீர்கள், இல்லையா?"
 
 #: ../../contribute/bugreporting.rst:44
 msgid ""
@@ -4623,6 +4943,9 @@ msgid ""
 "\"OS\" line of this screen. Also include the release channel that you used "
 "when you installed Ubuntu on this phone."
 msgstr ""
+"மென்பொருள் பதிப்பு: (அமைப்புகள் - பற்றி) சென்று இந்த திரையின் \"OS\" வரியில் தோன்றும்தை "
+"பட்டியலிடுங்கள். இந்த தொலைபேசியில் உபுண்டுவை நிறுவியபோது நீங்கள் பயன்படுத்திய வெளியீட்டு "
+"சேனலையும் சேர்க்கவும்."
 
 #: ../../contribute/bugreporting.rst:46
 msgid ""
@@ -4631,6 +4954,9 @@ msgid ""
 "issue on in the description so a moderator can easily add the correct tags "
 "later."
 msgstr ""
+"நீங்கள் அதை முடித்தவுடன், அறிக்கையை இடுங்கள். லேபிள்களை நீங்களே சேர்க்க முடியாது, எனவே "
+"தயவுசெய்து நீங்கள் சிக்கலை அனுபவிக்கும் சாதனத்தை விளக்கத்தில் குறிப்பிட மறக்காதீர்கள், எனவே "
+"ஒரு மதிப்பீட்டாளர் சரியான குறிச்சொற்களை எளிதாக சேர்க்கலாம்."
 
 #: ../../contribute/bugreporting.rst:48
 msgid ""
@@ -4638,10 +4964,13 @@ msgid ""
 "can begin on it. If you are missing any information, you will be asked for "
 "it, so make sure to check in often!"
 msgstr ""
+"ஒரு உருவாக்குபவர் அல்லது QA-team உறுப்பினர் உங்கள் பிழையை உறுதிப்படுத்தி சோதனை செய்வார்"
+", பின்னர் வேலை தொடங்கலாம். நீங்கள் ஏதேனும் தகவல்களைக் காணவில்லை என்றால், அதைக் கேட்கப்படுவீர்கள்"
+", எனவே அடிக்கடி சரிபார்க்கவும்!"
 
 #: ../../contribute/bugreporting.rst:51
 msgid "Getting Logs"
-msgstr ""
+msgstr "பதிவுகள் பெறுதல்"
 
 #: ../../contribute/bugreporting.rst:53
 msgid ""
@@ -4650,6 +4979,10 @@ msgid ""
 "after submitting your issue. This section will help you to retrieve these "
 "logs from the device."
 msgstr ""
+"உபுண்டு தொடுதலில் பதிவுகள், முக்கியமான பிழைத்திருத்த செய்திகளைக் கொண்ட கோப்புகள், "
+"கோப்புகளைப் பெறுவதற்கான பொதுவான படிகள் குறித்து இங்கே விவாதிப்போம். உங்கள் சிக்கலைச் "
+"சமர்ப்பித்த பிறகு பதிவுகள் கேட்கப்படலாம். இந்த பதிவுகளை சாதனத்திலிருந்து மீட்டெடுக்க இந்த "
+"பிரிவு உங்களுக்கு உதவும்."
 
 #: ../../contribute/bugreporting.rst:57
 msgid ""
@@ -4657,6 +4990,10 @@ msgid ""
 "to skim through them to ensure this is not the case before posting them. We "
 "can coordinate to get them through e-mail or a similarly less public medium."
 msgstr ""
+"பதிவு கோப்புகளில் நீங்கள் தனிப்பட்டதாக வைத்திருக்க விரும்பும் தகவல்கள் இருக்கலாம். "
+"இடுகையிடுவதற்கு முன்பு இது இல்லை என்பதை உறுதிப்படுத்த தயவுசெய்து அவற்றைத் தவிர்ப்பது. "
+"மின்னஞ்சல் அல்லது இதேபோல் குறைவான பொது ஊடகம் மூலம் அவற்றைப் பெறுவதற்கு நாம் ஒருங்கிணைக்க "
+"முடியும்."
 
 #: ../../contribute/bugreporting.rst:59
 msgid ""
@@ -4664,6 +5001,9 @@ msgid ""
 "logviewer.ruditimmer>`_ from the OpenStore. This app will help us find, "
 "view, and send the logs we need."
 msgstr ""
+"தயாராக இருக்க, `LogViewer பயன்பாடு <https://open-store.io/app/"
+"logviewer.ruditimmer>` _ ஓபன்ச்டோரிலிருந்து பதிவிறக்கவும். இந்த பயன்பாடு எங்களுக்கு "
+"தேவையான பதிவுகளைக் கண்டறியவும், பார்க்கவும், அனுப்பவும் உதவும்."
 
 #: ../../contribute/bugreporting.rst:61
 msgid ""
@@ -4672,6 +5012,10 @@ msgid ""
 "And you can use the \"send\" icon in the top right corner to share a log "
 "using an online service."
 msgstr ""
+"இப்போது, லோக்வியூவர் பயன்பாட்டைத் திறக்கவும். உங்கள் சாதனத்தில் இயங்கும் பயன்பாடுகளின் "
+"பட்டியலை நீங்கள் காண்பீர்கள். இந்த பயன்பாட்டின் பதிவுகளைக் காண அவற்றில் எதையும் நீங்கள் திறக்கலாம்"
+". நிகழ்நிலை சேவையைப் பயன்படுத்தி பதிவைப் பகிர மேல் வலது மூலையில் உள்ள \"அனுப்பு\" "
+"ஐகானைப் பயன்படுத்தலாம்."
 
 #: ../../contribute/bugreporting.rst:64
 msgid ""
@@ -4680,10 +5024,14 @@ msgid ""
 "yet. Tell this to the person who asked you for the logs. They should be able "
 "to get you the information you need to get back on track."
 msgstr ""
+"LogViewer இல் அனுப்ப நீங்கள் கேட்கப்பட்ட பதிவை நீங்கள் காணவில்லை என்றால், அது வேறு "
+"கோப்புறையில் இருக்கலாம் அல்லது பயன்பாடு இதுவரை எந்த பதிவுகளையும் உருவாக்கவில்லை. "
+"உங்களிடம் பதிவுகள் கேட்ட நபரிடம் இதைச் சொல்லுங்கள். நீங்கள் மீண்டும் பாதையில் செல்ல வேண்டிய "
+"தகவல்களை அவர்கள் உங்களுக்கு பெற முடியும்."
 
 #: ../../contribute/code.rst:2
 msgid "Code changes"
-msgstr ""
+msgstr "குறியீடு மாற்றங்கள்"
 
 #: ../../contribute/code.rst:4
 msgid ""
@@ -4691,10 +5039,13 @@ msgid ""
 "things we look for in code, commits, and changesets. We also take a look at "
 "what to expect in the code review process."
 msgstr ""
+"உபுண்டு தொடுதலில் உங்கள் மாற்றங்கள் ஒன்றிணைக்க இந்த பக்கம் உதவுகிறது. குறியீடு, கமிட்டுகள் "
+"மற்றும் மாற்றங்களில் நாம் தேடும் விசயங்களை விவரிக்கிறோம். குறியீடு மறுஆய்வு செயல்பாட்டில் என்"
+"ன எதிர்பார்க்க வேண்டும் என்பதையும் நாங்கள் பார்ப்போம்."
 
 #: ../../contribute/code.rst:7
 msgid "Assumptions"
-msgstr ""
+msgstr "அனுமானங்கள்"
 
 #: ../../contribute/code.rst:9
 msgid ""
@@ -4704,6 +5055,11 @@ msgid ""
 "applications, see the :doc:`/appdev/index` or :doc:`/contribute/preinstalled-"
 "apps` sections."
 msgstr ""
+"இந்தப் பக்கத்தில் பயன்பாடுகளை எவ்வாறு உருவாக்குவது அல்லது உபுண்டு தொடுதலில் மாற்றங்கள் பற்றி"
+"ய தகவல்கள் இல்லை. உபுண்டு தொடு கூறுகளை எவ்வாறு உருவாக்குவது என்பதை அறிய, பார்க்க: டாக்:"
+" `/systemdev/index` பிரிவு. பயன்பாடுகளை எவ்வாறு உருவாக்குவது என்பதை அறிய, பார்க்க: "
+"doc: `/appdev/index` அல்லது: doc:`/பங்களிப்பு/முன் நிறுவப்பட்ட-APPS` பிரிவுகளைப் "
+"பார்க்கவும்."
 
 #: ../../contribute/code.rst:11
 msgid ""
@@ -4711,36 +5067,43 @@ msgid ""
 "them, push them to GitHub or Gitlab as needed, fork a repository, and make a "
 "Pull Request (PR) on GitHub or Merge Request (MR) on GitLab."
 msgstr ""
+"உங்கள் மாற்றங்களை எவ்வாறு எழுதுவது, அவற்றைச் செய்ய அறிவிலி பயன்படுத்துவது, தேவைக்கேற்ப "
+"கிட்லாப்பிற்கு அவற்றைத் தள்ளுவது, ஒரு களஞ்சியத்தை முட்கரண்டி, மற்றும் கிட்லாப்பில் கிதுபில் "
+"ஒரு இழுப்பு கோரிக்கையை (பி.ஆர்) செய்யுங்கள் என்று இந்த பக்கம் கருதுகிறது."
 
 #: ../../contribute/code.rst:14
 msgid "Definitions"
-msgstr ""
+msgstr "வரையறைகள்"
 
 #: ../../contribute/code.rst:16
 msgid ""
 "Since we use GitHub and GitLab for our code hosting depending on the "
 "component, we use some terms interchangeably in this document."
 msgstr ""
+"கூறுகளைப் பொறுத்து எங்கள் குறியீடு ஓச்டிங்கிற்காக அறிவிலிமையம் மற்றும் கிட்லாப்பைப் "
+"பயன்படுத்துவதால், இந்த ஆவணத்தில் சில சொற்களை ஒன்றுக்கொன்று மாற்றாகப் பயன்படுத்துகிறோம்."
 
 #: ../../contribute/code.rst:18
 msgid "changeset"
-msgstr ""
+msgstr "மாற்றங்கள்"
 
 #: ../../contribute/code.rst:19
 msgid "A GitHub Pull Request (PR) or GitLab Merge Request (MR)."
 msgstr ""
+"ஒரு அறிவிலிமையம் புல் கோரிக்கை (பி.ஆர்) அல்லது அறிவிலிஆய்வு ஒன்றிணைப்பு கோரிக்கை "
+"(எம்.ஆர்)."
 
 #: ../../contribute/code.rst:20
 msgid "issue report"
-msgstr ""
+msgstr "வெளியீட்டு அறிக்கை"
 
 #: ../../contribute/code.rst:21
 msgid "A GitHub or GitLab Issue."
-msgstr ""
+msgstr "ஒரு அறிவிலிமையம் அல்லது அறிவிலிஆய்வு சிக்கல்."
 
 #: ../../contribute/code.rst:24
 msgid "Reasoning"
-msgstr ""
+msgstr "பகுத்தறிவு"
 
 #: ../../contribute/code.rst:26
 msgid ""
@@ -4749,24 +5112,30 @@ msgid ""
 "process helps us avoid broken functionality by ensuring a few properties of "
 "the changeset."
 msgstr ""
+"பல பயனர்கள் பல சாதனங்களில் உபுண்டு தொடுதலைப் பயன்படுத்துகின்றனர். இந்த பயனர்கள் "
+"நம்பியிருக்கும் செயல்பாட்டை உடைப்பது பேரழிவு தரும். மாற்றத்தின் சில பண்புகளை உறுதி "
+"செய்வதன் மூலம் உடைந்த செயல்பாட்டைத் தவிர்க்க எங்கள் மறுஆய்வு செயல்முறை உதவுகிறது."
 
 #: ../../contribute/code.rst:28
 msgid "In particular, we want to make sure the change:"
-msgstr ""
+msgstr "குறிப்பாக, மாற்றத்தை உறுதிப்படுத்த விரும்புகிறோம்:"
 
 #: ../../contribute/code.rst:30
 msgid "meets its own goals, such as adding a feature or fixing a bug"
 msgstr ""
+"ஒரு அம்சத்தைச் சேர்ப்பது அல்லது பிழையை சரிசெய்வது போன்ற அதன் சொந்த இலக்குகளை நிறைவு "
+"செய்கிறது"
 
 #: ../../contribute/code.rst:31
 msgid "does not cause any unexpected behavior"
-msgstr ""
+msgstr "எதிர்பாராத எந்த நடத்தையும் ஏற்படுத்தாது"
 
 #: ../../contribute/code.rst:32
 msgid ""
 "makes it easy for someone to make further changes to the software in the "
 "future"
 msgstr ""
+"எதிர்காலத்தில் யாராவது மென்பொருளில் மேலும் மாற்றங்களைச் செய்வதை எளிதாக்குகிறது"
 
 #: ../../contribute/code.rst:35
 msgid ""
@@ -4774,6 +5143,9 @@ msgid ""
 "changes to Ubuntu Touch. Following these rules makes the review process "
 "easier for you and us."
 msgstr ""
+"இந்த பக்கத்தில் உள்ள விதிகள் உபுண்டு தொடுதலில் உங்கள் மாற்றங்களை எவ்வாறு எழுத வேண்டும் மற்றும்"
+" ஆவணப்படுத்த வேண்டும் என்பதை விளக்குகின்றன. இந்த விதிகளைப் பின்பற்றுவது உங்களுக்கும் "
+"எங்களுக்கும் மறுஆய்வு செயல்முறையை எளிதாக்குகிறது."
 
 #: ../../contribute/code.rst:37
 msgid ""
@@ -4781,20 +5153,25 @@ msgid ""
 "whether you follow the rules. If you break a rule, make sure you can explain "
 "why."
 msgstr ""
+"இவை முழுமையானவை அல்ல; நீங்கள் விதிகளைப் பின்பற்றுகிறீர்களா என்பதை அடிப்படையாகக் கொண்டு "
+"உங்கள் மாற்றத்தை நாங்கள் தானாகவே நிராகரிக்க மாட்டோம். நீங்கள் ஒரு விதியை மீறினால், அதற்கான "
+"காரணத்தை நீங்கள் விளக்க முடியும் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்."
 
 #: ../../contribute/code.rst:40
 msgid "Code change checklist"
-msgstr ""
+msgstr "குறியீடு மாற்ற சரிபார்ப்பு பட்டியல்"
 
 #: ../../contribute/code.rst:42
 msgid ""
 "Keep this checklist in mind while writing your code and as you prepare to "
 "commit your changes."
 msgstr ""
+"உங்கள் குறியீட்டை எழுதும் போது இந்த சரிபார்ப்பு பட்டியலை மனதில் வைத்துக் கொள்ளுங்கள், மேலும் "
+"உங்கள் மாற்றங்களைச் செய்ய நீங்கள் தயாராகி வருகிறீர்கள்."
 
 #: ../../contribute/code.rst:45
 msgid "Do not commit commented code"
-msgstr ""
+msgstr "கருத்து குறியீட்டைச் செய்ய வேண்டாம்"
 
 #: ../../contribute/code.rst:47
 msgid ""
@@ -4806,10 +5183,18 @@ msgid ""
 "consider whether filing an issue report referencing the broken code or TODO "
 "item would be better."
 msgstr ""
+"டெவலப்பர்களாக, அனுமானங்களை சரிபார்க்க எங்களுக்கு உதவ மட்டுமே இருக்கும் குறியீட்டை நாங்கள் "
+"அடிக்கடி கருத்து தெரிவிக்கிறோம் (கன்சோல் பதிவு செய்திகள் போன்றவை). இதை உறுதிப்படுத்திக் "
+"கொள்ளுங்கள் ** நெவர் ** இதை உங்கள் கமிட்டுகளில் சேர்க்கிறது. இந்த விதிக்கு நீங்கள் கீழ்ப்படிய "
+"வேண்டும் என்றால், கருத்து தெரிவிக்கப்பட்ட குறியீடு ஏன் மூலத்தில் உள்ளது என்பதை விளக்கும் "
+"கருத்தை நீங்கள் சேர்ப்பதை உறுதிப்படுத்திக் கொள்ளுங்கள். நீங்கள் ஒரு `` // டோடோ: `` அல்லது `` "
+"// // fixme: `` கருத்து தெரிவிக்க வேண்டும் என்று நீங்கள் நினைத்தால், உடைந்த குறியீடு "
+"அல்லது செய்யவேண்டிய உருப்படியைக் குறிக்கும் வெளியீட்டு அறிக்கையைத் தாக்கல் செய்வது சிறப்பாக "
+"இருக்குமா என்பதைக் கவனியுங்கள்."
 
 #: ../../contribute/code.rst:50
 msgid "Write tests for your changes"
-msgstr ""
+msgstr "உங்கள் மாற்றங்களுக்கு சோதனைகளை எழுதுங்கள்"
 
 #: ../../contribute/code.rst:52
 msgid ""
@@ -4826,6 +5211,18 @@ msgid ""
 "knowledge to the component's README. The best time to write documentation is "
 "after doing something for the first time."
 msgstr ""
+"ஒரு கூறு ஒரு சோதனை தொகுப்பு இருந்தால், அதைப் பயன்படுத்தவும். கூறுக்கான சோதனைகளை "
+"எவ்வாறு இயக்குவது என்பது உங்களுக்குத் தெரியும் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள் மற்றும் அந்"
+"த சோதனைகளின் வெளியீட்டைப் புரிந்து கொள்ளுங்கள். கூறுகளின் README கோப்பில் இந்த தகவலைக் "
+"கொண்டிருக்க வேண்டும். இல்லையென்றால் அதை எப்படி கண்டுபிடிப்பது என்று உங்களுக்குத் தெரியாது, "
+"எங்களிடம் கேளுங்கள். யாராவது முதல் முறையாக ஒரு கூறுகளைப் பற்றி அறிய முயற்சிக்கும்போது "
+"உதவுவதில் நாங்கள் மகிழ்ச்சியடைகிறோம். எவ்வாறாயினும், நீங்கள் இயங்குவதற்கான கட்டளைகளின் கையால்"
+" வடிவமைக்கப்பட்ட பட்டியலைக் காட்டிலும் ஒரு உருவாக்க அமைப்பு அல்லது சோதனை கட்டமைப்பிற்கான "
+"ஆவணங்களுக்கான இணைப்புகளின் குவியலைப் பெற தயாராக இருங்கள். எங்களுக்கு வழங்க நேரம் எல்லாம் "
+"இருக்கலாம். நீங்கள் பெற்ற பொருட்களைப் பார்த்த பிறகு நீங்கள் இன்னும் குழப்பமடைந்தால், உங்கள் புதி"
+"ய, குறிப்பிட்ட கவலைகளுடன் மீண்டும் கேட்க தயங்க. உங்கள் புதிய அறிவை கூறுகளின் README இல் "
+"சேர்த்தால் நாங்கள் ** உண்மையில் ** பாராட்டுவோம். ஆவணங்களை எழுத சிறந்த நேரம் முதல் முறையாக "
+"ஏதாவது செய்த பிறகு."
 
 #: ../../contribute/code.rst:54
 msgid ""
@@ -4834,6 +5231,10 @@ msgid ""
 "reasonable. Lean on the side of more tests: we rarely ask you to remove "
 "tests, but we may ask you to add more."
 msgstr ""
+"சோதனை தொகுப்பை எவ்வாறு இயக்குவது என்பது உங்களுக்குத் தெரிந்தவுடன், உங்கள் சோதனைகளைச் "
+"சேர்க்கலாம். உங்கள் புதிய செயல்பாட்டின் பல அம்சங்களை நீங்கள் சோதிக்கிறீர்கள் என்பதை "
+"உறுதிப்படுத்திக் கொள்ளுங்கள். மேலும் சோதனைகளின் பக்கத்தில் சாய்ந்து கொள்ளுங்கள்: சோதனைகளை அகற்"
+"ற நாங்கள் அரிதாகவே கேட்கிறோம், ஆனால் மேலும் சேர்க்கும்படி நாங்கள் உங்களிடம் கேட்கலாம்."
 
 #: ../../contribute/code.rst:56
 msgid ""
@@ -4841,10 +5242,13 @@ msgid ""
 "time to file a bug on that component! We would appreciate your help adding a "
 "test suite, but we do not require that of you."
 msgstr ""
+"ஒரு கூறுக்கு சோதனை தொகுப்பு இல்லை என்பதை நீங்கள் கவனித்தால், அந்தக் கூறுகளில் ஒரு பிழையை "
+"தாக்கல் செய்ய இது ஒரு சிறந்த நேரம்! ஒரு சோதனை தொகுப்பைச் சேர்ப்ப உங்கள் உதவியை நாங்கள் "
+"பாராட்டுகிறோம், ஆனால் எங்களுக்குத் தேவையில்லை."
 
 #: ../../contribute/code.rst:59
 msgid "Follow any existing style guides"
-msgstr ""
+msgstr "தற்போதுள்ள எந்த பாணி வழிகாட்டிகளையும் பின்பற்றவும்"
 
 #: ../../contribute/code.rst:61
 msgid ""
@@ -4852,10 +5256,13 @@ msgid ""
 "to follow the existing style in the file you're changing as closely as "
 "possible."
 msgstr ""
+"ஒரு களஞ்சியத்தில் ஒரு பாணி வழிகாட்டி இருந்தால், அதைப் பயன்படுத்தவும். பாணி வழிகாட்டி "
+"இல்லை என்றால், நீங்கள் முடிந்தவரை நெருக்கமாக மாற்றும் கோப்பில் இருக்கும் பாணியைப் பின்பற்ற "
+"முயற்சிக்கவும்."
 
 #: ../../contribute/code.rst:64
 msgid "Commit checklist"
-msgstr ""
+msgstr "சரிபார்ப்பு பட்டியல்"
 
 #: ../../contribute/code.rst:66
 msgid ""
@@ -4864,6 +5271,10 @@ msgid ""
 "complex questions. This checklist helps future viewers of your code "
 "understand why it is the way it is."
 msgstr ""
+"குறியீட்டை எழுதுவதற்கு நீண்ட காலமாக, அது ஒரு பிழையை எப்படி, ஏன் அறிமுகப்படுத்துகிறது "
+"என்பதை நாம் அடிக்கடி புரிந்து கொள்ள வேண்டும். இந்த சிக்கலான கேள்விகளைப் புரிந்துகொள்வதற்கா"
+"ன செய்திகளைச் செய்த செய்திகள் எங்கள் முதல் படியாகும். இந்த சரிபார்ப்பு பட்டியல் உங்கள் "
+"குறியீட்டின் எதிர்கால பார்வையாளர்களுக்கு இது ஏன் வழி என்பதை புரிந்துகொள்ள உதவுகிறது."
 
 #: ../../contribute/code.rst:68
 msgid ""
@@ -4875,16 +5286,25 @@ msgid ""
 "more detail; someday, *you* are the one looking back at your commits and "
 "wondering why you made them."
 msgstr ""
+"இந்த வழிகாட்டுதல்களைப் பின்பற்றும் ஒரு தொடர் கமிட்டுகளின் எடுத்துக்காட்டுக்கு, லோமிரியில் "
+"<https://github.com/ubports/unity8/commits/"
+"84077777FBB663A5DBE7665DBE7665DBE765DBE765DBE765DBE765DBE765DBE765DBE765DBE7665DBE765DBE765DBE "
+"இன் பதிவின் மேலே உள்ள `சிஐடி பதிவின் மேல் மூன்று கமிட்டுகளையும் காண்க. ஒவ்வொரு "
+"மாற்றத்திற்கும் இந்த எடுத்துக்காட்டுகள் போன்ற ஆழமான விளக்கம் தேவையில்லை. மேலும் விவரங்களின் "
+"பக்கத்தில் சாய்ந்து கொள்ளுங்கள்; ஒருநாள், * நீங்கள் * உங்கள் கமிட்டிகளைத் திரும்பிப் பார்த்து, "
+"அவற்றை ஏன் செய்தீர்கள் என்று யோசிக்கிறீர்கள்."
 
 #: ../../contribute/code.rst:71
 msgid "Answer crucial questions in commit messages"
-msgstr ""
+msgstr "கமிட் செய்திகளில் முக்கியமான கேள்விகளுக்கு பதிலளிக்கவும்"
 
 #: ../../contribute/code.rst:73
 msgid ""
 "We ask questions like, \"what?\" \"why?\" and \"how?\" to gain context of a "
 "situation quickly."
 msgstr ""
+"\"என்ன?\" போன்ற கேள்விகளை நாங்கள் கேட்கிறோம். \"ஏன்?\" மற்றும் \"எப்படி?\" ஒரு "
+"சூழ்நிலையின் சூழலை விரைவாகப் பெற."
 
 #: ../../contribute/code.rst:75
 msgid ""
@@ -4892,10 +5312,13 @@ msgid ""
 "so helps reviewers and future readers understand the context of a change. In "
 "order of importance, answer:"
 msgstr ""
+"உங்கள் கமிட் மேனிலை தரவு அல்லது உள்ளடக்கத்தில் இந்த கேள்விகளுக்கு பதிலளிக்க முயற்சி "
+"செய்யுங்கள். அவ்வாறு செய்வது விமர்சகர்களுக்கும் எதிர்கால வாசகர்களுக்கும் மாற்றத்தின் சூழலைப் "
+"புரிந்துகொள்ள உதவுகிறது. முக்கியத்துவத்தின் அடிப்படையில், பதில்:"
 
 #: ../../contribute/code.rst:77
 msgid "What?"
-msgstr ""
+msgstr "என்ன?"
 
 #: ../../contribute/code.rst:78
 msgid ""
@@ -4904,10 +5327,14 @@ msgid ""
 "<https://github.com/ubports/unity8/commit/"
 "a81421ac1fe5135b9cff710c3cd819aa1804c6e6>`_\"."
 msgstr ""
+"உங்கள் கமிட் செய்தியின் முதல் சில வரிகளுடன் இந்த கேள்விக்கு பதிலளிக்கவும். "
+"\"உங்கள் கமிட் என்ன செய்கிறது?\" \"` சுமை நேரங்கள் மற்றும் நினைவகத்திற்கான வால்பேப்பர்களை "
+"மேம்படுத்துங்கள் <https://github.com/ubports/unity8/commit/"
+"a81421ac1ac1fe5135b9cff710c3cd819aa1804c6e6> `_\"."
 
 #: ../../contribute/code.rst:79
 msgid "Why?"
-msgstr ""
+msgstr "ஏன்?"
 
 #: ../../contribute/code.rst:80
 msgid ""
@@ -4916,10 +5343,14 @@ msgid ""
 "complicated than a viewer expects. Provide permanent links to issue reports "
 "or documentation if they give context."
 msgstr ""
+"ஒரு மாற்றத்தின் பின்னணியில் உள்ள பகுத்தறிவை எப்போதும் குறிப்பிடுங்கள்: அது நிர்ணயிக்கும் "
+"பிழைகள், அது உருவாக்கும் நற்பொருத்தங்கள் மற்றும் குறிப்பாக பார்வையாளர் எதிர்பார்ப்பதை விட "
+"இது மிகவும் சிக்கலானதாக இருக்கும் வரம்புகள். அறிக்கைகள் அல்லது ஆவணங்களை வழங்குவதற்கு நிரந்"
+"தர இணைப்புகளை வழங்கவும் அவை சூழலைக் கொடுத்தால்."
 
 #: ../../contribute/code.rst:81
 msgid "Who?"
-msgstr ""
+msgstr "WHO?"
 
 #: ../../contribute/code.rst:82
 msgid ""
@@ -4928,6 +5359,10 @@ msgid ""
 "``Co-Authored-By: Their Name <their-email@example.com>`` line in your commit "
 "message."
 msgstr ""
+"அறிவிலி உங்கள் பெயர் மற்றும் மின்னஞ்சல் முகவரியை உங்கள் மாற்றங்களை இணைப்பதாக உட்பொதிக்கிறது"
+". உங்கள் மாற்றங்களை எழுத வேறு யாராவது உங்களுக்கு உதவியிருந்தால், அவற்றை நீங்கள் `` இணை "
+"எழுதியவர்: அவர்களின் பெயர் <அவர்களின்-email@example.com> `` உங்கள் கமிட் செய்தியில் வரி "
+"சேர்க்க வேண்டும்."
 
 #: ../../contribute/code.rst:84
 msgid ""
@@ -4937,16 +5372,24 @@ msgid ""
 "quickly become out-of-date compared to the code that they are near. A commit "
 "message is linked only to the code you wrote."
 msgstr ""
+"இந்த சூழலில் சிலவற்றை செய்திகளை விட குறியீடு கருத்துகளில் வழங்க முடியும். `` அறிவிலி "
+"பழி`` போன்ற கருவிகளைப் பயன்படுத்தாமல் குறியீட்டை மட்டுமே படிக்கும் நபர்களுக்கு கருத்துகள் "
+"உதவ முடியும். கருத்துக்கள் அவை நெருங்கிய குறியீட்டோடு ஒப்பிடும்போது விரைவாக "
+"காலாவதியாகிவிடும் என்பதை நினைவில் கொள்ளுங்கள். நீங்கள் எழுதிய குறியீட்டில் மட்டுமே ஒரு "
+"கமிட் செய்தி இணைக்கப்பட்டுள்ளது."
 
 #: ../../contribute/code.rst:86
 msgid ""
 "In closing, make sure you anticipate any questions you expect yourself or "
 "others to have about your code in the future and answer them."
 msgstr ""
+"மூடுகையில், எதிர்காலத்தில் உங்கள் குறியீட்டைப் பற்றி நீங்கள் அல்லது மற்றவர்களிடம் இருக்கும் என்று"
+" நீங்கள் எதிர்பார்க்கும் ஏதேனும் கேள்விகளை நீங்கள் எதிர்பார்க்கிறீர்கள் என்பதை உறுதிப்படுத்திக் "
+"கொள்ளுங்கள்."
 
 #: ../../contribute/code.rst:89
 msgid "Make commits as small as possible, but no smaller"
-msgstr ""
+msgstr "கமிட்டுகளை முடிந்தவரை சிறியதாக்குங்கள், ஆனால் சிறியதாக இல்லை"
 
 #: ../../contribute/code.rst:91
 msgid ""
@@ -4955,24 +5398,30 @@ msgid ""
 "entire commit checklist. It should not require any of the commits that come "
 "after it to build or pass tests."
 msgstr ""
+"சில மாற்றங்கள் முடிக்க பல தர்க்கரீதியான படிகள் தேவை. இதுபோன்றால், இந்த படிகளை தனி "
+"கமிட்டுகளாக பிரிக்கவும். ஒவ்வொரு உறுதிப்பாடும் முழு கமிட் சரிபார்ப்பு பட்டியலையும் பின்பற்"
+"ற வேண்டும். சோதனைகளை உருவாக்க அல்லது கடந்து செல்ல அதற்குப் பிறகு வரும் எந்தவொரு "
+"கமிட்டுகளும் தேவையில்லை."
 
 #: ../../contribute/code.rst:93
 msgid ""
 "Let's say you are implementing a new way to search for phone numbers in the "
 "Dialer app. Your change requires three distinct steps:"
 msgstr ""
+"டயலர் பயன்பாட்டில் தொலைபேசி எண்களைத் தேட புதிய வழியை நீங்கள் செயல்படுத்துகிறீர்கள் என்று "
+"சொல்லலாம். உங்கள் மாற்றத்திற்கு மூன்று தனித்துவமான படிகள் தேவை:"
 
 #: ../../contribute/code.rst:95
 msgid "Fix a bug in the current phone number search"
-msgstr ""
+msgstr "தற்போதைய தொலைபேசி எண் தேடலில் ஒரு பிழையை சரிசெய்யவும்"
 
 #: ../../contribute/code.rst:96
 msgid "Add a new API to support your new number search"
-msgstr ""
+msgstr "உங்கள் புதிய எண் தேடலை ஆதரிக்க புதிய பநிஇ ஐச் சேர்க்கவும்"
 
 #: ../../contribute/code.rst:97
 msgid "Add the UI elements to use your new search"
-msgstr ""
+msgstr "உங்கள் புதிய தேடலைப் பயன்படுத்த இடைமுகம் கூறுகளைச் சேர்க்கவும்"
 
 #: ../../contribute/code.rst:99
 msgid ""
@@ -4981,42 +5430,46 @@ msgid ""
 "separate commits instead, the bug fix and new API could be added to the "
 "mainline software while you work on redesigning your UI."
 msgstr ""
+"இந்த மாற்றங்கள் அனைத்தையும் நீங்கள் ஒரு உறுதிப்பாட்டில் செய்தால், மூன்றாம் கட்டத்தில் ஒரு சிக்கல் "
+"இருந்தால், முழு மாற்றங்களையும் நாங்கள் நிராகரிக்கிறோம். அதற்கு பதிலாக மாற்றங்களை நீங்கள் "
+"தனித்தனி கமிட்டுகளாகப் பிரித்தால், உங்கள் இடைமுகம் ஐ மறுவடிவமைப்பதில் பணிபுரியும் போது "
+"பிழை பிழைத்திருத்தம் மற்றும் புதிய பநிஇ ஐ மெயின்லைன் மென்பொருளில் சேர்க்கலாம்."
 
 #: ../../contribute/code.rst:102
 msgid "Rebase your changes during the review, if possible"
-msgstr ""
+msgstr "முடிந்தால், மதிப்பாய்வின் போது உங்கள் மாற்றங்களை மீளவும்"
 
 #: ../../contribute/code.rst:104
 msgid "It's common for a commit log on GitHub to go something like this:"
-msgstr ""
+msgstr "கிட்அப்பில் ஒரு கமிட் உள்நுழைவு இதுபோன்ற ஒன்றைச் செல்வது பொதுவானது:"
 
 #: ../../contribute/code.rst:106
 msgid "Fix bug in phone number search"
-msgstr ""
+msgstr "தொலைபேசி எண் தேடலில் பிழையை சரிசெய்யவும்"
 
 #: ../../contribute/code.rst:107
 msgid "Add new API call for new phone number search"
-msgstr ""
+msgstr "புதிய தொலைபேசி எண் தேடலுக்கு புதிய பநிஇ அழைப்பைச் சேர்க்கவும்"
 
 #: ../../contribute/code.rst:108
 msgid "Add UI for new phone number search"
-msgstr ""
+msgstr "புதிய தொலைபேசி எண் தேடலுக்கு இடைமுகம் ஐச் சேர்க்கவும்"
 
 #: ../../contribute/code.rst:109
 msgid "Fix UI"
-msgstr ""
+msgstr "இடைமுகம் ஐ சரிசெய்யவும்"
 
 #: ../../contribute/code.rst:110
 msgid "Fix bug fix"
-msgstr ""
+msgstr "பிழை பிழைத்திருத்தத்தை சரிசெய்யவும்"
 
 #: ../../contribute/code.rst:111
 msgid "Review changes"
-msgstr ""
+msgstr "மாற்றங்களை மதிப்பாய்வு செய்யவும்"
 
 #: ../../contribute/code.rst:112
 msgid "Fix API after comments from reviewers"
-msgstr ""
+msgstr "விமர்சகர்களின் கருத்துகளுக்குப் பிறகு பநிஇ ஐ சரிசெய்யவும்"
 
 #: ../../contribute/code.rst:114
 msgid ""
@@ -5024,6 +5477,9 @@ msgid ""
 "confused in no time at all. What did the reviewers say, what was wrong with "
 "the UI and the bug fix?"
 msgstr ""
+"எதிர்காலத்தில் இந்த கமிட் பதிவுக்கு நீங்கள் திரும்பி வர வேண்டுமானால், நீங்கள் எந்த நேரத்திலும் "
+"குழப்பமடைவீர்கள். விமர்சகர்கள் என்ன சொன்னார்கள், இடைமுகம் மற்றும் பிழை பிழைத்திருத்தத்தில் என்ன "
+"தவறு?"
 
 #: ../../contribute/code.rst:116
 msgid ""
@@ -5031,6 +5487,9 @@ msgid ""
 "commit in your series. Instead, edit the first commit. If doing this changes "
 "the information in your commit message, update that too."
 msgstr ""
+"உங்கள் தொடரின் முதல் உறுதிப்பாட்டை பாதிக்கும் ஒரு திருத்தத்தை நீங்கள் பெறும்போது புதிய "
+"உறுதிப்பாட்டைச் சேர்க்க வேண்டாம். அதற்கு பதிலாக, முதல் உறுதிப்பாட்டைத் திருத்தவும். இதைச் "
+"செய்வது உங்கள் கமிட் செய்தியில் உள்ள தகவல்களை மாற்றினால், அதையும் புதுப்பிக்கவும்."
 
 #: ../../contribute/code.rst:118
 msgid ""
@@ -5038,6 +5497,9 @@ msgid ""
 "with ``git-rebase``. Push the resulting changes with a force push, or create "
 "a new branch and open a new changeset."
 msgstr ""
+"திருத்துதல் கமிட்சுக்கு புதிய கருவிகளைக் கற்றுக்கொள்வது தேவை. `` கிட்-ரிபேச்`` உடன் "
+"தொடர்ச்சியான கமிட்டிகளைத் திருத்தவும். இதன் விளைவாக ஏற்படும் மாற்றங்களை ஒரு ஆற்றல் "
+"உந்துதலுடன் தள்ளுங்கள், அல்லது ஒரு புதிய கிளையை உருவாக்கி புதிய மாற்றங்களைத் திறக்கவும்."
 
 #: ../../contribute/code.rst:120
 msgid ""
@@ -5047,15 +5509,22 @@ msgid ""
 "seasoned Git pros mess up this process sometimes, don't worry. There is "
 "almost always a way back to your old series."
 msgstr ""
+"அதிர்ச்டவசமாக, இந்த வேலையை மேலும் நிர்வகிக்கக்கூடிய வரைகலை கருவிகள் உள்ளன. "
+"துரதிர்ச்டவசமாக, அறிவிலி கட்டளை வரியில் அவர்கள் என்ன செய்கிறார்கள் என்பது உங்களுக்கு "
+"புரியவில்லை என்றால், நீங்கள் குழப்பமடையலாம், உங்கள் பழைய தொடரிலிருந்து தொடங்க வேண்டும். "
+"அனுபவமுள்ள அறிவிலி நன்மை கூட சில நேரங்களில் இந்த செயல்முறையை குழப்புகிறது, கவலைப்பட "
+"வேண்டாம். உங்கள் பழைய தொடருக்கு எப்போதும் ஒரு வழி இருக்கிறது."
 
 #: ../../contribute/code.rst:122
 msgid ""
 "Each commit must continue to build, run, and pass tests after your changes."
 msgstr ""
+"ஒவ்வொரு கமிட்டும் உங்கள் மாற்றங்களுக்குப் பிறகு தொடர்ந்து சோதனைகளை உருவாக்க வேண்டும், இயக்க "
+"வேண்டும் மற்றும் கடந்து செல்ல வேண்டும்."
 
 #: ../../contribute/code.rst:125
 msgid "Format your commit message correctly"
-msgstr ""
+msgstr "உங்கள் கமிட் செய்தியை சரியாக வடிவமைக்கவும்"
 
 #: ../../contribute/code.rst:127
 msgid ""
@@ -5064,16 +5533,22 @@ msgid ""
 "less. It's OK if you have to break the rules — some changes can't be "
 "summarized in 50 characters, and some links are longer than 72."
 msgstr ""
+"உங்கள் கமிட் செய்தியின் முதல் வரியை (சுருக்கம்) 50 எழுத்துக்கள் அல்லது அதற்கும் குறைவாக "
+"வைத்திருங்கள். கமிட் செய்தியில் உள்ள மற்ற ஒவ்வொரு வரியும் 72 எழுத்துக்கள் அல்லது அதற்கும் "
+"குறைவாக இருக்க வேண்டும். நீங்கள் விதிகளை மீற வேண்டுமானால் பரவாயில்லை - சில மாற்றங்களை 50 "
+"எழுத்துகளில் சுருக்கமாகக் கூற முடியாது, மேலும் சில இணைப்புகள் 72 ஐ விட நீளமாக "
+"இருக்கும்."
 
 #: ../../contribute/code.rst:130
 msgid "Changeset description checklist"
-msgstr ""
+msgstr "மாற்றங்கள் விளக்கம் சரிபார்ப்பு பட்டியல்"
 
 #: ../../contribute/code.rst:132
 msgid ""
 "Ensure that your changeset answers the following questions in its "
 "description."
 msgstr ""
+"உங்கள் மாற்றங்கள் அதன் விளக்கத்தில் பின்வரும் கேள்விகளுக்கு பதிலளிப்பதை உறுதிசெய்க."
 
 #: ../../contribute/code.rst:134
 msgid ""
@@ -5083,10 +5558,15 @@ msgid ""
 "A description that says, \"this is complicated to explain; please read the "
 "commit messages,\" is also acceptable. We trust you to strike a balance."
 msgstr ""
+"கமிட் செய்திகளுக்கான வழிகாட்டுதல்களை நீங்கள் பின்பற்றினால், கமிட் செய்திகளிலிருந்து "
+"தொடர்புடைய தகவல்களை உங்கள் மாற்ற விளக்கத்தில் நகலெடுக்கலாம். அறிவிலிமையம் மற்றும் "
+"அறிவிலிஆய்வு இதை ஒற்றை-கட்டம் மாற்றங்களில் உங்களுக்காகச் செய்யுங்கள். "
+"\"இது விளக்க சிக்கலானது; தயவுசெய்து செய்திகளைப் படியுங்கள்\" என்று சொல்லும் ஒரு விளக்கம் "
+"ஏற்றுக்கொள்ளத்தக்கது. ஒரு சமநிலையைத் தாக்கும் என்று நாங்கள் நம்புகிறோம்."
 
 #: ../../contribute/code.rst:137
 msgid "What issue does your changeset resolve?"
-msgstr ""
+msgstr "உங்கள் மாற்றங்கள் என்ன சிக்கலை தீர்க்கின்றன?"
 
 #: ../../contribute/code.rst:139
 msgid ""
@@ -5096,18 +5576,23 @@ msgid ""
 "at it and know how to reproduce the problem or test the feature. Add this "
 "information to the issue report as well if it is missing."
 msgstr ""
+"நீங்கள் ஒரு அம்சத்தைச் சேர்த்தாலும் அல்லது சிக்கலை சரிசெய்தாலும், அவர்கள் தீர்க்கும் வெளியீட்டு "
+"அறிக்கையுடன் மாற்றங்களை இணைக்கவும். அனைத்து சாதனங்களுக்கும் சிக்கல் நிகழ்கிறது அல்லது "
+"சாதனங்களைக் குறிப்பிடவும். போதுமான தகவல்களை வழங்குவதன் மூலம் யாராவது அதைப் பார்த்து, "
+"சிக்கலை எவ்வாறு இனப்பெருக்கம் செய்வது அல்லது அம்சத்தை சோதிப்பது என்பதை அறிந்து கொள்ளலாம். "
+"இந்த தகவலை வெளியீடு அறிக்கையில் சேர்க்கவில்லை என்றால் அது காணவில்லை."
 
 #: ../../contribute/code.rst:141 ../../contribute/code.rst:150
 msgid "For example:"
-msgstr ""
+msgstr "உதாரணமாக:"
 
 #: ../../contribute/code.rst:143
 msgid "Fixes https://gitlab.com/ubports/ubuntu-touch/-/issues/1"
-msgstr ""
+msgstr "சரிசெய்தல் https://gitlab.com/ubports/ubuntu-touch/-/issues/1"
 
 #: ../../contribute/code.rst:146
 msgid "How did you test that the change was successful?"
-msgstr ""
+msgstr "மாற்றம் வெற்றிகரமாக இருந்தது என்பதை நீங்கள் எவ்வாறு சோதித்தீர்கள்?"
 
 #: ../../contribute/code.rst:148
 msgid ""
@@ -5117,6 +5602,11 @@ msgid ""
 "Explain your testing process. If you are not sure how to test a feature "
 "related to your changes, mention it."
 msgstr ""
+"எல்லா மாற்றங்களுக்கும் அவர்கள் குறிப்பிடும் வெளியீட்டு அறிக்கையை அவர்கள் தீர்க்க வேண்டும் என்பதை "
+"உறுதிப்படுத்த சோதனை தேவைப்படுகிறது. சோதனையின் கீழ் இயக்க முறைமை, அதன் பதிப்பு மற்றும் "
+"நீங்கள் சோதித்த சாதனங்கள் உள்ளிட்ட உங்கள் மாற்றங்களை நீங்கள் சோதித்த சூழலை பட்டியலிடுங்கள். உங்கள்"
+" சோதனை செயல்முறையை விளக்குங்கள். உங்கள் மாற்றங்கள் தொடர்பான அம்சத்தை எவ்வாறு சோதிப்பது "
+"என்பது உங்களுக்குத் தெரியாவிட்டால், அதைக் குறிப்பிடவும்."
 
 #: ../../contribute/code.rst:152
 msgid ""
@@ -5125,10 +5615,16 @@ msgid ""
 "appreciated. To fix a bug, I had to touch a bit of code in the phone number "
 "search area (#53). I'm not entirely sure how to test that for regressions."
 msgstr ""
+"இந்த டயலர் மாற்றத்தை நெக்சச் 5 இல் நான் சோதித்தேன். இது எல்லா சாதனங்களிலும் செயல்பட வேண்டும்"
+", ஏனெனில் இது சாதனம் சார்ந்த எதையும் மாற்றியமைக்கவில்லை, ஆனால் கூடுதல் சோதனை "
+"பாராட்டப்படும். ஒரு பிழையை சரிசெய்ய, நான் தொலைபேசி எண் தேடல் பகுதியில் (#53) கொஞ்சம் "
+"குறியீட்டைத் தொட வேண்டியிருந்தது. பின்னடைவுகளுக்கு அதை எவ்வாறு சோதிப்பது என்பது எனக்கு "
+"முழுமையாகத் தெரியவில்லை."
 
 #: ../../contribute/code.rst:155
 msgid "Do any changes need to be merged before or after this changeset?"
 msgstr ""
+"இந்த மாற்றங்களுக்கு முன்னும் பின்னும் ஏதேனும் மாற்றங்கள் இணைக்கப்பட வேண்டுமா?"
 
 #: ../../contribute/code.rst:157
 msgid ""
@@ -5137,6 +5633,10 @@ msgid ""
 "descriptions. Document all sets that must be merged *before* and *after* the "
 "current one in a series, if needed."
 msgstr ""
+"சில மாற்றங்கள் சரியாக வேலை செய்வதற்கு முன்பு ஒன்று அல்லது அதற்கு மேற்பட்ட மாற்றங்களைப் "
+"பொறுத்தது. இதுபோன்றால், உங்கள் மாற்ற விளக்கங்களில் உள்ள சார்புகளை நீங்கள் ஆவணப்படுத்த வேண்டும்"
+". தேவைப்பட்டால், ஒரு தொடரில் தற்போதைய ஒன்றுக்கு முன் * மற்றும் * பின் * ஒன்றிணைக்கப்பட "
+"வேண்டிய அனைத்து தொகுப்புகளையும் ஆவணம்."
 
 #: ../../contribute/code.rst:159
 msgid ""
@@ -5145,49 +5645,57 @@ msgid ""
 "They must be merged in that order. In that case, your MR descriptions would "
 "have something similar to this included:"
 msgstr ""
+"எடுத்துக்காட்டாக, அறிவிலிஆய்வு, `` யுபோர்ட்ச்/கோர்/டாக்ச்! அவை அந்த வரிசையில் இணைக்கப்பட "
+"வேண்டும். அவ்வாறான நிலையில், உங்கள் எம்.ஆர் விளக்கங்கள் இதைப் போன்ற ஒன்றைக் கொண்டிருக்கும்:"
 
 #: ../../contribute/code.rst:161
 msgid "In ``ubports/core/docs!1``:"
-msgstr ""
+msgstr "`` Ubports/core/docs! 1`` இல்:"
 
 #: ../../contribute/code.rst:163
 msgid ""
 "ubports/core/code!2 and ubports/core/infrastructure!3 depend on this MR."
-msgstr ""
+msgstr "UBPORTS/CORE/CODE! 2 மற்றும் UBPORTS/கோர்/உள்கட்டமைப்பு! 3 இந்த திரு."
 
 #: ../../contribute/code.rst:164
 msgid "In ``ubports/core/code!2``:"
-msgstr ""
+msgstr "`` Ubports/core/code! 2`` இல்:"
 
 #: ../../contribute/code.rst:166
 msgid ""
 "ubports/docs!1 must be merged before this MR. ubports/core/infrastructure!3 "
 "depends on this MR."
 msgstr ""
+"ubports/docs! 1 இந்த திரு முன் இணைக்கப்பட வேண்டும். ubports/core/infrastructure! 3 "
+"இந்த திரு."
 
 #: ../../contribute/code.rst:167
 msgid "In ``ubports/core/infrastructure!3``:"
-msgstr ""
+msgstr "`` Ubports/core/உள்கட்டமைப்பில்! 3``:"
 
 #: ../../contribute/code.rst:169
 msgid ""
 "ubports/docs!1 and ubports/core/infrastructure!3 must be merged before this "
 "MR."
 msgstr ""
+"UBPORTS/DOCS! 1 மற்றும் UBPORTS/CORE/INFUSTRUCTURE! 3 இந்த திரு முன் இணைக்கப்பட "
+"வேண்டும்."
 
 #: ../../contribute/code.rst:172
 msgid "What does the interface look like before and after the change?"
-msgstr ""
+msgstr "மாற்றத்திற்கு முன்னும் பின்னும் இடைமுகம் எப்படி இருக்கும்?"
 
 #: ../../contribute/code.rst:174
 msgid ""
 "If your changes also change the look of the user interface, include "
 "screenshots to illustrate these changes."
 msgstr ""
+"உங்கள் மாற்றங்கள் பயனர் இடைமுகத்தின் தோற்றத்தையும் மாற்றினால், இந்த மாற்றங்களை விளக்குவதற்கு "
+"திரை சாட்களைச் சேர்க்கவும்."
 
 #: ../../contribute/code.rst:177
 msgid "Submission and review"
-msgstr ""
+msgstr "சமர்ப்பிப்பு மற்றும் மதிப்பாய்வு"
 
 #: ../../contribute/code.rst:179
 msgid ""
@@ -5195,10 +5703,13 @@ msgid ""
 "review! Thank you in advance for contributing to Ubuntu Touch. Here is what "
 "you can expect from us as we review your changes."
 msgstr ""
+"இப்போது நீங்கள் உங்கள் மாற்றங்களைச் சரிபார்த்துள்ளீர்கள், அதை மதிப்பாய்வுக்காக சமர்ப்பிக்க வேண்டிய "
+"நேரம் இது! உபுண்டு டச் பங்களித்தமைக்கு முன்கூட்டியே நன்றி. உங்கள் மாற்றங்களை நாங்கள் "
+"மதிப்பாய்வு செய்யும்போது எங்களிடமிருந்து நீங்கள் எதிர்பார்க்கக்கூடியது இங்கே."
 
 #: ../../contribute/code.rst:182
 msgid "We respect you"
-msgstr ""
+msgstr "நாங்கள் உங்களை மதிக்கிறோம்"
 
 #: ../../contribute/code.rst:184
 msgid ""
@@ -5206,6 +5717,9 @@ msgid ""
 "never made lightly. A reviewer must treat you with respect and work with you "
 "toward your changeset becoming a part of Ubuntu Touch."
 msgstr ""
+"உபுண்டு தொடுவதற்கு பங்களிக்க உங்கள் நேரத்தைப் பயன்படுத்தத் தேர்ந்தெடுத்தீர்கள். அந்த முடிவு "
+"ஒருபோதும் லேசாக எடுக்கப்படவில்லை. ஒரு விமர்சகர் உங்களை மரியாதையுடன் நடத்த வேண்டும், "
+"உபுண்டு தொடுதலின் ஒரு பகுதியாக மாறும் உங்கள் மாற்றத்தை நோக்கி உங்களுடன் பணியாற்ற வேண்டும்."
 
 #: ../../contribute/code.rst:186
 msgid ""
@@ -5216,10 +5730,16 @@ msgid ""
 "trying to work as quickly as possible, not as an attempt to be rude to you. "
 "We extend the same grace to you."
 msgstr ""
+"மரியாதை என்பது இரு வழி தெரு. உபுண்டு தொடுதல் ஒரு பெரிய திட்டம்; தேவையான அனைத்து "
+"வேலைகளையும் செய்ய போதுமான கைகள் இல்லை. உங்கள் மாற்றங்கள் எந்தவொரு கவனத்தையும் காண சிறிது "
+"நேரம் ஆகலாம், நீண்ட காத்திருப்புக்குப் பிறகு, மாற்றங்களுக்கான கடுமையான கோரிக்கையைக் "
+"கண்டுபிடிக்க நீங்கள் திரும்பி வரலாம். யாரோ ஒருவர் விரைவாக வேலை செய்ய முயற்சிக்கும் ஒரு "
+"கடுமையான தோற்றமுடைய செய்தியைப் படியுங்கள், உங்களிடம் முரட்டுத்தனமாக இருக்க "
+"முயற்சிப்பதில்லை. நாங்கள் உங்களுக்கு அதே அருளத்தை நீட்டிக்கிறோம்."
 
 #: ../../contribute/code.rst:189
 msgid "We ask many questions"
-msgstr ""
+msgstr "நாங்கள் பல கேள்விகளைக் கேட்கிறோம்"
 
 #: ../../contribute/code.rst:191
 msgid ""
@@ -5228,6 +5748,11 @@ msgid ""
 "they'll still ask. If you can explain how your code works, it's more likely "
 "that you have done the proper testing to ensure it works."
 msgstr ""
+"இது எவ்வாறு செயல்படுகிறது என்பது குறித்த கேள்விகளைக் கேட்ட பிறகு நீங்கள் மாற்றும் "
+"குறியீட்டை விமர்சகர்கள் நன்கு புரிந்துகொள்கிறார்கள். உங்கள் குறியீடு ஏற்கனவே என்ன செய்கிறது "
+"என்பதை அவர்கள் அறிந்திருக்கலாம், ஆனால் அவர்கள் இன்னும் கேட்பார்கள். உங்கள் குறியீடு எவ்வாறு "
+"செயல்படுகிறது என்பதை நீங்கள் விளக்க முடிந்தால், அது செயல்படுவதை உறுதிசெய்ய சரியான "
+"சோதனையைச் செய்திருக்கலாம்."
 
 #: ../../contribute/code.rst:193
 msgid ""
@@ -5236,10 +5761,14 @@ msgid ""
 "us in the future. Fixing the real bug instead of making workarounds is a "
 "better use of time."
 msgstr ""
+"ஏதாவது ஏன் செயல்படுகிறது என்பதை நீங்கள் வெளிப்படுத்த முடியாவிட்டால், அது ஒரு சிவப்புக் "
+"கொடி. இந்த மாற்றம் வேறுபட்ட பிழையைச் சுற்றி வேலை செய்கிறது, இது எதிர்காலத்தில் நம்மைத் "
+"தொந்தரவு செய்ய மீண்டும் வரக்கூடும். பணித்தொகுப்புகளைச் செய்வதற்கு பதிலாக உண்மையான பிழையை "
+"சரிசெய்வது நேரத்தை சிறந்த முறையில் பயன்படுத்துவதாகும்."
 
 #: ../../contribute/code.rst:196
 msgid "We ask for changes"
-msgstr ""
+msgstr "நாங்கள் மாற்றங்களைக் கேட்கிறோம்"
 
 #: ../../contribute/code.rst:198
 msgid ""
@@ -5250,10 +5779,16 @@ msgid ""
 "is perfect. Finding and fixing these potential issues leads to a faster and "
 "more stable Ubuntu Touch. It is not an insult to your skills as a developer."
 msgstr ""
+"உங்கள் குறியீட்டைப் பார்க்கும் மற்றொரு நபர் நீங்கள் தவறவிட்ட சிக்கல்களைக் காணலாம். அந்த சிக்கல்கள் "
+"திறமையின்மைகள், பாணி சிக்கல்கள் அல்லது புதிய பிழைகள் என்றாலும், அவை உங்களை விட உங்கள் "
+"விமர்சகர்களால் காணப்படுவதற்கான வாய்ப்புகள் அதிகம். உங்கள் விமர்சகரிடமிருந்து கோரப்பட்ட "
+"மாற்றங்களின் புத்தகத்தை நீங்கள் பெற்றால் கவலைப்பட வேண்டாம். யாரும் சரியானவர்கள் அல்ல. இந்த "
+"சாத்தியமான சிக்கல்களைக் கண்டறிந்து சரிசெய்வது வேகமான மற்றும் நிலையான உபுண்டு தொடுதலுக்கு"
+" வழிவகுக்கிறது. இது ஒரு டெவலப்பராக உங்கள் திறமைகளுக்கு அவமானம் அல்ல."
 
 #: ../../contribute/code.rst:201
 msgid "We may ask for massive changes"
-msgstr ""
+msgstr "பாரிய மாற்றங்களை நாங்கள் கேட்கலாம்"
 
 #: ../../contribute/code.rst:203
 msgid ""
@@ -5264,10 +5799,16 @@ msgid ""
 "the reason, your reviewer points out the potential problems with your change "
 "and constructively suggests a new direction for you to take."
 msgstr ""
+"சில நேரங்களில் விமர்சகர்கள் ஒரு மாற்றத்தைப் பார்த்து, கூறுகளில் மிகவும் ஆழமான சிக்கல் "
+"இருப்பதை உணர்கிறார்கள். சில நேரங்களில் நீங்கள் தவறான அனுமானங்களை மனதில் கொண்டு ஒரு அம்சத்தை"
+" உருவாக்கத் தொடங்குகிறீர்கள், மேலும் ஆரவாரமான குறியீட்டின் மிகச்சிறந்த குழப்பத்துடன் "
+"முடிவடையும். எந்த வழியிலும்: இது இலக்குக்கான சரியான பாதை அல்ல. காரணம் எதுவாக "
+"இருந்தாலும், உங்கள் மாற்றத்தின் சாத்தியமான சிக்கல்களை உங்கள் விமர்சகர் சுட்டிக்காட்டுகிறார், "
+"மேலும் நீங்கள் எடுக்க ஒரு புதிய திசையை ஆக்கபூர்வமாக அறிவுறுத்துகிறார்."
 
 #: ../../contribute/code.rst:206
 msgid "You can tell us that we are wrong"
-msgstr ""
+msgstr "நாங்கள் தவறு செய்கிறோம் என்று நீங்கள் சொல்லலாம்"
 
 #: ../../contribute/code.rst:208
 msgid ""
@@ -5277,10 +5818,15 @@ msgid ""
 "wrong for any reason, let us know. Reviewers try to work with you to reach a "
 "solution that's best for our users."
 msgstr ""
+"ஒரு அடிப்படை பிழை எளிதில் சரிசெய்ய முடியாது அல்லது நீங்கள் எடுத்த பாதை சிறந்தது என்று "
+"நீங்கள் உறுதியாக நம்பலாம். கேட்டபடி சரியாக ஒரு பிழைத்திருத்தத்தைச் செய்ய உங்களுக்கு போதுமா"
+"ன நேரம் இருக்காது. எந்தவொரு காரணத்திற்காகவும் உங்கள் மாற்றத்தை நாங்கள் நிராகரிப்பது தவறு "
+"என்று நீங்கள் நினைத்தால், எங்களுக்குத் தெரியப்படுத்துங்கள். எங்கள் பயனர்களுக்கு சிறந்த தீர்வை அடை"
+"ய விமர்சகர்கள் உங்களுடன் பணியாற்ற முயற்சிக்கிறார்கள்."
 
 #: ../../contribute/code.rst:211
 msgid "Merge and maintenance"
-msgstr ""
+msgstr "ஒன்றிணைத்தல் மற்றும் பராமரிப்பு"
 
 #: ../../contribute/code.rst:213
 msgid ""
@@ -5289,6 +5835,9 @@ msgid ""
 "contributing to a beautiful community. However, this is not the end of the "
 "work."
 msgstr ""
+"உங்கள் மாற்றங்கள் எங்கள் எல்லா தேவைகளையும் நிறைவு செய்வதை உறுதிசெய்த பிறகு, அது உபுண்டு "
+"தொடுதலின் ஒரு பகுதியாக மாறும். நன்றி! நீங்கள் ஒரு அழகான சமூகத்திற்கு பங்களிக்கும் ஒரு "
+"சிறிய குழுவில் உறுப்பினராக உள்ளீர்கள். இருப்பினும், இது வேலையின் முடிவு அல்ல."
 
 #: ../../contribute/code.rst:215
 msgid ""
@@ -5298,6 +5847,11 @@ msgid ""
 "if we find that your change was the direct cause of a bug and we cannot "
 "contact you."
 msgstr ""
+"சில நேரங்களில் உங்கள் மாற்றங்கள் எங்கள் சிறந்த முயற்சிகள் இருந்தபோதிலும் உபுண்டு தொடு "
+"செயல்பாட்டின் ஒரு பகுதியை உடைக்கின்றன. பிரச்சினையின் மூலத்தை விசாரிக்க உதவவும், இது "
+"நடந்தால் ஒரு தீர்வைத் தயாரிக்கவும் நீங்கள் அழைக்கப்படலாம். உங்கள் மாற்றம் ஒரு பிழையின் நேரடி "
+"காரணம் என்பதை நாங்கள் கண்டறிந்தால் உங்கள் மாற்றத்தை மாற்றியமைக்கலாம், நாங்கள் உங்களைத் தொடர்பு "
+"கொள்ள முடியாது."
 
 #: ../../contribute/code.rst:217
 msgid ""
@@ -5305,6 +5859,9 @@ msgid ""
 "they want to work with. We would be grateful if you helped teach them what "
 "you learned during this process."
 msgstr ""
+"புதிய பங்களிப்பாளர்கள் நீங்கள் அண்மைக் காலத்தில் வேலை செய்ய விரும்பும் ஒரு கூறுகளில் "
+"பணிபுரிந்ததை கவனிக்கலாம். இந்தச் செயல்பாட்டின் போது நீங்கள் கற்றுக்கொண்டதை அவர்களுக்குக் கற்பிக்"
+"க உதவியிருந்தால் நாங்கள் நன்றியுள்ளவர்களாக இருப்போம்."
 
 #: ../../contribute/code.rst:219
 msgid ""
@@ -5312,11 +5869,13 @@ msgid ""
 "you've made. The Ubuntu Touch community is incredibly supportive and "
 "thankful. It would be a shame for you to miss your share of the good vibes."
 msgstr ""
+"வேறொன்றுமில்லை என்றால், நீங்கள் செய்த மாற்றத்திற்கு நன்றி தெரிவிக்கும் நபர்களுக்காக ஒட்டிக்கொள்"
+"க. உபுண்டு டச் சமூகம் நம்பமுடியாத அளவிற்கு ஆதரவாகவும் நன்றியுடனும் உள்ளது. நல்ல "
+"அதிர்வுகளின் உங்கள் பங்கை நீங்கள் இழப்பது வெட்கமாக இருக்கும்."
 
 #: ../../contribute/documentation.rst:2
-#, fuzzy
 msgid "Documentation"
-msgstr "ஆவணம் பற்றி"
+msgstr "ஆவணப்படுத்துதல்"
 
 #: ../../contribute/documentation.rst:5
 msgid ""
@@ -5324,38 +5883,48 @@ msgid ""
 "Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/rest."
 "html>`_ if you are not familiar with RST."
 msgstr ""
+"இந்த தளத்தின் ஆவணங்கள் மறுசீரமைப்பு அல்லது சுருக்கமாக RST இல் எழுதப்பட்டுள்ளன. உங்களுக்கு "
+"rst உடன் தெரிந்திருக்கவில்லை என்றால் `rst ப்ரைமர் <http://www.sphinx-doc.org/en/"
+"stable/rest.html> _ _ _ ஐ சரிபார்க்கவும்."
 
 #: ../../contribute/documentation.rst:7
 msgid ""
 "This page will guide you through writing great documentation for the UBports "
 "project that can be featured on this site."
 msgstr ""
+"இந்த தளத்தில் இடம்பெறக்கூடிய யுபோர்ட்ச் திட்டத்திற்கான சிறந்த ஆவணங்களை எழுதுவதன் மூலம் இந்த "
+"பக்கம் உங்களுக்கு வழிகாட்டும்."
 
 #: ../../contribute/documentation.rst:10
 msgid "Documentation guidelines"
-msgstr ""
+msgstr "ஆவணப்படுத்தல் வழிகாட்டுதல்கள்"
 
 #: ../../contribute/documentation.rst:12
 msgid ""
 "These rules govern how you should write your documentation to avoid problems "
 "with style, format, or linking."
 msgstr ""
+"இந்த விதிகள் பாணி, வடிவம் அல்லது இணைப்புடன் சிக்கல்களைத் தவிர்க்க உங்கள் ஆவணங்களை எவ்வாறு "
+"எழுத வேண்டும் என்பதை நிர்வகிக்கின்றன."
 
 #: ../../contribute/documentation.rst:15
 msgid "Title"
-msgstr ""
+msgstr "தலைப்பு"
 
 #: ../../contribute/documentation.rst:17
 msgid ""
 "All pages must have a document title that will be shown in the table of "
 "contents (left sidebar) and at the top of the page."
 msgstr ""
+"எல்லா பக்கங்களிலும் ஒரு ஆவண தலைப்பு இருக்க வேண்டும், அவை உள்ளடக்க அட்டவணையில் (இடது "
+"பக்கப்பட்டி) மற்றும் பக்கத்தின் மேலே காட்டப்படும்."
 
 #: ../../contribute/documentation.rst:19
 msgid ""
 "Titles should be \"sentence cased\" rather than \"Title Cased\". For "
 "example::"
 msgstr ""
+"தலைப்புகள் \"தலைப்பு காச்\" ஐ விட \"வாக்கிய மறைப்பு\" ஆக இருக்க வேண்டும். உதாரணமாக ::"
 
 #: ../../contribute/documentation.rst:28
 msgid ""
@@ -5363,54 +5932,60 @@ msgid ""
 "sentence casing is easy. This helps keep capitalization in the table of "
 "contents consistent."
 msgstr ""
+"எல்லோரும் பின்பற்றும் தலைப்பு உறை ஒரு வரையறை இல்லை, ஆனால் வாக்கிய உறை எளிதானது. இது "
+"மூலதனமயமாக்கலை உள்ளடக்க அட்டவணையில் சீராக வைத்திருக்க உதவுகிறது."
 
 #: ../../contribute/documentation.rst:30
 msgid ""
 "Page titles are underlined with equals signs. For example, the markup for :"
 "doc:`./bugreporting` includes the following title:"
 msgstr ""
+"பக்க தலைப்புகள் சம அறிகுறிகளுடன் அடிக்கோடிட்டுக் காட்டப்பட்டுள்ளன. எடுத்துக்காட்டாக, இதற்கா"
+"ன மார்க்அப்: டாக்: `./bug அறிக்கையிடல்` பின்வரும் தலைப்பை உள்ளடக்கியது:"
 
 #: ../../contribute/documentation.rst:37
 msgid "Note that:"
-msgstr ""
+msgstr "அதை கவனியுங்கள்:"
 
 #: ../../contribute/documentation.rst:39
 msgid "The title is sentence cased"
-msgstr ""
+msgstr "தலைப்பு தண்டனை வழக்கு"
 
 #: ../../contribute/documentation.rst:40
 msgid "The title is underlined with equals signs"
-msgstr ""
+msgstr "தலைப்பு சமமான அறிகுறிகளுடன் அடிக்கோடிட்டுக் காட்டப்பட்டுள்ளது"
 
 #: ../../contribute/documentation.rst:41
 msgid "The underline spans the title completely without going over"
-msgstr ""
+msgstr "அடிக்கோடிட்டது தலைப்பை முழுவதுமாகச் செல்லாமல் பரவுகிறது"
 
 #: ../../contribute/documentation.rst:43
 msgid "Incorrect examples of titles include:"
-msgstr ""
+msgstr "தலைப்புகளின் தவறான எடுத்துக்காட்டுகள் பின்வருமாறு:"
 
 #: ../../contribute/documentation.rst:45
 msgid "Incorrect casing"
-msgstr ""
+msgstr "தவறான உறை"
 
 #: ../../contribute/documentation.rst:52
 msgid "Underline too short"
-msgstr ""
+msgstr "மிகக் குறுகியதாக அடிக்கோடிட்டுக் காட்டுங்கள்"
 
 #: ../../contribute/documentation.rst:59
 msgid "Underline too long"
-msgstr ""
+msgstr "நீண்ட நேரம் அடிக்கோடிட்டுக் காட்டுங்கள்"
 
 #: ../../contribute/documentation.rst:68
 msgid "Headings"
-msgstr ""
+msgstr "தலைப்புகள்"
 
 #: ../../contribute/documentation.rst:70
 msgid ""
 "There are several levels of headings that you may place on your page. These "
 "levels are shown here in order:"
 msgstr ""
+"உங்கள் பக்கத்தில் நீங்கள் வைக்கக்கூடிய பல நிலைகள் உள்ளன. இந்த நிலைகள் இங்கே வரிசையில் "
+"காட்டப்பட்டுள்ளன:"
 
 #: ../../contribute/documentation.rst:86
 msgid ""
@@ -5422,16 +5997,25 @@ msgid ""
 "must use this many heading levels, it is a good sign that your document "
 "should be split up into multiple pages."
 msgstr ""
+"ஒவ்வொரு தலைப்பு மட்டமும் ஆவணங்கள் கட்டப்படும்போது கிடைக்கும் உலகளாவிய உள்ளடக்க மரத்தில் ஒரு "
+"துணைப்பிரிவை உருவாக்குகிறது. ஆவணத்தின் முதன்மை (வலை) பதிப்பில், இது ஆவணத்தின் உயர் "
+"மட்டத்திலிருந்து நான்கு நிலைகளை மட்டுமே காட்டுகிறது. இந்த மரத்தில் காண்பிப்பதை விட அதிக "
+"தலைப்பு நிலைகளைப் பயன்படுத்துவதைத் தவிர்க்கவும், ஏனெனில் இது உங்கள் ஆவணத்தை வழிநடத்துவது "
+"கடினமானது. இந்த பல தலைப்பு நிலைகளை நீங்கள் பயன்படுத்த வேண்டும் என்றால், உங்கள் ஆவணம் பல "
+"பக்கங்களாகப் பிரிக்கப்பட வேண்டும் என்பதற்கான நல்ல அறிகுறியாகும்."
 
 #: ../../contribute/documentation.rst:89
 msgid "Table of contents"
-msgstr ""
+msgstr "உள்ளடக்க அட்டவணை"
 
 #: ../../contribute/documentation.rst:91
 msgid ""
 "People can't navigate to your new page if they can't find it. Neither can "
 "Sphinx. That's why you need to add new pages to Sphinx's table of contents."
 msgstr ""
+"உங்கள் புதிய பக்கத்தை கண்டுபிடிக்க முடியாவிட்டால், உங்கள் புதிய பக்கத்திற்கு செல்ல முடியாது"
+". இரண்டையும் சூரரிமாச்சிலை செய்ய முடியாது. அதனால்தான் நீங்கள் ச்பின்க்சின் உள்ளடக்க "
+"அட்டவணையில் புதிய பக்கங்களைச் சேர்க்க வேண்டும்."
 
 #: ../../contribute/documentation.rst:93
 msgid ""
@@ -5440,6 +6024,9 @@ msgid ""
 "\"newpage.rst\", you would add the line marked with a chevron (>) in the "
 "nearest index:"
 msgstr ""
+"நீங்கள் உருவாக்கிய அதே கோப்பகத்தில் `` index.rst`` கோப்பில் பக்கத்தை சேர்ப்பதன் மூலம் இதைச் "
+"செய்யலாம். எடுத்துக்காட்டாக, நீங்கள் \"newPage.rst\" என்ற கோப்பை உருவாக்கினால், நீங்கள் ஒரு "
+"செவ்ரான் (>) உடன் குறிக்கப்பட்ட வரியை அருகிலுள்ள குறியீட்டில் சேர்ப்பீர்கள்:"
 
 #: ../../contribute/documentation.rst:105
 msgid ""
@@ -5447,10 +6034,13 @@ msgid ""
 "in the table of contents, place it there. In the previous example, newpage "
 "would be added to the end of this table of contents."
 msgstr ""
+"ஆர்டர் முக்கியமானது. உள்ளடக்க அட்டவணையில் ஒரு குறிப்பிட்ட இடத்தில் உங்கள் பக்கம் தோன்ற "
+"விரும்பினால், அதை அங்கே வைக்கவும். முந்தைய எடுத்துக்காட்டில், இந்த உள்ளடக்க அட்டவணையின் "
+"முடிவில் நியூபேச் சேர்க்கப்படும்."
 
 #: ../../contribute/documentation.rst:108
 msgid "Moving pages"
-msgstr ""
+msgstr "நகரும் பக்கங்கள்"
 
 #: ../../contribute/documentation.rst:110
 msgid ""
@@ -5459,6 +6049,10 @@ msgid ""
 "example, it makes more sense for the page to come after a page you've just "
 "added in a different section."
 msgstr ""
+"சில நேரங்களில் ஒரு பக்கத்திலிருந்து ஒரு இடத்திலிருந்து ஆவணத்தில் இன்னொரு இடத்திற்கு "
+"நகர்த்துவது அவசியமாகிறது. பொதுவாக இது ஆவண ஓட்டத்தை மேம்படுத்துவதாகும்: எடுத்துக்காட்டா"
+"க, நீங்கள் வேறு பிரிவில் சேர்த்த ஒரு பக்கத்திற்குப் பிறகு பக்கம் வருவது கூடுதல் அர்த்தமுள்ளதா"
+"க இருக்கிறது."
 
 #: ../../contribute/documentation.rst:112
 msgid ""
@@ -5468,6 +6062,11 @@ msgid ""
 "follow a link from a different site and land on a 404 page, left to your own "
 "devices to find your way in restructured documentation."
 msgstr ""
+"எவ்வாறாயினும், நாங்கள் கட்டுப்படுத்தாத பல ஆதாரங்களிலிருந்து மக்கள் எங்கள் ஆவணங்களுடன் "
+"இணைகிறார்கள். வலைப்பதிவுகள், வலைத்தளங்கள் மற்றும் பிற ஆவணப்படுத்தல் தளங்கள் அவர்கள் ஒருபோதும் "
+"புதுப்பிக்காத இணைப்புகளைப் பயன்படுத்தி இங்கே மக்களை வழிநடத்தலாம். மறுசீரமைக்கப்பட்ட "
+"ஆவணங்களில் உங்கள் வழியைக் கண்டறிய உங்கள் சொந்த சாதனங்களுக்கு எஞ்சியிருக்கும் 404 பக்கத்தில் "
+"வேறு தளத்திலிருந்து ஒரு இணைப்பைப் பின்பற்றுவது ஒரு பயங்கரமான பட்டறிவு."
 
 #: ../../contribute/documentation.rst:114
 msgid ""
@@ -5480,6 +6079,12 @@ msgid ""
 "`redirects.txt file <https://github.com/ubports/docs.ubports.com/blob/master/"
 "redirects.txt>`_."
 msgstr ""
+"இந்த மோசமான அனுபவத்தைத் தவிர்க்க ரெடிராஃப் என்ற கருவியைப் பயன்படுத்துகிறோம். ரெடிராஃப் "
+"திருப்பி பக்கங்களை உருவாக்குகிறது, இது பழைய, தவறான இணைப்பிலிருந்து ஒரு பயனரை புதி"
+"ய, பயனுள்ள இணைப்பிற்கு அனுப்ப முடியும். ஒரு பக்கத்தின் பெயரை மாற்றும்போது அல்லது ஆவணத்தின்"
+" அடைவு கட்டமைப்பிற்குள் ஒரு பக்கத்தை நகர்த்தும்போது வழிமாற்ற இணைப்பை உருவாக்கவும். `"
+"Rentirects.txt கோப்பில் <https://github.com/ubports/docs.ubports.com/blob/"
+"master/redirects.txt>` _ `_ _ _ _ _ _ _ _ _ _ _ _."
 
 #: ../../contribute/documentation.rst:116
 msgid ""
@@ -5488,18 +6093,25 @@ msgid ""
 "run as part of the ``build.sh`` script in the repository and as part of our "
 "automated build once you submit a Pull Request."
 msgstr ""
+"ரெடிராஃப்பின் `` செக் டிஃப்`` பில்டரைப் பயன்படுத்துகிறோம், பக்கங்கள் திருப்பி விடப்படாமல் "
+"ஆவணங்களிலிருந்து நீக்கப்படவில்லை என்பதை உறுதிப்படுத்த. இந்த பில்டர் களஞ்சியத்தில் `` "
+"பில்ட்.சே`` ச்கிரிப்டின் ஒரு பகுதியாக இயக்கப்படுகிறது, மேலும் நீங்கள் ஒரு இழுப்பு "
+"கோரிக்கையை சமர்ப்பித்தவுடன் எங்கள் தானியங்கி கட்டமைப்பின் ஒரு பகுதியாக இயக்கப்படுகிறது."
 
 #: ../../contribute/documentation.rst:118
 msgid ""
 "What follows are some examples of situations where you should create "
 "redirects."
 msgstr ""
+"பின்வருபவை நீங்கள் வழிமாற்றுகளை உருவாக்க வேண்டிய சூழ்நிலைகளின் சில எடுத்துக்காட்டுகள்."
 
 #: ../../contribute/documentation.rst:120
 msgid ""
 "You are moving ``systemdev/calendars.rst`` to ``appdev/calendars.rst``. Add "
 "the following to the ``redirects.txt`` file::"
 msgstr ""
+"நீங்கள் `` systemdev/calendars.rst`` `` appdev/calendars.rst`` க்கு நகர்த்துகிறீர்கள்"
+". பின்வருவனவற்றை `` Rentirect.txt`` கோப்பில் சேர்க்கவும்"
 
 #: ../../contribute/documentation.rst:124
 msgid ""
@@ -5510,10 +6122,15 @@ msgid ""
 "redirect the old page to the new introduction page. This can be done by "
 "adding the following to ``redirects.txt``::"
 msgstr ""
+"முன்பு இருந்ததை விட கருவியைப் பற்றி கணிசமாக கூடுதல் தகவல்களை வழங்க `` appdev/"
+"clickable/`` இல் `` appdev/clickable.rst`` ஐ பல பக்கங்களுக்கு நகர்த்துகிறீர்கள். நீங்கள் "
+"ஒரு அறிமுக பக்கத்தை உருவாக்கியுள்ளீர்கள், `` appdev/கிளிக் செய்யக்கூடிய/அறிமுகம். இந்த "
+"விசயத்தில், பழைய பக்கத்தை புதிய அறிமுகம் பக்கத்திற்கு திருப்பிவிடுவது நல்ல யோசனையாக "
+"இருக்கும். பின்வருவனவற்றை `` Reniders.txt`` :: இல் சேர்ப்பதன் மூலம் இதைச் செய்யலாம்"
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
-msgstr ""
+msgstr "எச்சரிக்கைகள்"
 
 #: ../../contribute/documentation.rst:131
 msgid ""
