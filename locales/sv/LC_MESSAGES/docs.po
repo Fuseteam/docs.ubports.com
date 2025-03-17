@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-02-26 15:27+0000\n"
+"PO-Revision-Date: 2025-03-17 20:28+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.2-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -2038,7 +2038,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "emblem-counter"
-msgstr ""
+msgstr "emblem-räknare"
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "Emblem-counter"
@@ -2138,7 +2138,7 @@ msgstr "tidsstämpel"
 #: ../../appdev/guides/pushnotifications.rst:266
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "integer"
-msgstr ""
+msgstr "heltal"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Seconds since the unix epoch, only used for persist for now."
@@ -4062,7 +4062,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:18
 msgid "changeset"
-msgstr ""
+msgstr "ändringsuppsättning"
 
 #: ../../contribute/code.rst:19
 msgid "A GitHub Pull Request (PR) or GitLab Merge Request (MR)."
@@ -5929,7 +5929,7 @@ msgstr ""
 
 #: ../../humanguide/app-layout/main-actions.rst:67
 msgid "Simple"
-msgstr ""
+msgstr "Enkel"
 
 #: ../../humanguide/app-layout/main-actions.rst:69
 msgid "Keep in mind to keep a clean design. The simpler, the better."
@@ -6147,7 +6147,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:55
 msgid "Composition"
-msgstr ""
+msgstr "Sammansättning"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:57
 msgid ""
@@ -6206,7 +6206,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:89
 msgid "Shadows"
-msgstr ""
+msgstr "Skuggor"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:91
 msgid ""
@@ -6291,23 +6291,23 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:82
 msgid "stock_message.svg"
-msgstr ""
+msgstr "stock_message.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:83
 msgid "share.svg"
-msgstr ""
+msgstr "share.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:84
 msgid "stock_alarm-clock.svg"
-msgstr ""
+msgstr "stock_alarm-clock.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:85
 msgid "security-alert.svg"
-msgstr ""
+msgstr "security-alert.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:86
 msgid "settings.svg"
-msgstr ""
+msgstr "settings.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:12
 msgid ""
@@ -6317,7 +6317,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:15
 msgid "Color"
-msgstr ""
+msgstr "Färg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:17
 msgid ""
@@ -6327,7 +6327,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:20
 msgid "Font"
-msgstr ""
+msgstr "Typsnitt"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:22
 msgid ""
@@ -6348,7 +6348,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:38
 msgid "Rotation"
-msgstr ""
+msgstr "Rotation"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:40
 msgid ""
@@ -6358,7 +6358,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:47
 msgid "Corners"
-msgstr ""
+msgstr "Hörnor"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:49
 msgid ""
@@ -6369,7 +6369,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:56
 msgid "Arrows"
-msgstr ""
+msgstr "Pilar"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:58
 msgid ""
@@ -6380,7 +6380,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:65
 msgid "Opacity"
-msgstr ""
+msgstr "Genomskinlighet"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:67
 msgid ""
@@ -6392,7 +6392,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:74
 msgid "Grid"
-msgstr ""
+msgstr "Rutnät"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:76
 msgid ""
