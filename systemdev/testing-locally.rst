@@ -121,7 +121,7 @@ Building some of the Ubuntu Touch modules require packages from the UBports pack
 
 In that case UBports package repository needs to be added on the host machine. First initialize the ``chroot_repo`` and ``chroot_distro`` variables as show in the `Native build`_ section and then add the repository by using::
 
-    wget 'http://repo.ubports.com/keyring.gpg' -O - | sudo tee /usr/share/keyrings/ubports-keyring.gpg" >/dev/null
+    wget 'http://repo.ubports.com/keyring.gpg' -O - | sudo tee "/usr/share/keyrings/ubports-keyring.gpg" >/dev/null
     printf 'deb [signed-by=/usr/share/keyrings/ubports-keyring.gpg] %s %s main\n' "${chroot_repo}" "${chroot_distro}" | sudo tee "/etc/apt/sources.list.d/ubports.list" >/dev/null
         
 Install the needed packages using::
