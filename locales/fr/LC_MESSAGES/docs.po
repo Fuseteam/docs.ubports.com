@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-03-11 03:29+0000\n"
+"PO-Revision-Date: 2025-04-01 20:56+0000\n"
 "Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -61,7 +61,9 @@ msgstr ""
 "développement d'Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/"
 "growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/> »_ en "
 "avril 2017, UBports et ses projets frères ont commencé à travailler sur le "
-"code open source, en le maintenant et en étendant ses possibilités futures."
+"code source, en le maintenant et en étendant ses possibilités futures. "
+"Aujourd'hui, UBports est un groupe de bénévoles, formalisé sous la forme "
+"d'une fondation caritative."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
@@ -525,12 +527,11 @@ msgstr ""
 "telle que décrite."
 
 #: ../../about/process/issue-tracking.rst:44
-#, fuzzy
 msgid ""
 "**In Development**: A patch in development. Usually means a developer is "
 "assigned to the issue."
 msgstr ""
-"**In Development** (En développement) : un correctif est en développement. "
+"**In Development** (En développement) : un correctif est en développement. "
 "Cela signifie généralement qu'un développeur est assigné à ce problème."
 
 #: ../../about/process/issue-tracking.rst:46
@@ -546,18 +547,17 @@ msgstr ""
 "Accepted » (Accepté)."
 
 #: ../../about/process/issue-tracking.rst:48
-#, fuzzy
 msgid ""
 "**Release Candidate**: A patch passing QA, ready for release. In case of DEB "
 "packages included in the system-image, the patch will be included in the "
 "next over-the-air update on the `rc` channel, and (provided  everything   "
 "goes well) in the next release of the `stable` channel."
 msgstr ""
-"**Release Candidate** (Version admissible) : le correctif a passé "
+"**Release Candidate** (Version admissible) : le correctif a passé "
 "l'assurance qualité et il est prêt pour la publication. Dans le cas de "
 "paquets deb inclus dans l'image système, le correctif sera intégré dans la "
-"mise à jour suivante du canal rc, et, si tout se passe bien, dans la version "
-"suivante du canal stable."
+"mise à jour suivante du canal `rc, et, (si tout se passe bien), dans la "
+"version suivante du canal stable."
 
 #: ../../about/process/issue-tracking.rst:50
 #, fuzzy
@@ -1276,6 +1276,8 @@ msgstr ""
 msgid ""
 "Firstly there are the QML and HTML APIs that you can use for the front end:"
 msgstr ""
+"Il y a tout d'abord les API QML et HTML que vous pouvez utiliser pour la "
+"partie frontale :"
 
 #: ../../appdev/external-docs.rst:8
 msgid "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
@@ -1301,6 +1303,8 @@ msgid ""
 "Secondly, the platform documentation describes how to integrate your app "
 "into the system:"
 msgstr ""
+"Deuxièmement, la documentation de la plateforme décrit comment intégrer "
+"votre application dans le système :"
 
 #: ../../appdev/external-docs.rst:19
 #, fuzzy
@@ -2081,6 +2085,9 @@ msgid ""
 "From command line, ``lomiri-url-dispatcher-dump`` command will give you the "
 "full list of registered protocol schemes and their corresponding app."
 msgstr ""
+"En ligne de commande, la commande ``lomiri-url-dispatcher-dump`` vous "
+"donnera la liste complète des protocoles enregistrés et leur application "
+"correspondante."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:150
 msgid ""
@@ -2089,12 +2096,19 @@ msgid ""
 "app. e.g: ``lomiri-url-dispatcher https://youtu.be/CIX-a-i6B1w`` will launch "
 "youtube webapp."
 msgstr ""
+"Un autre outil utile, mais qui n'est pas installé par défaut sur les "
+"appareils, est ``lomiri-url-dispatcher-tools``, il vous permet de simuler un "
+"appel depuis une application tierce. ex : ``lomiri-url-dispatcher https://"
+"youtu.be/CIX-a-i6B1w`` lancera l'application web de youtube."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:152
 msgid ""
 "To install, it make your partition writable (``sudo mount -o rw,remount /``) "
 "and install it via ``sudo apt install lomiri-url-dispatcher-tools``"
 msgstr ""
+"Pour l'installer, il faut rendre votre partition accessible en écriture (``"
+"sudo mount -o rw,remount /``) et l'installer via ``sudo apt install lomiri-"
+"url-dispatcher-tools``"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:157
 msgid "What happens if more than one app has the same URL type defined?"
@@ -2131,12 +2145,16 @@ msgstr "Guides du développeur"
 msgid ""
 "To get started with your first app check out the following developer guides:"
 msgstr ""
+"Pour commencer à créer votre première application, consultez les guides du "
+"développeur suivants :"
 
 #: ../../appdev/guides/index.rst:8
 msgid ""
 "`Qt programming course by mimecar for Ubuntu Touch <https://docs.innerzaurus."
 "com>`__"
 msgstr ""
+"`Cours de programmation Qt par mimecar pour Ubuntu Touch "
+"<https://docs.innerzaurus.com>`__"
 
 #: ../../appdev/guides/index.rst:9
 msgid ""
@@ -2151,12 +2169,16 @@ msgid ""
 "`Python examples by pavelprosto <https://forums.ubports.com/topic/5525/"
 "python-examples>`__"
 msgstr ""
+"`Exemples en Python par pavelprosto <https://forums.ubports.com/topic/5525/"
+"python-examples>`__"
 
 #: ../../appdev/guides/index.rst:11
 msgid ""
 "`QML templates by Joan CiberSheep <https://gitlab.com/cibersheep/qml-"
 "templates-for-ubuntutouch>`__."
 msgstr ""
+"`Modèles QML par Joan CiberSheep <https://gitlab.com/cibersheep/qml-"
+"templates-for-ubuntutouch>`__."
 
 #: ../../appdev/guides/index.rst:12
 #, fuzzy
@@ -2286,7 +2308,7 @@ msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:2
 msgid "Porting Apps to Focal"
-msgstr ""
+msgstr "Porter des Applications sur Focal"
 
 #: ../../appdev/guides/port-to-focal.rst:4
 msgid ""
@@ -2294,10 +2316,14 @@ msgid ""
 "order to ensure that the app will continue working, it is recommended to "
 "update your app to Focal."
 msgstr ""
+"Lors du passage à Focal, certains changements ont été apportés à "
+"l'environnement de l'application. Afin de s'assurer que l'application "
+"continuera à fonctionner, il est recommandé de mettre à jour votre "
+"application vers Focal."
 
 #: ../../appdev/guides/port-to-focal.rst:7
 msgid "QML"
-msgstr ""
+msgstr "QML"
 
 #: ../../appdev/guides/port-to-focal.rst:9
 msgid ""
@@ -2305,6 +2331,10 @@ msgid ""
 "were removed from QML Imports, and most QML classes. While there is a "
 "compatability layer, it is recommended to move to the Lomiri Modules."
 msgstr ""
+"La plupart des changements devront être apportés aux fichiers QML. Les "
+"références à Ubuntu ont été supprimées des importations QML et de la plupart "
+"des classes QML. Bien qu'il existe une couche de compatibilité, il est "
+"recommandé de passer aux modules Lomiri."
 
 #: ../../appdev/guides/port-to-focal.rst:17
 msgid ""
@@ -2312,6 +2342,9 @@ msgid ""
 "`UbuntuColors` being renamed `LomiriColors`. These must also be updated. "
 "This can be somewhat automated:"
 msgstr ""
+"D'autres références à Ubuntu ont également été changées en Lomiri, comme "
+"`UbuntuColors` renommé `LomiriColors`. Celles-ci doivent également être "
+"mises à jour. Cela peut être quelque peu automatisé :"
 
 #: ../../appdev/guides/port-to-focal.rst:29
 #, fuzzy
@@ -2320,7 +2353,7 @@ msgstr "Configuration du son"
 
 #: ../../appdev/guides/port-to-focal.rst:32
 msgid "clickable.yaml"
-msgstr ""
+msgstr "clickable.yaml"
 
 #: ../../appdev/guides/port-to-focal.rst:33
 msgid ""
@@ -2328,6 +2361,9 @@ msgid ""
 "file, it is recommended to first convert the JSON file to a YAML file. "
 "Afterwards, add the following:"
 msgstr ""
+"Si votre projet a un fichier `clickable.json` au lieu d'un fichier "
+"`clickable.yaml`, il est recommandé de convertir d'abord le fichier JSON en "
+"un fichier YAML. Ensuite, ajoutez ce qui suit :"
 
 #: ../../appdev/guides/port-to-focal.rst:42
 #, fuzzy
@@ -2336,7 +2372,7 @@ msgstr "Le fichier de règles du profil d'AppArmor"
 
 #: ../../appdev/guides/port-to-focal.rst:43
 msgid "Update the policy version in the AppArmor file:"
-msgstr ""
+msgstr "Mettez à jour la version de la politique dans le fichier AppArmor :"
 
 #: ../../appdev/guides/port-to-focal.rst:57
 #, fuzzy
@@ -2345,7 +2381,7 @@ msgstr "Le fichier ``.desktop``"
 
 #: ../../appdev/guides/port-to-focal.rst:59
 msgid "Change `X-Ubuntu-Touch` to `X-Lomiri-Touch`:"
-msgstr ""
+msgstr "Remplacez `X-Ubuntu-Touch` par `X-Lomiri-Touch` :"
 
 #: ../../appdev/guides/port-to-focal.rst:73
 #, fuzzy
@@ -2354,21 +2390,23 @@ msgstr "Construction"
 
 #: ../../appdev/guides/port-to-focal.rst:76
 msgid "CMakeLists.txt"
-msgstr ""
+msgstr "CMakeLists.txt"
 
 #: ../../appdev/guides/port-to-focal.rst:77
 msgid ""
 "If the app is based on one of the App Templates, update the default Click "
 "Framework in the CMake file:"
 msgstr ""
+"Si l'application est basée sur l'un des App Templates, mettez à jour le "
+"Click Framework par défaut dans le fichier CMake :"
 
 #: ../../appdev/guides/port-to-focal.rst:91
 msgid ".gitlab-ci.yml"
-msgstr ""
+msgstr ".gitlab-ci.yml"
 
 #: ../../appdev/guides/port-to-focal.rst:92
 msgid "If you have a Gitlab CI file, you need to update it:"
-msgstr ""
+msgstr "Si vous avez un fichier CI Gitlab, vous devez le mettre à jour :"
 
 #: ../../appdev/guides/pushnotifications.rst:2
 #: ../../appdev/platform/index.rst:11
@@ -3336,6 +3374,11 @@ msgid ""
 "is commonly done to recover some space on the device. Don't store user "
 "account info here :)"
 msgstr ""
+"Les données contenues dans le répertoire cache doivent être considérées "
+"comme temporaires et l'application doit continuer à fonctionner normalement "
+"si ce répertoire est effacé. L'effacement du cache est généralement effectué "
+"pour récupérer de l'espace sur l'appareil. Ne stockez pas d'informations sur "
+"le compte de l'utilisateur dans ce répertoire"
 
 #: ../../appdev/guides/writeable-dirs.rst:26
 msgid "App data"
@@ -3385,6 +3428,11 @@ msgid ""
 "functions too - if you need to do this, set it to the clickable application "
 "name as well, otherwise the paths won't work on the device."
 msgstr ""
+"La définition de `organizationName <https://doc.qt.io/qt-5/"
+"qcoreapplication.html#organizationName-prop>`_ modifiera également les "
+"chemins renvoyés par ces fonctions - si vous devez le faire, définissez "
+"également le nom de l'application cliquable, sinon les chemins ne "
+"fonctionneront pas sur l'appareil."
 
 #: ../../appdev/guides/writeable-dirs.rst:51
 msgid "Using Standard Paths in QML"
@@ -3407,6 +3455,10 @@ msgid ""
 "must be considered specially if the app is sharing location strings between "
 "QML and C++."
 msgstr ""
+"Notez que ``QStandardPaths`` retourne des chemins (``'/phablet/home/...'``), "
+"et que QML ``StandardPaths`` retourne des urls (``'file:///phablet/home/"
+"...'``). Ceci doit être pris en compte spécialement si l'application partage "
+"des chaînes de localisation entre QML et C++."
 
 #: ../../appdev/index.rst:2
 msgid "App development"
