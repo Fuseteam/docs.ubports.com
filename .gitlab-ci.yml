@@ -1,0 +1,18 @@
+default:
+  image: python:3.12
+
+build:
+  stage: build
+  script:
+    - python --version
+    - pip --version
+    - pip install --no-cache-dir --user --upgrade -r requirements.txt
+    - python -m sphinx -Wab html . _build/html
+    - git fetch origin master:master
+    - python3 -m sphinx -Wab rediraffecheckdiff . _build/html # check redirects against the master branch
+    - echo "Build succeeded, browse the artifact here:" "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/file/_build/html/index.html"
+  artifacts:
+    untracked: true
+    when: on_success
+    access: all
+    expire_in: 90 days
