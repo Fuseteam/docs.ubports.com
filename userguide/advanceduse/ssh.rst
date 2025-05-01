@@ -87,6 +87,25 @@ then add the following text::
     ListenStream=
     ListenStream=[customPort]
 
+Troubleshooting
+---------------
+
+If connecting fails with the message ::
+
+    kex_exchange_identification: read: Connection reset by peer
+
+check the log on the UBports device ::
+
+    journalctl | grep sshd
+
+If you see a message about missing hostkeys such as ::
+
+    sshd: no hostkeys available -- exiting.
+
+You need to generate host keys with the following command ::
+
+    sudo ssh-keygen -A
+
 References
 ----------
 
