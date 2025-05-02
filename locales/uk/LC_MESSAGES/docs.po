@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-03-04 00:32+0000\n"
+"PO-Revision-Date: 2025-05-03 12:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: ../../about/introduction.rst:2
 #: ../../porting/introduction/index.rst:2
@@ -28,74 +28,115 @@ msgstr "Передмова"
 #: ../../about/introduction.rst:4
 msgid "Our goal is to create a copylefted libre mobile operating system. One you can use, study, change and share; with all."
 msgstr ""
+"Наша мета — це створення мобільної ОС, не зв'язаної обмеженнями на права "
+"власності (copyleft). Таку, що можна вивчати, використовувати, змінювати та "
+"розповсюджувати; усім."
 
 #: ../../about/introduction.rst:7
 msgid "About UBports"
-msgstr ""
+msgstr "Про UBports"
 
 #: ../../about/introduction.rst:9
 msgid "The project was founded by Marius Gripsgard in 2015 and in its infancy a place where developers could share ideas and educate each other in hopes of bringing the Ubuntu Touch platform to more mobile devices."
 msgstr ""
+"Проєкт заснований Маріусом Ґріпсґардом (Marius Gripsgård) у 2015 році та у "
+"зародковому стані було місцем, де розробники могли ділитися ідеями та "
+"навчати один одного в надії принести платформу Ubuntu Touch на різні "
+"мобільні пристрої."
 
 #: ../../about/introduction.rst:11
 msgid "After Canonical suddenly announced `plans to terminate support for Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_ in April of 2017, UBports and its sister projects began work on the source code; maintaining and expanding its possibilities for the future. Today, UBports is a volunteer group, formalised as a charitable foundation."
 msgstr ""
+"Після несподіваного рішення Canonical про \"планове припинення підтримки "
+"Ubuntu touch <https://insights.ubuntu.com/2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-nd-convergence/>\" _ у "
+"квітні 2017 року, Ubports та його сестринські проєкти розпочали роботу над "
+"початковим кодом; з підтримкою та розширенням своїх можливостей для "
+"майбутнього. Сьогодні Ubports — це група волонерів, формалізована у "
+"благодійний фонд."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
-msgstr ""
+msgstr "Щодо документації"
 
 #: ../../about/introduction.rst:16
 msgid "Changes to the documentation are made by the UBports community. It is written in reStructuredText and converted into this readable form by `Sphinx <https://www.sphinx-doc.org/en/master/>`_, `recommonmark <http://recommonmark.readthedocs.io/en/latest/>`_, and `Read the Docs <https://readthedocs.io>`_. Start contributing by checking out the :doc:`Documentation contribution document </contribute/documentation>`."
 msgstr ""
+"Зміни у документації здійснюються спільнотою Ubports. Вони записуються у "
+"reStructuredText та конвертуються у таку читабельну форму з "
+"\"Sphinx <https://www.sphinx-doc.org/en/master/>\" _, "
+"\"recommonmark <http://recommonmark.readthedocs.io/en/latest/>\" _, та "
+"\"Read the Docs <https://readthedocs.io>\"_. Почати можна з перевірки :doc: "
+"\"Документа з підтримки документації </contribute/documentation>\"."
 
 #: ../../about/introduction.rst:18
 msgid "All documents are licensed Creative Commons Attribution ShareAlike 4.0 (`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give attribution to \"The UBports Community\"."
 msgstr ""
+"Усі документи під ліцензією The Creative Commons Attribution Sharealike 4.0 "
+"(`CC-BY-SA.0 <https://creativecommons.org/license/by-sa/4.0/>` _). Під час "
+"внесення змін, будь ласка, вказуйте автора \"Спільнота Ubports\"."
 
 #: ../../about/introduction.rst:21
 msgid "Attribution"
-msgstr ""
+msgstr "Джерела"
 
 #: ../../about/introduction.rst:23
 msgid "This documentation was heavily modeled after the `Godot Engine's Documentation <https://docs.godotengine.org/en/stable/>`_, by Juan Linietsky, Ariel Manzur and the Godot community."
 msgstr ""
+"Ця документація була ґрунтовно заснована на документації "
+"\"Godot Engine <http://docs.godotengine.org/en/stable/>\" _, створеної "
+"Хуаном Лінецкі, Аріель Манзур та спільнотою Godot (Juan Linietsky, Ariel "
+"Manzur and the Godot community)."
 
 #: ../../about/process/branch-naming.rst:2
 msgid "Branch-naming convention"
-msgstr ""
+msgstr "Конвенція назв для гілок/відокремлень"
 
 #: ../../about/process/branch-naming.rst:4
 msgid "Our branch-naming convention ensures software can be built by our CI and tested easily by other developers."
 msgstr ""
+"Наша конвенція забезпечує, щоби програмне забезпечення могло бути зібране "
+"нашим CI та його можна було легко протестувати іншими розробниками."
 
 #: ../../about/process/branch-naming.rst:6
 msgid "Every Git repository's README file should state which branch-naming convention is used and any deviations from the norm."
 msgstr ""
+"Файл README кожного репозиторію Git повинен містити інформацію про те, яка "
+"конвенція для гілок використовується та які є (будь-які) відхилення від "
+"норми."
 
 #: ../../about/process/branch-naming.rst:9
 msgid "Click-Packages"
-msgstr ""
+msgstr "Click-пакунки"
 
 #: ../../about/process/branch-naming.rst:11
 msgid "Software exclusively distributed as a click-package (and not also as a DEB) only uses one ``master`` branch that is protected. Separate temporary development branches with arbitrary descriptive names can be created and merged into master when the time comes. Ideally Git tags or GitHub releases should be used to mark and archive milestones in the development history."
 msgstr ""
+"Програмне забезпечення, яке розповсюджене виключно як click-пакунки (а не як "
+"DEB) використовує лише одну захищену гілку `` master``. Окремі тимчасові "
+"відгалуження для розробки з довільними іменами також можна створювати та, "
+"коли настане час, об'єднувати їх у master. Ідеально було б для позначення та "
+"архівних етапів в історії розвитку використовувати теги Git або релізи "
+"GitHub."
 
 #: ../../about/process/branch-naming.rst:14
 msgid "DEB Packages"
-msgstr ""
+msgstr "Пакунки DEB"
 
 #: ../../about/process/branch-naming.rst:16
 msgid "To help us deliver our code into Ubuntu Touch as effortlessly as possible, our CI automatically build our Git repositories into a number of APT archives hosted at http://repo.ubports.com/, according to the branch name."
 msgstr ""
+"Щоб допомогти нам доставити наш код до Ubuntu Touch максимально без зусиль, "
+"наш CI автоматично, відповідно до назв гілок, вбудовує наші репозиторії Git "
+"у численні архіви APT, розміщені за адресою http://repo.ubports.com/."
 
 #: ../../about/process/branch-naming.rst:18
 msgid "We maintain the following branches across Git repositories:"
-msgstr ""
+msgstr "В репозитаріях ми підтримуємо наступні гілки Git:"
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
-msgstr ""
+msgstr "Гілки Git"
 
 #: ../../about/process/branch-naming.rst:22
 #: ../../appdev/guides/pushnotifications.rst:170
@@ -110,29 +151,31 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
-msgstr ""
+msgstr "Опис"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "Відповідні архіви APT"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
 #: ../../porting/configure_test_fix/device_info/index.rst:43
 msgid "Name"
-msgstr ""
+msgstr "Назва"
 
 #: ../../about/process/branch-naming.rst:23
 msgid "Base distro"
-msgstr ""
+msgstr "Дистрибутив-основа"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``main``, ``ubports/latest``"
-msgstr ""
+msgstr "``main``, ``ubports/latest``"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "Represents the latest development of Ubuntu Touch. All kinds of changes are allowed in this branch."
 msgstr ""
+"Являє собою останню розробку Ubuntu Touch. У цій гілці дозволені всі типи "
+"змін."
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``devel-<Ubuntu LTS>`` (e.g. ``devel-noble``)"
