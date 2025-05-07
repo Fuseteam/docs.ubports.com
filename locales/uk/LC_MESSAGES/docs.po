@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-06 16:01+0000\n"
+"PO-Revision-Date: 2025-05-08 09:03+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -355,38 +355,62 @@ msgstr ""
 #: ../../about/process/issue-tracking.rst:17
 msgid "Most other repositories track issues locally. You will find out whether a repository uses its own tracker or not in its README.md file. Repositories that don't track issues locally have their bugtracker turned off."
 msgstr ""
+"Більшість інших репозиторіїв відстежують проблеми локально. Дізнатися, чи "
+"використовується власний трекер можна в репозиторії у файлі README.md. У "
+"репозиторіях, де локально не відстежують проблеми, баг-трекер вимкнений."
 
 #: ../../about/process/issue-tracking.rst:21
 msgid "This page is mainly about the Ubuntu Touch tracker, but most principles apply to other projects as well."
 msgstr ""
+"Ця сторінка переважно стосується трекера Ubuntu Touch, але основні принципи "
+"виконуються так само в інших проєктах."
 
 #: ../../about/process/issue-tracking.rst:25
 msgid "Practical exceptions to purity are to be described in the project's README.md file."
 msgstr ""
+"Практичні винятки для охайності повинні бути описані у проєктному файлі "
+"README.md."
 
 #: ../../about/process/issue-tracking.rst:28
 msgid "GitHub projects"
-msgstr ""
+msgstr "Проєкти GitHub"
 
 #: ../../about/process/issue-tracking.rst:30
 msgid "In the interest of transparency and communication, GitHub projects (Kanban-Boards) are used wherever practical. In case of github.com/ubports/ubuntu-touch, a single project is used for all issues. Projects support filtering by labels, so that only issues belonging to a specific team or ones affecting a specific device can be viewed."
 msgstr ""
+"Для збереження прозорості та комунікації, проєкти GitHub (дошки Kanban) "
+"використовуються скрізь, де це можливо. У випадку github.com/ubports/ubuntu-"
+"touch для усіх проблем використовується єдиний проєкт. Проєкти підтримують "
+"фільтрацію за мітками, так що можна переглядати лише ті проблеми, які "
+"належать певній команді або ті, що стосуються певного пристрою."
 
 #: ../../about/process/issue-tracking.rst:36
 msgid "These are the standard columns:"
-msgstr ""
+msgstr "Стандартні стовпчики:"
 
 #: ../../about/process/issue-tracking.rst:38
 msgid "**None (awaiting triage)**: Issue approved by a member of the QA team awaiting review from the responsible development team. If a bug, instructions to reproduce are included in the issue description. If a feature request, it has passed a primary sanity check by the QA team, but not yet been accepted by the responsible development-team."
 msgstr ""
+"**None (в черзі на розгляд)**: Статус **Без статусу** призначається "
+"проблемам, прийнятим кимось з команди QA та які в очікуванні на розгляд "
+"командою відповідальних розробників. Якщо це баг, в описі проблеми додаються "
+"настанови для його відтворення. Якщо це запит на функціонал, він вже був "
+"перевірений командою QA на дійсну необхідність, але ще не був прийнятий "
+"відповідальною командою розробників."
 
 #: ../../about/process/issue-tracking.rst:41
 msgid "**Accepted**: Issue accepted by the responsible development-team. If a bugreport, the team has decided it should be fixable and accept responsibility. If a feature request, the team thinks it should be implemented as described."
 msgstr ""
+"**Accepted**: Статус **Прийнято** надається проблемі відповідальною командою "
+"розробників. Якщо це звіт про помилку (баг), команда вирішила, що це "
+"потрібно виправити та приймає відповідальність. Якщо запит на функціонал, — "
+"команда вважає, що може це реалізувати як описано."
 
 #: ../../about/process/issue-tracking.rst:44
 msgid "**In Development**: A patch in development. Usually means a developer is assigned to the issue."
 msgstr ""
+"**In Development**: Статус **В розробці** зазвичай означає, що для створення "
+"виправлення (патча) вже є призначений розробник."
 
 #: ../../about/process/issue-tracking.rst:46
 msgid "**Quality Assurance**: A completed patch passing initial testing. The QA team will review it and provide feedback. If problems are found, the issue is moved back to \"Accepted\"."
@@ -419,82 +443,122 @@ msgstr ""
 #: ../../about/process/issue-tracking.rst:64
 msgid "**bug**: This issue is a confirmed bug. If it's reproducible, reproduction steps are described."
 msgstr ""
+"**bug**: Ця проблема є визнаним багом. Якщо її можна відтворити, описані "
+"також кроки для відтворення."
 
 #: ../../about/process/issue-tracking.rst:66
 msgid "**opinion**: This issue needs further discussion."
-msgstr ""
+msgstr "**opinion**: Цю проблему потрібно обговорити."
 
 #: ../../about/process/issue-tracking.rst:67
 msgid "**enhancement**: This issue is a feature request."
-msgstr ""
+msgstr "**enhancement**: Ця проблема — це запит на додаткову функціональність."
 
 #: ../../about/process/issue-tracking.rst:68
 msgid "**question**: This issue is a support request or general question."
 msgstr ""
+"**question**: Ця проблема є запитом на підтримку або загальним запитанням."
 
 #: ../../about/process/issue-tracking.rst:69
 msgid "**invalid**: This issue can not be confirmed or was reported in the wrong tracker."
 msgstr ""
+"**invalid**: Цю проблему не можна підтвердити або вона була зареєстрована у "
+"хибному трекері."
 
 #: ../../about/process/issue-tracking.rst:71
 msgid "**duplicate**: This has already been reported elsewhere. Please provide a link and close."
 msgstr ""
+"**duplicate**: Це вже було зареєстроване раніше. Надайте, будь ласка, "
+"посилання та закрийте."
 
 #: ../../about/process/issue-tracking.rst:73
 msgid "**help wanted**: This issue is ready to be picked up by a community developer."
-msgstr ""
+msgstr "**help wanted**: Цією проблемою вже може зайнятися розробник спільноти."
 
 #: ../../about/process/issue-tracking.rst:75
 msgid "**good first issue**: The report contains instructions or hints required to fix it. It is an excellent place for someone new to learn about the project by fixing a real issue."
 msgstr ""
+"**good first issue**: Ця проблема містить настанови або корисні пояснення "
+"для її виправлення. Це найкраще місця для новачків для ознайомлення з "
+"проєктом через виправлення справжніх проблем."
 
 #: ../../about/process/issue-tracking.rst:77
 msgid "**wontfix**: A bug it does not make sense to fix, since it will probably resolve itself, be too much work, isn't fixable, or an underlying component will soon change."
 msgstr ""
+"**wontfix**: Баг, виправлення якого не має сенсу, оскільки він може "
+"виправитися самостійно, потребує забагато праці, невиправний або ж основний "
+"компонент буде незабаром змінений."
 
 #: ../../about/process/issue-tracking.rst:81
 msgid "Additional special labels can be defined. As an example, these are the labels used in the Ubuntu Touch tracker:"
 msgstr ""
+"Можна визначити додаткові ярлики/мітки. Наприклад, в трекері Ubuntu Touch "
+"використовуються такі:"
 
 #: ../../about/process/issue-tracking.rst:84
 msgid "**critical (devel)**: Critical issue only occuring on the `devel` channel is blocking the release of the next `rc` image."
 msgstr ""
+"**critical (devel)**: Критична проблема, яка виникає тільки в каналі `devel`"
+"та блокує випуск наступного образу `rc`."
 
 #: ../../about/process/issue-tracking.rst:86
 msgid "**critical (rc)**: Critical issue only occuring on the `devel` and `rc` channel is blocking the release of the next stable release. Usually, issues that can not simply be moved to a different release and have the power to postpone the release are labeled this way."
 msgstr ""
+"**critical (rc)**: Критична проблема, яка виникає тільки в каналах `devel` "
+"та `rc` і блокує випуск наступного стабільного релізу. Зазвичай її не можна "
+"просто перенести до іншого випуску і вона має вагу для відкладення "
+"позначеного таким чином випуску."
 
 #: ../../about/process/issue-tracking.rst:90
 msgid "**device: [DEVICE CODENAME]**: Issue affecting only the specified device(s)."
 msgstr ""
+"**device: [КОД ПРИСТРОЮ]**: Проблема стосується тільки конкретних пристроїв."
 
 #: ../../about/process/issue-tracking.rst:92
 msgid "**team: [TEAM NAME]**: Issue falls under the responsibility of a specific team (HAL, middleware, UI)."
 msgstr ""
+"**team: [НАЗВА КОМАНДИ]**: Проблема у зоні відповідальності конкретної "
+"команди (HAL, middleware, UI)."
 
 #: ../../about/process/issue-tracking.rst:95
 msgid "If a repository tracking issues locally defines it's own labels, they should be documented in the README.md."
 msgstr ""
+"Якщо проблеми в трекері репозиторію позначені локально власними мітками, "
+"вони повинні бути задокументовані у README.md."
 
 #: ../../about/process/issue-tracking.rst:99
 msgid "Milestones"
-msgstr ""
+msgstr "Контрольні точки"
 
 #: ../../about/process/issue-tracking.rst:101
 msgid "Milestones are used for stable OTA releases only. In general, milestones for the work-in-progress OTA and the next OTA are created. The ETA is set once the work on the release starts (that is 6 weeks from start date), but can be adjusted afterwards. Learn more in :doc:`release-schedule <release-schedule>`."
 msgstr ""
+"Контрольні точки використовуються тільки для стабільних випусків оновлень "
+"OTA. Загалом, контрольні точки створені для роботи-в-процесі з OTA та для "
+"наступних оновлень OTA. ETA (орієнтовний час виконання) встановлюється "
+"одразу на старті роботи над релізом (це 6 тижнів від старту), але він може "
+"бути пізніше змінений. Докладніше у :doc:`release-schedule <release-"
+"schedule>`."
 
 #: ../../about/process/issue-tracking.rst:107
 msgid "Assignees"
-msgstr ""
+msgstr "Призначені"
 
 #: ../../about/process/issue-tracking.rst:109
 msgid "To make it transparent who's working on an issue, the developer should be assigned. This also allows the use of GitHub's global filtering as a type of TODO list. For example, `this is everything assigned to mariogrip in @ubports <https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>`_."
 msgstr ""
+"Для прозорості розуміння, хто працює над проблемою, розробник повинен бути "
+"призначений. Це також дозволяє використовувати глобальний фільтр Github за "
+"списком завдань (TODO list) Наприклад, `це все розподілене на mariogrip у @"
+"ubports <https://github.com/"
+"search?utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>`_."
+""
 
 #: ../../about/process/issue-tracking.rst:114
 msgid "Developers are encouraged to keep their list short and update the status of their issues."
 msgstr ""
+"Розробникам варто тримати свої списки короткими, а статуси завдань "
+"актуальними."
 
 #: ../../about/process/issue-tracking.rst:117
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:23
@@ -502,35 +566,52 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Mir.rst:63
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
 msgid "Examples"
-msgstr ""
+msgstr "Приклади"
 
 #: ../../about/process/issue-tracking.rst:120
 msgid "Bug Lifecycle"
-msgstr ""
+msgstr "Життєвий цикл проблем"
 
 #: ../../about/process/issue-tracking.rst:123
 msgid "The same principle applies to feature requests, only they are labeled **enhancement** instead of **bug**. **needs confirmation** is not applicable for feature requests."
 msgstr ""
+"Такі самі принципи стосуються запитів на функціонал, але вони позначаються "
+"міткою **enhancement** замість **bug**. Мітка **needs confirmation** для "
+"таких запитів не використовується."
 
 #: ../../about/process/issue-tracking.rst:127
 msgid "A *user* files a new bug using the issue-template."
-msgstr ""
+msgstr "*Користувач* надсилає опис проблеми використовуючи шаблон звіту."
 
 #: ../../about/process/issue-tracking.rst:128
 msgid "The *QA-Team* labels it **needs confirmation** and tries to work with the user to confirm the bug and add potentially missing info to the report."
 msgstr ""
+"*Команда QA* позначає її міткою **needs confirmation** та намагається "
+"перевірити її з користувачем, і додає відсутню інформацію до звіту."
 
 #: ../../about/process/issue-tracking.rst:129
 msgid "Once the report is complete a **team-label** is added to the issue, the issue will be put on the **awaiting-triage-list** of the project and the label needs confirmation will be replaced with **bug**."
 msgstr ""
+"Коли звіт складений до проблеми додається мітка **team-label** і проблема "
+"направляється до проєктного **списку очікування (awaiting-triage-list)**, "
+"після чого мітка **needs confirmation** замінюється на **bug**."
 
 #: ../../about/process/issue-tracking.rst:130
 msgid "The affected *Team* triages the issue and either rejects (label **wontfix**, closes and removes from the project) or accepts the issue."
 msgstr ""
+"Відповідна *Команда* досліджує проблему та або відхиляє її (позначає міткою "
+"**wontfix**, закриває і видаляє з проєкту), або приймає як проблему."
 
 #: ../../about/process/issue-tracking.rst:131
 msgid "The team decides whether to fix the issue in-house (move to \"Accepted\" and assign a team member) or wait for a community developer to pick it up (by labeling it **help wanted**, removing it from the project board and providing hints on how to resolve the issue and further details on how the fix should be implemented if necessary). For non-critical issues trivial to fix, the label **good first issue** can be added as well."
 msgstr ""
+"Команда вирішує, чи буде вона виправляти проблему власними силами ("
+"переносить її до \"Прийнятих\" і признає когось з команди), чи почекає, поки "
+"її прийме хтось з розробників спільноти (позначивши її міткою **help wanted**"
+", видаливши з дошки проєкту і надавши поради для розв'язання проблеми, а "
+"також, якщо це необхідно, більш детальну інформацію про те, як її слід "
+"реалізувати). Для некритичних проблем, які легко виправляються, можна також "
+"додати мітку **good first issue**."
 
 #: ../../about/process/issue-tracking.rst:132
 msgid "Once a *developer* is assigned and starts working on the issue, it is moved to \"In Development\"."
