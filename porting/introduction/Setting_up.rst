@@ -20,7 +20,7 @@ Mageia 9
 
 Install the required dependencies::
 
-sudo urpmi git gnupg2 flex bison glibc gcc gcc-g++ make dpkg-dev zip breezy curl glibc-static-devel libncurses-devel x11-proto-devel libx11-devel libreadline-devel libgl1 libmesagl-devel gcc-cpp wine64-devel tofrodos python3-markdown libxml2-utils xsltproc libzlib-devel schedtool liblz4_1 bc lzop imagemagick libncurses5 rsync python3 python
+    sudo urpmi git gnupg2 flex bison glibc gcc gcc-g++ make dpkg-dev zip breezy curl glibc-static-devel libncurses-devel x11-proto-devel libx11-devel libreadline-devel libgl1 libmesagl-devel gcc-cpp wine64-devel tofrodos python3-markdown libxml2-utils xsltproc libzlib-devel schedtool liblz4_1 bc lzop imagemagick libncurses5 rsync python3 python
 
 Debian (Stretch or newer) / Ubuntu (16.04 or 18.04)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
