@@ -4,7 +4,7 @@ This is the repository for the UBports documentation website served at [docs.ubp
 
 ### Contribution guidelines
 
-You can find ways to contribute [here](https://docs.ubports.com/en/latest/contribute/documentation.html). Please follow all of the guidelines on that page, else your contribution will not be accepted.
+You can find ways to contribute [here](https://docs.ubports.com/en/latest/contribute/documentation.html). Please follow all of the guidelines on that page.
 
 ### Build instructions
 
