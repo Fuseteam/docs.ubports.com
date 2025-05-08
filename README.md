@@ -33,3 +33,7 @@ You can easily contribute to the localization of this project (i.e. the translat
 |Turkish            |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-tr/badge/?version=latest   )](https://docs.ubports.com/tr/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/tr/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/tr/   ) |
 |Spanish            |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-es/badge/?version=latest   )](https://docs.ubports.com/es/latest   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/es/svg-badge.svg   )](https://hosted.weblate.org/engage/ubports/-/es/   ) |
 |Simplified Chinese |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-zh-cn/badge/?version=latest)](https://docs.ubports.com/zh_CN/latest) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/zh_CN/svg-badge.svg)](https://hosted.weblate.org/engage/ubports/-/zh_CN/) |
+
+### Update libraries
+
+The python dependencies (sphinx, furo, etc) are listed in `requirements.in.txt`. When there is a need to update any of these top level dependencies please specify it in this file. Afterwards, freeze the whole set of all low level python libraries via `pip3 freeze -r requirements.in.txt > requirements.txt`
