@@ -29,7 +29,7 @@ Setting up and configuring a device source
 Creating the device source
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Clone an existing repo for a device from https://gitlab.com/ubports/community-ports. Ideally choose a device with similar SoC/Android version as base.
+Clone an existing repo for a device from https://gitlab.com/ubports/porting. Ideally choose a device with similar SoC/Android version as base.
  
 deviceinfo contains the configuration used during device build process (kernel, boot, dtb/dtbo if needed + recovery on later porting stages). To craft your own deviceinfo, follow the guide further.
 
