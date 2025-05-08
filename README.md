@@ -2,6 +2,11 @@
 
 This is the repository for the UBports documentation website served at [docs.ubports.com](https://docs.ubports.com).
 
+The content is written in [reStructuredText (RST)](https://docutils.sourceforge.io/rst.html),
+built with [Sphinx](https://www.sphinx-doc.org)
+in the [Furo](https://pypi.org/project/furo) theme
+and hosted on [Read the Docs](http://readthedocs.org).
+
 ### Contribution guidelines
 
 You can find ways to contribute [here](https://docs.ubports.com/en/latest/contribute/documentation.html). Please follow all of the guidelines on that page.
