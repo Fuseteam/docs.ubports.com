@@ -29,7 +29,7 @@ Setting up and configuring a device source
 Creating the device source
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Clone an existing repo for a device from https://gitlab.com/ubports/porting. Ideally choose a device with similar SoC/Android version as base.
+Clone an existing repo (for a device, not the kernel) from https://gitlab.com/ubports/porting. Ideally choose a device with similar SoC/Android version as base.
  
 deviceinfo contains the configuration used during device build process (kernel, boot, dtb/dtbo if needed + recovery on later porting stages). To craft your own deviceinfo, follow the guide further.
 
@@ -43,6 +43,8 @@ ASUS, Lenovo, Samsung, ZTE usually provide kernel source code tarballs at their 
 Motorola, Realme, OnePlus, Xiaomi usually upload kernel source to their official GitHub account.
 
 After you have acquired the kernel source, you need to upload it somewhere else for making modifications and commits for Ubuntu Touch. GitLab is preferred since when you'll get the port pulled into the UBports org, it can be easily copied from there.
+
+You should now be working with two repositories: a cloned device repo, which holds deviceinfo, and a kernel repo, which holds/will hold your defconfig (see below).
 
 Finding your correct kernel config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -94,6 +96,8 @@ After this, save and close this file. Commit it into your kernel repo if you wis
 At this point you've almost completed the initial setup for the kernel, move on to configuring ``deviceinfo`` and building.
 
 After you have booted the OS successfully, you can move on to patching the defconfig fully in later stages.
+
+Note: you may be confused why we are editing a seperate file, halium.config, instead of <codename>_defconfig. These files will be selected together in the deviceinfo, "merging" them together. This way, we keep the changes clean and readable.
 
 Filling in your deviceinfo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
