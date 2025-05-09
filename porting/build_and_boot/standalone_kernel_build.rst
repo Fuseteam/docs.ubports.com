@@ -29,7 +29,9 @@ Setting up and configuring a device source
 Creating the device source
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Clone an existing repo (for a device, not the kernel) from https://gitlab.com/ubports/porting. Ideally choose a device with similar SoC/Android version as base.
+Clone an existing device repository from https://gitlab.com/ubports/porting. Ideally choose a device with similar SoC/Android version as base.
+
+Make sure to get the device repository, not the kernel repository (you will get that in the next step). For example, for the Fairphone 3, the repositories are called fairphone-fp3 and android_kernel_fairphone_sdm632. The first one is the one you want.
  
 deviceinfo contains the configuration used during device build process (kernel, boot, dtb/dtbo if needed + recovery on later porting stages). To craft your own deviceinfo, follow the guide further.
 
