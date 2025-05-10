@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-08 09:03+0000\n"
+"PO-Revision-Date: 2025-05-11 10:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -415,30 +415,49 @@ msgstr ""
 #: ../../about/process/issue-tracking.rst:46
 msgid "**Quality Assurance**: A completed patch passing initial testing. The QA team will review it and provide feedback. If problems are found, the issue is moved back to \"Accepted\"."
 msgstr ""
+"**Quality Assurance**: Завершений та перевірений патч. Команда перевірки/"
+"забезпечення якості (QA) перевірить його та надасть відгук. Якщо будуть "
+"знайдені недоліки, проблема повертається до статусу \"Прийнято\" (Accepted)."
 
 #: ../../about/process/issue-tracking.rst:48
 msgid "**Release Candidate**: A patch passing QA, ready for release. In case of DEB packages included in the system-image, the patch will be included in the next over-the-air update on the `rc` channel, and (provided  everything   goes well) in the next release of the `stable` channel."
 msgstr ""
+"**Release Candidate**: Патч перевірений QA, готовий до випуску. В разі "
+"наявності пакунка DEB у системному образі, латка буде додана до наступного "
+"оновлення у каналі `rc` та (якщо покаже себе гарно) до наступного оновлення "
+"в каналі `stable`."
 
 #: ../../about/process/issue-tracking.rst:50
 msgid "**None (removed from the project)**: Open issue labeled \"help wanted\". Community contributions are required to resolve it. If it's closed, either a patch has been released on the stable channel (a comment on the issue should link to the patch) or the issue is rejected (labeled \"wontfix\")."
 msgstr ""
+"**None (вилучено з проєкту)**: Відкрита проблема з міткою \"help wanted\". "
+"Для її розв'язання необхідна участь спільноти. Якщо вона закрита, та патч "
+"був випущений у стабільному каналі (коментар до проблеми повинен містити "
+"посилання на цю латку) або проблему відкинуто (з міткою \"wontfix\")."
 
 #: ../../about/process/issue-tracking.rst:55
 msgid "Labels"
-msgstr ""
+msgstr "Мітки"
 
 #: ../../about/process/issue-tracking.rst:57
 msgid "All issues — even closed ones — should be labeled to allow use of GitHub's global filtering. For example, `these are all of the issues labeled 'enhancement' inside @ubports <https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+label%3A%22feature+request%22&type=>`_. Consult the `GitHub help pages <https://help.github.com/articles/about-searching-on-github/>`__ to learn more about searching and filtering."
 msgstr ""
+"Усі проблеми — навіть закриті — повинні бути позначеними мітками для "
+"можливості використання глобальних фільтрів на GitHub. Напр., `усі проблеми "
+"з міткою 'enhancement' всередині @ubports <https://github.com/"
+"search?utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+label%3A%22feature+request%22&type=>`"
+"_. Для поглиблення знань щодо пошуку та фільтрів зверніться до `Довідки "
+"GitHub <https://help.github.com/articles/about-searching-on-github/>`__."
 
 #: ../../about/process/issue-tracking.rst:60
 msgid "List of labels normally used by all repositories:"
-msgstr ""
+msgstr "Список звичних у всіх репозиторіях міток:"
 
 #: ../../about/process/issue-tracking.rst:62
 msgid "**needs confirmation**: The bug needs confirmation and / or further detailing by affected users."
 msgstr ""
+"**needs confirmation**: Баг потрібно підтвердити та / або отримати більше "
+"інформації від постраждалих користувачів."
 
 #: ../../about/process/issue-tracking.rst:64
 msgid "**bug**: This issue is a confirmed bug. If it's reproducible, reproduction steps are described."
@@ -616,142 +635,215 @@ msgstr ""
 #: ../../about/process/issue-tracking.rst:132
 msgid "Once a *developer* is assigned and starts working on the issue, it is moved to \"In Development\"."
 msgstr ""
+"Після призначення *розробника* та початку роботи над проблемою, вона "
+"переноситься до \"In Development\" (\"В розробці\")."
 
 #: ../../about/process/issue-tracking.rst:133
 msgid "As soon as there is something to show for, the issue is closed and automatically moved to \"Quality Assurance\" for feedback from the QA team. If necessary, the developer provides hints on how to test the patch in a comment on the issue."
 msgstr ""
+"Як тільки є щось, на що можна показати, проблема закривається та автоматично "
+"переміщується до \"Quality Assurance\" для отримання відгуку від команди "
+"перевірки якості (QA). За необхідності, розробник надає підказки щодо "
+"тестування латки в коментарях до проблеми."
 
 #: ../../about/process/issue-tracking.rst:134
 msgid "The *QA-Team* tests the fix on all devices and provides feedback to the developer. If problems are found, the issue is re-opened and goes back to \"Accepted\", otherwise it is moved to \"Release Candidate\" for inclusion in the next release."
 msgstr ""
+"Команда QA перевіряє виправлення на усіх пристроях та надає розробникам "
+"відгук. Якщо виявлені недоліки, проблема перевідкривається та переноситься "
+"до прийнятих (\"Accepted\"), якщо все добре — до кандидатів на випуск ("
+"\"Release Candidate\") для додавання до наступних випусків."
 
 #: ../../about/process/issue-tracking.rst:135
 msgid "If not done already, the issue is added to the next milestone, which once released removes the issue from the project board."
 msgstr ""
+"Якщо ще цього не зроблено, проблема заноситься до наступної контрольної "
+"точки, яка після реалізації вилучає проблему з дошки проєкта."
 
 #: ../../about/process/release-schedule.rst:2
 msgid "Release Schedule"
-msgstr ""
+msgstr "Розклад випусків"
 
 #: ../../about/process/release-schedule.rst:3
 msgid "Ubuntu Touch has four software update channels: Stable, Release Candidate, Devel, and Edge."
 msgstr ""
+"Ubuntu Touch має чотири канали оновлення: Stable (стабільний), Release "
+"Candidate (кандидати на випуск), Devel (розробка), and Edge (гострий край)."
 
 #: ../../about/process/release-schedule.rst:6
 msgid "Stable Channel"
-msgstr ""
+msgstr "Стабільний канал"
 
 #: ../../about/process/release-schedule.rst:7
 msgid "**It is the most reliable release channel.** It is recommended for users who prefer stability rather than the newest features. Generally Stable gets OTA (over the air) updates every several weeks. But there is no firm schedule. Releases are ready when they're ready. Stable releases should not introduce new bugs or ship very incomplete features."
 msgstr ""
+"**Це найнадійніший канал.** Рекомендований для користувачів, які перед "
+"новими функціями надають перевагу стабільності. Загалом Стабільний канал "
+"випукає оновлення OTA (over the air) з інтервалом у декілька тижнів. Але "
+"точного розкладу немає. Випуски готові, коли вони готові. Стабільні випуски "
+"не повинні приносити нові помилки або незавершений функціонал."
 
 #: ../../about/process/release-schedule.rst:15
 msgid "Release Candidate (RC) Channel"
-msgstr ""
+msgstr "Канал кандидатів на випуск (RC)"
 
 #: ../../about/process/release-schedule.rst:16
 msgid "**It is relatively stable but may occasionally contain bugs.** This channel is for doing the last tests before releasing features to the Stable channel. If you want features quicker, and you want to help to test, but your life does not depend on your phone, and you can live with some downtime - RC is for you. It does get updates generally every week."
 msgstr ""
+"**Відносно стабільний, але може містити помилки.** Цей канал потрібен для "
+"виконання останніх тестів перед внесенням новинок до Стабільного каналу. "
+"Якщо хочеться спробувати новинки та хочете допомогти у тестуванні, але Ваше "
+"життя не залежить від роботи Вашого телефону і Ви можете змиритися з деякими "
+"складнощами - RC для Вас. Нові версії виходять практично щотижня."
 
 #: ../../about/process/release-schedule.rst:22
 msgid "Devel Channel"
-msgstr ""
+msgstr "Канал розробки"
 
 #: ../../about/process/release-schedule.rst:23
 msgid "**This is where new features land for the first testing.** Although changes have been validated before being released, bugs are to be expected. Don't use Devel if you can't live with the fact that new features might break things. Updates come if something has changed - so frequency can be daily."
 msgstr ""
+"**Нові речі для тестування з'являються тут в першу чергу.** Хоча зміни перед "
+"випуском перевіряються, проблеми та недоліки тут звичайна справа. Не "
+"користуйтеся Каналом для розробки якщо не можете прийняти факт, що нові "
+"функції найімовірніше щось зламають. Оновлення з'являються одразу після "
+"внесення змін — приблизно щоденно."
 
 #: ../../about/process/release-schedule.rst:29
 msgid "Edge Channel"
-msgstr ""
+msgstr "Ризикований канал"
 
 #: ../../about/process/release-schedule.rst:30
 msgid "**This is where dragons live.** Here ideas and big new features are melted into code for developers to work on and for the fearless to try them out. Don't set this channel on a phone you use daily. Updates come as ideas happen to developers. Sometimes very frequently, sometimes the channel isn't used at all. Basically, if you need to ask what's in Edge, then it is not for you."
 msgstr ""
+"**Edge - Тут живуть дракони.** Ідеї та великі нові забаганки перетоплюються "
+"тут на код, над яким працюють розробники, та які можуть спробувати справжні "
+"сміливці. Не налаштовуйте цей канал на телефоні для щоденного використання. "
+"Оновлення з'являються разом з ідеями розробників. Іноді це досить часто, "
+"іноді канал не використовується взагалі. Врешті, якщо Вам потрібно "
+"розібратися що тут в Edge, то це не для Вас :)."
 
 #: ../../about/process/security-vulnerabilities.rst:2
 msgid "Security vulnerabilities"
-msgstr ""
+msgstr "Вразливості безпеки"
 
 #: ../../about/process/security-vulnerabilities.rst:4
 msgid "We take security vulnerabilities seriously. If you've found one, the best way to report it is to create a confidential issue on our `bug tracker <https://gitlab.com/ubports/ubuntu-touch>`_. Make sure you select \"This issue is confidential and should only be visible to team members with at least Reporter access\" when creating the issue. After that, we'll get to work with the reported issue. We might contact you via the issue if there is additional information needed. And we'll determine the disclosure."
 msgstr ""
+"Ми серйозно ставимося до вразливостей безпеки. Якщо десь зустрінете, "
+"найкраще повідомити про це через створення відповідного запиту на `баг-"
+"трекері <https://gitlab.com/ubports/ubuntu-touch>`_. Переконайтеся, що під "
+"створення запиту / заявки Ви обрали \"Це питання є конфіденційним і повинно "
+"бути видиме лише членам команди з принаймні доступом до Звітів\". Після "
+"цього ми почнемо працювати над проблемою. Можливо, хтось до Вас звернеться "
+"за деякими уточненнями і ми визначимо рівень впливу."
 
 #: ../../about/process/security-vulnerabilities.rst:7
 msgid "How to handle a security fix"
-msgstr ""
+msgstr "Як поводитися з виправленням безпеки"
 
 #: ../../about/process/security-vulnerabilities.rst:9
 msgid "For UBports development members, these are recommended steps to handle fixing the issue without disclosing to public before the fix is ready:"
 msgstr ""
+"Для учасників розробки UBports ці кроки — які допоможуть розв'язати "
+"проблему, не розголошуючи її до готового виправлення — є рекомендованими:"
 
 #: ../../about/process/security-vulnerabilities.rst:11
 msgid "Given a main repo, ensure that the ``<project>.secfix`` repo exists. If not, fork from the main project to the same namespace, but set the visibility to private."
 msgstr ""
+"Для основного сховища переконайтеся, що сховище ``<project>.secfix`` існує. "
+"Якщо ні, зробіть відгалуження від основного проєкту у тому самому просторі "
+"імен, але встановіть видимість приватною."
 
 #: ../../about/process/security-vulnerabilities.rst:13
 msgid "The ``.secfix`` suffix will prevent CI from touching this repo, preventing the repo from leaking."
 msgstr ""
+"Суфікс ``.secfix`` не дозволить CI торкатися цього репозиторію, запобігаючи "
+"витоку."
 
 #: ../../about/process/security-vulnerabilities.rst:15
 msgid "If there isn't an issue for it already, create a confidential issue on the main project."
 msgstr ""
+"Якщо для проблеми ще немає заявки, створіть конфіденційну заявку в основному "
+"проєкті."
 
 #: ../../about/process/security-vulnerabilities.rst:16
 msgid "On the issue, use \"Create confidential merge request\". Set the branch name and the source branch appropriately. Then, push to this branch from your local Git tree."
 msgstr ""
+"Що стосується запиту, використовуйте "
+"\"Створити конфіденційний запит на злиття\". Встановіть назву нової гілки "
+"(branch) та відповідну джерельну гілку. Потім додайте (push) цю гілку зі "
+"свого локального дерева Git."
 
 #: ../../about/process/security-vulnerabilities.rst:18
 msgid "This MR will target the ``.secfix`` repo, NOT the main repo [1]_. This allows reviewing the patch to happen in private."
 msgstr ""
+"Цей запит MR матиме на меті репозиторій``.secfix``, НЕ основний [1]_. Це "
+"дозволить переглянути цей патч приватно."
 
 #: ../../about/process/security-vulnerabilities.rst:20
 msgid "Another developer then reviews and merges the merge request. If backport is needed, it must also happen in the ``.secfix`` fork."
 msgstr ""
+"Інший розробник потім перегляне та погодить запит на злиття. Якщо потрібен "
+"патч для попередніх версій (backport), він повинен бути у форку ``.secfix``."
 
 #: ../../about/process/security-vulnerabilities.rst:22
 msgid "Since we don't have confidential CI yet, it is both the developer and reviewer's responsibility to ensure that the code will compile, pass tests, and is tested locally."
 msgstr ""
+"Оскільки у нас наразі немає чіткої неперервної інтеграції (CI), "
+"відповідальність за те, щоб код компілювався, проходив тести та тестувався "
+"локально несуть розробник та рецензент."
 
 #: ../../about/process/security-vulnerabilities.rst:24
 msgid "At ~1 day before the release date of a release candidate, a developer (usually the release manager) merges all branches of ``.secfix`` repo to the main repo. After that, the confidential issue is marked unconfidential. This makes the issue public for the first time."
 msgstr ""
+"За ~1 день до дати випуску реліз-кандидата розробник (зазвичай "
+"реліз-менеджер) зливає усі гілки репозиторію ``.secfix`` до основного "
+"репозиторію. Після цього конфіденційний випуск позначається "
+"неконфіденційним. Це робить випуск публічним вперше."
 
 #: ../../about/process/security-vulnerabilities.rst:26
 msgid "At this point, it is this developer's responsibility to ensure that the merge result actually passes CI and that at least the basic functionality of this component is not broken."
 msgstr ""
+"На цьому етапі саме розробник несе відповідальність за те, щоб результат "
+"злиття дійсно пройшов перевірку CI та щоб принаймні базова функціональність "
+"цього компонента не була порушена."
 
 #: ../../about/process/security-vulnerabilities.rst:28
 msgid "The release manager will ensure that the fix actually lands in the daily image before choosing such image as an RC."
 msgstr ""
+"Перед вибором цього образу як RC, відповідальний за випуск переконується, що "
+"виправлення дійсно потрапляє до щоденного образу."
 
 #: ../../about/process/security-vulnerabilities.rst:29
 msgid "Before the release date, the fixing developer will prepare the security advisory, containing (the list is inspired by Curl's advisories [2]_):"
 msgstr ""
+"Перед датою випуску розробник виправлення готує повідомлення про безпеку, "
+"яке міститиме (список натхненний порадами Curl [2]_):"
 
 #: ../../about/process/security-vulnerabilities.rst:32
 msgid "Vulnerability (how a user is vulnerable)"
-msgstr ""
+msgstr "Вразливість (як вразливий користувач)"
 
 #: ../../about/process/security-vulnerabilities.rst:33
 msgid "Info (how the vulnerable exists)"
-msgstr ""
+msgstr "Інформація (як / де вразливість існує)"
 
 #: ../../about/process/security-vulnerabilities.rst:34
 msgid "Affected versions"
-msgstr ""
+msgstr "Уражені версії"
 
 #: ../../about/process/security-vulnerabilities.rst:35
 msgid "Solution"
-msgstr ""
+msgstr "Виправлення"
 
 #: ../../about/process/security-vulnerabilities.rst:36
 msgid "Recommendations"
-msgstr ""
+msgstr "Рекомендації"
 
 #: ../../about/process/security-vulnerabilities.rst:37
 msgid "Timeline"
-msgstr ""
+msgstr "Хронологія"
 
 #: ../../about/process/security-vulnerabilities.rst:38
 msgid "Credit"
@@ -760,130 +852,176 @@ msgstr ""
 #: ../../about/process/security-vulnerabilities.rst:40
 msgid "At the release date, the security advisory will be published on the forum, in the \"OS > Security advisories\" section."
 msgstr ""
+"У день випуску інформація щодо безпеки буде опублікована на форумі в розділі "
+"\"ОС > Інформація щодо безпеки\" (\"OS > Security advisories\")."
 
 #: ../../about/process/security-vulnerabilities.rst:42
 msgid "https://docs.gitlab.com/ee/user/project/merge_requests/confidential.html#create-a-confidential-merge-request"
 msgstr ""
+"https://docs.gitlab.com/ee/user/project/merge_requests/"
+"confidential.html#create-a-confidential-merge-request"
 
 #: ../../about/process/security-vulnerabilities.rst:43
 msgid "https://curl.se/docs/security.html"
-msgstr ""
+msgstr "https://curl.se/docs/security.html"
 
 #: ../../appdev/code-editor.rst:2
 msgid "Code editor integrations"
-msgstr ""
+msgstr "Інтеграції редактора коду"
 
 #: ../../appdev/code-editor.rst:4
 msgid "QtCreator"
-msgstr ""
+msgstr "QtCreator"
 
 #: ../../appdev/code-editor.rst:6
 msgid "Available on top of clickable docker image, ``clickable ide qtcreator`` command within your project directory will launch a QtCreator instance and auto setup the project for you, you will have code completion and navigation for Ubuntu Touch components as well as run/debug facilities."
 msgstr ""
+"Доступна вгорі образу docker, команда ``clickable ide qtcreator`` у каталозі "
+"Вашого проєкту запустить екземпляр QtCreator та автоматично встановить "
+"проєкт для Вас, після чого у Вас буде можливість завершення коду, навігація "
+"компонентами Ubuntu Touch, а також здатність виконувати/лагодити."
 
 #: ../../appdev/code-editor.rst:8
 msgid "Ubuntu SDK ( Unmaintained )"
-msgstr ""
+msgstr "Ubuntu SDK ( не обслуговується )"
 
 #: ../../appdev/code-editor.rst:10
 msgid "Alternatively there is the old `Ubuntu SDK IDE <https://docs.ubuntu.com/phone/en/platform/sdk>`__. Be aware that it is no longer supported by Canonical, and UBports has chosen to not support it either due to lack of manpower."
 msgstr ""
+"Крім того, є стара версія `Ubuntu SDK IDE <https://docs.ubuntu.com/phone/en/"
+"platform/sdk>`. Майте на увазі, що це SDK більше не підтримується Canonical, "
+"а Ubports вирішив не підтримувати його через брак спеціалістів."
 
 #: ../../appdev/code-editor.rst:12
 msgid "You can still install the SDK IDE in Ubuntu 16.04, but it is not guaranteed to work correctly. You can use the following commands to install::"
 msgstr ""
+"Ви можете встановити SDK IDE в Ubuntu 16.04, але це не гарантує правильної "
+"роботи. Ви можете для встановлення використати такі команди:"
 
 #: ../../appdev/external-docs.rst:2
 msgid "API docs"
-msgstr ""
+msgstr "Документація API"
 
 #: ../../appdev/external-docs.rst:4
 msgid "In this section you find the various APIs you can use to develop Ubuntu Touch apps."
 msgstr ""
+"У цьому розділі можна знайти різні API, якими можна скористатися для "
+"розробки програм для Ubuntu Touch."
 
 #: ../../appdev/external-docs.rst:6
 msgid "Firstly there are the QML and HTML APIs that you can use for the front end:"
-msgstr ""
+msgstr "По-перше, там є API QML та HTML, які можна використати для інтерфейсу:"
 
 #: ../../appdev/external-docs.rst:8
 msgid "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
-msgstr ""
+msgstr "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
 
 #: ../../appdev/external-docs.rst:9
 msgid "`All 5.12 QML types <https://doc.qt.io/qt-5.12/qmltypes.html>`__"
-msgstr ""
+msgstr "`Усі типи QML 5.12 <https://doc.qt.io/qt-5.12/qmltypes.html>`__"
 
 #: ../../appdev/external-docs.rst:10
 msgid "`Cordova HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/index.html>`__"
 msgstr ""
+"`API Cordova HTML5 <https://api-docs.ubports.com/sdk/apps/html5/"
+"index.html>`__"
 
 #: ../../appdev/external-docs.rst:12
 msgid "Secondly, the platform documentation describes how to integrate your app into the system:"
 msgstr ""
+"По-друге, документація платформи описує, як інтегрувати свою програму в "
+"систему:"
 
 #: ../../appdev/external-docs.rst:19
 msgid "Thirdly, it is possible to develop cross-platform apps that don't depend on Ubuntu specific APIs, although this is not the official way of developing apps for Ubuntu Touch. If running on other operating systems is a requirement for your app, you can refer to these APIs instead:"
 msgstr ""
+"По-третє, хоча це і не офіційний шлях для розробки програм для Ubuntu Touch, "
+"можна розробити кросплатформні програми, які не будуть залежати від "
+"конкретних API Ubuntu. Якщо для Вас є необхідністю запускати програми на "
+"інших операційних системах, можете звернутися до цього API:"
 
 #: ../../appdev/external-docs.rst:21
 msgid "`Kirigami API <https://api.kde.org/frameworks/kirigami/html/>`__"
-msgstr ""
+msgstr "`Kirigami API <https://api.kde.org/frameworks/kirigami/html/>`__"
 
 #: ../../appdev/external-docs.rst:22
 msgid "`Qt Quick Controls 2 API <https://doc.qt.io/qt-5/qtquickcontrols-index.html>`__"
 msgstr ""
+"`Qt Quick Controls 2 API <https://doc.qt.io/qt-5/qtquickcontrols-"
+"index.html>`__"
 
 #: ../../appdev/guides/contenthub.rst:4
 msgid "The content hub - tips and tricks"
-msgstr ""
+msgstr "Content Hub - поради та підказки"
 
 #: ../../appdev/guides/contenthub.rst:9
 msgid "Content Hub Share Page"
-msgstr ""
+msgstr "Сторінка публікації Content Hub"
 
 #: ../../appdev/guides/contenthub.rst:11
 msgid "On Ubuntu Touch the apps are confined. The way of sharing files between them is through the Content Hub, a part of the system that takes care of file import, export and sharing."
 msgstr ""
+"Програми в Ubuntu Touch мають обмеження. Шлях обміну файлами між ними лежить "
+"через Content Hub, частину системи, яка опікується імпортом, експортом та "
+"обміном файлів."
 
 #: ../../appdev/guides/contenthub.rst:14
 msgid "Different ways of sharing the content"
-msgstr ""
+msgstr "Різні шляхи обміну контентом"
 
 #: ../../appdev/guides/contenthub.rst:16
 msgid "As we can see in the `Content Hub documentation <https://api-docs.ubports.com/sdk/apps/qml/Ubuntu.Content/ContentHandler.html#detailed-description>`_, there are several ways of handling the file to be shared:"
 msgstr ""
+"Як можна побачити з `Документації Content Hub <https://api-docs.ubports.com/"
+"sdk/apps/qml/Ubuntu.Content/ContentHandler.html#detailed-description>`_, "
+"існує декілька шляхів для спільного доступу до файлів:"
 
 #: ../../appdev/guides/contenthub.rst:18
 msgid "``ContentHandler.Source`` (The selected app will provide a file to be imported)"
-msgstr ""
+msgstr "``ContentHandler.Source`` (Обрана програма надасть файл для імпорту)"
 
 #: ../../appdev/guides/contenthub.rst:19
 msgid "``ContentHandler.Destination`` (The selected app will be the destination for the exported file)"
 msgstr ""
+"``ContentHandler.Destination`` (Обрана програма буде призначенням для "
+"експортованого файлу)"
 
 #: ../../appdev/guides/contenthub.rst:20
 msgid "``ContentHandler.Share`` (The selected app will be the destination for the exported file, which will then be shared externally)"
 msgstr ""
+"``ContentHandler.Share`` (Обрана програма буде призначенням для "
+"експортованого файлу, який буде потім експортований назовні)"
 
 #: ../../appdev/guides/contenthub.rst:28
 msgid "Importing"
-msgstr ""
+msgstr "Імпорт"
 
 #: ../../appdev/guides/contenthub.rst:33
 msgid "Webapp Creator on the OpenStore"
-msgstr ""
+msgstr "Webapp Creator в OpenStore"
 
 #: ../../appdev/guides/contenthub.rst:35
 msgid "Looking into the code of Webapp Creator, we’ll find the code to import an image to be used as icon. Tapping on the place holder will open the Content Hub that will let us choose from where to import the image (`see the Webapp Creator source code <https://gitlab.com/cibersheep/webapp-creator/blob/master/webapp-creator/app/ImportPage.qml#L38>`_)"
 msgstr ""
+"Дивлячись на код Webapp Creator, можна знайти код для імпорту зображення для "
+"значка. Дотиком по ньому відкриє Content Hub, який надасть можливість "
+"вибрати зображення (`див. джерельний код Webapp Creator <https://gitlab.com/"
+"cibersheep/webapp-creator/blob/master/webapp-creator/app/"
+"ImportPage.qml#L38>`_)"
 
 #: ../../appdev/guides/contenthub.rst:46
 msgid "``ContentPeerPicker`` is the element that shows the apps."
-msgstr ""
+msgstr "``ContentPeerPicker`` є елементом, який показує програми."
 
 #: ../../appdev/guides/contenthub.rst:52
 msgid "``contentType`` is passed in `Main.qml <https://gitlab.com/cibersheep/webapp-creator/blob/master/webapp-creator/app/Main.qml#L118>`_ as ContentType.Pictures. So, we will only see apps from which we only can import images. ``handler`` is passed in the same line as ContentHandler.Source. As we want to import an image from the app selected in the Content Hub."
 msgstr ""
+"``contentType`` передається до `Main.qml <https://gitlab.com/cibersheep/"
+"webapp-creator/blob/master/webapp-creator/app/Main.qml#L118>`_ як "
+"ContentType.Pictures. Отже, ми побачимо тільки ті програми, з яких можна "
+"імпортувати файли. ``handler`` передається у тому самому рядку як "
+"ContentHandler.Source. Тому що ми хочемо імпортувати зображення з програми, "
+"вибраної у Content Hub."
 
 #: ../../appdev/guides/contenthub.rst:55
 msgid "Exporting"
