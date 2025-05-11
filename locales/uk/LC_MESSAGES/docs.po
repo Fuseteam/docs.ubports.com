@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-11 10:01+0000\n"
+"PO-Revision-Date: 2025-05-12 21:03+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -1025,96 +1025,132 @@ msgstr ""
 
 #: ../../appdev/guides/contenthub.rst:55
 msgid "Exporting"
-msgstr ""
+msgstr "Експорт"
 
 #: ../../appdev/guides/contenthub.rst:60
 msgid "Gelek in the OpenStore"
-msgstr ""
+msgstr "Gelek в OpenStore"
 
 #: ../../appdev/guides/contenthub.rst:62
 msgid "In Gelek, we are going to end with some saved games that we want to save in our device or share with ourselves (in Telegram and then save them to our computer)."
 msgstr ""
+"У Gelek ми закінчимо з деякими збереженими іграми, які ми хочемо зберегти на "
+"своєму пристрої або поділитися із собою (у Telegram та потім зберегти їх на "
+"ПК)."
 
 #: ../../appdev/guides/contenthub.rst:66
 msgid "Tapping on the download icon we will get a Content Hub to *save* the game file (which is actually an export)."
 msgstr ""
+"Дотиком на значок завантаження ми накажемо Content Hub *зберегти* ігровий "
+"файл (що насправді є експортом)."
 
 #: ../../appdev/guides/contenthub.rst:68
 msgid "The game file is a file of type ``glksave``. We will tell Content Hub that we are sending a file of type ``All`` (`see the Install Page code <https://gitlab.com/cibersheep/gelek/blob/master/app/InstallPage.qml#L38>`_)."
 msgstr ""
+"Ігровий файл — це файл типу ``glksave``. Ми скажемо Content Hub, що хочемо "
+"надіслати файл типу ``All`` (всі) (`див. код сторінки інсталяції <https://"
+"gitlab.com/cibersheep/gelek/blob/master/app/InstallPage.qml#L38>`_)."
 
 #: ../../appdev/guides/contenthub.rst:81
 msgid "``contentType`` is ``ContentType.All``, so we will only see apps which are able to receive unmarked file types. ``handler`` is ``ContentHandler.Destination``, so the app selected should store the saved game."
 msgstr ""
+"``contentType`` — це ``ContentType.All``, так ми побачимо лише програми, "
+"здатні отримувати невказані типи файлів. ``handler`` — це "
+"``ContentHandler.Destination``, так обрана програма повинна скопіювати "
+"збережену гру."
 
 #: ../../appdev/guides/contenthub.rst:83
 msgid "Tapping on the File Manager we will save the saved game in the folder we choose."
 msgstr ""
+"Дотиком по Файловому менеджеру ми скопіюємо збережену гру в обраній теці."
 
 #: ../../appdev/guides/contenthub.rst:86
 msgid "Sharing"
-msgstr ""
+msgstr "Спільний доступ"
 
 #: ../../appdev/guides/contenthub.rst:88
 msgid "Similarly, tapping on the share icon will allow us to send the saved game through Telegram to ourselves (`see the Webapp Creator Import Page source code <https://gitlab.com/cibersheep/webapp-creator/blob/master/webapp-creator/app/ImportPage.qml#L38>`_). Sharing is similar to exporting, except the destination app may share the content externally (for example, over Telegram or text message)."
 msgstr ""
+"Так само, дотик на значок спільного доступу дозволить нам надіслати "
+"збережену гру через Telegram собі (`див. початковий код сторінки імпорту "
+"Webapp Creator <https://gitlab.com/cibersheep/webapp-creator/blob/master/"
+"webapp-creator/app/ImportPage.qml#L38>`_). Спільний доступ схожий на "
+"експорт, за виключенням того, що програма призначення може ділитися "
+"контентом назовні (наприклад, через Telegram або у текстовому повідомленні)."
 
 #: ../../appdev/guides/contenthub.rst:101
 msgid "The only difference between this and the previous code is that ``handler`` is ``ContentHandler.Share``."
 msgstr ""
+"Єдина відмінність між цим та попереднім кодом це те, що ``handler`` — це "
+"``ContentHandler.Share``."
 
 #: ../../appdev/guides/contenthub.rst:104
 msgid "Wait a minute. Why the different apps?"
-msgstr ""
+msgstr "Зачекайте хвильку. Чому різні програми?"
 
 #: ../../appdev/guides/contenthub.rst:109
 msgid "Content Hub: Export vs Share"
-msgstr ""
+msgstr "Content Hub: Експорт та Спільний доступ"
 
 #: ../../appdev/guides/contenthub.rst:111
 msgid "Each developer can decide the rules each app would follow in relation to the Content Hub. Why the OpenStore is shown as the destination of an export?"
 msgstr ""
+"Кожен розробник може встановити правила, за якими кожна програма може діяти "
+"з Content Hub. Чому призначення для експорту — це OpenStore?"
 
 #: ../../appdev/guides/contenthub.rst:113
 msgid "Let’s check its manifest.json"
-msgstr ""
+msgstr "Нумо глянемо на його manifest.json"
 
 #: ../../appdev/guides/contenthub.rst:126
 msgid "The above code defines that the hooks for the app named ``\"openstore\"`` in relation to the ``\"content-hub\"`` should follow the rules defined in ``openstore-contenthub.json``"
 msgstr ""
+"Код вище визначає, що перехоплення (хуки) для програми з назвою ``"
+"\"openstore\"``, пов'язані з ``\"content-hub\"`` повинні дотримуватися "
+"правил, визначених у ``openstore-contenthub.json``"
 
 #: ../../appdev/guides/contenthub.rst:136
 msgid "This means, the OpenStore will be the destination for *all* ``ContentTypes``."
-msgstr ""
+msgstr "Це означає, що OpenStore буде призначенням для *усіх* ``ContentTypes``."
 
 #: ../../appdev/guides/contenthub.rst:138
 msgid "What about uMatriks? Let’s see its ``content-hub.json``"
-msgstr ""
+msgstr "Що там з uMatriks? Поглянемо на його ``content-hub.json``"
 
 #: ../../appdev/guides/contenthub.rst:166
 msgid "So, with this example, uMatriks will be able to be the destination, source and share app for all kinds of ``ContentType``. What about the other hooks in the ``manifest.json``? That is discussed in the next guide."
 msgstr ""
+"З цим прикладом uMatriks може бути призначенням, джерелом та програмою для "
+"спільного доступу для усіх типів ``ContentType``. Що з іншими хуками у "
+"``manifest.json``? Про це йдеться у наступних поясненнях."
 
 #: ../../appdev/guides/dependencies.rst:2
 msgid "Handle C++ dependencies with Clickable"
-msgstr ""
+msgstr "Опікування залежностями C++ через Clickable"
 
 #: ../../appdev/guides/dependencies.rst:4
 msgid "If an app depends on a library that is not pre-installed in Ubuntu Touch, the app needs to ship it inside the click package. This guide shows how this can be done with Clickable."
 msgstr ""
+"Якщо програма залежна від бібліотеки, яка стандартно не встановлена в Ubuntu "
+"Touch, її потрібно додати до click-пакунку програми. Ця настанова демонструє "
+"як це робиться з Clickable."
 
 #: ../../appdev/guides/dependencies.rst:7
 #: ../../porting/build_and_boot/index.rst:11
 msgid "Building"
-msgstr ""
+msgstr "Створення"
 
 #: ../../appdev/guides/dependencies.rst:8
 msgid "Sometimes libraries are available pre-built, allowing you to skip the build step. Compiling your dependency is recommended though, as it gives you more control over the whole process and may lead to better results (e.g. better performance or smaller package sizes)."
 msgstr ""
+"Іноді бібліотеки вже готові, дозволяючи пропустити крок побудови (створення)"
+". Однак рекомендується компіляція таких залежностей — так буде більше "
+"контролю над усім процесом і, можливо, надасть кращі результати (наприклад, "
+"кращу продуктивність або менші розміри пакунків)."
 
 #: ../../appdev/guides/dependencies.rst:11
 msgid "Compilation"
-msgstr ""
+msgstr "Компіляція"
 
 #: ../../appdev/guides/dependencies.rst:12
 msgid "Put the library's source code at ``libs/LIBNAME`` (replacing ``LIBNAME`` by the library's name), because this is where clickable will look for it by default. If the dependency source code is available as a git repository, it is a good idea to add it as a `git submodule <https://git-scm.com/book/de/v1/Git-Tools-Submodule>`_. Otherwise add a script to download the sources."
