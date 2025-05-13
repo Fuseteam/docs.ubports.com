@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-04-01 20:56+0000\n"
+"PO-Revision-Date: 2025-05-14 07:02+0000\n"
 "Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -560,26 +560,24 @@ msgstr ""
 "version suivante du canal stable."
 
 #: ../../about/process/issue-tracking.rst:50
-#, fuzzy
 msgid ""
 "**None (removed from the project)**: Open issue labeled \"help wanted\". "
 "Community contributions are required to resolve it. If it's closed, either a "
 "patch has been released on the stable channel (a comment on the issue should "
 "link to the patch) or the issue is rejected (labeled \"wontfix\")."
 msgstr ""
-"**None (removed from the project)** (aucun, retiré du projet) : si le "
+"**None (removed from the project)** (aucun, retiré du projet) : si le "
 "problème est ouvert et marqué « help wanted » (aide souhaitée), des "
 "contributions de la communauté sont nécessaires pour résoudre le problème. "
 "S'il est clos, alors soit un correctif a été fourni sur le canal stable (un "
 "commentaire sur le problème devrait alors être joint au correctif), soit le "
-"problème a été rejeté (marqué « wontfix » : ne sera pas corrigé)."
+"problème a été rejeté (marqué « wontfix » : ne sera pas corrigé)."
 
 #: ../../about/process/issue-tracking.rst:55
 msgid "Labels"
 msgstr "Mots-clés"
 
 #: ../../about/process/issue-tracking.rst:57
-#, fuzzy
 msgid ""
 "All issues — even closed ones — should be labeled to allow use of GitHub's "
 "global filtering. For example, `these are all of the issues labeled "
@@ -597,29 +595,24 @@ msgstr ""
 ">`__ pour plus d'informations sur les recherches et le filtrage."
 
 #: ../../about/process/issue-tracking.rst:60
-#, fuzzy
 msgid "List of labels normally used by all repositories:"
-msgstr ""
-"Voici une liste des mots-clés qui sont normalement utilisés par tous les "
-"dépôts."
+msgstr "Liste des mots-clés qui sont normalement utilisés par tous les dépôts."
 
 #: ../../about/process/issue-tracking.rst:62
-#, fuzzy
 msgid ""
 "**needs confirmation**: The bug needs confirmation and / or further "
 "detailing by affected users."
 msgstr ""
-"**needs confirmation** (confirmation nécessaire) : le problème demande une "
+"**needs confirmation** (confirmation nécessaire) : le problème demande une "
 "confirmation et / ou un complément d'information par les utilisateurs "
 "concernés."
 
 #: ../../about/process/issue-tracking.rst:64
-#, fuzzy
 msgid ""
 "**bug**: This issue is a confirmed bug. If it's reproducible, reproduction "
 "steps are described."
 msgstr ""
-"**bug** (bogue) : ce problème est confirmé être un bogue. S'il est "
+"**bug** (bogue) : Ce problème est confirmé être un bogue. S'il est "
 "reproductible, les étapes nécessaires à sa reproduction sont décrites."
 
 #: ../../about/process/issue-tracking.rst:66
@@ -648,12 +641,11 @@ msgstr ""
 "au mauvais endroit."
 
 #: ../../about/process/issue-tracking.rst:71
-#, fuzzy
 msgid ""
 "**duplicate**: This has already been reported elsewhere. Please provide a "
 "link and close."
 msgstr ""
-"**duplicate** (doublon) : ceci a déjà été signalé à un autre endroit. "
+"**duplicate** (doublon) : ceci a déjà été signalé à un autre endroit. "
 "Veuillez fournir un lien et clôturer."
 
 #: ../../about/process/issue-tracking.rst:73
@@ -676,15 +668,14 @@ msgstr ""
 "corrigeant un problème réel."
 
 #: ../../about/process/issue-tracking.rst:77
-#, fuzzy
 msgid ""
 "**wontfix**: A bug it does not make sense to fix, since it will probably "
 "resolve itself, be too much work, isn't fixable, or an underlying component "
 "will soon change."
 msgstr ""
-"**wontfix** (ne sera pas corrigé) : il est inutile de corriger ce problème "
-"car il se résoudra sûrement de lui-même ; ce problème demande beaucoup trop "
-"de travail ; ce problème n'est pas réparable ou un composant d'une couche "
+"**wontfix** (ne sera pas corrigé) : il est inutile de corriger ce problème "
+"car il se résoudra sûrement de lui-même ; ce problème demande beaucoup trop "
+"de travail ; ce problème n'est pas réparable ou un composant d'une couche "
 "inférieure changera bientôt."
 
 #: ../../about/process/issue-tracking.rst:81
