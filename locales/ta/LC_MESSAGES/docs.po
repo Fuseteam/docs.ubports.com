@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-14 07:02+0000\n"
-"Last-Translator: doniks <p.putz@yahoo.de>\n"
+"PO-Revision-Date: 2025-05-15 14:16+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/ta/>\n"
 "Language: ta\n"
@@ -46,7 +46,6 @@ msgstr ""
 "சாதனங்களுக்குக் கொண்டுவரும் நம்பிக்கையில் ஒருவருக்கொருவர் கல்வி கற்பிக்கவும் முடியும்."
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -58,7 +57,7 @@ msgstr ""
 "உபுண்டு டச் <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-"
 "and-iot-rather-than-phone-and-convergence-க்கான ஆதரவை நிறுத்தும் திட்டத்தை "
 "கெனானிகல் திடீரென அறிவித்த பிறகு />`_ ஏப்ரல் 2017 இல், UBports மற்றும் அதன் சகோதரி "
-"திட்டங்கள் மூலக் குறியீட்டில் வேலை செய்யத் தொடங்கின; எதிர்காலத்திற்கான அதன் சாத்தியங்களை "
+"திட்டங்கள் மூலக் குறியீட்டில் வேலை செய்யத் தொடங்கின; எதிர்காலத்திற்கான அதன் சாத்தியங்களைப் "
 "பராமரித்தல் மற்றும் விரிவுபடுத்துதல். இன்று, UBports ஒரு தன்னார்வ குழுவாக உள்ளது, இது "
 "ஒரு தொண்டு நிறுவனமாக முறைப்படுத்தப்பட்டுள்ளது."
 
@@ -552,10 +551,12 @@ msgid ""
 "Consult the `GitHub help pages <https://help.github.com/articles/about-"
 "searching-on-github/>`__ to learn more about searching and filtering."
 msgstr ""
-"அனைத்து சிக்கல்களும் - மூடியவை கூட - கிட்அப்பின் உலகளாவிய வடிகட்டலைப் பயன்படுத்த அனுமதிக்"
-"க பெயரிடப்பட வேண்டும். எடுத்துக்காட்டாக, `இவை அனைத்தும் 'மேம்பாடு' என்று பெயரிடப்பட்ட "
-"சிக்கல்கள் அனைத்தும் @ubports <https://github.com/search? தேடுதல் மற்றும் வடிகட்டுதல் "
-"பற்றி மேலும் அறிய __ __ __."
+"அனைத்து சிக்கல்களும் - மூடியவை கூட - அறிவிலிமையத்தின் உலகளாவிய வடிகட்டலைப் பயன்படுத்த "
+"அனுமதிக்க பெயரிடப்பட வேண்டும். எடுத்துக்காட்டாக, `இவை அனைத்தும் 'மேம்பாடு' என்று "
+"பெயரிடப்பட்ட சிக்கல்கள் அனைத்தும் @ubports <https://github.com/"
+"search?utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+label%3A%22feature+"
+"request%22&type=> தேடுதல் மற்றும் வடிகட்டுதல் பற்றி மேலும் அறிய <https://"
+"help.github.com/articles/about-searching-on-github/>`__ பார்க்கவும்."
 
 #: ../../about/process/issue-tracking.rst:60
 msgid "List of labels normally used by all repositories:"
@@ -1198,8 +1199,7 @@ msgstr ""
 
 #: ../../appdev/external-docs.rst:21
 msgid "`Kirigami API <https://api.kde.org/frameworks/kirigami/html/>`__"
-msgstr ""
-"`கியாகாமி தியா п/படுக்கைகள்: /ba.kde.org/frameworks/kipigami/html/> __ __ __"
+msgstr "`கியாகாமி பநிஇ <https://api.kde.org/frameworks/kirigami/html/>`__"
 
 #: ../../appdev/external-docs.rst:22
 msgid ""
@@ -1207,7 +1207,7 @@ msgid ""
 "html>`__"
 msgstr ""
 "`QT விரைவு கட்டுப்பாடுகள் 2 பநிஇ <https://doc.qt.io/qt-5/qtquickcontrols-"
-"index.html> ____ __ __"
+"index.html>`__"
 
 #: ../../appdev/guides/contenthub.rst:4
 msgid "The content hub - tips and tricks"
@@ -1490,7 +1490,10 @@ msgstr ""
 msgid ""
 "Add a `libraries section <https://clickable.bhdouglass.com/en/latest/project-"
 "config.html#libraries>`_ to your clickable.yaml, like this:"
-msgstr "இது போன்ற `நூலகங்கள் பிரிவு <https://clickable.bhdouglass."
+msgstr ""
+"உங்க சொடுக்கக்கூடிய.yaml-க்கு ஒரு `நூலகங்கள் பிரிவை <https://"
+"clickable.bhdouglass.com/en/latest/project-config.html#libraries>`_ சேர், "
+"இதுபோல்:"
 
 #: ../../appdev/guides/dependencies.rst:24
 msgid ""
@@ -1696,9 +1699,9 @@ msgid ""
 "clickable.bhdouglass.com/en/latest/project-config.html#install-lib>`_ key to "
 "your clickable.yaml:"
 msgstr ""
-"கோப்புகளை சொடுக்கு தொகுப்பில் பெற, `install_lib <https://"
-"clickable.bhdouglass.com/en/latest/project-config.html#install-lib>` _ _ உங்கள்"
-" சொடுக்கு செய்யக்கூடியது."
+"சொடுக்கு தொகுப்பில் கோப்புகளைப் பெற, `நிறுவு_நூல் <https://"
+"clickable.bhdouglass.com/en/latest/project-config.html#install-lib>`_ விசையை "
+"உங்கள் சொடுக்கக்கூடிய.yaml இல் சேர்:"
 
 #: ../../appdev/guides/dependencies.rst:115
 msgid ""
@@ -1814,7 +1817,7 @@ msgid ""
 "launchpad.net/~unav-devs/unav/trunk/view/head:/manifest.json#L9>`_:"
 msgstr ""
 "எங்கள் வழிசெலுத்தல் பயன்பாடு எவ்வாறு உள்ளே இருக்கும் என்று பார்ப்போம். அதன் `மேனிஃபெச்ட்.சான் "
-"குறியீட்டில்` `urldispatcher` க்கான சிறப்பு கொக்கிகள் UNAV இன் மேனிஃபெச்ட் காட்டுகிறது."
+"குறியீட்டில்` `urldispatcher` க்கான சிறப்பு கொக்கிகள் UNAV இன் மேனிஃபெச்ட் காட்டுகிறது:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:91
 msgid ""
@@ -2450,7 +2453,7 @@ msgstr "கிளையன்ட் பக்க ஆவணத்தில் வ
 
 #: ../../appdev/guides/pushnotifications.rst:181
 msgid "clear_pending"
-msgstr "clear_pending"
+msgstr "துடை_நிலுவையில்_உள்ளது"
 
 #: ../../appdev/guides/pushnotifications.rst:181
 #: ../../appdev/guides/pushnotifications.rst:250
@@ -3689,7 +3692,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:135
 msgid "document_files_read"
-msgstr "document_files_read"
+msgstr "ஆவணக்_கோப்புகள்_படிக்கப்பட்டவை"
 
 #: ../../appdev/platform/apparmor.rst:137
 msgid ""
@@ -3949,7 +3952,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:285
 msgid "video_files_read"
-msgstr "video_files_read"
+msgstr "காணொளி_கோப்புகள்_படிக்கப்பட்டது"
 
 #: ../../appdev/platform/apparmor.rst:287
 msgid ""
@@ -4406,8 +4409,12 @@ msgid ""
 "access to www.ubuntu.com/desktop/features and www.ubuntu.com/phone/features "
 "while not allowing access to www.ubuntu.com/desktop or www.ubuntu.com/phone::"
 msgstr ""
-"உங்கள் தளத்தின் சில துணைப்பகுதிகளுக்கு மட்டுமே அணுகலை வெப்ஆப்பிலிருந்து மட்டும் கட்டுப்படுத்"
-"த விரும்பலாம். வைல்டு அட்டை வடிவங்களுடன் இது எளிதானது. ."
+"வலைப்பயன்பாட்டிற்குள் உங்கள் தளத்தின் சில துணைப்பக்கங்களுக்கு மட்டும் அணுகலை நீங்கள் கட்டுப்படுத்"
+"த விரும்பலாம். வைல்ட்கார்டு வடிவங்களுடன் இது எளிதானது. (பிற துணைப்பக்கங்களுக்கான "
+"இணைப்புகள் உலாவியில் திறக்கப்படும்.) எடுத்துக்காட்டாக, பின்வருபவை www.ubuntu.com/"
+"desktop/features மற்றும் www.ubuntu.com/phone/features ஐ அணுக அனுமதிக்கிறது, அதே"
+" நேரத்தில் www.ubuntu.com/desktop அல்லது www.ubuntu.com/phone ஐ அணுக "
+"அனுமதிக்காது::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
@@ -4438,7 +4445,11 @@ msgid ""
 "Many URLs have one or more subdomains. (For example, in the following, "
 "\"developer\" is the subdomain: developer.ubuntu.com.) You can allow access "
 "to a single subdomain (and all of its subpages) with a pattern like this:::"
-msgstr "பல முகவரி களில் ஒன்று அல்லது அதற்கு மேற்பட்ட துணை டொமைன்கள் உள்ளன. ."
+msgstr ""
+"பல முகவரி களில் ஒன்று அல்லது அதற்கு மேற்பட்ட துணை டொமைன்கள் உள்ளன.(எடுத்துக்காட்டாக, "
+"பின்வருவனவற்றில், \"டெவலப்பர்\" என்பது துணை டொமைன் ஆகும்: developer.ubuntu.com.) இது "
+"போன்ற ஒரு வடிவத்துடன் ஒற்றை துணை டொமைனுக்கு (மற்றும் அதன் அனைத்து துணைப்பக்கங்களுக்கும்) "
+"அணுகலை நீங்கள் அனுமதிக்கலாம்:::"
 
 #: ../../appdev/webapp/guide.rst:98
 msgid ""
@@ -6492,7 +6503,7 @@ msgstr "Openstore இல் `__ இல் கால்குலேட்டர�
 
 #: ../../contribute/preinstalled-apps.rst:25
 msgid "`calculator-app on GitLab`_"
-msgstr "கிட்லாப்`_ இல் கால்குலேட்டர்-ஆப்."
+msgstr "`அறிவிலிஆய்வு இல் கணிப்பான் பயன்பாடு`_"
 
 #: ../../contribute/preinstalled-apps.rst:26
 msgid "Calendar"
@@ -7940,7 +7951,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:82
 msgid "stock_message.svg"
-msgstr "stock_message.svg"
+msgstr "பங்கு_செய்தி.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:83
 msgid "share.svg"
@@ -9787,9 +9798,9 @@ msgid ""
 "with your own::"
 msgstr ""
 "உங்கள் ஆதாரங்கள் இப்போது மேனிஃபெச்ட்டுக்குள் நுழைய வேண்டும். உங்கள் சாதன களஞ்சியத்துடன் "
-"தொடங்கவும். <மேனிஃபெச்ட்> மற்றும் </மேனிஃபெச்ட்> குறிச்சொற்களுக்கு இடையில், கீழே உள்ள வரியை"
-" உருவாக்கி, சதுர அடைப்புக்குறிக்குள் உள்ள தகவல்களை உங்கள் சொந்தத்துடன் மாற்றுவதை உறுதிசெய்"
-"க ::"
+"தொடங்கவும். <manifest>மற்றும்</manifest> குறிச்சொற்களுக்கு இடையில், கீழே உள்ள வரியை "
+"உருவாக்கி, சதுர அடைப்புக்குறிக்குள் உள்ள தகவல்களை உங்கள் சொந்தத்துடன் மாற்றுவதை உறுதிசெய்க "
+"::"
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:64
 #: ../../porting/build_and_boot/H9_setup_sources.rst:64
@@ -10180,9 +10191,9 @@ msgid ""
 "brackets with your own::"
 msgstr ""
 "உங்கள் ஆதாரங்கள் இப்போது மேனிஃபெச்ட்டுக்குள் நுழைய வேண்டும். உங்கள் சாதன களஞ்சியத்துடன் "
-"தொடங்கவும். `` <மேனிஃபெச்ட்> `` மற்றும் `` </மேனிஃபெச்ட்> `` குறிச்சொற்களுக்கு இடையில், "
-"கீழே உள்ள வரியை உருவாக்கி, சதுர அடைப்புக்குறிக்குள் உள்ள தகவல்களை உங்கள் சொந்தத்துடன் "
-"மாற்றுவதை உறுதிசெய்க ::"
+"தொடங்கவும். ``<manifest>`` மற்றும் `` </manifest>`` குறிச்சொற்களுக்கு இடையில், கீழே உள்"
+"ள வரியை உருவாக்கி, சதுர அடைப்புக்குறிக்குள் உள்ள தகவல்களை உங்கள் சொந்தத்துடன் மாற்றுவதை "
+"உறுதிசெய்க ::"
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:69
 msgid "If you are unsure of your remote, refer to :ref:`H9_remotes`."
@@ -10495,7 +10506,9 @@ msgstr ""
 msgid ""
 "Halium 9.0, arm64 (64 bit): `ubuntu-touch-android9-arm64.tar.gz <https://ci."
 "ubports.com/job/xenial-hybris-android9-rootfs-arm64/>`_"
-msgstr "ஆலியம் 9.0, ஏ.ஆர்.எம்."
+msgstr ""
+"ஆலியம் 9.0, கை64(64 இருமம்: `ubuntu-touch-android9-arm64.tar.gz <https://"
+"ci.ubports.com/job/xenial-hybris-android9-rootfs-arm64/>`_"
 
 #: ../../porting/build_and_boot/Halium_install.rst:53
 msgid "Download the halium-install script"
@@ -10936,7 +10949,7 @@ msgid ""
 "``deviceinfo_kernel_source=\"https://github.com/muhammad23012009/"
 "android_kernel_xiaomi_dandelion\"``"
 msgstr ""
-"``deviceinfo_kernel_source="
+"``சாதனத் தகவல்_கர்னல்_மூலம்="
 "\"https://github.com/muhammad23012009/android_kernel_xiaomi_dandelion\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:126
@@ -11008,7 +11021,7 @@ msgid ""
 "``deviceinfo_kernel_cmdline=\"console=tty0 bootopt=64S3,32N2,64N2 "
 "systempart=/dev/mapper/system\"``"
 msgstr ""
-"``deviceinfo_kernel_cmdline="
+"``சாதனத்தகவல்_கர்னல்_கட்டளைவரி="
 "\"console=tty0 bootopt=64S3,32N2,64N2 systempart=/dev/mapper/system\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:144
@@ -11047,9 +11060,10 @@ msgid ""
 "``ld.lld`` together. Usually needed by GKI devices. (Once enabled, you do "
 "not needed to specify ``deviceinfo_kernel_use_lld``)"
 msgstr ""
-"இந்த கட்டமைப்பு உங்கள் கர்னலை எல்.எல்.வி.எம் மற்றும் எல்.டி.ஓ உடன் தொகுக்க உங்களை "
-"அனுமதிக்கிறது, அது அதை ஆதரிக்கிறது. `` கிளாங்`` மற்றும் `ld.lld`` ஆகியவற்றைக் "
-"குறிப்பிடுவதற்கான தூய்மையான வழி இது. பொதுவாக சி.கே.ஐ சாதனங்களால் தேவைப்படுகிறது. ."
+"இந்தக் கட்டமைப்பு உங்கள் கர்னலை எல்எல்விஎம் மற்றும் எல்டிஓ உடன் தொகுக்க உங்களை அனுமதிக்கிறது, "
+"அது அதை ஆதரிக்கிறது. ``clang`` மற்றும் ``ld.lld`` ஆகியவற்றைக் குறிப்பிடுவதற்கான "
+"தூய்மையான வழி இது. பொதுவாக சிகேஐ சாதனங்களால் தேவைப்படுகிறது. (இயக்கப்பட்டவுடன், "
+"``deviceinfo_kernel_use_lld`` இதனைக் குறிப்பிடதேவையில்லை)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:160
 msgid "``deviceinfo_kernel_llvm_compile=\"true\"``"
@@ -11463,9 +11477,13 @@ msgid ""
 "unpack_bootimg.py\" This will download the unpack_bootimg.py script, which "
 "you'll now use to pull your kernel offsets and other values alike"
 msgstr ""
-"இப்போது துவக்க படத்தைத் திறக்க அவ்வாறு செய்ய பல பயன்பாடுகள் உள்ளன. அவற்றில் ஒன்று ஆண்ட்ராய்டு"
-" ஆல் வழங்கப்பட்ட பைதான் ச்கிரிப்ட் ஆகும். இப்போதைக்கு இதைப் பயன்படுத்துவோம். உங்கள் தற்போதைய "
-"வேலை கோப்பகத்தில் அதைப் பதிவிறக்க \"wget https://raw.githubusercontent."
+"இப்போது துவக்க படத்தைத் திறக்க அவ்வாறு செய்யப் பல பயன்பாடுகள் உள்ளன. அவற்றில் ஒன்று "
+"ஆண்ட்ராய்டு ஆல் வழங்கப்பட்ட பைதான் ச்கிரிப்ட் ஆகும். இப்போதைக்கு இதைப் பயன்படுத்துவோம். உங்கள் "
+"தற்போதைய வேலை கோப்பகத்தில் அதைப் பதிவிறக்க \"wget https://"
+"raw.githubusercontent.com/LineageOS/android_system_tools_mkbootimg/"
+"lineage-19.1/unpack_bootimg.py\" இதை இயக்கு. இது unpack_bootimg.py ஸ்கிரிப்டைப் "
+"பதிவிறக்கும், இதை நீங்கள் இப்போது உங்கள் கர்னல் ஆஃப்செட்களையும் பிற மதிப்புகளையும் ஒரே "
+"மாதிரியாக இழுக்கப் பயன்படுத்துவீர்கள்"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:294
 msgid "Bring your boot.img into the temp directory."
@@ -11493,7 +11511,7 @@ msgstr "துவக்க மேசிக்: Android!"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:303
 msgid "kernel_size: 11399060"
-msgstr "kernel_size: 11399060"
+msgstr "கர்னல்_அளவு: 11399060"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:305
 msgid "kernel load address: 0x40080000"
@@ -11967,7 +11985,8 @@ msgstr ""
 "உங்கள் சாதனத்தின் கர்னல் பதிப்போடு தொடர்புடைய `Apparmor patch <https://github.com/"
 "ubports/apparmor-backports-ut> _ _. உங்கள் கர்னல் பதிப்பு உங்கள் கர்னல் டெஃப்கான்ஃபிக் "
 "கோப்பின் தொடக்கத்தில் குறிப்பிடப்பட்டுள்ளது, அதாவது நீங்கள் பிரிவில் திருத்திய ஒன்று: "
-"குறிப்பு: `h7_edit-kernel-config` மேலே. ."
+"குறிப்பு: `h7_edit-kernel-config` மேலே. (பின்புறப் பரிமாற்றம்பற்றிய கூடுதல் தகவலுக்கு"
+", கீழே உள்ள :ref:`bluetooth>Bluetooth>` பகுதியைப் பார்க்கவும்.)"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:16
 msgid ""
@@ -12033,7 +12052,7 @@ msgid ""
 "`3.18 AppArmor patches <https://github.com/MotoZ-2016/"
 "android_kernel_motorola_msm8996/commits/halium-9.0/security/apparmor>`_"
 msgstr ""
-"`3.18 AppArmor patches <https://github.com/MotoZ-2016/"
+"`3.18 பயன்கவசம் ஒட்டுகள் <https://github.com/MotoZ-2016/"
 "android_kernel_motorola_msm8996/commits/halium-9.0/security/apparmor>`_"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:30
@@ -13406,7 +13425,10 @@ msgid ""
 "Both ``70-android.rules`` and ``android.conf`` should be placed in the "
 "subdirectory ``ubuntu`` of the repository and the following lines need to be "
 "added to ``device.mk`` in order to copy them onto the generated image::"
-msgstr "`` 70-ஆண்ட்ராய்டு."
+msgstr ""
+"''70-android.rules'' மற்றும் ''android.conf'' இரண்டும் களஞ்சியத்தின் ''உபுண்டு'' துணை"
+" அடைவில் வைக்கப்பட வேண்டும், மேலும் உருவாக்கப்பட்ட படத்தில் அவற்றை நகலெடுக்க பின்வரும் "
+"வரிகளை ''device.mk'' இல் சேர்க்க வேண்டும்::"
 
 #: ../../porting/configure_test_fix/Overlay.rst:140
 msgid "Rebuilding system.img"
@@ -13529,7 +13551,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Overlay.rst:165
 msgid "Building on GitLab CI"
-msgstr "அறிவிலிஆய்வு சி.ஐ."
+msgstr "அறிவிலிஆய்வு சிஐ"
 
 #: ../../porting/configure_test_fix/Overlay.rst:167
 msgid ""
@@ -14135,7 +14157,7 @@ msgid ""
 "SurfaceFlinger."
 msgstr ""
 "மேற்பரப்பு ஃபிங்கிங்கரைப் போலவே, தவறவிட்ட சட்டகத்திற்குப் பிறகு மறுவடிவமைப்பதைத் தவிர்க்கவோ"
-" இல்லையா?"
+" இல்லையா."
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:48
 msgid ""
@@ -14242,7 +14264,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/index.rst:4
 msgid "DeviceInfo"
-msgstr "DeviceInfo"
+msgstr "சாதனத்தகவல்"
 
 #: ../../porting/configure_test_fix/device_info/index.rst:6
 msgid ""
@@ -14851,11 +14873,13 @@ msgid ""
 "halium_arm64-(Halium-9)>`_."
 msgstr ""
 "ஆண்ட்ராய்டு சிஎச்ஐ கட்டமைப்பின் வளர்ச்சி இப்போது கிடைக்கக்கூடிய பொதுவான ஆலியம் 9.0 ARM64 "
-"கணினி படத்திற்கான வழியை அழித்தது (இனிமேல் *ஆலியம் சிஎச்ஐ *என குறிப்பிடப்படுகிறது, "
+"கணினி படத்திற்கான வழியை அழித்தது (இனிமேல் *ஆலியம் சிஎச்ஐ *எனக் குறிப்பிடப்படுகிறது, "
 "அல்லது வெறுமனே *சிஎச்ஐ *) உபுண்டு தொடுதலுக்குப் பயன்படுத்தப்படுகிறது. இருப்பினும், இது "
 "ஆண்ட்ராய்டு GSI இலிருந்து சற்று வித்தியாசமானது. ஆலியம் சி.எச்.ஐ.யின் விரிவான "
-"விளக்கத்திற்கு, தயவுசெய்து அறிவிலிஆய்வு சி.ஐ.யில் உள்ள விக்கி பக்கத்தைப் பார்க்கவும் பொதுவா"
-"ன ஆலியம் சிச்டம் படத்தை உருவாக்குகிறது <https://github.com/ubports/porting- நோட்ச்"
+"விளக்கத்திற்கு, தயவுசெய்து அறிவிலிஆய்வு சி.ஐ.யில் உள்ள விக்கிப் பக்கத்தைப் பார்க்கவும் "
+"பொதுவான ஆலியம் சிச்டம் படத்தை உருவாக்குகிறது <https://github.com/ubports/"
+"porting-notes/wiki/GitLab-CI-builds-for-devices-based-on-"
+"halium_arm64-(Halium-9)>`_."
 
 #: ../../porting/introduction/Intro.rst:65
 msgid "What does this mean for the porting process?"
@@ -15313,9 +15337,10 @@ msgid ""
 "i686 packages. Please refer to `‘Official Repositories/multilib’ on the Arch "
 "Wiki <https://wiki.archlinux.org/index.php/Official_repositories>`_."
 msgstr ""
-"உங்கள் புரவலன் கணினியில் 64 பிட் கட்டமைப்பு இருந்தால், நீங்கள் [மல்டிலிப்] களஞ்சியத்தை உங்கள் /"
-"etc/pacman.conf இல் சேர்க்க வேண்டும். இது i686 தொகுப்புகளை நிறுவவும் இயக்கவும் உங்களை "
-"அனுமதிக்கும். பரமத்தில் `‘ அதிகாரப்பூர்வ களஞ்சியங்கள்/மல்டிலிப் ’ஐப் பார்க்கவும்"
+"உங்கள் ஹோஸ்ட் கணினியில் 64-பிட் கட்டமைப்பு இருந்தால், உங்கள் /etc/pacman.conf க்கு "
+"[multilib] களஞ்சியத்தை சேர்க்க வேண்டும். இது i686 தொகுப்புகளை நிறுவ மற்றும் இயக்க உங்களை"
+" அனுமதிக்கும். ஆர்ச் விக்கி <https://wiki.archlinux.org/index.php/"
+"Official_repositories>'_ இல் \"அதிகாரப்பூர்வ களஞ்சியங்கள்/மல்டிலிப்\" ஐப் பார்க்கவும்."
 
 #: ../../porting/introduction/Setting_up.rst:75
 msgid "Make sure you have the base-devel package installed."
@@ -15738,7 +15763,7 @@ msgstr ""
 
 #: ../../systemdev/kernel-hal.rst:35
 msgid "With CI"
-msgstr "சி.ஐ."
+msgstr "சிஐ உடன்"
 
 #: ../../systemdev/kernel-hal.rst:36
 msgid "Nexus 5 (hammerhead)"
@@ -16272,7 +16297,7 @@ msgstr "உள்வரும் எம்.எம்.எச் வரைபட�
 
 #: ../../systemdev/mms-infrastructure.rst:42
 msgid "incoming-MMS.png"
-msgstr "உள்வரும்-எம்.எம்.எச்.பி.என்.சி."
+msgstr "உள்வரும்-எம்எம்எச்.எபிவ"
 
 #: ../../systemdev/mms-infrastructure.rst:46
 msgid "Outgoing MMS diagram"
@@ -16280,7 +16305,7 @@ msgstr "வெளிச்செல்லும் எம்.எம்.எச்
 
 #: ../../systemdev/mms-infrastructure.rst:49
 msgid "outgoing-MMS.png"
-msgstr "வெளிச்செல்லும்-எம்.எம்.எச்.பி.என்.சி."
+msgstr "வெளிச்செல்லும்-எம்எம்எச்.எபிவ"
 
 #: ../../systemdev/mms-infrastructure.rst:55
 msgid "initial source: https://wiki.ubuntu.com/Touch/Specs/MMSInfrastructure"
@@ -17552,7 +17577,7 @@ msgstr ""
 
 #: ../../systemdev/uploading-changes.rst:2
 msgid "Uploading and testing with ``ubports-qa``"
-msgstr "Uploading and testing with ``ubports-qa``"
+msgstr "``ubports-qa`` உடன் பதிவேற்றுதல் மற்றும் சோதனை செய்தல்"
 
 #: ../../systemdev/uploading-changes.rst:4
 msgid ""
@@ -18164,7 +18189,7 @@ msgstr "Adb செல் கட்டளைகள் ::"
 
 #: ../../userguide/advanceduse/adb.rst:64
 msgid "Additional Adb commands::"
-msgstr "Additional Adb commands::"
+msgstr "கூடுதல் ஆபிதி கட்டளைகள்::"
 
 #: ../../userguide/advanceduse/adb.rst:69
 msgid ""
@@ -18270,7 +18295,9 @@ msgstr ""
 msgid ""
 "1. A simple guide proposed by `Bastos77 <https://gist.github.com/bastos77>`_ "
 "and `Vanyasem <https://gist.github.com/vanyasem>`_"
-msgstr "1."
+msgstr ""
+"1. 'பாஸ்டோஸ்77 <https://gist.github.com/bastos77>'_ மற்றும் 'வன்யாசெம் <https://"
+"gist.github.com/vanyasem>'_ முன்மொழிந்த எளிய வழிகாட்டி"
 
 #: ../../userguide/advanceduse/dav.rst:24
 msgid ""
@@ -18338,7 +18365,9 @@ msgstr ""
 msgid ""
 "2. Or a full featured guide proposed by `UT-ilities <https://github.com/UT-"
 "ilities>`_"
-msgstr "2."
+msgstr ""
+"2. அல்லது 'UT-ilities <https://github.com/UT-ilities>' முன்மொழியப்பட்ட முழு அம்ச "
+"வழிகாட்டி _"
 
 #: ../../userguide/advanceduse/dav.rst:49
 msgid ""
@@ -18469,7 +18498,10 @@ msgid ""
 "Set your device usb in tethering mode: ``gdbus call --system --dest com."
 "meego.usb_moded --object-path /com/meego/usb_moded --method com.meego."
 "usb_moded.set_mode rndis_adb``"
-msgstr "உங்கள் சாதன யூ.எச்.பியை டெதரிங் பயன்முறையில் அமைக்கவும்: `` சி.டி.பி."
+msgstr ""
+"உங்கள் சாதன யூ.எச்.பியை டெதரிங் பயன்முறையில் அமைக்கவும்:``gdbus call --system --dest "
+"com.meego.usb_moded --object-path /com/meego/usb_moded --method "
+"com.meego.usb_moded.set_mode rndis_adb``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:19
 msgid ""
@@ -18664,7 +18696,7 @@ msgid ""
 "of 384x640 to the computer at 10.42.0.209 on port 1234::"
 msgstr ""
 "துறைமுகம் 1234 இல் 10.42.0.209 இல் கணினிக்கு 60 எஃப்.பி.எச் (--கேப்-இன்டர்வல் 1) மற்றும் "
-"384x640 ஐ ஒரு ஃபிரேம்சைச் மூலம் முன்னோக்கி மற்றும் சி.சே.ஐ.பி."
+"384x640 ஐ ஒரு ஃபிரேம்சைச் மூலம் முன்னோக்கி மற்றும் துசுருக்கி::"
 
 #: ../../userguide/advanceduse/screencasting.rst:48
 msgid "Example script"
@@ -18853,9 +18885,9 @@ msgid ""
 "Ubuntu phone via Wi-Fi <https://gurucubano.gitbooks.io/bq-aquaris-e-4-5-"
 "ubuntu-phone/content/en/chapter1.html>`_"
 msgstr ""
-"`குருகுபனோ: BQ அக்வாரிச் இ 4.5 உபுண்டு தொலைபேசி: யுபுண்டு தொலைபேசியை wi-fi "
-"<https://gurucubano.gitbooks.io/bq-aquaris-e-4-5-ubuntu-phone/necontent/en/"
-"chapter1.htmapter1.htmapter1."
+"`குருகுபனோ: BQ அக்வாரிச் இ 4.5 உபுண்டு தொலைபேசி: யுபுண்டு தொலைபேசியை வை-பை "
+"<https://gurucubano.gitbooks.io/bq-aquaris-e-4-5-ubuntu-phone/content/en/"
+"chapter1.html>`_"
 
 #: ../../userguide/advanceduse/switchchannel.rst:2
 msgid "Switch release channels"
