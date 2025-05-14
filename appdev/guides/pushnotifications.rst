@@ -278,3 +278,8 @@ Emblem-Counter
 +-----------+---------+------------------------------------------------------------------------------+
 | visible   | bool    | Set to true to show the counter, or false to hide it.                        |
 +-----------+---------+------------------------------------------------------------------------------+
+
+References
+----------
+
+See the documentation of the `Lomiri Push Service <https://gitlab.com/ubports/development/core/lomiri-push-service/-/tree/main/docs>`_.
