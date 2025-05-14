@@ -15,16 +15,10 @@ You may view this documentation in the following languages:
 
 .. rst-class:: lang-list
 
-* `English <https://docs.ubports.com/en/latest/>`_
-* `Català <https://docs.ubports.com/ca/latest/>`_
-* `Français <https://docs.ubports.com/fr/latest/>`_
-* `Deutsch <https://docs.ubports.com/de/latest/>`_
-* `Italiano <https://docs.ubports.com/it/latest/>`_
-* `Română <https://docs.ubports.com/ro/latest/>`_
-* `Русский <https://docs.ubports.com/ru/latest>`_
-* `Türkçe <https://docs.ubports.com/tr/latest/>`_
-* `Español <https://docs.ubports.com/es/latest/>`_
-* `Simplified Chinese <https://docs.ubports.com/zh_CN/latest/>`_
+* `English <https://docs.ubports.com/en>`_
+* `Tamil <https://docs.ubports.com/ta>`_
+
+In the small navigation box at the bottom, you can select a few more languages with partial translations.
 
 .. toctree::
    :maxdepth: 1
