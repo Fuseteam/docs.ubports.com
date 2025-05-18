@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-15 14:16+0000\n"
+"PO-Revision-Date: 2025-05-18 18:26+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/ta/>\n"
@@ -1685,13 +1685,14 @@ msgid ""
 "error messages you can ignore). In general, ``/usr/lib``  is a good bet when "
 "looking for the shared object files."
 msgstr ""
-"பகிரப்பட்ட பொருள் கோப்புகளுக்கான பாதையைக் கண்டறியவும். சொடுக்கு செய்யக்கூடிய வழியாக "
-"கட்டப்பட்ட நூலகங்களுக்கு, அவை நூலகத்தின் நிறுவல் டி.ஐ.ஆரில் எங்காவது அமைந்துள்ளன, இது "
-"இயல்பாக நூலகத்தின் உருவாக்க டிர் உள்ளே அமைந்துள்ளது (எ.கா. முன்பே கட்டப்பட்ட நூலகங்களுக்கு "
-"`` சொடுக்கு செய்யக்கூடிய ரன் \"கண்டுபிடி / -name 'libsomething.so'\" \"` `(` "
-"`libsomething.so`` ஐ மாற்றுவது நீங்கள் தேடும் கோப்பின் மூலம்) இயக்கவும். இது கோப்பிற்கான "
-"பாதையை அச்சிட வேண்டும் (நீங்கள் புறக்கணிக்கக்கூடிய சில பிழை செய்திகளுடன்). பொதுவாக, "
-"பகிரப்பட்ட பொருள் கோப்புகளைத் தேடும்போது ``/usr/lib`` ஒரு நல்ல பந்தயம்."
+"பகிரப்பட்ட பொருள் கோப்புகளுக்கான பாதையைக் கண்டறியவும். சொடுக்கு செய்யக்கூடிய வழியாகக் "
+"கட்டப்பட்ட நூலகங்களுக்கு, அவை நூலகத்தின் நிறுவல் அடைவில் எங்காவது அமைந்துள்ளன, இது இயல்பா"
+"க நூலகத்தின் உருவாக்க அடைவு உள்ளே அமைந்துள்ளது (எ.கா. ``build/arm-linux-gnueabihf/"
+"opencv/install``). முன்பே கட்டப்பட்ட நூலகங்களுக்கு ``சொடுக்கு செய்யக்கூடிய ரன் "
+"\"கண்டுபிடி / -name 'எதாவதுநூல்.so'\"``(நீங்கள் தேடும் கோப்பின் மூலம்``எதாவதுநூல்.so`` "
+"ஐ மாற்றுவது) இயக்கவும். இது கோப்பிற்கான பாதையை அச்சிட வேண்டும் (நீங்கள் புறக்கணிக்கக்கூடிய "
+"சில பிழை செய்திகளுடன்). பொதுவாக, பகிரப்பட்ட பொருள் கோப்புகளைத் தேடும்போது ``/usr/"
+"lib`` ஒரு நல்ல பந்தயம்."
 
 #: ../../appdev/guides/dependencies.rst:102
 msgid ""
@@ -1897,8 +1898,10 @@ msgid ""
 "com/ubports-linphone/linphone-simple/-/blob/master/linphone.desktop.in#L7>`_ "
 "file of the app."
 msgstr ""
-"`.Desktop <https://gitlab.com/ubports-linphone/linbhone-simple/-/blob/manter/"
-"manter/mantere/manternphone."
+"பயன்பாட்டின் '.desktop <https://gitlab.com/ubports-linphone/linphone-simple/-/"
+"blob/master/linphone.desktop.in#L7>'_ கோப்பில் உள்ள ''Exec'' வரியின் கீழ் %u (1 "
+"URL ஐப் பெற) அல்லது %U (1 அல்லது அதற்கு மேற்பட்ட URLகளைப் பெற) உள்ளதா என்பதைச் சரிபார்க்"
+"க நினைவில் கொள்ளுங்கள்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:146
 msgid "Tools"
@@ -1974,15 +1977,15 @@ msgid ""
 "com>`__"
 msgstr ""
 "`உபுண்டு டச் <https://docs.innerzaurus.com> க்கான மைம்கார் எழுதிய கியுடி நிரலாக்க "
-"பாடநெறி __ __ __ __"
+"பாடநெறி` __"
 
 #: ../../appdev/guides/index.rst:9
 msgid ""
 "`Application Templates by fulvio <https://github.com/fulvio999/"
 "ubports_app_templates>`__"
 msgstr ""
-"Fulvio இன் பயன்பாட்டு வார்ப்புருக்கள் <https://github.com/fulvio999/"
-"ubports_app_templates> __ __ __"
+"`Fulvio இன் பயன்பாட்டு வார்ப்புருக்கள் <https://github.com/fulvio999/"
+"ubports_app_templates>`__"
 
 #: ../../appdev/guides/index.rst:10
 msgid ""
@@ -2059,7 +2062,7 @@ msgid ""
 "tw/2016/09/freepascal-development-for-ubuntu-phone.html>`__"
 msgstr ""
 "`உபுண்டு தொடுதலுக்கான இலவச பாச்கல் மேம்பாடு <http://kriscode.blogspot.tw/2016/09/"
-"freepascal- அபிவிருத்தி-bountu-phone.html>` __ __"
+"freepascal- அபிவிருத்தி-bountu-phone.html>`__"
 
 #: ../../appdev/guides/index.rst:41
 msgid ""
@@ -2067,7 +2070,7 @@ msgid ""
 "lazarus-development-for-ubuntu-phone.html>`__"
 msgstr ""
 "`உபுண்டு தொடுதலுக்கான லாசரச் மேம்பாடு <http://kriscode.blogspot.tw/2016/10/"
-"lazarus-development-bountu-phone.html>` __ __ __"
+"lazarus-development-bountu-phone.html>`__"
 
 #: ../../appdev/guides/index.rst:42
 msgid ""
@@ -2098,13 +2101,11 @@ msgstr ""
 msgid ""
 "`Getting started with Clickable (Video) <https://youtu.be/TE-s5522v0Y>`__"
 msgstr ""
-"`கிளிக் செய்யக்கூடிய (வீடியோ) <https://youtu.be/te-s5522v0y> __ __ __ உடன் "
-"தொடங்குதல்"
+"`கிளிக் செய்யக்கூடிய (வீடியோ) <https://youtu.be/te-s5522v0y> உடன் தொடங்குதல்`__"
 
 #: ../../appdev/guides/index.rst:46
 msgid "`Content Hub overview (Video) <https://youtu.be/AihwC2sPIk0>`__"
-msgstr ""
-"`உள்ளடக்க மைய கண்ணோட்டம் (வீடியோ) <https://youtu.be/aihwc2spik0> ____ __ __"
+msgstr "`உள்ளடக்க மைய கண்ணோட்டம் (வீடியோ) <https://youtu.be/aihwc2spik0>`__"
 
 #: ../../appdev/guides/index.rst:47
 msgid ""
@@ -2743,7 +2744,7 @@ msgstr "அதிர்வு முறையை விவரிக்கும�
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "vibration/no vibration times, in milliseconds)."
-msgstr "அதிர்வு/அதிர்வு நேரங்கள் இல்லை, மில்லி விநாடிகளில்)."
+msgstr "அதிர்வு/இல்அதிர்வு நேரங்கள் இல்லை, மில்லி விநாடிகளில்)."
 
 #: ../../appdev/guides/pushnotifications.rst:266
 msgid "repeat"
@@ -2751,7 +2752,7 @@ msgstr "மீண்டும்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Number of times the pattern has to be repeated (defaults to 1, 0 is the"
-msgstr "முறை மீண்டும் மீண்டும் செய்யப்பட வேண்டும் (இயல்புநிலை 1, 0 ஆகும்"
+msgstr "முறை மறுநிகழ்வு செய்யப்பட வேண்டும் (இயல்புநிலை 1, 0 ஆகும்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "same as 1)."
@@ -3322,9 +3323,9 @@ msgid ""
 "references and inspiration."
 msgstr ""
 "பயன்பாடுகள் A: ref: `கிளிக் <கிளிக்>` தொகுப்பாக அனுப்பப்படுகின்றன, மேலும் அதிகாரப்பூர்வ "
-"ஆப் ச்டோரில் `ஓபன்ச்டோர் <https://open-store.io> __. __. ஓபன்ச்டோரில் உள்ள பெரும்பாலான "
-"பயன்பாடுகள் திறந்த மூலங்கள் மற்றும் குறிப்புகள் மற்றும் உத்வேகமாக செயல்பட முடியும் என்பதையும்"
-" நினைவில் கொள்க."
+"ஆப் ச்டோரில் `ஓபன்ச்டோர் <https://open-store.io>`__. ஓபன்ச்டோரில் உள்ள பெரும்பாலான "
+"பயன்பாடுகள் திறந்த மூலங்கள் மற்றும் குறிப்புகள் மற்றும் உத்வேகமாகச் செயல்பட முடியும் "
+"என்பதையும் நினைவில் கொள்க."
 
 #: ../../appdev/index.rst:47
 msgid "References and guides"
@@ -4175,7 +4176,7 @@ msgstr ""
 
 #: ../../appdev/platform/index.rst:21
 msgid "`Read the docs <https://docs.ubuntu.com/phone/en/platform/>`__"
-msgstr "`டாக்சைப் படியுங்கள் <https://docs.ubuntu.com/phone/en/platform/> __ __"
+msgstr "`டாக்சைப் படியுங்கள் <https://docs.ubuntu.com/phone/en/platform/>`__"
 
 #: ../../appdev/platform/index.rst:24
 msgid "Packaging your app"
@@ -4656,7 +4657,7 @@ msgid ""
 "app/webber.timsueberkrueb>`__."
 msgstr ""
 "திறந்த கடையில் வெளியிடப்பட்ட வெப்ஆப்புகளுக்கு வேறுபட்ட அணுகுமுறை `வெபர் பயன்பாடு <https"
-"://open-store.io/app/webber.timsueberkrueb> __ __ உடன் குறுக்குவழிகளை நேரடியாக "
+"://open-store.io/app/webber.timsueberkrueb>`__ உடன் குறுக்குவழிகளை நேரடியாக "
 "உருவாக்குவதாகும்."
 
 #: ../../appdev/webapp/index.rst:19 ../../systemdev/kernel-hal.rst:57
@@ -6122,8 +6123,8 @@ msgid ""
 "You are moving ``systemdev/calendars.rst`` to ``appdev/calendars.rst``. Add "
 "the following to the ``redirects.txt`` file::"
 msgstr ""
-"நீங்கள் `` systemdev/calendars.rst`` `` appdev/calendars.rst`` க்கு நகர்த்துகிறீர்கள்"
-". பின்வருவனவற்றை `` Rentirect.txt`` கோப்பில் சேர்க்கவும்"
+"நீங்கள் ``systemdev/calendars.rst``இருந்து ``appdev/calendars.rst`` க்கு "
+"நகர்த்துகிறீர்கள். பின்வருவனவற்றை ``Rentirect.txt`` கோப்பில் சேர்::"
 
 #: ../../contribute/documentation.rst:124
 msgid ""
@@ -6134,11 +6135,11 @@ msgid ""
 "redirect the old page to the new introduction page. This can be done by "
 "adding the following to ``redirects.txt``::"
 msgstr ""
-"முன்பு இருந்ததை விட கருவியைப் பற்றி கணிசமாக கூடுதல் தகவல்களை வழங்க `` appdev/"
-"clickable/`` இல் `` appdev/clickable.rst`` ஐ பல பக்கங்களுக்கு நகர்த்துகிறீர்கள். நீங்கள் "
+"முன்பு இருந்ததை விடக் கருவியைப் பற்றிக் கணிசமாகக் கூடுதல் தகவல்களை வழங்க ``appdev/"
+"clickable/`` இல் ``appdev/clickable.rst`` ஐ பல பக்கங்களுக்கு நகர்த்துகிறீர்கள். நீங்கள் "
 "ஒரு அறிமுக பக்கத்தை உருவாக்கியுள்ளீர்கள், `` appdev/கிளிக் செய்யக்கூடிய/அறிமுகம். இந்த "
-"விசயத்தில், பழைய பக்கத்தை புதிய அறிமுகம் பக்கத்திற்கு திருப்பிவிடுவது நல்ல யோசனையாக "
-"இருக்கும். பின்வருவனவற்றை `` Reniders.txt`` :: இல் சேர்ப்பதன் மூலம் இதைச் செய்யலாம்"
+"விசயத்தில், பழைய பக்கத்தைப் புதிய அறிமுகம் பக்கத்திற்கு திருப்பிவிடுவது நல்ல யோசனையாக "
+"இருக்கும். பின்வருவனவற்றை ``Reniders.txt``இல் சேர்ப்பதன் மூலம் இதைச் செய்யலாம் ::"
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
@@ -6758,7 +6759,7 @@ msgid ""
 msgstr ""
 "நீங்கள் களஞ்சியத்திற்கு எழுதும் அணுகல் இருந்தால், ** பிழை ** (உறுதிப்படுத்தப்பட்டதைக் "
 "குறிக்க) அல்லது ** தவறான ** (பிரச்சினை நிச்சயமாக இனப்பெருக்கம் செய்யப்படாவிட்டால்) ** "
-"லேபிளை ** லேபிளை மாற்றலாம். அந்த விசயத்தில் அது மூடப்பட வேண்டும்."
+"பிழை ** லேபிளை மாற்றலாம். அந்த விசயத்தில் அது மூடப்பட வேண்டும்."
 
 #: ../../contribute/quality-assurance.rst:18
 msgid ""
@@ -7003,11 +7004,11 @@ msgid ""
 "and start making anonymous suggestions without being registered. If you want "
 "to save your translations, you must be logged in."
 msgstr ""
-"நீங்கள் `யுபோர்ட்ச் மொழிபெயர்ப்பு திட்டங்களுக்குச் செல்லலாம் <https://hosted.weblate.org/"
-"projects/ubports/>` _ அல்லது `லோமிரி மொழிபெயர்ப்பு திட்டங்கள் டாச்போர்டு <https://"
-"hosted.wellate.org/projects/lomiri/lomiri/> forkets golordordordorignolor "
-"gidentorborboard <https://hosted. உங்கள் மொழிபெயர்ப்புகளைச் சேமிக்க விரும்பினால், "
-"நீங்கள் உள்நுழைந்திருக்க வேண்டும்."
+"நீங்கள் 'யுபிதுறைமுகங்கள் மொழிபெயர்ப்புத் திட்டங்கள் முகப்புபலகங்ளுக்குச் செல்லலாம் <https://"
+"hosted.weblate.org/projects/ubports/>'_ அல்லது 'Lomiri translation projects "
+"dashboard <https://hosted.weblate.org/projects/lomiri/>'_ க்குச் சென்று, ஒரு "
+"திட்டத்திற்குச் சென்று, பதிவு செய்யாமல் பெயரிலியாகப் பரிந்துரைகளைச் செய்யத் தொடங்கலாம். "
+"உங்கள் மொழிபெயர்ப்புகளைச் சேமிக்க விரும்பினால், நீங்கள் புகுபதிகை செய்திருக்க வேண்டும்."
 
 #: ../../contribute/translations.rst:39
 msgid ""
@@ -8092,9 +8093,10 @@ msgid ""
 ">`__ and `Ubuntu documentation <https://docs.ubuntu.com/phone/en/apps/api-"
 "qml-development/Ubuntu.Components.UbuntuColors>`__):"
 msgstr ""
-"`கேனோனிகல் <https://www.canonical.com/> __ __ வடிவமைத்தபடி, பின்வரும் கணினி "
-"தட்டுகளைப் பயன்படுத்துகிறோம் (` Michał prędotka <http://colors.mivoligo.com/> `__ "
-"மற்றும்` ubuntu ஆவணங்கள் இப்போது"
+"'நியமன <https://www.canonical.com/>'__ வடிவமைத்தபடி, பின்வரும் கணினித் தட்டைப் "
+"பயன்படுத்துகிறோம் ('Michał Prędotka <http://colors.mivoligo.com/>'__ மற்றும் "
+"'Ubuntu ஆவணங்கள் <https://docs.ubuntu.com/phone/en/apps/api-qml-development/"
+"Ubuntu.Components.UbuntuColors>'__ இலிருந்து):"
 
 #: ../../humanguide/design-concepts/system-palette.rst:4
 msgid "Operating system and app palette"
@@ -8442,12 +8444,12 @@ msgid ""
 "always an integer number of pixel."
 msgstr ""
 "* கட்டம் அலகு * எனப்படும் ஒரு அளவீட்டு அலகு வரையறுக்கப்படுகிறது, சுருக்கமாக * கு. * 1 "
-"கட்டம் அலகு ஒரு குறிப்பிட்ட எண்ணிக்கையிலான பிக்சல்களுக்கு மொழிபெயர்க்கிறது, பயனர் இடைமுகம்"
+"கட்டம் அலகு ஒரு குறிப்பிட்ட எண்ணிக்கையிலான புள்ளிகளுக்கு மொழிபெயர்க்கிறது, பயனர் இடைமுகம்"
 " காட்டப்படும் திரையின் வகையைப் பொறுத்து. எடுத்துக்காட்டாக, ஒரு மடிக்கணினி கணினி 1 கட்டம் "
-"அலகு பொதுவாக 8 பிக்சல்களுக்கு மொழிபெயர்க்கப்படும். இடைமுகம் உறுப்புகளின் உணரப்பட்ட காட்சி "
-"அளவைப் பாதுகாப்பதற்காக ஒரு கட்டம் அலகுக்கு பிக்சல்களின் எண்ணிக்கை தேர்வு செய்யப்படுகிறது, "
+"அலகு பொதுவாக 8 புள்ளிகளுக்கு மொழிபெயர்க்கப்படும். இடைமுகம் உறுப்புகளின் உணரப்பட்ட காட்சி "
+"அளவைப் பாதுகாப்பதற்காக ஒரு கட்டம் அலகுக்குப் புள்ளிகளின் எண்ணிக்கை தேர்வு செய்யப்படுகிறது, "
 "எனவே காட்சியின் அடர்த்தி மற்றும் பயனர் திரையில் இருக்கும் தூரத்தைப் பொறுத்தது. 1 கட்டம் அலகு"
-" எப்போதும் பிக்சலின் முழு எண் எண் என்பதையும் நாங்கள் உறுதி செய்கிறோம்."
+" எப்போதும் புள்ளியின் முழு எண் என்பதையும் நாங்கள் உறுதி செய்கிறோம்."
 
 #: ../../humanguide/design-concepts/units.rst:18
 #: ../../porting/configure_test_fix/Display.rst:41
@@ -8602,8 +8604,8 @@ msgid ""
 msgstr ""
 "இங்கே யுபோர்ட்சில், அனைவருக்கும் இலவச, நம்பகமான மற்றும் நம்பகமான மென்பொருளை அணுக வேண்டும் "
 "என்று நாங்கள் நம்புகிறோம், அவை யாராலும் பகிரப்பட்டு உருவாக்கப்படலாம். சுதந்திர நம்பிக்கை "
-"மற்றும் ஒத்துழைப்புடன் சமூகம் வளரவும் வளரவும் அனுமதிக்க இது வழி வகுத்துள்ளது. இந்த "
-"ஒருங்கிணைந்த நம்பிக்கை சூரு எனப்படும் வடிவமைப்பு தத்துவத்தில் மொழிபெயர்க்கப்பட்டுள்ளது."
+"மற்றும் ஒத்துழைப்புடன் சமூகம் வளரவும் அனுமதிக்க இது வழி வகுத்துள்ளது. இந்த ஒருங்கிணைந்த "
+"நம்பிக்கை சூரு எனப்படும் வடிவமைப்பு தத்துவத்தில் மொழிபெயர்க்கப்பட்டுள்ளது."
 
 #: ../../humanguide/index.rst:15
 msgid "Suru items from the Ubuntu values alluding to Japanese culture."
@@ -8731,8 +8733,7 @@ msgstr ""
 #: ../../humanguide/other-design-considerations/accessibility.rst:11
 msgid ""
 "Additional `palette proposal <http://colors.mivoligo.com/#color-blind>`__."
-msgstr ""
-"கூடுதல் `தட்டு திட்டம் <http://colors.mivoligo.com/#color-blind> __. __."
+msgstr "கூடுதல் `தட்டுத் திட்டம் <http://colors.mivoligo.com/#color-blind>`__."
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:12
 msgid "A high contrast theme."
@@ -8846,8 +8847,8 @@ msgid ""
 "like `Inkscape <https://inkscape.org/>`__."
 msgstr ""
 "மிகவும் பிரபலமான அளவிடக்கூடிய வடிவங்களில் ஒன்று `svg <https://en.wikipedia.org/"
-"wiki/scalable_vector_graphics> __. `Inkscape <https://inkscape.org/> __ __ "
-"போன்ற மென்பொருளைப் பயன்படுத்தி எச்.வி.சி கோப்புகளை உருவாக்கலாம்."
+"wiki/scalable_vector_graphics> __. `Inkscape <https://inkscape.org/>`__ போன்ற "
+"மென்பொருளைப் பயன்படுத்தி எச்.வி.சி கோப்புகளை உருவாக்கலாம்."
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:11
 msgid ""
@@ -8890,7 +8891,7 @@ msgid ""
 "Read more about image performance in the `Qt wiki <https://wiki.qt.io/"
 "Performance_tip_Images>`__."
 msgstr ""
-"`Qt wiki <https://wiki.qt.io/performance_tip_images> __ __ இல் பட செயல்திறனைப் "
+"`Qt wiki <https://wiki.qt.io/performance_tip_images>`__ இல் படச் செயல்திறனைப் "
 "பற்றி மேலும் வாசிக்க."
 
 #: ../../humanguide/other-design-considerations/translations.rst:4
@@ -10409,7 +10410,7 @@ msgid ""
 "following from the root of your ``BUILDDIR``::"
 msgstr ""
 "ஆலியம்-துவக்கத்தை நிறுவ, உங்கள் தொலைபேசியை ஃபாச்ட்பூட் பயன்முறையில் மீண்டும் துவக்கவும். "
-"உங்கள் `` பில்டிர்`` :: இன் மூலத்திலிருந்து பின்வருவனவற்றைச் செய்யுங்கள்"
+"உங்கள் `` பில்டிர்``இன் மூலத்திலிருந்து பின்வருவனவற்றைச் செய்யுங்கள் ::"
 
 #: ../../porting/build_and_boot/Halium_install.rst:25
 msgid ""
@@ -10492,7 +10493,9 @@ msgstr ""
 msgid ""
 "Halium 7.1, arm64 (64 bit): `ubuntu-touch-hybris-xenial-arm64-rootfs.tar.gz "
 "<https://ci.ubports.com/job/xenial-hybris-rootfs-arm64/>`_"
-msgstr "ஆலியம் 7.1, ஆர்ஆர்எம் 64 (64 பிட்):"
+msgstr ""
+"ஆலியம் 7.1, கை64(64 இருமம்):`ubuntu-touch-hybris-xenial-arm64-rootfs.tar.gz "
+"<https://ci.ubports.com/job/xenial-hybris-rootfs-arm64/>`_"
 
 #: ../../porting/build_and_boot/Halium_install.rst:49
 msgid ""
@@ -12524,8 +12527,8 @@ msgid ""
 "bluetooth adapted to your device. On the completed build, this file is "
 "located at::"
 msgstr ""
-"உங்கள் சாதனத்திற்கு ஏற்ற புளூடூத்துக்கான உள்ளமைவு ச்கிரிப்ட் மூலம் கணினி படத்தை மீண்டும் "
-"உருவாக்க வேண்டும். நிறைவு செய்யப்பட்ட கட்டமைப்பில், இந்த கோப்பு :: இல் அமைந்துள்ளது"
+"உங்கள் சாதனத்திற்கு ஏற்றப் புளூடூத்துக்கான உள்ளமைவு ச்கிரிப்ட் மூலம் கணினி படத்தை மீண்டும் "
+"உருவாக்க வேண்டும். நிறைவு செய்யப்பட்ட கட்டமைப்பில், இந்தக் கோப்பு அமைந்துள்ளது::"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:225
 msgid ""
@@ -13412,13 +13415,14 @@ msgid ""
 "rules.d/70-android.rules`` and ``/android/system/halium/etc/ubuntu-touch-"
 "session.d/android.conf``"
 msgstr ""
-"பொதுவாக குறைந்த பட்சம் `/lib/Udev/rovess.d/70-android.ruloid.rules`` லோமிரியைக் "
-"கொண்டுவரும் போது உருவாக்கப்பட்டது (பார்க்க: ref:` லோமிரி`) மற்றும் கோப்பு ``/etc/"
-"ubuntu-touch-session.d/android.conf`` கோப்பு ஆகியவை முடிவெடுப்பதன் மூலம் சேர்க்கப்"
-"பட வேண்டும். உபுண்டு டச் 16.04 மற்றும் 20.04 இரண்டின் பிணைப்பு மவுண்ட் பொறிமுறையானது, "
-"கோப்புகள் நியமிக்கப்பட்ட அடிப்படை அடைவு ``/ஆண்ட்ராய்டு/சிச்டம்/ஆலியம்`` கீழே வைக்கப்பட "
-"வேண்டும், அதாவது ``/ஆண்ட்ராய்டு/சிச்டம்/ஆலியம்/ஆலியம்/லிப்/உடேவ்/விதிகள். ``/android/"
-"system/halium/etc/ubuntu-touch-session.d/android.conf``"
+"பொதுவாக லோமிரியைக் கொண்டுவரும்போது உருவாக்கப்பட்ட கோப்பு ``/lib/udev/rules.d/"
+"70-android.rules`` (பார்க்க :ref:'Lomiri') மற்றும் கோப்பு ``/etc/"
+"ubuntu-touch-session.d/android.conf`` ஆகியவை மேலடுக்கு கோப்புகள் வழியாகச் சேர்க்கப்"
+"பட வேண்டும். உபுண்டு டச் 16.04 மற்றும் 20.04 இரண்டின் பிணைப்பு ஏற்றப் பொறிமுறையானது, "
+"கோப்புகள் நியமிக்கப்பட்ட அடிப்படை கோப்பகமான ''/android/system/halium'' க்கு கீழே வைக்கப்"
+"பட வேண்டும், அதாவது ``/android/system/halium/lib/udev/rules.d/"
+"70-android.rules`` மற்றும் ``/android/system/halium/etc/ubuntu-touch-session.d/"
+"android.conf``"
 
 #: ../../porting/configure_test_fix/Overlay.rst:129
 msgid ""
@@ -13446,7 +13450,7 @@ msgid ""
 msgstr ""
 "ஏதேனும் மாற்றங்களுக்குப் பிறகு `` சிச்டம்.இம்`` `` எம்.கே.ஏ சுத்தமான`` மற்றும் `எம்.கே.ஏ "
 "சிச்டம்இமேச்`` ஆகியவற்றைப் பயன்படுத்தி மீண்டும் கட்டப்பட வேண்டும். சிறிய மாற்றங்களுக்குப் பிறகு"
-" கணினி படத்தை மீண்டும் மீண்டும் கட்டியெழுப்பும்போது, முதலில் `` mka சுத்தமான`` வழங்காமல் "
+" கணினி படத்தை மறுநிகழ்வு கட்டியெழுப்பும்போது, முதலில் `` mka சுத்தமான`` வழங்காமல் "
 "அதிகரிக்கும் கட்டடங்களைச் செய்ய முடியும். இருப்பினும், "
 "தயாரிப்பு_பிராபர்ட்டி_ஓவர்ரைடுகளுக்கான மாற்றங்கள் உருவாக்க அமைப்பால் கண்டறியப்படாது. "
 "அவ்வாறான நிலையில் `` பில்ட்.பிராப்`` கோப்பகத்தில் `` பில்ட் "
@@ -13563,12 +13567,11 @@ msgid ""
 "final locations which are derived from their path relative to the designated "
 "base directory."
 msgstr ""
-"மேலடுக்கு கோப்புகளைச் சேர்த்த பிறகு அல்லது மாற்றிய பின் அறிவிலிஆய்வு தொஒ ச்கிரிப்ட்களை "
-"`படி இயக்க வேண்டும் <https://gitlab.com/ubports/community-ports/android9/"
-"xiaomi-redmi-pro-p-pro/xiaomi-violet//blob/plob/plob/master/master/master/"
-"matmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmy. "
-"துவக்க கோப்புகளில் மற்றும்-உபுண்டு டச் 20.04 அல்லது அதற்குப் பிறகு-``/opt/Halium-"
-"overlay`` இல் குறிக்கப்பட்ட கோப்பகங்கள் அவற்றின் இறுதி இடங்களில் பொருத்தப்படும், அவை "
+"மேலடுக்கு கோப்புகளைச் சேர்த்த அல்லது மாற்றியபிறகு, Gitlab CI ஸ்கிரிப்ட்கள் '<https://"
+"gitlab.com/ubports/community-ports/android9/xiaomi-redmi-note-7-pro/"
+"xiaomi-violet/-/blob/master/README.md> சேர்க்கப்பட்ட வழிமுறைகளின்படி' இயக்கப்பட "
+"வேண்டும். துவக்க கோப்புகளில் மற்றும் - உபுண்டு டச் 20.04 அல்லது அதற்குப் பிறகு - ''/opt/"
+"halium-overlay'' இல் குறிக்கப்பட்ட கோப்பகங்கள் அவற்றின் இறுதி இடங்களில் ஏற்றப்படும், அவை "
 "நியமிக்கப்பட்ட அடிப்படை கோப்பகத்துடன் தொடர்புடைய பாதையிலிருந்து பெறப்படுகின்றன."
 
 #: ../../porting/configure_test_fix/Sound.rst:2
@@ -14048,7 +14051,7 @@ msgstr "அனைத்து அதிர்வு அழைப்புகள�
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:17
 msgid "Any integer number"
-msgstr "எந்த முழு எண் எண்"
+msgstr "எந்த முழு எண்"
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:25
 msgid ""
@@ -14570,8 +14573,8 @@ msgid ""
 msgstr ""
 "உங்கள் துறைமுகத்தில் அடிக்கடி பயன்படுத்தப்படும் நற்பொருத்தங்கள் பணிபுரிந்தவுடன், அதை இறுதி "
 "செய்வதைப் பற்றி நீங்கள் சிந்திக்கத் தொடங்கலாம், அதாவது மீட்பை உருவாக்குதல் மற்றும் நிறுவலைத் "
-"தயாரித்தல், இதனால் மக்கள் அதை நிறுவி சோதிப்பது எளிது. இது மதிப்புமிக்க கருத்துக்களைத் "
-"தரும், இது நீங்கள் சொந்தமாக செய்ததை விட மீதமுள்ள சிக்கல்களைக் கண்டறியவும் கண்டறியவும் உதவும்."
+"தயாரித்தல், இதனால் மக்கள் அதை நிறுவிச் சோதிப்பது எளிது. இது மதிப்புமிக்க கருத்துக்களைத் "
+"தரும், இது நீங்கள் சொந்தமாகச் செய்ததை விட மீதமுள்ள சிக்கல்களைக் கண்டறியவும் உதவும்."
 
 #: ../../porting/finalize/index.rst:8
 msgid ""
@@ -15031,8 +15034,8 @@ msgstr ""
 "எவ்வாறாயினும், நீங்கள் குறைந்தபட்சம் சில பொதுவான செல் கட்டளைகளை நன்கு அறிந்திருக்க வேண்டும்"
 ", மேலும் உங்கள் புரவலன் பிசி மீது முனையத்திலிருந்து வேலை செய்ய வசதியாக இருக்க வேண்டும். "
 "மேலும், வழிகாட்டி லினக்ச் இயங்கும் புரவலன் பிசி அடிப்படையில் அமைந்துள்ளது. நிரலாக்கத்தைப் "
-"பற்றி உங்களுக்கு கொஞ்சம் அறிவு இருந்தால், இது ஒரு கட்டத்தில் கைக்குள் வரும், குறிப்பாக நீங்கள்"
-" சி / சி ++ உடன் தெரிந்திருந்தால். மேலும், உங்கள் குறியீடு மாற்றங்களைக் கண்காணிக்க நீங்கள் "
+"பற்றி உங்களுக்குக் கொஞ்சம் அறிவு இருந்தால், இது ஒரு கட்டத்தில் கைக்குள் வரும், குறிப்பாக "
+"நீங்கள் சி /சி++ உடன் தெரிந்திருந்தால். மேலும், உங்கள் குறியீடு மாற்றங்களைக் கண்காணிக்க நீங்கள் "
 "அறிவிலி மூலம் உங்களைப் பழக்கப்படுத்தி, அறிவிலிஆய்வு கணக்கை அமைக்க வேண்டும். ஆரம்பத்தில் "
 "இருந்தே உங்கள் படிகளை ஆவணப்படுத்தத் தொடங்குவது புத்திசாலித்தனம்."
 
@@ -15349,7 +15352,7 @@ msgstr ""
 
 #: ../../porting/introduction/Setting_up.rst:77
 msgid "Install the required dependencies from AUR::"
-msgstr "அவு :: இலிருந்து தேவையான சார்புகளை நிறுவவும்"
+msgstr "அவுர் இலிருந்து தேவையான சார்புகளை நிறுவவும் ::"
 
 #: ../../porting/introduction/index.rst:4
 msgid ""
@@ -15986,9 +15989,9 @@ msgid ""
 "telnet server. When you connect the PinePhone to your desktop via USB, you "
 "will see the rndis device show up in your desktop's ``dmesg``::"
 msgstr ""
-"மீட்பு பைனோனை யூ.எச்.பி வழியாக பிணைய சாதனமாக முன்வைக்கிறது மற்றும் டெல்நெட் சேவையகத்தை "
-"இயக்குகிறது. யூ.எச்.பி வழியாக பைனோனை உங்கள் டெச்க்டாப்புடன் இணைக்கும்போது, உங்கள் "
-"டெச்க்டாப்பின் `` dmesg`` :: இல் RNDIS சாதனம் காண்பிக்கப்படுவதைக் காண்பீர்கள்"
+"மீட்பு பைனோனை யூ.எச்.பி வழியாகப் பிணையச் சாதனமாக முன்வைக்கிறது மற்றும் டெல்நெட் "
+"சேவையகத்தை இயக்குகிறது. யூ.எச்.பி வழியாகப் பைனோனை உங்கள் டெச்க்டாப்புடன் இணைக்கும்போது, "
+"உங்கள் டெச்க்டாப்பின் `` dmesg`` இல் RNDIS சாதனம் காண்பிக்கப்படுவதைக் காண்பீர்கள் ::"
 
 #: ../../systemdev/kernel-pinephone.rst:19
 msgid "You can log in to the recovery system with ``telnet 172.16.42.1``."
@@ -16002,7 +16005,7 @@ msgid ""
 msgstr ""
 "மீட்பு யூ.எச்.பி மீது ஈ.எம்.எம்.சி மற்றும் மைக்ரோ எச்.டி கார்டையும் அம்பலப்படுத்துகிறது. "
 "உங்கள் மைக்ரோ எச்டி கார்டில் உபுண்டு டச் நிறுவியுள்ளீர்கள் என்று வைத்துக் கொண்டால், உங்கள் "
-"டெச்க்டாப்பின் `` dmesg`` :: இல் இதுபோன்ற ஒன்றைக் காண்பீர்கள்"
+"டெச்க்டாப்பின் `` dmesg`` இல் இது போன்ற ஒன்றைக் காண்பீர்கள் ::"
 
 #: ../../systemdev/kernel-pinephone.rst:35
 msgid ""
@@ -16464,8 +16467,7 @@ msgid ""
 msgstr ""
 "`கணக்கு-போல்ட் பணி <https://github.com/ubports/account-polld> _, இது பின்னணியில் "
 "இயங்கும் மற்றும் புதிய கணக்கு செயல்பாட்டிற்கு ஒவ்வொரு 5 நிமிடங்களுக்கும் சரிபார்க்கிறது "
-"(இடைவெளி` ubuntu புச் பணி <https://github.com/ubports/ubuntus/ubuntus/ubuntus-"
-"push> _ `)"
+"(இடைவெளி` ubuntu புச் பணி <https://github.com/ubports/ubuntus-push> _ `)"
 
 #: ../../systemdev/online-accounts.rst:26
 msgid ""
@@ -16865,9 +16867,9 @@ msgid ""
 "package>`__."
 msgstr ""
 "டெபியன் 11 (புல்செய்) அல்லது அதற்குப் பிறகு அல்லது உபுண்டு 20.04 (குவிய ஃபோசா) அல்லது "
-"அதற்குப் பிறகு இயங்கும் புரவலன் அமைப்பு தேவை. பிற விநியோகங்களில் டெபியன் அல்லது "
+"அதற்குப் பிறகு இயங்கும் புரவலன் அமைப்புத் தேவை. பிற விநியோகங்களில் டெபியன் அல்லது "
 "உபுண்டுவை அமைப்பதற்கான எளிதான மற்றும் செயல்திறன் வழி, `எல்எக்ச்.டி <https://"
-"linuxcontainers.org/lxd/geting-started-cli/#installing-a- பேக்கேச்> __. __."
+"linuxcontainers.org/lxd/geting-started-cli/#installing-a- பேக்கேச்>`__."
 
 #: ../../systemdev/testing-locally.rst:83
 msgid ""
@@ -16894,8 +16896,8 @@ msgid ""
 "with::"
 msgstr ""
 "Chroot ஐ நிர்வகிக்க `` esbuild`` `` Chroot`` ஐப் பயன்படுத்தவும், இது க்ரூட்டை "
-"உருவாக்குவதற்கு டெபோட்ச்ட்ராப்பைப் பயன்படுத்துகிறது. தேவையான தொகுப்புகள் :: உடன் "
-"நிறுவப்பட்டுள்ளன"
+"உருவாக்குவதற்கு டெபோட்ச்ட்ராப்பைப் பயன்படுத்துகிறது. தேவையான தொகுப்புகள் உடன் நிறுவப்பட்டுள்"
+"ளன ::"
 
 #: ../../systemdev/testing-locally.rst:93
 msgid ""
@@ -16975,8 +16977,9 @@ msgid ""
 "${chroot_distro}-amd64`` (``chroot_base`` can be changed if needed) the "
 "following variables can be defined for later use by the actual commands::"
 msgstr ""
-"``/Srv/chroot/Ubports-$ {chroot_distro} -amd64`` (`` `` chroot_base``` `` `` "
-"Chroot_base``` பின்வருவனவற்றைப் பயன்படுத்தலாம்)"
+"''/srv/chroot/ubports-${chroot_distro}-amd64'' (''chroot_base'' என்ற கோப்பகத்தின்"
+" கீழ் உள்ள amd64 கட்டமைப்புடன் உபுண்டு 20.04 (Focal Fossa) அடிப்படையில் ஒரு chroot ஐ "
+"உருவாக்க, பின்வரும் மாறிகள் உண்மையான கட்டளைகளால் பின்னர் பயன்படுத்த வரையறுக்கப்படலாம்::"
 
 #: ../../systemdev/testing-locally.rst:140
 msgid ""
@@ -17037,9 +17040,10 @@ msgid ""
 "<https://wiki.debian.org/QemuUserEmulation>`__ package allows execution of "
 "non-native target executables just like native ones."
 msgstr ""
-"க்ரூட் அமைப்பை எளிமைப்படுத்த, `` உபுண்டு-டெவ்-டூல்ச்`` தொகுப்பிலிருந்து `எம்.கே. `QEMU-"
-"USER-STATIC <https://wiki.debian.org/qemuuseremulation> __ __ தொகுப்பு "
-"பூர்வீகமற்றவற்றைப் போலவே சொந்தமற்ற இலக்கு நிர்வாகிகளை செயல்படுத்த அனுமதிக்கிறது."
+"chroot setup ஐ எளிமைப்படுத்த, ''ubuntu-dev-tools'' packageலிருந்து 'mk-sbuild "
+"<https://wiki.debian.org/mk-sbuild>'__ ஐ பயன்படுத்துகிறோம். 'qemu-user-static "
+"<https://wiki.debian.org/QemuUserEmulation>'__ தொகுப்பு பூர்வீகமானவற்றைப் போலவே "
+"சொந்த அல்லாத இலக்கு செயல்படுத்தக்கூடியவற்றை செயல்படுத்த அனுமதிக்கிறது."
 
 #: ../../systemdev/testing-locally.rst:174
 msgid "Install the packages with the following commands::"
@@ -17052,8 +17056,10 @@ msgid ""
 "${chroot_distro}-arm64`` (``chroot_base`` can be changed if needed) the "
 "following variables can be defined for later use by the actual commands::"
 msgstr ""
-"``/Var/lib/schroot/Chroots/Ubports-$ {chroot_distro} -arm64`` (`` "
-"`chroot_base`` பின்வருவனவற்றால் மாற்றப்படலாம்)"
+"''/var/lib/schroot/chroots/ubports-${chroot_distro}-arm64'' (''chroot_base'' "
+"தேவைப்பட்டால் மாற்றலாம்) கோப்பகத்தின் கீழ் arm64 கட்டமைப்புடன் Ubuntu 20.04 (Focal Fossa) "
+"அடிப்படையில் ஒரு chroot ஐ உருவாக்க, பின்வரும் மாறிகள் உண்மையான கட்டளைகளால் பின்னர் "
+"பயன்படுத்த வரையறுக்கப்படலாம்::"
 
 #: ../../systemdev/testing-locally.rst:185
 msgid ""
@@ -17113,10 +17119,10 @@ msgid ""
 "stored on the host system and bind-mounted into ``sbuild`` chroots with a "
 "``schroot`` hook::"
 msgstr ""
-"`` ccache`` என்பது ஒரு கம்பைலர் தற்காலிக சேமிப்பாகும், இது அதன் விளைவாக வரும் பொருள் "
-"கோப்புகளைத் தேக்குவதன் மூலம் அதே மூலக் குறியீட்டை மீண்டும் மீண்டும் தொகுப்பை அளிக்கிறது. "
-"உண்மையான தற்காலிக சேமிப்பு புரவலன் அமைப்பில் சேமிக்கப்பட்டு, `` SBUILD`` `` Schroot`` "
-"ஊக் ::"
+"\"ccache\" என்பது ஒரு கம்பைலர் கேச் ஆகும், இது விளைவாக வரும் பொருள் கோப்புகளைத் "
+"தேக்ககப்படுத்துவதன் மூலம் ஒரே மூல குறியீட்டின் தொடர்ச்சியான தொகுப்பை விரைவுபடுத்துகிறது. "
+"உண்மையான தற்காலிக சேமிப்பு புரவலன் கணினியில் சேமிக்கப்பட்டு, \"schroot\" கொக்கி மூலம் "
+"''sbuild'' chroots இல் பிணைக்கப்படுகிறது::"
 
 #: ../../systemdev/testing-locally.rst:240
 msgid ""
@@ -17399,8 +17405,8 @@ msgid ""
 "The ``dpkg-buildpackage`` command will print out the names of generated "
 "packages. Install those packages with ``dpkg``::"
 msgstr ""
-"`` Dpkg-buildpackage`` கட்டளை உருவாக்கப்பட்ட தொகுப்புகளின் பெயர்களை அச்சிடும். அந்த "
-"தொகுப்புகளை `` dpkg`` :: உடன் நிறுவவும்"
+"``Dpkg-buildpackage`` கட்டளை உருவாக்கப்பட்ட தொகுப்புகளின் பெயர்களை அச்சிடும். அந்தத் "
+"தொகுப்புகளை ``dpkg`` உடன் நிறுவவும் ::"
 
 #: ../../systemdev/testing-locally.rst:364
 msgid ""
@@ -17695,9 +17701,9 @@ msgid ""
 "`deb-changelog(5) <https://manpages.debian.org/testing/dpkg-dev/deb-"
 "changelog.5.en.html>`_ for more information."
 msgstr ""
-"இது `` டெபியன்/சேஞ்ச்லாக்`` வடிவமைப்பின் முழுமையான குறிப்பு அல்ல. மேலும் தகவலுக்கு "
-"`டெப்-சேஞ்செலாக் (5) <https://manpages.debian.org/testing/dpkg-dev/dpkg-dev/"
-"dpkg-dev/deb-changelog.5.en.html ஐப் பார்க்கவும்."
+"இது ``debian/changelog`` வடிவமைப்பின் முழுமையான குறிப்பு அல்ல. மேலும் தகவலுக்கு "
+"`deb-changelog(5) <https://manpages.debian.org/testing/dpkg-dev/deb-"
+"changelog.5.en.html>`_ ஐப் பார்."
 
 #: ../../systemdev/uploading-changes.rst:38
 msgid "Determine a new version number"
@@ -18349,8 +18355,8 @@ msgid ""
 "Move the file to your Ubuntu Touch device, either by way of a file manager "
 "or through the use of ADB::"
 msgstr ""
-"கோப்பு மேலாளரின் மூலமாகவோ அல்லது ADB :: பயன்படுத்துவதன் மூலமாகவோ கோப்பை உங்கள் உபுண்டு "
-"டச் சாதனத்திற்கு நகர்த்தவும்"
+"கோப்பு மேலாளரின் மூலமாகவோ அல்லது ADB பயன்படுத்துவதன் மூலமாகவோ கோப்பை உங்கள் உபுண்டு டச் "
+"சாதனத்திற்கு நகர்த்தவும் ::"
 
 #: ../../userguide/advanceduse/dav.rst:40
 #: ../../userguide/advanceduse/dav.rst:67
@@ -18401,7 +18407,7 @@ msgid ""
 "or through the use of ADB::"
 msgstr ""
 "கோப்புகளை உங்கள் உபுண்டு டச் சாதனத்திற்கு நகர்த்தவும், கோப்பு மேலாளரின் மூலமாகவோ அல்லது "
-"ADB :: பயன்படுத்துவதன் மூலமாகவோ நகர்த்தவும்"
+"ADB பயன்படுத்துவதன் மூலமாகவோ நகர்த்தவும் ::"
 
 #: ../../userguide/advanceduse/dav.rst:74
 msgid "Sources:"
@@ -18638,8 +18644,8 @@ msgid ""
 "You can catch output directly from the ``adb exec-out`` command and forward "
 "it to MPlayer::"
 msgstr ""
-"நீங்கள் `` adb exec-out`` கட்டளையிலிருந்து நேரடியாக வெளியீட்டைப் பிடித்து அதை mplayer "
-":: க்கு அனுப்பலாம்"
+"நீங்கள் ``adb exec-out`` கட்டளையிலிருந்து நேரடியாக வெளியீட்டைப் பிடித்து அதை "
+"mplayerக்கு அனுப்பலாம் ::"
 
 #: ../../userguide/advanceduse/screencasting.rst:14
 msgid ""
@@ -18819,7 +18825,7 @@ msgstr "இணை"
 #: ../../userguide/advanceduse/ssh.rst:46
 msgid "Now everything is set up and you can use ``ssh`` ::"
 msgstr ""
-"இப்போது எல்லாம் அமைக்கப்பட்டுள்ளது, நீங்கள் `` ssh`` :: ஐப் பயன்படுத்தலாம்"
+"இப்போது எல்லாம் அமைக்கப்பட்டுள்ளது, நீங்கள் `` ssh``ஐப் பயன்படுத்தலாம் ::"
 
 #: ../../userguide/advanceduse/ssh.rst:50
 msgid "or, if that does not work ::"
@@ -19005,7 +19011,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:33
 msgid "To do this via the command-line::"
-msgstr "கட்டளை-வரி :: வழியாக இதைச் செய்ய"
+msgstr "கட்டளை-வரி வழியாக இதைச் செய்ய ::"
 
 #: ../../userguide/dailyuse/libertine.rst:37
 msgid "You can add extra options such as:"
@@ -19084,7 +19090,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:72
 msgid "You can also list them via the command-line::"
-msgstr "கட்டளை-வரி :: வழியாக அவற்றை பட்டியலிடலாம்"
+msgstr "கட்டளை-வரி வழியாக அவற்றைப் பட்டியலிடலாம் ::"
 
 #: ../../userguide/dailyuse/libertine.rst:77
 msgid "Install a package"
@@ -19113,7 +19119,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:86
 msgid "Packages may also be installed via the command-line::"
-msgstr "கட்டளை-வரி :: வழியாக தொகுப்புகள் நிறுவப்படலாம்"
+msgstr "கட்டளை-வரி வழியாகத் தொகுப்புகள் நிறுவப்படலாம் ::"
 
 #: ../../userguide/dailyuse/libertine.rst:91
 msgid "Remove a package"
@@ -19131,7 +19137,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:95
 msgid "Or you can remove the package via the command-line::"
-msgstr "அல்லது கட்டளை-வரி :: வழியாக தொகுப்பை அகற்றலாம்"
+msgstr "அல்லது கட்டளை-வரி வழியாகத் தொகுப்பை அகற்றலாம் ::"
 
 #: ../../userguide/dailyuse/libertine.rst:100
 msgid ""
@@ -19362,7 +19368,7 @@ msgid ""
 "following ones to your ``~/.bash_aliases``::"
 msgstr ""
 "நீங்கள் விரும்பினால், கட்டளை-வரி கருவிகளுக்கு மாற்றுப்பெயர்களைச் சேர்க்கலாம். உங்கள் `` "
-"~/.Bash_aliases`` :: க்கு பின்வரும் வரிகள் போன்ற வரிகளைச் சேர்க்கவும்"
+"~/.Bash_aliases`` க்கு பின்வரும் வரிகள் போன்ற வரிகளைச் சேர் ::"
 
 #: ../../userguide/dailyuse/libertine.rst:216
 msgid "Installing packages manually"
