@@ -1334,9 +1334,9 @@ msgid ""
 "gitlab.com/cibersheep/gelek/blob/master/app/InstallPage.qml#L38>`_)."
 msgstr ""
 "Die Spieldatei ist eine Datei vom Typ ``glksave``. Wir werden Content Hub "
-"mitteilen, dass wir eine Datei vom Typ ``Alle`` senden (``Siehe den Code der "
+"mitteilen, dass wir eine Datei vom Typ ``Alle`` senden (`Siehe den Code der "
 "Installationsseite <https://gitlab.com/cibersheep/gelek/blob/master/app/"
-"InstallPage.qml#L38>``_)."
+"InstallPage.qml#L38>`_)."
 
 #: ../../appdev/guides/contenthub.rst:81
 msgid ""
