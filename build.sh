@@ -42,12 +42,13 @@ else
   pip3 install -r requirements.txt
 fi
 
-echo -e "${GREEN}Building...${PLAIN}"
+LANGUAGE=en
+echo -e "${GREEN}Building ($LANGUAGE)...${PLAIN}"
 rm -rf _build/
 if [ "$(uname)" == "Linux" ]; then
-  sphinx-build -Wa . _build/html -j `nproc --all` || exit $?
+  sphinx-build -Wa . _build/html -D language=$LANGUAGE -j `nproc --all` || exit $?
 else
-  sphinx-build -Wa . _build/html -j `sysctl -n hw.ncpu` || exit $?
+  sphinx-build -Wa . _build/html -D language=$LANGUAGE -j `sysctl -n hw.ncpu` || exit $?
 fi
 sphinx-build -Wab rediraffecheckdiff . _build/html
 
