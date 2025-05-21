@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-14 07:02+0000\n"
-"Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
+"PO-Revision-Date: 2025-05-22 09:01+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/fr/>\n"
 "Language: fr\n"
@@ -348,6 +348,7 @@ msgid "APT archives for Merge Requests"
 msgstr "Archives de l'APT pour les demandes de fusion"
 
 #: ../../about/process/branch-naming.rst:63
+#, fuzzy
 msgid ""
 "In addition to archives mentioned above, we also create APT archives for MRs "
 "made against our Git repositories. This allows us to test the result of the "
@@ -498,6 +499,7 @@ msgid "These are the standard columns:"
 msgstr "Voici les colonnes standards :"
 
 #: ../../about/process/issue-tracking.rst:38
+#, fuzzy
 msgid ""
 "**None (awaiting triage)**: Issue approved by a member of the QA team "
 "awaiting review from the responsible development team. If a bug, "
@@ -514,6 +516,7 @@ msgstr ""
 "de développement concernée."
 
 #: ../../about/process/issue-tracking.rst:41
+#, fuzzy
 msgid ""
 "**Accepted**: Issue accepted by the responsible development-team. If a "
 "bugreport, the team has decided it should be fixable and accept "
@@ -1545,10 +1548,12 @@ msgstr ""
 "``ContentTypes``."
 
 #: ../../appdev/guides/contenthub.rst:138
+#, fuzzy
 msgid "What about uMatriks? Let’s see its ``content-hub.json``"
 msgstr "Qu'en est-il d'uMatriks? Regardons son ``content-hub.json``"
 
 #: ../../appdev/guides/contenthub.rst:166
+#, fuzzy
 msgid ""
 "So, with this example, uMatriks will be able to be the destination, source "
 "and share app for all kinds of ``ContentType``. What about the other hooks "
@@ -1968,6 +1973,7 @@ msgstr ""
 "``manifest.json``) ouvrira un lien donné."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:61
+#, fuzzy
 msgid ""
 "Let’s see how our navigation app looks inside. uNav’s manifest shows special "
 "hooks for the ``URLdispatcher`` in its `manifest.json code <https://bazaar."
@@ -2874,6 +2880,7 @@ msgid "An icon relating to the event being notified. Defaults to"
 msgstr "Une icône relative à l'événement qui est notifié. Est vide par défaut"
 
 #: ../../appdev/guides/pushnotifications.rst:0
+#, fuzzy
 msgid "empty (no icon); a secondary icon relating to the application"
 msgstr "(pas d'icône); une icône secondaire en lien avec l'application"
 
@@ -2906,6 +2913,7 @@ msgid "persist"
 msgstr "persist"
 
 #: ../../appdev/guides/pushnotifications.rst:0
+#, fuzzy
 msgid "Whether to show in notification centre; defaults to false."
 msgstr ""
 "Si on veut l'afficher dans le centre de notification; la valeur par défaut "
@@ -3180,6 +3188,7 @@ msgstr ""
 "aujourd'hui\"``"
 
 #: ../../appdev/guides/user-metrics.rst:102
+#, fuzzy
 msgid "Increment the metric:"
 msgstr "Incrémenter la métrique:"
 
@@ -4818,11 +4827,12 @@ msgstr ""
 "launchpad.net (et toutes les sous-pages en raison du joker)  :"
 
 #: ../../appdev/webapp/guide.rst:122
+#, fuzzy
 msgid ""
 "Note: the question mark in https?. This means the preceding character (the "
 "‘s’) is optional. If https is always required, omit the question mark."
 msgstr ""
-"Note : le point d'interrogation en https? Cela signifie que le caractère "
+"Note : le point d'interrogation en https? Cela signifie que le caractère "
 "précédent (le 's') est facultatif. Si https est toujours requis, omettez le "
 "point d'interrogation."
 
@@ -6252,14 +6262,16 @@ msgstr ""
 "redirections."
 
 #: ../../contribute/documentation.rst:120
+#, fuzzy
 msgid ""
 "You are moving ``systemdev/calendars.rst`` to ``appdev/calendars.rst``. Add "
 "the following to the ``redirects.txt`` file::"
 msgstr ""
 "Vous déplacez « systemdev/calendars.rst » vers « appdev/calendars.rst ». "
-"Ajoutez ce qui suit au fichier ``redirects.txt``: :"
+"Ajoutez ce qui suit au fichier ``redirects.txt``: :"
 
 #: ../../contribute/documentation.rst:124
+#, fuzzy
 msgid ""
 "You are moving ``appdev/clickable.rst`` into several pages in ``appdev/"
 "clickable/`` to give significantly more information about the tool than "
@@ -6273,7 +6285,7 @@ msgstr ""
 "en avait auparavant. Vous avez créé une page d'introduction, ``appdev/"
 "clickable/introduction.rst``. Dans ce cas, ce serait une bonne idée de "
 "rediriger l'ancienne page vers la nouvelle page d'introduction. Cela peut "
-"être fait en ajoutant ce qui suit au fichier « redirects.txt »: :"
+"être fait en ajoutant ce qui suit au fichier « redirects.txt »: :"
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
@@ -17553,6 +17565,7 @@ msgid "To do this via the command-line::"
 msgstr "Pour ce faire, suivez les étapes suivantes en ligne de commande ::"
 
 #: ../../userguide/dailyuse/libertine.rst:37
+#, fuzzy
 msgid "You can add extra options such as:"
 msgstr "Vous pouvez ajouter des options supplémentaires comme:"
 
