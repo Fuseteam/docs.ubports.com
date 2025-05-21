@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-02-02 15:33+0000\n"
+"PO-Revision-Date: 2025-05-22 09:01+0000\n"
 "Last-Translator: doniks <p.putz@yahoo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/de/>\n"
@@ -60,7 +60,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -92,7 +92,6 @@ msgstr ""
 "immer mehr Geräte zu bringen."
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -101,12 +100,12 @@ msgid ""
 "possibilities for the future. Today, UBports is a volunteer group, "
 "formalised as a charitable foundation."
 msgstr ""
-"Nachdem Canonical plötzlich `seine Pläne zum Beenden des Supports für Ubuntu "
-"Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
-"iot-rather-than-phone-and-convergence/>`_ im April 2017 veröffentlicht "
-"hatte, begannen UBports und seine Schwesterprojekte die Arbeit am Open-"
-"Source Code, um durch dessen Wartung und Erweiterung die Zukunftsfähigkeit "
-"zu erhalten."
+"Nachdem Canonical plötzlich seine `Pläne zum Beenden des Supports für Ubuntu "
+"Touch <https://insights.ubuntu.com/2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_ im "
+"April 2017 veröffentlicht hatte, begannen UBports und seine "
+"Schwesterprojekte die Arbeit am Open-Source Code, um durch dessen Wartung "
+"und Erweiterung die Zukunftsfähigkeit zu erhalten."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
@@ -130,14 +129,13 @@ msgstr ""
 "doc:`Dokumentationseinführung </contribute/documentation>` beginnen."
 
 #: ../../about/introduction.rst:18
-#, fuzzy
 msgid ""
 "All documents are licensed Creative Commons Attribution ShareAlike 4.0 (`CC-"
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
 "attribution to \"The UBports Community\"."
 msgstr ""
 "Alle Dokumente stehen unter der Creative Commons Attribution ShareAlike 4.0 "
-"(`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_) Lizenz.  "
+"(`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_) Lizenz. "
 "Als Urheber ist \"Die UBports-Gemeinschaft\" anzugeben."
 
 #: ../../about/introduction.rst:21
@@ -255,9 +253,8 @@ msgid "``devel-debian``"
 msgstr ""
 
 #: ../../about/process/branch-naming.rst:28
-#, fuzzy
 msgid "Debian testing."
-msgstr "Rauchtest"
+msgstr "Debian testing."
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
@@ -403,15 +400,14 @@ msgid "Issue-Tracking Guidelines"
 msgstr "Richtlinien zur Problemverfolgung"
 
 #: ../../about/process/issue-tracking.rst:4
-#, fuzzy
 msgid ""
 "This document describes the standard process of dealing with new issues in "
 "UBports projects. (Not to be confused with the :doc:`guide on writing a good "
 "bugreport </contribute/bugreporting>`.)"
 msgstr ""
 "Dieses Dokument beschreibt den Standardprozess für den Umgang mit neuen "
-"Problemen im UBports-Projekt. Nicht zu verwechseln mit der :doc:`Anleitung "
-"zum Schreiben von guten Fehlerberichten </contribute/bugreporting>`."
+"Problemen im UBports-Projekt. (Nicht zu verwechseln mit der :doc:`Anleitung "
+"zum Schreiben von guten Fehlerberichten </contribute/bugreporting>`.)"
 
 #: ../../about/process/issue-tracking.rst:8
 msgid "Where are bugs tracked?"
@@ -590,20 +586,18 @@ msgstr ""
 "Hilfeseiten <https://help.github.com/articles/about-searching-on-github/>`__."
 
 #: ../../about/process/issue-tracking.rst:60
-#, fuzzy
 msgid "List of labels normally used by all repositories:"
 msgstr ""
 "Hier ist eine Liste von Markierungen, die normalerweise in allen "
-"Repositories genutzt werden."
+"Repositories genutzt werden:"
 
 #: ../../about/process/issue-tracking.rst:62
-#, fuzzy
 msgid ""
 "**needs confirmation**: The bug needs confirmation and / or further "
 "detailing by affected users."
 msgstr ""
 "**needs confirmation**: Der Fehler benötigt Bestätigung und / oder weitere "
-"Informationen von betroffenen Nutzern"
+"Informationen von betroffenen Nutzern."
 
 #: ../../about/process/issue-tracking.rst:64
 #, fuzzy
@@ -1175,8 +1169,8 @@ msgid ""
 "`Cordova HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/index."
 "html>`__"
 msgstr ""
-"`Cordova  HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/index."
-"html>`__"
+"`Cordova HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/"
+"index.html>`__"
 
 #: ../../appdev/external-docs.rst:12
 msgid ""
