@@ -3,38 +3,21 @@
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2021-10-11 00:27+0000\n"
+"PO-Revision-Date: 2025-05-28 02:01+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
-"Language-Team: Dutch <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-userguide/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  appdev.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  contribute.po (UBports)  #-#-#-#-#\n"
-"#-#-#-#-#  humanguide.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  index.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  porting.po (UBports)  #-#-#-#-#\n"
-"#-#-#-#-#  systemdev.po (UBports)  #-#-#-#-#\n"
-"#-#-#-#-#  userguide.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -63,7 +46,6 @@ msgstr ""
 "maken van Ubuntu Touch op andere mobiele apparaten."
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -73,10 +55,11 @@ msgid ""
 "formalised as a charitable foundation."
 msgstr ""
 "Canonical kondigde in april 2017 uit het niets aan `de ondersteuning van "
-"Ubuntu Touch te beëindigen <https://insights.ubuntu.com/2017/04/05/growing-"
-"ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_. Kort daarop "
-"werd UBports opgericht en nam de broncode van Ubuntu Touch over. Sindsdien "
-"wordt Ubuntu Touch geschikt gemaakt voor de toekomst."
+"Ubuntu Touch te beëindigen <https://insights.ubuntu.com/2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_. Kort "
+"daarop werd UBports opgericht door een groep vrijwilligers en nam de "
+"broncode van Ubuntu Touch over. Sindsdien wordt Ubuntu Touch geschikt "
+"gemaakt voor de toekomst."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
@@ -863,9 +846,8 @@ msgid "Affected versions"
 msgstr ""
 
 #: ../../about/process/security-vulnerabilities.rst:35
-#, fuzzy
 msgid "Solution"
-msgstr "Introductie"
+msgstr "Oplossing"
 
 #: ../../about/process/security-vulnerabilities.rst:36
 msgid "Recommendations"
@@ -1697,7 +1679,6 @@ msgid "Configuration Files"
 msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:32
-#, fuzzy
 msgid "clickable.yaml"
 msgstr "Clickable"
 
@@ -2625,9 +2606,8 @@ msgid "Plug in your Ubuntu Touch device"
 msgstr ""
 
 #: ../../appdev/index.rst:15
-#, fuzzy
 msgid "Enable developer mode in System Settings"
-msgstr "Ontwikkelaarsmodus"
+msgstr "Schakel de ontwikkelaarsmodus in in de systeeminstellingen"
 
 #: ../../appdev/index.rst:16
 msgid "Run ``clickable create``"
@@ -2646,9 +2626,8 @@ msgid "When the app has been generated, enter the newly created directory"
 msgstr ""
 
 #: ../../appdev/index.rst:20
-#, fuzzy
 msgid "Run ``clickable``"
-msgstr "Clickable"
+msgstr "Voer ``clickable`` uit"
 
 #: ../../appdev/index.rst:22
 msgid "Voilà you have your first app running on Ubuntu Touch!"
@@ -4683,9 +4662,8 @@ msgid ""
 msgstr ""
 
 #: ../../contribute/documentation.rst:2
-#, fuzzy
 msgid "Documentation"
-msgstr "Over de documentatie"
+msgstr "Documentatie"
 
 #: ../../contribute/documentation.rst:5
 msgid ""
@@ -7085,9 +7063,8 @@ msgid "Other design considerations"
 msgstr ""
 
 #: ../../humanguide/other-design-considerations/index.rst:13
-#, fuzzy
 msgid "`Suru Icons <http://docs.ubports.com/projects/icons/en/latest/>`__"
-msgstr "`Engels <https://docs.ubports.com/en/latest/>`_"
+msgstr "`Suru-pictogrammen <https://docs.ubports.com/en/latest/>`__"
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:2
 msgid "Scaling images"
@@ -7422,9 +7399,8 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/Boot_debug.rst:4
-#, fuzzy
 msgid "Booting"
-msgstr "Porteren"
+msgstr "Opstarten"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:6
 msgid ""
@@ -7984,9 +7960,8 @@ msgid "Android Open Source Project, https://android.googlesource.com"
 msgstr ""
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:119
-#, fuzzy
 msgid "los"
-msgstr "Dialoogvensters"
+msgstr "los"
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:119
 msgid "LineageOS, http://github.com/LineageOS"
@@ -8255,9 +8230,8 @@ msgid "From the root of your BUILDDIR, run the following command::"
 msgstr ""
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:143
-#, fuzzy
 msgid "Document"
-msgstr "Ontwikkeling"
+msgstr "Document"
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:145
 msgid ""
@@ -9209,9 +9183,8 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:329
-#, fuzzy
 msgid "additional command line args:"
-msgstr "Aanvullende ADB-opdrachten::"
+msgstr "Aanvullende opdrachtregelopties:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:331
 msgid "recovery dtbo size: 0"
@@ -10213,9 +10186,8 @@ msgid "20"
 msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:49
-#, fuzzy
 msgid "Fairphone 2"
-msgstr "Fairphone 2::"
+msgstr "Fairphone 2"
 
 #: ../../porting/configure_test_fix/Display.rst:49
 #: ../../porting/configure_test_fix/Display.rst:50
@@ -11835,9 +11807,8 @@ msgid ""
 msgstr ""
 
 #: ../../porting/introduction/Intro.rst:72
-#, fuzzy
 msgid "Porting methods"
-msgstr "Porteren"
+msgstr "Porteermethoden"
 
 #: ../../porting/introduction/Intro.rst:74
 msgid ""
