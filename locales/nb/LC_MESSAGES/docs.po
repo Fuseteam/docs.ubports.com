@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-14 07:02+0000\n"
+"PO-Revision-Date: 2025-05-28 02:01+0000\n"
 "Last-Translator: Ida Brenna <ida@larald.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/nb_NO/>\n"
@@ -222,9 +222,8 @@ msgid "``devel-debian``"
 msgstr ""
 
 #: ../../about/process/branch-naming.rst:28
-#, fuzzy
 msgid "Debian testing."
-msgstr "Røyktesting"
+msgstr "Debian-testing"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
