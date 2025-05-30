@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-12 21:03+0000\n"
+"PO-Revision-Date: 2025-05-31 21:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -847,7 +847,7 @@ msgstr "Хронологія"
 
 #: ../../about/process/security-vulnerabilities.rst:38
 msgid "Credit"
-msgstr ""
+msgstr "Подяки"
 
 #: ../../about/process/security-vulnerabilities.rst:40
 msgid "At the release date, the security advisory will be published on the forum, in the \"OS > Security advisories\" section."
@@ -1155,114 +1155,192 @@ msgstr "Компіляція"
 #: ../../appdev/guides/dependencies.rst:12
 msgid "Put the library's source code at ``libs/LIBNAME`` (replacing ``LIBNAME`` by the library's name), because this is where clickable will look for it by default. If the dependency source code is available as a git repository, it is a good idea to add it as a `git submodule <https://git-scm.com/book/de/v1/Git-Tools-Submodule>`_. Otherwise add a script to download the sources."
 msgstr ""
+"Скопіюйте джерельний код бібліотеки до ``libs/LIBNAME`` (замінивши "
+"``LIBNAME`` назвою бібліотеки), оскільки саме тут він типово буде доступний "
+"для пошуку clickable. Якщо є залежність коду від git-репозиторію, було б "
+"добре додати його як `git submodule <https://git-scm.com/book/de/v1/Git-"
+"Tools-Submodule>`_. Або додайте скрипт для завантаження джерел."
 
 #: ../../appdev/guides/dependencies.rst:14
 msgid "Add a `libraries section <https://clickable.bhdouglass.com/en/latest/project-config.html#libraries>`_ to your clickable.yaml, like this:"
 msgstr ""
+"Додайте `libraries section <https://clickable.bhdouglass.com/en/latest/"
+"project-config.html#libraries>`_ до свого clickable.yaml, як тут:"
 
 #: ../../appdev/guides/dependencies.rst:24
 msgid "If the library does not contain a CMake configuration, you need to use the `qmake` or `custom` builder instead."
 msgstr ""
+"Якщо у бібліотеці немає налаштувань CMake, для компіляції потрібно "
+"використовувати `qmake` або `custom`."
 
 #: ../../appdev/guides/dependencies.rst:26
 msgid "Optionally, configure the compilation by adding ``build_args``, which may look like this:"
 msgstr ""
+"Додатково можна налаштувати компіляцію, додавши ``build_args`` в такий "
+"спосіб:"
 
 #: ../../appdev/guides/dependencies.rst:41
 msgid "Most build arguments are project specific. Therefore, study the library's build instructions and also look for ``option`` settings in its ``CMakeLists.txt`` ."
 msgstr ""
+"Більшість аргументів компіляції залежать від проєктів. Тому спочатку вивчіть "
+"настанови компілятора бібліотеки і зверніть увагу на налаштування ``option`` "
+"у файлі ``CMakeLists.txt`` бібліотеки."
 
 #: ../../appdev/guides/dependencies.rst:43
 msgid "To actually build the library for all architectures run ``clickable build --libs --arch armhf``, ``clickable build --libs --arch arm64`` and ``clickable build --libs --arch amd64``. Don't forget to mention this step in your README, so that others can reproduce the build process."
 msgstr ""
+"Для компіляції бібліотеки для усіх архітектур виконайте ``clickable build --"
+"libs --arch armhf``, ``clickable build --libs --arch arm64`` та ``clickable "
+"build --libs --arch amd64``. Не забудьте згадати це крок у своєму README — "
+"це допоможе іншим повторити процес компіляції."
 
 #: ../../appdev/guides/dependencies.rst:45
 msgid "See how `Teleports clickable.yaml <https://gitlab.com/ubports/development/apps/teleports/-/blob/main/clickable.yaml#L26>`_ uses the libraries feature to build its dependency tdlib."
 msgstr ""
+"Перегляньте як `Teleports clickable.yaml <https://gitlab.com/ubports/"
+"development/apps/teleports/-/blob/main/clickable.yaml#L26>`_ використовує "
+"властивості бібліотеки для побудови залежностей з tdlib."
 
 #: ../../appdev/guides/dependencies.rst:48
 msgid "Pre-built"
-msgstr ""
+msgstr "Наперед скомпільовано"
 
 #: ../../appdev/guides/dependencies.rst:49
 msgid "If you compiled your library as described above, skip this step."
-msgstr ""
+msgstr "Якщо скомпілюєте бібліотеку як описано вище, пропустіть цей крок."
 
 #: ../../appdev/guides/dependencies.rst:51
 msgid "A pre-built library is usually only available as a shared object that needs to be linked dynamically. Furthermore, it may contain components that you don't need, resulting in a bloated app. It may even miss something that you could achieve by compiling it yourself. Sometimes, a library is available in the Ubuntu Repositories, but is not installable for the architecture you need (likely ``armhf`` or ``arm64``). In this case you have to compile the library as described above."
 msgstr ""
+"Скомпільована наперед бібліотека доступна зазвичай лише як спільний об'єкт, "
+"який повинен зв'язуватися динамічно. Крім того, вона може містити "
+"компоненти, які Вам не потрібні, через що програма буде завеликою. Вона "
+"також може навіть не мати необхідних функцій. Іноді бібліотека доступна у "
+"репозиторіях Ubuntu, але не може бути встановлена у необхідній архітектурі ("
+"напр. ``armhf`` чи ``arm64``). У цьому випадку Вам потрібно скомпілювати "
+"бібліотеку як було описано вище."
 
 #: ../../appdev/guides/dependencies.rst:53
 msgid "If the library is available in the Ubuntu Repositories, you can add it to the dependencies list, like this:"
 msgstr ""
+"Якщо ця бібліотека доступна у репозиторіях Ubuntu, її можна додати у список "
+"залежностей у такий спосіб:"
 
 #: ../../appdev/guides/dependencies.rst:62
 msgid "Clickable will install the specified package automatically for the target architecture inside the build container. An example can be found in `Guitar Tools' clickable.json <https://github.com/t-mon/guitar-tools/blob/master/clickable.json#L4>`_."
 msgstr ""
+"Clickable встановить вказаний пакет для цільової архітектури автоматично "
+"всередині скомпільованого контейнера. Приклад можна знайти у `Guitar Tools ' "
+"clickable.json <https://github.com/t-mon/guitar-tools/blob/master/"
+"clickable.json#L4>` _."
 
 #: ../../appdev/guides/dependencies.rst:64
 msgid "If the library can be found in a PPA, you can add the PPA to the clickable.yaml, too. For example:"
 msgstr ""
+"Якщо бібліотеку можна знайти у PPA, можна також до clickable.yaml додати "
+"PPA. Наприклад:"
 
 #: ../../appdev/guides/dependencies.rst:75
 msgid "Otherwise add a script to download the pre-built library."
-msgstr ""
+msgstr "Або додайте скрипт для завантаження скомпільованої наперед бібліотеки."
 
 #: ../../appdev/guides/dependencies.rst:78
 msgid "Usage"
-msgstr ""
+msgstr "Використання"
 
 #: ../../appdev/guides/dependencies.rst:79
 msgid "First, you need to specify the include directory where the headers can be found that you include into the app's source code. Second, you need to link the library's binary against your app's binary."
 msgstr ""
+"По-перше, потрібно вказати каталог, в якому можна знайти заголовки для їх "
+"додавання до джерельного коду програми. По-друге, потрібно зв'язати двійкову "
+"бібліотеку з двійковою програмою."
 
 #: ../../appdev/guides/dependencies.rst:81
 msgid "In case the library contains a CMake configuration file, you can use the `find_package <https://cmake.org/cmake/help/latest/command/find_package.html>`_ command, which provides you with a target to link against or variables pointing to the library's binary and include directories. The additional lines on your CMakeLists.txt then may look like:"
 msgstr ""
+"У випадку, якщо бібліотека містить файл налаштувань CMake, можна "
+"використовувати команду `find_package <https://cmake.org/cmake/help/latest/"
+"command/find_package.html>` _, яка надасть цільовий об'єкт для зв'язку (link)"
+" або змінні, які вказуватимуть на двійкові бібліотеки та додаткові (include) "
+"каталоги. Додаткові рядки Вашого CMakeLists.txt можуть виглядати:"
 
 #: ../../appdev/guides/dependencies.rst:90
 msgid "The ``find_package`` command usually defines the path to the include directory as ``SOMELIBRARY_INCLUDE_DIRS`` and the library's binaries as ``SOMELIBRARY_LIBS`` (check on the library's documentation on what their CMake configuration provides exactly). Use them with the ``include_directories`` and ``target_link_libraries`` commands. See the `Camera Scanner ImageProcessing CMakeLists.txt <https://github.com/jonnius/camera-scanner/blob/master/plugins/ImageProcessing/CMakeLists.txt#L23>`_ for a real world example."
 msgstr ""
+"Команда `` find_package`` зазвичай визначає шлях до каталогу включення як "
+"``SOMELIBRARY_INCLUDE_DIRS`` та двійкові файли бібліотеки як `` "
+"SOMELIBRARY_LIBS`` (перевірте документацію бібліотеки, що саме надає "
+"конфігурація CMake). Використовуйте їх з командами `` include_directories`` "
+"та ``target_link_libraries``. Реальні приклади можна переглянути тут: `"
+"Camera Scanner ImageProcessing CMakeLists.txt <https://github.com/jonnius/"
+"camera-scanner/blob/master/plugins/ImageProcessing/CMakeLists.txt#L23>`_."
 
 #: ../../appdev/guides/dependencies.rst:92
 msgid "At this point you should already be able to test with Clickable's desktop mode running ``clickable desktop``."
 msgstr ""
+"Тепер Ви повинні мати можливість перевірити режим робочого столу Clickable, "
+"виконавши ``clickable desktop``."
 
 #: ../../appdev/guides/dependencies.rst:95
 msgid "Deployment"
-msgstr ""
+msgstr "Розгортання"
 
 #: ../../appdev/guides/dependencies.rst:96
 msgid "If you linked the library statically, you can skip this step, as the library's binary is already inside your app's binary."
 msgstr ""
+"Якщо Ви зв'язали бібліотеку статично, можете цей крок пропустити, оскільки "
+"двійкові файли бібліотеки вже всередині Вашої двійкової програми."
 
 #: ../../appdev/guides/dependencies.rst:98
 msgid "Find out which shared object files (``*.so``) you need to ship. You can do so by starting the app on your device via ``clickable && clickable logs``. You should see an error message telling you which shared object file was missing."
 msgstr ""
+"Дізнайтеся, які файли спільних об'єктів (``*.so``) потрібно доставити. Ви "
+"можете це зробити, запустивши програму на своєму пристрої за допомогою ``"
+"clickable && clickable logs``. Ви повинні побачити повідомлення з помилкою "
+"про відсутній файл спільного об'єкта."
 
 #: ../../appdev/guides/dependencies.rst:100
 msgid "Find the path to the shared object files. For libraries built via clickable, they are located somewhere in the library's install dir, which is located inside the library's build dir by default (e.g. ``build/arm-linux-gnueabihf/opencv/install``). For pre-built libraries run ``clickable run \"find / -name 'libSomething.so'\"`` (replacing ``libSomething.so`` by the file your are looking for). This should print the path to the file (along with some error messages you can ignore). In general, ``/usr/lib``  is a good bet when looking for the shared object files."
 msgstr ""
+"Знайдіть шлях до файлів спільних об'єктів. Для бібліотек, побудованих з "
+"clickable, вони розташовуються десь в інсталяційному каталозі бібліотеки, "
+"який типово розташований у каталозі для компільованих бібліотек (напр. ``"
+"build/arm-linux-gnueabihf/opencv/install``). Для бібліотек зібраних наперед "
+"виконайте ``clickable run \"find / -name 'libSomething.so'\"``(замінивши "
+"``libSomething.so`` файлом, який Ви шукаєте). Це повинно надати шлях до "
+"файлу (поряд з деякими повідомленнями про помилки, які можна ігнорувати). "
+"Загалом, для пошуку загальних файлів гарний вибір буде ``/usr/lib``."
 
 #: ../../appdev/guides/dependencies.rst:102
 msgid "To get the files into the click package, add the `install_lib <https://clickable.bhdouglass.com/en/latest/project-config.html#install-lib>`_ key to your clickable.yaml:"
 msgstr ""
+"Щоб отримати файли до пакета click, додайте ключ `install_lib <https://"
+"clickable.bhdouglass.com/en/latest/project-config.html#install-lib>`_ до "
+"свого clickable.yaml:"
 
 #: ../../appdev/guides/dependencies.rst:115
 msgid "The lines above contain two examples. The first one installing a library built with Clickable. The asterisk in ``.so*`` helps to catch symbolic links along with the actual library which are used to point to the current version."
 msgstr ""
+"Рядки зверху містять два приклади. Перший для встановлення бібліотеки, "
+"зібраної з Clickable. Зірочка у ``.so*`` допомагає перехопити символьні "
+"посилання разом з бібліотекою, що допоможе вказати на поточну версію."
 
 #: ../../appdev/guides/dependencies.rst:117
 msgid "Depending on the library, you might need to ship some additional data. In that case consult the library's readme or install instructions."
 msgstr ""
+"Залежно від бібліотеки, можливо буде потрібно надіслати додаткові дані. Для "
+"цього перегляньте readme бібліотеки або настанови інсталятора."
 
 #: ../../appdev/guides/dependencies.rst:119
 msgid "You should be set up to build and install your click package on a device connected to your computer now by running ``clickable``."
 msgstr ""
+"Вам буде потрібно виконати налаштування для компіляції та встановлення "
+"Вашого click-пакунку на під'єднаний до комп'ютера пристрій, виконавши "
+"``clickable``."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:2
 msgid "Importing from Content Hub and URLdispatcher"
-msgstr ""
+msgstr "Імпорт з Content Hub та URLdispatcher"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:15
 msgid "In the previous guide we have seen a little bit about how Content Hub works. In this guide we will see how ``URLdispatcher`` works and how to handle imported data from the Content Hub."
