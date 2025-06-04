@@ -7,22 +7,21 @@ This document describes the standard process of dealing with new issues in UBpor
 Where are bugs tracked?
 -----------------------
 
-Since quality assurance depends heavily on community effort, issues are
-tracked where users expect them, instead of separated by repository.
-This means issues of almost all distributed components (as with the system-image)
-are tracked in the `Ubuntu Touch tracker <https://gitlab.com/ubports/ubuntu-touch>`__.
-An exception to this are click-apps, which can be updated independently through
-the OpenStore.
+The primary issue tracker for Ubuntu Touch is the `ubports/development/ubuntu-touch GitLab project`_. This project tracks all system-level Ubuntu Touch issues, and serves as an entry point for users to report issues they've encountered.
 
-Most other repositories track issues locally. You will find out whether a
-repository uses its own tracker or not in its README.md file.
-Repositories that don't track issues locally have their bugtracker turned off.
+Meanwhile, other projects in the group also have their issue trackers enabled too:
 
-This page is mainly about the Ubuntu Touch tracker, but most principles apply
-to other projects as well.
+- Device-specific issues are tracked under each device's project under `ubports/porting`_ group.
+- Core applications under `ubports/development/apps`_ track their own issues.
+- System issues can also be filed against each component under `ubports/development/core`_ directly as well, if it's clear which component is responsible for an issue.
 
-.. note::
-     Practical exceptions to purity are to be described in the project's README.md file.
+GitLab allows showing `issues across the group`_, cross-project issue reference, and issue transfer between projects, making the exact project an issue is filed less important. If a port-specific or website issue ended up in ubports/development/ubuntu-touch project, they can be moved to the appropriate project.
+
+.. _ubports/development/ubuntu-touch GitLab project: https://gitlab.com/ubports/development/ubuntu-touch
+.. _ubports/porting: https://gitlab.com/ubports/porting
+.. _ubports/development/apps: https://gitlab.com/ubports/development/apps
+.. _ubports/development/core: https://gitlab.com/ubports/development/core
+.. _issues across the group: https://gitlab.com/groups/ubports/development/-/issues
 
 Labels
 ------
