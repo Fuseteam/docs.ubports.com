@@ -73,10 +73,13 @@ The following labels are used inside UBports projects:
 Milestones
 ----------
 
-Milestones are used for stable OTA releases only. In general, milestones
-for the work-in-progress OTA and the next OTA are created. The ETA is set
-once the work on the release starts (that is 6 weeks from start date), but
-can be adjusted afterwards. Learn more in :doc:`release-schedule <release-schedule>`.
+Milestones are used to define which release an issue targets. At a given time, up to 3 milestones are open:
+
+- A milestone for the upcoming stable release e.g. 'Ubuntu Touch 24.04-1.1'.
+- A milestone for the in development major release e.g. 'Ubuntu Touch 24.04-2.0'.
+- Once the in development release enters a stabilization phase, a milestone for the next major release (e.g. 'Ubuntu Touch 24.04-3.0') can be created.
+
+Developers are encouraged to avoid assigning too many issues to a milestone; an overflowing milestone makes the milestone not as useful as it could be in tracking progress of a release.
 
 Assignees
 ---------
