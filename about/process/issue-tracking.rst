@@ -95,6 +95,11 @@ GitLab issue board
 
 We use GitLab's issue boards to visualize progress of issues in each milestone. The boards are kanban boards, where each column corresponds to each **Status:** label (in-progress, blocked, has MR), with additional columns for opened issues without **Status:** label (which indicate that the issue has not been started yet) and closed issues.
 
+GitLab epic
+-----------
+
+We use GitLab's epics to denote a topic which might span single or multiple milestones/releases. This helps organizing some long-term goals which are too large to implement at once.
+
 How labels, milestone etc. are being used?
 -------------------------------------------
 
