@@ -89,3 +89,8 @@ be assigned. This also allows the use of GitHub's global filtering as a
 type of TODO list.
 
 Developers are encouraged to keep their list short and update the status of their issues.
+
+GitLab issue board
+------------------
+
+We use GitLab's issue boards to visualize progress of issues in each milestone. The boards are kanban boards, where each column corresponds to each **Status:** label (in-progress, blocked, has MR), with additional columns for opened issues without **Status:** label (which indicate that the issue has not been started yet) and closed issues.
