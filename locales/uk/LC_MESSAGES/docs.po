@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-31 21:01+0000\n"
+"PO-Revision-Date: 2025-06-06 09:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -187,7 +187,7 @@ msgstr "Останній або майбутній випуск Ubuntu LTS."
 
 #: ../../about/process/branch-naming.rst:28
 msgid "``devel-debian``"
-msgstr ""
+msgstr "``devel-debian``"
 
 #: ../../about/process/branch-naming.rst:28
 msgid "Debian testing."
@@ -214,7 +214,7 @@ msgstr "Ubuntu LTS на момент розгалуження."
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``ubports/focal``"
-msgstr ""
+msgstr "``ubports/focal``"
 
 #: ../../about/process/branch-naming.rst:38
 msgid "A special case of ``ubports/<major version>.x``, which is branched after the release of Ubuntu Touch 20.04 OTA-4."
@@ -243,7 +243,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``focal_-_<ext>``"
-msgstr ""
+msgstr "``focal_-_<ext>``"
 
 #: ../../about/process/branch-naming.rst:48
 msgid "``personal/<user>/<name>``, and any other branches."
@@ -1345,98 +1345,156 @@ msgstr "Імпорт з Content Hub та URLdispatcher"
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:15
 msgid "In the previous guide we have seen a little bit about how Content Hub works. In this guide we will see how ``URLdispatcher`` works and how to handle imported data from the Content Hub."
 msgstr ""
+"У попередній настанові ми трішки побачили як працює Content Hub. Зараз "
+"поглянемо як працює ``URLdispatcher``та як поводитися з імпортованими даними "
+"з Content Hub."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:18
 msgid "Handle data from the Content Hub"
-msgstr ""
+msgstr "Обробка даних з Content Hub"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:23
 msgid "OpenStore app from open-store.io"
-msgstr ""
+msgstr "Програма OpenStore з open-store.io"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:25
 msgid "One of the easiest ways of testing an app, is to send a test click to yourself on Telegram, and opening that click file with the OpenStore through the Content Hub:"
 msgstr ""
+"Один з простих шляхів перевірки програм — це надіслати собі у Telegram "
+"тестовий click та відкрити його там в OpenStore через Content Hub:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:30
 msgid "If we tap on the OpenStore app, it will be opened and it will ask if we want to install the click file. Let’s take a look into `the Main.qml code of the app <https://github.com/UbuntuOpenStore/openstore-app/blob/master/openstore/Main.qml#L85>`_ to see how it is done:"
 msgstr ""
+"Якщо ми тицьнемо на програму OpenStore, вона запуститься та запитає чи ми не "
+"хочемо встановити цей файл click. Подивимося на `код програми Main.qml "
+"<https://github.com/UbuntuOpenStore/openstore-app/blob/master/openstore/"
+"Main.qml#L85>`_ щоби зрозуміти як це робиться:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:49
 msgid "Do you see that Connections element that targets the ContentHub? When it receives the signal onImportRequested, it will take the url of the data sent from the Content Hub (``transfer.items[0].url`` is the url of the first data sent) and open a ``PopUp`` element to let the user install the click."
 msgstr ""
+"Ви бачите елемент Connections, який вказує на ContentHub? Коли він отримує "
+"сигнал onImportRequested, він бере посилання з надісланих від Content Hub "
+"даних (``transfer.items[0].url`` — це посилання на перші надіслані дані) та "
+"відкриває елемент ``PopUp``, щоби користувач міг встановити цей "
+"click-пакунок."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:52
 msgid "What about the URLdispatcher?"
-msgstr ""
+msgstr "Як щодо URLdispatcher?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:54
 msgid "The URL dispatcher is a piece of software, similar to the Content Hub, that makes our life easier trying to choose the correct app for a certain protocol. For example: We probably want to open the web browser when tapping on an http protocol. If we tap on a map link it is handy to open it with uNav or to open a twitter link in the Twitter app! How does that work?"
 msgstr ""
+"URLdispatcher — це програмна частина, схожа на Content Hub, яка робить наше "
+"життя легшим, намагаючись вибрати правильну програму, відповідно до "
+"протоколу. Наприклад, тицьнувши на протокол http Ви хочете відкрити "
+"веббраузер. Коли ми тицяємо на посилання для мапи, було б зручно його "
+"відкрити в uNav, а посилання twitter — у Twitter! Як це працює?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:56
 msgid "The ``URLdispatcher`` selects which app (according to their ``manifest.json``) will open a certain link."
 msgstr ""
+"``URLdispatcher`` обирає яка програма (відповідно до ``manifest.json``) які "
+"посилання повинна відкривати."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:61
 msgid "Let’s see how our navigation app looks inside. uNav’s manifest shows special hooks for the ``URLdispatcher`` in its `manifest.json code <https://bazaar.launchpad.net/~unav-devs/unav/trunk/view/head:/manifest.json#L9>`_:"
 msgstr ""
+"Подивімося, як виглядає наша навігаційна програма зсередини. Маніфест uNav у "
+"`коді manifest.json <https://bazaar.launchpad.net/~unav-devs/unav/trunk/view/"
+"head:/manifest.json#L9>`_ містить особливі хуки для ``URLdispatcher``:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:91
 msgid "This means that a link that looks like http://map.unav.me/xxxxx,xxxxx will be opened in uNav. And that’s defined in lines 2 and 3, where it looks for protocol http followed by map.unav.me."
 msgstr ""
+"Це значить, що посилання вигляду http://map.unav.me/xxxxx,xxxxx буде "
+"відкриватися в uNav. І це визначено у рядках 2 та 3, де після зазначеного "
+"протоколу http вказано map.unav.me."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:93
 msgid "Also, a URI formatted geo:xxx,xxx should open in uNav, as it’s defined in line 11."
 msgstr ""
+"Також в uNav будуть відкриватися URI у форматі geo:xxx,xxx, про що вказано у "
+"рядку 11."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:96
 msgid "And how do we manage the received URL?"
-msgstr ""
+msgstr "І як ми керуємо отриманими URL?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:98
 msgid "After the ``URLdispatcher`` sends the link to the correspondent app, we need to handle that URL or URI in the targeted app. Let’s see how to do that:"
 msgstr ""
+"Після того як ``URLdispatcher`` надсилає посилання до відповідної програми, "
+"потрібно опрацювати URL / URI у цільовій програмі. Подивимося як це зробити:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:100
 msgid "In the main qml file, we need to add some code to know what to do with the dispatched URL. Let's check how Linphone app manages this adding a `connection to the URI Handler <https://gitlab.com/ubports-linphone/linphone-simple/blob/master/qml/Main.qml#L212>`_ with a Connections element setting ``UriHandler`` as a target."
 msgstr ""
+"В головному файлі qml потрібно додати код, який відповідатиме за обробку "
+"URL. Перевіримо, як це робить програма Linphone, додавши `з'єднання з "
+"обробкою URI <https://gitlab.com/ubports-linphone/linphone-simple/blob/"
+"master/qml/main.qml#l212>` _ з елементом Connections та встановленням "
+"``UriHandler`` як ціль."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:117
 msgid "This code will manage an URI in the form ``linphone://sip:xxx@xxx.xx`` when the app is opened. But what do we need to do to handle this link when the app is closed?"
 msgstr ""
+"Із запуском програми код буде керувати URI у формі "
+"``linphone://sip:xxx@xxx.xx``. Але що потрібно зробити для опрацювання цього "
+"посилання, коли програма закрита?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:119
 msgid "We need to add a little bit `extra code <https://gitlab.com/ubports-linphone/linphone-simple/blob/master/qml/Main.qml#L76>`_ that will cover two cases: 1) We receive one URL 2) We receive more than one URL"
 msgstr ""
+"Потрібно додати трішки `додаткового коду <https://gitlab.com/"
+"ubports-linphone/linphone-simple/blob/master/qml/Main.qml#L76>`_, який "
+"закриє два моменти: 1) Ми отримуємо одне посилання URL, 2) Ми отримуємо "
+"декілька посилань URL"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:123
 msgid "Let's check if ``Qt.application.arguments`` is not empty and if not, if any argument matches our URI format."
 msgstr ""
+"Перевіримо чи ``Qt.application.arguments`` не порожній, та якщо ні, чи є "
+"збіги аргументів з нашим форматом URI."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:143
 msgid "Remember to check that %u (to receive 1 URL) or %U (to receive 1 or more URLs) is present under the ``Exec`` line in the `.desktop <https://gitlab.com/ubports-linphone/linphone-simple/-/blob/master/linphone.desktop.in#L7>`_ file of the app."
 msgstr ""
+"Не забудьте перевірити, що %u (для 1 URL) або %U (для декількох URL) "
+"присутні у файлі програми `.desktop <https://gitlab.com/ubports-linphone/"
+"linphone-simple/-/blob/master/linphone.desktop.in#L7>`_ під рядком ``Exec``."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:146
 msgid "Tools"
-msgstr ""
+msgstr "Інструменти"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:148
 msgid "From command line, ``lomiri-url-dispatcher-dump`` command will give you the full list of registered protocol schemes and their corresponding app."
 msgstr ""
+"Команда ``lomiri-url-dispatcher-dump`` з командного рядка надає повний "
+"список зареєстрованих протокольних схем та їх відповідних програм."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:150
 msgid "Another usefull tool, but not installed by default on devices is ``lomiri-url-dispatcher-tools``, it allows you to simulate a call from a third party app. e.g: ``lomiri-url-dispatcher https://youtu.be/CIX-a-i6B1w`` will launch youtube webapp."
 msgstr ""
+"Інший корисний інструмент, але не встановлений типово на пристроях — це "
+"``lomiri-url-dispatcher-tools``, який може симулювати виклик від сторонньої "
+"програми, напр., ``lomiri-url-dispatcher https://youtu.be/CIX-a-i6B1w`` "
+"запустить вебдодаток youtube."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:152
 msgid "To install, it make your partition writable (``sudo mount -o rw,remount /``) and install it via ``sudo apt install lomiri-url-dispatcher-tools``"
 msgstr ""
+"Для встановлення зробіть розділ доступним на запис (``sudo mount -o "
+"rw,remount /``) та встановіть командою ``sudo apt install lomiri-url-"
+"dispatcher-tools``"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:157
 msgid "What happens if more than one app has the same URL type defined?"
 msgstr ""
+"Що відбувається якщо той самий тип URL визначений у декількох програмах?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:159
 msgid "A very good question. What happens if we tap on a Twitter link? How is such a URL handled by the ``URLdispatcher`` as protocol ``http`` or the protocol ``http://twitter``?"
