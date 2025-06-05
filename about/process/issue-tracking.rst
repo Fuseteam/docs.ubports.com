@@ -89,24 +89,3 @@ be assigned. This also allows the use of GitHub's global filtering as a
 type of TODO list.
 
 Developers are encouraged to keep their list short and update the status of their issues.
-
-Examples
---------
-
-Bug Lifecycle
-~~~~~~~~~~~~~
-
-.. note::
-    The same principle applies to feature requests, only they are labeled
-    **enhancement** instead of **bug**. **needs confirmation** is not
-    applicable for feature requests.
-
-- A *user* files a new bug using the issue-template.
-- The *QA-Team* labels it **needs confirmation** and tries to work with the user to confirm the bug and add potentially missing info to the report.
-- Once the report is complete a **team-label** is added to the issue, the issue will be put on the **awaiting-triage-list** of the project and the label needs confirmation will be replaced with **bug**.
-- The affected *Team* triages the issue and either rejects (label **wontfix**, closes and removes from the project) or accepts the issue.
-- The team decides whether to fix the issue in-house (move to "Accepted" and assign a team member) or wait for a community developer to pick it up (by labeling it **help wanted**, removing it from the project board and providing hints on how to resolve the issue and further details on how the fix should be implemented if necessary). For non-critical issues trivial to fix, the label **good first issue** can be added as well.
-- Once a *developer* is assigned and starts working on the issue, it is moved to "In Development".
-- As soon as there is something to show for, the issue is closed and automatically moved to "Quality Assurance" for feedback from the QA team. If necessary, the developer provides hints on how to test the patch in a comment on the issue.
-- The *QA-Team* tests the fix on all devices and provides feedback to the developer. If problems are found, the issue is re-opened and goes back to "Accepted", otherwise it is moved to "Release Candidate" for inclusion in the next release.
-- If not done already, the issue is added to the next milestone, which once released removes the issue from the project board.
