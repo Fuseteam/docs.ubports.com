@@ -94,3 +94,14 @@ GitLab issue board
 ------------------
 
 We use GitLab's issue boards to visualize progress of issues in each milestone. The boards are kanban boards, where each column corresponds to each **Status:** label (in-progress, blocked, has MR), with additional columns for opened issues without **Status:** label (which indicate that the issue has not been started yet) and closed issues.
+
+How labels, milestone etc. are being used?
+-------------------------------------------
+
+Think of labels, milestone, and other fields as tools a person can use to efficiently communicate with the reporter, other developers, and interested parties. They could be use in a few ways:
+
+- Because those fields show up in the issue list, it can give an at-a-glance info about the issue, helping developers to quickly understand the issue. For example, a developer could look at an issue on the list, notice that the issue has "needs discussion" label, and decide to jump in to give their 2 cents.
+- A field could be used to filter only interested issues. For example, a community member wanting to contribute into confirming issues can filter only issues with "needs confirmation" label and start jumping in.
+- A field could also be used to filter out uninteresting issues. For example, when a developer want to look for an issue to work on, one would want to filter out "Kind: process" label (used for e.g. tracking issue for a release).
+
+Since we don't always have someone to specifically triage issues and set those labels, developers are encouraged to set all those fields as they work on an issue. This will help comminicating what has been done on the issue, and also help summarizing the issue for quicker understanding.
