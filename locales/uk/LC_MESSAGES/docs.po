@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-06 09:01+0000\n"
+"PO-Revision-Date: 2025-06-08 21:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -1499,179 +1499,240 @@ msgstr ""
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:159
 msgid "A very good question. What happens if we tap on a Twitter link? How is such a URL handled by the ``URLdispatcher`` as protocol ``http`` or the protocol ``http://twitter``?"
 msgstr ""
+"Дуже гарне запитання. Що станеться, якщо тицьнути на посилання Twitter? За "
+"яким протоколом таке посилання обробляється ``URLdispatcher`` — ``http`` чи "
+"``http://twitter``?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:161
 msgid "What happens if two apps have the same defined protocol?"
-msgstr ""
+msgstr "Що станеться, якщо у двох програм буде описаний однаковий протокол?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:163
 msgid "Now it’s time to do some tests and share the results in the next guide."
 msgstr ""
+"Тепер настав час для деяких тестів, результатами яких можна буде поділитися "
+"у наступному посібнику."
 
 #: ../../appdev/guides/index.rst:4
 msgid "Developer guides"
-msgstr ""
+msgstr "Настанови для розробників"
 
 #: ../../appdev/guides/index.rst:6
 msgid "To get started with your first app check out the following developer guides:"
 msgstr ""
+"Для початку роботи з першою програмою ознайомтеся з наступними настановами "
+"для розробників:"
 
 #: ../../appdev/guides/index.rst:8
 msgid "`Qt programming course by mimecar for Ubuntu Touch <https://docs.innerzaurus.com>`__"
 msgstr ""
+"`Курс програмування Qt від mimecar для Ubuntu Touch "
+"<https://docs.innerzaurus.com>`__"
 
 #: ../../appdev/guides/index.rst:9
 msgid "`Application Templates by fulvio <https://github.com/fulvio999/ubports_app_templates>`__"
 msgstr ""
+"`Шаблони програм від fulvio <https://github.com/fulvio999/"
+"ubports_app_templates>`__"
 
 #: ../../appdev/guides/index.rst:10
 msgid "`Python examples by pavelprosto <https://forums.ubports.com/topic/5525/python-examples>`__"
 msgstr ""
+"`Приклади Python від pavelprosto <https://forums.ubports.com/topic/5525/"
+"python-examples>`__"
 
 #: ../../appdev/guides/index.rst:11
 msgid "`QML templates by Joan CiberSheep <https://gitlab.com/cibersheep/qml-templates-for-ubuntutouch>`__."
 msgstr ""
+"`Шаблони QML від Joan CiberSheep <https://gitlab.com/cibersheep/qml-"
+"templates-for-ubuntutouch>`__."
 
 #: ../../appdev/guides/index.rst:12
 msgid "`First steps with QML <https://doc.qt.io/qt-5/qmlfirststeps.html>`__."
-msgstr ""
+msgstr "`Перші кроки з QML <https://doc.qt.io/qt-5/qmlfirststeps.html>`__."
 
 #: ../../appdev/guides/index.rst:13
 msgid "`Qt examples and tutorials <https://doc.qt.io/qt-5.12/qtexamplesandtutorials.html>`__."
 msgstr ""
+"`Приклади та посібники з Qt <https://doc.qt.io/qt-5.12/"
+"qtexamplesandtutorials.html>`__."
 
 #: ../../appdev/guides/index.rst:15
 msgid "If you are interested in helping to create developer guides check out our `GitLab Project <https://gitlab.com/ubports/apps/development-resources>`__."
 msgstr ""
+"Якщо Ви зацікавленні у допомозі зі створенням настанов для розробників "
+"перевірте наш `Проєкт GitLab <https://gitlab.com/ubports/apps/development-"
+"resources>`__."
 
 #: ../../appdev/guides/index.rst:18
 msgid "To get familiar with some more advanced concepts see the following sections:"
 msgstr ""
+"Для ознайомлення з деякими більш досконалими концепціями перегляньте "
+"наступні розділи:"
 
 #: ../../appdev/guides/index.rst:33
 msgid "Playground"
-msgstr ""
+msgstr "Ігровий майданчик"
 
 #: ../../appdev/guides/index.rst:35
 msgid "In a completely free and open source community, it is natural to have community members exploring the limits of the platform in many many directions. In this section you will find links to external resources that do exactly that: Explore. The purpose of this list is to show the unlimited possibilities of an open platform like Ubuntu Touch."
 msgstr ""
+"В абсолютно вільній спільноті з відкритим кодом цілком природно мати серед "
+"учасників людей, які досліджують межі платформи з усіх боків. У цьому "
+"розділі можна знайти посилання на зовнішні ресурси, які стосуються саме "
+"досліджень. Мета цього списку — це показати безмежні можливості відкритих "
+"платформ, таких як Ubuntu Touch."
 
 #: ../../appdev/guides/index.rst:38
 msgid "The resources listed here do not necessarily represent the officially endorsed way of developing applications for Ubuntu Touch, but are interesting experiments."
 msgstr ""
+"Ресурси, перераховані тут, не обов'язково представляють офіційно схвалені "
+"методи розробки для Ubuntu Touch, але є цікавими експериментами."
 
 #: ../../appdev/guides/index.rst:40
 msgid "`Free Pascal development for Ubuntu Touch <http://kriscode.blogspot.tw/2016/09/freepascal-development-for-ubuntu-phone.html>`__"
 msgstr ""
+"`Розробка з Free Pascal для Ubuntu Touch <http://kriscode.blogspot.tw/2016/"
+"09/freepascal-development-for-ubuntu-phone.html>`__"
 
 #: ../../appdev/guides/index.rst:41
 msgid "`Lazarus development for Ubuntu Touch <http://kriscode.blogspot.tw/2016/10/lazarus-development-for-ubuntu-phone.html>`__"
 msgstr ""
+"`Розробка з Lazarus для Ubuntu Touch <http://kriscode.blogspot.tw/2016/10/"
+"lazarus-development-for-ubuntu-phone.html>`__"
 
 #: ../../appdev/guides/index.rst:42
 msgid "`Geany on Ubuntu Touch device as text editor, source code editor, debugger and compiler for multiple languages <http://kriscode.blogspot.tw/2017/10/geany-on-ubuntu-touch-device-as-text.html>`__"
 msgstr ""
+"`Geany на пристроях з Ubuntu Touch у ролі текстового редактора, редактора "
+"коду, налагоджувача та компілятора для різних мов програмування <http://"
+"kriscode.blogspot.tw/2017/10/geany-on-ubuntu-touch-device-as-text.html>`__"
 
 #: ../../appdev/guides/index.rst:43
 msgid "`Deploy your existing Qt QML app to Ubuntu Touch using QMake (Video) <https://youtu.be/ehqlwRNrfO0>`__"
 msgstr ""
+"`Встановіть свою програму Qt QML на Ubuntu Touch з використанням QMake "
+"(відео) <https://youtu.be/ehqlwRNrfO0>`__"
 
 #: ../../appdev/guides/index.rst:44
 msgid "`Deploy your existing Qt QML app to Ubuntu Touch using CMake (Video) <https://youtu.be/c2sq6aLeGec>`__"
 msgstr ""
+"`Встановіть свою програму Qt QML на Ubuntu Touch з використанням CMake "
+"(відео) <https://youtu.be/c2sq6aLeGec>`__"
 
 #: ../../appdev/guides/index.rst:45
 msgid "`Getting started with Clickable (Video) <https://youtu.be/TE-s5522v0Y>`__"
-msgstr ""
+msgstr "`Початок роботи з Clickable (відео) <https://youtu.be/TE-s5522v0Y>`__"
 
 #: ../../appdev/guides/index.rst:46
 msgid "`Content Hub overview (Video) <https://youtu.be/AihwC2sPIk0>`__"
-msgstr ""
+msgstr "`Огляд Content Hub (відео) <https://youtu.be/AihwC2sPIk0>`__"
 
 #: ../../appdev/guides/index.rst:47
 msgid "`Import files to your app with Content Hub (Video) <https://youtu.be/q6zzM16jw1U>`__"
 msgstr ""
+"`Імпортуйте файли до своєї програми з Content Hub (відео) <https://youtu.be/"
+"q6zzM16jw1U>`__"
 
 #: ../../appdev/guides/port-to-focal.rst:2
 msgid "Porting Apps to Focal"
-msgstr ""
+msgstr "Портування програм до Focal"
 
 #: ../../appdev/guides/port-to-focal.rst:4
 msgid "During the switch to Focal some changes were made to the app environment. In order to ensure that the app will continue working, it is recommended to update your app to Focal."
 msgstr ""
+"Під час переходу до Focal в оточенні програми відбулися деякі зміни. Для "
+"продовження правильної роботи програми рекомендовано її оновити у Focal."
 
 #: ../../appdev/guides/port-to-focal.rst:7
 msgid "QML"
-msgstr ""
+msgstr "QML"
 
 #: ../../appdev/guides/port-to-focal.rst:9
 msgid "Most changes will need to be made to any QML files. References to Ubuntu were removed from QML Imports, and most QML classes. While there is a compatability layer, it is recommended to move to the Lomiri Modules."
 msgstr ""
+"Найбільші зміни потрібно зробити у різних файлах QML. Посилання до Ubuntu "
+"були вилучені з імпортів QML та більшості класів QML. Хоча наявний шар "
+"сумісності, рекомендовано перейти до модулів Lomiri."
 
 #: ../../appdev/guides/port-to-focal.rst:17
 msgid "Other references to Ubuntu were also Changed to Lomiri, such as `UbuntuColors` being renamed `LomiriColors`. These must also be updated. This can be somewhat automated:"
 msgstr ""
+"Інші посилання на Ubuntu також були змінені на Lomiri, наприклад "
+"`UbuntuColors` перейменовано на `LomiriColors`. Це також потрібно оновити. І "
+"це можна автоматизувати:"
 
 #: ../../appdev/guides/port-to-focal.rst:29
 msgid "Configuration Files"
-msgstr ""
+msgstr "Файли налаштувань"
 
 #: ../../appdev/guides/port-to-focal.rst:32
 msgid "clickable.yaml"
-msgstr ""
+msgstr "clickable.yaml"
 
 #: ../../appdev/guides/port-to-focal.rst:33
 msgid "If your project has a `clickable.json` file instead of a `clickable.yaml` file, it is recommended to first convert the JSON file to a YAML file. Afterwards, add the following:"
 msgstr ""
+"Якщо у Вашому проєкті замість файлу `clickable.yaml` наявний `clickable.json`"
+", рекомендовано спочатку перетворити файл JSON у YAML. Врешті, додайте "
+"наступне:"
 
 #: ../../appdev/guides/port-to-focal.rst:42
 msgid "AppArmor file"
-msgstr ""
+msgstr "Файл AppArmor"
 
 #: ../../appdev/guides/port-to-focal.rst:43
 msgid "Update the policy version in the AppArmor file:"
-msgstr ""
+msgstr "Оновіть версію політик у файлі AppArmor:"
 
 #: ../../appdev/guides/port-to-focal.rst:57
 msgid "Desktop File"
-msgstr ""
+msgstr "Файл стільниці"
 
 #: ../../appdev/guides/port-to-focal.rst:59
 msgid "Change `X-Ubuntu-Touch` to `X-Lomiri-Touch`:"
-msgstr ""
+msgstr "Змініть `X-Ubuntu-Touch` на `X-Lomiri-Touch`:"
 
 #: ../../appdev/guides/port-to-focal.rst:73
 msgid "Build Files"
-msgstr ""
+msgstr "Файли збірки"
 
 #: ../../appdev/guides/port-to-focal.rst:76
 msgid "CMakeLists.txt"
-msgstr ""
+msgstr "CMakeLists.txt"
 
 #: ../../appdev/guides/port-to-focal.rst:77
 msgid "If the app is based on one of the App Templates, update the default Click Framework in the CMake file:"
 msgstr ""
+"Якщо програма заснована на одному з програмних шаблонів, оновіть типовий "
+"фреймворк для Click у файлі CMake:"
 
 #: ../../appdev/guides/port-to-focal.rst:91
 msgid ".gitlab-ci.yml"
-msgstr ""
+msgstr ".gitlab-ci.yml"
 
 #: ../../appdev/guides/port-to-focal.rst:92
 msgid "If you have a Gitlab CI file, you need to update it:"
-msgstr ""
+msgstr "Якщо у Вас є файл Gitlab CI, потрібно його оновити:"
 
 #: ../../appdev/guides/pushnotifications.rst:2
 #: ../../appdev/platform/index.rst:11
 msgid "Push notifications"
-msgstr ""
+msgstr "Push-сповіщення"
 
 #: ../../appdev/guides/pushnotifications.rst:4
 msgid "Let's assume that you have an app created with Clickable and published on the OpenStore. But now you want to be able to send Push Notifications to your users. First of all, you need to understand how this is working:"
 msgstr ""
+"Уявімо, що Ви створили програму з Clickable та опублікували її в OpenStore. "
+"Але тепер Вам потрібно надсилати користувачам Push-сповіщення. Перш за все "
+"потрібно зрозуміти як це працює:"
 
 #: ../../appdev/guides/pushnotifications.rst:10
 msgid "Every app which uses push notifications has got a unique token. This token identifies the user, the device and the app itself. The token is generated by the UBports Push Service."
 msgstr ""
+"Кожна програма, яка використовує пуш-сповіщення має унікальний токен. Він "
+"ідентифікує користувача, пристрій та саму програму. Цей токен створюється "
+"Push-сервісом UBports."
 
 #: ../../appdev/guides/pushnotifications.rst:11
 msgid "You will need the token to send a push notification. So the app sends its token to the app developer's server."
