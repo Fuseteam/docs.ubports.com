@@ -46,49 +46,21 @@
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2023-02-21 08:58+0000\n"
-"Last-Translator: Alberto <ortodipace@proton.me>\n"
-"Language-Team: Italian <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-userguide/it/>\n"
+"PO-Revision-Date: 2025-06-10 12:01+0000\n"
+"Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports 1.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  appdev.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.1\n"
-"#-#-#-#-#  contribute.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  humanguide.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  index.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  porting.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.1\n"
-"#-#-#-#-#  systemdev.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  userguide.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.12-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -2475,7 +2447,7 @@ msgstr "come descritto nella documentazione del lato client."
 
 #: ../../appdev/guides/pushnotifications.rst:175
 msgid "expire_on"
-msgstr "scadere_il"
+msgstr "expire_on"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. Expiration date/time for this message, in"
@@ -2520,7 +2492,7 @@ msgstr "ottenere un errore \"too-many-pending\". Predefinisce il falso."
 
 #: ../../appdev/guides/pushnotifications.rst:184
 msgid "replace_tag"
-msgstr "sostituire_tag"
+msgstr "replace_tag"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If there's a pending notification with the same tag, delete it before"
@@ -2531,8 +2503,9 @@ msgid "queuing this new one."
 msgstr "in coda a questo nuovo."
 
 #: ../../appdev/guides/pushnotifications.rst:187
+#, fuzzy
 msgid "data"
-msgstr "dati"
+msgstr "data"
 
 #: ../../appdev/guides/pushnotifications.rst:187
 #: ../../appdev/guides/pushnotifications.rst:192
