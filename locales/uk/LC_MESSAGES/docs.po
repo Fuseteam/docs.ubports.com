@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-08 21:01+0000\n"
+"PO-Revision-Date: 2025-06-10 12:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -1737,78 +1737,114 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:11
 msgid "You will need the token to send a push notification. So the app sends its token to the app developer's server."
 msgstr ""
+"Для надсилання пуш-повідомлень потрібен токен, який надсилатиметься "
+"програмою на сервер її розробника."
 
 #: ../../appdev/guides/pushnotifications.rst:12
 msgid "With the token you can send a HTTP request to the UBports Push Server which will forward the notification the user's device."
 msgstr ""
+"З токеном можна надсилати до пуш-сервера UBports запит HTTP, який буде "
+"перенаправлений до користувацьких пристроїв як сповіщення."
 
 #: ../../appdev/guides/pushnotifications.rst:14
 msgid "Let's practice this step-by-step."
-msgstr ""
+msgstr "Пройдемо це покроково."
 
 #: ../../appdev/guides/pushnotifications.rst:17
 msgid "In the following example we will not implement a server. Also the communication between your app and your server is up to you. Please inform the user about the communication with your server by providing a privacy policy!"
 msgstr ""
+"У наступному прикладі ми не зачіпатимемо сервер. Комунікація між Вашою "
+"програмою та Вашим сервером — також Ваша справа. Повідомте, будь ласка, "
+"користувача про обмін даними з Вашим сервером з наданням інформації про "
+"політику безпеки!"
 
 #: ../../appdev/guides/pushnotifications.rst:20
 msgid "Make the app ready for push notifications"
-msgstr ""
+msgstr "Підготуйте програму для отримання пуш-сповіщень"
 
 #: ../../appdev/guides/pushnotifications.rst:23
 msgid "Implementing the PushClient"
-msgstr ""
+msgstr "Реалізація PushClient"
 
 #: ../../appdev/guides/pushnotifications.rst:25
 msgid "First we need to add the policy group \"push-notification-client\". Your apparmor file could look like this:"
 msgstr ""
+"Перш за все потрібно додати групову політику \"push-notification-client\". "
+"Ваш файл apparmor може виглядати так:"
 
 #: ../../appdev/guides/pushnotifications.rst:38
 msgid "In the next step we need to modify the Qml parts. We need to add a pushclient component:"
 msgstr ""
+"На наступному кроці необхідно змінити частину Qml. Потрібно додати компонент "
+"pushclient:"
 
 #: ../../appdev/guides/pushnotifications.rst:54
 msgid "You need to set the correct appId! If the app name in your manifest file is myapp.yourname and the name of the main hook (the one which handles the .desktop file) is hookname, then the appId is:  myapp.yourname_hookname. When we now start the app, it will get a token and print this token in the logs. With clickable logs we will be able to copy this token out of the terminal. But the app is not yet ready to receive a push notification. For this we need something called a pushhelper!"
 msgstr ""
+"Потрібно встановити правильний appId! Якщо назва програми у Вашому файлі-"
+"маніфесті буде myapp.yourname, а назва головного хуку (який опікується "
+"файлом .desktop) — hookname, Ваш appId — це myapp.yourname_hookname. Тепер, "
+"коли програма запуститься, вона отримає токен та запише його у журналі. З "
+"журналами clickable ми зможемо скопіювати цей токен до термінала. Але "
+"програма все ще не готова отримувати пуш-повідомлення. Для цього потрібен "
+"так званий pushhelper!"
 
 #: ../../appdev/guides/pushnotifications.rst:58
 msgid "Implementing the pushhelper"
-msgstr ""
+msgstr "Реалізація pushhelper"
 
 #: ../../appdev/guides/pushnotifications.rst:60
 msgid "The pushhelper is a part of the app which will receive all push notifications and process them before sending them to the system notification center. It will receive a json-file and must output another json-file in the correct format. The pushhelper is seperated from the app. So we need a new hook in the manifest. It could look like this:"
 msgstr ""
+"Pushhelper є частиною програми, яка отримує усі пуш-сповіщення та обробляє "
+"їх перед надсиланням до системного центру сповіщень. Отримуватися буде json-"
+"файл, який передаватиметься далі у правильному json-форматі. Pushhelper "
+"відділений від програми. Отже, потрібен новий хук у маніфесті. Це може "
+"виглядати так:"
 
 #: ../../appdev/guides/pushnotifications.rst:83
 msgid "It should be clear that we now need a different apparmor file and a different executable file. The **push-apparmor.json** file must only contain the policy group push-notification-client and should look like this:"
 msgstr ""
+"Зрозуміло, що тепер потрібен інший файл apparmor та інший виконуваний файл. "
+"Файл **push-apparmor.json** повинен містити лише групову політику push-"
+"notification-client та виглядати приблизно так:"
 
 #: ../../appdev/guides/pushnotifications.rst:95
 msgid "The **push.json** is for redirecting to the executable file:"
-msgstr ""
+msgstr "Файл **push.json** перенаправляє до виконуваного файлу:"
 
 #: ../../appdev/guides/pushnotifications.rst:103
 msgid "In our tutorial we will use python to create a executable named **pushexec** which will forward the notification without changing anything:"
 msgstr ""
+"У нашій настанові для створення виконуваного файлу **pushexec**, який "
+"перенаправлятиме сповіщення без будь-яких змін, ми використовуємо python:"
 
 #: ../../appdev/guides/pushnotifications.rst:115
 msgid "We also need to add this new files to the **CMakeLists.txt** and make the pushexec executable::"
 msgstr ""
+"Також потрібно додати цей новий файл до **CMakeLists.txt** та зробити "
+"pushexec виконуваним:"
 
 #: ../../appdev/guides/pushnotifications.rst:125
 msgid "Now the app is ready to receive and process push notifications!"
-msgstr ""
+msgstr "Тепер програма готова приймати та обробляти пуш-сповіщення!"
 
 #: ../../appdev/guides/pushnotifications.rst:128
 msgid "Using the Push Service API"
-msgstr ""
+msgstr "Використання API пуш-сервиса"
 
 #: ../../appdev/guides/pushnotifications.rst:130
 msgid "So now you have the token and the app is ready to receive and process push notifications. To send a notification, you need to send a HTTP request to this address: https://push.ubports.com/notify The content-type must be application/json and it must fit in the correct format. A example in javascript could look like this:"
 msgstr ""
+"Тепер у Вас є токен і програма вже готова отримувати та обробляти пуш-"
+"сповіщення. Для того щоби надіслати сповіщення потрібно створити запит HTTP "
+"за адресою: https://push.ubports.com/notify, а сам тип запиту повинен бути "
+"application/json та у відповідному форматі. Приклад на javascript може бути "
+"таким:"
 
 #: ../../appdev/guides/pushnotifications.rst:167
 msgid "Push Notification Object"
-msgstr ""
+msgstr "Об'єкт Push Notification"
 
 #: ../../appdev/guides/pushnotifications.rst:170
 #: ../../appdev/guides/pushnotifications.rst:195
@@ -1817,7 +1853,7 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:261
 #: ../../appdev/guides/pushnotifications.rst:275
 msgid "Parameter"
-msgstr ""
+msgstr "Параметр"
 
 #: ../../appdev/guides/pushnotifications.rst:170
 #: ../../appdev/guides/pushnotifications.rst:195
@@ -1826,11 +1862,11 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:261
 #: ../../appdev/guides/pushnotifications.rst:275
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: ../../appdev/guides/pushnotifications.rst:172
 msgid "appid"
-msgstr ""
+msgstr "appid"
 
 #: ../../appdev/guides/pushnotifications.rst:172
 #: ../../appdev/guides/pushnotifications.rst:175
@@ -1841,23 +1877,23 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:235
 #: ../../appdev/guides/pushnotifications.rst:243
 msgid "string"
-msgstr ""
+msgstr "рядок"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. ID of the application that will receive the notification,"
-msgstr ""
+msgstr "Обов'язково. ID програми, яка отримуватиме сповіщення,"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "as described in the client side documentation."
-msgstr ""
+msgstr "як описано у документації до клієнтської частини."
 
 #: ../../appdev/guides/pushnotifications.rst:175
 msgid "expire_on"
-msgstr ""
+msgstr "expire_on"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. Expiration date/time for this message, in"
-msgstr ""
+msgstr "Обов'язково. Дата / час терміну дії цього повідомлення у форматі"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "`ISO8601 Extendendformat <https://www.w3.org/TR/NOTE-datetime>`_."
