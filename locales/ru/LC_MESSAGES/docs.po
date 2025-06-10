@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-10 12:01+0000\n"
+"PO-Revision-Date: 2025-06-11 14:03+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/ru/>\n"
@@ -2590,7 +2590,7 @@ msgstr "еmblem-счетчика"
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "Emblem-counter"
-msgstr "Еmblem-счетчика"
+msgstr "Эмблема-счетчик"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object, which defines how to display the emblem"
@@ -2631,7 +2631,7 @@ msgstr "body"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Longer text, defaults to empty."
-msgstr "Более длинный текст, пустой по умолчаниюю."
+msgstr "Более длинный текст, пустой по умолчанию."
 
 #: ../../appdev/guides/pushnotifications.rst:237
 msgid "actions"
