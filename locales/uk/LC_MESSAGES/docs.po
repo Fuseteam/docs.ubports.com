@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-10 12:01+0000\n"
+"PO-Revision-Date: 2025-06-11 14:03+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -1877,7 +1877,7 @@ msgstr "appid"
 #: ../../appdev/guides/pushnotifications.rst:235
 #: ../../appdev/guides/pushnotifications.rst:243
 msgid "string"
-msgstr "рядок"
+msgstr "Рядок"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. ID of the application that will receive the notification,"
@@ -1897,272 +1897,276 @@ msgstr "Обов'язково. Дата / час терміну дії цьог�
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "`ISO8601 Extendendformat <https://www.w3.org/TR/NOTE-datetime>`_."
-msgstr ""
+msgstr "`ISO8601 <https://www.w3.org/TR/NOTE-datetime>`_."
 
 #: ../../appdev/guides/pushnotifications.rst:178
 msgid "token"
-msgstr ""
+msgstr "token"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. The token identifying the user+device to which the message is"
 msgstr ""
+"Обов'язково. Токен для ідентифікації пари користувач-пристрій, для якої "
+"повідомлення"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "directed, as described in the client side documentation."
-msgstr ""
+msgstr "буде направлене згідно з описом у клієнтській документації."
 
 #: ../../appdev/guides/pushnotifications.rst:181
 msgid "clear_pending"
-msgstr ""
+msgstr "clear_pending"
 
 #: ../../appdev/guides/pushnotifications.rst:181
 #: ../../appdev/guides/pushnotifications.rst:250
 #: ../../appdev/guides/pushnotifications.rst:252
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "bool"
-msgstr ""
+msgstr "Булевий (логічний)"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Discards all previous pending notifications. Usually in response to"
-msgstr ""
+msgstr "Відкидає усі попередні повідомлення з черги. Зазвичай у відповідь на"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "getting a \"too-many-pending\" error. Defaults to false."
-msgstr ""
+msgstr "отриману помилку \"too-many-pending\". Типове значення false."
 
 #: ../../appdev/guides/pushnotifications.rst:184
 msgid "replace_tag"
-msgstr ""
+msgstr "replace_tag"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If there's a pending notification with the same tag, delete it before"
-msgstr ""
+msgstr "Якщо в черзі присутні сповіщення з таким самим тегом, видалити їх"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "queuing this new one."
-msgstr ""
+msgstr "перед додаванням до черги нового."
 
 #: ../../appdev/guides/pushnotifications.rst:187
 msgid "data"
-msgstr ""
+msgstr "data"
 
 #: ../../appdev/guides/pushnotifications.rst:187
 #: ../../appdev/guides/pushnotifications.rst:192
 msgid "Data"
-msgstr ""
+msgstr "Дані"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object. The contents of the data field are arbitrary. We can use"
-msgstr ""
+msgstr "Об'єкт JSON. Вміст полів даних — довільний. Можна використовувати"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "it to send any data to the app."
-msgstr ""
+msgstr "для передачі програмі будь-яких даних."
 
 #: ../../appdev/guides/pushnotifications.rst:197
 msgid "notification"
-msgstr ""
+msgstr "notification"
 
 #: ../../appdev/guides/pushnotifications.rst:197
 #: ../../appdev/guides/pushnotifications.rst:203
 msgid "Notification"
-msgstr ""
+msgstr "Сповіщення"
 
 #: ../../appdev/guides/pushnotifications.rst:197
 msgid "A JSON object which defines how this notification will be presented."
-msgstr ""
+msgstr "Об'єкт JSON з визначенням представлення сповіщення."
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "message"
-msgstr ""
+msgstr "message"
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "object"
-msgstr ""
+msgstr "Об'єкт"
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "A JSON object that is passed as-is to the application via PopAll."
 msgstr ""
+"Об'єкт JSON, який передається у незмінному вигляді до програми через PopAll."
 
 #: ../../appdev/guides/pushnotifications.rst:208
 msgid "tag"
-msgstr ""
+msgstr "tag"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "The tag of the push notification."
-msgstr ""
+msgstr "Тег пуш-сповіщення."
 
 #: ../../appdev/guides/pushnotifications.rst:210
 msgid "sound"
-msgstr ""
+msgstr "sound"
 
 #: ../../appdev/guides/pushnotifications.rst:210
 msgid "bool or string"
-msgstr ""
+msgstr "Булевий чи рядок"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "This is either a boolean (play a predetermined sound) or the"
-msgstr ""
+msgstr "Це або логічний тип (відтворювати визначений наперед звук) або це"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "path to a sound file. The user can disable it, so don't rely"
 msgstr ""
+"шлях до звукового файлу. Користувач може це вимкнути, тож не сподівайтеся"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "on it exclusively. Defaults to empty (no sound). The path is"
-msgstr ""
+msgstr "тут на ексклюзивну дію. Типово значення порожнє (без звуку). Цей шлях"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "relative, and will be looked up in (a) the application's"
-msgstr ""
+msgstr "відносний і може бути доступним у (a) каталозі програми"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "``.local/share/<pkgname>``, and (b) standard xdg dirs."
-msgstr ""
+msgstr "``.local/share/<pkgname>`` та у (b) стандартних каталогах xdg."
 
 #: ../../appdev/guides/pushnotifications.rst:216
 msgid "vibrate"
-msgstr ""
+msgstr "vibrate"
 
 #: ../../appdev/guides/pushnotifications.rst:216
 msgid "bool or Vibrate"
-msgstr ""
+msgstr "Булевий чи Вібрація"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "The notification can contain a vibrate field, causing haptic"
-msgstr ""
+msgstr "Сповіщення може містити поле з вібрацією для тактильного"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "feedback, which can be either a boolean (if true, vibrate a"
-msgstr ""
+msgstr "ефекту, яке може бути або логічним (якщо true, буде вібрація"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "predetermined way) or an Vibrate object."
-msgstr ""
+msgstr "з заданими параметрами) або об'єктом Вібрації."
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "emblem-counter"
-msgstr ""
+msgstr "emblem-counter"
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "Emblem-counter"
-msgstr ""
+msgstr "Емблема-лічильник"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object, which defines how to display the emblem"
-msgstr ""
+msgstr "Об'єкт JSON, який визначає як буде показана"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "counter."
-msgstr ""
+msgstr "емблема-лічильник."
 
 #: ../../appdev/guides/pushnotifications.rst:223
 msgid "card"
-msgstr ""
+msgstr "card"
 
 #: ../../appdev/guides/pushnotifications.rst:223
 #: ../../appdev/guides/pushnotifications.rst:227
 msgid "Card"
-msgstr ""
+msgstr "Картка"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object with information about the notification card."
-msgstr ""
+msgstr "Об'єкт JSON з інформацією щодо картки сповіщення."
 
 #: ../../appdev/guides/pushnotifications.rst:232
 msgid "summary"
-msgstr ""
+msgstr "summary"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. A title. The card will not be presented if this is"
-msgstr ""
+msgstr "Обов'язково. Назва. Картка не буде представлена, якщо це"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "missing."
-msgstr ""
+msgstr "поле порожнє."
 
 #: ../../appdev/guides/pushnotifications.rst:235
 msgid "body"
-msgstr ""
+msgstr "body"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Longer text, defaults to empty."
-msgstr ""
+msgstr "Довший текст, типово порожнє."
 
 #: ../../appdev/guides/pushnotifications.rst:237
 msgid "actions"
-msgstr ""
+msgstr "actions"
 
 #: ../../appdev/guides/pushnotifications.rst:237
 #: ../../appdev/guides/pushnotifications.rst:263
 msgid "array"
-msgstr ""
+msgstr "Масив"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If empty (the default), a bubble notification is"
-msgstr ""
+msgstr "Якщо порожньо (типово), бульбашкове сповіщення"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "non-clickable. If you add a URL, then bubble notifications"
-msgstr ""
+msgstr "не інтерактивне. Якщо додати URL, то сповіщення буде активним"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "are clickable and launch that URL. One use for this is using"
-msgstr ""
+msgstr "і клацання по ньому відкриє посилання. Один з варіантів використання —"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "a URL like ``appid://com.ubuntu.developer.ralsina.hello``"
-msgstr ""
+msgstr "це посилання вигляду ``appid://com.ubuntu.developer.ralsina.hello``,"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "which will switch to the app or launch it."
-msgstr ""
+msgstr "яке перенаправить на іншу програму та запустить її."
 
 #: ../../appdev/guides/pushnotifications.rst:243
 msgid "icon"
-msgstr ""
+msgstr "icon"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "An icon relating to the event being notified. Defaults to"
-msgstr ""
+msgstr "Значок стосується події, що і сповіщення. Типово"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "empty (no icon); a secondary icon relating to the application"
-msgstr ""
+msgstr "порожнє (без значка); додаткова піктограма — для програми"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "will be shown as well, regardless of this field."
-msgstr ""
+msgstr "і з'являтиметься так само, незалежно від цього поля."
 
 #: ../../appdev/guides/pushnotifications.rst:247
 msgid "timestamp"
-msgstr ""
+msgstr "timestamp"
 
 #: ../../appdev/guides/pushnotifications.rst:247
 #: ../../appdev/guides/pushnotifications.rst:266
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "integer"
-msgstr ""
+msgstr "ціле (integer)"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Seconds since the unix epoch, only used for persist for now."
-msgstr ""
+msgstr "Секунди епохи unix. Використовується наразі тільки збереження."
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If zero or unset, defaults to current timestamp."
-msgstr ""
+msgstr "Якщо нуль чи порожнє, використовується поточна відмітка часу."
 
 #: ../../appdev/guides/pushnotifications.rst:250
 msgid "persist"
-msgstr ""
+msgstr "persist"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Whether to show in notification centre; defaults to false."
-msgstr ""
+msgstr "Чи треба показувати у центрі сповіщень; типово false."
 
 #: ../../appdev/guides/pushnotifications.rst:252
 msgid "popup"
-msgstr ""
+msgstr "popup"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Whether to show in a bubble. Users can disable this, and can"
