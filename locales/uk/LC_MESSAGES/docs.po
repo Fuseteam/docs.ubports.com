@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-11 14:03+0000\n"
+"PO-Revision-Date: 2025-06-11 18:54+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -2171,114 +2171,130 @@ msgstr "popup"
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Whether to show in a bubble. Users can disable this, and can"
 msgstr ""
+"Чи треба показувати бульбашку. Користувачі можуть відключити це, і можуть"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "easily miss them, so don't rely on it exclusively. Defaults"
-msgstr ""
+msgstr "легко пропустити її, тому не покладайтеся на це. Типово"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "to false."
-msgstr ""
+msgstr "встановлено у false."
 
 #: ../../appdev/guides/pushnotifications.rst:258
 msgid "Vibrate"
-msgstr ""
+msgstr "Вибрація"
 
 #: ../../appdev/guides/pushnotifications.rst:263
 msgid "pattern"
-msgstr ""
+msgstr "pattern"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A list of integers describing a vibration pattern (duration of alternating"
 msgstr ""
+"Список цілих чисел, які описують вібраційну схему (тривалості з чергуванням"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "vibration/no vibration times, in milliseconds)."
-msgstr ""
+msgstr "вібрації/спокою, у мілісекундах)."
 
 #: ../../appdev/guides/pushnotifications.rst:266
 msgid "repeat"
-msgstr ""
+msgstr "repeat"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Number of times the pattern has to be repeated (defaults to 1, 0 is the"
-msgstr ""
+msgstr "Кількість повторів шаблону вібрації (типово 1, 0 - це"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "same as 1)."
-msgstr ""
+msgstr "те саме, що і 1)."
 
 #: ../../appdev/guides/pushnotifications.rst:272
 msgid "Emblem-Counter"
-msgstr ""
+msgstr "Емблема-лічильник"
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "count"
-msgstr ""
+msgstr "count"
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "A number to be displayed over the application's icon in the launcher."
-msgstr ""
+msgstr "Число, що відображається над значком програми на панелі запуску."
 
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "visible"
-msgstr ""
+msgstr "visible"
 
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "Set to true to show the counter, or false to hide it."
-msgstr ""
+msgstr "Якщо true — показувати лічильник, false — для приховування."
 
 #: ../../appdev/guides/user-metrics.rst:2
 msgid "User Metrics"
-msgstr ""
+msgstr "Користувацькі показники"
 
 #: ../../appdev/guides/user-metrics.rst:5
 msgid "What are User Metrics?"
-msgstr ""
+msgstr "Що таке Користувацькі показники?"
 
 #: ../../appdev/guides/user-metrics.rst:7
 msgid "If you look on the lock screen, you will see a circle. Inside the circle is text. Look closer, and you’ll notice that the text contains data regarding the user’s activity. Double tap on the middle of the circle, and you will see more \"metrics\" about the user."
 msgstr ""
+"Якщо Ви подивитеся на екран блокування, Ви побачите коло. Всередині кола є "
+"текст. Якщо подивитися ближче, можна побачити, що текст містить дані щодо "
+"користувацької активності. Тицьніть по центру двічі й зможете побачити інші "
+"\"показники\" користувача."
 
 #: ../../appdev/guides/user-metrics.rst:11
 msgid "This shows \"7 text messages sent today.\" How did it know?"
-msgstr ""
+msgstr "Тут видно, що \"Сьогодні надіслано 7 повідомлень\". Звідки це відомо?"
 
 #: ../../appdev/guides/user-metrics.rst:15
 msgid "This is from a 3rd-party application (`nCounter <https://gitlab.com/joboticon/ncounter/>`_) that makes use of the User Metrics feature."
 msgstr ""
+"Це отримано зі сторонньої програми (`nCounter <https://gitlab.com/joboticon/"
+"ncounter/>`_), яка використовує засоби Користувацьких показників."
 
 #: ../../appdev/guides/user-metrics.rst:17
 msgid "For the most part, these messages are quite clearly state what they are counting, and which app is related. But where do these metrics come from?"
 msgstr ""
+"Здебільшого ці повідомлення досить чітко говорять про те, що вони рахують та "
+"якої програми це стосується. Але звідки беруться ці показники?"
 
 #: ../../appdev/guides/user-metrics.rst:20
 msgid "How can I use User Metrics in my application?"
-msgstr ""
+msgstr "Як можна використовувати Користувацькі показники у своїй програмі?"
 
 #: ../../appdev/guides/user-metrics.rst:22
 msgid "All of the following information will be based on the code for `nCounter`_."
-msgstr ""
+msgstr "Вся наступна інформація буде заснована на коді для `nCounter`_."
 
 #: ../../appdev/guides/user-metrics.rst:24
 msgid "Your app's apparmor file must include ``usermetrics`` in the policy:"
 msgstr ""
+"Файл apparmor Вашої програми повинен у політиках містити ``usermetrics``:"
 
 #: ../../appdev/guides/user-metrics.rst:35
 msgid "Next, you will need to import the module in the QML file that will handle the User Metrics:"
 msgstr ""
+"Далі Вам буде потрібно імпортувати модуль до файлу QML, який буде обробляти "
+"Користувацькі показники:"
 
 #: ../../appdev/guides/user-metrics.rst:41
 msgid "(There may be updated versions of this above 0.1)"
-msgstr ""
+msgstr "(Можуть бути оновлені версії вище 0.1)"
 
 #: ../../appdev/guides/user-metrics.rst:43
 msgid "Next, the specific Metric must be defined in the code as an object:"
-msgstr ""
+msgstr "Далі потрібно визначити в коді Показник як об'єкт:"
 
 #: ../../appdev/guides/user-metrics.rst:56
 msgid "Now that the metric is created, we can update the \"format\" or \"emptyFormat\" when an event takes place by referencing the variables in the Metric object."
 msgstr ""
+"Тепер, коли показник створений, в разі виникнення події можна оновити "
+"\"format\" або \"emptyFormat\" з посиланням на змінні в об'єкті типу "
+"Показник."
 
 #: ../../appdev/guides/user-metrics.rst:66
 msgid "Here we assign a new value to the circleMetric string variable that’s inside the Metric object:"
