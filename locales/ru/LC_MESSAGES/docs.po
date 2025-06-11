@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-11 14:03+0000\n"
+"PO-Revision-Date: 2025-06-11 18:54+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/ru/>\n"
@@ -2766,7 +2766,7 @@ msgstr "тоже самое, что и 1)."
 
 #: ../../appdev/guides/pushnotifications.rst:272
 msgid "Emblem-Counter"
-msgstr "Emblem-счетчика"
+msgstr "Эмблема-счетчик"
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "count"
