@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-11 18:54+0000\n"
+"PO-Revision-Date: 2025-06-13 18:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/ru/>\n"
@@ -2903,7 +2903,7 @@ msgstr ""
 msgid ""
 "Metric ID [dot] update (specific amount to set if included in the format)"
 msgstr ""
-"Обновление Metric ID [dot] (определённое количество, которое необходимо "
+"Metric ID [dot] update (определённое значение, которое необходимо "
 "установить, если оно включено в формат)"
 
 #: ../../appdev/guides/user-metrics.rst:78
@@ -2984,22 +2984,22 @@ msgstr ""
 
 #: ../../appdev/guides/user-metrics.rst:102
 msgid "Increment the metric:"
-msgstr "Увеличьте метрику:"
+msgstr "Увеличение метрики:"
 
 #: ../../appdev/guides/user-metrics.rst:104
 msgid ""
 "``metricID.increment(x)`` (where x is the amount to add to the current "
 "counter)"
 msgstr ""
-"``metricID.increment(x)`` (где x - количество, которое нужно добавить к "
+"``metricID.increment(x)`` (где x - значение, которое нужно добавить к "
 "текущему счетчику)"
 
 #: ../../appdev/guides/user-metrics.rst:106
 msgid ""
 "The metric will reset back to the value stored in ``emptyFormat`` each day."
 msgstr ""
-"Показатель будет сбрасываться до значения, сохраняемого в ``emptyFormat`` "
-"каждый день."
+"Показатель будет сбрасываться каждый день на значение, сохраненное в "
+"``emptyFormat``."
 
 #: ../../appdev/guides/user-metrics.rst:108
 msgid ""
