@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-11 18:54+0000\n"
+"PO-Revision-Date: 2025-06-13 18:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -2299,90 +2299,117 @@ msgstr ""
 #: ../../appdev/guides/user-metrics.rst:66
 msgid "Here we assign a new value to the circleMetric string variable that’s inside the Metric object:"
 msgstr ""
+"Тут ми призначаємо нове значення змінній circleMetric типу string (рядок), "
+"яка знаходиться всередині об'єкта Показник:"
 
 #: ../../appdev/guides/user-metrics.rst:68
 msgid "(Remember that circleMetric is the variable value assigned to format)"
 msgstr ""
+"(Пам'ятайте, що circleMetric — це значення змінної, яке призначається у "
+"форматі)"
 
 #: ../../appdev/guides/user-metrics.rst:70
 msgid "Metric Id [dot] Variable Name [equals] New variable information"
-msgstr ""
+msgstr "Metric Id [dot] Назва змінної [equals] Нове значення змінної"
 
 #: ../../appdev/guides/user-metrics.rst:72
 msgid "``metric.circleMetric = \"New Metric Message\"``"
-msgstr ""
+msgstr "``metric.circleMetric = \"Нове повідомлення з показниками\"``"
 
 #: ../../appdev/guides/user-metrics.rst:74
 msgid "We then tell the lock screen to update the metric."
-msgstr ""
+msgstr "Після цього скажемо екрану блокування оновити цей показник."
 
 #: ../../appdev/guides/user-metrics.rst:76
 msgid "Metric ID [dot] update (specific amount to set if included in the format)"
 msgstr ""
+"Metric ID [dot] update (певне значення для встановлення, якщо міститься у "
+"форматі)"
 
 #: ../../appdev/guides/user-metrics.rst:78
 msgid "``metric.update(0)``"
-msgstr ""
+msgstr "``metric.update(0)``"
 
 #: ../../appdev/guides/user-metrics.rst:80
 msgid "(Note: In this example, ``0`` is arbitrary since the metric value doesn't include a counter)"
 msgstr ""
+"(Підказка: у цьому прикладі ``0`` — вільне значення, оскільки значення "
+"показника не містить лічильника)"
 
 #: ../../appdev/guides/user-metrics.rst:82
 msgid "We have now updated the metric for today. When the time rolls over to tomorrow, the metric will be reset to whatever is in ``emptyFormat``."
 msgstr ""
+"Тепер ми оновили показник станом на сьогодні. Якщо наступить завтра, "
+"показник буде скинутий на будь-що, вказане у ``emptyFormat``."
 
 #: ../../appdev/guides/user-metrics.rst:84
 msgid "For most apps, this defaults to 0 counts for messages, calls, etc."
 msgstr ""
+"Для більшості програм типове значення для повідомлень, дзвінків та ін. — 0."
 
 #: ../../appdev/guides/user-metrics.rst:87
 msgid "How do User Metrics work?"
-msgstr ""
+msgstr "Як працюють Користувацькі показники?"
 
 #: ../../appdev/guides/user-metrics.rst:89
 msgid "User Metrics are made up of two \"formats\":"
-msgstr ""
+msgstr "Користувацькі показники складаються з двох \"форматів\":"
 
 #: ../../appdev/guides/user-metrics.rst:91
 msgid "metrics/messages for today (``format``)"
-msgstr ""
+msgstr "показники/повідомлення за сьогодні (``format``)"
 
 #: ../../appdev/guides/user-metrics.rst:92
 msgid "metrics/messages for tomorrow (``emptyFormat``)"
-msgstr ""
+msgstr "показники/повідомлення для завтрашнього дня (``emptyFormat``)"
 
 #: ../../appdev/guides/user-metrics.rst:94
 msgid "The value of ``emptyFormat`` is what displays on the lock screen when no value has been stored in ``format``. In order to display a new value of ``format`` the metric must be updated."
 msgstr ""
+"Значення ``emptyFormat`` зображується на екрані блокування, якщо іншого "
+"значення не було збережено у ``format``. Для зображення нового значення "
+"``format`` показник повинен оновитися."
 
 #: ../../appdev/guides/user-metrics.rst:96
 msgid "There are two options for updating the metric:"
-msgstr ""
+msgstr "Існує два способи оновлення показника:"
 
 #: ../../appdev/guides/user-metrics.rst:98
 msgid "Set the metric to a specific amount:"
-msgstr ""
+msgstr "Задайте показнику певне значення:"
 
 #: ../../appdev/guides/user-metrics.rst:100
 msgid "``metricID.update(x)`` (where x is a number of type `double` to set for a counter value). ``metricID`` is the ``id:`` specified in the Metric item. The counter value can be included in the ``format`` setting by using ``%1``. e.g. ``format: \"%1 buttons pressed today\"``"
 msgstr ""
+"``metricID.update(x)`` (де x — число подвійного значення `double`, яке "
+"визначає значення лічильника). ``metricID`` — це ідентифікатор ``id:``, "
+"вказаний в елементі Показник (Metric). Це значення лічильника може включати "
+"у форматі ``format`` зі значенням ``%1``. напр. ``format: "
+"\"сьогодні натиснуто %1 кнопок\"``"
 
 #: ../../appdev/guides/user-metrics.rst:102
 msgid "Increment the metric:"
-msgstr ""
+msgstr "Збільшення (increment) показника:"
 
 #: ../../appdev/guides/user-metrics.rst:104
 msgid "``metricID.increment(x)`` (where x is the amount to add to the current counter)"
 msgstr ""
+"``metricID.increment(x)`` (де x — значення, яке потрібно додати поточного "
+"значення лічильника)"
 
 #: ../../appdev/guides/user-metrics.rst:106
 msgid "The metric will reset back to the value stored in ``emptyFormat`` each day."
 msgstr ""
+"Цей показник скидатиметься щодня на значення, збережене у ``emptyFormat``."
 
 #: ../../appdev/guides/user-metrics.rst:108
 msgid "Applications make use of User Metrics by setting and updating the \"formats\" whenever a certain event takes place. e.g. When you press send in Telegram, or when you receive a phone call. The application may store the data for manipulation, but generally the data is stored in the system (`/var/lib/usermetrics <https://github.com/ubports/libusermetrics/tree/xenial/doc/pages>`_)."
 msgstr ""
+"Програми використовують Користувацькі показники, встановлюючи та оновлюючи "
+"\"формат\" з певними подіями, напр. коли Ви натискаєте Надіслати у Telegram "
+"або коли отримуєте вхідний виклик. Програма може зберігати дані для обробки, "
+"але зазвичай вони зберігаються у системі (`/var/lib/usermetrics <https://"
+"github.com/ubports/libusermetrics/tree/xenial/doc/pages>`_)."
 
 #: ../../appdev/guides/user-metrics.rst:111
 msgid "(See this `blog post <https://daker.me/2013/11/adding-usermetrics-to-your-app-on-ubuntu-touch.html>`_ for a simple example)"
