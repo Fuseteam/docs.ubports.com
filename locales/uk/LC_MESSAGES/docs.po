@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-13 18:01+0000\n"
+"PO-Revision-Date: 2025-06-14 21:04+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -2414,90 +2414,136 @@ msgstr ""
 #: ../../appdev/guides/user-metrics.rst:111
 msgid "(See this `blog post <https://daker.me/2013/11/adding-usermetrics-to-your-app-on-ubuntu-touch.html>`_ for a simple example)"
 msgstr ""
+"(Простий приклад можете знайти на сторінці `цього блогу <https://daker.me/"
+"2013/11/adding-usermetrics-to-your-app-on-ubuntu-touch.html>`_)"
 
 #: ../../appdev/guides/user-metrics.rst:114
 msgid "Limitations and wonders"
-msgstr ""
+msgstr "Обмеження та особливості"
 
 #: ../../appdev/guides/user-metrics.rst:115
 msgid "Once a metric is registered, it remains on the lock screen even after the app has been uninstalled. A database file (db) is stored in `/var/lib/usermetrics`, which can be deleted by root (but not with sudo). Deleting this file and rebooting will remove all stored metrics. Presumably, the db file could be edited instead of deleted."
 msgstr ""
+"Коли показник зареєстрований, він залишається на екрані блокування навіть "
+"після видалення програми. Файл бази даних (db) зберігається у `/var/lib/"
+"usermetrics`, та може бути видалений користувачем root (але не з sudo). "
+"Видалення цього файлу та перезавантаження вилучать усі збережені показники. "
+"Файл замість видалення можна змінити."
 
 #: ../../appdev/guides/user-metrics.rst:117
 msgid "Based on how the \"formats\" are set up, it seems that it is difficult to maintain a running tally beyond one day (though not impossible. See `FluffyChat <https://gitlab.com/ChristianPauly/fluffychat>`_)."
 msgstr ""
+"Залежно від налаштувань \"форматів\", може здатися, що обслуговувати "
+"поточний стан більше одного дня складно (хоча це і не є чимось неможливим. "
+"Див. `FluffyChat <https://gitlab.com/ChristianPauly/fluffychat>`_)."
 
 #: ../../appdev/guides/user-metrics.rst:119
 msgid "In the case of the `nCounter`_ app. I wanted to count the number of days, but since the metric \"resets\" each day, that presents a problem. I created a workaround that updates the metric every time the application is opened. Thus, the ``emptyFormat`` (default) tells the user to open the application. This, however, nearly defeats the purpose of the metric entirely, other than having a neat stat reminder for the day."
 msgstr ""
+"На прикладі програми `nCounter`_. Мені хочеться порахувати кількість днів, "
+"але оскільки показники \"скидаються\" щодня, це може здатися проблемою. То ж "
+"я створив оточення, яке оновлює показник щоразу як відкривається програма. "
+"Таким чином, ``emptyFormat`` (типово) говорить користувачеві відкрити "
+"програму. Але це, майже перекриває мету показника, окрім гарного нагадування "
+"про стан за день."
 
 #: ../../appdev/guides/user-metrics.rst:121
 msgid "There must be a way for a process to run independently in the background (e.g. cron) to retrieve data from a specific app code. One lead is the Indicator Weather app. This runs a process every X minutes to update the weather indicator automatically without having to open the app."
 msgstr ""
+"Повинна бути можливість незалежного запуску фонового процесу (напр. cron) "
+"для отримання даних з відповідного коду програми. Одна з відомих — Індикатор "
+"Погоди. Для оновлення індикатора вона запускає процес кожні Х хвилин без "
+"необхідності запуску програми."
 
 #: ../../appdev/guides/writeable-dirs.rst:2
 msgid "Writable directories"
-msgstr ""
+msgstr "Каталоги для запису"
 
 #: ../../appdev/guides/writeable-dirs.rst:4
 msgid "App confinement is part of the Ubuntu Touch security concept. Data can be exchanged between apps only according to the AppArmor policies, mainly using the :ref:`ContentHub <contenthub>`. This being said, apps can only read and write files that are located in one of three app specific directories explained in this guide."
 msgstr ""
+"App confinement є частиною концепції безпеки Ubuntu Touch. Програми можуть "
+"обмінюватися даними тільки відповідно до політик AppArmor, в основному з "
+"використанням :ref:`ContentHub <contenthub>`. Так би мовити, програми можуть "
+"читати та записувати файли, які знаходяться в одному з трьох каталогів, "
+"описаних у цьому посібнику."
 
 #: ../../appdev/guides/writeable-dirs.rst:7
 msgid "Standard Paths"
-msgstr ""
+msgstr "Стандартні шляхи"
 
 #: ../../appdev/guides/writeable-dirs.rst:8
 msgid "Besides the write access to the app directories explained below, the app can write debug messages into the app log file located at ``/home/phablet/.cache/upstart/application-click-<fullappname>_<appname>_<version>.log``. To append messages to the log file, use the `Qt debug <https://doc.qt.io/qt-5/qdebug.html>`_ functions."
 msgstr ""
+"Крім доступу на запис до каталогів програми, описаних нижче, програма може "
+"також записувати повідомлення налагодження до журналу у файл ``/home/phablet/"
+".cache/upstart/application-click-<fullappname>_<appname>_<version>.log``. "
+"Для того, щоби додати повідомлення до журналу, використовуйте функцію `Qt "
+"debug <https://doc.qt.io/qt-5/qdebug.html>`_."
 
 #: ../../appdev/guides/writeable-dirs.rst:11
 msgid "Config"
-msgstr ""
+msgstr "Конфігурація"
 
 #: ../../appdev/guides/writeable-dirs.rst:12
 msgid "Path: ``/home/phablet/.config/<fullappname>/``"
-msgstr ""
+msgstr "Шлях: ``/home/phablet/.config/<повна.назва.програми>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:14
 msgid "This is the place to store configurations files to. The music app for example stores its configuration to ``/home/phablet/.config/com.ubuntu.music/com.ubuntu.music.conf``."
 msgstr ""
+"Це місце для збереження конфігураційних файлів. Наприклад, музична програма "
+"зберігає свої налаштування у файлі ``/home/phablet/.config/com.ubuntu.music/"
+"com.ubuntu.music.conf``."
 
 #: ../../appdev/guides/writeable-dirs.rst:17
 msgid "Cache"
-msgstr ""
+msgstr "Кеш"
 
 #: ../../appdev/guides/writeable-dirs.rst:18
 msgid "Path: ``/home/phablet/.cache/<fullappname>/``"
-msgstr ""
+msgstr "Шлях: ``/home/phablet/.cache/<повна.назва.програми>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:20
 msgid "This is the place to cache data for later use. The cache is also used by the Content Hub. Files that have been shared with the music app for example can be found in ``/home/phablet/.cache/com.ubuntu.music/HubIncoming/``."
 msgstr ""
+"Це місце для збереження файлів кешу та їх майбутнього використання. Кеш "
+"також використовується Content Hub. Файли, які доступні музичній програмі, "
+"можна знайти, наприклад, у ``/home/phablet/.cache/com.ubuntu.music/"
+"HubIncoming/``."
 
 #: ../../appdev/guides/writeable-dirs.rst:23
 msgid "Data in the cache directory should be treated as temporary and the app should still function normally if this directory is cleared - clearing cache is commonly done to recover some space on the device. Don't store user account info here :)"
 msgstr ""
+"Дані у каталозі з кешем потрібно обробляти як тимчасові і програма повинна "
+"працювати у звичайному режимі навіть після їх видалення, оскільки очищення "
+"кешу — це звичайна дія для звільнення місця. Не зберігайте там користувацькі "
+"дані :)"
 
 #: ../../appdev/guides/writeable-dirs.rst:26
 msgid "App data"
-msgstr ""
+msgstr "Дані програм"
 
 #: ../../appdev/guides/writeable-dirs.rst:27
 msgid "Path: ``/home/phablet/.local/share/<fullappname>/``"
-msgstr ""
+msgstr "Шлях: ``/home/phablet/.local/share/<повна.назва.програми>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:29
 msgid "This is where your app stores any data. The music app for example stores its data bases to ``/home/phablet/.local/share/com.ubuntu.music/Databases/``."
 msgstr ""
+"Це місце, де Ваша програма зберігає дані. Наприклад, музична програма, "
+"зберігає свої бази даних у ``/home/phablet/.local/share/com.ubuntu.music/"
+"Databases/``."
 
 #: ../../appdev/guides/writeable-dirs.rst:33
 msgid "Using Standard Paths in C++"
-msgstr ""
+msgstr "Використання стандартних шляхів у C++"
 
 #: ../../appdev/guides/writeable-dirs.rst:34
 msgid "The Qt header ``QStandardPaths`` provides the app's writable locations in C++:"
 msgstr ""
+"Заголовок Qt ``QStandardPaths`` відповідає за місця для запису у програмі на "
+"C++:"
 
 #: ../../appdev/guides/writeable-dirs.rst:45
 msgid "Since the value of the QStandardPaths strings are decided by the `Qt application name <https://doc.qt.io/qt-5/qcoreapplication.html#applicationName-prop>`_, this needs to be the same as the clickable application name."
