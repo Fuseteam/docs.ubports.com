@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-14 21:04+0000\n"
+"PO-Revision-Date: 2025-06-16 18:59+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.12.1\n"
 
 #: ../../about/introduction.rst:2
 #: ../../porting/introduction/index.rst:2
@@ -2548,168 +2548,236 @@ msgstr ""
 #: ../../appdev/guides/writeable-dirs.rst:45
 msgid "Since the value of the QStandardPaths strings are decided by the `Qt application name <https://doc.qt.io/qt-5/qcoreapplication.html#applicationName-prop>`_, this needs to be the same as the clickable application name."
 msgstr ""
+"Оскільки значення рядків QStandardPaths визначаються `назвою програми Qt "
+"<https://doc.qt.io/qt-5/qcoreapplication.html#applicationName-prop>`_, воно "
+"повинно збігатися з назвою програми у clickable."
 
 #: ../../appdev/guides/writeable-dirs.rst:48
 msgid "Setting the `organizationName <https://doc.qt.io/qt-5/qcoreapplication.html#organizationName-prop>`_ will change the paths returned by these functions too - if you need to do this, set it to the clickable application name as well, otherwise the paths won't work on the device."
 msgstr ""
+"Налаштування `organizationName <https://doc.qt.io/qt-5/qcoreapplication.html"
+"#organizationName-prop>`_ змінить також і шлях, який ця функція повертатиме —"
+" якщо це Вам потрібно, налаштуйте також назву програми у clickable, інакше "
+"ці шляхи не працюватимуть на цьому пристрою."
 
 #: ../../appdev/guides/writeable-dirs.rst:51
 msgid "Using Standard Paths in QML"
-msgstr ""
+msgstr "Використання стандартних шляхів у QML"
 
 #: ../../appdev/guides/writeable-dirs.rst:52
 msgid "The Qt module `Qt.labs.platform <https://doc.qt.io/archives/qt-5.10/qml-qt-labs-platform-standardpaths.html>`_ provides the app's writable locations in QML:"
 msgstr ""
+"Модуль Qt `Qt.labs.platform <https://doc.qt.io/archives/qt-5.10/qml-qt-labs-"
+"platform-standardpaths.html>`_ надає локації для запису у QML:"
 
 #: ../../appdev/guides/writeable-dirs.rst:72
 msgid "Notice that ``QStandardPaths`` returns paths (``'/phablet/home/...'``), and QML ``StandardPaths`` returns urls (``'file:///phablet/home/...'``). This must be considered specially if the app is sharing location strings between QML and C++."
 msgstr ""
+"Зауважте, що ``QStandardPaths`` повертає шляхи (``'/phablet/home/...'``) та "
+"QML ``StandardPaths`` повертає посилання (``'file:///phablet/home/...'``). "
+"На це потрібно особливо звертати увагу, якщо додаток обмінюється рядками з "
+"розташуваннями між QML та C ++."
 
 #: ../../appdev/index.rst:2
 msgid "App development"
-msgstr ""
+msgstr "Розробка програм"
 
 #: ../../appdev/index.rst:4
 msgid "You'd like to develop an app for Ubuntu Touch? Great!"
-msgstr ""
+msgstr "Ви б хотіли створити програму для Ubuntu Touch? Чудово!"
 
 #: ../../appdev/index.rst:9
 #: ../../appdev/webapp/index.rst:37
 msgid "Quick start"
-msgstr ""
+msgstr "Швидкий старт"
 
 #: ../../appdev/index.rst:11
 msgid "Building your first app should be as simple as:"
-msgstr ""
+msgstr "Створення власної програми містить прості кроки:"
 
 #: ../../appdev/index.rst:13
 msgid "`Install clickable <https://clickable-ut.dev/en/latest/install.html>`_"
 msgstr ""
+"`Інсталяція clickable <https://clickable-ut.dev/en/latest/install.html>`_"
 
 #: ../../appdev/index.rst:14
 msgid "Plug in your Ubuntu Touch device"
-msgstr ""
+msgstr "Підключення пристрою Ubuntu Touch"
 
 #: ../../appdev/index.rst:15
 msgid "Enable developer mode in System Settings"
-msgstr ""
+msgstr "Увімкнення режиму розробки у системних налаштуваннях"
 
 #: ../../appdev/index.rst:16
 msgid "Run ``clickable create``"
-msgstr ""
+msgstr "Запуск ``clickable create``"
 
 #: ../../appdev/index.rst:17
 msgid "Choose \"QML Only\" from the list of app templates"
-msgstr ""
+msgstr "Вибір \"Тільки QML\" з переліку програмних шаблонів"
 
 #: ../../appdev/index.rst:18
 msgid "Fill in the requested information for this new app"
-msgstr ""
+msgstr "Заповнення певної інформації для нової програми"
 
 #: ../../appdev/index.rst:19
 msgid "When the app has been generated, enter the newly created directory"
-msgstr ""
+msgstr "Після генерації програми, перейдіть до новоствореного каталогу"
 
 #: ../../appdev/index.rst:20
 msgid "Run ``clickable``"
-msgstr ""
+msgstr "Запуск ``clickable``"
 
 #: ../../appdev/index.rst:22
 msgid "Voilà you have your first app running on Ubuntu Touch!"
-msgstr ""
+msgstr "Вуаля! Ваша перша програма працює на Ubuntu Touch!"
 
 #: ../../appdev/index.rst:25
 #: ../../porting/configure_test_fix/Overlay.rst:7
 msgid "Overview"
-msgstr ""
+msgstr "Огляд"
 
 #: ../../appdev/index.rst:27
 msgid "Ubuntu Touch supports two kinds of apps: Firstly, *native apps* have their user interface written in QML or HTML and their business logic in JavaScript, C++, Python, Rust, or Go. Secondly, *web apps* are special containers to run websites in."
 msgstr ""
+"Ubuntu Touch підтримує два типи програм. Перший — це *нативні програми* "
+"мають власний користувацький інтерфейс, створений з QML або HTML та власну "
+"логіку, створену з JavaScript, C++, Python, Rust або Go. Другий — "
+"*веб-програми* — це особливі контейнери для запуску вебсайтів всередині."
 
 #: ../../appdev/index.rst:36
 msgid "The following sections provide guides and API documentation."
-msgstr ""
+msgstr "Наступні розділи містять посібники та документацію API."
 
 #: ../../appdev/index.rst:38
 msgid "`Clickable <https://clickable-ut.dev>`_ is the main tool to build apps on Ubuntu Touch. It is an easy to use command line tool with a lot of great features. Clickable allows you to compile, build, test, and publish your app. It also provides various templates to get you started with app development."
 msgstr ""
+"`Clickable <https://clickable-ut.dev>`_ — це головний інструмент для "
+"створення програм на Ubuntu Touch. Це простий у використанні інструмент "
+"командного рядка з безліччю чудових функцій. Clickable дозволяє компілювати, "
+"збирати, тестувати та розповсюджувати свої програми. Він також має різні "
+"шаблони для початку розробки."
 
 #: ../../appdev/index.rst:40
 msgid "You can use any code editor or IDE to work on the code. Then you build your app from the command line with Clickable."
 msgstr ""
+"Ви можете користуватися будь-яким редактором коду або IDE і потім можете "
+"зібрати свою програму через командний рядок з Clickable."
 
 #: ../../appdev/index.rst:44
 msgid "Applications are shipped as a :ref:`click <click>` package and can be published on the official app store `OpenStore <https://open-store.io>`__. Note also that most apps in the OpenStore are open source and can serve as references and inspiration."
 msgstr ""
+"Програми, надіслані як пакунок :ref:`click <click>` та можуть бути "
+"розповсюджені через офіційний портал `OpenStore <https://open-store.io>`__. "
+"Зверніть увагу, що більшість програм у OpenStore — з відкритим кодом та "
+"можуть бути гарним сприянням у дослідженні та бути гарним натхненням у цьому."
 
 #: ../../appdev/index.rst:47
 msgid "References and guides"
-msgstr ""
+msgstr "Посилання та настанови"
 
 #: ../../appdev/index.rst:57
 msgid "This is a helpful and welcoming community and everything works better in teamwork! Looking for other developers that might want to collaborate with you on your app? Have questions that aren’t answered in the docs or want to chat with other Ubuntu Touch developers? Join our `UBports UT App Dev Telegram group <https://t.me/UbuntuAppDevEN>`_ or chat with us on the `UBports App Development forum <https://forums.ubports.com/category/35/app-development>`_! You can also check out our list of :ref:`preinstalled apps <preinstalledapps>`. Contributions to those are greatly appreciated and directly reach a larger audience."
 msgstr ""
+"Це корисна та привітна спільнота і все в командній роботі працює найкраще! "
+"Шукаєте інших розробників, які б могли співпрацювати з Вами над Вашою "
+"програмою? Маєте якісь питання, на які не має відповідей у документації або "
+"хочете поспілкуватися з іншими розробниками Ubuntu Touch? Приєднуйтеся до "
+"нашої `Telegram групи UBports UT App Dev <https://t.me/UbuntuAppDevEN>`_ або "
+"спілкуйтеся з нами у `форумі розробників UBports <https://forums.ubports.com/"
+"category/35/app-development>`_! Можна також перевірити перелік :ref:`"
+"передвстановлених програм <preinstalledapps>`. Внески до них дуже важливі та "
+"охоплюють безпосередньо велику аудиторію."
 
 #: ../../appdev/index.rst:64
 msgid "Maintainers wanted"
-msgstr ""
+msgstr "Потрібна підтримка"
 
 #: ../../appdev/index.rst:66
 msgid "All apps love contributions. But some core apps are lacking maintainers. Please check the `list of core apps <https://gitlab.com/ubports/ubuntu-touch/-/blob/master/CORE_APPS.md>`_ and see if you want to step up as new maintainer for one of our core apps. The maintainer reviews MR's, triages and investigates issue reports and helps to develop the app."
 msgstr ""
+"Усі програми люблять внески. Але деяким основним програмам бракує підтримки. "
+"Перевірте, будь ласка, `перелік основних програм <https://gitlab.com/ubports/"
+"ubuntu-touch/-/blob/master/CORE_APPS.md>`_ та подивіться чи не хочете Ви "
+"долучитися до обслуговування однієї з наших основних програм. Такий "
+"\"доглядач\" перевіряє MR (запити на злиття), сортує та досліджує звіти щодо "
+"проблем та допомагає розробляти програму."
 
 #: ../../appdev/index.rst:68
 msgid "The best way to start is by making some contributions and let the reviewers know that you are interested. Or join our matrix group at `#ubcd:matrix.org <https://matrix.to/#/#ubcd:matrix.org>`_ and introduce yourself."
 msgstr ""
+"Найкращий спосіб почати — це зробити деякі внески та поділитися з іншими "
+"своїми очікуваннями. Або долучіться до нашої matrix-групи в `#ubcd:"
+"matrix.org <https://matrix.to/#/#ubcd:matrix.org>`_ та представтеся."
 
 #: ../../appdev/nativeapp/index.rst:4
 msgid "Native apps"
-msgstr ""
+msgstr "Нативні програми"
 
 #: ../../appdev/nativeapp/index.rst:6
 msgid "The recommended way to build a native application on Ubuntu Touch is to use the `Qt <https://doc.qt.io/>`__ framework (current version since Xenial OTA-16 is Qt 5.12.9). You do not have to stick with the traditional C++<->QML Qt model, you can use also Python, Go, Rust or even Javascript for your backend."
 msgstr ""
+"Рекомендований спосіб створення нативної програми для Ubuntu Touch — це "
+"використання фреймворку `Qt <https://doc.qt.io/>`__ (поточна версія з Xenial "
+"OTA-16 це Qt 5.12.9). Вам не обов'язково зупинятися на традиційній моделі "
+"C++<->QML Qt і можна на бекенді використовувати Python, Go, Rust або навіть "
+"Javascript."
 
 #: ../../appdev/nativeapp/index.rst:10
 msgid "Ubuntu Touch provides a subset of Qt QML components to ease the development of your app : `QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__ and Icons: `Suru Icons <http://docs.ubports.com/projects/icons/en/latest/>`__, but you can also ship your cross platform app using standard Qt QML QtQuick2 components."
 msgstr ""
+"Ubuntu Touch для спрощення розробки містить набір компонентів Qt QML: `QML "
+"API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__ та значки: `"
+"Suru Icons <http://docs.ubports.com/projects/icons/en/latest/>`__, але "
+"можете з використанням стандарту Qt QML та компонентів QtQuick2 створити "
+"власну кросплатформну програму."
 
 #: ../../appdev/nativeapp/index.rst:13
 msgid "You can use `Clickable <http://clickable.bhdouglass.com/en/latest/>`_ to facilitate Packaging, deploying, publishing and tests ."
 msgstr ""
+"Для упаковки, розповсюдження та тестів можна використовувати `Clickable "
+"<http://clickable.bhdouglass.com/en/latest/>`_."
 
 #: ../../appdev/nativeapp/index.rst:15
 msgid "Check out informations about the platform and confinement model in :ref:`Platform <platform>` section"
 msgstr ""
+"Ознайомтеся з інформацією щодо платформи та моделі обмеження у розділі :ref:`"
+"Platform <platform>`"
 
 #: ../../appdev/platform/apparmor.rst:2
 msgid "AppArmor Policy Groups"
-msgstr ""
+msgstr "Групи політик AppArmor"
 
 #: ../../appdev/platform/apparmor.rst:4
 msgid "This document contains a full list of Ubuntu Touch's available policy groups and a description of what they give your app permission to access."
 msgstr ""
+"Цей документ містить повний перелік доступних групових політик Ubuntu Touch "
+"та опис дозволів, які отримує програма за запитом."
 
 #: ../../appdev/platform/apparmor.rst:6
 msgid "Each entry follows this format"
-msgstr ""
+msgstr "Кожен запис відповідає формату"
 
 #: ../../appdev/platform/apparmor.rst:21
 msgid "Policy usage affects whether your app will be accepted by the OpenStore. Apps containing policies with common usage are generally accepted immediately, while reserved usage policies will need to be manually reviewed."
 msgstr ""
+"Використання політик впливає чи буде Ваша програма прийнята до OpenStore. "
+"Програми з політиками загального призначення зазвичай розміщуються миттєво, "
+"а програми із зарезервованими політиками перевіряються вручну."
 
 #: ../../appdev/platform/apparmor.rst:23
 msgid "Coding tip: Everytime you change your apparmor policy file you need to update your app's version for this to be taken into account."
 msgstr ""
+"Порада: щоразу як Ви змінюєте свій файл політик apparmor потрібно для "
+"прийняття змін оновлювати версію Вашої програми."
 
 #: ../../appdev/platform/apparmor.rst:26
 msgid "accounts"
-msgstr ""
+msgstr "accounts (облікові записи)"
 
 #: ../../appdev/platform/apparmor.rst:28
 msgid "Description: Can use Online Accounts."
-msgstr ""
+msgstr "Опис: Можна використовувати онлайн-обліковки."
 
 #: ../../appdev/platform/apparmor.rst:30
 #: ../../appdev/platform/apparmor.rst:40
@@ -2728,31 +2796,39 @@ msgstr ""
 #: ../../appdev/platform/apparmor.rst:271
 #: ../../appdev/platform/apparmor.rst:299
 msgid "Usage: common"
-msgstr ""
+msgstr "Використання: звичайне"
 
 #: ../../appdev/platform/apparmor.rst:32
 msgid "The accounts policy gives your app the permissions it needs to access the `Online Accounts API`_."
 msgstr ""
+"Політика облікових записів надає Вашій програмі дозволи, потрібні для "
+"доступу до `Online Accounts API`_."
 
 #: ../../appdev/platform/apparmor.rst:36
 msgid "audio"
-msgstr ""
+msgstr "audio"
 
 #: ../../appdev/platform/apparmor.rst:38
 msgid "Description: Can play audio (allows playing remote content via media-hub)"
 msgstr ""
+"Опис: Може відтворювати звук (дозволяє відтворювати віддалений зміст через "
+"медіа-хаб)"
 
 #: ../../appdev/platform/apparmor.rst:42
 msgid "The audio policy is needed for your app to play audio via pulseaudio or media-hub. The permission also gives it the ability to send album art to the thumbnailer service, which is then shown on the sound indicator."
 msgstr ""
+"Аудіо політика потрібна для Вашої програми для відтворення звуку через "
+"pulseaudio або медіа-хаб. Цей дозвіл також надає можливість надсилати "
+"обкладинки альбомів до служби thumbnailer та показувати їх потім на "
+"індикаторі звуку."
 
 #: ../../appdev/platform/apparmor.rst:46
 msgid "bluetooth"
-msgstr ""
+msgstr "bluetooth"
 
 #: ../../appdev/platform/apparmor.rst:48
 msgid "Description: Use bluetooth (bluez5) as an administrator."
-msgstr ""
+msgstr "Опис: Використання bluetooth (bluez5) з правами адміністратора."
 
 #: ../../appdev/platform/apparmor.rst:50
 #: ../../appdev/platform/apparmor.rst:60
@@ -2768,59 +2844,71 @@ msgstr ""
 #: ../../appdev/platform/apparmor.rst:279
 #: ../../appdev/platform/apparmor.rst:289
 msgid "Usage: reserved"
-msgstr ""
+msgstr "Використання: зарезервовано"
 
 #: ../../appdev/platform/apparmor.rst:52
 msgid "This policy grants unrestricted access to Bluetooth devices. It is provided for administration of bluetooth and as a stepping stone towards developing a safe bluetooth API all apps can access."
 msgstr ""
+"Ця політика надає необмежений доступ до пристроїв Bluetooth. Вона надається "
+"для адміністрування bluetooth та може бути сходинкою до розробки безпечного "
+"bluetooth API, та доступна для усіх програм."
 
 #: ../../appdev/platform/apparmor.rst:56
 msgid "calendar"
-msgstr ""
+msgstr "calendar"
 
 #: ../../appdev/platform/apparmor.rst:58
 msgid "Description: Can access the calendar."
-msgstr ""
+msgstr "Опис: Може мати доступ до календаря."
 
 #: ../../appdev/platform/apparmor.rst:62
 msgid "Calendar grants access to the Evolution dataserver's calendar and alarms APIs. It also grants access to sync-monitor."
 msgstr ""
+"Календар надає доступ до API календаря та нагадувань з сервера даних "
+"Evolution. Також може надати доступ до моніторингу синхронізації."
 
 #: ../../appdev/platform/apparmor.rst:64
 msgid "This policy is reserved since it grants free access to all calendars on the device at any time. The legacy bug about this situation is `LP #1227824`_ ."
 msgstr ""
+"Ця політика зарезервована, оскільки надає вільний доступ до усіх календарів "
+"на пристрої. Застарілий баг щодо цієї ситуації зареєстрований як `LP "
+"#1227824`_ ."
 
 #: ../../appdev/platform/apparmor.rst:68
 msgid "camera"
-msgstr ""
+msgstr "camera"
 
 #: ../../appdev/platform/apparmor.rst:70
 msgid "Description: Can access the camera(s)"
-msgstr ""
+msgstr "Опис: Може мати доступ до камер(и)"
 
 #: ../../appdev/platform/apparmor.rst:74
 msgid "The camera policy grants access to device cameras."
-msgstr ""
+msgstr "Політика камери надає доступ до камер на пристрої."
 
 #: ../../appdev/platform/apparmor.rst:78
 msgid "connectivity"
-msgstr ""
+msgstr "connectivity (можливість зв'язку)"
 
 #: ../../appdev/platform/apparmor.rst:80
 msgid "Description: Can access coarse network connectivity information"
 msgstr ""
+"Опис: Може отримати доступ до необробленої інформації мережевих з’єднань"
 
 #: ../../appdev/platform/apparmor.rst:84
 msgid "The connectivity policy allows apps to determine rough information about the device's connectivity. This includes whether the device is connected to the Internet and whether it is connected via a Wi-Fi or mobile data connection."
 msgstr ""
+"Політика мережевих з'єднань дозволяє програмам отримувати грубу інформацію "
+"щодо з'єднань пристрою. Це включає також інформацію як під'єднаний інтернет —"
+" чи то через Wi-Fi, чи через мобільний зв'язок."
 
 #: ../../appdev/platform/apparmor.rst:88
 msgid "contacts"
-msgstr ""
+msgstr "contacts"
 
 #: ../../appdev/platform/apparmor.rst:90
 msgid "Description: Can access contacts."
-msgstr ""
+msgstr "Опис: Може мати доступ до контактів."
 
 #: ../../appdev/platform/apparmor.rst:94
 msgid "The contacts policy allows apps to access the device user's contacts list. It is marked as reserved because it allows access to sync-monitor and unfettered access to the address book."
