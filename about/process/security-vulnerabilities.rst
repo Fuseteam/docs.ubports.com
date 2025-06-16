@@ -1,7 +1,7 @@
 Security vulnerabilities
 ========================
 
-We take security vulnerabilities seriously. If you've found one, the best way to report it is to create a confidential issue on our `bug tracker <https://gitlab.com/ubports/ubuntu-touch>`_. Make sure you select "This issue is confidential and should only be visible to team members with at least Reporter access" when creating the issue. After that, we'll get to work with the reported issue. We might contact you via the issue if there is additional information needed. And we'll determine the disclosure.
+We take security vulnerabilities seriously. If you've found one, the best way to report it is to create a confidential issue on our `bug tracker <https://gitlab.com/ubports/development/ubuntu-touch>`_. Make sure you select "This issue is confidential and should only be visible to team members with at least Reporter access" when creating the issue. After that, we'll get to work with the reported issue. We might contact you via the issue if there is additional information needed. And we'll determine the disclosure.
 
 How to handle a security fix
 ----------------------------
