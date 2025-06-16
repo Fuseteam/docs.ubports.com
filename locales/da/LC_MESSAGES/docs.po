@@ -8,31 +8,38 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-06-17 19:01+0000\n"
+"Last-Translator: Øjvind Fritjof Arnfred <fritjof@mencagli-arnfred.dk>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.1\n"
 
 #: ../../about/introduction.rst:2
 #: ../../porting/introduction/index.rst:2
 msgid "Introduction"
-msgstr ""
+msgstr "Introduktion"
 
 #: ../../about/introduction.rst:4
 msgid "Our goal is to create a copylefted libre mobile operating system. One you can use, study, change and share; with all."
 msgstr ""
+"Vores mål er at lave et copylefted og frit operativsystem til mobile "
+"enheder. Et du kan bruge, undersøge, ændre og dele med alle."
 
 #: ../../about/introduction.rst:7
 msgid "About UBports"
-msgstr ""
+msgstr "Om UBports"
 
 #: ../../about/introduction.rst:9
 msgid "The project was founded by Marius Gripsgard in 2015 and in its infancy a place where developers could share ideas and educate each other in hopes of bringing the Ubuntu Touch platform to more mobile devices."
 msgstr ""
+"Projektet blev grundlagt af Marius Gripsgard i 2015. I begyndelsen var det "
+"et sted hvor udviklere kunne dele ideer og viden i håb om at bringe Ubuntu "
+"Touch platformen til flere mobilenheder."
 
 #: ../../about/introduction.rst:11
 msgid "After Canonical suddenly announced `plans to terminate support for Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_ in April of 2017, UBports and its sister projects began work on the source code; maintaining and expanding its possibilities for the future. Today, UBports is a volunteer group, formalised as a charitable foundation."
