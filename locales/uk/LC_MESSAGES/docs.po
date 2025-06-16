@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-16 18:59+0000\n"
+"PO-Revision-Date: 2025-06-17 19:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -29,8 +29,8 @@ msgstr "Передмова"
 msgid "Our goal is to create a copylefted libre mobile operating system. One you can use, study, change and share; with all."
 msgstr ""
 "Наша мета — це створення мобільної ОС, не зв'язаної обмеженнями на права "
-"власності (copyleft). Таку, що можна вивчати, використовувати, змінювати та "
-"розповсюджувати; усім."
+"власності (copyleft). Такої, що можна буде вивчати, використовувати, "
+"змінювати та розповсюджувати; усім."
 
 #: ../../about/introduction.rst:7
 msgid "About UBports"
@@ -2913,355 +2913,453 @@ msgstr "Опис: Може мати доступ до контактів."
 #: ../../appdev/platform/apparmor.rst:94
 msgid "The contacts policy allows apps to access the device user's contacts list. It is marked as reserved because it allows access to sync-monitor and unfettered access to the address book."
 msgstr ""
+"Політика контактів дозволяє програмі мати доступ до списків з контактами на "
+"пристрої. Вона позначена як зарезервована, оскільки надає доступ до "
+"моніторингу синхронізації та безперешкодний доступ до контактів."
 
 #: ../../appdev/platform/apparmor.rst:98
 msgid "content_exchange"
-msgstr ""
+msgstr "content_exchange (обмін змістом)"
 
 #: ../../appdev/platform/apparmor.rst:100
 msgid "Description: Can request/import data from other applications"
-msgstr ""
+msgstr "Опис: Може запитувати/імпортувати дані з інших програм"
 
 #: ../../appdev/platform/apparmor.rst:104
 msgid "Using the content_exchange policy allows your app to be a consumer of content on content-hub."
 msgstr ""
+"Використання політики content_exchange дозволяє Вашій програмі отримувати "
+"зміст на контент-хабі."
 
 #: ../../appdev/platform/apparmor.rst:108
 msgid "content_exchange_source"
-msgstr ""
+msgstr "content_exchange_source (джерело обміну змістом)"
 
 #: ../../appdev/platform/apparmor.rst:110
 msgid "Description: Can provide/export data to other applications"
-msgstr ""
+msgstr "Опис: Може надавати/експортувати дані до інших програм"
 
 #: ../../appdev/platform/apparmor.rst:114
 msgid "The content_exchange_source policy allows your app to provide content on content-hub."
 msgstr ""
+"Політика content_exchange_source дозволяє Вашій програмі надавати свій зміст "
+"на контент-хабі."
 
 #: ../../appdev/platform/apparmor.rst:118
 msgid "debug"
-msgstr ""
+msgstr "debug (налагодження)"
 
 #: ../../appdev/platform/apparmor.rst:120
 msgid "Description: Use special debugging tools. This should only be used in development and not for production packages. Note: use of this policy group provides significantly different confinement than normal and is not considered secure. You should never run untrusted programs using this policy group."
 msgstr ""
+"Опис: Користуйтеся особливими інструментами налагодження. Це повинно "
+"використовуватися тільки для розробки та не для готових рішень. Підказка: "
+"використання цієї політики забезпечує подолання значних обмежень і це не "
+"вважається безпечним. Вам слід ніколи не запускати недовірені програми з "
+"використанням цієї політики."
 
 #: ../../appdev/platform/apparmor.rst:126
 msgid "document_files"
-msgstr ""
+msgstr "document_files"
 
 #: ../../appdev/platform/apparmor.rst:128
 msgid "Description: Can read and write to document files. This policy group is reserved for certain applications, such as document viewers. Developers should typically use the content_exchange policy group and API to access document files instead."
 msgstr ""
+"Опис: Може читати та записувати файли документів. Ця політика зарезервована "
+"для певних програм, в т.ч. для перегляду документів. Розробники повинні для "
+"доступу до документів замість цієї політики використовувати content_exchange "
+"та API."
 
 #: ../../appdev/platform/apparmor.rst:132
 msgid "This policy allows apps to read and write to the \"Documents\" folders in the user's home directory and external media."
 msgstr ""
+"Ця політика дозволяє програмам читати та записувати файли у теці Документи, "
+"як у користувацькому каталозі, так і на змінних носіях."
 
 #: ../../appdev/platform/apparmor.rst:135
 msgid "document_files_read"
-msgstr ""
+msgstr "document_files_read"
 
 #: ../../appdev/platform/apparmor.rst:137
 msgid "Description: Can read all document files. This policy group is reserved for certain applications, such as document viewers. Developers should typically use the content_exchange policy group and API to access document files instead."
 msgstr ""
+"Опис: Може читати усі файли документів. Ця політика зарезервована для певних "
+"програм, в т.ч. для перегляду документів. Розробники повинні для доступу до "
+"документів замість цієї політики використовувати content_exchange та API."
 
 #: ../../appdev/platform/apparmor.rst:141
 msgid "This policy allows apps to read the \"Documents\" folders in the user's home directory and external media."
 msgstr ""
+"Ця політика дозволяє програмам читати файли у теці Документи, як у "
+"користувацькому каталозі, так і на змінних носіях."
 
 #: ../../appdev/platform/apparmor.rst:145
 msgid "history"
-msgstr ""
+msgstr "history"
 
 #: ../../appdev/platform/apparmor.rst:147
 msgid "Description: Can access the history-service. This policy group is reserved for vetted applications only in this version of the policy. A future version of the policy may move this out of reserved status."
 msgstr ""
+"Опис: Може мати доступ до служби журналу дій. Ця групова політика у цій "
+"версії зарезервована тільки для перевірених програм. Можливо одна з нових "
+"версій політики зможе зняти цей статус."
 
 #: ../../appdev/platform/apparmor.rst:153
 msgid "keep-display-on"
-msgstr ""
+msgstr "keep-display-on"
 
 #: ../../appdev/platform/apparmor.rst:155
 msgid "Description: Can request keeping the screen on"
-msgstr ""
+msgstr "Опис: Може запитувати про залишення екрана увімкненим"
 
 #: ../../appdev/platform/apparmor.rst:161
 msgid "location"
-msgstr "розташування"
+msgstr "location"
 
 #: ../../appdev/platform/apparmor.rst:163
 msgid "Description: Can access Location"
-msgstr ""
+msgstr "Опис: Може отримувати доступ до розташування"
 
 #: ../../appdev/platform/apparmor.rst:167
 msgid "Allows an app to request access to the device's current location."
-msgstr ""
+msgstr "Дозволяє програмі запитувати доступ до поточного розташування пристрою."
 
 #: ../../appdev/platform/apparmor.rst:171
 msgid "microphone"
-msgstr ""
+msgstr "microphone"
 
 #: ../../appdev/platform/apparmor.rst:173
 msgid "Description: Can access the microphone"
-msgstr ""
+msgstr "Опис: Може отримувати доступ до мікрофона"
 
 #: ../../appdev/platform/apparmor.rst:179
 msgid "music_files"
-msgstr ""
+msgstr "music_files"
 
 #: ../../appdev/platform/apparmor.rst:181
 msgid "Description: Can read and write to music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead."
 msgstr ""
+"Опис: Може читати та записувати музичні файли. Ця групова політика "
+"зарезервована для певних програм, таких як програвач музики. Розробникам для "
+"доступу до музичних файлів краще замість цієї політики використовувати "
+"політику content_exchange та API."
 
 #: ../../appdev/platform/apparmor.rst:185
 msgid "The music_files policy group allows an app to read or write to the Music directories in the user's home folder or on external media."
 msgstr ""
+"Групова політика music_files дозволяє програмі читати та записувати файли до "
+"каталогу Музика у користувацькому каталозі або на зовнішньому накопичувачі."
 
 #: ../../appdev/platform/apparmor.rst:189
 msgid "music_files_read"
-msgstr ""
+msgstr "music_files_read"
 
 #: ../../appdev/platform/apparmor.rst:191
 msgid "Description: Can read all music files. This policy group is reserved for certain applications, such as music players. Developers should typically use the content_exchange policy group and API to access music files instead."
 msgstr ""
+"Опис: Може читати усі музичні файли. Ця групова політика зарезервована для "
+"певних програм, таких як програвач музики. Розробникам для доступу до "
+"музичних файлів краще замість цієї політики використовувати політику "
+"content_exchange та API."
 
 #: ../../appdev/platform/apparmor.rst:195
 msgid "The music_files_read policy group allows an app to read the Music directories in the user's home folder or on external media."
 msgstr ""
+"Групова політика music_files_read дозволяє програмі читати файли у каталозі "
+"Музика у домашньому каталозі або на зовнішньому накопичувачі."
 
 #: ../../appdev/platform/apparmor.rst:199
 msgid "networking"
-msgstr ""
+msgstr "networking"
 
 #: ../../appdev/platform/apparmor.rst:201
 msgid "Description: Can access the network"
-msgstr ""
+msgstr "Опис: Може отримувати доступ до мережі"
 
 #: ../../appdev/platform/apparmor.rst:205
 msgid "The networking policy group allows an app to contact network devices and use the `download manager`_."
 msgstr ""
+"Мережева групова політика дозволяє програмі контактувати з мережевими "
+"пристроями та використовувати `менеджер завантаження`_."
 
 #: ../../appdev/platform/apparmor.rst:209
 msgid "nfc"
-msgstr ""
+msgstr "nfc"
 
 #: ../../appdev/platform/apparmor.rst:211
 msgid "Description: Can access the NFC functionality"
-msgstr ""
+msgstr "Опис: Може отримувати доступ до функцій NFC"
 
 #: ../../appdev/platform/apparmor.rst:215
 msgid "The nfc policy group allows an app to read and write NFC tags via NDEF data as well as establishing a peer-to-peer connection between two devices."
 msgstr ""
+"Групова політика nfc дозволяє програмі читати та записувати теги NFC через "
+"дані NDEF, так само як і встановлювати з'єднання peer-to-peer між двома "
+"пристроями."
 
 #: ../../appdev/platform/apparmor.rst:219
 msgid "picture_files"
-msgstr ""
+msgstr "picture_files"
 
 #: ../../appdev/platform/apparmor.rst:221
 msgid "Description: Can read and write to picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead."
 msgstr ""
+"Опис: Може читати та записувати усі файли зображень. Ця групова політика "
+"зарезервована для певних програм, таких як галерея. Розробникам для доступу "
+"до графічних файлів краще замість цієї політики використовувати політику "
+"content_exchange та API."
 
 #: ../../appdev/platform/apparmor.rst:225
 msgid "The picture_files policy group allows an app to read and write to the Pictures directories in the user's home folder or on external media."
 msgstr ""
+"Групова політика picture_files дозволяє програмі читати та записувати файли "
+"до каталогу Фото/Картинки у домашньому каталозі або на зовнішньому "
+"накопичувачі."
 
 #: ../../appdev/platform/apparmor.rst:229
 msgid "picture_files_read"
-msgstr ""
+msgstr "picture_files_read"
 
 #: ../../appdev/platform/apparmor.rst:231
 msgid "Description: Can read all picture files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access picture files instead."
 msgstr ""
+"Опис: Може читати усі файли зображень. Ця групова політика зарезервована для "
+"певних програм, таких як галерея. Розробникам для доступу до графічних "
+"файлів краще замість цієї політики використовувати політику content_exchange "
+"та API."
 
 #: ../../appdev/platform/apparmor.rst:235
 msgid "The picture_files_read policy group allows an app to read the Pictures directories in the user's home folder or on external media."
 msgstr ""
+"Групова політика picture_files_read дозволяє програмі читати файли з "
+"каталогу Фото/Картинки у домашньому каталозі або на зовнішньому накопичувачі."
 
 #: ../../appdev/platform/apparmor.rst:239
 msgid "push-notification-client"
-msgstr ""
+msgstr "push-notification-client"
 
 #: ../../appdev/platform/apparmor.rst:241
 msgid "Description: Can use push notifications as a client"
-msgstr ""
+msgstr "Опис: Може використовувати пуш-сповіщення як клієнт"
 
 #: ../../appdev/platform/apparmor.rst:247
 msgid "sensors"
-msgstr ""
+msgstr "sensors (датчики)"
 
 #: ../../appdev/platform/apparmor.rst:249
 msgid "Description: Can access the sensors"
-msgstr ""
+msgstr "Опис: Може отримувати доступ до датчиків"
 
 #: ../../appdev/platform/apparmor.rst:253
 msgid "Allows apps to access `device sensors`_"
-msgstr ""
+msgstr "Дозволяє програмам мати доступ до `датчиків пристрою`_"
 
 #: ../../appdev/platform/apparmor.rst:257
 msgid "usermetrics"
-msgstr ""
+msgstr "usermetrics (користувацькі показники)"
 
 #: ../../appdev/platform/apparmor.rst:259
 msgid "Description: Can use UserMetrics to update the InfoGraphic"
-msgstr ""
+msgstr "Опис: Може використовувати UserMetrics для оновлення InfoGraphic"
 
 #: ../../appdev/platform/apparmor.rst:263
 msgid "Allows an app to write metrics to the UserMetrics service so they can be displayed on the InfoGraphic."
 msgstr ""
+"Дозволяє програмам записувати показники до служби UserMetrics для зображення "
+"їх в InfoGraphic."
 
 #: ../../appdev/platform/apparmor.rst:267
 msgid "video"
-msgstr ""
+msgstr "video"
 
 #: ../../appdev/platform/apparmor.rst:269
 msgid "Description: Can play video (allows playing remote content via media-hub)"
 msgstr ""
+"Опис: Може відтворювати відео (дозволяє відтворювати віддалений контент "
+"через медіа-хаб)"
 
 #: ../../appdev/platform/apparmor.rst:275
 msgid "video_files"
-msgstr ""
+msgstr "video_files"
 
 #: ../../appdev/platform/apparmor.rst:277
 msgid "Description: Can read and write to video files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access video files instead."
 msgstr ""
+"Опис: Може читати та записувати відеофайли. Ця групова політика "
+"зарезервована для певних програм, таких як галерея. Розробникам для доступу "
+"до відеофайлів краще замість цієї політики використовувати політику "
+"content_exchange та API."
 
 #: ../../appdev/platform/apparmor.rst:281
 msgid "The video_files policy group allows an app to read and write to the Videos directories in the user's home folder or on external media."
 msgstr ""
+"Групова політика video_files дозволяє програмі читати та записувати до "
+"каталогів Відео у домашньому каталозі або на зовнішньому накопичувачі."
 
 #: ../../appdev/platform/apparmor.rst:285
 msgid "video_files_read"
-msgstr ""
+msgstr "video_files_read"
 
 #: ../../appdev/platform/apparmor.rst:287
 msgid "Description: Can read all video files. This policy group is reserved for certain applications, such as gallery applications. Developers should typically use the content_exchange policy group and API to access video files instead."
 msgstr ""
+"Опис: Може читати усі відеофайли. Ця групова політика зарезервована для "
+"певних програм, таких як галерея. Розробникам для доступу до відеофайлів "
+"краще замість цієї політики використовувати політику content_exchange та API."
 
 #: ../../appdev/platform/apparmor.rst:291
 msgid "The video_files_read policy group allows an app to read the Videos directories in the user's home folder or on external media."
 msgstr ""
+"Групова політика video_files_read дозволяє програмі читати файли з Відео-"
+"каталогів у домашньому каталозі або на зовнішньому накопичувачі."
 
 #: ../../appdev/platform/apparmor.rst:295
 msgid "webview"
-msgstr ""
+msgstr "webview"
 
 #: ../../appdev/platform/apparmor.rst:297
 msgid "Description: Can use the UbuntuWebview"
 msgstr ""
+"Опис: Може використовувати UbuntuWebview (перегляд сайтів з середини програм)"
 
 #: ../../appdev/platform/apparmor.rst:301
 msgid "The webview policy group allows apps to embed a `web browser view`_."
 msgstr ""
+"Групова політика webview дозволяє до програм вбудовувати `перегляд веб "
+"сторінок`_."
 
 #: ../../appdev/platform/click.rst:4
 msgid "Click package"
-msgstr ""
+msgstr "Click-пакунок"
 
 #: ../../appdev/platform/click.rst:6
 msgid "Every ``click`` application package must embed at least 3 files:"
-msgstr ""
+msgstr "Кожен програмний пакунок ``click`` повинен містити щонайменше 3 файли:"
 
 #: ../../appdev/platform/click.rst:8
 msgid "``manifest.json`` file"
-msgstr ""
+msgstr "файл ``manifest.json``"
 
 #: ../../appdev/platform/click.rst:9
 msgid "Contains application declarations such as application name, description, author, framework sdk target, and version."
 msgstr ""
+"Містить визначення, такі як назва програми, опис, автор, цільовий framework "
+"sdk та версія."
 
 #: ../../appdev/platform/click.rst:11
 msgid "Example ``manifest.json`` file::"
-msgstr ""
+msgstr "Приклад файлу ``manifest.json``::"
 
 #: ../../appdev/platform/click.rst:28
 msgid "AppArmor profile policy file"
-msgstr ""
+msgstr "Файл політики профілю AppArmor"
 
 #: ../../appdev/platform/click.rst:29
 msgid "Contains which policy the app needs to work properly. See `Security and app isolation`_ below for more information on this file."
 msgstr ""
+"Містить інформацію щодо політики, необхідної для коректної роботи програми. "
+"Для більш детальної інформації щодо цього файлу перегляньте нижче розділ `"
+"Безпека та ізоляція програми`_."
 
 #: ../../appdev/platform/click.rst:31
 msgid "``.desktop`` file"
-msgstr ""
+msgstr "файл ``.desktop`"
 
 #: ../../appdev/platform/click.rst:32
 msgid "The launcher file will tell UT how to launch the app, which name and icon to display on the home screen, and some other properties."
 msgstr ""
+"Файл запускача містить інформацію для UT про те як запускати програму, які "
+"назва та значок повинні бути на стільниці та ще деякі властивості."
 
 #: ../../appdev/platform/click.rst:34
 msgid "Example of ``app.desktop``::"
-msgstr ""
+msgstr "Приклад файлу ``app.desktop``::"
 
 #: ../../appdev/platform/click.rst:44
 msgid "Non exhaustive list of properties:"
-msgstr ""
+msgstr "Невиключний перелік властивостей:"
 
 #: ../../appdev/platform/click.rst:46
 msgid "Name: Application title has shown in the dash"
-msgstr ""
+msgstr "Name: Назва програми для запускача"
 
 #: ../../appdev/platform/click.rst:47
 msgid "Exec: Path to the executable file"
-msgstr ""
+msgstr "Exec: Шлях до виконуваного файлу"
 
 #: ../../appdev/platform/click.rst:48
 msgid "Icon: Path to the icon to display"
-msgstr ""
+msgstr "Icon: Шлях до значка"
 
 #: ../../appdev/platform/click.rst:49
 msgid "Terminal: ``false`` if will not run in terminal window"
-msgstr ""
+msgstr "Terminal: ``false``, якщо не потрібно запускати в термінальному вікні"
 
 #: ../../appdev/platform/click.rst:50
 msgid "Type: Specifies the type of the launcher file. The type can be Application, Link or Directory."
 msgstr ""
+"Type: Вказує на тип файлу запускача. Може бути Application (програма), Link "
+"(ярлик) або Directory (каталог)."
 
 #: ../../appdev/platform/click.rst:51
 msgid "X-Ubuntu-Touch: ``true`` to make the app visible"
-msgstr ""
+msgstr "X-Ubuntu-Touch: ``true``, щоби програма була видимою"
 
 #: ../../appdev/platform/click.rst:52
 msgid "X-Ubuntu-XMir-Enable: ``true`` if your app is built for X"
-msgstr ""
+msgstr "X-Ubuntu-XMir-Enable: ``true``, якщо програма створена для X"
 
 #: ../../appdev/platform/click.rst:53
 msgid "X-Ubuntu-Supported-Orientations: ``landscape`` or ``portrait`` to force your app start in landscape mode and portrait mode respectively."
 msgstr ""
+"X-Ubuntu-Supported-Orientations: ``landscape`` чи ``portrait`` для "
+"визначення орієнтування Вашої програми під час запуску в альбомному чи "
+"портретному режимі відповідно."
 
 #: ../../appdev/platform/click.rst:60
 msgid "Security and app isolation"
-msgstr ""
+msgstr "Безпека та ізоляція програми"
 
 #: ../../appdev/platform/click.rst:62
 msgid "All Ubuntu apps are confined respecting AppArmor access control mechanism (see `Application Confinement <https://wiki.ubuntu.com/SecurityTeam/Specifications/ApplicationConfinement#App_confinement_with_AppArmor>`_) , meaning they only have access to their own resources and are isolated from other apps and parts of the system. The developer must declare which policy groups are needed for the app or scope to function properly with an apparmor ``.json`` file."
 msgstr ""
+"Усі програми Ubuntu обмежені дотриманням механізму контролю доступу Apparmor "
+"(див. `Application Confinement <https://wiki.ubuntu.com/SecurityTeam/"
+"Specifications/ApplicationConfinement#App_confinement_with_AppArmor>`_) , що "
+"значить, що вони мають доступ тільки до своїх власних ресурсів та ізольовані "
+"від інших програм та частин систем. Розробник повинен визначити які групові "
+"політики необхідні для програми або для набору функціоналу з файлом apparmor "
+"``.json``."
 
 #: ../../appdev/platform/click.rst:64
 msgid "Example ``apparmor.json`` file::"
-msgstr ""
+msgstr "Приклад файлу ``apparmor.json``::"
 
 #: ../../appdev/platform/click.rst:76
 msgid "For a full list of available policy groups, see :doc:`apparmor`."
-msgstr ""
+msgstr "Повний список доступних групових політик міститься у :doc:`apparmor`."
 
 #: ../../appdev/platform/index.rst:4
 #: ../../index.rst:76
 msgid "Platform"
-msgstr ""
+msgstr "Платформа"
 
 #: ../../appdev/platform/index.rst:6
 msgid "Here are Ubuntu Touch platforms key topics when you want to extend your app with Ubuntu Touch ecosystem:"
 msgstr ""
+"Ключові теми Ubuntu Touch Platsers, коли захочете розширити свою програму за "
+"допомогою екосистеми Ubuntu Touch:"
 
 #: ../../appdev/platform/index.rst:8
 msgid "Content Hub"
-msgstr ""
+msgstr "Content Hub (хаб змісту)"
 
 #: ../../appdev/platform/index.rst:9
 msgid "Each application can expose content outside its sandbox, giving the user precise control over what can be imported, exported or shared with the world and other apps."
 msgstr ""
+"Кожна програма може розкрити вміст поза пісочницею, надаючи користувачеві "
+"точний контроль над тим, що можна імпортувати, експортувати або розповсюдити "
+"світом та іншими програмами."
 
 #: ../../appdev/platform/index.rst:12
 msgid "By using a push server and a companion client, instantly serve users with the latest information from their network and apps."
