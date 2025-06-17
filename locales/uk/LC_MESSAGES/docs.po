@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-17 19:01+0000\n"
+"PO-Revision-Date: 2025-06-18 20:05+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -3364,114 +3364,151 @@ msgstr ""
 #: ../../appdev/platform/index.rst:12
 msgid "By using a push server and a companion client, instantly serve users with the latest information from their network and apps."
 msgstr ""
+"Використання сервера сповіщень та відповідного клієнта надає користувачеві "
+"можливість негайно отримувати останню інформацію з Вашої мережі та додатків."
 
 #: ../../appdev/platform/index.rst:14
 msgid "URL dispatcher"
-msgstr ""
+msgstr "Диспетчер URL"
 
 #: ../../appdev/platform/index.rst:15
 msgid "Help users navigate between your apps and drive their journey with the URL dispatcher."
 msgstr ""
+"Допоможіть користувачам з орієнтуванням між програмами та їх взаємодію через "
+"URL-адреси."
 
 #: ../../appdev/platform/index.rst:17
 msgid "Online accounts"
-msgstr ""
+msgstr "Онлайн-облікові записи"
 
 #: ../../appdev/platform/index.rst:18
 msgid "Simplify user access to online services by integrating with the online accounts API. Accounts added by the user on the device are registered in a centralized hub, allowing other apps to re-use them."
 msgstr ""
+"Спростіть користувачам доступ до інтернет-служб, інтегруючись з онлайн-"
+"обліковками API. Облікові записи, додані користувачем на пристрої, "
+"зареєстровані в централізованому центрі (хабі), що дозволяє іншим додаткам "
+"використовувати їх повторно."
 
 #: ../../appdev/platform/index.rst:21
 msgid "`Read the docs <https://docs.ubuntu.com/phone/en/platform/>`__"
 msgstr ""
+"`Ознайомтеся з документом <https://docs.ubuntu.com/phone/en/platform/>`__"
 
 #: ../../appdev/platform/index.rst:24
 msgid "Packaging your app"
-msgstr ""
+msgstr "Упаковка Вашої програми"
 
 #: ../../appdev/platform/index.rst:26
 msgid "Here you will get some informations about the confinment model and the packaging system:"
 msgstr ""
+"Тут Ви можете отримати деяку інформацію щодо моделі обмежень та системи "
+"упаковки:"
 
 #: ../../appdev/webapp/guide.rst:2
 msgid "Webapp guide"
-msgstr ""
+msgstr "Посібник з WebApp"
 
 #: ../../appdev/webapp/guide.rst:5
 msgid "How the webapp fits into the shell"
-msgstr ""
+msgstr "Як вбудовується webapp в оболонку"
 
 #: ../../appdev/webapp/guide.rst:7
 msgid "A web app displays in a webview inside a webapp-container that runs as an Ubuntu app in the Ubuntu/Unity shell."
 msgstr ""
+"Вебдодаток відтворюється всередині контейнера webapp, який виконується як "
+"програма Ubuntu в оболонці Ubuntu/Unity."
 
 #: ../../appdev/webapp/guide.rst:9
 msgid "Taking a closer look:"
-msgstr ""
+msgstr "Подивимося на це ближче:"
 
 #: ../../appdev/webapp/guide.rst:11
 msgid "At the innermost level, there is a website that the developer identifies by URL. The website is rendered and runs in a Qt WebEngine based webview. The webview is provided by the pre-installed Morph browser and automatically handles things like file dialogs (using ContentHub), downloads, permissions, etc."
 msgstr ""
+"На найглибшому рівні є веб-сайт, який розробник ідентифікує з URL-адресою. "
+"Веб-сайт формується та працює у QT WebEngine на базі webview. WebView "
+"надається попередньо встановленим браузером Morph й автоматично опікується "
+"такими речами, як файлові діалоги (за допомогою ContentHub), завантаження, "
+"дозволи тощо."
 
 #: ../../appdev/webapp/guide.rst:15
 msgid "Launching"
-msgstr ""
+msgstr "Запуск"
 
 #: ../../appdev/webapp/guide.rst:17
 msgid "You can launch a webapp from the terminal with:::"
-msgstr ""
+msgstr "Ви можете запустити webapp з термінала:::"
 
 #: ../../appdev/webapp/guide.rst:21
 msgid "For example:::"
-msgstr ""
+msgstr "Наприклад:::"
 
 #: ../../appdev/webapp/guide.rst:25
 msgid "This simple form works, but almost every webapp uses other features as well, such as URL containment with URL patterns as described below."
 msgstr ""
+"Ця проста форма працює, але майже кожний пакунок використовує такі функції "
+"як контейнеризацію URL з їх шаблонами як описано нижче."
 
 #: ../../appdev/webapp/guide.rst:28
 msgid "User interface"
-msgstr ""
+msgstr "Користувацький інтерфейс"
 
 #: ../../appdev/webapp/guide.rst:30
 msgid "A webapp generally fills the entire app screen space, without the need of the UI controls generally found on standard browsers."
 msgstr ""
+"Зазвичай webapp заповнює весь екран без необхідності загальних керівних "
+"елементів користувацького інтерфейсу які є у звичайних браузерах."
 
 #: ../../appdev/webapp/guide.rst:32
 msgid "In some cases some navigation controls are appropriate, such as Back and Forward buttons, or an address bar. These are enabled with command line arguments:"
 msgstr ""
+"У деяких випадках деякі елементи навігації є доречними, такі як Назад та "
+"Вперед або рядок адреси. Вони вмикаються параметрами командного рядка:"
 
 #: ../../appdev/webapp/guide.rst:34
 msgid "``--enable-back-forward`` Enable the display of the back and forward buttons in the toolbar (at the bottom of the webapp window)"
 msgstr ""
+"``--enable-back-forward`` Увімкнути кнопки назад та вперед на панелі "
+"інструментів (внизу вікна webapp)"
 
 #: ../../appdev/webapp/guide.rst:35
 msgid "``--enable-addressbar`` Enable the display of the address bar (at the bottom of the webapp window)"
-msgstr ""
+msgstr "``--enable-addressbar`` Увімкнути адресний рядок (внизу вікна webapp)"
 
 #: ../../appdev/webapp/guide.rst:38
 msgid "URL patterns"
-msgstr ""
+msgstr "Шаблони URL"
 
 #: ../../appdev/webapp/guide.rst:40
 msgid "Webapp authors often want to contain browsing to the target website. That is, the developer wants to control the URLs that can be opened in the webapp (all other URLs are opened in the browser). This is done with URL patterns as part of the webapp command line."
 msgstr ""
+"Автори webapp часто обмежують перегляд певним вебсайтом. Таким чином "
+"розробник хоче контролювати посилання, які повинні відкриватися у webapp ("
+"усі інші посилання відкриватимуться у браузері). Це робиться з шаблонами URL "
+"як частиною командного рядка webapp."
 
 #: ../../appdev/webapp/guide.rst:42
 msgid "However, many web apps use pages that are hosted over multiple sites or that use external resources and pages."
 msgstr ""
+"Але різні веб-додатки використовують сторінки, які розміщені на різних "
+"сайтах або які використовують зовнішні ресурси та сторінки."
 
 #: ../../appdev/webapp/guide.rst:44
 msgid "Both containment and access to specified external URLs are implemented with URL patterns provided as arguments at launch time. Let’s take a closer look."
 msgstr ""
+"Обидва обмеження та доступ до вказаних зовнішніх URL-адрес реалізуються за "
+"допомогою шаблонів URL, наданих як аргументи під час запуску. Подивімося "
+"детальніше."
 
 #: ../../appdev/webapp/guide.rst:47
 msgid "Uncontained by default"
-msgstr ""
+msgstr "Типово без обмежень"
 
 #: ../../appdev/webapp/guide.rst:49
 msgid "By default, there is no URL containment. Suppose you launch a webapp without any patters and only a starting URL like this:::"
 msgstr ""
+"Типово обмеження за посиланнями відсутні. Припустимо, Ви запускаєте webapp "
+"без будь-яких шаблонів та зі стартовою URL-адресою:::"
 
 #: ../../appdev/webapp/guide.rst:53
 msgid "The user can navigate to any URL without limitation. For example, if they click the Developer button at the top, they navigate to developer.ubuntu.com, and it displays in the webapp."
