@@ -1,7 +1,7 @@
 Issue-Tracking Guidelines
 =========================
 
-This document describes the standard process of dealing with new issues in UBports projects.
+This document describes the standard process of dealing with issues in UBports projects.
 (Not to be confused with the :doc:`guide on writing a good bugreport </contribute/bugreporting>`.)
 
 Where are bugs tracked?
