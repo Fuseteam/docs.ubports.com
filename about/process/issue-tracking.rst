@@ -31,7 +31,10 @@ All issues — even closed ones — should be labeled to allow use of GitLab's f
 .. _issues labeled 'Kind\: enhancement' inside ubports/development group: https://gitlab.com/groups/ubports/development/-/issues/?sort=created_date&state=opened&or%5Blabel_name%5D%5B%5D=Kind%3A%20enhancement&first_page_size=20
 .. _GitLab help pages: https://docs.gitlab.com/user/project/issues/managing_issues/#filter-the-list-of-issues
 
-The following labels are used inside UBports projects:
+The following labels are used inside UBports projects. Since merge requests (MRs) in GitLab share the same set of labels, some of the labels below might also apply to merge requests as well.
+
+.. todo::
+    Consider also writing a document about process of dealing with merge requests.
 
 - **Kind:** describe the nature of the issue
     - **Kind: bug**: this issue describes something that doesn't work correctly.
