@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-05-28 02:01+0000\n"
+"PO-Revision-Date: 2025-06-24 13:04+0000\n"
 "Last-Translator: Ida Brenna <ida@larald.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/nb_NO/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -36,18 +36,16 @@ msgid "About UBports"
 msgstr "Om UBports"
 
 #: ../../about/introduction.rst:9
-#, fuzzy
 msgid ""
 "The project was founded by Marius Gripsgard in 2015 and in its infancy a "
 "place where developers could share ideas and educate each other in hopes of "
 "bringing the Ubuntu Touch platform to more mobile devices."
 msgstr ""
-"UBports-prosjektet ble grunnlagt av Marius Gripsgard i 2015 og var i sin "
-"barndom et sted der utviklere kunne dele ideer og utdanne hverandre i håp om "
-"å bringe Ubuntu Touch-plattformen til flere mobilenheter."
+"Prosjektet ble grunnlagt av Marius Gripsgard i 2015 og var i sin barndom et "
+"sted der utviklere kunne dele ideer og utdanne hverandre i håp om å bringe "
+"Ubuntu Touch-plattformen til flere mobilenheter."
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -59,15 +57,15 @@ msgstr ""
 "Etter at Canonical plutselig kunngjorde `deres planer om å avslutte støtten "
 "til Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-"
 "cloud-and-iot-rather-than-phone-and- konvergens />`_ i april 2017 begynte "
-"UBports og dets søsterprosjekter å jobbe med åpen kildekode, vedlikeholde og "
-"utvide mulighetene for fremtiden."
+"UBports og dets søsterprosjekter å jobbe med kildekoden; vedlikeholde og "
+"utvide dens muligheter for fremtiden. I dag er UBports en gruppe med "
+"frivillige og formalisert som en veldedig organisasjon."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
 msgstr "Om Dokumentasjonen"
 
 #: ../../about/introduction.rst:16
-#, fuzzy
 msgid ""
 "Changes to the documentation are made by the UBports community. It is "
 "written in reStructuredText and converted into this readable form by `Sphinx "
@@ -76,15 +74,14 @@ msgid ""
 "readthedocs.io>`_. Start contributing by checking out the :doc:"
 "`Documentation contribution document </contribute/documentation>`."
 msgstr ""
-"Denne dokumentasjonen forbedres alltid takket være medlemmene i UBports-"
-"samfunnet. Den er skrevet i ReStructuredText og konvertert til denne lesbare "
-"formen av `Sphinx <http://www.sphinx-doc.org/en/stable/>` _, `ReCommonMark "
-"<http://recommonmark.readthedocs.io/en/ latest />`_ og`Read the Docs "
-"<https://readthedocs.io>`_. Du kan begynne å bidra ved å sjekke ut: doc: "
-"`Dokumentasjonsbidragsdokumentet </contribute/documentation>`."
+"Dokumentasjonen oppdateres av medlemmene i UBports-samfunnet. Den er skrevet "
+"i ReStructuredText og konvertert til denne lesbare formen av `Sphinx <http://"
+"www.sphinx-doc.org/en/stable/>` _, `recommonmark <http://"
+"recommonmark.readthedocs.io/en/ latest />`_ og`Read the Docs "
+"<https://readthedocs.io>`_. Du kan begynne å bidra ved å sjekke ut: doc: `"
+"Dokumentasjonsbidragsdokumentet </contribute/documentation>`."
 
 #: ../../about/introduction.rst:18
-#, fuzzy
 msgid ""
 "All documents are licensed Creative Commons Attribution ShareAlike 4.0 (`CC-"
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
@@ -92,7 +89,7 @@ msgid ""
 msgstr ""
 "Alle dokumenter er lisensiert under Creative Commons Attribution ShareAlike "
 "4.0 (`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>` _) "
-"lisens. Gi heder til \"The UBports Community\"."
+"lisens. Vennligst krediter \"The UBports Community\"."
 
 #: ../../about/introduction.rst:21
 msgid "Attribution"
@@ -113,16 +110,14 @@ msgid "Branch-naming convention"
 msgstr "Navnesystem for forgreninger"
 
 #: ../../about/process/branch-naming.rst:4
-#, fuzzy
 msgid ""
 "Our branch-naming convention ensures software can be built by our CI and "
 "tested easily by other developers."
 msgstr ""
 "Navngivningen av forgreningene forsikrer at programvare enkelt kan bygges av "
-"vårt KI, og testes av andre utviklere."
+"vår CI, og testes av andre utviklere."
 
 #: ../../about/process/branch-naming.rst:6
-#, fuzzy
 msgid ""
 "Every Git repository's README file should state which branch-naming "
 "convention is used and any deviations from the norm."
@@ -151,7 +146,6 @@ msgstr ""
 "utgivelser."
 
 #: ../../about/process/branch-naming.rst:14
-#, fuzzy
 msgid "DEB Packages"
 msgstr "Deb-Pakker"
 
@@ -183,21 +177,21 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
-msgstr ""
+msgstr "Beskrivelse"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "Korresponderense APT-arkiver"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
 #: ../../porting/configure_test_fix/device_info/index.rst:43
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 #: ../../about/process/branch-naming.rst:23
 msgid "Base distro"
-msgstr ""
+msgstr "Grunnoperativsystem"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``main``, ``ubports/latest``"
@@ -208,6 +202,8 @@ msgid ""
 "Represents the latest development of Ubuntu Touch. All kinds of changes are "
 "allowed in this branch."
 msgstr ""
+"Representerer den nyeste utviklingen av Ubuntu Touch. Alle typer endringer "
+"er lov i denne grenen."
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``devel-<Ubuntu LTS>`` (e.g. ``devel-noble``)"
@@ -215,11 +211,11 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:25
 msgid "Latest or upcoming Ubuntu LTS."
-msgstr ""
+msgstr "Den siste eller kommende langtidsstøttede Ubuntu-versjonen."
 
 #: ../../about/process/branch-naming.rst:28
 msgid "``devel-debian``"
-msgstr ""
+msgstr "``devel-debian``"
 
 #: ../../about/process/branch-naming.rst:28
 msgid "Debian testing."
@@ -227,7 +223,7 @@ msgstr "Debian-testing"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
-msgstr ""
+msgstr "``ubports/<major version>.x`` (f.eks. ``ubports/24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid ""
@@ -239,7 +235,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``<major version>.x`` (e.g. ``24.6.x``)"
-msgstr ""
+msgstr "``<major version>.x`` (f.eks. ``24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "Ubuntu LTS at the time of branching."
@@ -247,7 +243,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``ubports/focal``"
-msgstr ""
+msgstr "``ubports/focal``"
 
 #: ../../about/process/branch-naming.rst:38
 msgid ""
@@ -257,12 +253,12 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``focal``"
-msgstr ""
+msgstr "``focal``"
 
 #: ../../about/process/branch-naming.rst:38
 #: ../../about/process/branch-naming.rst:43
 msgid "Ubuntu 20.04 LTS."
-msgstr ""
+msgstr "Ubuntu 20.04 LTS."
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``ubports/focal_-_<ext>``"
@@ -343,6 +339,7 @@ msgstr ""
 msgid ""
 "The word ``PR`` stuck around from the time we hosted our code on GitHub."
 msgstr ""
+"Ordet ``PR`` har fulgt med oss siden tiden der vi hadde koden vår på GitHub."
 
 #: ../../about/process/index.rst:2
 msgid "Processes"
@@ -365,7 +362,6 @@ msgstr ""
 "respektive lagene."
 
 #: ../../about/process/issue-tracking.rst:2
-#, fuzzy
 msgid "Issue-Tracking Guidelines"
 msgstr "Retningslinjer for problemsporing"
 
