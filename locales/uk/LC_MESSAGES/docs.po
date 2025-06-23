@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-17 11:58+0100\n"
-"PO-Revision-Date: 2025-06-18 20:05+0000\n"
+"PO-Revision-Date: 2025-06-24 13:04+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.12.1\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: ../../about/introduction.rst:2
 #: ../../porting/introduction/index.rst:2
@@ -3513,74 +3513,115 @@ msgstr ""
 #: ../../appdev/webapp/guide.rst:53
 msgid "The user can navigate to any URL without limitation. For example, if they click the Developer button at the top, they navigate to developer.ubuntu.com, and it displays in the webapp."
 msgstr ""
+"Користувач може перейти до будь-якого URL без обмежень. Наприклад, якщо "
+"клацнути на кнопку Developer (Розробник) вгорі, у webapp відкриється "
+"developer.ubuntu.com."
 
 #: ../../appdev/webapp/guide.rst:55
 msgid "Tip: You can see the URL of the current page by enabling the address bar with ``--enable-addressbar``."
 msgstr ""
+"Підказка: Якщо додати параметр ``--enable-addressbar``, активується адресний "
+"рядок та буде видно адресу поточної адреси."
 
 #: ../../appdev/webapp/guide.rst:58
 msgid "Simple containment to the site"
-msgstr ""
+msgstr "Прості обмеження на сайті"
 
 #: ../../appdev/webapp/guide.rst:60
 msgid "One often wants to contain users to the site itself. That is, if the website is www.ubuntu.com, it may be useful to contain webapp users only to subpages of www.ubuntu.com. This is done by adding a wildcard URL pattern to the launch command, as follows:::"
 msgstr ""
+"Часто хочеться обмежити користувачів самим сайтом. Тобто, якщо вебсайт це "
+"www.ubuntu.com, може бути корисним обмеження користувачів webapp сайтом "
+"www.ubuntu.com. Це можна зробити, додаючи маску посилання URL до команди "
+"запуску за зразком:::"
 
 #: ../../appdev/webapp/guide.rst:64
 msgid "``--webappUrlPatterns=`` indicates a pattern is next"
-msgstr ""
+msgstr "``--webappUrlPatterns=`` вказує, що наступна маска"
 
 #: ../../appdev/webapp/guide.rst:65
 msgid "https://www.ubuntu.com/* is the pattern The asterisk is a wildcard that matches any valid sequence of characters in a URL"
 msgstr ""
+"https://www.ubuntu.com/* — маска, де зірочка використана для заміни рядка з "
+"усіма можливими символами у посиланні"
 
 #: ../../appdev/webapp/guide.rst:68
 msgid "With this launch command and URL pattern, the user can navigate to and open in the webapp any URL that starts with https://www.ubuntu.com/. For example, they can click on the Phone button (https://www.ubuntu.com/phone) in the banner and it opens in the webapp, or the Tablet button (https://www.ubuntu.com/tablet). But, clicking Developer opens the corresponding URL in the browser."
 msgstr ""
+"З цією командою запуску та маскою URL, користувач може перейти туди та "
+"відкрити у webapp будь-яке посилання, що починається з https://"
+"www.ubuntu.com/. Наприклад, можна клацнути на банері на кнопку Phone ("
+"Телефон, https://www.ubuntu.com/phone) і вона спрацює у webapp або кнопку "
+"Tablet (Планшет, https://www.ubuntu.com/tablet). Але з клацанням на "
+"Developer (Розробник) відкриється відповідне посилання у браузері."
 
 #: ../../appdev/webapp/guide.rst:70
 msgid "Tip: Make sure to specify the protocol in your starting URL, that is, use https://www.ubuntu.com instead of www.ubuntu.com. Not specifying the protocol would create an ambiguous URL and thus introduce security concerns."
 msgstr ""
+"Підказка: Переконайтеся, що на початку URL зазначений протокол, тобто, краще "
+"написати https://www.ubuntu.com замість www.ubuntu.com. Якщо не вказати "
+"протокол, адреса URL може бути розпізнана неоднозначно та це може призвести "
+"до проблем з безпекою."
 
 #: ../../appdev/webapp/guide.rst:74
 msgid "More complex wildcard patterns"
-msgstr ""
+msgstr "Більш складні шаблони заміни"
 
 #: ../../appdev/webapp/guide.rst:76
 msgid "You might want to limit access to only some subpages of your site from within the webapp. This is easy with wildcard patterns. (Links to other subpages are opened in the browser.) For example, the following allows access to www.ubuntu.com/desktop/features and www.ubuntu.com/phone/features while not allowing access to www.ubuntu.com/desktop or www.ubuntu.com/phone::"
 msgstr ""
+"Всередині webapp можна обмежити доступ лише до деяких сторінок Вашого сайту. "
+"Це нескладно зробити за допомогою шаблонів. (Посилання на інші сторінки "
+"відкриються у браузері). Наприклад, наступне надає доступ до www.ubuntu.com/"
+"desktop/features та www.ubuntu.com/phone/features, але не дозволяє відкрити "
+"www.ubuntu.com/desktop та www.ubuntu.com/phone::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
-msgstr ""
+msgstr "Декілька шаблонів"
 
 #: ../../appdev/webapp/guide.rst:84
 msgid "You can use multiple patterns by separating them with a comma. For example, the following allows access only to www.ubuntu.com/desktop/features and www.ubuntu.com/phone/features:::"
 msgstr ""
+"Можна використовувати декілька шаблонів, розділюючи їх комою. Наприклад, "
+"наступне надасть доступ тільки до www.ubuntu.com/desktop/features та "
+"www.ubuntu.com/phone/features:::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid "Tip: Multiple patterns are often necessary to achieve the intended containment behavior."
 msgstr ""
+"Підказка: Декілька шаблонів часто використовуються для налаштування власних "
+"правил обмеження."
 
 #: ../../appdev/webapp/guide.rst:92
 msgid "Adding a specific subdomain"
-msgstr ""
+msgstr "Додавання піддомена"
 
 #: ../../appdev/webapp/guide.rst:94
 msgid "Many URLs have one or more subdomains. (For example, in the following, \"developer\" is the subdomain: developer.ubuntu.com.) You can allow access to a single subdomain (and all of its subpages) with a pattern like this:::"
 msgstr ""
+"Декілька посилань мають один або декілька піддоменів. (Наприклад, у "
+"наступному прикладі \"developer\" є піддоменом у developer.ubuntu.com.) "
+"Можна дозволити доступ до окремого піддомена (та усіх його сторінок) з таким "
+"шаблоном:::"
 
 #: ../../appdev/webapp/guide.rst:98
 msgid "However, one usually wants the user to be able to navigate back to the starting URL (and its subpages). So, if the starting URL is https://www.ubuntu.com, a second pattern is needed:::"
 msgstr ""
+"Хоча, іноді потрібно, щоби користувач міг переходити назад до початкової "
+"адреси (та її сторінок). Тож, якщо початкова адреса це https://"
+"www.ubuntu.com, потрібен додатковий шаблон:::"
 
 #: ../../appdev/webapp/guide.rst:102
 msgid "Putting these together, here’s an example that starts on https://www.ubuntu.com and allows navigation to https://developer.ubuntu.com and subpages and back to https://www.ubuntu.com and subpages:::"
 msgstr ""
+"Якщо скласти все разом, отримаємо приклад, який починається з https://"
+"www.ubuntu.com та дозволяє відвідувати https://developer.ubuntu.com та усі "
+"сторінки сайту, і повертаємося до https://www.ubuntu.com з усім сторінками:::"
 
 #: ../../appdev/webapp/guide.rst:107
 msgid "Adding subdomains with a wildcard"
-msgstr ""
+msgstr "Додавання піддоменів з маскою"
 
 #: ../../appdev/webapp/guide.rst:109
 msgid "Some URLs have multiple subdomains. For example, www.ubuntu.com has design.ubuntu.com, developer.ubuntu.com and more. You can add access to all subdomains with a wildcard in the subdomain position:::"
