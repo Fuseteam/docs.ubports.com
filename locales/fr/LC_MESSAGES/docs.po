@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 11:58+0100\n"
+"POT-Creation-Date: 2025-06-19 23:07+0700\n"
 "PO-Revision-Date: 2025-05-22 09:01+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/ubports/"
-"doc-ubports-com/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ubports/doc-"
+"ubports-com/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,10 +58,10 @@ msgid ""
 "formalised as a charitable foundation."
 msgstr ""
 "Après que Canonical a annoncé soudainement « sa volonté d'arrêter le "
-"développement d'Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/"
-"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/> »_ en "
-"avril 2017, UBports et ses projets frères ont commencé à travailler sur le "
-"code source, en le maintenant et en étendant ses possibilités futures. "
+"développement d'Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-"
+"ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/> »_ en avril "
+"2017, UBports et ses projets frères ont commencé à travailler sur le code "
+"source, en le maintenant et en étendant ses possibilités futures. "
 "Aujourd'hui, UBports est un groupe de bénévoles, formalisé sous la forme "
 "d'une fondation caritative."
 
@@ -80,9 +80,9 @@ msgid ""
 msgstr ""
 "Cette documentation s'améliore en permanence grâce aux membres de la "
 "communauté d'UBports. Elle est écrite en ReStructuredText et convertie dans "
-"cette forme lisible par `Sphinx <http://www.sphinx-doc.org/en/stable/>`_, `"
-"ReCommonMark <http://recommonmark.readthedocs.io/en/latest/>`_, et `Read the "
-"Docs <https://readthedocs.io>`_. Vous pouvez commencer à contribuer en "
+"cette forme lisible par `Sphinx <http://www.sphinx-doc.org/en/stable/>`_, "
+"`ReCommonMark <http://recommonmark.readthedocs.io/en/latest/>`_, et `Read "
+"the Docs <https://readthedocs.io>`_. Vous pouvez commencer à contribuer en "
 "jetant un œil à :doc:`l'introduction à la documentation </contribute/"
 "documentation>`."
 
@@ -183,7 +183,7 @@ msgstr "branches GIT"
 #: ../../appdev/guides/pushnotifications.rst:261
 #: ../../appdev/guides/pushnotifications.rst:275
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:15
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
@@ -371,8 +371,8 @@ msgid ""
 "``lomiri`` (when the current Ubuntu LTS is ``noble``) will have APT archives "
 "named ``devel-noble_-_PR_lomiri_100`` *and* ``devel-debian_-_PR_lomiri_100``."
 msgstr ""
-"Un MR numéroté 100 fait sur la branche ``main`` du dépôt Git ``lomiri`` ("
-"quand le LTS Ubuntu actuel est ``noble``) aura des archives APT nommées "
+"Un MR numéroté 100 fait sur la branche ``main`` du dépôt Git ``lomiri`` "
+"(quand le LTS Ubuntu actuel est ``noble``) aura des archives APT nommées "
 "``devel-noble_-_PR_lomiri_100` *et* ``devel-debian_-_PR_lomiri_100``."
 
 #: ../../about/process/branch-naming.rst:66
@@ -416,8 +416,13 @@ msgid "Issue-Tracking Guidelines"
 msgstr "Recommandations pour le suivi des problèmes"
 
 #: ../../about/process/issue-tracking.rst:4
+#, fuzzy
+#| msgid ""
+#| "This document describes the standard process of dealing with new issues "
+#| "in UBports projects. (Not to be confused with the :doc:`guide on writing "
+#| "a good bugreport </contribute/bugreporting>`.)"
 msgid ""
-"This document describes the standard process of dealing with new issues in "
+"This document describes the standard process of dealing with issues in "
 "UBports projects. (Not to be confused with the :doc:`guide on writing a good "
 "bugreport </contribute/bugreporting>`.)"
 msgstr ""
@@ -431,163 +436,63 @@ msgstr "Où sont suivis les problèmes ?"
 
 #: ../../about/process/issue-tracking.rst:10
 msgid ""
-"Since quality assurance depends heavily on community effort, issues are "
-"tracked where users expect them, instead of separated by repository. This "
-"means issues of almost all distributed components (as with the system-image) "
-"are tracked in the `Ubuntu Touch tracker <https://gitlab.com/ubports/ubuntu-"
-"touch>`__. An exception to this are click-apps, which can be updated "
-"independently through the OpenStore."
+"The primary issue tracker for Ubuntu Touch is the `ubports/development/"
+"ubuntu-touch GitLab project`_. This project tracks all system-level Ubuntu "
+"Touch issues, and serves as an entry point for users to report issues "
+"they've encountered."
 msgstr ""
-"Étant donné que notre assurance qualité dépend énormément de la communauté, "
-"nous essayons de faire le suivi des problèmes là où l'utilisateur irait "
-"naturellement, au lieu de le faire séparément pour chaque dépôt. Cela veut "
-"dire que les problèmes concernant à peu près tous les composants distribués "
-"avec l'image système sont suivis dans le `gestionnaire de suivi pour Ubuntu "
-"Touch <https://github.com/ubports/ubuntu-touch>`__. Les applications Click "
-"sont une exception car elles peuvent être mises à jour de façon indépendante "
-"via l'OpenStore."
 
-#: ../../about/process/issue-tracking.rst:17
+#: ../../about/process/issue-tracking.rst:12
 msgid ""
-"Most other repositories track issues locally. You will find out whether a "
-"repository uses its own tracker or not in its README.md file. Repositories "
-"that don't track issues locally have their bugtracker turned off."
+"Meanwhile, other projects in the group also have their issue trackers "
+"enabled too:"
 msgstr ""
-"La plupart des autres dépôts font un suivi des problèmes localement. Si vous "
-"n'êtes pas sûr(e) de savoir si un dépôt utilise son propre suivi ou non, "
-"consultez le fichier README.md. Les dépôts qui ne suivent pas les problèmes "
-"localement ont leur système de suivi de problèmes désactivé."
 
-#: ../../about/process/issue-tracking.rst:21
+#: ../../about/process/issue-tracking.rst:14
 msgid ""
-"This page is mainly about the Ubuntu Touch tracker, but most principles "
-"apply to other projects as well."
+"Device-specific issues are tracked under each device's project under "
+"`ubports/porting`_ group."
 msgstr ""
-"Cette page concerne principalement le système de suivi de problèmes d'Ubuntu "
-"Touch, mais la plupart de ces principes s'appliquent de manière similaire "
-"aux autres projets."
 
-#: ../../about/process/issue-tracking.rst:25
+#: ../../about/process/issue-tracking.rst:15
 msgid ""
-"Practical exceptions to purity are to be described in the project's README."
-"md file."
+"Core applications under `ubports/development/apps`_ track their own issues."
 msgstr ""
-"Les exceptions pratiques doivent être décrites dans le fichier README.md du "
-"projet."
 
-#: ../../about/process/issue-tracking.rst:28
-msgid "GitHub projects"
-msgstr "Les projets GitHub"
-
-#: ../../about/process/issue-tracking.rst:30
+#: ../../about/process/issue-tracking.rst:16
 msgid ""
-"In the interest of transparency and communication, GitHub projects (Kanban-"
-"Boards) are used wherever practical. In case of github.com/ubports/ubuntu-"
-"touch, a single project is used for all issues. Projects support filtering "
-"by labels, so that only issues belonging to a specific team or ones "
-"affecting a specific device can be viewed."
+"System issues can also be filed against each component under `ubports/"
+"development/core`_ directly as well, if it's clear which component is "
+"responsible for an issue."
 msgstr ""
-"Dans un souci de transparence et de communication, des projets GitHub "
-"(Kanban-Boards) sont utilisés dans la mesure du possible. Dans le cas de "
-"github.com/ubports/ubuntu-touch, un seul projet est utilisé pour tous les "
-"problèmes. Les projets prennent en charge le filtrage par étiquettes, de "
-"sorte que seuls les problèmes appartenant à une équipe spécifique ou ceux "
-"affectant un appareil spécifique peuvent être visualisés."
 
-#: ../../about/process/issue-tracking.rst:36
-msgid "These are the standard columns:"
-msgstr "Voici les colonnes standards :"
-
-#: ../../about/process/issue-tracking.rst:38
-#, fuzzy
+#: ../../about/process/issue-tracking.rst:18
 msgid ""
-"**None (awaiting triage)**: Issue approved by a member of the QA team "
-"awaiting review from the responsible development team. If a bug, "
-"instructions to reproduce are included in the issue description. If a "
-"feature request, it has passed a primary sanity check by the QA team, but "
-"not yet been accepted by the responsible development-team."
+"GitLab allows showing `issues across the group`_, cross-project issue "
+"reference, and issue transfer between projects, making the exact project an "
+"issue is filed less important. If a port-specific or website issue ended up "
+"in ubports/development/ubuntu-touch project, they can be moved to the "
+"appropriate project."
 msgstr ""
-"**None (awaiting triage)**: Le problème a été approuvé par un membre de "
-"l'équipe de l'assurance qualité et attend une vérification par l'équipe de "
-"développement concernée. Si le problème est un bogue, les instructions pour "
-"le reproduire sont incluses dans la description du problème. Si le problème "
-"est une demande de fonctionnalité, il a passé une première vérification par "
-"l'équipe de l'assurance qualité mais n'a pas encore été accepté par l'équipe "
-"de développement concernée."
 
-#: ../../about/process/issue-tracking.rst:41
-#, fuzzy
-msgid ""
-"**Accepted**: Issue accepted by the responsible development-team. If a "
-"bugreport, the team has decided it should be fixable and accept "
-"responsibility. If a feature request, the team thinks it should be "
-"implemented as described."
-msgstr ""
-"**Accepted**: Le problème a été accepté par l'équipe de développement "
-"concernée. Si le problème est un rapport de bogue, l'équipe a décidé qu'il "
-"pouvait être corrigé et en accepte la responsabilité. Si le problème est une "
-"demande de fonctionnalité, l'équipe pense que celle-ci peut être implémentée "
-"telle que décrite."
-
-#: ../../about/process/issue-tracking.rst:44
-msgid ""
-"**In Development**: A patch in development. Usually means a developer is "
-"assigned to the issue."
-msgstr ""
-"**In Development** (En développement) : un correctif est en développement. "
-"Cela signifie généralement qu'un développeur est assigné à ce problème."
-
-#: ../../about/process/issue-tracking.rst:46
-msgid ""
-"**Quality Assurance**: A completed patch passing initial testing. The QA "
-"team will review it and provide feedback. If problems are found, the issue "
-"is moved back to \"Accepted\"."
-msgstr ""
-"**Quality Assurance** (Assurance qualité) : le correctif est finalisé et a "
-"passé les premiers tests. L'équipe de l'assurance qualité va maintenant le "
-"tester sur tous les matériels et fournir un retour. Si des "
-"dysfonctionnements sont trouvés, le problème est rétrogradé à l'état « "
-"Accepted » (Accepté)."
-
-#: ../../about/process/issue-tracking.rst:48
-msgid ""
-"**Release Candidate**: A patch passing QA, ready for release. In case of DEB "
-"packages included in the system-image, the patch will be included in the "
-"next over-the-air update on the `rc` channel, and (provided  everything   "
-"goes well) in the next release of the `stable` channel."
-msgstr ""
-"**Release Candidate** (Version admissible) : le correctif a passé "
-"l'assurance qualité et il est prêt pour la publication. Dans le cas de "
-"paquets deb inclus dans l'image système, le correctif sera intégré dans la "
-"mise à jour suivante du canal `rc, et, (si tout se passe bien), dans la "
-"version suivante du canal stable."
-
-#: ../../about/process/issue-tracking.rst:50
-msgid ""
-"**None (removed from the project)**: Open issue labeled \"help wanted\". "
-"Community contributions are required to resolve it. If it's closed, either a "
-"patch has been released on the stable channel (a comment on the issue should "
-"link to the patch) or the issue is rejected (labeled \"wontfix\")."
-msgstr ""
-"**None (removed from the project)** (aucun, retiré du projet) : si le "
-"problème est ouvert et marqué « help wanted » (aide souhaitée), des "
-"contributions de la communauté sont nécessaires pour résoudre le problème. "
-"S'il est clos, alors soit un correctif a été fourni sur le canal stable (un "
-"commentaire sur le problème devrait alors être joint au correctif), soit le "
-"problème a été rejeté (marqué « wontfix » : ne sera pas corrigé)."
-
-#: ../../about/process/issue-tracking.rst:55
+#: ../../about/process/issue-tracking.rst:27
 msgid "Labels"
 msgstr "Mots-clés"
 
-#: ../../about/process/issue-tracking.rst:57
+#: ../../about/process/issue-tracking.rst:29
+#, fuzzy
+#| msgid ""
+#| "All issues — even closed ones — should be labeled to allow use of "
+#| "GitHub's global filtering. For example, `these are all of the issues "
+#| "labeled 'enhancement' inside @ubports <https://github.com/search?"
+#| "utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+label%3A%22feature+request%22&type=>`_. "
+#| "Consult the `GitHub help pages <https://help.github.com/articles/about-"
+#| "searching-on-github/>`__ to learn more about searching and filtering."
 msgid ""
-"All issues — even closed ones — should be labeled to allow use of GitHub's "
-"global filtering. For example, `these are all of the issues labeled "
-"'enhancement' inside @ubports <https://github.com/search?"
-"utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+label%3A%22feature+request%22&type=>`_. "
-"Consult the `GitHub help pages <https://help.github.com/articles/about-"
-"searching-on-github/>`__ to learn more about searching and filtering."
+"All issues — even closed ones — should be labeled to allow use of GitLab's "
+"filtering. For example, these are `issues labeled 'Kind: enhancement' inside "
+"ubports/development group`_. Consult the `GitLab help pages`_ to learn more "
+"about searching and filtering."
 msgstr ""
 "Tous les problèmes - même ceux qui sont clos - devraient être étiquetés pour "
 "permettre l'utilisation du filtrage global de GitHub. Par exemple, `voici "
@@ -597,71 +502,214 @@ msgstr ""
 "d'aide de GitHub <https://help.github.com/articles/about-searching-on-github/"
 ">`__ pour plus d'informations sur les recherches et le filtrage."
 
-#: ../../about/process/issue-tracking.rst:60
-msgid "List of labels normally used by all repositories:"
-msgstr "Liste des mots-clés qui sont normalement utilisés par tous les dépôts."
-
-#: ../../about/process/issue-tracking.rst:62
+#: ../../about/process/issue-tracking.rst:34
 msgid ""
-"**needs confirmation**: The bug needs confirmation and / or further "
-"detailing by affected users."
+"The following labels are used inside UBports projects. Since merge requests "
+"(MRs) in GitLab share the same set of labels, some of the labels below might "
+"also apply to merge requests as well."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:36 ../../appdev/webapp/index.rst:19
+#: ../../systemdev/kernel-hal.rst:57
+msgid "Todo"
+msgstr "À faire"
+
+#: ../../about/process/issue-tracking.rst:37
+msgid ""
+"Consider also writing a document about process of dealing with merge "
+"requests."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:39
+msgid "**Kind:** describe the nature of the issue"
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:40
+msgid ""
+"**Kind: bug**: this issue describes something that doesn't work correctly."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:41
+#, fuzzy
+#| msgid "**enhancement**: This issue is a feature request."
+msgid ""
+"**Kind: enhancement**: this issue is a feature request or describes "
+"something that can be improved."
+msgstr ""
+"**enhancement** (amélioration) : ce problème est une demande de "
+"fonctionnalité."
+
+#: ../../about/process/issue-tracking.rst:42
+msgid ""
+"**Kind: maintenance**: this issue describes a technical debt; something we "
+"need to clean up."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:43
+msgid ""
+"**Kind: FTBFS**: this issue describes a \"Fails To Build From Source\" issue "
+"(`an accronym from Debian`_)."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:44
+msgid ""
+"**Kind: process**: this issue is a tracking issue for some process. For "
+"example, a process on releasing an Ubuntu Touch release."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:45
+#, fuzzy
+#| msgid "**question**: This issue is a support request or general question."
+msgid ""
+"**Kind: question**: This issue is a support request or general question. It "
+"should be directed to forums instead."
+msgstr ""
+"**question** : ce problème est une demande de soutien ou une question "
+"d’ordre général."
+
+#: ../../about/process/issue-tracking.rst:46
+msgid "**Needs:** describe some action that can/has to be done"
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:47
+msgid ""
+"**Needs: help from community**: the maintainers currently don't have "
+"capacity to solve this issue and would like help from the community."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:48
+#, fuzzy
+#| msgid ""
+#| "**needs confirmation**: The bug needs confirmation and / or further "
+#| "detailing by affected users."
+msgid ""
+"**Needs: confirmation/more info**: the bug needs confirmation and / or "
+"further detailing by affected users."
 msgstr ""
 "**needs confirmation** (confirmation nécessaire) : le problème demande une "
 "confirmation et / ou un complément d'information par les utilisateurs "
 "concernés."
 
-#: ../../about/process/issue-tracking.rst:64
+#: ../../about/process/issue-tracking.rst:49
 msgid ""
-"**bug**: This issue is a confirmed bug. If it's reproducible, reproduction "
-"steps are described."
+"**Needs: feedback from author**: used to flag a merge request which requires "
+"a feedback from author after a review. This is different from **Needs: "
+"confirmation/more info** which is intended to be used on an issue."
 msgstr ""
-"**bug** (bogue) : Ce problème est confirmé être un bogue. S'il est "
-"reproductible, les étapes nécessaires à sa reproduction sont décrites."
+
+#: ../../about/process/issue-tracking.rst:50
+msgid ""
+"**Needs: discussion**: it is not clear how to solve this issue and further "
+"discussion is required."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:51
+msgid ""
+"**Needs: rebase**: this merge request has to be rebased, but maintainers do "
+"not have a permission to push to the source branch."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:52
+msgid "**Severity:** how severe is the issue."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:53
+msgid ""
+"**Severity: critical**: this issue is very severe and should block the "
+"rollout of the release (defined by its milestone)."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:54
+msgid ""
+"**Area:** this issue is related to a certain area of Ubuntu Touch (e.g. HAL, "
+"middleware, UI). Labels of this prefix can be created as appropriate."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:55
+msgid ""
+"**Topic:** this issue is related to a certain topic of interest (e.g. VoLTE, "
+"contact backend migration). Labels of this prefix can also be created as "
+"appropriate."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:56
+msgid ""
+"**Resolution:** used when the issue is closed for other reason than the "
+"issue being fixed."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:57
+msgid ""
+"**Resolution: unable to confirm**: we are unable to reproduce the issue and "
+"not enough information is provided."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:58
+msgid ""
+"**Resolution: not our bug**: the issue is not an issue in Ubuntu Touch, but "
+"rather is an issue in a third-party software installed by the user."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:59
+#, fuzzy
+#| msgid ""
+#| "**wontfix**: A bug it does not make sense to fix, since it will probably "
+#| "resolve itself, be too much work, isn't fixable, or an underlying "
+#| "component will soon change."
+msgid ""
+"**Resolution: won't fix**: A bug it does not make sense to fix, since it "
+"will probably resolve itself, be too much work, isn't fixable, or an "
+"underlying component will soon change."
+msgstr ""
+"**wontfix** (ne sera pas corrigé) : il est inutile de corriger ce problème "
+"car il se résoudra sûrement de lui-même ; ce problème demande beaucoup trop "
+"de travail ; ce problème n'est pas réparable ou un composant d'une couche "
+"inférieure changera bientôt."
+
+#: ../../about/process/issue-tracking.rst:60
+msgid ""
+"**Resolution: work as intended**: The behavior described in the issue is the "
+"intended behavior of the software."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:61
+msgid ""
+"**Status:** indicates the progress of the issue. This is primarily used to "
+"update GitLab's issue boards (see below)."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:62
+msgid "**Status: in progress**: a developer is actively working on the issue."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:63
+msgid ""
+"**Status: blocked**: something else has to be solved outside of this issue "
+"before this issue can progress."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:64
+msgid "**Status: has MR**: a non-draft MR exists that will fix this issue."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:65
+msgid ""
+"**Backport to: <branch name>**: used by the automation to automatically "
+"backport an MR to a stable release branches."
+msgstr ""
 
 #: ../../about/process/issue-tracking.rst:66
-msgid "**opinion**: This issue needs further discussion."
+msgid "Miscellaneous labels"
 msgstr ""
-"**opinion** (opinion) : ce problème nécessite une discussion plus importante."
 
 #: ../../about/process/issue-tracking.rst:67
-msgid "**enhancement**: This issue is a feature request."
-msgstr ""
-"**enhancement** (amélioration) : ce problème est une demande de "
-"fonctionnalité."
-
-#: ../../about/process/issue-tracking.rst:68
-msgid "**question**: This issue is a support request or general question."
-msgstr ""
-"**question** : ce problème est une demande de soutien ou une question "
-"d’ordre général."
-
-#: ../../about/process/issue-tracking.rst:69
+#, fuzzy
+#| msgid ""
+#| "**good first issue**: The report contains instructions or hints required "
+#| "to fix it. It is an excellent place for someone new to learn about the "
+#| "project by fixing a real issue."
 msgid ""
-"**invalid**: This issue can not be confirmed or was reported in the wrong "
-"tracker."
-msgstr ""
-"**invalid** (invalide) : ce problème ne peut être confirmé ou a été signalé "
-"au mauvais endroit."
-
-#: ../../about/process/issue-tracking.rst:71
-msgid ""
-"**duplicate**: This has already been reported elsewhere. Please provide a "
-"link and close."
-msgstr ""
-"**duplicate** (doublon) : ceci a déjà été signalé à un autre endroit. "
-"Veuillez fournir un lien et clôturer."
-
-#: ../../about/process/issue-tracking.rst:73
-msgid ""
-"**help wanted**: This issue is ready to be picked up by a community "
-"developer."
-msgstr ""
-"**help wanted** (aide recherchée) : ce problème peut être pris en charge par "
-"un développeur de la communauté."
-
-#: ../../about/process/issue-tracking.rst:75
-msgid ""
-"**good first issue**: The report contains instructions or hints required to "
+"**Good first issue**: the report contains instructions or hints required to "
 "fix it. It is an excellent place for someone new to learn about the project "
 "by fixing a real issue."
 msgstr ""
@@ -670,68 +718,13 @@ msgstr ""
 "un excellent moyen pour un nouveau venu de se familiariser avec le projet en "
 "corrigeant un problème réel."
 
-#: ../../about/process/issue-tracking.rst:77
+#: ../../about/process/issue-tracking.rst:68
 msgid ""
-"**wontfix**: A bug it does not make sense to fix, since it will probably "
-"resolve itself, be too much work, isn't fixable, or an underlying component "
-"will soon change."
+"**Hotfix**: This MR/issue classifies for being included/resolved as part of "
+"a point release of Ubuntu Touch"
 msgstr ""
-"**wontfix** (ne sera pas corrigé) : il est inutile de corriger ce problème "
-"car il se résoudra sûrement de lui-même ; ce problème demande beaucoup trop "
-"de travail ; ce problème n'est pas réparable ou un composant d'une couche "
-"inférieure changera bientôt."
 
-#: ../../about/process/issue-tracking.rst:81
-#, fuzzy
-msgid ""
-"Additional special labels can be defined. As an example, these are the "
-"labels used in the Ubuntu Touch tracker:"
-msgstr ""
-"Des mots-clés spéciaux supplémentaires peuvent être définis. À titre "
-"d'exemple, voici les mots-clés utilisés dans le suivi d'Ubuntu Touch :"
-
-#: ../../about/process/issue-tracking.rst:84
-#, fuzzy
-msgid ""
-"**critical (devel)**: Critical issue only occuring on the `devel` channel is "
-"blocking the release of the next `rc` image."
-msgstr ""
-"**critical (devel)** (critique, développement) : ce problème critique qui ne "
-"se produit que sur le canal développement bloque la publication de l'image "
-"de la version admissible suivante."
-
-#: ../../about/process/issue-tracking.rst:86
-#, fuzzy
-msgid ""
-"**critical (rc)**: Critical issue only occuring on the `devel` and `rc` "
-"channel is blocking the release of the next stable release. Usually, issues "
-"that can not simply be moved to a different release and have the power to "
-"postpone the release are labeled this way."
-msgstr ""
-"**critical (rc)** (critique, version admissible) : ce problème critique qui "
-"ne se produit que sur les canaux développement et version admissible bloque "
-"la publication de la version stable suivante. Sont généralement étiquetés de "
-"cette manière les problèmes qui ne peuvent simplement être déplacés vers une "
-"version différente et ont le pouvoir de retarder la publication."
-
-#: ../../about/process/issue-tracking.rst:90
-#, fuzzy
-msgid ""
-"**device: [DEVICE CODENAME]**: Issue affecting only the specified device(s)."
-msgstr ""
-"**device: [DEVICE CODENAME]** (appareil : [NOM DE CODE]) : ce problème ne "
-"touche que le ou les appareil(s) spécifié(s)."
-
-#: ../../about/process/issue-tracking.rst:92
-#, fuzzy
-msgid ""
-"**team: [TEAM NAME]**: Issue falls under the responsibility of a specific "
-"team (HAL, middleware, UI)."
-msgstr ""
-"**team: [TEAM NAME]** (équipe : [NOM DE L'ÉQUIPE]) : ce problème concerne "
-"une équipe spécifique (hal, middleware, UI)."
-
-#: ../../about/process/issue-tracking.rst:95
+#: ../../about/process/issue-tracking.rst:71
 #, fuzzy
 msgid ""
 "If a repository tracking issues locally defines it's own labels, they should "
@@ -740,37 +733,56 @@ msgstr ""
 "Si un dépôt qui suit des problèmes localement définit ses propres mots-clés, "
 "ils doivent être documentés dans le fichier README.md."
 
-#: ../../about/process/issue-tracking.rst:99
+#: ../../about/process/issue-tracking.rst:77
 msgid "Milestones"
 msgstr "Jalons"
 
-#: ../../about/process/issue-tracking.rst:101
-#, fuzzy
+#: ../../about/process/issue-tracking.rst:79
 msgid ""
-"Milestones are used for stable OTA releases only. In general, milestones for "
-"the work-in-progress OTA and the next OTA are created. The ETA is set once "
-"the work on the release starts (that is 6 weeks from start date), but can be "
-"adjusted afterwards. Learn more in :doc:`release-schedule <release-"
-"schedule>`."
+"Milestones are used to define which release an issue targets. At a given "
+"time, up to 3 milestones are open:"
 msgstr ""
-"Les jalons (milestones) sont utilisées pour les versions stables OTA "
-"seulement. En général, les étapes sont définies pour la version OTA en cours "
-"et la suivante. La date estimée d'arrivée est déterminée dès qu'on commence "
-"à travailler sur la version (dans les 6 semaines à partir de la date de "
-"démarrage), mais peut être modifiée après coup. Consultez :doc:`le planning "
-"de publication <release-schedule>` pour plus d'informations."
 
-#: ../../about/process/issue-tracking.rst:107
+#: ../../about/process/issue-tracking.rst:81
+msgid ""
+"A milestone for the upcoming stable release e.g. 'Ubuntu Touch 24.04-1.1'."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:82
+msgid ""
+"A milestone for the in development major release e.g. 'Ubuntu Touch "
+"24.04-2.0'."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:83
+msgid ""
+"Onec the in development release enters a stabilization phase, a milestone "
+"for the next major release (e.g. 'Ubuntu Touch 24.04-3.0') can be created."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:85
+msgid ""
+"Developers are encouraged to avoid assigning too many issues to a milestone; "
+"an overflowing milestone makes the milestone not as useful as it could be in "
+"tracking progress of a release."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:88
 msgid "Assignees"
 msgstr "Cessionnaires"
 
-#: ../../about/process/issue-tracking.rst:109
+#: ../../about/process/issue-tracking.rst:90
+#, fuzzy
+#| msgid ""
+#| "To make it transparent who's working on an issue, the developer should be "
+#| "assigned. This also allows the use of GitHub's global filtering as a type "
+#| "of TODO list. For example, `this is everything assigned to mariogrip in "
+#| "@ubports <https://github.com/search?"
+#| "utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>`_."
 msgid ""
 "To make it transparent who's working on an issue, the developer should be "
 "assigned. This also allows the use of GitHub's global filtering as a type of "
-"TODO list. For example, `this is everything assigned to mariogrip in "
-"@ubports <https://github.com/search?"
-"utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>`_."
+"TODO list."
 msgstr ""
 "Pour voir de façon claire qui travaille sur un problème, le développeur doit "
 "être assigné à cette tâche. Cela permet l'utilisation du système de filtrage "
@@ -779,7 +791,7 @@ msgstr ""
 "search?utf8=%E 12%9C 2%93& 3q=is%3A 4open+org%3A 5ubports+assignee%3A "
 "6mariogrip&type=>`_."
 
-#: ../../about/process/issue-tracking.rst:114
+#: ../../about/process/issue-tracking.rst:94
 msgid ""
 "Developers are encouraged to keep their list short and update the status of "
 "their issues."
@@ -787,140 +799,72 @@ msgstr ""
 "On demande aux développeurs de veiller à garder une liste courte et de "
 "mettre régulièrement à jour le statut de leur différentes tâches."
 
-#: ../../about/process/issue-tracking.rst:117
-#: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:23
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:21
-#: ../../porting/configure_test_fix/device_info/Mir.rst:63
-#: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
-msgid "Examples"
-msgstr "Exemples"
+#: ../../about/process/issue-tracking.rst:97
+msgid "GitLab issue board"
+msgstr ""
 
-#: ../../about/process/issue-tracking.rst:120
-msgid "Bug Lifecycle"
-msgstr "Le cycle de vie d'un problème"
-
-#: ../../about/process/issue-tracking.rst:123
-#, fuzzy
+#: ../../about/process/issue-tracking.rst:99
 msgid ""
-"The same principle applies to feature requests, only they are labeled "
-"**enhancement** instead of **bug**. **needs confirmation** is not applicable "
-"for feature requests."
+"We use GitLab's issue boards to visualize progress of issues in each "
+"milestone. The boards are kanban boards, where each column corresponds to "
+"each **Status:** label (in-progress, blocked, has MR), with additional "
+"columns for opened issues without **Status:** label (which indicate that the "
+"issue has not been started yet) and closed issues."
 msgstr ""
-"Le même principe s'applique pour les demandes de fonctionnalité. La seule "
-"différence est qu'à la place du mot-clé **bug** (bogue), le mot-clé "
-"**enhancement** (amélioration) est utilisé. Le mot-clé **needs "
-"confirmation** (demande confirmation) n'est pas applicable dans le cas des "
-"demandes de fonctionnalité."
 
-#: ../../about/process/issue-tracking.rst:127
-#, fuzzy
-msgid "A *user* files a new bug using the issue-template."
+#: ../../about/process/issue-tracking.rst:102
+msgid "GitLab epic"
 msgstr ""
-"Un *Utilisateur* poste un nouveau problème en utilisant le modèle de suivi "
-"de problème."
 
-#: ../../about/process/issue-tracking.rst:128
+#: ../../about/process/issue-tracking.rst:104
 msgid ""
-"The *QA-Team* labels it **needs confirmation** and tries to work with the "
-"user to confirm the bug and add potentially missing info to the report."
+"We use GitLab's epics to denote a topic which might span single or multiple "
+"milestones/releases. This helps organizing some long-term goals which are "
+"too large to implement at once."
 msgstr ""
-"L'équipe *QA* a défini le statut **nécessite une confirmation** et tente de "
-"travailler avec l'utilisateur pour confirmer le bogue et ajouter les "
-"informations éventuellement manquantes au rapport."
 
-#: ../../about/process/issue-tracking.rst:129
-#, fuzzy
-msgid ""
-"Once the report is complete a **team-label** is added to the issue, the "
-"issue will be put on the **awaiting-triage-list** of the project and the "
-"label needs confirmation will be replaced with **bug**."
+#: ../../about/process/issue-tracking.rst:107
+msgid "How labels, milestone etc. are being used?"
 msgstr ""
-"L'équipe de *l'assurance qualité* ajoute le mot-clé **needs confirmation** "
-"(demande confirmation) et essaye de travailler de concert avec l'utilisateur "
-"pour confirmer le problème et ajouter les éventuelles informations "
-"manquantes au rapport. Une fois que le rapport est complet un **team-label** "
-"(étiquette d'équipe) sera ajouté au suivi du problème et il sera mis sur la "
-"liste d'attente de tri du projet (**awaiting-triage-list**). De plus le mot-"
-"clé **needs confirmation** sera remplacé par **bug** (bogue)."
 
-#: ../../about/process/issue-tracking.rst:130
+#: ../../about/process/issue-tracking.rst:109
 msgid ""
-"The affected *Team* triages the issue and either rejects (label **wontfix**, "
-"closes and removes from the project) or accepts the issue."
+"Think of labels, milestone, and other fields as tools a person can use to "
+"efficiently communicate with the reporter, other developers, and interested "
+"parties. They could be use in a few ways:"
 msgstr ""
-"L'« équipe » affectée trie le problème et le rejette (étiquette **wontfix**, "
-"fermeture et retrait du projet) ou l'accepte."
 
-#: ../../about/process/issue-tracking.rst:131
-#, fuzzy
+#: ../../about/process/issue-tracking.rst:111
 msgid ""
-"The team decides whether to fix the issue in-house (move to \"Accepted\" and "
-"assign a team member) or wait for a community developer to pick it up (by "
-"labeling it **help wanted**, removing it from the project board and "
-"providing hints on how to resolve the issue and further details on how the "
-"fix should be implemented if necessary). For non-critical issues trivial to "
-"fix, the label **good first issue** can be added as well."
+"Because those fields show up in the issue list, it can give an at-a-glance "
+"info about the issue, helping developers to quickly understand the issue. "
+"For example, a developer could look at an issue on the list, notice that the "
+"issue has \"needs discussion\" label, and decide to jump in to give their 2 "
+"cents."
 msgstr ""
-"L'*équipe* dédiée effectuera un tri du problème, à la suite duquel le "
-"problème sera soit rejeté (c'est à dire marqué **wontfix** : ne sera pas "
-"corrigé, puis fermé et retiré du projet) soit accepté pour correction. "
-"L'équipe décide si le problème sera corrigé en interne (statut passé en « "
-"accepted » : accepté, et affecté à un membre de l'équipe) ou si elle attend "
-"qu'un membre de la communauté de développeurs le prenne en charge (statut "
-"passé en **help wanted** : aide souhaitée, dans ce cas le problème est "
-"retiré du tableau du projet tout en fournissant des indications sur la "
-"méthode de résolution et en fournissant si nécessaire des détails sur "
-"l'implémentation du correctif). Pour des problèmes non critiques qui sont "
-"évidents à résoudre, le mot-clé **good first issue** (bon premier problème) "
-"peut également être ajouté."
 
-#: ../../about/process/issue-tracking.rst:132
+#: ../../about/process/issue-tracking.rst:112
 msgid ""
-"Once a *developer* is assigned and starts working on the issue, it is moved "
-"to \"In Development\"."
+"A field could be used to filter only interested issues. For example, a "
+"community member wanting to contribute into confirming issues can filter "
+"only issues with \"needs confirmation\" label and start jumping in."
 msgstr ""
-"Une fois qu'un *développeur* est désigné et commence à travailler sur le "
-"problème, celui-ci est déplacé dans la catégorie « En cours de développement "
-"»."
 
-#: ../../about/process/issue-tracking.rst:133
-#, fuzzy
+#: ../../about/process/issue-tracking.rst:113
 msgid ""
-"As soon as there is something to show for, the issue is closed and "
-"automatically moved to \"Quality Assurance\" for feedback from the QA team. "
-"If necessary, the developer provides hints on how to test the patch in a "
-"comment on the issue."
+"A field could also be used to filter out uninteresting issues. For example, "
+"when a developer want to look for an issue to work on, one would want to "
+"filter out \"Kind: process\" label (used for e.g. tracking issue for a "
+"release)."
 msgstr ""
-"Une fois qu'un *développeur* est assigné et commence à travailler sur le "
-"problème, celui-ci est déplacé dans « In Development » (En développement). "
-"Dès qu'une solution est disponible, le problème est déplacé dans « Quality "
-"Assurance » (Assurance Qualité) pour obtenir un retour. Si c'est nécessaire, "
-"le développeur peut fournir des pistes sur la façon de tester son correctif "
-"dans un commentaire sur le problème."
 
-#: ../../about/process/issue-tracking.rst:134
-#, fuzzy
+#: ../../about/process/issue-tracking.rst:115
 msgid ""
-"The *QA-Team* tests the fix on all devices and provides feedback to the "
-"developer. If problems are found, the issue is re-opened and goes back to "
-"\"Accepted\", otherwise it is moved to \"Release Candidate\" for inclusion "
-"in the next release."
+"Since we don't always have someone to specifically triage issues and set "
+"those labels, developers are encouraged to set all those fields as they work "
+"on an issue. This will help comminicating what has been done on the issue, "
+"and also help summarizing the issue for quicker understanding."
 msgstr ""
-"L'équipe de *l'assurance qualité* teste le correctif sur tous les appareils "
-"et fournit un retour au développeur. Si des problèmes sont trouvés, le "
-"problème retourne dans « Accepted » (Accepté), sinon il est déplacé dans « "
-"Release Candidate » (Version Candidate) pour être intégré dans la prochaine "
-"version."
-
-#: ../../about/process/issue-tracking.rst:135
-#, fuzzy
-msgid ""
-"If not done already, the issue is added to the next milestone, which once "
-"released removes the issue from the project board."
-msgstr ""
-"Si ce n'est pas déjà fait, le problème est ajouté dans le prochain jalon. "
-"Une fois le jalon franchi, le problème est retiré du tableau de suivi du "
-"projet."
 
 #: ../../about/process/release-schedule.rst:2
 msgid "Release Schedule"
@@ -965,8 +909,8 @@ msgid ""
 "does not depend on your phone, and you can live with some downtime - RC is "
 "for you. It does get updates generally every week."
 msgstr ""
-"**Il est relativement stable mais peut occasionnellement contenir des bugs.**"
-" Ce canal est destiné à effectuer les derniers tests avant de publier les "
+"**Il est relativement stable mais peut occasionnellement contenir des bugs."
+"** Ce canal est destiné à effectuer les derniers tests avant de publier les "
 "fonctionnalités sur le canal Stable. Si vous voulez des fonctionnalités plus "
 "rapidement, et que vous voulez aider à tester, mais que votre vie ne dépend "
 "pas de votre téléphone, et que vous pouvez vivre avec un certain temps "
@@ -1019,14 +963,24 @@ msgid "Security vulnerabilities"
 msgstr "Sécurité et confinement d'application"
 
 #: ../../about/process/security-vulnerabilities.rst:4
+#, fuzzy
+#| msgid ""
+#| "We take security vulnerabilities seriously. If you've found one, the best "
+#| "way to report it is to create a confidential issue on our `bug tracker "
+#| "<https://gitlab.com/ubports/ubuntu-touch>`_. Make sure you select \"This "
+#| "issue is confidential and should only be visible to team members with at "
+#| "least Reporter access\" when creating the issue. After that, we'll get to "
+#| "work with the reported issue. We might contact you via the issue if there "
+#| "is additional information needed. And we'll determine the disclosure."
 msgid ""
 "We take security vulnerabilities seriously. If you've found one, the best "
 "way to report it is to create a confidential issue on our `bug tracker "
-"<https://gitlab.com/ubports/ubuntu-touch>`_. Make sure you select \"This "
-"issue is confidential and should only be visible to team members with at "
-"least Reporter access\" when creating the issue. After that, we'll get to "
-"work with the reported issue. We might contact you via the issue if there is "
-"additional information needed. And we'll determine the disclosure."
+"<https://gitlab.com/ubports/development/ubuntu-touch>`_. Make sure you "
+"select \"This issue is confidential and should only be visible to team "
+"members with at least Reporter access\" when creating the issue. After that, "
+"we'll get to work with the reported issue. We might contact you via the "
+"issue if there is additional information needed. And we'll determine the "
+"disclosure."
 msgstr ""
 "Nous prenons les failles de sécurité au sérieux. Si vous en avez trouvé une, "
 "la meilleure façon de la signaler est de créer un problème confidentiel sur "
@@ -1102,8 +1056,8 @@ msgid ""
 "needed, it must also happen in the ``.secfix`` fork."
 msgstr ""
 "Un autre développeur révise alors la demande de fusion et la fusionne. Si un "
-"rétro-portage est nécessaire, il doit aussi se faire dans la fourche "
-"``.secfix``."
+"rétro-portage est nécessaire, il doit aussi se faire dans la fourche ``."
+"secfix``."
 
 #: ../../about/process/security-vulnerabilities.rst:22
 msgid ""
@@ -1198,8 +1152,8 @@ msgid ""
 "https://docs.gitlab.com/ee/user/project/merge_requests/confidential."
 "html#create-a-confidential-merge-request"
 msgstr ""
-"https://docs.gitlab.com/ee/user/project/merge_requests/"
-"confidential.html#create-a-confidential-merge-request"
+"https://docs.gitlab.com/ee/user/project/merge_requests/confidential."
+"html#create-a-confidential-merge-request"
 
 #: ../../about/process/security-vulnerabilities.rst:43
 msgid "https://curl.se/docs/security.html"
@@ -2103,9 +2057,9 @@ msgid ""
 "To install, it make your partition writable (``sudo mount -o rw,remount /``) "
 "and install it via ``sudo apt install lomiri-url-dispatcher-tools``"
 msgstr ""
-"Pour l'installer, il faut rendre votre partition accessible en écriture (``"
-"sudo mount -o rw,remount /``) et l'installer via ``sudo apt install lomiri-"
-"url-dispatcher-tools``"
+"Pour l'installer, il faut rendre votre partition accessible en écriture "
+"(``sudo mount -o rw,remount /``) et l'installer via ``sudo apt install "
+"lomiri-url-dispatcher-tools``"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:157
 msgid "What happens if more than one app has the same URL type defined?"
@@ -2150,8 +2104,8 @@ msgid ""
 "`Qt programming course by mimecar for Ubuntu Touch <https://docs.innerzaurus."
 "com>`__"
 msgstr ""
-"`Cours de programmation Qt par mimecar pour Ubuntu Touch "
-"<https://docs.innerzaurus.com>`__"
+"`Cours de programmation Qt par mimecar pour Ubuntu Touch <https://docs."
+"innerzaurus.com>`__"
 
 #: ../../appdev/guides/index.rst:9
 msgid ""
@@ -2989,6 +2943,21 @@ msgstr "visible"
 msgid "Set to true to show the counter, or false to hide it."
 msgstr "Positionné à true pour montrer le compteur, false pour le cacher."
 
+#: ../../appdev/guides/pushnotifications.rst:283
+#: ../../systemdev/kernel-pinephone.rst:64
+#: ../../systemdev/mms-infrastructure.rst:53
+#: ../../userguide/advanceduse/reverse-tethering.rst:55
+#: ../../userguide/advanceduse/screencasting.rst:74
+#: ../../userguide/advanceduse/ssh.rst:91
+msgid "References"
+msgstr "Références"
+
+#: ../../appdev/guides/pushnotifications.rst:285
+msgid ""
+"See the documentation of the `Lomiri Push Service <https://gitlab.com/"
+"ubports/development/core/lomiri-push-service/-/tree/main/docs>`_."
+msgstr ""
+
 #: ../../appdev/guides/user-metrics.rst:2
 msgid "User Metrics"
 msgstr "Métriques utilisateur"
@@ -3428,11 +3397,11 @@ msgid ""
 "functions too - if you need to do this, set it to the clickable application "
 "name as well, otherwise the paths won't work on the device."
 msgstr ""
-"La définition de `organizationName <https://doc.qt.io/qt-5/"
-"qcoreapplication.html#organizationName-prop>`_ modifiera également les "
-"chemins renvoyés par ces fonctions - si vous devez le faire, définissez "
-"également le nom de l'application cliquable, sinon les chemins ne "
-"fonctionneront pas sur l'appareil."
+"La définition de `organizationName <https://doc.qt.io/qt-5/qcoreapplication."
+"html#organizationName-prop>`_ modifiera également les chemins renvoyés par "
+"ces fonctions - si vous devez le faire, définissez également le nom de "
+"l'application cliquable, sinon les chemins ne fonctionneront pas sur "
+"l'appareil."
 
 #: ../../appdev/guides/writeable-dirs.rst:51
 msgid "Using Standard Paths in QML"
@@ -3456,9 +3425,9 @@ msgid ""
 "QML and C++."
 msgstr ""
 "Notez que ``QStandardPaths`` retourne des chemins (``'/phablet/home/...'``), "
-"et que QML ``StandardPaths`` retourne des urls (``'file:///phablet/home/"
-"...'``). Ceci doit être pris en compte spécialement si l'application partage "
-"des chaînes de localisation entre QML et C++."
+"et que QML ``StandardPaths`` retourne des urls (``'file:///phablet/"
+"home/...'``). Ceci doit être pris en compte spécialement si l'application "
+"partage des chaînes de localisation entre QML et C++."
 
 #: ../../appdev/index.rst:2
 msgid "App development"
@@ -3597,10 +3566,10 @@ msgstr ""
 #: ../../appdev/index.rst:66
 msgid ""
 "All apps love contributions. But some core apps are lacking maintainers. "
-"Please check the `list of core apps <https://gitlab.com/ubports/ubuntu-"
-"touch/-/blob/master/CORE_APPS.md>`_ and see if you want to step up as new "
-"maintainer for one of our core apps. The maintainer reviews MR's, triages "
-"and investigates issue reports and helps to develop the app."
+"Please check the `list of core apps <https://gitlab.com/ubports/development/"
+"ubuntu-touch/-/blob/master/CORE_APPS.md>`_ and see if you want to step up as "
+"new maintainer for one of our core apps. The maintainer reviews MR's, "
+"triages and investigates issue reports and helps to develop the app."
 msgstr ""
 
 #: ../../appdev/index.rst:68
@@ -4398,7 +4367,7 @@ msgstr ""
 "Pour la liste complète des groupes de politique disponibles, voir :doc:"
 "`apparmor`."
 
-#: ../../appdev/platform/index.rst:4 ../../index.rst:76
+#: ../../appdev/platform/index.rst:4 ../../index.rst:70
 msgid "Platform"
 msgstr ""
 
@@ -4981,10 +4950,6 @@ msgid ""
 "app/webber.timsueberkrueb>`__."
 msgstr ""
 
-#: ../../appdev/webapp/index.rst:19 ../../systemdev/kernel-hal.rst:57
-msgid "Todo"
-msgstr "À faire"
-
 #: ../../appdev/webapp/index.rst:21
 msgid ""
 "There is also another way to create somewhat more featureful webapps, "
@@ -5156,8 +5121,8 @@ msgstr "Vérifier si le problème a déjà été rapporté"
 #: ../../contribute/bugreporting.rst:14
 #, fuzzy
 msgid ""
-"Open up the bug tracker for `ubuntu-touch <https://gitlab.com/ubports/ubuntu-"
-"touch>`_."
+"Open up the bug tracker for `ubuntu-touch <https://gitlab.com/ubports/"
+"development/ubuntu-touch>`_."
 msgstr ""
 "Ouvrez la page de suivi des problèmes sur `ubuntu-touch <https://github.com/"
 "ubports/ubuntu-touch>`_."
@@ -5238,8 +5203,8 @@ msgstr ""
 #: ../../contribute/bugreporting.rst:35
 #, fuzzy
 msgid ""
-"First, pull up the `bug tracker <https://gitlab.com/ubports/ubuntu-touch>`_ "
-"and click \"New Issue\". Log in to GitHub if you haven't yet."
+"First, pull up the `bug tracker <https://gitlab.com/ubports/development/"
+"ubuntu-touch>`_ and click \"New Issue\". Log in to GitHub if you haven't yet."
 msgstr ""
 "Tout d'abord, allez dans la `liste de suivi des problèmes <https://github."
 "com/ubports/ubuntu-touch>`_ et cliquez sur « Nouveau problème ». Connectez-"
@@ -5804,8 +5769,11 @@ msgid "For example:"
 msgstr "Par exemple :"
 
 #: ../../contribute/code.rst:143
-msgid "Fixes https://gitlab.com/ubports/ubuntu-touch/-/issues/1"
+#, fuzzy
+msgid "Fixes https://gitlab.com/ubports/development/ubuntu-touch/-/issues/1"
 msgstr ""
+"Les utilisateurs/trices de Pinephone doivent rechercher et signaler les "
+"problèmes `ici <https://gitlab.com/ubports/community-ports/pinephone>`_"
 
 #: ../../contribute/code.rst:146
 msgid "How did you test that the change was successful?"
@@ -6043,9 +6011,13 @@ msgid "Documentation guidelines"
 msgstr "Recommandations pour l'écriture de la documentation"
 
 #: ../../contribute/documentation.rst:12
+#, fuzzy
+#| msgid ""
+#| "These rules govern how you should write your documentation to avoid "
+#| "problems with style, format, or linking."
 msgid ""
-"These rules govern how you should write your documentation to avoid problems "
-"with style, format, or linking."
+"These rules govern how you should write documentation to avoid problems with "
+"style, format or linking."
 msgstr ""
 "Ces règles précisent comment vous devez écrire votre documentation pour "
 "éviter des problèmes de style, de format ou de liens."
@@ -6125,8 +6097,12 @@ msgid "Headings"
 msgstr "Rubriques"
 
 #: ../../contribute/documentation.rst:70
+#, fuzzy
+#| msgid ""
+#| "There are several levels of headings that you may place on your page. "
+#| "These levels are shown here in order:"
 msgid ""
-"There are several levels of headings that you may place on your page. These "
+"There are several levels of headings that you may place on a page. These "
 "levels are shown here in order:"
 msgstr ""
 "Il existe plusieurs niveaux de chapitres que vous pouvez utiliser dans votre "
@@ -6134,41 +6110,27 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:86
 msgid ""
-"Each heading level creates a sub-section in the global table of contents "
-"tree available when the documentation is built. In the primary (web) version "
-"of the documentation, this only shows four levels deep from the top level of "
-"the documentation. Please refrain from using more heading levels than will "
-"show in this tree as it makes navigating your document difficult. If you "
-"must use this many heading levels, it is a good sign that your document "
-"should be split up into multiple pages."
+"Please refrain from using more than four levels. If you think you need more "
+"levels, it is a good sign that the document should be split up into multiple "
+"pages. Furthermore the web version of the documentation only shows four "
+"levels in it's table of contents."
 msgstr ""
-"Chaque niveau de chapitre créé une sous-section dans l'arborescence du "
-"sommaire général disponible lorsque la documentation est construite. Dans la "
-"version principale de la documentation (Web), seuls quatre niveaux de "
-"profondeur sont affichés à partir du niveau supérieur de la documentation. "
-"Veuillez éviter d'utiliser plus de niveaux de chapitres que ce qui ne peut "
-"apparaître dans l'arborescence car cela rend plus difficile la navigation au "
-"sein de votre document. Si vous devez utiliser autant de niveaux de "
-"chapitres, c'est le signe que votre documentation devrait être séparée en "
-"plusieurs pages."
 
 #: ../../contribute/documentation.rst:89
 msgid "Table of contents"
 msgstr "Sommaire"
 
 #: ../../contribute/documentation.rst:91
+#, fuzzy
+#| msgid ""
+#| "You can do this by adding the page to the ``index.rst`` file in the same "
+#| "directory that you created it. For example, if you create a file called "
+#| "\"newpage.rst\", you would add the line marked with a chevron (>) in the "
+#| "nearest index:"
 msgid ""
-"People can't navigate to your new page if they can't find it. Neither can "
-"Sphinx. That's why you need to add new pages to Sphinx's table of contents."
-msgstr ""
-"Les visiteurs ne peuvent pas accéder à votre nouvelle page s'ils ne peuvent "
-"pas la trouver. Sphinx non plus. C'est pour quoi vous devez ajouter de "
-"nouvelles pages au sommaire de Sphinx."
-
-#: ../../contribute/documentation.rst:93
-msgid ""
-"You can do this by adding the page to the ``index.rst`` file in the same "
-"directory that you created it. For example, if you create a file called "
+"If you add a new page you also have to add it to the table of contents. You "
+"can do this by adding the page to the ``index.rst`` file in the same "
+"directory where you created it. For example, if you create a file called "
 "\"newpage.rst\", you would add the line marked with a chevron (>) in the "
 "nearest index:"
 msgstr ""
@@ -6177,21 +6139,26 @@ msgstr ""
 "appelé « newpage.rst », vous ajouterez la ligne précédée d'un chevron (>) "
 "dans l'index le plus proche :"
 
-#: ../../contribute/documentation.rst:105
+#: ../../contribute/documentation.rst:103
+#, fuzzy
+#| msgid ""
+#| "The order matters. If you would like your page to appear in a certain "
+#| "place in the table of contents, place it there. In the previous example, "
+#| "newpage would be added to the end of this table of contents."
 msgid ""
-"The order matters. If you would like your page to appear in a certain place "
-"in the table of contents, place it there. In the previous example, newpage "
-"would be added to the end of this table of contents."
+"The order matters. If you would like your page to appear in a certain "
+"position in the table of contents, place it there. In the previous example, "
+"newpage would be added to the end of this table of contents."
 msgstr ""
 "L'ordre est important. Si vous souhaitez que votre page apparaisse à une "
 "certaine place dans le sommaire, placez-la là. Dans l'exemple précédent, la "
 "nouvelle page serait ajoutée à la fin de ce sommaire."
 
-#: ../../contribute/documentation.rst:108
+#: ../../contribute/documentation.rst:106
 msgid "Moving pages"
 msgstr "Déplacement des pages"
 
-#: ../../contribute/documentation.rst:110
+#: ../../contribute/documentation.rst:108
 msgid ""
 "Sometimes it becomes necessary to move a page from one place in the "
 "documentation to another. Generally this is to improve document flow: For "
@@ -6203,13 +6170,20 @@ msgstr ""
 "documentation. Par exemple, il est plus logique que la page vienne après une "
 "page que vous venez d'ajouter dans une autre section."
 
-#: ../../contribute/documentation.rst:112
+#: ../../contribute/documentation.rst:110
+#, fuzzy
+#| msgid ""
+#| "However, people link to our documentation from many sources that we do "
+#| "not control. Blogs, websites, and other documentation sites can direct "
+#| "people here using links that they may never update. It is a terrible "
+#| "experience to follow a link from a different site and land on a 404 page, "
+#| "left to your own devices to find your way in restructured documentation."
 msgid ""
 "However, people link to our documentation from many sources that we do not "
 "control. Blogs, websites, and other documentation sites can direct people "
 "here using links that they may never update. It is a terrible experience to "
-"follow a link from a different site and land on a 404 page, left to your own "
-"devices to find your way in restructured documentation."
+"follow a link from a different site and land on a 404 page, being forced to "
+"search manually in our documentation."
 msgstr ""
 "Cependant, les gens se relient à notre documentation à partir de nombreuses "
 "sources que nous ne contrôlons pas. Les blogs, sites internet et autres "
@@ -6220,15 +6194,25 @@ msgstr ""
 "documentation restructurée."
 
 #: ../../contribute/documentation.rst:114
+#, fuzzy
+#| msgid ""
+#| "We use a tool called Rediraffe to avoid this bad experience. Rediraffe "
+#| "creates redirect pages which can send a user from an old, invalid link to "
+#| "a new, useful link. Please create a redirect link when changing a page's "
+#| "name or moving a page within the documentation's directory structure. "
+#| "Redirect links are created by placing the filename of the old document "
+#| "and the filename of the new document, relative to the documentation's "
+#| "root, in the `redirects.txt file <https://github.com/ubports/docs.ubports."
+#| "com/blob/master/redirects.txt>`_."
 msgid ""
-"We use a tool called Rediraffe to avoid this bad experience. Rediraffe "
-"creates redirect pages which can send a user from an old, invalid link to a "
+"We use a tool called Rediraffe to avoid such a bad experience. Rediraffe "
+"creates redirect pages, which can send a user from an old, invalid link to a "
 "new, useful link. Please create a redirect link when changing a page's name "
 "or moving a page within the documentation's directory structure. Redirect "
 "links are created by placing the filename of the old document and the "
 "filename of the new document, relative to the documentation's root, in the "
-"`redirects.txt file <https://github.com/ubports/docs.ubports.com/blob/master/"
-"redirects.txt>`_."
+"`redirects.txt file <https://gitlab.com/ubports/docs/docs.ubports.com/-/blob/"
+"master/redirects.txt>`_."
 msgstr ""
 "Nous utilisons un outil appelé Rediraffe pour éviter cette mauvaise "
 "expérience. Rediraffe crée des pages de redirection qui peuvent envoyer un/e "
@@ -6241,11 +6225,17 @@ msgstr ""
 "<https://github.com/ubports/docs.ubports.com/blob/master/redirects.txt>`_."
 
 #: ../../contribute/documentation.rst:116
+#, fuzzy
+#| msgid ""
+#| "We use Rediraffe's ``checkdiff`` builder to ensure that pages are not "
+#| "deleted from the documentation without a redirect in place. This builder "
+#| "is run as part of the ``build.sh`` script in the repository and as part "
+#| "of our automated build once you submit a Pull Request."
 msgid ""
 "We use Rediraffe's ``checkdiff`` builder to ensure that pages are not "
 "deleted from the documentation without a redirect in place. This builder is "
 "run as part of the ``build.sh`` script in the repository and as part of our "
-"automated build once you submit a Pull Request."
+"automated build once you submit a Merge Request (MR)."
 msgstr ""
 "Nous utilisons le générateur « checkdiff » de Rediraffe pour nous assurer "
 "que les pages ne sont pas supprimées de la documentation sans qu'une "
@@ -6292,12 +6282,20 @@ msgid "Warnings"
 msgstr "Avertissements"
 
 #: ../../contribute/documentation.rst:131
+#, fuzzy
+#| msgid ""
+#| "Your edits must not introduce any warnings into the documentation build. "
+#| "If any warnings occur, the build will fail and your pull request will be "
+#| "marked with a red 'X'. Please ensure that your RST is valid and correct "
+#| "before you create a pull request. This is done automatically (via sphinx-"
+#| "build crashing with your error) if you follow :ref:`our build "
+#| "instructions <doc-contribution-workflow>` below."
 msgid ""
 "Your edits must not introduce any warnings into the documentation build. If "
-"any warnings occur, the build will fail and your pull request will be marked "
+"any warnings occur, the build will fail and the merge request will be marked "
 "with a red 'X'. Please ensure that your RST is valid and correct before you "
-"create a pull request. This is done automatically (via sphinx-build crashing "
-"with your error) if you follow :ref:`our build instructions <doc-"
+"create a merge request. This is done automatically (via sphinx-build "
+"crashing with your error) if you follow :ref:`our build instructions <doc-"
 "contribution-workflow>` below."
 msgstr ""
 "Vos modifications ne doivent pas introduire d'avertissements dans la "
@@ -6328,18 +6326,26 @@ msgid "Contribution workflow"
 msgstr "Circuit de contribution"
 
 #: ../../contribute/documentation.rst:144
+#, fuzzy
+#| msgid ""
+#| "The following steps will help you to make a contribution to this "
+#| "documentation after you have written a document."
 msgid ""
-"The following steps will help you to make a contribution to this "
-"documentation after you have written a document."
+"The following steps explain how you can make a contribution to this "
+"documentation."
 msgstr ""
 "Les étapes suivantes vous aideront à apporter une contribution à cette "
 "documentation après avoir rédigé un document."
 
 #: ../../contribute/documentation.rst:147
+#, fuzzy
+#| msgid ""
+#| "You will need a GitHub account to complete these steps. If you do not "
+#| "have one, click `here <https://github.com/join>`_ to begin the process of "
+#| "making an account."
 msgid ""
-"You will need a GitHub account to complete these steps. If you do not have "
-"one, click `here <https://github.com/join>`_ to begin the process of making "
-"an account."
+"You will need a GitLab account to complete these steps. If you do not have "
+"an account, go to `gitlab.com <https://gitlab.com>`_ to create one."
 msgstr ""
 "Vous aurez besoin d'un compte GitHub pour réaliser ces étapes. Si vous n'en "
 "avez pas, cliquez `ici <https://github.com/join>`_ pour lancer le processus "
@@ -6350,11 +6356,17 @@ msgid "Forking the repository"
 msgstr "Clonage du répertoire"
 
 #: ../../contribute/documentation.rst:152
+#, fuzzy
+#| msgid ""
+#| "You can make more advanced edits to our documentation by forking `ubports/"
+#| "docs.ubports.com <https://github.com/ubports/docs.ubports.com>`_ on "
+#| "GitHub. If you're not sure how to do this, check out the excellent GitHub "
+#| "guide on `forking projects <https://guides.github.com/activities/forking/"
+#| ">`_."
 msgid ""
-"You can make more advanced edits to our documentation by forking `ubports/"
-"docs.ubports.com <https://github.com/ubports/docs.ubports.com>`_ on GitHub. "
-"If you're not sure how to do this, check out the excellent GitHub guide on "
-"`forking projects <https://guides.github.com/activities/forking/>`_."
+"You can make more advanced edits to the documentation by forking `ubports/"
+"docs.ubports.com <https://gitlab.com/ubports/docs/docs.ubports.com>`_ on "
+"GitLab."
 msgstr ""
 "Vous pouvez effectuer des modifications plus poussées dans notre "
 "documentation en clonant `ubports/docs.ubports.com <https://github.com/"
@@ -6367,10 +6379,14 @@ msgid "Building the documentation"
 msgstr "Compilation de la documentation"
 
 #: ../../contribute/documentation.rst:157
+#, fuzzy
+#| msgid ""
+#| "If you'd like to build this documentation *before* sending a PR (which "
+#| "you should), follow these instructions on your *local copy* of your fork "
+#| "of the repository."
 msgid ""
-"If you'd like to build this documentation *before* sending a PR (which you "
-"should), follow these instructions on your *local copy* of your fork of the "
-"repository."
+"To build this documentation, follow these instructions on your *local copy* "
+"of your fork of the repository."
 msgstr ""
 "Si vous souhaitez compiler cette documentation *avant* de proposer votre "
 "modification (ce que vous devriez faire), suivez ces instructions dans votre "
@@ -6395,11 +6411,16 @@ msgstr ""
 "ouvrir ``index.html`` pour visualiser la documentation d'UBports."
 
 #: ../../contribute/documentation.rst:163
+#, fuzzy
+#| msgid ""
+#| "If you have trouble building the docs, the first thing to try is deleting "
+#| "the build environment. Run ``rm -r ~/ubportsdocsenv`` and try the build "
+#| "again. Depending on when you first used the build script, you may need to "
+#| "run the ``rm`` command with ``sudo``."
 msgid ""
 "If you have trouble building the docs, the first thing to try is deleting "
 "the build environment. Run ``rm -r ~/ubportsdocsenv`` and try the build "
-"again. Depending on when you first used the build script, you may need to "
-"run the ``rm`` command with ``sudo``."
+"again."
 msgstr ""
 "Si vous rencontrez des problèmes lors de la compilation de la documentation, "
 "la première chose à essayer est la suppression de l'environnement de "
@@ -6413,83 +6434,97 @@ msgid "Final check of your contribution"
 msgstr "Contrôle final de votre contribution"
 
 #: ../../contribute/documentation.rst:168
+#, fuzzy
+#| msgid ""
+#| "After you have created your PR on github, the CI (continuous integration) "
+#| "system will make a test build of your contribution. Please double check "
+#| "whether this builds successfully and whether the result looks as you "
+#| "intended it to:"
 msgid ""
-"After you have created your PR on github, the CI (continuous integration) "
-"system will make a test build of your contribution. Please double check "
-"whether this builds successfully and whether the result looks as you "
-"intended it to:"
+"After you have created your Merge Request on GitLab, the Continuous "
+"Integration (CI) system will make a test build of your contribution (a "
+"\"pipeline\"). Please double check whether this builds successfully and "
+"whether the result looks as you intended it to:"
 msgstr ""
 "Après avoir créé votre demande de fusion sur Github, le système "
 "d'intégration continue fera un test de votre contribution. Veuillez vérifier "
 "si cette génération est réussie et si le résultat est conforme à vos "
 "attentes :"
 
-#: ../../contribute/documentation.rst:170
+#: ../../contribute/documentation.rst:171
+#, fuzzy
+#| msgid ""
+#| "Scroll to the bottom of the \"Conversation\" tab of your PR on github, "
+#| "here you will see the checks (You may have to click on \"Show all "
+#| "checks\")"
 msgid ""
-"Scroll to the bottom of the \"Conversation\" tab of your PR on github, here "
-"you will see the checks (You may have to click on \"Show all checks\")"
+"at the top of the \"Overview\" tab of your MR on gitlab you will see the "
+"status of the pipeline"
 msgstr ""
 "Faites défiler jusqu'au bas de l'onglet « Conversation » de votre demande de "
 "fusion sur Github. Vous verrez ici les vérifications (vous devrez peut-être "
 "cliquer sur « Afficher toutes les vérifications »)"
 
-#: ../../contribute/documentation.rst:171
-msgid ""
-"It can have a yellow dot, i.e., \"pending\" then wait a few more seconds."
-msgstr ""
-"Il se peut qu'un point jaune apparaisse, c'est-à-dire « en attente ». Dans "
-"ce cas, attendez quelques secondes de plus."
-
 #: ../../contribute/documentation.rst:172
 msgid ""
-"Or it may have a red X, i.e., it failed. In this case please check why it "
-"failed"
+"if it says \"Checking pipeline status\" or \"Pipeline running\" then please "
+"wait another minute."
 msgstr ""
-"Ou bien il peut avoir une croix rouge, c'est-à-dire qu'elle a échoué. Dans "
-"ce cas, veuillez vérifier pourquoi elle a échoué"
 
 #: ../../contribute/documentation.rst:173
 msgid ""
-"If it shows a green check mark, it means the PR could be built successfully"
+"if it says \"Pipeline failed\" with a red X and, then something went wrong, "
+"please click on the link to find the details"
+msgstr ""
+
+#: ../../contribute/documentation.rst:174
+#, fuzzy
+#| msgid ""
+#| "If it shows a green check mark, it means the PR could be built "
+#| "successfully"
+msgid ""
+"if it says \"Pipeline passed\" with green check mark, it means the MR could "
+"be built successfully and you can proceed to look at the results"
 msgstr ""
 "Si une case verte est cochée, cela signifie que la demande de fusion a pu "
 "être générée avec succès"
 
-#: ../../contribute/documentation.rst:174
-msgid "Now please click on \"Details\","
+#: ../../contribute/documentation.rst:175
+#, fuzzy
+#| msgid "Now please click on \"Details\","
+msgid "now please click on link of that pipeline"
 msgstr "Veuillez maintenant cliquer sur « Détails »,"
 
-#: ../../contribute/documentation.rst:175
-msgid "then \"Artifacts\" on the top right,"
-msgstr "puis « Artefacts » en haut à droite,"
-
 #: ../../contribute/documentation.rst:176
-msgid "then \"_build/html/..index.html\","
-msgstr "puis « _build/html/..index.html »,"
+msgid "click on \"build\" job"
+msgstr ""
 
 #: ../../contribute/documentation.rst:177
-msgid "and finally on \"Go to start page\"."
-msgstr "et enfin sur « Aller à la page de démarrage »."
+msgid ""
+"this brings you to the end of the build log, where you'll see a message: "
+"\"Build succeeded, browse the artifact here\""
+msgstr ""
+
+#: ../../contribute/documentation.rst:178
+msgid ""
+"click the link next to it to see the full version of the UBports "
+"documentation site with your changes"
+msgstr ""
 
 #: ../../contribute/documentation.rst:179
-msgid ""
-"Now you can browse a complete build of the UBports docs site with your "
-"contribution included. Double check whether your changes look ok."
+msgid "double check whether your changes look ok"
 msgstr ""
-"Vous pouvez maintenant parcourir une version complète du site de la "
-"documentation d'UBports avec votre contribution incluse. Vérifiez que vos "
-"modifications sont correctes."
 
-#: ../../contribute/documentation.rst:183
+#: ../../contribute/documentation.rst:182
 msgid "Alternative methods to contribute"
 msgstr "Méthodes alternatives pour contribuer"
 
-#: ../../contribute/documentation.rst:186 ../../contribute/translations.rst:2
+#: ../../contribute/documentation.rst:185 ../../contribute/translations.rst:2
 #: ../../humanguide/other-design-considerations/translations.rst:2
 msgid "Translations"
 msgstr "Traductions"
 
-#: ../../contribute/documentation.rst:188
+#: ../../contribute/documentation.rst:187
 msgid ""
 "You may find the components of this document to translate at `its project in "
 "UBports Weblate`_."
@@ -6497,11 +6532,11 @@ msgstr ""
 "Le contenu de ce document est disponible à la traduction au niveau de `son "
 "projet sous le Weblate d'UBports`_."
 
-#: ../../contribute/documentation.rst:191
+#: ../../contribute/documentation.rst:190
 msgid "Writing documents not in RST format"
 msgstr "Rédaction de documents dans un format autre que RST"
 
-#: ../../contribute/documentation.rst:193
+#: ../../contribute/documentation.rst:192
 msgid ""
 "If you would like to write documents for UBports but are not comfortable "
 "writing ReStructuredText, please write it without formatting and post it on "
@@ -6515,14 +6550,20 @@ msgstr ""
 "(probablement Général). Quelqu'un pourra vous aider à réviser votre ébauche "
 "et à rédiger le texte restructuré requis."
 
-#: ../../contribute/documentation.rst:196
+#: ../../contribute/documentation.rst:195
 msgid "Uncomfortable with Git"
 msgstr "Mal à l'aise avec Git"
 
-#: ../../contribute/documentation.rst:198
+#: ../../contribute/documentation.rst:197
+#, fuzzy
+#| msgid ""
+#| "If you've written a complete document in ReStructuredText but aren't "
+#| "comfortable using Git or GitHub, please post it on the `UBports Forum`_ "
+#| "in the relevant section (likely General). Someone will be able to help "
+#| "you revise your draft and submit it to this documentation."
 msgid ""
 "If you've written a complete document in ReStructuredText but aren't "
-"comfortable using Git or GitHub, please post it on the `UBports Forum`_ in "
+"comfortable using Git or GitLab, please post it on the `UBports Forum`_ in "
 "the relevant section (likely General). Someone will be able to help you "
 "revise your draft and submit it to this documentation."
 msgstr ""
@@ -6532,23 +6573,43 @@ msgstr ""
 "pourra vous aider à réviser votre ébauche et à la soumettre à cette "
 "documentation."
 
-#: ../../contribute/documentation.rst:201
+#: ../../contribute/documentation.rst:200
 msgid "Current TODOs"
 msgstr "Actuellement à faire"
 
-#: ../../contribute/documentation.rst:203
+#: ../../contribute/documentation.rst:202
+#, fuzzy
+#| msgid ""
+#| "This section lists the TODOs that have been included in this "
+#| "documentation. If you know how to fix one, please send us a Pull Request "
+#| "to make it better!"
 msgid ""
 "This section lists the TODOs that have been included in this documentation. "
-"If you know how to fix one, please send us a Pull Request to make it better!"
+"If you know how to fix one, please send us a merge request to make it better!"
 msgstr ""
 "Cette page liste les choses à faire qui devraient être incluses dans cette "
 "documentation. Si vous savez comment en régler une, merci de nous envoyer "
 "une proposition pour l'améliorer !"
 
-#: ../../contribute/documentation.rst:205
+#: ../../contribute/documentation.rst:204
 msgid "To create a todo, add this markup to your page::"
 msgstr ""
 "Pour créer une chose à faire, ajoutez cet indicateur dans votre page ::"
+
+#: ../../contribute/documentation.rst:213
+msgid "ReadTheDocs hosting"
+msgstr ""
+
+#: ../../contribute/documentation.rst:215
+msgid ""
+"The actual `documents website <https://docs.ubports.com>`_  is built and "
+"hosted for us by the `Read The Docs <https://readthedocs.org>`_ project. Our "
+"RTD setup contains one main project for English and one additional project "
+"for each supported language added as translations to the main project. If "
+"you are a maintainer and want to add a language, first create a new project "
+"with manual import and set the language appropriately. Afterwards add this "
+"as a translation in the Admin page of the main project."
+msgstr ""
 
 #: ../../contribute/index.rst:2
 msgid "Contributing to UBports"
@@ -6734,7 +6795,7 @@ msgid "`music-app on GitLab`_"
 msgstr "`music-app sur GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:31
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:484
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:490
 msgid "Notes"
 msgstr "Notes"
 
@@ -8900,40 +8961,40 @@ msgid ""
 "apps/qml/tutorials-internationalizing-your-app>`__ an app."
 msgstr ""
 
-#: ../../index.rst:29
+#: ../../index.rst:23
 msgid "About"
 msgstr "À propos"
 
-#: ../../index.rst:38
+#: ../../index.rst:32
 msgid "User Guide"
 msgstr "Guide de l'utilisateur"
 
-#: ../../index.rst:48
+#: ../../index.rst:42
 msgid "Contribute"
 msgstr "Contribuer"
 
-#: ../../index.rst:56
+#: ../../index.rst:50
 msgid "Development"
 msgstr "Développement"
 
-#: ../../index.rst:65
+#: ../../index.rst:59
 msgid "Porting"
 msgstr "Portage"
 
-#: ../../index.rst:76
+#: ../../index.rst:70
 msgid "Click Packages"
 msgstr "Paquets Click"
 
-#: ../../index.rst:76
+#: ../../index.rst:70
 msgid "Ubuntu UI-Toolkit"
 msgstr ""
 
-#: ../../index.rst:76
+#: ../../index.rst:70
 #, fuzzy
 msgid "Clickable"
 msgstr "Paquet Click"
 
-#: ../../index.rst:76
+#: ../../index.rst:70
 msgid "Halium"
 msgstr "Halium"
 
@@ -8986,44 +9047,22 @@ msgid "You may view this documentation in the following languages:"
 msgstr "Vous pouvez consulter cette documentation dans les langues suivantes :"
 
 #: ../../index.rst:18
-msgid "`English <https://docs.ubports.com/en/latest/>`_"
+#, fuzzy
+#| msgid "`English <https://docs.ubports.com/en/latest/>`_"
+msgid "`English <https://docs.ubports.com/en>`_"
 msgstr "`Anglais <https://docs.ubports.com/en/latest/>`_"
 
 #: ../../index.rst:19
-msgid "`Català <https://docs.ubports.com/ca/latest/>`_"
-msgstr "`Catalan <https://docs.ubports.com/ca/latest/>`_"
-
-#: ../../index.rst:20
-msgid "`Français <https://docs.ubports.com/fr/latest/>`_"
-msgstr "`Français <https://docs.ubports.com/fr/latest/>`_"
-
-#: ../../index.rst:21
-msgid "`Deutsch <https://docs.ubports.com/de/latest/>`_"
-msgstr "`Allemand <https://docs.ubports.com/de/latest/>`_"
-
-#: ../../index.rst:22
-msgid "`Italiano <https://docs.ubports.com/it/latest/>`_"
+#, fuzzy
+#| msgid "`Italiano <https://docs.ubports.com/it/latest/>`_"
+msgid "`Tamil <https://docs.ubports.com/ta>`_"
 msgstr "`Italien <https://docs.ubports.com/it/latest/>`_"
 
-#: ../../index.rst:23
-msgid "`Română <https://docs.ubports.com/ro/latest/>`_"
-msgstr "`Roumain <https://docs.ubports.com/ro/latest/>`_"
-
-#: ../../index.rst:24
-msgid "`Русский <https://docs.ubports.com/ru/latest>`_"
-msgstr "`Russe <https://docs.ubports.com/ru/latest>`_"
-
-#: ../../index.rst:25
-msgid "`Türkçe <https://docs.ubports.com/tr/latest/>`_"
-msgstr "`Turc <https://docs.ubports.com/tr/latest/>`_"
-
-#: ../../index.rst:26
-msgid "`Español <https://docs.ubports.com/es/latest/>`_"
-msgstr "`Espagnol <https://docs.ubports.com/es/latest/>`_"
-
-#: ../../index.rst:27
-msgid "`Simplified Chinese <https://docs.ubports.com/zh_CN/latest/>`_"
-msgstr "`Chinois simplifié <https://docs.ubports.com/zh_CN/latest/>`_"
+#: ../../index.rst:21
+msgid ""
+"In the small navigation box at the bottom, you can select a few more "
+"languages with partial translations."
+msgstr ""
 
 #: ../../porting/UpdatePortsFor2004.rst:4
 #, fuzzy
@@ -10336,7 +10375,7 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/index.rst:29
-#: ../../porting/introduction/Intro.rst:89
+#: ../../porting/introduction/Intro.rst:91
 msgid "Standalone kernel method"
 msgstr ""
 
@@ -10402,23 +10441,30 @@ msgstr "Construire sur l'appareil lui-même"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:32
 msgid ""
-"Clone an existing repo for a device from https://gitlab.com/ubports/"
-"community-ports. Ideally choose a device with similar SoC/Android version as "
-"base."
+"Clone an existing device repository from https://gitlab.com/ubports/porting. "
+"Ideally choose a device with similar SoC/Android version as base."
 msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:34
+msgid ""
+"Make sure to get the device repository, not the kernel repository (you will "
+"get that in the next step). For example, for the Fairphone 3, the "
+"repositories are called ``fairphone-fp3`` and "
+"``android_kernel_fairphone_sdm632.`` The first one is the one you want."
+msgstr ""
+
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:36
 msgid ""
 "deviceinfo contains the configuration used during device build process "
 "(kernel, boot, dtb/dtbo if needed + recovery on later porting stages). To "
 "craft your own deviceinfo, follow the guide further."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:37
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:39
 msgid "Getting device kernel source code"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:39
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:41
 msgid ""
 "First thing to check is if  your device has an official or unofficial "
 "LineageOS port, as the porter may have already done the cleaning up bits "
@@ -10426,7 +10472,7 @@ msgid ""
 "kernel modules back into kernel tree, which makes life easier for us."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:41
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:43
 msgid ""
 "If not, check if device manufacturer provides kernel source at all: ASUS, "
 "Lenovo, Samsung, ZTE usually provide kernel source code tarballs at their "
@@ -10434,7 +10480,7 @@ msgid ""
 "their official GitHub account."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:45
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:47
 msgid ""
 "After you have acquired the kernel source, you need to upload it somewhere "
 "else for making modifications and commits for Ubuntu Touch. GitLab is "
@@ -10442,23 +10488,30 @@ msgid ""
 "be easily copied from there."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:48
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:49
+msgid ""
+"You should now be working with two repositories: a cloned device repo, which "
+"holds deviceinfo, and a kernel repo, which holds/will hold your defconfig "
+"(see below)."
+msgstr ""
+
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:52
 #, fuzzy
 msgid "Finding your correct kernel config"
 msgstr "Modification de la configuration du noyau"
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:50
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:54
 msgid ""
 "There are two ways to find your correct kernel config, naming some below: 1. "
 "Getting your config on device from /proc/config.gz 2. Getting your defconfig "
 "in kernel source"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:55
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:59
 msgid "Getting your config from device"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:57
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:61
 msgid ""
 "It is possible to pull your current kernel config from device, if the "
 "configuration is present as ``/proc/config.gz`` on device. To pull this "
@@ -10470,15 +10523,15 @@ msgid ""
 "<your device's codename_defconfig``."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:62
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:66
 msgid "Proceed with the guide to patch your config."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:65
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:69
 msgid "Getting your defconfig in kernel source"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:67
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:71
 msgid ""
 "In order to find your defconfig from kernel source, you will have to search "
 "for it in the ``arch/<your device's architecture/configs`` directory. This "
@@ -10490,15 +10543,15 @@ msgid ""
 "reference the defconfig too."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:72
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:76
 msgid "After finding your defconfig, proceed with the guide to patch it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:76
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:80
 msgid "Applying minimal patches to your defconfig"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:78
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:82
 msgid ""
 "In order for Ubuntu Touch to successfully boot, we need to enable some "
 "configs required by the OS. Start by browsing into your kernel directory, "
@@ -10507,94 +10560,102 @@ msgid ""
 "following content:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:82
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:86
 msgid "CONFIG_DEVTMPFS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:83
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:87
 msgid "CONFIG_FHANDLE=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:84
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:88
 msgid "CONFIG_SYSVIPC=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:85
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:89
 msgid "CONFIG_IPC_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:86
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:90
 msgid "CONFIG_NET_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:87
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:91
 msgid "CONFIG_PID_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:88
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:92
 msgid "CONFIG_USER_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:89
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:93
 msgid "CONFIG_UTS_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:90
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:94
 msgid "CONFIG_VT=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:92
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:96
 msgid ""
 "After this, save and close this file. Commit it into your kernel repo if you "
 "wish, because this config name will be added in deviceinfo."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:94
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:98
 msgid ""
 "At this point you've almost completed the initial setup for the kernel, move "
 "on to configuring ``deviceinfo`` and building."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:96
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:100
 msgid ""
 "After you have booted the OS successfully, you can move on to patching the "
 "defconfig fully in later stages."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:99
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:102
+msgid ""
+"Note: you may be confused why we are editing a seperate file, halium.config, "
+"instead of <codename>_defconfig. These files will be selected together in "
+"the deviceinfo, \"merging\" them together. This way, we keep the changes "
+"clean and readable."
+msgstr ""
+
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:105
 #, fuzzy
 msgid "Filling in your deviceinfo"
 msgstr "Construire sur l'appareil lui-même"
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:101
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:107
 msgid ""
 "Full device name, like Redmi 9C or Redmi Note 10S. Replace as necessary."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:103
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:109
 msgid "``deviceinfo_name=\"Redmi 9C\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:106
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:112
 msgid "The name of the device's manufacturer. Change as needed."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:108
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:114
 msgid "``deviceinfo_manufacturer=\"Xiaomi\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:111
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:117
 msgid ""
 "The codename of the phone. This can be obtained by googling for it like: "
 "\"<device name> codename\". Replace device name with your phone's full name. "
 "Replace the codename below with your own too."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:113
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:119
 msgid "``deviceinfo_codename=\"angelica\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:116
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:122
 msgid ""
 "The architecture of your kernel. Most devices released after 2015 have an "
 "ARM64 CPU, but some oddities in between can still be armhf. For ARM64 "
@@ -10602,35 +10663,35 @@ msgid ""
 "\"armv7\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:118
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:124
 msgid "``deviceinfo_arch=\"aarch64\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:121
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:127
 msgid ""
 "This defines the git repo where your kernel is located. You already should "
 "have this link at hand if you followed section 1, if not go through it "
 "again. Replace below link with your own."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:123
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:129
 msgid ""
 "``deviceinfo_kernel_source=\"https://github.com/muhammad23012009/"
 "android_kernel_xiaomi_dandelion\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:126
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:132
 msgid ""
 "The branch of the kernel comes next. This can be easily obtained by looking "
 "at the tab under the Code tab on GitHub or the tab on the top left side in "
 "GitLab. Replace as necessary."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:128
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:134
 msgid "``deviceinfo_kernel_source_branch=\"halium10-new\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:131
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:137
 msgid ""
 "Defconfig is a vital part of the kernel compilation process. Most of the "
 "times you can find this defconfig in your kernel source, the path to which "
@@ -10641,11 +10702,11 @@ msgid ""
 "defconfig refer to section \"Finding your defconfig\")"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:135
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:141
 msgid "``deviceinfo_kernel_defconfig=\"angelica_defconfig halium.config\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:138
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:144
 msgid ""
 "The kernel cmdline is one of the key things that is required to make the "
 "kernel boot. It has special parameters that allow the kernel to determine "
@@ -10661,35 +10722,35 @@ msgid ""
 "partition. It is supposed to point to your system partition."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:141
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:147
 msgid ""
 "``deviceinfo_kernel_cmdline=\"console=tty0 bootopt=64S3,32N2,64N2 "
 "systempart=/dev/mapper/system\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:144
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:150
 msgid ""
 "Add this to your deviceinfo if you wish to compile your kernel with clang. "
 "Most devices released with and after Android 10 build their kernels with "
 "clang. If you don't want to build with clang, omit this entry entirely."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:146
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:152
 msgid "``deviceinfo_kernel_clang_compile=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:149
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:155
 msgid ""
 "Only required if you wish to use LLD as your linker and enable LTO. For most "
 "old kernels LTO is broken. If you do want to use it add this entry to your "
 "deviceinfo, else omit it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:152
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:158
 msgid "``deviceinfo_kernel_use_lld=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:155
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:161
 msgid ""
 "This config allows you to compile your kernel with LLVM and LTO, granted "
 "that it's supported by it. This is a neat way of specifying ``clang`` and "
@@ -10697,52 +10758,52 @@ msgid ""
 "not needed to specify ``deviceinfo_kernel_use_lld``)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:160
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:166
 msgid "``deviceinfo_kernel_llvm_compile=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:163
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:169
 msgid ""
 "Use this to enable 'dtc_ext' for compiling your dtb/dtbo's. Use only if you "
 "know what you're doing. The default compiler works most of the times."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:165
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:171
 msgid "``deviceinfo_kernel_use_dtc_ext=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:168
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:174
 msgid ""
 "Use this option to specify the kernel image name after kernel compiles. More "
 "than often this option is simply not required, so you can drop it from your "
 "deviceinfo. If you do need it, adjust image name as necessary."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:170
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:176
 msgid "``deviceinfo_kernel_image_name=\"Image.gz\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:173
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:179
 msgid ""
 "In order to specify your ramdisk compression algorithm, use the below "
 "option. It is set to gzip by default. Mostly useful for GKI devices."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:176
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:182
 msgid "``deviceinfo_ramdisk_compression=\"lz4\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:179
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:185
 msgid ""
 "Add this option to specify your Halium version. Up to Halium 13 is supported "
 "at this moment."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:181
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:187
 msgid "``deviceinfo_halium_version=\"11\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:184
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:190
 msgid ""
 "This option defines the boot image header version. It is important you get "
 "this right, else your device may not boot. Devices launching with Android "
@@ -10752,11 +10813,11 @@ msgid ""
 "4)."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:186
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:192
 msgid "``deviceinfo_bootimg_header_version=\"2\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:189
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:195
 msgid ""
 "Use this option to define a prebuilt dtb that you have sourced. Path is "
 "relative to your directory where you are editing the deviceinfo file. Edit "
@@ -10764,11 +10825,11 @@ msgid ""
 "than or equal to 3 (GKI device), this will include dtb in your vendor_boot."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:192
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:198
 msgid "``deviceinfo_bootimg_prebuilt_dtb=\"mt6765.dtb\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:195
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:201
 msgid ""
 "This option uses the dtb's created by your kernel while compiling, multiple "
 "dtb's can be specified here like: \"mediatek/mt6765.dtb mediatek/angelica."
@@ -10779,44 +10840,44 @@ msgid ""
 "equal to 3 (GKI device), this will include dtb in your vendor_boot."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:200
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:206
 msgid "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:203
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:209
 msgid ""
 "Selecting this will build a DT image that you selected into the boot image. "
 "Path is relative to your current directory in which you're editing "
 "deviceinfo. (Note: This is only really required in Samsung/Exynos devices.)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:205
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:211
 msgid "``deviceinfo_bootimg_prebuilt_dt=\"exynos8890-dt.img\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:208
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:214
 msgid ""
 "Use this to ship a prebuilt dtbo in your OTAs and to build your recovery "
 "with this dtbo if it isn't already being compiled. Path is once again "
 "relative to your build directory. Edit as desired."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:210
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:216
 msgid "``deviceinfo_prebuilt_dtbo=\"angelica-dtbo.img\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:213
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:219
 msgid ""
 "In case you do not want to ship the DTBO image in an OTA, selecting this "
 "will only remove the dtbo from the OTA package but recovery will still be "
 "compiled with this dtbo, if dtbo isn't already being compiled."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:215
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:221
 msgid "``deviceinfo_skip_dtbo_partition=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:218
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:224
 msgid ""
 "If you want to compile your DTBO from kernel, use this option to select the "
 "dtbo files compiled in kernel out directory. The path in which this option "
@@ -10828,11 +10889,11 @@ msgid ""
 "dtbo option."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:221
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:227
 msgid "``deviceinfo_dtbo=\"mediatek/galahad.dtbo mediatek/lancelot.dtbo\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:224
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:230
 msgid ""
 "Using this will define the board name in your boot image, which some "
 "bootloaders require to boot the image successfully. Only use this option if "
@@ -10840,11 +10901,11 @@ msgid ""
 "necessary."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:226
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:232
 msgid "``deviceinfo_bootimg_board=\"EXYNOS4412\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:229
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:235
 msgid ""
 "Use this option to pad your boot image to a specific size. Also required if "
 "you want to append a vbmeta image or append a hash footer to your image. "
@@ -10852,22 +10913,22 @@ msgid ""
 "in bytes)."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:231
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:237
 msgid "``deviceinfo_bootimg_partition_size=\"67713847\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:234
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:240
 msgid ""
 "Pretty self-explanatory. Set it to true if your device requires a vbmeta "
 "image appended (Not the case for most devices with a dedicated vbmeta "
 "partition.)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:236
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:242
 msgid "``deviceinfo_bootimg_append_vbmeta=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:239
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:245
 msgid ""
 "Use this option when you want to create a recovery.img for booting UBports "
 "recovery (Only really required when you're finalizing the port). In most "
@@ -10876,22 +10937,22 @@ msgid ""
 "to false or omitting the entry entirely will cause it to not build at all."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:241
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:247
 msgid "``deviceinfo_has_recovery_partition=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:244
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:250
 msgid ""
 "Use this to pad your recovery image to a specific size. Also a requirement "
 "if you want to add a hash footer to your image. Replace the size from your "
 "stock recovery image. (Will only work if you're building recovery!)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:246
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:252
 msgid "``deviceinfo_recovery_partition_size=\"67713847\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:249
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:255
 msgid ""
 "This is only really required for some old/new Samsung that check for an "
 "\"SEAndroid\" footer on their boot images to check whether or not the boot "
@@ -10901,11 +10962,11 @@ msgid ""
 "devices may cause it to not boot the image!)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:251
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:257
 msgid "``deviceinfo_bootimg_tailtype=\"SEAndroid\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:254
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:260
 msgid ""
 "This config determines whether modules should be compiled and installed into "
 "rootfs or not. Omitting this config results in the default behaviour, i.e., "
@@ -10914,11 +10975,11 @@ msgid ""
 "compilation. Only really needed in case you're doing something advanced."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:256
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:262
 msgid "``deviceinfo_kernel_disable_modules=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:259
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:265
 msgid ""
 "This option installs all overlay files (in overlay/ directory) into /system/"
 "opt/halium-overlay, therefore overlaying the files onto the files present in "
@@ -10926,42 +10987,42 @@ msgid ""
 "onwards, but not applicable for 16.04."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:261
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:267
 msgid "``deviceinfo_use_overlaystore=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:264
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:270
 msgid ""
 "This option is mostly used on some Qualcomm devices. Adding this to your "
 "deviceinfo will combine all your dtbo's with your dtbs. Only use if you are "
 "sure you need this."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:266
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:272
 msgid "``deviceinfo_kernel_apply_overlay=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:269
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:275
 msgid ""
 "Add this configuration to your deviceinfo when you need to specify a fixed "
 "size for your rootfs being flashed to system image. Default is 3000M when "
 "option is not set. Only use if you need it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:271
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:277
 msgid "``deviceinfo_system_partition_size=\"4000M\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:274
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:280
 msgid ""
 "This config is only relevant for newer devices launched with UFS storage"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:276
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:282
 msgid "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:279
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:285
 msgid ""
 "Next up are flash offsets. You can ignore these if you're building only boot."
 "img for a GKI device, but are required if you want to build vendor_boot.img. "
@@ -10969,11 +11030,11 @@ msgid ""
 "version is greater than or equal to 3. A guide to extract them is as follows:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:283
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:289
 msgid "Extracting values from stock boot.img/vendor_boot.img"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:285
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:291
 msgid ""
 "For any port to boot, some values must be pulled from the stock boot.img. "
 "First and foremost, try to get your stock firmware. Some manufacturers like "
@@ -10985,18 +11046,18 @@ msgid ""
 "img acquired, follow the following steps:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:288
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:294
 msgid ""
 "Make a directory in which you'll store all your unpacked data. It can be "
 "anywhere, and can have any name. For now, we'll call it `temp`."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:290
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:296
 msgid ""
 "Run \"mkdir ~/temp\" to create the directory and \"cd ~/temp\" to go to it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:292
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:298
 msgid ""
 "Now to unpack the boot image there are several utilities to do so. One of "
 "them is the python script provided by Android. For now we'll use this. To "
@@ -11006,11 +11067,11 @@ msgid ""
 "you'll now use to pull your kernel offsets and other values alike"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:294
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:300
 msgid "Bring your boot.img into the temp directory."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:296
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:302
 msgid ""
 "Now run the script. The usual syntax is \"python3 unpack_bootimg.py --"
 "boot_img <boot.img or vendor_boot.img> --out out\" This will unpack the boot "
@@ -11018,357 +11079,357 @@ msgid ""
 "the offsets on screen."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:299
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:305
 msgid "A sample output for boot.img will look like this:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:301
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:307
 msgid "boot magic: ANDROID!"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:303
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:309
 msgid "kernel_size: 11399060"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:305
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:311
 msgid "kernel load address: 0x40080000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:307
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:313
 msgid "ramdisk size: 6576255"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:309
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:315
 msgid "ramdisk load address: 0x51b00000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:311
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:317
 msgid "second bootloader size: 0"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:313
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:319
 msgid "second bootloader load address: 0xc0ff0000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:315
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:321
 msgid "kernel tags load address: 0x47880000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:317
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:323
 msgid "page size: 2048"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:319
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:325
 msgid "os version: 10.0.0"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:321
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:327
 msgid "os patch level: None"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:323
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:329
 msgid "boot image header version: 2"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:325
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:331
 msgid "product name:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:327
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:333
 msgid ""
 "command line args: bootopt=64S3,32N2,64N2 buildvariant=user systempart=/dev/"
 "mapper/system:ro"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:329
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:335
 #, fuzzy
 msgid "additional command line args:"
 msgstr "Commandes supplémentaires adb ::"
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:331
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:337
 msgid "recovery dtbo size: 0"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:333
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:339
 msgid "recovery dtbo offset: 0x0000000000000000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:335
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:341
 msgid "boot header size: 1660"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:337
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:343
 msgid "dtb size: 216417"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:339
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:345
 msgid "dtb address: 0x0000000047880000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:342
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:348
 msgid "whereas for vendor_boot.img, will look like this:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:344
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:350
 msgid "boot magic: VNDRBOOT"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:346
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:352
 msgid "vendor boot image header version: 4"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:348
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:354
 msgid "page size: 0x00001000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:350
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:356
 msgid "kernel load address: 0x10008000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:352
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:358
 msgid "ramdisk load address: 0x10000000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:354
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:360
 msgid "vendor ramdisk total size: 13685168"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:356
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:362
 msgid "vendor command line args: bootconfig loop.max_part=7"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:358
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:364
 msgid "kernel tags load address: 0x10000000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:360
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:366
 msgid "product name: SRPUK23A007"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:362
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:368
 msgid "vendor boot image header size: 2128"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:364
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:370
 msgid "dtb size: 231604"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:366
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:372
 msgid "dtb address: 0x0000000011f00000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:368
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:374
 msgid "vendor ramdisk table size: 216"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:370
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:376
 msgid "vendor bootconfig size: 28"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:373
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:379
 msgid "Here's where this will get interesting."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:375
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:381
 msgid ""
 "\"kernel load address\" is the kernel offset. The value after the colon is "
 "what you need, for example,   0x40080000. This will be different in your "
 "case."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:377
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:383
 msgid ""
 "\"ramdisk load address\" will be your ramdisk offset. Take the value next to "
 "it. For example, 0x51b00000."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:379
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:385
 msgid ""
 "\"second bootloader load address\" is mostly unnecessary by today's "
 "standards. But if your boot image does spit this value, make sure to take "
 "it. For example, 0xc0ff0000."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:381
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:387
 msgid ""
 "\"kernel tags load address\" is a special one. It's used for both kernel "
 "tags and dtb, but in some cases these values can be different. Take the "
 "value as well. For example, 0x47880000."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:383
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:389
 msgid ""
 "\"dtb address\" is sometimes the same as \"kernel tags load address\". But "
 "if it's different, you should use this for dtb and tags for tags."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:385
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:391
 msgid ""
 "\"page size\" is required for the ramdisk to know what your flash chip uses "
 "for page sizes. Value after colon is what you need. For example, 2048."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:387
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:393
 msgid ""
 "\"os version\" is the value which determines which Android version this boot."
 "img has. Some bootloaders enforce this. For example, 10.0."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:389
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:395
 msgid ""
 "\"os patch level\" is a similar story. You'll also want to grab this value, "
 "for example, 2021-11."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:391
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:397
 msgid ""
 "\"command line args\" go straight into deviceinfo_kernel_cmdline. Make sure "
 "to keep \"console=tty0\" in there. No examples here :("
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:393
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:399
 msgid ""
 "If you're building vendor_boot, this command will also output a "
 "``bootconfig`` file in your output directory. Move this to your source "
 "tree's root."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:395
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:401
 msgid "Apart from these mentioned values, you'll want to skip everything else."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:398
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:404
 msgid "Now according to said guide, fill in your offsets:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:401
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:407
 msgid "Put the value from \"page size\" into this config."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:403
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:409
 msgid "``deviceinfo_flash_pagesize=\"2048\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:406
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:412
 msgid "Base offset will always remain 0x00000000."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:408
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:414
 msgid "``deviceinfo_flash_offset_base=\"0x00000000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:411
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:417
 msgid "Fill this in from \"kernel load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:413
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:419
 msgid "``deviceinfo_flash_offset_kernel=\"0x40080000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:416
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:422
 msgid "This gets its value from \"ramdisk load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:418
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:424
 msgid "``deviceinfo_flash_offset_ramdisk=\"0x51b00000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:421
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:427
 msgid ""
 "Although not mission critical, if you did get its value, fill it in from "
 "\"second bootloader load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:423
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:429
 msgid "``deviceinfo_flash_offset_second=\"0xc0ff0000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:426
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:432
 msgid "Tags should be filled in from \"kernel tags load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:428
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:434
 msgid "``deviceinfo_flash_offset_tags=\"0x47880000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:431
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:437
 msgid "DTB offset comes from \"dtb load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:433
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:439
 msgid "``deviceinfo_flash_offset_dtb=\"0x47880000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:436
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:442
 msgid ""
 "This comes from \"os version\". Not exactly required but some OEMs enforce "
 "it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:438
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:444
 msgid "``deviceinfo_bootimg_os_version=\"10.0\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:441
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:447
 msgid "You'll want to put the \"os patch level\" value here."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:443
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:449
 msgid "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:446
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:452
 msgid ""
 "If you're building a vendor_boot and you have moved the ``bootconfig`` file "
 "to your tree's root, add the following:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:448
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:454
 msgid "``deviceinfo_vendor_bootconfig_path=\"bootconfig\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:451
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:457
 msgid ""
 "And just like that, you've filled in your deviceinfo properly and can now "
 "get on with the port!"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:455
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:461
 msgid "Building, installing and running"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:457
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:463
 msgid ""
 "After you've completed your deviceinfo and filled in all needed stuff, its "
 "time you get to the main part, the build. For this just run: ``./build.sh -b "
 "workdir``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:460
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:466
 msgid ""
 "That should download all the needed toolchains and then the kernel, and "
 "finally build everything. This process may take about 5 to 50 minutes to "
 "build the kernel."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:462
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:468
 msgid ""
 "After your kernel is done building, you will have to build the rootfs. For "
 "this, just execute this:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:464
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:470
 msgid ""
 "``./build/prepare-fake-ota.sh out/device_<your device's codename>_usrmerge."
 "tar.xz ota`` This will download the rootfs, extract it and pack it into "
 "tarballs for our final script to create flashable images."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:467
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:473
 msgid "Next up, run:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:469
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:475
 msgid ""
 "``./build/system-image-from-ota.sh ota/ubuntu_command images`` This will "
 "convert the tarballs into flashable images, and your images will be stored "
@@ -11377,23 +11438,23 @@ msgid ""
 "given:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:473
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:479
 msgid "images/"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:474
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:480
 msgid "├── boot.img"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:475
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:481
 msgid "├── rootfs.img"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:476
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:482
 msgid "└── system.img"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:479
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:485
 msgid ""
 "The ``boot.img`` will be flashed onto the boot partition of the phone. The "
 "``system.img`` and ``rootfs.img`` are interchangable. ``rootfs.img`` is "
@@ -11402,7 +11463,7 @@ msgid ""
 "to your system partition."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:486
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:492
 msgid ""
 "For a lot of kernel-related commands, you'll need the ARCH variable's value, "
 "this is either arm or arm64 depending on where you found your defconfig. A "
@@ -13079,14 +13140,14 @@ msgid "All deviceinfo keys used by ayatana-indicator-power are given below::"
 msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:13
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:12
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:13
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:15
 #, fuzzy
 msgid "Device quirks"
 msgstr "Appareil"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:15
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
@@ -13094,7 +13155,7 @@ msgid "Key"
 msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:15
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
@@ -13128,8 +13189,15 @@ msgstr ""
 msgid "Path to flashlight switch node in /sys."
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:25
+#: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:23
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:23
+#: ../../porting/configure_test_fix/device_info/Mir.rst:63
+#: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
+msgid "Examples"
+msgstr "Exemples"
+
+#: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:25
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:25
 #: ../../porting/configure_test_fix/device_info/Mir.rst:65
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:27
 msgid "Device ``sample`` using:"
@@ -13146,7 +13214,7 @@ msgid "Change flashlight switch path so flashlight will actually turn on."
 msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:30
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:27
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:30
 #: ../../porting/configure_test_fix/device_info/Mir.rst:72
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:33
 #, fuzzy
@@ -13162,19 +13230,38 @@ msgstr "Sur l'appareil"
 msgid "Overview of all hfd-service keys::"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:17
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:18
+msgid "SingleColorLedSysfsPath"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:18
+msgid "File path to notification LED device"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:18
+#: ../../porting/configure_test_fix/device_info/Repowerd.rst:20
+msgid "File path"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:19
 msgid "VibrateDurationExtraMs"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:17
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:19
 msgid "Milliseconds to extend all vibration calls by"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:17
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:19
 msgid "Any integer number"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/HfdService.rst:25
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:27
+msgid ""
+"Single-color notification LED controllable via ``/sys/class/leds/green/"
+"brightness``"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/HfdService.rst:28
 msgid ""
 "Extend vibrations by 50 milliseconds to feel the on-screen keyboard haptics "
 "on devices with simpler on/off vibration motors"
@@ -13332,10 +13419,6 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:20
 msgid "File path to backlight device"
-msgstr ""
-
-#: ../../porting/configure_test_fix/device_info/Repowerd.rst:20
-msgid "File path"
 msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:21
@@ -13900,11 +13983,27 @@ msgstr ""
 msgid "18.1"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:55
-msgid "Generic System Image"
+#: ../../porting/introduction/Intro.rst:50
+msgid "12.0"
+msgstr ""
+
+#: ../../porting/introduction/Intro.rst:50
+msgid "19.1"
+msgstr ""
+
+#: ../../porting/introduction/Intro.rst:51
+msgid "13.0"
+msgstr ""
+
+#: ../../porting/introduction/Intro.rst:51
+msgid "20.0"
 msgstr ""
 
 #: ../../porting/introduction/Intro.rst:57
+msgid "Generic System Image"
+msgstr ""
+
+#: ../../porting/introduction/Intro.rst:59
 msgid ""
 "Starting with Android version 9.0, a significant change of architecture was "
 "introduced. The device-specific vendor blobs now reside on a separate "
@@ -13913,7 +14012,7 @@ msgid ""
 "is known as the **Generic System Image (GSI)**."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:60
+#: ../../porting/introduction/Intro.rst:62
 msgid ""
 "A GSI is a system image that is built to be able to function with a wide "
 "range of devices. Android devices, as of version 9.0, use a GSI. For more "
@@ -13921,7 +14020,7 @@ msgid ""
 "topic/generic-system-image/>`_"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:62
+#: ../../porting/introduction/Intro.rst:64
 msgid ""
 "The development of the Android GSI architecture also cleared the way for the "
 "now available generic Halium 9.0 arm64 system image (hereafter referred to "
@@ -13933,12 +14032,12 @@ msgid ""
 "halium_arm64-(Halium-9)>`_."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:65
+#: ../../porting/introduction/Intro.rst:67
 #, fuzzy
 msgid "What does this mean for the porting process?"
 msgstr "Les défis du processus de portage"
 
-#: ../../porting/introduction/Intro.rst:67
+#: ../../porting/introduction/Intro.rst:69
 msgid ""
 "Since the GSI is a prebuilt, device-independent component, it effectively "
 "simplifies the task of building a viable port by removing much of the "
@@ -13946,12 +14045,12 @@ msgid ""
 "blobs compiled into the system image and configured to function properly."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:72
+#: ../../porting/introduction/Intro.rst:74
 #, fuzzy
 msgid "Porting methods"
 msgstr "Informations sur le portage"
 
-#: ../../porting/introduction/Intro.rst:74
+#: ../../porting/introduction/Intro.rst:76
 msgid ""
 "This guide documents three different porting methods, which we call: **Full "
 "system image method**, **Halium-boot method**, and **Standalone kernel "
@@ -13960,12 +14059,12 @@ msgid ""
 "possible."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:78
+#: ../../porting/introduction/Intro.rst:80
 #, fuzzy
 msgid "Full system image method"
 msgstr "Compilation de l'image système Halium"
 
-#: ../../porting/introduction/Intro.rst:80
+#: ../../porting/introduction/Intro.rst:82
 msgid ""
 "This porting method requires building both the boot image (halium-boot.img) "
 "and the full device specific system image (system.img) from source and "
@@ -13976,43 +14075,43 @@ msgid ""
 "methods below are probably easier."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:84
+#: ../../porting/introduction/Intro.rst:86
 msgid "Halium-boot method"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:86
+#: ../../porting/introduction/Intro.rst:88
 msgid ""
 "For this porting method it is sufficent to build the halium-boot.img and "
 "install this together with the Halium GSI and the UBports rootfs. This "
 "method can be used for Halium 9.0 ports."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:91
+#: ../../porting/introduction/Intro.rst:93
 msgid ""
 "This porting method only requires building the kernel and installing this "
 "together with the Halium ramdisk, the Halium GSI and the UBports rootfs. "
 "This method can be used for Halium 9.0 ports."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:93
+#: ../../porting/introduction/Intro.rst:95
 msgid ""
 "All methods share some common steps. However, there are also significant "
 "differences that must not be missed. Therefore, the methods will be treated "
 "separately in the subsequent sections where needed."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:95
+#: ../../porting/introduction/Intro.rst:97
 msgid ""
 "The remainder of this section gives some words of advice to new porters. If "
 "you already have porting experience or ROM building experience, you can "
 "likely skip straight to :ref:`Preparations <Preparations>`."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:100
+#: ../../porting/introduction/Intro.rst:102
 msgid "The challenges of the porting process"
 msgstr "Les défis du processus de portage"
 
-#: ../../porting/introduction/Intro.rst:102
+#: ../../porting/introduction/Intro.rst:104
 msgid ""
 "Building the necessary components and getting them to work together properly "
 "always involves an amount of code modifications, configuring and testing, "
@@ -14020,7 +14119,7 @@ msgid ""
 "builds using the GSI (see :ref:`porting methods <Porting-methods>`)."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:104
+#: ../../porting/introduction/Intro.rst:106
 #, fuzzy
 msgid ""
 "Luckily, there is a community of porters out there who are eager to see "
@@ -14038,11 +14137,11 @@ msgstr ""
 "l'aide, mais n'oubliez pas que les participants le font pendant leur temps "
 "libre."
 
-#: ../../porting/introduction/Intro.rst:109
+#: ../../porting/introduction/Intro.rst:111
 msgid "Prior knowledge and skills"
 msgstr "Connaissances et compétences préalables"
 
-#: ../../porting/introduction/Intro.rst:111
+#: ../../porting/introduction/Intro.rst:113
 #, fuzzy
 msgid ""
 "Porters come in all sizes and shapes, so to speak. Therefore, this guide "
@@ -14068,7 +14167,7 @@ msgstr ""
 "d'Halium <http://docs.halium.org/en/latest/porting/first-steps.html>`_ dès "
 "le début."
 
-#: ../../porting/introduction/Intro.rst:113
+#: ../../porting/introduction/Intro.rst:115
 #, fuzzy
 msgid ""
 "We have attempted to give a certain amount of explanation along the way. "
@@ -14082,11 +14181,11 @@ msgstr ""
 "compréhension plus approfondie nécessitera par conséquent un certain nombre "
 "de recherches de votre part."
 
-#: ../../porting/introduction/Intro.rst:118
+#: ../../porting/introduction/Intro.rst:120
 msgid "Getting community help"
 msgstr "Obtenir de l'aide de la communauté"
 
-#: ../../porting/introduction/Intro.rst:120
+#: ../../porting/introduction/Intro.rst:122
 msgid ""
 "When you run into trouble, and you will, refer to one or more of the sources "
 "below:"
@@ -14094,19 +14193,19 @@ msgstr ""
 "Si vous avez des problèmes, et vous en aurez, consultez une ou plusieurs des "
 "sources ci-dessous :"
 
-#: ../../porting/introduction/Intro.rst:122
+#: ../../porting/introduction/Intro.rst:124
 msgid "`Telegram: @ubports_porting <https://t.me/ubports_porting>`_"
 msgstr "`Telegram : @ubports_porting <https://t.me/ubports_porting>`_"
 
-#: ../../porting/introduction/Intro.rst:123
+#: ../../porting/introduction/Intro.rst:125
 msgid "`The UBports Forum <https://forums.ubports.com/category/33/porting>`_"
 msgstr "`Le forum d'UBports <https://forums.ubports.com/category/33/porting>`_"
 
-#: ../../porting/introduction/Intro.rst:128
+#: ../../porting/introduction/Intro.rst:130
 msgid "General advice"
 msgstr "Conseils généraux"
 
-#: ../../porting/introduction/Intro.rst:130
+#: ../../porting/introduction/Intro.rst:132
 #, fuzzy
 msgid ""
 "The more rigorous you are at making notes and documenting your steps, the "
@@ -14125,7 +14224,7 @@ msgstr ""
 "essayer de deviner quels changements ont résolu un problème donné, ce qui "
 "conduit facilement à casser à nouveau le correctif en question."
 
-#: ../../porting/introduction/Intro.rst:132
+#: ../../porting/introduction/Intro.rst:134
 #, fuzzy
 msgid ""
 "If you are not discouraged after reading this, we welcome your efforts and "
@@ -14134,7 +14233,7 @@ msgstr ""
 "Si vous n'êtes pas découragé après avoir lu ceci, nous vous souhaitons bonne "
 "chance !"
 
-#: ../../porting/introduction/Intro.rst:134
+#: ../../porting/introduction/Intro.rst:136
 msgid "The next section presents a key to the rest of this guide."
 msgstr ""
 
@@ -14330,45 +14429,50 @@ msgid ""
 msgstr ""
 
 #: ../../porting/introduction/Setting_up.rst:19
-msgid "Debian (Stretch or newer) / Ubuntu (16.04 or 18.04)"
+msgid "Mageia 9"
 msgstr ""
 
 #: ../../porting/introduction/Setting_up.rst:21
-#: ../../porting/introduction/Setting_up.rst:41
+#: ../../porting/introduction/Setting_up.rst:36
+#: ../../porting/introduction/Setting_up.rst:56
+msgid "Install the required dependencies::"
+msgstr ""
+
+#: ../../porting/introduction/Setting_up.rst:26
+msgid "Debian (Stretch or newer) / Ubuntu (16.04 or 18.04)"
+msgstr ""
+
+#: ../../porting/introduction/Setting_up.rst:28
+#: ../../porting/introduction/Setting_up.rst:48
 msgid ""
 "If your host PC has a 64-bit architecture (amd64), enable the usage of the "
 "i386 architecture::"
 msgstr ""
 
-#: ../../porting/introduction/Setting_up.rst:25
-#: ../../porting/introduction/Setting_up.rst:45
+#: ../../porting/introduction/Setting_up.rst:32
+#: ../../porting/introduction/Setting_up.rst:52
 msgid "Update your package lists to take advantage of the new architecture::"
 msgstr ""
 
-#: ../../porting/introduction/Setting_up.rst:29
-#: ../../porting/introduction/Setting_up.rst:49
-msgid "Install the required dependencies::"
-msgstr ""
-
-#: ../../porting/introduction/Setting_up.rst:39
+#: ../../porting/introduction/Setting_up.rst:46
 msgid "Ubuntu (20.04 or newer)"
 msgstr ""
 
-#: ../../porting/introduction/Setting_up.rst:59
+#: ../../porting/introduction/Setting_up.rst:66
 msgid ""
 "Create a directory named 'bin' in your home directory, and include it in "
 "your path::"
 msgstr ""
 
-#: ../../porting/introduction/Setting_up.rst:65
+#: ../../porting/introduction/Setting_up.rst:72
 msgid "Download the repo script and make it executable::"
 msgstr ""
 
-#: ../../porting/introduction/Setting_up.rst:71
+#: ../../porting/introduction/Setting_up.rst:78
 msgid "Arch"
 msgstr ""
 
-#: ../../porting/introduction/Setting_up.rst:73
+#: ../../porting/introduction/Setting_up.rst:80
 msgid ""
 "If your host PC has a 64-bit architecture, you need to add the [multilib] "
 "repository to your /etc/pacman.conf . This will allow you to install and run "
@@ -14376,11 +14480,11 @@ msgid ""
 "Wiki <https://wiki.archlinux.org/index.php/Official_repositories>`_."
 msgstr ""
 
-#: ../../porting/introduction/Setting_up.rst:75
+#: ../../porting/introduction/Setting_up.rst:82
 msgid "Make sure you have the base-devel package installed."
 msgstr ""
 
-#: ../../porting/introduction/Setting_up.rst:77
+#: ../../porting/introduction/Setting_up.rst:84
 msgid "Install the required dependencies from AUR::"
 msgstr ""
 
@@ -14959,14 +15063,6 @@ msgid ""
 "has been successfully updated by checking the build date with ``uname -a`` "
 "on the device."
 msgstr ""
-
-#: ../../systemdev/kernel-pinephone.rst:64
-#: ../../systemdev/mms-infrastructure.rst:53
-#: ../../userguide/advanceduse/reverse-tethering.rst:55
-#: ../../userguide/advanceduse/screencasting.rst:74
-#: ../../userguide/advanceduse/ssh.rst:91
-msgid "References"
-msgstr "Références"
 
 #: ../../systemdev/kernel-pinephone.rst:66
 msgid ""
@@ -18460,11 +18556,11 @@ msgstr ""
 "applications ne pourront pas suivre votre position lorsqu'elles ne sont pas "
 "utilisées ou que l'appareil est verrouillé."
 
-#: ../../userguide/dailyuse/volte.rst:4
+#: ../../userguide/dailyuse/volte.rst:2
 msgid "Voice over LTE (VoLTE)"
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:6
+#: ../../userguide/dailyuse/volte.rst:4
 msgid ""
 "Voice over LTE (VoLTE) is a technology that allows a phone to take a call "
 "and send a message while connected to a 4G/LTE cellular network. The "
@@ -18472,7 +18568,7 @@ msgid ""
 "seamless mobile data while on a call."
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:8
+#: ../../userguide/dailyuse/volte.rst:6
 msgid ""
 "Carriers in some parts of the world have started phasing out 3G cellular "
 "networks, making VoLTE mandatory in order to place a call on that carrier. "
@@ -18482,24 +18578,20 @@ msgid ""
 "ends."
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:10
+#: ../../userguide/dailyuse/volte.rst:8
 msgid ""
 "Ubuntu Touch supports VoLTE on some devices. Support for VoLTE on Ubuntu "
 "Touch depends on the phone's chipset, the Android version the port is based "
-"on, and whether the port has enabled support for VoLTE."
+"on, and whether the port has enabled support for VoLTE. As of Ubuntu Touch "
+"20.04 OTA-8, VoLTE is enabled on Volla Phone X23 and Volla Phone 22 running "
+"Android 12-based port."
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:13
-msgid ""
-"VoLTE is currently in development and is not yet available in any of the "
-"stable releases of Ubuntu Touch."
-msgstr ""
-
-#: ../../userguide/dailyuse/volte.rst:16
+#: ../../userguide/dailyuse/volte.rst:11
 msgid "How do I know if VoLTE is supported on my phone?"
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:18
+#: ../../userguide/dailyuse/volte.rst:13
 msgid ""
 "To check if your phone supports VoLTE, go to *System Settings* > *Cellular* "
 "> *Carrier & APN*. If VoLTE is supported, you will be able to toggle *4G "
@@ -18507,27 +18599,27 @@ msgid ""
 "then your phone does not yet support VoLTE on Ubuntu Touch."
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:23
+#: ../../userguide/dailyuse/volte.rst:18
 msgid "How do I know if VoLTE is working?"
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:25
+#: ../../userguide/dailyuse/volte.rst:20
 msgid "For VoLTE to work, the following conditions have to be met:"
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:27
+#: ../../userguide/dailyuse/volte.rst:22
 msgid "Your phone supports VoLTE on Ubuntu Touch."
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:28
+#: ../../userguide/dailyuse/volte.rst:23
 msgid "Your carrier and your SIM card supports VoLTE."
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:29
+#: ../../userguide/dailyuse/volte.rst:24
 msgid "Ubuntu Touch contains a VoLTE configuration for your carrier."
 msgstr ""
 
-#: ../../userguide/dailyuse/volte.rst:31
+#: ../../userguide/dailyuse/volte.rst:26
 msgid ""
 "If the conditions are met, and the phone successfully establishes a VoLTE "
 "connection, the VoLTE logo will appear after your carrier name in the "
@@ -18787,9 +18879,10 @@ msgstr "Signaler des bugs"
 msgid ""
 "Please :doc:`report any bugs </contribute/bugreporting>` you come across. "
 "Bugs concerning Ubuntu Touch are reported in `the normal Ubuntu Touch "
-"tracker <https://gitlab.com/ubports/ubuntu-touch/-/issues>`_ and issues with "
-"Waydroid are reported on `our waydroid issue tracker <https://gitlab.com/"
-"ubports/development/core/packaging/waydroid/-/issues>`_. Thank you!"
+"tracker <https://gitlab.com/ubports/development/ubuntu-touch/-/issues>`_ and "
+"issues with Waydroid are reported on `our waydroid issue tracker <https://"
+"gitlab.com/ubports/development/core/packaging/waydroid/-/issues>`_. Thank "
+"you!"
 msgstr ""
 "Veuillez :doc:`signaler tout problème </contribute/bugreporting>` que vous "
 "rencontrez. Les problèmes concernant Ubuntu Touch 16.04 sont signalés dans "
@@ -19042,6 +19135,442 @@ msgstr ""
 "Si les conseils de dépannage ne fonctionnent pas, vous pouvez également "
 "essayer de suivre les instructions d'installation manuelle de votre appareil "
 "`sur la page dédiée <https://devices.ubuntu-touch.io/>`_."
+
+#~ msgid ""
+#~ "Since quality assurance depends heavily on community effort, issues are "
+#~ "tracked where users expect them, instead of separated by repository. This "
+#~ "means issues of almost all distributed components (as with the system-"
+#~ "image) are tracked in the `Ubuntu Touch tracker <https://gitlab.com/"
+#~ "ubports/ubuntu-touch>`__. An exception to this are click-apps, which can "
+#~ "be updated independently through the OpenStore."
+#~ msgstr ""
+#~ "Étant donné que notre assurance qualité dépend énormément de la "
+#~ "communauté, nous essayons de faire le suivi des problèmes là où "
+#~ "l'utilisateur irait naturellement, au lieu de le faire séparément pour "
+#~ "chaque dépôt. Cela veut dire que les problèmes concernant à peu près tous "
+#~ "les composants distribués avec l'image système sont suivis dans le "
+#~ "`gestionnaire de suivi pour Ubuntu Touch <https://github.com/ubports/"
+#~ "ubuntu-touch>`__. Les applications Click sont une exception car elles "
+#~ "peuvent être mises à jour de façon indépendante via l'OpenStore."
+
+#~ msgid ""
+#~ "Most other repositories track issues locally. You will find out whether a "
+#~ "repository uses its own tracker or not in its README.md file. "
+#~ "Repositories that don't track issues locally have their bugtracker turned "
+#~ "off."
+#~ msgstr ""
+#~ "La plupart des autres dépôts font un suivi des problèmes localement. Si "
+#~ "vous n'êtes pas sûr(e) de savoir si un dépôt utilise son propre suivi ou "
+#~ "non, consultez le fichier README.md. Les dépôts qui ne suivent pas les "
+#~ "problèmes localement ont leur système de suivi de problèmes désactivé."
+
+#~ msgid ""
+#~ "This page is mainly about the Ubuntu Touch tracker, but most principles "
+#~ "apply to other projects as well."
+#~ msgstr ""
+#~ "Cette page concerne principalement le système de suivi de problèmes "
+#~ "d'Ubuntu Touch, mais la plupart de ces principes s'appliquent de manière "
+#~ "similaire aux autres projets."
+
+#~ msgid ""
+#~ "Practical exceptions to purity are to be described in the project's "
+#~ "README.md file."
+#~ msgstr ""
+#~ "Les exceptions pratiques doivent être décrites dans le fichier README.md "
+#~ "du projet."
+
+#~ msgid "GitHub projects"
+#~ msgstr "Les projets GitHub"
+
+#~ msgid ""
+#~ "In the interest of transparency and communication, GitHub projects "
+#~ "(Kanban-Boards) are used wherever practical. In case of github.com/"
+#~ "ubports/ubuntu-touch, a single project is used for all issues. Projects "
+#~ "support filtering by labels, so that only issues belonging to a specific "
+#~ "team or ones affecting a specific device can be viewed."
+#~ msgstr ""
+#~ "Dans un souci de transparence et de communication, des projets GitHub "
+#~ "(Kanban-Boards) sont utilisés dans la mesure du possible. Dans le cas de "
+#~ "github.com/ubports/ubuntu-touch, un seul projet est utilisé pour tous les "
+#~ "problèmes. Les projets prennent en charge le filtrage par étiquettes, de "
+#~ "sorte que seuls les problèmes appartenant à une équipe spécifique ou ceux "
+#~ "affectant un appareil spécifique peuvent être visualisés."
+
+#~ msgid "These are the standard columns:"
+#~ msgstr "Voici les colonnes standards :"
+
+#, fuzzy
+#~ msgid ""
+#~ "**None (awaiting triage)**: Issue approved by a member of the QA team "
+#~ "awaiting review from the responsible development team. If a bug, "
+#~ "instructions to reproduce are included in the issue description. If a "
+#~ "feature request, it has passed a primary sanity check by the QA team, but "
+#~ "not yet been accepted by the responsible development-team."
+#~ msgstr ""
+#~ "**None (awaiting triage)**: Le problème a été approuvé par un membre de "
+#~ "l'équipe de l'assurance qualité et attend une vérification par l'équipe "
+#~ "de développement concernée. Si le problème est un bogue, les instructions "
+#~ "pour le reproduire sont incluses dans la description du problème. Si le "
+#~ "problème est une demande de fonctionnalité, il a passé une première "
+#~ "vérification par l'équipe de l'assurance qualité mais n'a pas encore été "
+#~ "accepté par l'équipe de développement concernée."
+
+#, fuzzy
+#~ msgid ""
+#~ "**Accepted**: Issue accepted by the responsible development-team. If a "
+#~ "bugreport, the team has decided it should be fixable and accept "
+#~ "responsibility. If a feature request, the team thinks it should be "
+#~ "implemented as described."
+#~ msgstr ""
+#~ "**Accepted**: Le problème a été accepté par l'équipe de développement "
+#~ "concernée. Si le problème est un rapport de bogue, l'équipe a décidé "
+#~ "qu'il pouvait être corrigé et en accepte la responsabilité. Si le "
+#~ "problème est une demande de fonctionnalité, l'équipe pense que celle-ci "
+#~ "peut être implémentée telle que décrite."
+
+#~ msgid ""
+#~ "**In Development**: A patch in development. Usually means a developer is "
+#~ "assigned to the issue."
+#~ msgstr ""
+#~ "**In Development** (En développement) : un correctif est en "
+#~ "développement. Cela signifie généralement qu'un développeur est assigné à "
+#~ "ce problème."
+
+#~ msgid ""
+#~ "**Quality Assurance**: A completed patch passing initial testing. The QA "
+#~ "team will review it and provide feedback. If problems are found, the "
+#~ "issue is moved back to \"Accepted\"."
+#~ msgstr ""
+#~ "**Quality Assurance** (Assurance qualité) : le correctif est finalisé et "
+#~ "a passé les premiers tests. L'équipe de l'assurance qualité va maintenant "
+#~ "le tester sur tous les matériels et fournir un retour. Si des "
+#~ "dysfonctionnements sont trouvés, le problème est rétrogradé à l'état « "
+#~ "Accepted » (Accepté)."
+
+#~ msgid ""
+#~ "**Release Candidate**: A patch passing QA, ready for release. In case of "
+#~ "DEB packages included in the system-image, the patch will be included in "
+#~ "the next over-the-air update on the `rc` channel, and (provided  "
+#~ "everything   goes well) in the next release of the `stable` channel."
+#~ msgstr ""
+#~ "**Release Candidate** (Version admissible) : le correctif a passé "
+#~ "l'assurance qualité et il est prêt pour la publication. Dans le cas de "
+#~ "paquets deb inclus dans l'image système, le correctif sera intégré dans "
+#~ "la mise à jour suivante du canal `rc, et, (si tout se passe bien), dans "
+#~ "la version suivante du canal stable."
+
+#~ msgid ""
+#~ "**None (removed from the project)**: Open issue labeled \"help wanted\". "
+#~ "Community contributions are required to resolve it. If it's closed, "
+#~ "either a patch has been released on the stable channel (a comment on the "
+#~ "issue should link to the patch) or the issue is rejected (labeled "
+#~ "\"wontfix\")."
+#~ msgstr ""
+#~ "**None (removed from the project)** (aucun, retiré du projet) : si le "
+#~ "problème est ouvert et marqué « help wanted » (aide souhaitée), des "
+#~ "contributions de la communauté sont nécessaires pour résoudre le "
+#~ "problème. S'il est clos, alors soit un correctif a été fourni sur le "
+#~ "canal stable (un commentaire sur le problème devrait alors être joint au "
+#~ "correctif), soit le problème a été rejeté (marqué « wontfix » : ne sera "
+#~ "pas corrigé)."
+
+#~ msgid "List of labels normally used by all repositories:"
+#~ msgstr ""
+#~ "Liste des mots-clés qui sont normalement utilisés par tous les dépôts."
+
+#~ msgid ""
+#~ "**bug**: This issue is a confirmed bug. If it's reproducible, "
+#~ "reproduction steps are described."
+#~ msgstr ""
+#~ "**bug** (bogue) : Ce problème est confirmé être un bogue. S'il est "
+#~ "reproductible, les étapes nécessaires à sa reproduction sont décrites."
+
+#~ msgid "**opinion**: This issue needs further discussion."
+#~ msgstr ""
+#~ "**opinion** (opinion) : ce problème nécessite une discussion plus "
+#~ "importante."
+
+#~ msgid ""
+#~ "**invalid**: This issue can not be confirmed or was reported in the wrong "
+#~ "tracker."
+#~ msgstr ""
+#~ "**invalid** (invalide) : ce problème ne peut être confirmé ou a été "
+#~ "signalé au mauvais endroit."
+
+#~ msgid ""
+#~ "**duplicate**: This has already been reported elsewhere. Please provide a "
+#~ "link and close."
+#~ msgstr ""
+#~ "**duplicate** (doublon) : ceci a déjà été signalé à un autre endroit. "
+#~ "Veuillez fournir un lien et clôturer."
+
+#~ msgid ""
+#~ "**help wanted**: This issue is ready to be picked up by a community "
+#~ "developer."
+#~ msgstr ""
+#~ "**help wanted** (aide recherchée) : ce problème peut être pris en charge "
+#~ "par un développeur de la communauté."
+
+#, fuzzy
+#~ msgid ""
+#~ "Additional special labels can be defined. As an example, these are the "
+#~ "labels used in the Ubuntu Touch tracker:"
+#~ msgstr ""
+#~ "Des mots-clés spéciaux supplémentaires peuvent être définis. À titre "
+#~ "d'exemple, voici les mots-clés utilisés dans le suivi d'Ubuntu Touch :"
+
+#, fuzzy
+#~ msgid ""
+#~ "**critical (devel)**: Critical issue only occuring on the `devel` channel "
+#~ "is blocking the release of the next `rc` image."
+#~ msgstr ""
+#~ "**critical (devel)** (critique, développement) : ce problème critique qui "
+#~ "ne se produit que sur le canal développement bloque la publication de "
+#~ "l'image de la version admissible suivante."
+
+#, fuzzy
+#~ msgid ""
+#~ "**critical (rc)**: Critical issue only occuring on the `devel` and `rc` "
+#~ "channel is blocking the release of the next stable release. Usually, "
+#~ "issues that can not simply be moved to a different release and have the "
+#~ "power to postpone the release are labeled this way."
+#~ msgstr ""
+#~ "**critical (rc)** (critique, version admissible) : ce problème critique "
+#~ "qui ne se produit que sur les canaux développement et version admissible "
+#~ "bloque la publication de la version stable suivante. Sont généralement "
+#~ "étiquetés de cette manière les problèmes qui ne peuvent simplement être "
+#~ "déplacés vers une version différente et ont le pouvoir de retarder la "
+#~ "publication."
+
+#, fuzzy
+#~ msgid ""
+#~ "**device: [DEVICE CODENAME]**: Issue affecting only the specified "
+#~ "device(s)."
+#~ msgstr ""
+#~ "**device: [DEVICE CODENAME]** (appareil : [NOM DE CODE]) : ce problème ne "
+#~ "touche que le ou les appareil(s) spécifié(s)."
+
+#, fuzzy
+#~ msgid ""
+#~ "**team: [TEAM NAME]**: Issue falls under the responsibility of a specific "
+#~ "team (HAL, middleware, UI)."
+#~ msgstr ""
+#~ "**team: [TEAM NAME]** (équipe : [NOM DE L'ÉQUIPE]) : ce problème concerne "
+#~ "une équipe spécifique (hal, middleware, UI)."
+
+#, fuzzy
+#~ msgid ""
+#~ "Milestones are used for stable OTA releases only. In general, milestones "
+#~ "for the work-in-progress OTA and the next OTA are created. The ETA is set "
+#~ "once the work on the release starts (that is 6 weeks from start date), "
+#~ "but can be adjusted afterwards. Learn more in :doc:`release-schedule "
+#~ "<release-schedule>`."
+#~ msgstr ""
+#~ "Les jalons (milestones) sont utilisées pour les versions stables OTA "
+#~ "seulement. En général, les étapes sont définies pour la version OTA en "
+#~ "cours et la suivante. La date estimée d'arrivée est déterminée dès qu'on "
+#~ "commence à travailler sur la version (dans les 6 semaines à partir de la "
+#~ "date de démarrage), mais peut être modifiée après coup. Consultez :doc:"
+#~ "`le planning de publication <release-schedule>` pour plus d'informations."
+
+#~ msgid "Bug Lifecycle"
+#~ msgstr "Le cycle de vie d'un problème"
+
+#, fuzzy
+#~ msgid ""
+#~ "The same principle applies to feature requests, only they are labeled "
+#~ "**enhancement** instead of **bug**. **needs confirmation** is not "
+#~ "applicable for feature requests."
+#~ msgstr ""
+#~ "Le même principe s'applique pour les demandes de fonctionnalité. La seule "
+#~ "différence est qu'à la place du mot-clé **bug** (bogue), le mot-clé "
+#~ "**enhancement** (amélioration) est utilisé. Le mot-clé **needs "
+#~ "confirmation** (demande confirmation) n'est pas applicable dans le cas "
+#~ "des demandes de fonctionnalité."
+
+#, fuzzy
+#~ msgid "A *user* files a new bug using the issue-template."
+#~ msgstr ""
+#~ "Un *Utilisateur* poste un nouveau problème en utilisant le modèle de "
+#~ "suivi de problème."
+
+#~ msgid ""
+#~ "The *QA-Team* labels it **needs confirmation** and tries to work with the "
+#~ "user to confirm the bug and add potentially missing info to the report."
+#~ msgstr ""
+#~ "L'équipe *QA* a défini le statut **nécessite une confirmation** et tente "
+#~ "de travailler avec l'utilisateur pour confirmer le bogue et ajouter les "
+#~ "informations éventuellement manquantes au rapport."
+
+#, fuzzy
+#~ msgid ""
+#~ "Once the report is complete a **team-label** is added to the issue, the "
+#~ "issue will be put on the **awaiting-triage-list** of the project and the "
+#~ "label needs confirmation will be replaced with **bug**."
+#~ msgstr ""
+#~ "L'équipe de *l'assurance qualité* ajoute le mot-clé **needs "
+#~ "confirmation** (demande confirmation) et essaye de travailler de concert "
+#~ "avec l'utilisateur pour confirmer le problème et ajouter les éventuelles "
+#~ "informations manquantes au rapport. Une fois que le rapport est complet "
+#~ "un **team-label** (étiquette d'équipe) sera ajouté au suivi du problème "
+#~ "et il sera mis sur la liste d'attente de tri du projet (**awaiting-triage-"
+#~ "list**). De plus le mot-clé **needs confirmation** sera remplacé par "
+#~ "**bug** (bogue)."
+
+#~ msgid ""
+#~ "The affected *Team* triages the issue and either rejects (label "
+#~ "**wontfix**, closes and removes from the project) or accepts the issue."
+#~ msgstr ""
+#~ "L'« équipe » affectée trie le problème et le rejette (étiquette "
+#~ "**wontfix**, fermeture et retrait du projet) ou l'accepte."
+
+#, fuzzy
+#~ msgid ""
+#~ "The team decides whether to fix the issue in-house (move to \"Accepted\" "
+#~ "and assign a team member) or wait for a community developer to pick it up "
+#~ "(by labeling it **help wanted**, removing it from the project board and "
+#~ "providing hints on how to resolve the issue and further details on how "
+#~ "the fix should be implemented if necessary). For non-critical issues "
+#~ "trivial to fix, the label **good first issue** can be added as well."
+#~ msgstr ""
+#~ "L'*équipe* dédiée effectuera un tri du problème, à la suite duquel le "
+#~ "problème sera soit rejeté (c'est à dire marqué **wontfix** : ne sera pas "
+#~ "corrigé, puis fermé et retiré du projet) soit accepté pour correction. "
+#~ "L'équipe décide si le problème sera corrigé en interne (statut passé en « "
+#~ "accepted » : accepté, et affecté à un membre de l'équipe) ou si elle "
+#~ "attend qu'un membre de la communauté de développeurs le prenne en charge "
+#~ "(statut passé en **help wanted** : aide souhaitée, dans ce cas le "
+#~ "problème est retiré du tableau du projet tout en fournissant des "
+#~ "indications sur la méthode de résolution et en fournissant si nécessaire "
+#~ "des détails sur l'implémentation du correctif). Pour des problèmes non "
+#~ "critiques qui sont évidents à résoudre, le mot-clé **good first issue** "
+#~ "(bon premier problème) peut également être ajouté."
+
+#~ msgid ""
+#~ "Once a *developer* is assigned and starts working on the issue, it is "
+#~ "moved to \"In Development\"."
+#~ msgstr ""
+#~ "Une fois qu'un *développeur* est désigné et commence à travailler sur le "
+#~ "problème, celui-ci est déplacé dans la catégorie « En cours de "
+#~ "développement »."
+
+#, fuzzy
+#~ msgid ""
+#~ "As soon as there is something to show for, the issue is closed and "
+#~ "automatically moved to \"Quality Assurance\" for feedback from the QA "
+#~ "team. If necessary, the developer provides hints on how to test the patch "
+#~ "in a comment on the issue."
+#~ msgstr ""
+#~ "Une fois qu'un *développeur* est assigné et commence à travailler sur le "
+#~ "problème, celui-ci est déplacé dans « In Development » (En "
+#~ "développement). Dès qu'une solution est disponible, le problème est "
+#~ "déplacé dans « Quality Assurance » (Assurance Qualité) pour obtenir un "
+#~ "retour. Si c'est nécessaire, le développeur peut fournir des pistes sur "
+#~ "la façon de tester son correctif dans un commentaire sur le problème."
+
+#, fuzzy
+#~ msgid ""
+#~ "The *QA-Team* tests the fix on all devices and provides feedback to the "
+#~ "developer. If problems are found, the issue is re-opened and goes back to "
+#~ "\"Accepted\", otherwise it is moved to \"Release Candidate\" for "
+#~ "inclusion in the next release."
+#~ msgstr ""
+#~ "L'équipe de *l'assurance qualité* teste le correctif sur tous les "
+#~ "appareils et fournit un retour au développeur. Si des problèmes sont "
+#~ "trouvés, le problème retourne dans « Accepted » (Accepté), sinon il est "
+#~ "déplacé dans « Release Candidate » (Version Candidate) pour être intégré "
+#~ "dans la prochaine version."
+
+#, fuzzy
+#~ msgid ""
+#~ "If not done already, the issue is added to the next milestone, which once "
+#~ "released removes the issue from the project board."
+#~ msgstr ""
+#~ "Si ce n'est pas déjà fait, le problème est ajouté dans le prochain jalon. "
+#~ "Une fois le jalon franchi, le problème est retiré du tableau de suivi du "
+#~ "projet."
+
+#~ msgid ""
+#~ "Each heading level creates a sub-section in the global table of contents "
+#~ "tree available when the documentation is built. In the primary (web) "
+#~ "version of the documentation, this only shows four levels deep from the "
+#~ "top level of the documentation. Please refrain from using more heading "
+#~ "levels than will show in this tree as it makes navigating your document "
+#~ "difficult. If you must use this many heading levels, it is a good sign "
+#~ "that your document should be split up into multiple pages."
+#~ msgstr ""
+#~ "Chaque niveau de chapitre créé une sous-section dans l'arborescence du "
+#~ "sommaire général disponible lorsque la documentation est construite. Dans "
+#~ "la version principale de la documentation (Web), seuls quatre niveaux de "
+#~ "profondeur sont affichés à partir du niveau supérieur de la "
+#~ "documentation. Veuillez éviter d'utiliser plus de niveaux de chapitres "
+#~ "que ce qui ne peut apparaître dans l'arborescence car cela rend plus "
+#~ "difficile la navigation au sein de votre document. Si vous devez utiliser "
+#~ "autant de niveaux de chapitres, c'est le signe que votre documentation "
+#~ "devrait être séparée en plusieurs pages."
+
+#~ msgid ""
+#~ "People can't navigate to your new page if they can't find it. Neither can "
+#~ "Sphinx. That's why you need to add new pages to Sphinx's table of "
+#~ "contents."
+#~ msgstr ""
+#~ "Les visiteurs ne peuvent pas accéder à votre nouvelle page s'ils ne "
+#~ "peuvent pas la trouver. Sphinx non plus. C'est pour quoi vous devez "
+#~ "ajouter de nouvelles pages au sommaire de Sphinx."
+
+#~ msgid ""
+#~ "It can have a yellow dot, i.e., \"pending\" then wait a few more seconds."
+#~ msgstr ""
+#~ "Il se peut qu'un point jaune apparaisse, c'est-à-dire « en attente ». "
+#~ "Dans ce cas, attendez quelques secondes de plus."
+
+#~ msgid ""
+#~ "Or it may have a red X, i.e., it failed. In this case please check why it "
+#~ "failed"
+#~ msgstr ""
+#~ "Ou bien il peut avoir une croix rouge, c'est-à-dire qu'elle a échoué. "
+#~ "Dans ce cas, veuillez vérifier pourquoi elle a échoué"
+
+#~ msgid "then \"Artifacts\" on the top right,"
+#~ msgstr "puis « Artefacts » en haut à droite,"
+
+#~ msgid "then \"_build/html/..index.html\","
+#~ msgstr "puis « _build/html/..index.html »,"
+
+#~ msgid "and finally on \"Go to start page\"."
+#~ msgstr "et enfin sur « Aller à la page de démarrage »."
+
+#~ msgid ""
+#~ "Now you can browse a complete build of the UBports docs site with your "
+#~ "contribution included. Double check whether your changes look ok."
+#~ msgstr ""
+#~ "Vous pouvez maintenant parcourir une version complète du site de la "
+#~ "documentation d'UBports avec votre contribution incluse. Vérifiez que vos "
+#~ "modifications sont correctes."
+
+#~ msgid "`Català <https://docs.ubports.com/ca/latest/>`_"
+#~ msgstr "`Catalan <https://docs.ubports.com/ca/latest/>`_"
+
+#~ msgid "`Français <https://docs.ubports.com/fr/latest/>`_"
+#~ msgstr "`Français <https://docs.ubports.com/fr/latest/>`_"
+
+#~ msgid "`Deutsch <https://docs.ubports.com/de/latest/>`_"
+#~ msgstr "`Allemand <https://docs.ubports.com/de/latest/>`_"
+
+#~ msgid "`Română <https://docs.ubports.com/ro/latest/>`_"
+#~ msgstr "`Roumain <https://docs.ubports.com/ro/latest/>`_"
+
+#~ msgid "`Русский <https://docs.ubports.com/ru/latest>`_"
+#~ msgstr "`Russe <https://docs.ubports.com/ru/latest>`_"
+
+#~ msgid "`Türkçe <https://docs.ubports.com/tr/latest/>`_"
+#~ msgstr "`Turc <https://docs.ubports.com/tr/latest/>`_"
+
+#~ msgid "`Español <https://docs.ubports.com/es/latest/>`_"
+#~ msgstr "`Espagnol <https://docs.ubports.com/es/latest/>`_"
+
+#~ msgid "`Simplified Chinese <https://docs.ubports.com/zh_CN/latest/>`_"
+#~ msgstr "`Chinois simplifié <https://docs.ubports.com/zh_CN/latest/>`_"
 
 #~ msgid ""
 #~ "This is the documentation for the UBports project. Our goal is to create "
