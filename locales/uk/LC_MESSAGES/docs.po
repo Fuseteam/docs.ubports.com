@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 23:07+0700\n"
-"PO-Revision-Date: 2025-06-24 13:04+0000\n"
+"PO-Revision-Date: 2025-06-25 14:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.13-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -405,17 +405,12 @@ msgid "Issue-Tracking Guidelines"
 msgstr "Рекомендації щодо виправлення помилок"
 
 #: ../../about/process/issue-tracking.rst:4
-#, fuzzy
-#| msgid ""
-#| "This document describes the standard process of dealing with new issues "
-#| "in UBports projects. (Not to be confused with the :doc:`guide on writing "
-#| "a good bugreport </contribute/bugreporting>`.)"
 msgid ""
 "This document describes the standard process of dealing with issues in "
 "UBports projects. (Not to be confused with the :doc:`guide on writing a good "
 "bugreport </contribute/bugreporting>`.)"
 msgstr ""
-"Цей документ описує стандартний процес роботи з новими проблемами в проєктах "
+"Цей документ описує стандартний процес роботи з проблемами в проєктах "
 "UBports. (Не плутайте з :doc:`настановою з написання гарного звіту про "
 "помилку </contribute/bugreporting>`.)"
 
@@ -430,23 +425,30 @@ msgid ""
 "Touch issues, and serves as an entry point for users to report issues "
 "they've encountered."
 msgstr ""
+"Основний реєстратор проблем для Ubuntu Touch — це `ubports/development/"
+"ubuntu-touch GitLab project`_. Цей проєкт містить записи щодо проблем Ubuntu "
+"Touch усіх рівнів та є точкою входу, де користувачі можуть звітувати про "
+"знайдені проблеми."
 
 #: ../../about/process/issue-tracking.rst:12
 msgid ""
 "Meanwhile, other projects in the group also have their issue trackers "
 "enabled too:"
 msgstr ""
+"Тим часом інші проєкти у групі також можуть мати власні реєстратори проблем:"
 
 #: ../../about/process/issue-tracking.rst:14
 msgid ""
 "Device-specific issues are tracked under each device's project under "
 "`ubports/porting`_ group."
 msgstr ""
+"Проблеми з певними пристроями реєструються у відповідному проєкті пристрою у "
+"підгрупі `ubports/porting`_."
 
 #: ../../about/process/issue-tracking.rst:15
 msgid ""
 "Core applications under `ubports/development/apps`_ track their own issues."
-msgstr ""
+msgstr "Основні програми записують свої проблеми у `ubports/development/apps`_."
 
 #: ../../about/process/issue-tracking.rst:16
 msgid ""
@@ -454,6 +456,9 @@ msgid ""
 "development/core`_ directly as well, if it's clear which component is "
 "responsible for an issue."
 msgstr ""
+"Системні проблеми можна також безпосередньо реєструвати до відповідного "
+"компонента (якщо зрозуміло, який компонент призводить до помилки) у `ubports/"
+"development/core`_."
 
 #: ../../about/process/issue-tracking.rst:18
 msgid ""
@@ -463,20 +468,17 @@ msgid ""
 "in ubports/development/ubuntu-touch project, they can be moved to the "
 "appropriate project."
 msgstr ""
+"GitLab дозволяє бачити `проблеми у групі`_, посилання на проблеми "
+"перехресних проєктів та проблеми обміну між проєктами, змушуючи весь проєкт "
+"реєструвати проблеми менш важливими. Якщо проблеми, які стосуються портів чи "
+"вебсайтів опинилися у проєкті ubports/development/ubuntu-touch, їх можна "
+"перемістити до відповідного проєкту."
 
 #: ../../about/process/issue-tracking.rst:27
 msgid "Labels"
 msgstr "Мітки"
 
 #: ../../about/process/issue-tracking.rst:29
-#, fuzzy
-#| msgid ""
-#| "All issues — even closed ones — should be labeled to allow use of "
-#| "GitHub's global filtering. For example, `these are all of the issues "
-#| "labeled 'enhancement' inside @ubports <https://github.com/search?"
-#| "utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+label%3A%22feature+request%22&type=>`_. "
-#| "Consult the `GitHub help pages <https://help.github.com/articles/about-"
-#| "searching-on-github/>`__ to learn more about searching and filtering."
 msgid ""
 "All issues — even closed ones — should be labeled to allow use of GitLab's "
 "filtering. For example, these are `issues labeled 'Kind: enhancement' inside "
@@ -484,11 +486,9 @@ msgid ""
 "about searching and filtering."
 msgstr ""
 "Усі проблеми — навіть закриті — повинні бути позначеними мітками для "
-"можливості використання глобальних фільтрів на GitHub. Напр., `усі проблеми "
-"з міткою 'enhancement' всередині @ubports <https://github.com/search?"
-"utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+label%3A%22feature+request%22&type=>`_. "
-"Для поглиблення знань щодо пошуку та фільтрів зверніться до `Довідки GitHub "
-"<https://help.github.com/articles/about-searching-on-github/>`__."
+"можливості використання фільтрів на GitLab. Напр., `проблеми з міткою 'Kind: "
+"enhancement' всередині ubports/development group`_. Для поглиблення знань "
+"щодо пошуку та фільтрів зверніться до `Довідки GitLab`_."
 
 #: ../../about/process/issue-tracking.rst:34
 msgid ""
@@ -496,83 +496,91 @@ msgid ""
 "(MRs) in GitLab share the same set of labels, some of the labels below might "
 "also apply to merge requests as well."
 msgstr ""
+"Наступні мітки використовуються всередині проєктів UBports. Оскільки запити "
+"на злиття (MR, merge requests) у GitLab мають однакові набори ярликів, деякі "
+"з ярликів можна також використовувати для запитів на злиття."
 
 #: ../../about/process/issue-tracking.rst:36 ../../appdev/webapp/index.rst:19
 #: ../../systemdev/kernel-hal.rst:57
 msgid "Todo"
-msgstr ""
+msgstr "to-do"
 
 #: ../../about/process/issue-tracking.rst:37
 msgid ""
 "Consider also writing a document about process of dealing with merge "
 "requests."
 msgstr ""
+"Розглянемо також написання документа щодо процесів із запитами на злиття."
 
 #: ../../about/process/issue-tracking.rst:39
 msgid "**Kind:** describe the nature of the issue"
-msgstr ""
+msgstr "**Kind:** описує природу проблеми"
 
 #: ../../about/process/issue-tracking.rst:40
 msgid ""
 "**Kind: bug**: this issue describes something that doesn't work correctly."
-msgstr ""
+msgstr "**Kind: bug**: ця проблема описує дещо, що працює неправильно."
 
 #: ../../about/process/issue-tracking.rst:41
-#, fuzzy
-#| msgid "**enhancement**: This issue is a feature request."
 msgid ""
 "**Kind: enhancement**: this issue is a feature request or describes "
 "something that can be improved."
-msgstr "**enhancement**: Ця проблема — це запит на додаткову функціональність."
+msgstr ""
+"**Kind: enhancement**: ця проблема — це запит на додаткову функціональність "
+"або описує дещо, що можна покращити."
 
 #: ../../about/process/issue-tracking.rst:42
 msgid ""
 "**Kind: maintenance**: this issue describes a technical debt; something we "
 "need to clean up."
 msgstr ""
+"**Kind: maintenance**: ця проблема описує технічну ваду; нам потрібно дещо "
+"очистити."
 
 #: ../../about/process/issue-tracking.rst:43
 msgid ""
 "**Kind: FTBFS**: this issue describes a \"Fails To Build From Source\" issue "
 "(`an accronym from Debian`_)."
 msgstr ""
+"**Kind: FTBFS**: ця проблема описує проблеми збірки з джерельного коду ("
+"\"Fails To Build From Source\") (`акронім з Debian`_)."
 
 #: ../../about/process/issue-tracking.rst:44
 msgid ""
 "**Kind: process**: this issue is a tracking issue for some process. For "
 "example, a process on releasing an Ubuntu Touch release."
 msgstr ""
+"**Kind: process**: ця проблема — це проблема реєстрації деяких процесів. "
+"Наприклад, процесу випуску релізу Ubuntu Touch."
 
 #: ../../about/process/issue-tracking.rst:45
-#, fuzzy
-#| msgid "**question**: This issue is a support request or general question."
 msgid ""
 "**Kind: question**: This issue is a support request or general question. It "
 "should be directed to forums instead."
 msgstr ""
-"**question**: Ця проблема є запитом на підтримку або загальним запитанням."
+"**Kind: question**: Ця проблема є запитом на підтримку або загальним "
+"запитанням. Замість цього можна перенаправити до форумів."
 
 #: ../../about/process/issue-tracking.rst:46
 msgid "**Needs:** describe some action that can/has to be done"
-msgstr ""
+msgstr "**Needs:** описує деякі дії які можна чи потрібно зробити"
 
 #: ../../about/process/issue-tracking.rst:47
 msgid ""
 "**Needs: help from community**: the maintainers currently don't have "
 "capacity to solve this issue and would like help from the community."
 msgstr ""
+"**Needs: help from community**: мейнтейнери (підтримка) зараз не мають "
+"ресурсів на розв'язання цієї проблеми та були б раді мати підтримку від "
+"спільноти."
 
 #: ../../about/process/issue-tracking.rst:48
-#, fuzzy
-#| msgid ""
-#| "**needs confirmation**: The bug needs confirmation and / or further "
-#| "detailing by affected users."
 msgid ""
 "**Needs: confirmation/more info**: the bug needs confirmation and / or "
 "further detailing by affected users."
 msgstr ""
-"**needs confirmation**: Баг потрібно підтвердити та / або отримати більше "
-"інформації від постраждалих користувачів."
+"**Needs: confirmation/more info**: Баг потрібно підтвердити та / або "
+"отримати більше інформації від постраждалих користувачів."
 
 #: ../../about/process/issue-tracking.rst:49
 msgid ""
@@ -580,34 +588,46 @@ msgid ""
 "a feedback from author after a review. This is different from **Needs: "
 "confirmation/more info** which is intended to be used on an issue."
 msgstr ""
+"**Needs: feedback from author**: використовується для позначення запитів на "
+"злиття, які вимагають відгуків від авторів після перегляду. Відрізняється "
+"від **Needs: confirmation/more info**, який призначений для опису проблем."
 
 #: ../../about/process/issue-tracking.rst:50
 msgid ""
 "**Needs: discussion**: it is not clear how to solve this issue and further "
 "discussion is required."
 msgstr ""
+"**Needs: discussion**: не зрозуміло як розв'язати цю проблему та необхідне "
+"обговорення."
 
 #: ../../about/process/issue-tracking.rst:51
 msgid ""
 "**Needs: rebase**: this merge request has to be rebased, but maintainers do "
 "not have a permission to push to the source branch."
 msgstr ""
+"**Needs: rebase**: цей запит на злиття повинен бути перероблений (rebased), "
+"але у підтримки (мейнтейнерів) немає дозволу на розміщення у джерельній "
+"гілці (push to the source branch)."
 
 #: ../../about/process/issue-tracking.rst:52
 msgid "**Severity:** how severe is the issue."
-msgstr ""
+msgstr "**Severity:** наскільки вагома проблема."
 
 #: ../../about/process/issue-tracking.rst:53
 msgid ""
 "**Severity: critical**: this issue is very severe and should block the "
 "rollout of the release (defined by its milestone)."
 msgstr ""
+"**Severity: critical**: ця проблема досить вагома та повинна блокувати "
+"випуск релізу (визначено його контрольною точкою)."
 
 #: ../../about/process/issue-tracking.rst:54
 msgid ""
 "**Area:** this issue is related to a certain area of Ubuntu Touch (e.g. HAL, "
 "middleware, UI). Labels of this prefix can be created as appropriate."
 msgstr ""
+"**Area:** ця проблема стосується певної області Ubuntu Touch (напр., HAL, "
+"middleware, UI). Можуть бути створені відповідні мітки цього префіксу."
 
 #: ../../about/process/issue-tracking.rst:55
 msgid ""
@@ -615,96 +635,106 @@ msgid ""
 "contact backend migration). Labels of this prefix can also be created as "
 "appropriate."
 msgstr ""
+"**Topic:** ця проблема стосується відповідних розділів (напр., VoLTE, фонова "
+"міграція контактів). Також можуть бути створені відповідні мітки цього "
+"префіксу."
 
 #: ../../about/process/issue-tracking.rst:56
 msgid ""
 "**Resolution:** used when the issue is closed for other reason than the "
 "issue being fixed."
 msgstr ""
+"**Resolution:** використовується, коли проблему закрито з причини, відмінної "
+"від вказаної."
 
 #: ../../about/process/issue-tracking.rst:57
 msgid ""
 "**Resolution: unable to confirm**: we are unable to reproduce the issue and "
 "not enough information is provided."
 msgstr ""
+"**Resolution: unable to confirm**: ми не змогли відтворити проблему та "
+"бракує інформації."
 
 #: ../../about/process/issue-tracking.rst:58
 msgid ""
 "**Resolution: not our bug**: the issue is not an issue in Ubuntu Touch, but "
 "rather is an issue in a third-party software installed by the user."
 msgstr ""
+"**Resolution: not our bug**: ця проблема не є проблемою в Ubuntu Touch, але "
+"скоріше проблемою сторонньої, встановленої користувачем, програми."
 
 #: ../../about/process/issue-tracking.rst:59
-#, fuzzy
-#| msgid ""
-#| "**wontfix**: A bug it does not make sense to fix, since it will probably "
-#| "resolve itself, be too much work, isn't fixable, or an underlying "
-#| "component will soon change."
 msgid ""
 "**Resolution: won't fix**: A bug it does not make sense to fix, since it "
 "will probably resolve itself, be too much work, isn't fixable, or an "
 "underlying component will soon change."
 msgstr ""
-"**wontfix**: Баг, виправлення якого не має сенсу, оскільки він може "
-"виправитися самостійно, потребує забагато праці, невиправний або ж основний "
-"компонент буде незабаром змінений."
+"**Resolution: won't fix**: Баг, виправлення якого не має сенсу, оскільки він "
+"може виправитися самостійно, вимагає забагато праці, невиправний або ж "
+"основний компонент буде незабаром змінений."
 
 #: ../../about/process/issue-tracking.rst:60
 msgid ""
 "**Resolution: work as intended**: The behavior described in the issue is the "
 "intended behavior of the software."
 msgstr ""
+"**Resolution: work as intended**: поведінка, описана у проблемі — "
+"передбачувана поведінка програмного забезпечення."
 
 #: ../../about/process/issue-tracking.rst:61
 msgid ""
 "**Status:** indicates the progress of the issue. This is primarily used to "
 "update GitLab's issue boards (see below)."
 msgstr ""
+"**Status:** показує хід розв'язання проблеми. В першу чергу використовується "
+"для оновлення панелі проблем GitLab (див. нижче)."
 
 #: ../../about/process/issue-tracking.rst:62
 msgid "**Status: in progress**: a developer is actively working on the issue."
-msgstr ""
+msgstr "**Status: in progress**: розробник активно працює над проблемою."
 
 #: ../../about/process/issue-tracking.rst:63
 msgid ""
 "**Status: blocked**: something else has to be solved outside of this issue "
 "before this issue can progress."
 msgstr ""
+"**Status: blocked**: перед продовженням потрібно розв'язати деякі питання "
+"зовні цієї проблеми."
 
 #: ../../about/process/issue-tracking.rst:64
 msgid "**Status: has MR**: a non-draft MR exists that will fix this issue."
 msgstr ""
+"**Status: has MR**: існує запит на злиття (MR), який розв'язує цю проблему."
 
 #: ../../about/process/issue-tracking.rst:65
 msgid ""
 "**Backport to: <branch name>**: used by the automation to automatically "
 "backport an MR to a stable release branches."
 msgstr ""
+"**Backport to: <branch name>**: використовується автоматизацією для "
+"автоматичних звітів щодо MR до гілок стабільного релізу."
 
 #: ../../about/process/issue-tracking.rst:66
 msgid "Miscellaneous labels"
-msgstr ""
+msgstr "Різні мітки"
 
 #: ../../about/process/issue-tracking.rst:67
-#, fuzzy
-#| msgid ""
-#| "**good first issue**: The report contains instructions or hints required "
-#| "to fix it. It is an excellent place for someone new to learn about the "
-#| "project by fixing a real issue."
 msgid ""
 "**Good first issue**: the report contains instructions or hints required to "
 "fix it. It is an excellent place for someone new to learn about the project "
 "by fixing a real issue."
 msgstr ""
-"**good first issue**: Ця проблема містить настанови або корисні пояснення "
-"для її виправлення. Це найкраще місця для новачків для ознайомлення з "
-"проєктом через виправлення справжніх проблем."
+"**Good first issue**: ця проблема містить настанови або корисні поради для "
+"її виправлення. Це найкраще місце для новачків для ознайомлення з проєктом "
+"через виправлення справжніх проблем."
 
 #: ../../about/process/issue-tracking.rst:68
 msgid ""
 "**Hotfix**: This MR/issue classifies for being included/resolved as part of "
 "a point release of Ubuntu Touch"
 msgstr ""
+"**Hotfix**: цей запит на злиття чи проблема розглядаються як можлива частина "
+"латки для релізу Ubuntu Touch"
 
 #: ../../about/process/issue-tracking.rst:71
 msgid ""
@@ -723,23 +753,32 @@ msgid ""
 "Milestones are used to define which release an issue targets. At a given "
 "time, up to 3 milestones are open:"
 msgstr ""
+"Контрольні точки використовуються для розуміння який реліз має проблему. "
+"Одночасно відкрито до трьох контрольних точок:"
 
 #: ../../about/process/issue-tracking.rst:81
 msgid ""
 "A milestone for the upcoming stable release e.g. 'Ubuntu Touch 24.04-1.1'."
 msgstr ""
+"Контрольна точка для найближчого стабільного релізу, напр., "
+"\"Ubuntu Touch 24.04-1.1\"."
 
 #: ../../about/process/issue-tracking.rst:82
 msgid ""
 "A milestone for the in development major release e.g. 'Ubuntu Touch "
 "24.04-2.0'."
 msgstr ""
+"Контрольна точка для старшої версії релізу у розробці, напр., "
+"\"Ubuntu Touch 24.04-2.0\"."
 
 #: ../../about/process/issue-tracking.rst:83
 msgid ""
 "Onec the in development release enters a stabilization phase, a milestone "
 "for the next major release (e.g. 'Ubuntu Touch 24.04-3.0') can be created."
 msgstr ""
+"Як тільки розробка релізу виходить на стабільну фазу, можна створити "
+"контрольну точку для наступної старшої версії випуску (напр., "
+"\"Ubuntu Touch 24.04-3.0\")."
 
 #: ../../about/process/issue-tracking.rst:85
 msgid ""
@@ -747,19 +786,15 @@ msgid ""
 "an overflowing milestone makes the milestone not as useful as it could be in "
 "tracking progress of a release."
 msgstr ""
+"Розробникам рекомендовано уникати призначення великої кількості проблем до "
+"контрольних точок, оскільки перевантаження контрольних точок призводить до "
+"втрачання сенсу використання їх у відстеженні прогресу щодо випуску."
 
 #: ../../about/process/issue-tracking.rst:88
 msgid "Assignees"
 msgstr "Призначені"
 
 #: ../../about/process/issue-tracking.rst:90
-#, fuzzy
-#| msgid ""
-#| "To make it transparent who's working on an issue, the developer should be "
-#| "assigned. This also allows the use of GitHub's global filtering as a type "
-#| "of TODO list. For example, `this is everything assigned to mariogrip in "
-#| "@ubports <https://github.com/search?"
-#| "utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>`_."
 msgid ""
 "To make it transparent who's working on an issue, the developer should be "
 "assigned. This also allows the use of GitHub's global filtering as a type of "
@@ -767,9 +802,7 @@ msgid ""
 msgstr ""
 "Для прозорості розуміння, хто працює над проблемою, розробник повинен бути "
 "призначений. Це також дозволяє використовувати глобальний фільтр Github за "
-"списком завдань (TODO list) Наприклад, `це все розподілене на mariogrip у "
-"@ubports <https://github.com/search?"
-"utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>`_."
+"списком завдань (TODO list)."
 
 #: ../../about/process/issue-tracking.rst:94
 msgid ""
@@ -781,7 +814,7 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:97
 msgid "GitLab issue board"
-msgstr ""
+msgstr "Панель проблем GitLab"
 
 #: ../../about/process/issue-tracking.rst:99
 msgid ""
@@ -936,15 +969,6 @@ msgid "Security vulnerabilities"
 msgstr "Вразливості безпеки"
 
 #: ../../about/process/security-vulnerabilities.rst:4
-#, fuzzy
-#| msgid ""
-#| "We take security vulnerabilities seriously. If you've found one, the best "
-#| "way to report it is to create a confidential issue on our `bug tracker "
-#| "<https://gitlab.com/ubports/ubuntu-touch>`_. Make sure you select \"This "
-#| "issue is confidential and should only be visible to team members with at "
-#| "least Reporter access\" when creating the issue. After that, we'll get to "
-#| "work with the reported issue. We might contact you via the issue if there "
-#| "is additional information needed. And we'll determine the disclosure."
 msgid ""
 "We take security vulnerabilities seriously. If you've found one, the best "
 "way to report it is to create a confidential issue on our `bug tracker "
@@ -955,13 +979,14 @@ msgid ""
 "issue if there is additional information needed. And we'll determine the "
 "disclosure."
 msgstr ""
-"Ми серйозно ставимося до вразливостей безпеки. Якщо десь зустрінете, "
+"Ми серйозно ставимося до вразливостей безпеки. Якщо десь їх зустрінете, "
 "найкраще повідомити про це через створення відповідного запиту на `баг-"
-"трекері <https://gitlab.com/ubports/ubuntu-touch>`_. Переконайтеся, що під "
-"створення запиту / заявки Ви обрали \"Це питання є конфіденційним і повинно "
-"бути видиме лише членам команди з принаймні доступом до Звітів\". Після "
-"цього ми почнемо працювати над проблемою. Можливо, хтось до Вас звернеться "
-"за деякими уточненнями і ми визначимо рівень впливу."
+"трекері <https://gitlab.com/ubports/development/ubuntu-touch>`_. "
+"Переконайтеся, що під час створення запиту / заявки Ви обрали \"Це питання є "
+"конфіденційним і повинно бути видиме лише членам команди з принаймні "
+"доступом до Звітів\". Після цього ми почнемо працювати над проблемою. "
+"Можливо, хтось до Вас звернеться за деякими уточненнями і ми визначимо "
+"рівень впливу."
 
 #: ../../about/process/security-vulnerabilities.rst:7
 msgid "How to handle a security fix"
@@ -3398,13 +3423,6 @@ msgid "Maintainers wanted"
 msgstr "Потрібна підтримка"
 
 #: ../../appdev/index.rst:66
-#, fuzzy
-#| msgid ""
-#| "All apps love contributions. But some core apps are lacking maintainers. "
-#| "Please check the `list of core apps <https://gitlab.com/ubports/ubuntu-"
-#| "touch/-/blob/master/CORE_APPS.md>`_ and see if you want to step up as new "
-#| "maintainer for one of our core apps. The maintainer reviews MR's, triages "
-#| "and investigates issue reports and helps to develop the app."
 msgid ""
 "All apps love contributions. But some core apps are lacking maintainers. "
 "Please check the `list of core apps <https://gitlab.com/ubports/development/"
@@ -3414,10 +3432,10 @@ msgid ""
 msgstr ""
 "Усі програми люблять внески. Але деяким основним програмам бракує підтримки. "
 "Перевірте, будь ласка, `перелік основних програм <https://gitlab.com/ubports/"
-"ubuntu-touch/-/blob/master/CORE_APPS.md>`_ та подивіться чи не хочете Ви "
-"долучитися до обслуговування однієї з наших основних програм. Такий "
-"\"доглядач\" перевіряє MR (запити на злиття), сортує та досліджує звіти щодо "
-"проблем та допомагає розробляти програму."
+"development/ubuntu-touch/-/blob/master/CORE_APPS.md>`_ та подивіться чи не "
+"хочете Ви долучитися до обслуговування однієї з наших основних програм. "
+"Такий \"доглядач\" перевіряє MR (запити на злиття), сортує та досліджує "
+"звіти щодо проблем та допомагає розробляти програму."
 
 #: ../../appdev/index.rst:68
 msgid ""
@@ -4556,10 +4574,14 @@ msgid ""
 "subdomain and subpages, including back to the starting URL (https://www."
 "ubuntu.com) and its subpages."
 msgstr ""
+"Підказка: Зірочка замість піддомена замінює собою будь-який дійсний "
+"піддомен. Цей шаблон корисний, коли потрібно мати доступ до усіх піддоменів "
+"та їх сторінок, включно з поверненням до початкової адреси "
+"(https://www.ubuntu.com) та сторінок цього домену."
 
 #: ../../appdev/webapp/guide.rst:116
 msgid "Adding http"
-msgstr ""
+msgstr "Додавання http"
 
 #: ../../appdev/webapp/guide.rst:118
 msgid ""
@@ -4568,26 +4590,34 @@ msgid ""
 "launchpad.net on both https and http inside the webapp (and all subpages due "
 "to the wildcard):::"
 msgstr ""
+"Іноді сайти використовують для деяких сторінок http. Загалом це не дуже "
+"безпечно і краще цього уникати, але у прикладі можна побачити як з webapp "
+"надається доступ до www.launchpad.net через https та http (та до усіх "
+"сторінок через маску):::"
 
 #: ../../appdev/webapp/guide.rst:122
 msgid ""
 "Note: the question mark in https?. This means the preceding character (the "
 "‘s’) is optional. If https is always required, omit the question mark."
 msgstr ""
+"Підказка: Знак питання у https?. Це значить, що попередній символ (s) — не "
+"обов'язковий. Якщо https необхідний завжди, знак питання ставити не потрібно."
 
 #: ../../appdev/webapp/guide.rst:125
 msgid "Command line arguments"
-msgstr ""
+msgstr "Параметри командного рядка"
 
 #: ../../appdev/webapp/guide.rst:127
 msgid ""
 "The webapp-container accepts many options to fine tune how it hosts various "
 "web applications."
 msgstr ""
+"Контейнер webapp приймає різні параметри для точного налаштування, як "
+"запускати різні веб-додатки."
 
 #: ../../appdev/webapp/guide.rst:129
 msgid "See all help with:::"
-msgstr ""
+msgstr "Уся довідка доступна з:::"
 
 #: ../../appdev/webapp/guide.rst:133
 msgid "Note: Only the following options apply to converged Ubuntu.::"
@@ -8143,16 +8173,14 @@ msgid "You may view this documentation in the following languages:"
 msgstr ""
 
 #: ../../index.rst:18
-#, fuzzy
-#| msgid "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
 msgid "`English <https://docs.ubports.com/en>`_"
-msgstr "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
+msgstr ""
+"`English <https://docs.ubports.com/en>`_\n"
+"`Українська <https://docs.ubports.com/uk>`_"
 
 #: ../../index.rst:19
-#, fuzzy
-#| msgid "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
 msgid "`Tamil <https://docs.ubports.com/ta>`_"
-msgstr "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
+msgstr "`Tamil <https://docs.ubports.com/ta>`_"
 
 #: ../../index.rst:21
 msgid ""
