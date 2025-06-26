@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 23:07+0700\n"
-"PO-Revision-Date: 2025-06-25 14:01+0000\n"
+"PO-Revision-Date: 2025-06-26 14:09+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -824,10 +824,16 @@ msgid ""
 "columns for opened issues without **Status:** label (which indicate that the "
 "issue has not been started yet) and closed issues."
 msgstr ""
+"Ми використовуємо панелі проблем GitLab для візуалізації перебігу "
+"розв'язання проблем в кожній контрольній точці. Панелі — т.з. дошки канбан "
+"(kanban), де кожен стовпчик відповідає мітці статусів (в процесі, "
+"заблоковано, має MR (запит на злиття)) з додатковими стовпчиками для "
+"відкритих проблем без статусних міток (тобто, проблеми ще не розглядалися) "
+"та окремо для закритих."
 
 #: ../../about/process/issue-tracking.rst:102
 msgid "GitLab epic"
-msgstr ""
+msgstr "Епос GitLab"
 
 #: ../../about/process/issue-tracking.rst:104
 msgid ""
@@ -835,10 +841,13 @@ msgid ""
 "milestones/releases. This helps organizing some long-term goals which are "
 "too large to implement at once."
 msgstr ""
+"Ми використовуємо епоси Gitlab для позначення тем, які можуть охоплювати "
+"окремі або сукупні контрольні точки/випуски. Це допомагає організувати деякі "
+"довгострокові цілі, які занадто великі, щоб охопити все одразу."
 
 #: ../../about/process/issue-tracking.rst:107
 msgid "How labels, milestone etc. are being used?"
-msgstr ""
+msgstr "Як використовуються мітки, контрольні точки та інше?"
 
 #: ../../about/process/issue-tracking.rst:109
 msgid ""
@@ -846,6 +855,9 @@ msgid ""
 "efficiently communicate with the reporter, other developers, and interested "
 "parties. They could be use in a few ways:"
 msgstr ""
+"Подумайте про мітки, контрольні точки та інші поля як про інструменти, з "
+"якими можна ефективно комунікувати із заявниками, іншими розробниками, "
+"іншими зацікавленими. Це можна використовувати у різний спосіб:"
 
 #: ../../about/process/issue-tracking.rst:111
 msgid ""
@@ -855,6 +867,10 @@ msgid ""
 "issue has \"needs discussion\" label, and decide to jump in to give their 2 "
 "cents."
 msgstr ""
+"Оскільки ці поля з’являються у списку проблем, це допомагає швидко зрозуміти "
+"у чому саме питання, допомагаючи розробникам швидко зрозуміти проблему. "
+"Наприклад, розробник може побачити проблему у списку, та якщо там буде мітка "
+"\"потребує обговорення\", він зможе вставити свої п'ять копійок."
 
 #: ../../about/process/issue-tracking.rst:112
 msgid ""
@@ -862,6 +878,10 @@ msgid ""
 "community member wanting to contribute into confirming issues can filter "
 "only issues with \"needs confirmation\" label and start jumping in."
 msgstr ""
+"Поле можна використовувати для відбору цікавих проблем. Наприклад, якщо "
+"учасник спільноти хоче долучитися до підтвердження проблем, він може "
+"відібрати їх з фільтром за міткою \"потрібне підтвердження\" (needs "
+"confirmation)."
 
 #: ../../about/process/issue-tracking.rst:113
 msgid ""
@@ -870,6 +890,10 @@ msgid ""
 "filter out \"Kind: process\" label (used for e.g. tracking issue for a "
 "release)."
 msgstr ""
+"Так само через фільтр можна відкидати нецікаві проблеми. Наприклад, якщо "
+"розробник хоче знайти цікаву для себе проблему, над якою міг би попрацювати, "
+"можна скористатися фільтром з міткою \"Вид: процес\" (Kind: process) ("
+"використовується, напр., для проблем реєстрації процесів)."
 
 #: ../../about/process/issue-tracking.rst:115
 msgid ""
@@ -878,6 +902,10 @@ msgid ""
 "on an issue. This will help comminicating what has been done on the issue, "
 "and also help summarizing the issue for quicker understanding."
 msgstr ""
+"Оскільки не завжди є хтось конкретний, хто може сортувати проблеми та "
+"встановлювати на них мітки, розробникам рекомендується встановлювати всі ці "
+"поля під час роботи над проблемою. Це допоможе співпрацювати над тим, що вже "
+"було зроблено та допоможе узагальнити проблему для швидшого розуміння."
 
 #: ../../about/process/release-schedule.rst:2
 msgid "Release Schedule"
@@ -2833,13 +2861,15 @@ msgstr "Якщо true — показувати лічильник, false — д�
 #: ../../userguide/advanceduse/screencasting.rst:74
 #: ../../userguide/advanceduse/ssh.rst:91
 msgid "References"
-msgstr ""
+msgstr "Джерела"
 
 #: ../../appdev/guides/pushnotifications.rst:285
 msgid ""
 "See the documentation of the `Lomiri Push Service <https://gitlab.com/"
 "ubports/development/core/lomiri-push-service/-/tree/main/docs>`_."
 msgstr ""
+"Перегляньте документацію `Lomiri Push Service <https://gitlab.com/ubports/"
+"development/core/lomiri-push-service/-/tree/main/docs>`_."
 
 #: ../../appdev/guides/user-metrics.rst:2
 msgid "User Metrics"
@@ -4566,6 +4596,9 @@ msgid ""
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
+"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є "
+"design.ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
+"піддоменів через маску замість назви піддомена:::"
 
 #: ../../appdev/webapp/guide.rst:113
 msgid ""
@@ -4621,21 +4654,23 @@ msgstr "Уся довідка доступна з:::"
 
 #: ../../appdev/webapp/guide.rst:133
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr ""
+msgstr "Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
 
 #: ../../appdev/webapp/guide.rst:147
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
-msgstr ""
+msgstr "Параметри Chrome (стандартно, якщо порожньо, Chrome не зображується):::"
 
 #: ../../appdev/webapp/guide.rst:152
 msgid ""
 "Note: The other available options are specific to desktop webapps. It is "
 "recommended to not use them anymore."
 msgstr ""
+"Підказка: Інші доступні параметри для програм webapp робочого столу. "
+"Рекомендовано їх більше не використовувати."
 
 #: ../../appdev/webapp/guide.rst:155
 msgid "User-Agent string override"
-msgstr ""
+msgstr "Змінити визначення User-Agent"
 
 #: ../../appdev/webapp/guide.rst:157
 msgid ""
@@ -4644,14 +4679,20 @@ msgid ""
 "While not a recommended practice, it is sometimes necessary to change the "
 "default string sent by the webapp container."
 msgstr ""
+"Деякі вебсайти перевіряють різні елементи ідентифікації веббраузерів, такі "
+"як User-Agent, для гнучкого налаштування відтворення або увімкнення певних "
+"функцій. В той час як це не є рекомендованою практикою, іноді з'являється "
+"необхідність змінити типові налаштування контейнера webapp."
 
 #: ../../appdev/webapp/guide.rst:159
 msgid "To change the string from the command line, use the following option:::"
 msgstr ""
+"Для зміни цього параметру у командному рядку, використовуйте наступний "
+"параметр:::"
 
 #: ../../appdev/webapp/guide.rst:164
 msgid "Browser data containment"
-msgstr ""
+msgstr "Ізоляція даних браузера"
 
 #: ../../appdev/webapp/guide.rst:166
 msgid ""
