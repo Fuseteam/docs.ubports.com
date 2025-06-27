@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 23:07+0700\n"
-"PO-Revision-Date: 2025-06-26 14:09+0000\n"
+"PO-Revision-Date: 2025-06-28 13:06+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -4701,10 +4701,14 @@ msgid ""
 "browser, such as history, cookies and so on. Other browsers on the system do "
 "not access the webapp’s data."
 msgstr ""
+"Досвід webapp міститься та ізолюється з огляду на дані браузера. Це значить, "
+"що webapp не має доступу до даних з будь-якого іншого встановленого "
+"браузера, таких як історія, cookie тощо. Інші браузери у системі не "
+"отримують доступ до даних webapp."
 
 #: ../../appdev/webapp/guide.rst:169
 msgid "Storage"
-msgstr ""
+msgstr "Сховище"
 
 #: ../../appdev/webapp/guide.rst:171
 msgid ""
@@ -4712,22 +4716,29 @@ msgid ""
 "and the deprecated WebSQL. FileSystem API is not supported because apps "
 "cannot access the filesystem directly."
 msgstr ""
+"Підтримують наступні параметри сховища: Local/Session Storage, IndexedDB та "
+"застарілий WebSQL. До того ж API файлової системи не підтримується, оскільки "
+"додатки не мають прямого доступу до файлової системи."
 
 #: ../../appdev/webapp/index.rst:4
 msgid "Web apps"
-msgstr ""
+msgstr "Веб-додатки"
 
 #: ../../appdev/webapp/index.rst:6
 msgid ""
 "Ubuntu Webapps can be a nice way to deliver online web applications into "
 "Ubuntu."
 msgstr ""
+"Веб-додатки Ubuntu можуть бути гарним шляхом створення онлайн-додатків в "
+"Ubuntu."
 
 #: ../../appdev/webapp/index.rst:8
 msgid ""
 "The Ubuntu platform provides an advanced web engine container to run online "
 "applications on the Ubuntu client devices."
 msgstr ""
+"Платформа Ubuntu забезпечує просунуті вебконтейнери для запуску онлайн-"
+"програм на клієнтських пристроях Ubuntu."
 
 #: ../../appdev/webapp/index.rst:10
 msgid ""
@@ -4736,6 +4747,9 @@ msgid ""
 "also have a rich user interface or use the WebGL extension to deliver games "
 "online."
 msgstr ""
+"Вебдодатки розміщуються онлайн. Вони можуть бути просто вебсайтами, сайтами "
+"з новинами, відеокаталогами. Вони також можуть мати вишуканий інтерфейс або "
+"використовувати доповнення WebGL для забезпечення доступу до онлайн-ігор."
 
 #: ../../appdev/webapp/index.rst:13
 msgid ""
@@ -4744,6 +4758,10 @@ msgid ""
 "whereas HTML5 apps install their content (and usually provide an Ubuntu "
 "HTML5 GUI). Webapps also have restricted access to platform APIs."
 msgstr ""
+"Контейнери Ubuntu та вебпрограми HTML5 схожі, але різні. Основна відмінність "
+"полягає в тому, що зміст webapp передається через посилання, а додатки HTML5 "
+"користуються своїм змістом (та зазвичай працюють з Ubuntu HTML5 GUI). "
+"Контейнери webapp, крім того, мають обмежений доступ до API платформи."
 
 #: ../../appdev/webapp/index.rst:17
 msgid ""
@@ -4751,6 +4769,9 @@ msgid ""
 "create shortcuts directly yourself with `webber app <https://open-store.io/"
 "app/webber.timsueberkrueb>`__."
 msgstr ""
+"Альтернатива до webapps розміщених в \"Open Store\" це просто створити "
+"ярлики за допомогою `webber app <https://open-store.io/app/"
+"webber.timsueberkrueb>`__."
 
 #: ../../appdev/webapp/index.rst:21
 msgid ""
@@ -4763,38 +4784,51 @@ msgid ""
 "salta>`__ from Mateo Salta which has quite some modifications on top of the "
 "template."
 msgstr ""
+"Є також інший спосіб створити дещо ефективніше за контейнери webapp, що "
+"іноді називають webapp+ або альтернативним контейнером. Це вимагає належного "
+"документування. Webapp+ є простим додатком qml та легко налаштовується. "
+"Створення таке просте, як і класичний контейнер webapp, але результат "
+"потужніший та з чудовими можливостями навігації. Доволі непоганий приклад "
+"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-salta>`"
+" __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
 
 #: ../../appdev/webapp/index.rst:28
 msgid "Guide"
-msgstr ""
+msgstr "Настанови"
 
 #: ../../appdev/webapp/index.rst:39
 msgid ""
 "There are several tools to help you package and deploy your webapp to your "
 "device:"
 msgstr ""
+"Існує декілька інструментів, які допоможуть Вам упакувати та встановити "
+"webapp на Ваш пристрій:"
 
 #: ../../appdev/webapp/index.rst:41
 msgid ""
 "`Webapp creator <https://open-store.io/app/webapp-creator.jujuyeh>`_ "
 "application available from the openstore"
 msgstr ""
+"Програма `Webapp creator <https://open-store.io/app/webapp-creator.jujuyeh>`"
+"_ доступна в Open Store"
 
 #: ../../appdev/webapp/index.rst:42
 msgid "`Clickable <https://clickable-ut.dev>`_ CLI"
-msgstr ""
+msgstr "`Clickable <https://clickable-ut.dev>`_ CLI"
 
 #: ../../appdev/webapp/index.rst:46
 msgid "Debugging your webapp"
-msgstr ""
+msgstr "Налагодження Вашого webapp"
 
 #: ../../appdev/webapp/index.rst:48
 msgid "This guide give you some tips to help you debug your webapp."
 msgstr ""
+"У цій настанові можна знайти деякі підказки, які допоможуть з налагодженням "
+"webapp."
 
 #: ../../appdev/webapp/webdebug.rst:2
 msgid "Debug webapps"
-msgstr ""
+msgstr "Налагодження контейнерів webapp"
 
 #: ../../appdev/webapp/webdebug.rst:4
 msgid ""
@@ -4803,22 +4837,30 @@ msgid ""
 "modern web standards, and most webapps will just work without further "
 "changes."
 msgstr ""
+"Більшість веброзробників, ймовірно, захочуть зробити більшу частину свого "
+"кодування та налагодження у звичайному середовищі браузера. Браузер Ubuntu "
+"Touch відповідає сучасним вебстандартам і більшість контейнерів webapp "
+"працюватимуть без додаткових змін."
 
 #: ../../appdev/webapp/webdebug.rst:6
 msgid ""
 "For those (hopefully) rare cases where further debugging is needed, there "
 "are two ways to gain further information on the failure."
 msgstr ""
+"Для тих (сподіваємося) поодиноких випадків, коли потрібне налагодження, "
+"існує дві можливості отримати інформацію щодо помилки."
 
 #: ../../appdev/webapp/webdebug.rst:9
 msgid "Watch the logs"
-msgstr ""
+msgstr "Перегляньте журнали"
 
 #: ../../appdev/webapp/webdebug.rst:11
 msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
 msgstr ""
+"Якщо Ви почуваєтеся комфортно у командному рядку, більшість помилок "
+"Javascript записуються до журналу програми::"
 
 #: ../../appdev/webapp/webdebug.rst:15
 msgid ""
