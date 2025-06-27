@@ -24,3 +24,4 @@ As you go along, it can be helpful to have a list of device functions to go by w
    Sound
    Bluetooth
    USBModed
+   Fscrypt
