@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 23:07+0700\n"
-"PO-Revision-Date: 2025-06-28 13:06+0000\n"
-"Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
+"PO-Revision-Date: 2025-06-30 10:01+0000\n"
+"Last-Translator: Viral <zahannsr@outlook.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/ru/>\n"
 "Language: ru\n"
@@ -29,6 +29,9 @@ msgid ""
 "Our goal is to create a copylefted libre mobile operating system. One you "
 "can use, study, change and share; with all."
 msgstr ""
+"Наша цель — создать свободную мобильную операционную систему с копилефтом. "
+"Такую, которую вы сможете использовать, изучать, изменять и делиться ею со "
+"всеми."
 
 #: ../../about/introduction.rst:7
 msgid "About UBports"
@@ -47,7 +50,6 @@ msgstr ""
 "мобильных устройств."
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -57,11 +59,11 @@ msgid ""
 "formalised as a charitable foundation."
 msgstr ""
 "После того, как в апреле 2017 года компания Canonical внезапно `объявила о "
-"своих планах прекратить поддержку Ubuntu Touch <https://insights.ubuntu."
-"com/2017/04/05/growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-"
-"convergence/>`_, сообщество UBports и входящие в него группы разработчиков "
-"начали работу над открытыми исходными кодами системы, поддержкой пакетов и "
-"новыми перспективными опциями."
+"своих планах прекратить поддержку Ubuntu Touch <https://insights.ubuntu.com/"
+"2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_, "
+"сообщество UBports и входящие в него группы разработчиков начали работу над "
+"исходными кодами системы, поддержкой пакетов и новыми перспективными опциями."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
@@ -165,14 +167,18 @@ msgid ""
 "our CI automatically build our Git repositories into a number of APT "
 "archives hosted at http://repo.ubports.com/, according to the branch name."
 msgstr ""
+"Чтобы помочь нам максимально упростить доставку нашего кода в Ubuntu Touch, "
+"наш CI автоматически создает наши репозитории Git в ряде архивов APT, "
+"размещенных по адресу http://repo.ubports.com/, в соответствии с именем "
+"ветки."
 
 #: ../../about/process/branch-naming.rst:18
 msgid "We maintain the following branches across Git repositories:"
-msgstr ""
+msgstr "В репозиториях Git мы поддерживаем следующие ветки:"
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
-msgstr ""
+msgstr "Ветки Git"
 
 #: ../../about/process/branch-naming.rst:22
 #: ../../appdev/guides/pushnotifications.rst:170
@@ -191,17 +197,17 @@ msgstr "Описание"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "Соответствующие APT-архивы"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
 #: ../../porting/configure_test_fix/device_info/index.rst:43
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: ../../about/process/branch-naming.rst:23
 msgid "Base distro"
-msgstr ""
+msgstr "Базовый дистрибутив"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``main``, ``ubports/latest``"
@@ -219,7 +225,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:25
 msgid "Latest or upcoming Ubuntu LTS."
-msgstr ""
+msgstr "Последняя или предстоящая версия Ubuntu LTS."
 
 #: ../../about/process/branch-naming.rst:28
 msgid "``devel-debian``"
