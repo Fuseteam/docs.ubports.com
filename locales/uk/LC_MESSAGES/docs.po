@@ -5182,21 +5182,24 @@ msgstr ""
 
 #: ../../contribute/code.rst:28
 msgid "In particular, we want to make sure the change:"
-msgstr "Особливо, ми хочемо переконатися у виконанні змін:"
+msgstr "Особливо, ми хочемо переконатися, що зміни:"
 
 #: ../../contribute/code.rst:30
 msgid "meets its own goals, such as adding a feature or fixing a bug"
 msgstr ""
+"відповідають власним цілям, таким як додавання функцій або виправлення "
+"помилок"
 
 #: ../../contribute/code.rst:31
 msgid "does not cause any unexpected behavior"
-msgstr ""
+msgstr "не стануть причиною якоїсь неочікуваної поведінки"
 
 #: ../../contribute/code.rst:32
 msgid ""
 "makes it easy for someone to make further changes to the software in the "
 "future"
 msgstr ""
+"допоможуть комусь у майбутньому робити зміни в програмі в зручний спосіб"
 
 #: ../../contribute/code.rst:35
 msgid ""
@@ -5204,6 +5207,9 @@ msgid ""
 "changes to Ubuntu Touch. Following these rules makes the review process "
 "easier for you and us."
 msgstr ""
+"Правила на цій сторінці пояснюють, як потрібно писати та оформлювати свої "
+"зміни до Ubuntu Touch. Дотримання цих правил спрощує процес перевірки для "
+"Вас і для нас."
 
 #: ../../contribute/code.rst:37
 msgid ""
@@ -5211,6 +5217,9 @@ msgid ""
 "whether you follow the rules. If you break a rule, make sure you can explain "
 "why."
 msgstr ""
+"Ці правила не є абсолютними і ми не будемо автоматично відхиляти Вашу "
+"пропозицію змін на основі того, чи дотримуєтесь Ви правил. Якщо не "
+"дотримуєтеся, то переконайтеся, що зможете пояснити, чому."
 
 #: ../../contribute/code.rst:40
 msgid "Code change checklist"
