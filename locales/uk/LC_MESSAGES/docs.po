@@ -5173,7 +5173,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:7
 msgid "Assumptions"
-msgstr "Призначення собі"
+msgstr "Застереження"
 
 #: ../../contribute/code.rst:9
 msgid ""
@@ -5183,6 +5183,11 @@ msgid ""
 "applications, see the :doc:`/appdev/index` or :doc:`/contribute/preinstalled-"
 "apps` sections."
 msgstr ""
+"Ця сторінка не містить інформації про те як створювати програми або "
+"удосконалювати Ubuntu Touch. Інформацію про те як розробляти компоненти "
+"Ubuntu Touch можна знайти у розділі :doc:`/systemdev/index. Про розробку "
+"програм написано у розділах :doc:`/appdev/index` та :doc:`/contribute/"
+"preinstalled-apps`."
 
 #: ../../contribute/code.rst:11
 msgid ""
@@ -5190,36 +5195,45 @@ msgid ""
 "them, push them to GitHub or Gitlab as needed, fork a repository, and make a "
 "Pull Request (PR) on GitHub or Merge Request (MR) on GitLab."
 msgstr ""
+"Ця сторінка передбачає, що Ви знаєте, як записати свої зміни, як "
+"використовувати Git для їх долучення, як в разі необхідності пушити їх до "
+"Github або Gitlab, відгалужувати (форк) репозиторій та як подавати запит на "
+"злиття (PR) до GitHub або запит на злиття (MR) до GitLab."
 
 #: ../../contribute/code.rst:14
 msgid "Definitions"
-msgstr ""
+msgstr "Визначення"
 
 #: ../../contribute/code.rst:16
 msgid ""
 "Since we use GitHub and GitLab for our code hosting depending on the "
 "component, we use some terms interchangeably in this document."
 msgstr ""
+"Оскільки ми використовуємо GitHub або GitLab для нашого хостингу коду "
+"залежно від компонента, деякі терміни в цьому документі ми використовуємо "
+"взаємозамінно."
 
 #: ../../contribute/code.rst:18
 msgid "changeset"
-msgstr ""
+msgstr "набір змін"
 
 #: ../../contribute/code.rst:19
 msgid "A GitHub Pull Request (PR) or GitLab Merge Request (MR)."
 msgstr ""
+"Запит на злиття на GitHub (Pull Request, PR) або на GitLab (Merge Request, "
+"MR)."
 
 #: ../../contribute/code.rst:20
 msgid "issue report"
-msgstr ""
+msgstr "звіт про помилку"
 
 #: ../../contribute/code.rst:21
 msgid "A GitHub or GitLab Issue."
-msgstr ""
+msgstr "Проблема (Issue) на GitHub або на GitLab."
 
 #: ../../contribute/code.rst:24
 msgid "Reasoning"
-msgstr ""
+msgstr "Пояснення"
 
 #: ../../contribute/code.rst:26
 msgid ""
@@ -5276,17 +5290,19 @@ msgstr ""
 
 #: ../../contribute/code.rst:40
 msgid "Code change checklist"
-msgstr ""
+msgstr "Контрольний список для змін у коді"
 
 #: ../../contribute/code.rst:42
 msgid ""
 "Keep this checklist in mind while writing your code and as you prepare to "
 "commit your changes."
 msgstr ""
+"Пам'ятайте про контрольний список під час написання свого коду та підготовки "
+"до надсилання своїх змін."
 
 #: ../../contribute/code.rst:45
 msgid "Do not commit commented code"
-msgstr ""
+msgstr "Не надсилайте код з коментарями"
 
 #: ../../contribute/code.rst:47
 msgid ""
@@ -5298,10 +5314,18 @@ msgid ""
 "consider whether filing an issue report referencing the broken code or TODO "
 "item would be better."
 msgstr ""
+"Як усі розробники, ми часто залишаємо у своєму коді коментарі, які "
+"допомагають в розумінні коду (напр., вивід у консолі повідомлень журналу). "
+"Переконайтеся, що Ви не залишили **жодних** коментарів у своїх запитах на "
+"зміни (комітах). Якщо відчуваєте, що є стійка необхідність відступити від "
+"правила, переконайтеся, що є пояснення чому цей коментар залишений в коді. "
+"Наприклад, можна використати такі додаткові коментарі: ``// TODO:`` чи ``// "
+"FIXME:``, залежно від того чи це звіт про помилку в самому коді чи це порада "
+"що саме ЗРОБИТИ в коді."
 
 #: ../../contribute/code.rst:50
 msgid "Write tests for your changes"
-msgstr ""
+msgstr "Напишіть тести до своїх змін"
 
 #: ../../contribute/code.rst:52
 msgid ""
