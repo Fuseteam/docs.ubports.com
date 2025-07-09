@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 23:07+0700\n"
-"PO-Revision-Date: 2025-07-01 23:01+0000\n"
+"PO-Revision-Date: 2025-07-10 12:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -4983,16 +4983,21 @@ msgid ""
 "Reaction\" button (it looks like a smiley face) and select the +1 (thumbs "
 "up) reaction. This shows that you are also experiencing the bug."
 msgstr ""
+"Якщо Ви знайшли наявний звіт про помилку, виберіть кнопку \"Додати реакцію\" "
+"(вона виглядає як смайл) та оберіть реакцію +1 (великий палець вгору). Це "
+"буде знаком, що Ви також зіткнулися з такою самою проблемою."
 
 #: ../../contribute/bugreporting.rst:23
 msgid ""
 "If the report is missing any of the information specified later in this "
 "document, please add it yourself to help the developers fix the bug."
 msgstr ""
+"Якщо звіту з подібною до Вашої проблеми інформацією немає, створіть його та "
+"напишіть у документі все, що може допомогти розробникам виправити цей баг."
 
 #: ../../contribute/bugreporting.rst:26
 msgid "Reproduce the issue you've found"
-msgstr ""
+msgstr "Відтворити знайдений збій"
 
 #: ../../contribute/bugreporting.rst:28
 msgid ""
@@ -5002,46 +5007,62 @@ msgid ""
 "continue on to the next step. `If not... <https://youtu.be/nn2FB1P_Mn8?"
 "t=10s>`_"
 msgstr ""
+"Далі, спробуйте розібратися як знайдений баг можна відтворити. "
+"Задокументуйте детально точні кроки, як Ви виявили цю проблему. Після цього "
+"перезавантажте свій телефон ще раз. Якщо проблема досі присутня, продовжіть "
+"з наступним кроком. `Якщо не... <https://youtu.be/nn2FB1P_Mn8?t=10s>`_"
 
 #: ../../contribute/bugreporting.rst:31
 msgid "Making the bug report"
-msgstr ""
+msgstr "Створення звіту"
 
 #: ../../contribute/bugreporting.rst:33
 msgid ""
 "Now it's time for what you've been waiting for, the bug report itself! Bug "
 "reports need to be filed in English."
 msgstr ""
+"Тепер настав час, якого Ви так чекали, щоби створити свій звіт про проблему ("
+"= баг-репорт)! Ці звіти повинні бути англійською мовою."
 
 #: ../../contribute/bugreporting.rst:35
 msgid ""
 "First, pull up the `bug tracker <https://gitlab.com/ubports/development/"
 "ubuntu-touch>`_ and click \"New Issue\". Log in to GitHub if you haven't yet."
 msgstr ""
+"Перше, що потрібно зробити, потягніть за `bug tracker <https://gitlab.com/"
+"ubports/development/ubuntu-touch>`_ (трекер / реєстр помилок) та клацніть "
+"\"Нова проблема\" (\"New Issue\"). Увійдіть до GitHub якщо Ви ще цього не "
+"зробили."
 
 #: ../../contribute/bugreporting.rst:37
 msgid ""
 "Next, you'll need to name your bug. Pick a name that says what's happening, "
 "but don't be too wordy. Four to eight words should be enough."
 msgstr ""
+"Далі Вам потрібно назвати свій баг. Виберіть таку назву, щоби було зрозуміло "
+"про що йдеться або що сталося, але краще менше слів. Зазвичай 4-8 слів "
+"вистачає."
 
 #: ../../contribute/bugreporting.rst:39
 msgid "Now, write your bug report. A good bug report includes the following:"
 msgstr ""
+"Тепер напишіть свій звіт про помилку. В гарному звіті присутнє наступне:"
 
 #: ../../contribute/bugreporting.rst:41
 msgid "What happened: A synopsis of the erroneous behavior"
-msgstr ""
+msgstr "Що сталося: Опис хибної або неправильної поведінки"
 
 #: ../../contribute/bugreporting.rst:42
 msgid ""
 "What I expected to happen: A synopsis of what should have happened, if there "
 "wasn't an error"
 msgstr ""
+"Що повинно було статися: Опис очікувань, що повинно було би бути замість "
+"помилки"
 
 #: ../../contribute/bugreporting.rst:43
 msgid "Steps to reproduce: You wrote these down earlier, right?"
-msgstr ""
+msgstr "Кроки для відтворення: Ви вже це записали раніше, чи не так?"
 
 #: ../../contribute/bugreporting.rst:44
 msgid ""
@@ -5049,6 +5070,9 @@ msgid ""
 "\"OS\" line of this screen. Also include the release channel that you used "
 "when you installed Ubuntu on this phone."
 msgstr ""
+"Версія програми: Перейдіть до (Налаштування - Про програму) та протягніть до "
+"рядку з ОС. Також додайте канал релізу, який був використаний для "
+"встановлення Ubuntu на цей телефон."
 
 #: ../../contribute/bugreporting.rst:46
 msgid ""
@@ -5057,6 +5081,10 @@ msgid ""
 "issue on in the description so a moderator can easily add the correct tags "
 "later."
 msgstr ""
+"Коли Ви закінчите з цим, відправляйте звіт. Самостійно мітки додати не "
+"можна, тож, будь ласка, не забудьте зазначити в описі назву пристрою, з яким "
+"у Вас виникла проблема, щоби модератор міг без клопоту додати правильну "
+"мітку."
 
 #: ../../contribute/bugreporting.rst:48
 msgid ""
@@ -5064,10 +5092,13 @@ msgid ""
 "can begin on it. If you are missing any information, you will be asked for "
 "it, so make sure to check in often!"
 msgstr ""
+"Розробник або хтось з команди тестувальників (QA) підтвердить та оформить "
+"Ваш баг, щоби з ним можна було працювати далі. Якщо Ви пропустили якусь "
+"інформацію, у Вас про неї запитають, тож заходьте частіше!"
 
 #: ../../contribute/bugreporting.rst:51
 msgid "Getting Logs"
-msgstr ""
+msgstr "Отримання журналів"
 
 #: ../../contribute/bugreporting.rst:53
 msgid ""
@@ -5076,6 +5107,10 @@ msgid ""
 "after submitting your issue. This section will help you to retrieve these "
 "logs from the device."
 msgstr ""
+"Тут ми поговоримо про головні кроки, як в Ubuntu Touch отримати файли "
+"журналів, де містяться важливі повідомлення для налагодження. Можливо Вас "
+"попросять їх надати після реєстрації звіту про помилку. Цей розділ допоможе "
+"отримати такі журнали."
 
 #: ../../contribute/bugreporting.rst:57
 msgid ""
@@ -5083,6 +5118,10 @@ msgid ""
 "to skim through them to ensure this is not the case before posting them. We "
 "can coordinate to get them through e-mail or a similarly less public medium."
 msgstr ""
+"Файли журналів можуть містити приватну інформацію. Перед надсиланням "
+"журналів перевірте їх на наявність даних, які б Ви не хотіли надсилати. Ми "
+"можемо обговорити можливість, щоби файли були надіслані через е-пошту або "
+"через інший менш публічний засіб."
 
 #: ../../contribute/bugreporting.rst:59
 msgid ""
@@ -5090,6 +5129,9 @@ msgid ""
 "logviewer.ruditimmer>`_ from the OpenStore. This app will help us find, "
 "view, and send the logs we need."
 msgstr ""
+"Для початку отримайте з OpenStore програму `Logviewer <https://open-store.io/"
+"app/logviewer.ruditimmer>`_. Ця програма допоможе знайти, переглянути та "
+"надіслати необхідні журнали."
 
 #: ../../contribute/bugreporting.rst:61
 msgid ""
@@ -5098,6 +5140,10 @@ msgid ""
 "And you can use the \"send\" icon in the top right corner to share a log "
 "using an online service."
 msgstr ""
+"Тепер відкрийте цей Logviewer. Ви побачите список активних на пристрої "
+"програм. Для перегляду журналу програми можна відкрити будь-яку. Для того, "
+"щоби через онлайн-службу надіслати відповідний журнал, натисніть у правому "
+"верхньому куточку на значок \"надіслати\"."
 
 #: ../../contribute/bugreporting.rst:64
 msgid ""
@@ -5106,10 +5152,14 @@ msgid ""
 "yet. Tell this to the person who asked you for the logs. They should be able "
 "to get you the information you need to get back on track."
 msgstr ""
+"Якщо Ви не бачите необхідний журнал у Logviewer, можливо він в іншій теці "
+"або необхідна програма ще не може створювати журнали. Скажіть це тому, хто у "
+"Вас запитав про журнали. Можливо у них вийде надати Вам інформацію, з якою "
+"Ви зможете повернутися до звіту."
 
 #: ../../contribute/code.rst:2
 msgid "Code changes"
-msgstr ""
+msgstr "Зміни в коді"
 
 #: ../../contribute/code.rst:4
 msgid ""
@@ -5117,10 +5167,13 @@ msgid ""
 "things we look for in code, commits, and changesets. We also take a look at "
 "what to expect in the code review process."
 msgstr ""
+"Ця сторінка допоможе Вам поєднати свої зміни з Ubuntu Touch. Ми описуємо "
+"необхідні речі, які ми шукаємо в коді, виправленнях та змінах. Також ми "
+"дивимося на те, що можна очікувати від процесу перегляду коду."
 
 #: ../../contribute/code.rst:7
 msgid "Assumptions"
-msgstr ""
+msgstr "Призначення собі"
 
 #: ../../contribute/code.rst:9
 msgid ""
