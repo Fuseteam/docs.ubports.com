@@ -1,12 +1,12 @@
 
 .. _FileSystemEncryption:
 
-Filesystem encryption
-=====================
+Filesystem encryption for Ubuntu Touch 24.04
+============================================
 
 Filesystem encryption in this document refers to encrypting files on a per-file basis using "File Based Encryption", in comparison to "Full Disk Encryption".
 
-Encryption on Ubuntu Touch is solved using `fscrypt. <https://github.com/google/fscrypt>`_
+Encryption on Ubuntu Touch 24.04 is solved using `fscrypt. <https://github.com/google/fscrypt>`_
 
 Creating an fscrypt.conf file
 -----------------------------
