@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 23:07+0700\n"
-"PO-Revision-Date: 2025-07-10 12:01+0000\n"
+"PO-Revision-Date: 2025-07-15 21:02+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -5342,6 +5342,18 @@ msgid ""
 "knowledge to the component's README. The best time to write documentation is "
 "after doing something for the first time."
 msgstr ""
+"Якщо компонент має тестовий набір, використовуйте його. Переконайтесь, що Ви "
+"знаєте, як запустити тести для компонента та розумієте результати цих "
+"тестів. Ця інформація повинна міститися у файлі README компонента. Якщо "
+"цього немає та Ви не знаєте, як це знайти, запитайте у нас. Ми раді "
+"допомогти, коли хтось намагається розібратися з компонентом вперше. Однак "
+"будьте готові отримати у відповідь купу посилань на документацію на системи "
+"збірки або тестовий фреймворк, а не список команд для запуску. Це може бути "
+"все, що ми можемо надати у вільний час. Якщо у Вас після ознайомлення з "
+"отриманими матеріалами залишаються сумніви, не соромтеся запитати про свої "
+"конкретні проблеми ще раз. Ми були б **дійсно** Вам вдячні, якби Ви додали "
+"свої нові знання до README компонента. Найкращий час для написання "
+"документації — це одразу після чогось зробленого вперше."
 
 #: ../../contribute/code.rst:54
 msgid ""
@@ -5350,6 +5362,10 @@ msgid ""
 "reasonable. Lean on the side of more tests: we rarely ask you to remove "
 "tests, but we may ask you to add more."
 msgstr ""
+"Як тільки розберетеся як запустити тестовий набір, можете додати свої тести. "
+"Переконайтеся, що Ви перевіряєте якомога більше аспектів своєї нової "
+"функціональності, на скільки вважаєте це необхідним. Подивіться ще раз збоку "
+"на тести: ми рідко просимо видаляти тести, але можемо попросити щось додати."
 
 #: ../../contribute/code.rst:56
 msgid ""
@@ -5357,10 +5373,13 @@ msgid ""
 "time to file a bug on that component! We would appreciate your help adding a "
 "test suite, but we do not require that of you."
 msgstr ""
+"Якщо Ви помітили, що компонент не має тестового набору, це чудовий час "
+"повідомити про помилку у цьому компоненті! Ми будемо вдячні за Вашу допомогу "
+"з додаванням тестового набору, але це не те що ми можемо вимагати."
 
 #: ../../contribute/code.rst:59
 msgid "Follow any existing style guides"
-msgstr ""
+msgstr "Дотримуйтеся будь-яких наявних посібників стилю"
 
 #: ../../contribute/code.rst:61
 msgid ""
@@ -5368,10 +5387,13 @@ msgid ""
 "to follow the existing style in the file you're changing as closely as "
 "possible."
 msgstr ""
+"Якщо репозиторій має посібник або рекомендації щодо стилю, користуйтеся ним. "
+"Якщо його немає, спробуйте дотримуватися наявного стилю, який є у файлі де "
+"Ви вносите зміни."
 
 #: ../../contribute/code.rst:64
 msgid "Commit checklist"
-msgstr ""
+msgstr "Контрольний список для реєстрації змін (commit)"
 
 #: ../../contribute/code.rst:66
 msgid ""
@@ -5380,6 +5402,10 @@ msgid ""
 "complex questions. This checklist helps future viewers of your code "
 "understand why it is the way it is."
 msgstr ""
+"Через якийсь час після написання коду нам часто потрібно розуміти, як і чому "
+"він призводить до помилки. Повідомлення до змін — це наш перший крок у "
+"розумінні цих складних питань. Цей контрольний список допомагає майбутнім "
+"зацікавленим у Вашому коді зрозуміти, чому це зроблено в такий спосіб."
 
 #: ../../contribute/code.rst:68
 msgid ""
@@ -5391,16 +5417,25 @@ msgid ""
 "more detail; someday, *you* are the one looking back at your commits and "
 "wondering why you made them."
 msgstr ""
+"Як приклад серії комітів (commit), які дуже добре відповідають цим головним "
+"принципам, подивіться на три коміти зверху журналу `git log leading to "
+"840777f з Lomiri <https://github.com/ubports/unity8/commits/"
+"840777f92fb663a525dbe765155dbcf2a6f7541e>`_. Не кожна зміна вимагає такого "
+"поглибленого опису, як ці приклади. Подивіться збоку на деталі; іноді *Ви* "
+"той самий, хто озирається на свої коміти і цікавиться, чому те чи інше було "
+"зроблене."
 
 #: ../../contribute/code.rst:71
 msgid "Answer crucial questions in commit messages"
-msgstr ""
+msgstr "Дайте відповіді на чіткі запитання до повідомлень комітів"
 
 #: ../../contribute/code.rst:73
 msgid ""
 "We ask questions like, \"what?\" \"why?\" and \"how?\" to gain context of a "
 "situation quickly."
 msgstr ""
+"Ми відповідаємо на такі запитання як \"що?\" \"чому?\" та \"як?\", оскільки "
+"вони допомагають швидко зрозуміти контекст ситуації."
 
 #: ../../contribute/code.rst:75
 msgid ""
@@ -5408,10 +5443,13 @@ msgid ""
 "so helps reviewers and future readers understand the context of a change. In "
 "order of importance, answer:"
 msgstr ""
+"Намагайтеся відповісти на ці запитання у своїх метаданих до комітів або у "
+"самому вмісті. Це допоможе рецензентам та майбутнім читачам зрозуміти "
+"контекст змін. У порядку важливості, надайте відповіді:"
 
 #: ../../contribute/code.rst:77
 msgid "What?"
-msgstr ""
+msgstr "Що?"
 
 #: ../../contribute/code.rst:78
 msgid ""
@@ -5420,10 +5458,14 @@ msgid ""
 "<https://github.com/ubports/unity8/commit/"
 "a81421ac1fe5135b9cff710c3cd819aa1804c6e6>`_\"."
 msgstr ""
+"Дайте відповідь на це запитання у перших рядках коментаря до коміту. "
+"\"Що робить Ваш коміт?\" \"`Оптимізує шпалери для часу завантаження та "
+"використання пам'яті <https://github.com/ubports/unity8/commit/"
+"a81421ac1fe5135b9cff710c3cd819aa1804c6e6>`_\"."
 
 #: ../../contribute/code.rst:79
 msgid "Why?"
-msgstr ""
+msgstr "Чому?"
 
 #: ../../contribute/code.rst:80
 msgid ""
