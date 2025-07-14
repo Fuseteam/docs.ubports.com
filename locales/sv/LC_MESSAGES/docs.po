@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 23:07+0700\n"
-"PO-Revision-Date: 2025-03-17 20:28+0000\n"
+"PO-Revision-Date: 2025-07-15 21:02+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -621,7 +621,7 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:88
 msgid "Assignees"
-msgstr ""
+msgstr "Ansvariga"
 
 #: ../../about/process/issue-tracking.rst:90
 msgid ""
@@ -1115,7 +1115,7 @@ msgstr ""
 
 #: ../../appdev/guides/contenthub.rst:86
 msgid "Sharing"
-msgstr ""
+msgstr "Delar"
 
 #: ../../appdev/guides/contenthub.rst:88
 msgid ""
@@ -1253,7 +1253,7 @@ msgstr ""
 
 #: ../../appdev/guides/dependencies.rst:48
 msgid "Pre-built"
-msgstr ""
+msgstr "Kompilerad i förväg"
 
 #: ../../appdev/guides/dependencies.rst:49
 msgid "If you compiled your library as described above, skip this step."
@@ -2131,7 +2131,7 @@ msgstr "saknas."
 
 #: ../../appdev/guides/pushnotifications.rst:235
 msgid "body"
-msgstr ""
+msgstr "body"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Longer text, defaults to empty."
