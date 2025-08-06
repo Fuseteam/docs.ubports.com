@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 23:07+0700\n"
-"PO-Revision-Date: 2025-08-06 17:01+0000\n"
+"PO-Revision-Date: 2025-08-07 23:02+0000\n"
 "Last-Translator: Alessandro Marigliano <alemarigliano22@proton.me>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/it/>\n"
@@ -193,9 +193,8 @@ msgid ""
 msgstr ""
 
 #: ../../about/process/branch-naming.rst:14
-#, fuzzy
 msgid "DEB Packages"
-msgstr "Fare clic su Pacchetti"
+msgstr "Pacchetti DEB"
 
 #: ../../about/process/branch-naming.rst:16
 msgid ""
@@ -210,7 +209,7 @@ msgstr "Manteniamo i seguenti branch tra le repository git:"
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
-msgstr ""
+msgstr "Branch di Git"
 
 #: ../../about/process/branch-naming.rst:22
 #: ../../appdev/guides/pushnotifications.rst:170
@@ -229,17 +228,17 @@ msgstr "Descrizione"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "Archivi APT corrispettivi"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
 #: ../../porting/configure_test_fix/device_info/index.rst:43
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: ../../about/process/branch-naming.rst:23
 msgid "Base distro"
-msgstr ""
+msgstr "Distribuzione di base"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``main``, ``ubports/latest``"
@@ -250,6 +249,8 @@ msgid ""
 "Represents the latest development of Ubuntu Touch. All kinds of changes are "
 "allowed in this branch."
 msgstr ""
+"Rappresenta gli ultimi sviluppi di Ubuntu Touch. Ogni tipo di modifica è "
+"permessa in questo branch."
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``devel-<Ubuntu LTS>`` (e.g. ``devel-noble``)"
@@ -257,16 +258,15 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:25
 msgid "Latest or upcoming Ubuntu LTS."
-msgstr ""
+msgstr "Ultima o prossima Ubuntu LTS."
 
 #: ../../about/process/branch-naming.rst:28
 msgid "``devel-debian``"
 msgstr ""
 
 #: ../../about/process/branch-naming.rst:28
-#, fuzzy
 msgid "Debian testing."
-msgstr "Beta test"
+msgstr "Test di Debian."
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
@@ -356,7 +356,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:61
 msgid "APT archives for Merge Requests"
-msgstr ""
+msgstr "Archivi APT per richieste di merge"
 
 #: ../../about/process/branch-naming.rst:63
 msgid ""
