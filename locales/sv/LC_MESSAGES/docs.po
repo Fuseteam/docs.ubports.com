@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-19 23:07+0700\n"
-"PO-Revision-Date: 2025-07-15 21:02+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2025-08-31 18:01+0000\n"
+"Last-Translator: Rondy Andersson <rondarius@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -28,10 +28,12 @@ msgid ""
 "Our goal is to create a copylefted libre mobile operating system. One you "
 "can use, study, change and share; with all."
 msgstr ""
+"Vårt mål är att skapa ett kopieringsfritt fritt mobiloperativsystem. Ett som "
+"du kan använda, studera, ändra och dela, med alla."
 
 #: ../../about/introduction.rst:7
 msgid "About UBports"
-msgstr ""
+msgstr "Om UBports"
 
 #: ../../about/introduction.rst:9
 msgid ""
@@ -39,6 +41,9 @@ msgid ""
 "place where developers could share ideas and educate each other in hopes of "
 "bringing the Ubuntu Touch platform to more mobile devices."
 msgstr ""
+"Projektet grundades av Marius Gripsgard 2015 och i sitt spädbarns lindor ett "
+"ställe där utvecklare kunde dela idéer och utbilda varandra i hopp om att få "
+"Ubuntu Touch plattformen till fler mobila enheter."
 
 #: ../../about/introduction.rst:11
 msgid ""
@@ -49,11 +54,16 @@ msgid ""
 "possibilities for the future. Today, UBports is a volunteer group, "
 "formalised as a charitable foundation."
 msgstr ""
+"Efter det att Canonical plötsligt meddelade `planerna på att avsluta stödet "
+"för Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_ i "
+"april 2017, UBports och dess dotterprojekt påbörjade arbetet på källkoden; "
+"underhålla och expandera dess möjligheter för framtiden. I dag, är UBports "
+"en grupp volontärer, formaliserad som en välgörenhetsstiftelse."
 
 #: ../../about/introduction.rst:14
-#, fuzzy
 msgid "About the Documentation"
-msgstr "Välkommen till dokumentationen för UBports!"
+msgstr "Om Dokumentationen"
 
 #: ../../about/introduction.rst:16
 msgid ""
@@ -64,6 +74,11 @@ msgid ""
 "readthedocs.io>`_. Start contributing by checking out the :doc:"
 "`Documentation contribution document </contribute/documentation>`."
 msgstr ""
+"Ändringar i dokumentationen görs av Ubports gemenskapen. Den är skriven i "
+"reStructuredText och konverterad i detta läsbara format utav `Sphinx "
+"<https://www.sphinx-doc.org/en/master/>`_, `recommonmark <http://"
+"recommonmark.readthedocs.io/en/latest/>`_, och `Läs Dokumentationen "
+"<https://readthedocs.io>`_."
 
 #: ../../about/introduction.rst:18
 msgid ""
@@ -71,10 +86,13 @@ msgid ""
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
 "attribution to \"The UBports Community\"."
 msgstr ""
+"All dokumentation är licensierad under Creative Commons Attribution "
+"ShareAlike 4.0 (`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/"
+"4.0/>`_). Vänligen ge tillskrivning till \"Ubports Gemenskapen\"."
 
 #: ../../about/introduction.rst:21
 msgid "Attribution"
-msgstr "Tilldelning"
+msgstr "Tillskrivning"
 
 #: ../../about/introduction.rst:23
 msgid ""
@@ -82,16 +100,21 @@ msgid ""
 "Documentation <https://docs.godotengine.org/en/stable/>`_, by Juan "
 "Linietsky, Ariel Manzur and the Godot community."
 msgstr ""
+"Denna dokumentation var kraftigt modellerad efter `Godot Engine's "
+"Dokumentation <https://docs.godotengine.org/en/stable/>`_, av Juan "
+"Linietsky, Ariel Manzur och Godot gemenskapen."
 
 #: ../../about/process/branch-naming.rst:2
 msgid "Branch-naming convention"
-msgstr ""
+msgstr "Förgrenings-namngivnings konvention"
 
 #: ../../about/process/branch-naming.rst:4
 msgid ""
 "Our branch-naming convention ensures software can be built by our CI and "
 "tested easily by other developers."
 msgstr ""
+"Vår förgrenings-namngivnings konvention säkerställer att mjukvaran kan "
+"byggas av våran CI och enkelt testas av andra utvecklare."
 
 #: ../../about/process/branch-naming.rst:6
 msgid ""
