@@ -1,9 +1,14 @@
 default:
   image: python:3.12
 
-build:
+stages:
+  - periodic
+  - build
+
+build-job:
   stage: build
   script:
+    - echo "Build documentation"
     - python --version
     - pip --version
     - pip install --no-cache-dir --user --upgrade -r requirements.txt
@@ -11,8 +16,23 @@ build:
     - git fetch origin master:master
     - python3 -m sphinx -Wab rediraffecheckdiff . _build/html # check redirects against the master branch
     - echo "Build succeeded, browse the artifact here:" "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/file/_build/html/index.html"
+  rules:
+    - if: '$CI_PIPELINE_SOURCE != "schedule"'
   artifacts:
     untracked: true
     when: on_success
     access: all
     expire_in: 90 days
+
+periodic-job:
+  stage: periodic
+  script:
+    - echo "Update translation pot file"
+    - python --version
+    - pip --version
+    - pip install --no-cache-dir --user --upgrade -r requirements.txt
+    - bash ci-update-translations.sh
+    - echo "Translation pot file update completed"
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+

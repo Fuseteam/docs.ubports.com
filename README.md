@@ -17,12 +17,11 @@ The documentation can be built by running `./build.sh` in the root of this repos
 
 ### Translations
 
-To update translation templates, run `./update-translations.sh` in the root of this repository.
+The documentation can be [translated via weblate](https://docs.ubports.com/en/latest/contribute/translations.html).
 
-Strings can be translated on [Hosted Weblate](https://hosted.weblate.org/projects/ubports/doc-ubports-com/). The localization platform of this project is sponsored by Hosted Weblate via their free hosting plan for Libre and Open Source Projects.
+#### Update pot translations
 
-We welcome translators from all different languages. Thank you for your contribution!
-You can easily contribute to the localization of this project (i.e. the translation into your language) by visiting (and signing up with) the Hosted Weblate service as linked above and start translating by using the webinterface. To add a new language, log into weblate, goto tools --> start new translation.
+Part of the translation workflow is the update of the `.pot` file. This is the input for the translation in weblate. This update can be done manually with the help of the `update-translations.sh` or automatically with the weekly gitlab CI task running the `ci-update-translations.sh` script.
 
 ### Project status
 
