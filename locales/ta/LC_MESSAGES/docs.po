@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2025-05-29 18:01+0000\n"
-"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/ta/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -227,6 +227,7 @@ msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
 msgstr "``யுபிதுறைமுகங்கள்/<பெரிய பதிப்பு>.x`` (எ.கா. ``யுபிதுறைமுகங்கள்/24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
+#, fuzzy
 msgid ""
 "Represents the code in a particular major version. It branches off of the "
 "``main`` branch before the major release, and will become a part of the "
@@ -913,6 +914,7 @@ msgid "Edge Channel"
 msgstr "எட்ச் சேனல்"
 
 #: ../../about/process/release-schedule.rst:30
+#, fuzzy
 msgid ""
 "**This is where dragons live.** Here ideas and big new features are melted "
 "into code for developers to work on and for the fearless to try them out. "
@@ -1156,6 +1158,7 @@ msgstr ""
 "தேர்வு செய்துள்ளார்."
 
 #: ../../appdev/code-editor.rst:12
+#, fuzzy
 msgid ""
 "You can still install the SDK IDE in Ubuntu 16.04, but it is not guaranteed "
 "to work correctly. You can use the following commands to install::"
@@ -1647,6 +1650,7 @@ msgstr ""
 "இல் கூடுதல் வரிகள் அப்படி இருக்கலாம்:"
 
 #: ../../appdev/guides/dependencies.rst:90
+#, fuzzy
 msgid ""
 "The ``find_package`` command usually defines the path to the include "
 "directory as ``SOMELIBRARY_INCLUDE_DIRS`` and the library's binaries as "
@@ -1660,10 +1664,10 @@ msgstr ""
 "``Find_package`` கட்டளை வழக்கமாகக் கோப்பகத்திற்கான பாதையை "
 "``somelibrary_include_dirs`` மற்றும் நூலகத்தின் பைனரிகளை ``SomeLibrary_libs`` "
 "(அவர்களின் CMAKE உள்ளமைவு சரியாக வழங்கும் நூலகத்தின் ஆவணங்களைச் சரிபார்க்கவும்) "
-"வரையறுக்கிறது. ``சேர்க்கப்பட்ட_டரெக்டரிகள்`` மற்றும்` `இலக்கு_எல்ங்க்_லிபிரரிச்` "
-"கட்டளைகளுடன் அவற்றைப் பயன்படுத்தவும். `கேமரா ச்கேனர் இமேச் புரோசெசிங் cmakelists.txt "
-"<https://github.com/jonnius/camera-scanner/blob/master/plugins/"
-"imageprocessing/cmakelists.txt#l23>`_ ஒரு உண்மையான உலக உதாரணத்திற்கு."
+"வரையறுக்கிறது. ``சேர்க்கப்பட்ட_டரெக்டரிகள்`` மற்றும்` `இலக்கு_எல்ங்க்_லிபிரரிச்` கட்டளைகளுடன்"
+" அவற்றைப் பயன்படுத்தவும். `கேமரா ச்கேனர் இமேச் புரோசெசிங் cmakelists.txt <https://"
+"github.com/jonnius/camera-scanner/blob/master/plugins/imageprocessing/"
+"cmakelists.txt#l23>`_ ஒரு உண்மையான உலக உதாரணத்திற்கு."
 
 #: ../../appdev/guides/dependencies.rst:92
 msgid ""
@@ -1698,6 +1702,7 @@ msgstr ""
 "என்று சொல்லும் பிழை செய்தியை நீங்கள் காண வேண்டும்."
 
 #: ../../appdev/guides/dependencies.rst:100
+#, fuzzy
 msgid ""
 "Find the path to the shared object files. For libraries built via clickable, "
 "they are located somewhere in the library's install dir, which is located "
@@ -1709,13 +1714,13 @@ msgid ""
 "looking for the shared object files."
 msgstr ""
 "பகிரப்பட்ட பொருள் கோப்புகளுக்கான பாதையைக் கண்டறியவும். சொடுக்கு செய்யக்கூடிய வழியாகக் "
-"கட்டப்பட்ட நூலகங்களுக்கு, அவை நூலகத்தின் நிறுவல் அடைவில் எங்காவது அமைந்துள்ளன, இது "
-"இயல்பாக நூலகத்தின் உருவாக்க அடைவு உள்ளே அமைந்துள்ளது (எ.கா. ``build/arm-linux-"
-"gnueabihf/opencv/install``). முன்பே கட்டப்பட்ட நூலகங்களுக்கு ``சொடுக்கு செய்யக்கூடிய "
-"ரன் \"கண்டுபிடி / -name 'எதாவதுநூல்.so'\"``(நீங்கள் தேடும் கோப்பின் மூலம்``எதாவதுநூல்."
-"so`` ஐ மாற்றுவது) இயக்கவும். இது கோப்பிற்கான பாதையை அச்சிட வேண்டும் (நீங்கள் "
-"புறக்கணிக்கக்கூடிய சில பிழை செய்திகளுடன்). பொதுவாக, பகிரப்பட்ட பொருள் கோப்புகளைத் "
-"தேடும்போது ``/usr/lib`` ஒரு நல்ல பந்தயம்."
+"கட்டப்பட்ட நூலகங்களுக்கு, அவை நூலகத்தின் நிறுவல் அடைவில் எங்காவது அமைந்துள்ளன, இது இயல்பா"
+"க நூலகத்தின் உருவாக்க அடைவு உள்ளே அமைந்துள்ளது (எ.கா. ``build/arm-linux-gnueabihf/"
+"opencv/install``). முன்பே கட்டப்பட்ட நூலகங்களுக்கு ``சொடுக்கு செய்யக்கூடிய ரன் "
+"\"கண்டுபிடி / -name 'எதாவதுநூல்.so'\"``(நீங்கள் தேடும் கோப்பின் மூலம்``எதாவதுநூல்.so`` "
+"ஐ மாற்றுவது) இயக்கவும். இது கோப்பிற்கான பாதையை அச்சிட வேண்டும் (நீங்கள் புறக்கணிக்கக்கூடிய "
+"சில பிழை செய்திகளுடன்). பொதுவாக, பகிரப்பட்ட பொருள் கோப்புகளைத் தேடும்போது ``/usr/"
+"lib`` ஒரு நல்ல பந்தயம்."
 
 #: ../../appdev/guides/dependencies.rst:102
 msgid ""
@@ -1836,15 +1841,16 @@ msgstr ""
 "படி) ஒரு குறிப்பிட்ட இணைப்பைத் திறக்கும்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:61
+#, fuzzy
 msgid ""
 "Let’s see how our navigation app looks inside. uNav’s manifest shows special "
 "hooks for the ``URLdispatcher`` in its `manifest.json code <https://bazaar."
 "launchpad.net/~unav-devs/unav/trunk/view/head:/manifest.json#L9>`_:"
 msgstr ""
 "எங்கள் வழிசெலுத்தல் பயன்பாடு எவ்வாறு உள்ளே இருக்கும் என்று பார்ப்போம். அதன் `மேனிஃபெச்ட்.சான் "
-"குறியீட்டில் <https://bazaar.launchpad.net/~unav-devs/unav/trunk/view/head:/"
-"manifest.json#L9>`_``urldispatcher`` க்கான சிறப்பு கொக்கிகள் UNAV இன் மேனிஃபெச்ட் "
-"காட்டுகிறது:"
+"குறியீட்டில் <https://bazaar.launchpad.net/~unav-devs/unav/trunk/view/"
+"head:/manifest.json#L9>`_``urldispatcher`` க்கான சிறப்பு கொக்கிகள் UNAV இன் "
+"மேனிஃபெச்ட் காட்டுகிறது:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:91
 msgid ""
@@ -1918,6 +1924,7 @@ msgstr ""
 "எங்கள் யூரி வடிவத்துடன் பொருந்தினால்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:143
+#, fuzzy
 msgid ""
 "Remember to check that %u (to receive 1 URL) or %U (to receive 1 or more "
 "URLs) is present under the ``Exec`` line in the `.desktop <https://gitlab."
@@ -1926,8 +1933,8 @@ msgid ""
 msgstr ""
 "பயன்பாட்டின் `.desktop <https://gitlab.com/ubports-linphone/linphone-simple/-/"
 "blob/master/linphone.desktop.in#L7>`_ கோப்பில் உள்ள ''Exec'' வரியின் கீழ் %u (1 "
-"URL ஐப் பெற) அல்லது %u (1 அல்லது அதற்கு மேற்பட்ட URLகளைப் பெற) உள்ளதா என்பதைச் "
-"சரிபார்க்க நினைவில் கொள்ளுங்கள்."
+"URL ஐப் பெற) அல்லது %u (1 அல்லது அதற்கு மேற்பட்ட URLகளைப் பெற) உள்ளதா என்பதைச் சரிபார்க்"
+"க நினைவில் கொள்ளுங்கள்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:146
 msgid "Tools"
@@ -1955,12 +1962,13 @@ msgstr ""
 "YouTube வலைபயன்பாடுபைத் தொடங்கும்."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:152
+#, fuzzy
 msgid ""
 "To install, it make your partition writable (``sudo mount -o rw,remount /``) "
 "and install it via ``sudo apt install lomiri-url-dispatcher-tools``"
 msgstr ""
-"நிறுவ, இது உங்கள் பகிர்வை எழுதக்கூடியதாக ஆக்குகிறது (``sudo mount -o rw, remount /"
-"``) மற்றும் அதை`` sudo apt வழியாக நிறுவவும்"
+"நிறுவ, இது உங்கள் பகிர்வை எழுதக்கூடியதாக ஆக்குகிறது (``sudo mount -o rw, remount "
+"/``) மற்றும் அதை`` sudo apt வழியாக நிறுவவும்"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:157
 msgid "What happens if more than one app has the same URL type defined?"
@@ -2377,6 +2385,7 @@ msgstr ""
 "இயங்கக்கூடியது, இது எதையும் மாற்றாமல் அறிவிப்பை அனுப்பும்:"
 
 #: ../../appdev/guides/pushnotifications.rst:115
+#, fuzzy
 msgid ""
 "We also need to add this new files to the **CMakeLists.txt** and make the "
 "pushexec executable::"
@@ -2583,6 +2592,7 @@ msgid "relative, and will be looked up in (a) the application's"
 msgstr "உறவினர், மற்றும் (அ) பயன்பாட்டில் பார்க்கப்படும்"
 
 #: ../../appdev/guides/pushnotifications.rst:0
+#, fuzzy
 msgid "``.local/share/<pkgname>``, and (b) standard xdg dirs."
 msgstr "`.local/share/<pkgname>``, மற்றும் (b) நிலையான ஃசுடிசி கோப்புறைகள்."
 
@@ -2679,6 +2689,7 @@ msgstr ""
 "பயன்படுத்துகிறது"
 
 #: ../../appdev/guides/pushnotifications.rst:0
+#, fuzzy
 msgid "a URL like ``appid://com.ubuntu.developer.ralsina.hello``"
 msgstr "`` appid: // com.ubuntu.developer.ralsina.hello`` போன்ற முகவரி"
 
@@ -2903,6 +2914,7 @@ msgid "Metric Id [dot] Variable Name [equals] New variable information"
 msgstr "மெட்ரிக் ஐடி [புள்ளி] மாறி பெயர் [சமம்] புதிய மாறி செய்தி"
 
 #: ../../appdev/guides/user-metrics.rst:72
+#, fuzzy
 msgid "``metric.circleMetric = \"New Metric Message\"``"
 msgstr "`` metric.circlemetric = \"புதிய மெட்ரிக் செய்தி\" ``"
 
@@ -2917,6 +2929,7 @@ msgstr ""
 "மெட்ரிக் ஐடி [டாட்] புதுப்பிப்பு (வடிவமைப்பில் சேர்க்கப்பட்டால் அமைக்க குறிப்பிட்ட தொகை)"
 
 #: ../../appdev/guides/user-metrics.rst:78
+#, fuzzy
 msgid "``metric.update(0)``"
 msgstr "`` metric.update (0) ``"
 
@@ -2951,10 +2964,12 @@ msgid "User Metrics are made up of two \"formats\":"
 msgstr "பயனர் அளவீடுகள் இரண்டு \"வடிவங்களால்\" ஆனவை:"
 
 #: ../../appdev/guides/user-metrics.rst:91
+#, fuzzy
 msgid "metrics/messages for today (``format``)"
 msgstr "இன்றைய அளவீடுகள்/செய்திகள் (`` வடிவமைப்பு``)"
 
 #: ../../appdev/guides/user-metrics.rst:92
+#, fuzzy
 msgid "metrics/messages for tomorrow (``emptyFormat``)"
 msgstr "நாளைக்கான அளவீடுகள்/செய்திகள் (`` வெற்றுஃபார்மேட்``)"
 
@@ -3274,6 +3289,7 @@ msgid "Enable developer mode in System Settings"
 msgstr "கணினி அமைப்புகளில் உருவாக்குபவர் பயன்முறையை இயக்கவும்"
 
 #: ../../appdev/index.rst:16
+#, fuzzy
 msgid "Run ``clickable create``"
 msgstr "`` சொடுக்கு செய்யக்கூடிய உருவாக்கு`` ஐ இயக்கவும்"
 
@@ -3290,6 +3306,7 @@ msgid "When the app has been generated, enter the newly created directory"
 msgstr "பயன்பாடு உருவாக்கப்பட்டதும், புதிதாக உருவாக்கப்பட்ட கோப்பகத்தை உள்ளிடவும்"
 
 #: ../../appdev/index.rst:20
+#, fuzzy
 msgid "Run ``clickable``"
 msgstr "`` சொடுக்கு செய்யக்கூடிய`` ஐ இயக்கவும்"
 
@@ -4031,6 +4048,7 @@ msgstr ""
 "ஒவ்வொரு ``கிளிக்`` பயன்பாட்டு தொகுப்பும் குறைந்தது 3 கோப்புகளை உட்பொதிக்க வேண்டும்:"
 
 #: ../../appdev/platform/click.rst:8
+#, fuzzy
 msgid "``manifest.json`` file"
 msgstr "`` manifest.json`` கோப்பு"
 
@@ -4043,6 +4061,7 @@ msgstr ""
 "பயன்பாட்டு அறிவிப்புகளைக் கொண்டுள்ளது."
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
 msgstr "எடுத்துக்காட்டு ``manifest.json`` கோப்பு ::"
 
@@ -4059,6 +4078,7 @@ msgstr ""
 "கீழே `பாதுகாப்பு மற்றும் பயன்பாட்டு தனிமைப்படுத்தல்`_ ஐப் பார்க்கவும்."
 
 #: ../../appdev/platform/click.rst:31
+#, fuzzy
 msgid "``.desktop`` file"
 msgstr "`` .desktop`` கோப்பு"
 
@@ -4071,6 +4091,7 @@ msgstr ""
 "வேண்டும் மற்றும் வேறு சில பண்புகள் ஆகியவற்றை லாஞ்சர் கோப்பு UT க்குச் சொல்லும்."
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
 msgstr "`` App.desktop`` ::"
 
@@ -4140,6 +4161,7 @@ msgstr ""
 "தேவை என்பதை உருவாக்குபவர் அறிவிக்க வேண்டும்."
 
 #: ../../appdev/platform/click.rst:64
+#, fuzzy
 msgid "Example ``apparmor.json`` file::"
 msgstr "எடுத்துக்காட்டு ``apparmor.json`` கோப்பு::"
 
@@ -4259,10 +4281,12 @@ msgid "Launching"
 msgstr "தொடங்குதல்"
 
 #: ../../appdev/webapp/guide.rst:17
+#, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
 msgstr "முனையத்திலிருந்து ஒரு வலைபயன்பாட்டைத் தொடங்கலாம்:::"
 
 #: ../../appdev/webapp/guide.rst:21
+#, fuzzy
 msgid "For example:::"
 msgstr "உதாரணமாக :::"
 
@@ -4297,6 +4321,7 @@ msgstr ""
 "அல்லது முகவரி பட்டி போன்றவை. இவை கட்டளை வரி வாதங்களுடன் இயக்கப்பட்டுள்ளன:"
 
 #: ../../appdev/webapp/guide.rst:34
+#, fuzzy
 msgid ""
 "``--enable-back-forward`` Enable the display of the back and forward buttons "
 "in the toolbar (at the bottom of the webapp window)"
@@ -4305,6 +4330,7 @@ msgstr ""
 "காண்பிப்பதை இயக்கவும் (வலைபயன்பாடு சாளரத்தின் அடிப்பகுதியில்)"
 
 #: ../../appdev/webapp/guide.rst:35
+#, fuzzy
 msgid ""
 "``--enable-addressbar`` Enable the display of the address bar (at the bottom "
 "of the webapp window)"
@@ -4349,6 +4375,7 @@ msgid "Uncontained by default"
 msgstr "இயல்புநிலையாக இல்லை"
 
 #: ../../appdev/webapp/guide.rst:49
+#, fuzzy
 msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
@@ -4379,6 +4406,7 @@ msgid "Simple containment to the site"
 msgstr "தளத்திற்கு எளிய கட்டுப்பாடு"
 
 #: ../../appdev/webapp/guide.rst:60
+#, fuzzy
 msgid ""
 "One often wants to contain users to the site itself. That is, if the website "
 "is www.ubuntu.com, it may be useful to contain webapp users only to subpages "
@@ -4434,6 +4462,7 @@ msgid "More complex wildcard patterns"
 msgstr "மிகவும் சிக்கலான வைல்டு அட்டை வடிவங்கள்"
 
 #: ../../appdev/webapp/guide.rst:76
+#, fuzzy
 msgid ""
 "You might want to limit access to only some subpages of your site from "
 "within the webapp. This is easy with wildcard patterns. (Links to other "
@@ -4441,25 +4470,26 @@ msgid ""
 "access to www.ubuntu.com/desktop/features and www.ubuntu.com/phone/features "
 "while not allowing access to www.ubuntu.com/desktop or www.ubuntu.com/phone::"
 msgstr ""
-"வலைப்பயன்பாட்டிற்குள் உங்கள் தளத்தின் சில துணைப்பக்கங்களுக்கு மட்டும் அணுகலை நீங்கள் "
-"கட்டுப்படுத்த விரும்பலாம். வைல்ட்கார்டு வடிவங்களுடன் இது எளிதானது. (பிற "
-"துணைப்பக்கங்களுக்கான இணைப்புகள் உலாவியில் திறக்கப்படும்.) எடுத்துக்காட்டாக, பின்வருபவை www."
-"ubuntu.com/desktop/features மற்றும் www.ubuntu.com/phone/features ஐ அணுக "
-"அனுமதிக்கிறது, அதே நேரத்தில் www.ubuntu.com/desktop அல்லது www.ubuntu.com/phone "
-"ஐ அணுக அனுமதிக்காது::"
+"வலைப்பயன்பாட்டிற்குள் உங்கள் தளத்தின் சில துணைப்பக்கங்களுக்கு மட்டும் அணுகலை நீங்கள் கட்டுப்படுத்"
+"த விரும்பலாம். வைல்ட்கார்டு வடிவங்களுடன் இது எளிதானது. (பிற துணைப்பக்கங்களுக்கான "
+"இணைப்புகள் உலாவியில் திறக்கப்படும்.) எடுத்துக்காட்டாக, பின்வருபவை www.ubuntu.com/"
+"desktop/features மற்றும் www.ubuntu.com/phone/features ஐ அணுக அனுமதிக்கிறது, அதே"
+" நேரத்தில் www.ubuntu.com/desktop அல்லது www.ubuntu.com/phone ஐ அணுக "
+"அனுமதிக்காது::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
 msgstr "பல வடிவங்கள்"
 
 #: ../../appdev/webapp/guide.rst:84
+#, fuzzy
 msgid ""
 "You can use multiple patterns by separating them with a comma. For example, "
 "the following allows access only to www.ubuntu.com/desktop/features and www."
 "ubuntu.com/phone/features:::"
 msgstr ""
-"கமாவுடன் பிரிப்பதன் மூலம் பல வடிவங்களைப் பயன்படுத்தலாம். எடுத்துக்காட்டாக, பின்வருபவை www."
-"ubuntu.com/desktop/features மற்றும் www.ubuntu.com/phone/features :::"
+"கமாவுடன் பிரிப்பதன் மூலம் பல வடிவங்களைப் பயன்படுத்தலாம். எடுத்துக்காட்டாக, பின்வருபவை "
+"www.ubuntu.com/desktop/features மற்றும் www.ubuntu.com/phone/features :::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4473,6 +4503,7 @@ msgid "Adding a specific subdomain"
 msgstr "ஒரு குறிப்பிட்ட துணை டொமைனைச் சேர்ப்பது"
 
 #: ../../appdev/webapp/guide.rst:94
+#, fuzzy
 msgid ""
 "Many URLs have one or more subdomains. (For example, in the following, "
 "\"developer\" is the subdomain: developer.ubuntu.com.) You can allow access "
@@ -4484,6 +4515,7 @@ msgstr ""
 "அணுகலை நீங்கள் அனுமதிக்கலாம்:::"
 
 #: ../../appdev/webapp/guide.rst:98
+#, fuzzy
 msgid ""
 "However, one usually wants the user to be able to navigate back to the "
 "starting URL (and its subpages). So, if the starting URL is https://www."
@@ -4494,20 +4526,22 @@ msgstr ""
 "என்றால், இரண்டாவது முறை தேவை ::::"
 
 #: ../../appdev/webapp/guide.rst:102
+#, fuzzy
 msgid ""
 "Putting these together, here’s an example that starts on https://www.ubuntu."
 "com and allows navigation to https://developer.ubuntu.com and subpages and "
 "back to https://www.ubuntu.com and subpages:::"
 msgstr ""
 "இவற்றை ஒன்றாக இணைத்து, https://www.ubuntu.com இல் தொடங்கி, வழிசெலுத்தலை https://"
-"developer.ubuntu.com மற்றும் துணைப் பகுதிகளுக்கு அனுமதிக்கிறது மற்றும் https://www."
-"ubuntu.com மற்றும் துணை பக்கங்கள் ::::"
+"developer.ubuntu.com மற்றும் துணைப் பகுதிகளுக்கு அனுமதிக்கிறது மற்றும் https://"
+"www.ubuntu.com மற்றும் துணை பக்கங்கள் ::::"
 
 #: ../../appdev/webapp/guide.rst:107
 msgid "Adding subdomains with a wildcard"
 msgstr "வைல்டு கார்டுடன் துணை டொமைன்களைச் சேர்ப்பது"
 
 #: ../../appdev/webapp/guide.rst:109
+#, fuzzy
 msgid ""
 "Some URLs have multiple subdomains. For example, www.ubuntu.com has design."
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
@@ -4534,6 +4568,7 @@ msgid "Adding http"
 msgstr "HTTP ஐச் சேர்க்கிறது"
 
 #: ../../appdev/webapp/guide.rst:118
+#, fuzzy
 msgid ""
 "Sometimes a site uses http for some of its URLs. In general this is unsafe "
 "and should be avoided, but here is an example that allows access to www."
@@ -4541,9 +4576,9 @@ msgid ""
 "to the wildcard):::"
 msgstr ""
 "சில நேரங்களில் ஒரு தளம் அதன் சில முகவரி களுக்கு HTTP ஐப் பயன்படுத்துகிறது. பொதுவாக "
-"இது பாதுகாப்பற்றது மற்றும் தவிர்க்கப்பட வேண்டும், ஆனால் இங்கே ஒரு எடுத்துக்காட்டு www."
-"launcpad.net ஐ HTTPS மற்றும் HTTP இரண்டிலும் வலைபயன்பாட்டிற்குள் (மற்றும் வைல்டு அட்டை "
-"காரணமாக அனைத்து துணைப்பொருட்களும்) :::"
+"இது பாதுகாப்பற்றது மற்றும் தவிர்க்கப்பட வேண்டும், ஆனால் இங்கே ஒரு எடுத்துக்காட்டு "
+"www.launcpad.net ஐ HTTPS மற்றும் HTTP இரண்டிலும் வலைபயன்பாட்டிற்குள் (மற்றும் வைல்டு "
+"அட்டை காரணமாக அனைத்து துணைப்பொருட்களும்) :::"
 
 #: ../../appdev/webapp/guide.rst:122
 msgid ""
@@ -4566,14 +4601,18 @@ msgstr ""
 "பல விருப்பங்களை ஏற்றுக்கொள்கிறது."
 
 #: ../../appdev/webapp/guide.rst:129
+#, fuzzy
 msgid "See all help with:::"
 msgstr "எல்லா உதவிகளையும் காண்க :::"
 
 #: ../../appdev/webapp/guide.rst:133
+#, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr "குறிப்பு: ஒருங்கிணைந்த உபுண்டுக்கு பின்வரும் விருப்பங்கள் மட்டுமே பொருந்தும். ::"
+msgstr ""
+"குறிப்பு: ஒருங்கிணைந்த உபுண்டுக்கு பின்வரும் விருப்பங்கள் மட்டுமே பொருந்தும். ::"
 
 #: ../../appdev/webapp/guide.rst:147
+#, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
 msgstr ""
 "Chrome விருப்பங்கள் (எதுவும் குறிப்பிடப்படவில்லை என்றால், எந்த Chrome இயல்பாகவும் "
@@ -4604,8 +4643,10 @@ msgstr ""
 "சரத்தை மாற்ற சில நேரங்களில் தேவை."
 
 #: ../../appdev/webapp/guide.rst:159
+#, fuzzy
 msgid "To change the string from the command line, use the following option:::"
-msgstr "கட்டளை வரியிலிருந்து சரத்தை மாற்ற, பின்வரும் விருப்பத்தைப் பயன்படுத்தவும் :::"
+msgstr ""
+"கட்டளை வரியிலிருந்து சரத்தை மாற்ற, பின்வரும் விருப்பத்தைப் பயன்படுத்தவும் :::"
 
 #: ../../appdev/webapp/guide.rst:164
 msgid "Browser data containment"
@@ -4772,6 +4813,7 @@ msgid "Watch the logs"
 msgstr "பதிவுகளைப் பாருங்கள்"
 
 #: ../../appdev/webapp/webdebug.rst:11
+#, fuzzy
 msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
@@ -4812,6 +4854,7 @@ msgstr ""
 "மூலம், வழக்கமான குரோம் பாணி பிழைத்திருத்திக்கான அணுகல் உங்களுக்கு உள்ளது."
 
 #: ../../appdev/webapp/webdebug.rst:26
+#, fuzzy
 msgid "On your phone, start the browser in inspector mode:::"
 msgstr "உங்கள் தொலைபேசியில், உலாவியை இன்ச்பெக்டர் பயன்முறையில் தொடங்கவும் :::"
 
@@ -5699,6 +5742,7 @@ msgstr ""
 "வேண்டும். அவ்வாறான நிலையில், உங்கள் எம்.ஆர் விளக்கங்கள் இதைப் போன்ற ஒன்றைக் கொண்டிருக்கும்:"
 
 #: ../../contribute/code.rst:161
+#, fuzzy
 msgid "In ``ubports/core/docs!1``:"
 msgstr "`` Ubports/core/docs! 1`` இல்:"
 
@@ -5975,6 +6019,7 @@ msgstr ""
 "பக்கப்பட்டி) மற்றும் பக்கத்தின் மேலே காட்டப்படும்."
 
 #: ../../contribute/documentation.rst:19
+#, fuzzy
 msgid ""
 "Titles should be \"sentence cased\" rather than \"Title Cased\". For "
 "example::"
@@ -6182,6 +6227,7 @@ msgstr ""
 "பின்வருபவை நீங்கள் வழிமாற்றுகளை உருவாக்க வேண்டிய சூழ்நிலைகளின் சில எடுத்துக்காட்டுகள்."
 
 #: ../../contribute/documentation.rst:120
+#, fuzzy
 msgid ""
 "You are moving ``systemdev/calendars.rst`` to ``appdev/calendars.rst``. Add "
 "the following to the ``redirects.txt`` file::"
@@ -6190,6 +6236,7 @@ msgstr ""
 "நகர்த்துகிறீர்கள். பின்வருவனவற்றை ``Rentirect.txt`` கோப்பில் சேர்::"
 
 #: ../../contribute/documentation.rst:124
+#, fuzzy
 msgid ""
 "You are moving ``appdev/clickable.rst`` into several pages in ``appdev/"
 "clickable/`` to give significantly more information about the tool than "
@@ -6201,9 +6248,8 @@ msgstr ""
 "முன்பு இருந்ததை விடக் கருவியைப் பற்றிக் கணிசமாகக் கூடுதல் தகவல்களை வழங்க ``appdev/"
 "clickable/`` இல் ``appdev/clickable.rst`` ஐ பல பக்கங்களுக்கு நகர்த்துகிறீர்கள். நீங்கள் "
 "ஒரு அறிமுக பக்கத்தை உருவாக்கியுள்ளீர்கள், ``appdev/கிளிக் செய்யக்கூடிய/அறிமுகம்.rst``. "
-"இந்த விசயத்தில், பழைய பக்கத்தைப் புதிய அறிமுகம் பக்கத்திற்கு திருப்பிவிடுவது நல்ல "
-"யோசனையாக இருக்கும். பின்வருவனவற்றை ``Reniders.txt`` இல் சேர்ப்பதன் மூலம் இதைச் "
-"செய்யலாம்::"
+"இந்த விசயத்தில், பழைய பக்கத்தைப் புதிய அறிமுகம் பக்கத்திற்கு திருப்பிவிடுவது நல்ல யோசனையா"
+"க இருக்கும். பின்வருவனவற்றை ``Reniders.txt`` இல் சேர்ப்பதன் மூலம் இதைச் செய்யலாம்::"
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
@@ -6510,6 +6556,7 @@ msgstr ""
 "கோரிக்கையை அனுப்புங்கள்!"
 
 #: ../../contribute/documentation.rst:204
+#, fuzzy
 msgid "To create a todo, add this markup to your page::"
 msgstr "ஒரு டோடோவை உருவாக்க, இந்த மார்க்அப்பை உங்கள் பக்கத்தில் சேர்க்கவும் ::"
 
@@ -6599,6 +6646,7 @@ msgid "Core apps"
 msgstr "முக்கிய பயன்பாடுகள்"
 
 #: ../../contribute/preinstalled-apps.rst:11
+#, fuzzy
 msgid ""
 "Core apps are applications which are included with UBports distributions of "
 "Ubuntu Touch **and** placed in the OpenStore for updates. Core apps are a "
@@ -7071,6 +7119,7 @@ msgstr ""
 "வலைலேட்டிலிருந்து ரெப்போவுக்கு வருவதாக திரும்பப் பெறுகின்றன."
 
 #: ../../contribute/translations.rst:24
+#, fuzzy
 msgid ""
 "Editor: Translation is done by changing *.po* files with the editor of your "
 "choice, and a GitHub/GitLab account. The *.po*/*.ts* files for each project "
@@ -7119,6 +7168,7 @@ msgstr ""
 "திருத்தப்பட்ட *.po* கோப்புகள் மொழிபெயர்ப்பின் தானியங்கி செயல்முறையை உடைக்கலாம்."
 
 #: ../../contribute/translations.rst:29
+#, fuzzy
 msgid ""
 "Most apps maintained by individual developers are mainly using *.pot*/*.po* "
 "files for translation. Those generally need to be edited manually and "
@@ -7197,6 +7247,7 @@ msgid ".po/.ts File Editor"
 msgstr ".po/.ts கோப்பு எடிட்டர்"
 
 #: ../../contribute/translations.rst:51
+#, fuzzy
 msgid ""
 "If you want to work with *.po*/*.ts* files directly you need to know what "
 "you're doing for sure. The first thing you should always remember is:"
@@ -7206,6 +7257,7 @@ msgstr ""
 "விசயம்:"
 
 #: ../../contribute/translations.rst:54
+#, fuzzy
 msgid ""
 "Do **never** commit *.po* files to projects that are translated using "
 "weblate. This could break the whole translation exchange process with "
@@ -7215,6 +7267,7 @@ msgstr ""
 "செய்யுங்கள். இது முழு மொழிபெயர்ப்பு பரிமாற்ற செயல்முறையையும் வலைலேட்டுடன் உடைக்கக்கூடும்."
 
 #: ../../contribute/translations.rst:56
+#, fuzzy
 msgid ""
 "As was said up above, you need a file editor of your choice and a GitHub/"
 "GitLab account to translate *.po*/*.ts* files directly. Idealy you do have "
@@ -7227,6 +7280,7 @@ msgstr ""
 "பயன்பாட்டை எவ்வாறு உருவாக்குவது என்பதை அறிந்து கொள்ளுங்கள்."
 
 #: ../../contribute/translations.rst:58
+#, fuzzy
 msgid ""
 "There are online gettext .po editors and those you can install on your "
 "computer. You can choose whatever editor you want, but we prefer to work "
@@ -7271,6 +7325,7 @@ msgid "(optional) Create a new branch for the translation"
 msgstr "(விரும்பினால்) மொழிபெயர்ப்புக்கு ஒரு புதிய கிளையை உருவாக்கவும்"
 
 #: ../../contribute/translations.rst:68
+#, fuzzy
 msgid ""
 "Build the app using clickable to get up-to-date *.pot*/*.ts* template files"
 msgstr ""
@@ -7278,8 +7333,10 @@ msgstr ""
 "வார்ப்புரு கோப்புகள்"
 
 #: ../../contribute/translations.rst:69
+#, fuzzy
 msgid "Update the desired *.po*/*.ts* language file(s) from the template"
-msgstr "வார்ப்புருவில் இருந்து விரும்பிய*.po*/*.ts* மொழி கோப்பு (கள்) புதுப்பிக்கவும்"
+msgstr ""
+"வார்ப்புருவில் இருந்து விரும்பிய*.po*/*.ts* மொழி கோப்பு (கள்) புதுப்பிக்கவும்"
 
 #: ../../contribute/translations.rst:70
 msgid "Translate all strings"
@@ -7297,12 +7354,13 @@ msgstr ""
 "அடையும் வரை"
 
 #: ../../contribute/translations.rst:73
+#, fuzzy
 msgid ""
 "Push the translated *.po*/*.ts* file(s) to your forked repo [do NOT commit *."
 "pot*/*.ts* template files]"
 msgstr ""
-"மொழிபெயர்க்கப்பட்ட *.po*/*.ts* கோப்பு (கள்) உங்கள் முட்கரண்டி ரெப்போவுக்கு [.pot*/*.ts* "
-"வார்ப்புரு கோப்புகள்]"
+"மொழிபெயர்க்கப்பட்ட *.po*/*.ts* கோப்பு (கள்) உங்கள் முட்கரண்டி ரெப்போவுக்கு "
+"[.pot*/*.ts* வார்ப்புரு கோப்புகள்]"
 
 #: ../../contribute/translations.rst:74
 msgid "Open a merge/pull request from your fork to the apps repo"
@@ -9227,6 +9285,7 @@ msgstr ""
 "மாற்றுவதன் மூலம் செய்ய முடியும்:"
 
 #: ../../porting/UpdatePortsFor2004.rst:33
+#, fuzzy
 msgid ""
 "The ``variables`` section enables building the flashable partition image "
 "from the Focal rootfs, which you might want to leave out for intial porting."
@@ -9267,6 +9326,7 @@ msgstr ""
 "மேலடுக்கை ஆய்வு செய்யுங்கள்"
 
 #: ../../porting/UpdatePortsFor2004.rst:43
+#, fuzzy
 msgid ""
 "Many ports overlay the files in Android partitions to makes the port work. "
 "This is often achived by overlaying the ``mount-android.conf`` Upstart job "
@@ -9305,6 +9365,7 @@ msgstr ""
 "புதுப்பிக்கவும்"
 
 #: ../../porting/UpdatePortsFor2004.rst:50
+#, fuzzy
 msgid ""
 "The way bluetooth-touch script used to work is inherently tied to Upstart. "
 "In Ubuntu Touch 20.04, bluetooth-touch is migrated to use Systemd. So, "
@@ -9457,6 +9518,7 @@ msgid "Establish an ssh connection to your device as follows:"
 msgstr "உங்கள் கருவியிற்கு ஒரு பாஓடு இணைப்பை பின்வருமாறு நிறுவவும்:"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:29
+#, fuzzy
 msgid ""
 "Your computer should now have a newly connected RNDIS interface. Check the "
 "output of ``ip link show`` for the device name. The device name will most "
@@ -9464,11 +9526,12 @@ msgid ""
 "the default one is all 00s) and an IP of 10.15.19.100::"
 msgstr ""
 "உங்கள் கணினி இப்போது புதிதாக இணைக்கப்பட்ட RNDIS இடைமுகத்தைக் கொண்டிருக்க வேண்டும். சாதன "
-"பெயருக்கு ``ஐபி இணைப்பு சோ`` இன் வெளியீட்டைச் சரிபார்க்கவும். கருவியின் பெயர் "
-"பெரும்பாலும் ``enp0s29u1u1`` ஐ ஒத்திருக்கும். இந்த கருவியை ஒரு போலி மேக் முகவரி "
-"(இயல்புநிலை ஒன்று 00 கள் என்றால்) மற்றும் 10.15.19.100 ::"
+"பெயருக்கு ``ஐபி இணைப்பு சோ`` இன் வெளியீட்டைச் சரிபார்க்கவும். கருவியின் பெயர் பெரும்பாலும்"
+" ``enp0s29u1u1`` ஐ ஒத்திருக்கும். இந்த கருவியை ஒரு போலி மேக் முகவரி (இயல்புநிலை "
+"ஒன்று 00 கள் என்றால்) மற்றும் 10.15.19.100 ::"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:35
+#, fuzzy
 msgid "Once finished, you should be able to login with the following::"
 msgstr "முடிந்ததும், நீங்கள் பின்வருவனவற்றில் உள்நுழைய முடியும் ::"
 
@@ -9482,6 +9545,7 @@ msgid "telnet connection"
 msgstr "டெல்நெட் இணைப்பு"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:46
+#, fuzzy
 msgid ""
 "If you have been offered a telnet connection the rootfs and system image "
 "have likely not been found and mounted at boot time. This may indicate that "
@@ -9519,6 +9583,7 @@ msgid "Initializing the build environment"
 msgstr "உருவாக்க சூழலைத் தொடங்குதல்"
 
 #: ../../porting/build_and_boot/H7_build.rst:9
+#, fuzzy
 msgid ""
 "First you need to initialize the environment using the envsetup.sh tool "
 "included in your source tree. Enter your BUILDDIR and issue the command::"
@@ -9527,10 +9592,12 @@ msgstr ""
 "சூழலைத் தொடங்க வேண்டும். உங்கள் பில்டிரை உள்ளிட்டு கட்டளையை வெளியிடுங்கள் ::"
 
 #: ../../porting/build_and_boot/H7_build.rst:13
+#, fuzzy
 msgid "The output will look like this::"
 msgstr "வெளியீடு இப்படி இருக்கும் ::"
 
 #: ../../porting/build_and_boot/H7_build.rst:21
+#, fuzzy
 msgid ""
 "The ``breakfast`` command is used to set up the build environment for a "
 "specific device. From the root of your BUILDDIR run the following, replacing "
@@ -9583,6 +9650,7 @@ msgstr ""
 "ம்கே`` ஐ இயக்கவும்."
 
 #: ../../porting/build_and_boot/H7_build.rst:36
+#, fuzzy
 msgid "Then, from the root of your BUILDDIR, run::"
 msgstr "பின்னர், உங்கள் பில்டீரின் மூலத்திலிருந்து, ரன் ::"
 
@@ -9634,6 +9702,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:49
 #: ../../porting/build_and_boot/H9_build.rst:52
+#, fuzzy
 msgid "Add the following line::"
 msgstr "பின்வரும் வரியைச் சேர்க்கவும் ::"
 
@@ -9648,6 +9717,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:56
 #: ../../porting/build_and_boot/H9_build.rst:59
+#, fuzzy
 msgid ""
 "The above method, although the preferred one, may not work for some Samsung "
 "devices. The result will be that you cannot get access to the device through "
@@ -9680,16 +9750,18 @@ msgid "Build"
 msgstr "உருவாக்கு"
 
 #: ../../porting/build_and_boot/H7_build.rst:67
+#, fuzzy
 msgid ""
 "Halium will use the mkbootimg tool for creating the boot image. In most "
 "cases it is not on the local harddisk, so it can be built by issuing::"
 msgstr ""
 "துவக்க படத்தை உருவாக்க ஆலியம் MkBootimg கருவியைப் பயன்படுத்தும். பெரும்பாலான "
-"சந்தர்ப்பங்களில் இது உள்ளக ஆர்ட் டிச்கில் இல்லை, எனவே அதை வழங்குவதன் மூலம் கட்டமைக்க "
-"முடியும் ::"
+"சந்தர்ப்பங்களில் இது உள்ளக ஆர்ட் டிச்கில் இல்லை, எனவே அதை வழங்குவதன் மூலம் கட்டமைக்க முடியும் "
+"::"
 
 #: ../../porting/build_and_boot/H7_build.rst:71
 #: ../../porting/build_and_boot/H9_build.rst:96
+#, fuzzy
 msgid "Now build the ``halium-boot.img`` using the commands::"
 msgstr "இப்போது கட்டளைகளைப் பயன்படுத்தி ``halium-boot.img`` ஐ உருவாக்குங்கள் ::"
 
@@ -9745,12 +9817,13 @@ msgid "Building the system image (system.img)"
 msgstr "கணினி படத்தை உருவாக்குதல் (system.img)"
 
 #: ../../porting/build_and_boot/H7_build.rst:92
+#, fuzzy
 msgid ""
 "Once you have successfully built halium-boot.img you can proceed to directly "
 "to building system.img::"
 msgstr ""
-"நீங்கள் வெற்றிகரமாக Halium-boot.img ஐ உருவாக்கியதும் நீங்கள் நேரடியாக கட்டிட "
-"அமைப்புக்குச் செல்லலாம். Img ::"
+"நீங்கள் வெற்றிகரமாக Halium-boot.img ஐ உருவாக்கியதும் நீங்கள் நேரடியாக கட்டிட அமைப்புக்குச்"
+" செல்லலாம். Img ::"
 
 #: ../../porting/build_and_boot/H7_build.rst:96
 msgid ""
@@ -9784,6 +9857,7 @@ msgstr "ஆலியம் -7.1 கட்டமைப்பிற்கான �
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:9
 #: ../../porting/build_and_boot/H9_setup_sources.rst:7
+#, fuzzy
 msgid "Create a directory for your Halium source tree::"
 msgstr "உங்கள் ஆலியம் மூல மரத்திற்கான கோப்பகத்தை உருவாக்கவும் ::"
 
@@ -9795,10 +9869,12 @@ msgid ""
 msgstr "இந்த வழிகாட்டலின் எஞ்சிய பகுதி முழுவதும் இந்த அடைவு பில்டிராக குறிப்பிடப்படும்."
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:15
+#, fuzzy
 msgid "First, initialize your source to the correct version of Halium::"
 msgstr "முதலில், உங்கள் மூலத்தை ஆலியத்தின் சரியான பதிப்பிற்கு துவக்கவும் ::"
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:19
+#, fuzzy
 msgid "Then download the code by issuing the command::"
 msgstr "கட்டளையை வழங்குவதன் மூலம் குறியீட்டைப் பதிவிறக்கவும் ::"
 
@@ -9837,14 +9913,15 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:30
 #: ../../porting/build_and_boot/H9_setup_sources.rst:30
+#, fuzzy
 msgid ""
 "The necessary sources need to be located and specified by creating a device "
 "manifest file (or editing an existing one) in the directory ``BUILDDIR/"
 "halium/devices/manifests``."
 msgstr ""
 "`` பில்ட் டிர்/ஆலியம்/கருவிள்/மேனிஃபெச்ட்கள்`` கோப்பகத்தில் ஒரு சாதன மேனிஃபெச்ட் கோப்பை "
-"(அல்லது ஏற்கனவே உள்ள ஒன்றைத் திருத்துதல்) உருவாக்குவதன் மூலம் தேவையான ஆதாரங்கள் "
-"அமைந்திருக்க வேண்டும்."
+"(அல்லது ஏற்கனவே உள்ள ஒன்றைத் திருத்துதல்) உருவாக்குவதன் மூலம் தேவையான ஆதாரங்கள் அமைந்திருக்"
+"க வேண்டும்."
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:33
 #: ../../porting/build_and_boot/H9_setup_sources.rst:33
@@ -9898,6 +9975,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:50
 #: ../../porting/build_and_boot/H9_setup_sources.rst:50
+#, fuzzy
 msgid "Paste the following into the file::"
 msgstr "பின்வருவனவற்றை கோப்பில் ஒட்டவும் ::"
 
@@ -9907,6 +9985,7 @@ msgid "The device repository"
 msgstr "சாதன களஞ்சியம்"
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:60
+#, fuzzy
 msgid ""
 "Your sources must now be entered into the manifest. Start with your device "
 "repository. Between the <manifest> and </manifest> tags, create the line "
@@ -9915,8 +9994,8 @@ msgid ""
 msgstr ""
 "உங்கள் ஆதாரங்கள் இப்போது மேனிஃபெச்ட்டுக்குள் நுழைய வேண்டும். உங்கள் சாதன களஞ்சியத்துடன் "
 "தொடங்கவும். <manifest>மற்றும்</manifest> குறிச்சொற்களுக்கு இடையில், கீழே உள்ள வரியை "
-"உருவாக்கி, சதுர அடைப்புக்குறிக்குள் உள்ள தகவல்களை உங்கள் சொந்தத்துடன் மாற்றுவதை "
-"உறுதிசெய்க ::"
+"உருவாக்கி, சதுர அடைப்புக்குறிக்குள் உள்ள தகவல்களை உங்கள் சொந்தத்துடன் மாற்றுவதை உறுதிசெய்க "
+"::"
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:64
 #: ../../porting/build_and_boot/H9_setup_sources.rst:64
@@ -9950,6 +10029,7 @@ msgstr "சார்புநிலைகள்"
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:74
 #: ../../porting/build_and_boot/H9_setup_sources.rst:74
+#, fuzzy
 msgid ""
 "Now create more lines like the previous one, using the ``lineage."
 "dependencies`` (or ``cm.dependencies``) file you found earlier in your "
@@ -9998,6 +10078,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:87
 #: ../../porting/build_and_boot/H9_setup_sources.rst:87
+#, fuzzy
 msgid ""
 "It may also be possible to extract the vendor blobs from the device itself "
 "by following instructions for your device on `the LineageOS wiki <https://"
@@ -10021,6 +10102,7 @@ msgstr ""
 "சேவையகம் மற்றும் இயல்புநிலை திருத்தம் (கிளை/குறிச்சொல்) ஆகியவற்றைக் குறிப்பிடுகிறது."
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:96
+#, fuzzy
 msgid ""
 "You can create a remote by adding a remote tag to your manifest as shown in "
 "the following example::"
@@ -10040,13 +10122,14 @@ msgstr ""
 "நோக்கங்களுக்காக பயனுள்ளதாக இருக்காது."
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:105
+#, fuzzy
 msgid ""
 "For example, let’s say that you have a bunch of repositories at https://"
 "github.com/SomeUserName/ and your desired branch name is los-14.1 in each. "
 "You would create a remote as follows and place it into your local manifest::"
 msgstr ""
-"எடுத்துக்காட்டாக, https://github.com/someusername/ இல் உங்களிடம் ஒரு களஞ்சியங்கள் "
-"உள்ளன என்று சொல்லலாம், மேலும் நீங்கள் விரும்பிய கிளை பெயர் ஒவ்வொன்றிலும் லாச் -14.1 ஆகும். "
+"எடுத்துக்காட்டாக, https://github.com/someusername/ இல் உங்களிடம் ஒரு களஞ்சியங்கள் உள்"
+"ளன என்று சொல்லலாம், மேலும் நீங்கள் விரும்பிய கிளை பெயர் ஒவ்வொன்றிலும் லாச் -14.1 ஆகும். "
 "நீங்கள் பின்வருமாறு ஒரு தொலைதூரத்தை உருவாக்கி அதை உங்கள் உள்ளக மேனிஃபெச்டில் வைப்பீர்கள் ::"
 
 #: ../../porting/build_and_boot/H7_setup_sources.rst:111
@@ -10125,20 +10208,22 @@ msgid "Halium-9.0 - Building"
 msgstr "ஆலியம் -9.0 - கட்டிடம்"
 
 #: ../../porting/build_and_boot/H9_build.rst:4
+#, fuzzy
 msgid ""
 "When doing a Halium 9.0 port, you first need to build ``halium-boot.img``. "
 "This boot image can then either be combined with the GSI, or you can build "
 "your own, device-specific ``system.img`` as well."
 msgstr ""
 "ஆலியம் 9.0 துறைமுகம் செய்யும்போது, நீங்கள் முதலில் ``ஆலியம்-பூட்.ஐஎம்சி`` ஐ உருவாக்க "
-"வேண்டும். இந்த துவக்கப் படத்தை சி.எச்.ஐ உடன் இணைக்கலாம் அல்லது உங்கள் சொந்த, கருவி சார்ந்த "
-"`` system.img`` ஐ உருவாக்கலாம்."
+"வேண்டும். இந்த துவக்கப் படத்தை சி.எச்.ஐ உடன் இணைக்கலாம் அல்லது உங்கள் சொந்த, கருவி சார்ந்த ``"
+" system.img`` ஐ உருவாக்கலாம்."
 
 #: ../../porting/build_and_boot/H9_build.rst:7
 msgid "Building the boot image (halium-boot.img)"
 msgstr "துவக்க படத்தை உருவாக்குதல் (Halium-boot.img)"
 
 #: ../../porting/build_and_boot/H9_build.rst:12
+#, fuzzy
 msgid ""
 "First you need to initialize the environment using the ``envsetup.sh`` tool "
 "included in your source tree. Enter your ``BUILDDIR`` and issue the command::"
@@ -10147,20 +10232,23 @@ msgstr ""
 "சூழலைத் தொடங்க வேண்டும். உங்கள் ``பில்ட் டிர்`` உள்ளிட்டு கட்டளையை வழங்கவும் ::"
 
 #: ../../porting/build_and_boot/H9_build.rst:16
+#, fuzzy
 msgid "The output should resemble this::"
 msgstr "வெளியீடு இதை ஒத்ததாக இருக்க வேண்டும் ::"
 
 #: ../../porting/build_and_boot/H9_build.rst:24
+#, fuzzy
 msgid ""
 "The ``breakfast`` command is used to set up the build environment for a "
 "specific device. From the root of your ``BUILDDIR`` run the following "
 "command, replacing [CODENAME] with your device's specific codename::"
 msgstr ""
 "ஒரு குறிப்பிட்ட கருவியிற்கான உருவாக்க சூழலை அமைக்க ``காலை உணவு`` கட்டளை "
-"பயன்படுத்தப்படுகிறது. உங்கள் ``பில்ட் டிர்`` இன் மூலத்திலிருந்து பின்வரும் கட்டளையை "
-"இயக்கவும், [குறியீட்டு பெயரை] உங்கள் கருவியின் குறிப்பிட்ட குறியீட்டு பெயர் ::"
+"பயன்படுத்தப்படுகிறது. உங்கள் ``பில்ட் டிர்`` இன் மூலத்திலிருந்து பின்வரும் கட்டளையை இயக்கவும்"
+", [குறியீட்டு பெயரை] உங்கள் கருவியின் குறிப்பிட்ட குறியீட்டு பெயர் ::"
 
 #: ../../porting/build_and_boot/H9_build.rst:39
+#, fuzzy
 msgid "Then, from the root of your ``BUILDDIR``, run::"
 msgstr "பின்னர், உங்கள் ``பில்ட் டிர்`` இன் மூலத்திலிருந்து, ரன் ::"
 
@@ -10169,6 +10257,7 @@ msgid "Setting system as root"
 msgstr "கணினியை வேராக அமைத்தல்"
 
 #: ../../porting/build_and_boot/H9_build.rst:70
+#, fuzzy
 msgid ""
 "For Halium 9, we need the system image to be built as system-as-root (for "
 "treble devices it should already be there). Please check your ``boardconfig."
@@ -10183,13 +10272,14 @@ msgid "If the above is not there, we have to add it."
 msgstr "மேற்கூறியவை இல்லையென்றால், அதை நாம் சேர்க்க வேண்டும்."
 
 #: ../../porting/build_and_boot/H9_build.rst:76
+#, fuzzy
 msgid ""
 "As this change makes the android root read-only, we may have to ship mount "
 "points for some important partitions like ``firmware``, ``persist`` with the "
 "system image, for this we can use the line::"
 msgstr ""
-"இந்த மாற்றம் ஆண்ட்ராய்டு ரூட் படிக்க மட்டுமே செய்யப்படுவதால், ``ஃபார்ம்வேர்``, கணினி "
-"படத்துடன் ``தொடர்ந்து`` போன்ற சில முக்கியமான பகிர்வுகளுக்கு மவுண்ட் புள்ளிகளை அனுப்ப "
+"இந்த மாற்றம் ஆண்ட்ராய்டு ரூட் படிக்க மட்டுமே செய்யப்படுவதால், ``ஃபார்ம்வேர்``, கணினி படத்துடன்"
+" ``தொடர்ந்து`` போன்ற சில முக்கியமான பகிர்வுகளுக்கு மவுண்ட் புள்ளிகளை அனுப்ப "
 "வேண்டியிருக்கும், இதற்காக நாம் வரியைப் பயன்படுத்தலாம் ::"
 
 #: ../../porting/build_and_boot/H9_build.rst:84
@@ -10214,13 +10304,14 @@ msgstr ""
 "android_device_xiaomi_kenzo/commit/3e8ea1e3194c19aa52b0b2 61."
 
 #: ../../porting/build_and_boot/H9_build.rst:92
+#, fuzzy
 msgid ""
 "Halium will use the ``mkbootimg`` tool for creating the boot image. In most "
 "cases it is not on the local harddisk, so it can be built by issuing::"
 msgstr ""
 "துவக்க படத்தை உருவாக்க ஆலியம் ``mkbootimg`` கருவியைப் பயன்படுத்தும். பெரும்பாலான "
-"சந்தர்ப்பங்களில் இது உள்ளக ஆர்ட் டிச்கில் இல்லை, எனவே அதை வழங்குவதன் மூலம் கட்டமைக்க "
-"முடியும் ::"
+"சந்தர்ப்பங்களில் இது உள்ளக ஆர்ட் டிச்கில் இல்லை, எனவே அதை வழங்குவதன் மூலம் கட்டமைக்க முடியும் "
+"::"
 
 #: ../../porting/build_and_boot/H9_build.rst:110
 msgid ""
@@ -10243,15 +10334,17 @@ msgstr ""
 "நீங்கள் **முழு கணினி பட** முறையைப் பின்பற்றுகிறீர்கள் என்றால், இந்த படி தேவை."
 
 #: ../../porting/build_and_boot/H9_build.rst:120
+#, fuzzy
 msgid ""
 "Halium will use the ``e2fsdroid`` tool for creating the system image. In "
 "most cases it is not on the local harddisk, so it can be built by issuing::"
 msgstr ""
 "கணினி படத்தை உருவாக்க ஆலியம் ``e2fsdroid`` கருவியைப் பயன்படுத்தும். பெரும்பாலான "
-"சந்தர்ப்பங்களில் இது உள்ளக ஆர்ட் டிச்கில் இல்லை, எனவே அதை வழங்குவதன் மூலம் கட்டமைக்க "
-"முடியும் ::"
+"சந்தர்ப்பங்களில் இது உள்ளக ஆர்ட் டிச்கில் இல்லை, எனவே அதை வழங்குவதன் மூலம் கட்டமைக்க முடியும் "
+"::"
 
 #: ../../porting/build_and_boot/H9_build.rst:125
+#, fuzzy
 msgid "To build the system image::"
 msgstr "கணினி படத்தை உருவாக்க ::"
 
@@ -10286,10 +10379,12 @@ msgstr ""
 "தொடங்கவும். ஐயம் இருந்தால், குறிப்பு :ref:`Android-and-Halium-versions`."
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:15
+#, fuzzy
 msgid "For Halium 9.0::"
 msgstr "ஆலியம் 9.0 ::"
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:19
+#, fuzzy
 msgid ""
 "With the Halium tree initialized you are ready to download the code by "
 "issuing the command::"
@@ -10298,6 +10393,7 @@ msgstr ""
 "உள்ளீர்கள் ::"
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:60
+#, fuzzy
 msgid ""
 "Your sources must now be entered into the manifest. Start with your device "
 "repository. Between the ``<manifest>`` and ``</manifest>`` tags, create the "
@@ -10305,8 +10401,8 @@ msgid ""
 "brackets with your own::"
 msgstr ""
 "உங்கள் ஆதாரங்கள் இப்போது மேனிஃபெச்ட்டுக்குள் நுழைய வேண்டும். உங்கள் சாதன களஞ்சியத்துடன் "
-"தொடங்கவும். ``<manifest>`` மற்றும் ``</manifest>`` குறிச்சொற்களுக்கு இடையில், கீழே "
-"உள்ள வரியை உருவாக்கி, சதுர அடைப்புக்குறிக்குள் உள்ள தகவல்களை உங்கள் சொந்தத்துடன் மாற்றுவதை "
+"தொடங்கவும். ``<manifest>`` மற்றும் ``</manifest>`` குறிச்சொற்களுக்கு இடையில், கீழே உள்"
+"ள வரியை உருவாக்கி, சதுர அடைப்புக்குறிக்குள் உள்ள தகவல்களை உங்கள் சொந்தத்துடன் மாற்றுவதை "
 "உறுதிசெய்க ::"
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:69
@@ -10328,6 +10424,7 @@ msgid "Vendor blobs go in the vendor/ folder of your BUILDDIR."
 msgstr "உங்கள் பில்டிரின் விற்பனையாளர்/ கோப்புறையில் விற்பனையாளர் குமிழ்கள் செல்கின்றன."
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:96
+#, fuzzy
 msgid "You can create a remote by adding a remote tag to your manifest::"
 msgstr ""
 "உங்கள் மேனிஃபெச்டில் தொலைநிலை குறிச்சொல்லைச் சேர்ப்பதன் மூலம் தொலைதூரத்தை உருவாக்கலாம் ::"
@@ -10341,13 +10438,14 @@ msgstr ""
 "முடியாது)"
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:107
+#, fuzzy
 msgid ""
 "For example, let’s say that you have a bunch of repositories at https://"
 "github.com/SomeUserName/ and your desired branch name is los-16.0 in each. "
 "You would create a remote as follows and place it into your local manifest::"
 msgstr ""
-"எடுத்துக்காட்டாக, https://github.com/someusername/ இல் உங்களிடம் ஒரு களஞ்சியங்கள் "
-"உள்ளன என்று சொல்லலாம், மேலும் நீங்கள் விரும்பிய கிளை பெயர் ஒவ்வொன்றிலும் லாச் -16.0 ஆகும். "
+"எடுத்துக்காட்டாக, https://github.com/someusername/ இல் உங்களிடம் ஒரு களஞ்சியங்கள் உள்"
+"ளன என்று சொல்லலாம், மேலும் நீங்கள் விரும்பிய கிளை பெயர் ஒவ்வொன்றிலும் லாச் -16.0 ஆகும். "
 "நீங்கள் பின்வருமாறு ஒரு தொலைதூரத்தை உருவாக்கி அதை உங்கள் உள்ளக மேனிஃபெச்டில் வைப்பீர்கள் ::"
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:113
@@ -10391,14 +10489,15 @@ msgid "Sync and apply hybris patches"
 msgstr "ஐப்ரிச் திட்டுகளை ஒத்திசைத்து பயன்படுத்துங்கள்"
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:130
+#, fuzzy
 msgid ""
 "With your manifest now complete, go to the root of your ``BUILDDIR`` and "
 "issue the following command (replace DEVICE with your device’s codename) to "
 "bring the device-specific source code into your source tree::"
 msgstr ""
-"உங்கள் மேனிஃபெச்ட் இப்போது முடிந்தவுடன், உங்கள் ``பில்ட் டிர்`` இன் வேருக்குச் சென்று, சாதன-"
-"குறிப்பிட்ட மூலக் குறியீட்டை உங்கள் மூல மரத்தில் கொண்டு வர பின்வரும் கட்டளையை (கருவியை "
-"உங்கள் கருவியின் குறியீட்டு பெயருடன் மாற்றவும்) வழங்கவும் ::"
+"உங்கள் மேனிஃபெச்ட் இப்போது முடிந்தவுடன், உங்கள் ``பில்ட் டிர்`` இன் வேருக்குச் சென்று, "
+"சாதன-குறிப்பிட்ட மூலக் குறியீட்டை உங்கள் மூல மரத்தில் கொண்டு வர பின்வரும் கட்டளையை "
+"(கருவியை உங்கள் கருவியின் குறியீட்டு பெயருடன் மாற்றவும்) வழங்கவும் ::"
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:134
 msgid ""
@@ -10422,6 +10521,7 @@ msgstr ""
 "பயனுள்ளது."
 
 #: ../../porting/build_and_boot/H9_setup_sources.rst:138
+#, fuzzy
 msgid "From the root of your BUILDDIR, run the following command::"
 msgstr "உங்கள் பில்டீரின் மூலத்திலிருந்து, பின்வரும் கட்டளையை இயக்கவும் ::"
 
@@ -10516,6 +10616,7 @@ msgid "Flashing halium-boot.img"
 msgstr "ஒளிரும் ஆலியம்-பூட்"
 
 #: ../../porting/build_and_boot/Halium_install.rst:20
+#, fuzzy
 msgid ""
 "To install halium-boot, reboot your phone into fastboot mode. Then do the "
 "following from the root of your ``BUILDDIR``::"
@@ -10524,6 +10625,7 @@ msgstr ""
 "உங்கள் ``BUILDDIR`` இன் மூலத்திலிருந்து பின்வருவனவற்றைச் செய்யுங்கள் ::"
 
 #: ../../porting/build_and_boot/Halium_install.rst:25
+#, fuzzy
 msgid ""
 "If you have trouble accessing your device in fastboot mode, but are able to "
 "access it in TWRP recovery mode using adb, then boot into recovery mode and "
@@ -10647,10 +10749,12 @@ msgid "Perform the installation"
 msgstr "நிறுவலைச் செய்யுங்கள்"
 
 #: ../../porting/build_and_boot/Halium_install.rst:61
+#, fuzzy
 msgid "For **Halium 7.1 ports** use the following command::"
 msgstr "**ஆலியம் 7.1 துறைமுகங்களுக்கு** பின்வரும் கட்டளையைப் பயன்படுத்தவும் ::"
 
 #: ../../porting/build_and_boot/Halium_install.rst:65
+#, fuzzy
 msgid "For **Halium 9.0 ports**, use this command::"
 msgstr "**ஆலியம் 9.0 துறைமுகங்களுக்கு**, இந்த கட்டளையைப் பயன்படுத்தவும் ::"
 
@@ -10765,16 +10869,18 @@ msgid "Setting up your build environment"
 msgstr "உங்கள் உருவாக்க சூழலை அமைத்தல்"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:14
+#, fuzzy
 msgid ""
 "Assuming you have already installed the tools specified in the section on :"
 "ref:`Setting-up`, there are just a few more to add before your build "
 "environment is complete. Run this commmand to add them::"
 msgstr ""
 "பிரிவில் குறிப்பிடப்பட்டுள்ள கருவிகளை நீங்கள் ஏற்கனவே நிறுவியுள்ளீர்கள் என்று வைத்துக் "
-"கொள்ளுங்கள் :ref:`Setting-up`, உங்கள் உருவாக்க சூழல் முடிவதற்குள் இன்னும் சிலவற்றைச் "
-"சேர்க்க இன்னும் சில உள்ளன. அவற்றைச் சேர்க்க இந்த கட்டளையை இயக்கவும்::"
+"கொள்ளுங்கள் :ref:`Setting-up`, உங்கள் உருவாக்க சூழல் முடிவதற்குள் இன்னும் சிலவற்றைச் சேர்க்"
+"க இன்னும் சில உள்ளன. அவற்றைச் சேர்க்க இந்த கட்டளையை இயக்கவும்::"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:20
+#, fuzzy
 msgid "If you use a RPM based distro such as Mageia, you run::"
 msgstr ""
 "மாகியா போன்ற ஆர்.பி.எம் அடிப்படையிலான டிச்ட்ரோவைப் பயன்படுத்தினால், நீங்கள் இயங்குகிறீர்கள்::"
@@ -11032,6 +11138,7 @@ msgstr ""
 "ரெட்மி 9 சி அல்லது ரெட்மி குறிப்பு 10 கள் போன்ற முழு சாதன பெயர். தேவையானபடி மாற்றவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:109
+#, fuzzy
 msgid "``deviceinfo_name=\"Redmi 9C\"``"
 msgstr "`` deviceInfo பெயர் = \"redmi 9c\" ``"
 
@@ -11040,6 +11147,7 @@ msgid "The name of the device's manufacturer. Change as needed."
 msgstr "கருவியின் உற்பத்தியாளரின் பெயர். தேவைக்கேற்ப மாற்றவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:114
+#, fuzzy
 msgid "``deviceinfo_manufacturer=\"Xiaomi\"``"
 msgstr "`` DeviceInfo உற்பத்தியாளர் = \"Xiaomi\" ``"
 
@@ -11054,6 +11162,7 @@ msgstr ""
 "உள்ள குறியீட்டைப் பெயரை உங்கள் சொந்தத்துடன் மாற்றவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:119
+#, fuzzy
 msgid "``deviceinfo_codename=\"angelica\"``"
 msgstr "`` deviceInfo_codename = \"Angenica\" ``"
 
@@ -11070,6 +11179,7 @@ msgstr ""
 "\"ARMV7\" க்கு அமைக்கவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:124
+#, fuzzy
 msgid "``deviceinfo_arch=\"aarch64\"``"
 msgstr "`` deviceInfo_arch = \"aarch64\" ``"
 
@@ -11102,6 +11212,7 @@ msgstr ""
 "எளிதாகப் பெறலாம். தேவையானபடி மாற்றவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:134
+#, fuzzy
 msgid "``deviceinfo_kernel_source_branch=\"halium10-new\"``"
 msgstr "`` deviceInfo_kernel_source_branch = \"Halium10-new\" ``"
 
@@ -11124,6 +11235,7 @@ msgstr ""
 "கண்டுபிடிப்பு\" என்ற பகுதியைப் பார்க்கவும்)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:141
+#, fuzzy
 msgid "``deviceinfo_kernel_defconfig=\"angelica_defconfig halium.config\"``"
 msgstr ""
 "`` deviceInfo_kernel_defconfig = \"Angelica_defconfig halium.config\" ``"
@@ -11175,6 +11287,7 @@ msgstr ""
 "முழுவதுமாக தவிர்க்கவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:152
+#, fuzzy
 msgid "``deviceinfo_kernel_clang_compile=\"true\"``"
 msgstr "`` deviceInfo_kernel_clang_compile = \"உண்மை\" ``"
 
@@ -11189,6 +11302,7 @@ msgstr ""
 "விரும்பினால், இந்த உள்ளீட்டை உங்கள் கருவியில் சேர்க்கவும், இல்லையெனில் அதைத் தவிர்க்கவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:158
+#, fuzzy
 msgid "``deviceinfo_kernel_use_lld=\"true\"``"
 msgstr "`` deviceInfo_kernel_use_lld = \"உண்மை\" ``"
 
@@ -11205,6 +11319,7 @@ msgstr ""
 "``deviceinfo_kernel_use_lld`` இதனைக் குறிப்பிடதேவையில்லை)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:166
+#, fuzzy
 msgid "``deviceinfo_kernel_llvm_compile=\"true\"``"
 msgstr "`` deviceInfo_kernel_llvm_compile = \"உண்மை\" ``"
 
@@ -11218,6 +11333,7 @@ msgstr ""
 "நேரங்களில் வேலை செய்கிறது."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:171
+#, fuzzy
 msgid "``deviceinfo_kernel_use_dtc_ext=\"true\"``"
 msgstr "`` deviceInfo_kernel_use_dtc_ext = \"உண்மை\" ``"
 
@@ -11232,6 +11348,7 @@ msgstr ""
 "உங்களுக்கு இது தேவைப்பட்டால், படத்தின் பெயரை தேவையான அளவு சரிசெய்யவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:176
+#, fuzzy
 msgid "``deviceinfo_kernel_image_name=\"Image.gz\"``"
 msgstr "`` deviceInfo_kernel_image_name = \"image.gz\" ``"
 
@@ -11245,6 +11362,7 @@ msgstr ""
 "இருக்கும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:182
+#, fuzzy
 msgid "``deviceinfo_ramdisk_compression=\"lz4\"``"
 msgstr "`` deviceInfo_ramdisk_compression = \"lz4\" ``"
 
@@ -11257,6 +11375,7 @@ msgstr ""
 "வரை ஆதரிக்கப்படுகிறது."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:187
+#, fuzzy
 msgid "``deviceinfo_halium_version=\"11\"``"
 msgstr "`` deviceInfo_halium_version = \"11\" ``"
 
@@ -11277,6 +11396,7 @@ msgstr ""
 "12 பதிப்பு 4 ஐப் பயன்படுத்துகிறது)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:192
+#, fuzzy
 msgid "``deviceinfo_bootimg_header_version=\"2\"``"
 msgstr "`` deviceInfo_bootimg_header_version = \"2\" ``"
 
@@ -11294,6 +11414,7 @@ msgstr ""
 "டிடிபி இருக்கும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:198
+#, fuzzy
 msgid "``deviceinfo_bootimg_prebuilt_dtb=\"mt6765.dtb\"``"
 msgstr "`` DeviceInfo_bootimg_prebuilt_dtb = \"mt6765.dtb\"``"
 
@@ -11314,6 +11435,7 @@ msgstr ""
 "விற்பனையாளர்_பூட்டில் DTB ஐ உள்ளடக்கும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:206
+#, fuzzy
 msgid "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
 msgstr "`` deviceInfo_dtb = \"mediatek/mt6765.dtb\" ``"
 
@@ -11328,6 +11450,7 @@ msgstr ""
 "சாம்சங்/எக்சினோச் கருவிளில் மட்டுமே தேவைப்படுகிறது.)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:211
+#, fuzzy
 msgid "``deviceinfo_bootimg_prebuilt_dt=\"exynos8890-dt.img\"``"
 msgstr "`` deviceInfo_bootimg_prebuilt_dt = \"exynos8890-dt.img\" ``"
 
@@ -11342,6 +11465,7 @@ msgstr ""
 "கோப்பகத்துடன் தொடர்புடைய பாதை மீண்டும் உள்ளது. விரும்பியபடி திருத்து."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:216
+#, fuzzy
 msgid "``deviceinfo_prebuilt_dtbo=\"angelica-dtbo.img\"``"
 msgstr "`` deviceInfo_prebuilt_dtbo = \"Angelica-dtbo.img\" ``"
 
@@ -11356,6 +11480,7 @@ msgstr ""
 "இன்னும் இந்த டிடிபிஓவுடன் தொகுக்கப்படும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:221
+#, fuzzy
 msgid "``deviceinfo_skip_dtbo_partition=\"true\"``"
 msgstr "`` deviceInfo_skip_dtbo_partition = \"உண்மை\" ``"
 
@@ -11380,6 +11505,7 @@ msgstr ""
 "பொருந்தாது."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:227
+#, fuzzy
 msgid "``deviceinfo_dtbo=\"mediatek/galahad.dtbo mediatek/lancelot.dtbo\"``"
 msgstr ""
 "`` deviceInfo_dtbo = \"mediatek/calahad.dtbo mediatek/lancelot.dtbo\" ``"
@@ -11397,6 +11523,7 @@ msgstr ""
 "தேவைப்பட்டால் நீங்கள் விரும்பியபடி திருத்தவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:232
+#, fuzzy
 msgid "``deviceinfo_bootimg_board=\"EXYNOS4412\"``"
 msgstr "`` deviceInfo_bootimg_board = \"exynos4412\" ``"
 
@@ -11413,6 +11540,7 @@ msgstr ""
 "அளவு பைட்டுகளில் அறிவிக்கப்படுகிறது)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:237
+#, fuzzy
 msgid "``deviceinfo_bootimg_partition_size=\"67713847\"``"
 msgstr "`` deviceInfo_bootimg_partition_size = \"67713847\" ``"
 
@@ -11426,6 +11554,7 @@ msgstr ""
 "உண்மையாக அமைக்கவும் (பிரத்யேக VBMETA பகிர்வு கொண்ட பெரும்பாலான கருவிளுக்கு இல்லை.)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:242
+#, fuzzy
 msgid "``deviceinfo_bootimg_append_vbmeta=\"true\"``"
 msgstr "`` deviceInfo_bootimg_append_vbmeta = \"உண்மை\" ``"
 
@@ -11445,6 +11574,7 @@ msgstr ""
 "தவிர்ப்பது அது கட்டமைக்கப்படாமல் இருக்கும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:247
+#, fuzzy
 msgid "``deviceinfo_has_recovery_partition=\"true\"``"
 msgstr "`` deviceInfo_has_recovery_partition = \"உண்மை\" ``"
 
@@ -11459,6 +11589,7 @@ msgstr ""
 "அளவை மாற்றவும். (நீங்கள் மீட்டெடுப்பதை உருவாக்கினால் மட்டுமே வேலை செய்யும்!)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:252
+#, fuzzy
 msgid "``deviceinfo_recovery_partition_size=\"67713847\"``"
 msgstr "`` deviceInfo_recovery_partition_size = \"67713847\" ``"
 
@@ -11479,6 +11610,7 @@ msgstr ""
 "துவக்கக்கூடாது!)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:257
+#, fuzzy
 msgid "``deviceinfo_bootimg_tailtype=\"SEAndroid\"``"
 msgstr "`DeviceInfo_bootimg_tailtype =\" seandroid \"` ``"
 
@@ -11497,6 +11629,7 @@ msgstr ""
 "முடக்கும். நீங்கள் மேம்பட்ட ஒன்றைச் செய்தால் மட்டுமே உண்மையில் தேவை."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:262
+#, fuzzy
 msgid "``deviceinfo_kernel_disable_modules=\"true\"``"
 msgstr "`` deviceInfo_kernel_disable_modules = \"உண்மை\" ``"
 
@@ -11513,6 +11646,7 @@ msgstr ""
 "16.04 க்கு பொருந்தாது."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:267
+#, fuzzy
 msgid "``deviceinfo_use_overlaystore=\"true\"``"
 msgstr "`` DeviceInfo_use_overlayStore = \"உண்மை\" ``"
 
@@ -11527,6 +11661,7 @@ msgstr ""
 "என்று உறுதியாக இருந்தால் மட்டுமே பயன்படுத்தவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:272
+#, fuzzy
 msgid "``deviceinfo_kernel_apply_overlay=\"true\"``"
 msgstr "`` deviceInfo_kernel_apply_overlay = \"உண்மை\" ``"
 
@@ -11541,6 +11676,7 @@ msgstr ""
 "3000 மீ. உங்களுக்கு தேவைப்பட்டால் மட்டுமே பயன்படுத்தவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:277
+#, fuzzy
 msgid "``deviceinfo_system_partition_size=\"4000M\"``"
 msgstr "`` deviceInfo_system_partition_size = \"4000 மீ\" ``"
 
@@ -11552,6 +11688,7 @@ msgstr ""
 "பொருத்தமானது"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:282
+#, fuzzy
 msgid "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
 msgstr "`` deviceInfo_rootfs_image_sector_size = \"4096\" ``"
 
@@ -11895,6 +12032,7 @@ msgid "Put the value from \"page size\" into this config."
 msgstr "\"பக்க அளவு\" இலிருந்து மதிப்பை இந்த கட்டமைப்பில் வைக்கவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:409
+#, fuzzy
 msgid "``deviceinfo_flash_pagesize=\"2048\"``"
 msgstr "`` deviceInfo_flash_pagesize = \"2048\" ``"
 
@@ -11903,6 +12041,7 @@ msgid "Base offset will always remain 0x00000000."
 msgstr "அடிப்படை ஆஃப்செட் எப்போதும் 0x00000000 இருக்கும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:414
+#, fuzzy
 msgid "``deviceinfo_flash_offset_base=\"0x00000000\"``"
 msgstr "`` deviceInfo_flash_offset_base = \"0x00000000\" ``"
 
@@ -11911,6 +12050,7 @@ msgid "Fill this in from \"kernel load address\"."
 msgstr "இதை \"கர்னல் சுமை முகவரி\" இலிருந்து நிரப்பவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:419
+#, fuzzy
 msgid "``deviceinfo_flash_offset_kernel=\"0x40080000\"``"
 msgstr "`` deviceInfo_flash_offset_kernel = \"0x40080000\" ``"
 
@@ -11919,6 +12059,7 @@ msgid "This gets its value from \"ramdisk load address\"."
 msgstr "இது \"ராம்டிச்க் சுமை முகவரி\" இலிருந்து அதன் மதிப்பைப் பெறுகிறது."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:424
+#, fuzzy
 msgid "``deviceinfo_flash_offset_ramdisk=\"0x51b00000\"``"
 msgstr "`` deviceInfo_flash_offset_ramdisk = \"0x51b00000\" ``"
 
@@ -11931,6 +12072,7 @@ msgstr ""
 "சுமை முகவரி\" இலிருந்து நிரப்பவும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:429
+#, fuzzy
 msgid "``deviceinfo_flash_offset_second=\"0xc0ff0000\"``"
 msgstr "`` deviceInfo_flash_offset_second = \"0xc0ff0000\" ``"
 
@@ -11939,6 +12081,7 @@ msgid "Tags should be filled in from \"kernel tags load address\"."
 msgstr "குறிச்சொற்கள் \"கர்னல் குறிச்சொற்கள் சுமை முகவரி\" இலிருந்து நிரப்பப்பட வேண்டும்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:434
+#, fuzzy
 msgid "``deviceinfo_flash_offset_tags=\"0x47880000\"``"
 msgstr "`` deviceInfo_flash_offset_tags = \"0x47880000\" ``"
 
@@ -11947,6 +12090,7 @@ msgid "DTB offset comes from \"dtb load address\"."
 msgstr "டிடிபி ஆஃப்செட் \"டிடிபி சுமை முகவரி\" இலிருந்து வருகிறது."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:439
+#, fuzzy
 msgid "``deviceinfo_flash_offset_dtb=\"0x47880000\"``"
 msgstr "`` deviceInfo_flash_offset_dtb = \"0x47880000\" ``"
 
@@ -11959,6 +12103,7 @@ msgstr ""
 "செயல்படுத்துகின்றன."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:444
+#, fuzzy
 msgid "``deviceinfo_bootimg_os_version=\"10.0\"``"
 msgstr "`` deviceInfo_bootimg_os_version = \"10.0\" ``"
 
@@ -11967,6 +12112,7 @@ msgid "You'll want to put the \"os patch level\" value here."
 msgstr "\"OS ஒட்டு நிலை\" மதிப்பை இங்கே வைக்க விரும்புவீர்கள்."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:449
+#, fuzzy
 msgid "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
 msgstr "`` deviceInfo_bootimg_os_patch_level = \"2021-11\" ``"
 
@@ -11979,6 +12125,7 @@ msgstr ""
 "மரத்தின் ரூட்டுக்கு நகர்த்தியிருந்தால், பின்வருவனவற்றைச் சேர்க்கவும்:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:454
+#, fuzzy
 msgid "``deviceinfo_vendor_bootconfig_path=\"bootconfig\"``"
 msgstr "`` deviceInfo_vendor_bootconfig_path = \"bootconfig\" ``"
 
@@ -12223,6 +12370,7 @@ msgstr ""
 "security/apparmor>`_"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:34
+#, fuzzy
 msgid "Make sure your kernel defconfig has the setting::"
 msgstr ""
 "உங்கள் கர்னல் டெஃப்கான்ஃபிக் அமைப்பைக் கொண்டுள்ளது என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள் ::"
@@ -12274,6 +12422,7 @@ msgstr ""
 "*பேக் போர்ட்டிங்* என்று அழைக்கப்படுகிறது."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:15
+#, fuzzy
 msgid ""
 "Backporting has been greatly facilitated by the `Linux Backports Project "
 "<https://backports.wiki.kernel.org/index.php/Main_Page>`_ which has existed "
@@ -12284,14 +12433,14 @@ msgid ""
 "method below is based on the use of a version of these scripts which has "
 "been specially prepared by Canonical."
 msgstr ""
-"`லினக்ச் பேக்போர்ட்ச் திட்ட <https://backports.wiki.kernel.org/index.php/"
-"main_page>` _ ஆகியவற்றால் பேக் போர்ட்டிங் பெரிதும் எளிதாக்கப்பட்டுள்ளது. இந்த திட்டம் "
-"மெயின்லைன் லினக்ச் கர்னல்களை இலக்காகக் கொண்டுள்ளது, மேலும் அதில் உள்ள கருவிகள் "
-"(ச்கிரிப்டுகள்) குறிப்பாக உபுண்டு தொடுதலுக்கு ஏற்ப வடிவமைக்கப்படவில்லை. இதன் விளைவாக "
-"அவர்கள் செயல்பாட்டின் போது ஒரு கட்டத்தில் நிறுத்தப்படுவார்கள். இருப்பினும், அவை "
-"கிடைக்கக்கூடிய சிறந்த வழி, மேலும் குறிப்பிடத்தக்க உதவியை ஒரே மாதிரியாக வழங்க "
-"முடியும். கீழேயுள்ள முறை இந்த ச்கிரிப்ட்களின் பதிப்பைப் பயன்படுத்துவதை அடிப்படையாகக் "
-"கொண்டது, இது நியமனத்தால் சிறப்பாக தயாரிக்கப்பட்டுள்ளது."
+"`லினக்ச் பேக்போர்ட்ச் திட்ட <https://backports.wiki.kernel.org/index.php/main_page>`"
+" _ ஆகியவற்றால் பேக் போர்ட்டிங் பெரிதும் எளிதாக்கப்பட்டுள்ளது. இந்த திட்டம் மெயின்லைன் லினக்ச் "
+"கர்னல்களை இலக்காகக் கொண்டுள்ளது, மேலும் அதில் உள்ள கருவிகள் (ச்கிரிப்டுகள்) குறிப்பாக "
+"உபுண்டு தொடுதலுக்கு ஏற்ப வடிவமைக்கப்படவில்லை. இதன் விளைவாக அவர்கள் செயல்பாட்டின் போது ஒரு"
+" கட்டத்தில் நிறுத்தப்படுவார்கள். இருப்பினும், அவை கிடைக்கக்கூடிய சிறந்த வழி, மேலும் "
+"குறிப்பிடத்தக்க உதவியை ஒரே மாதிரியாக வழங்க முடியும். கீழேயுள்ள முறை இந்த ச்கிரிப்ட்களின் "
+"பதிப்பைப் பயன்படுத்துவதை அடிப்படையாகக் கொண்டது, இது நியமனத்தால் சிறப்பாக "
+"தயாரிக்கப்பட்டுள்ளது."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:19
 msgid ""
@@ -12411,6 +12560,7 @@ msgstr ""
 "மாற்றங்களையும் செய்யாமல்."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:50
+#, fuzzy
 msgid ""
 "Modifications done with ``menuconfig`` will not affect your kernel defconfig "
 "file, but may still corrupt your build."
@@ -12419,6 +12569,7 @@ msgstr ""
 "ஆனால் உங்கள் கட்டமைப்பை இன்னும் சிதைக்கக்கூடும்."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:52
+#, fuzzy
 msgid "After completing a build of halium-boot.img::"
 msgstr "ஆலியம்-பூட்.img ::"
 
@@ -12457,12 +12608,13 @@ msgstr ""
 "`பின்னர் சேர்க்கப்பட்டது <Missing-drivers>`."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:69
+#, fuzzy
 msgid ""
 "Clone the backports scripts into a directory outside your halium source tree "
 "by issuing this command from your home (~) directory::"
 msgstr ""
-"இந்த கட்டளையை உங்கள் வீட்டிலிருந்து வழங்குவதன் மூலம் உங்கள் ஆலியம் மூல மரத்திற்கு வெளியே "
-"ஒரு கோப்பகமாக பேக் போர்ட்ச் ச்கிரிப்ட்களை நகலி செய்யுங்கள் (~) கோப்பகத்திலிருந்து ::"
+"இந்த கட்டளையை உங்கள் வீட்டிலிருந்து வழங்குவதன் மூலம் உங்கள் ஆலியம் மூல மரத்திற்கு வெளியே ஒரு"
+" கோப்பகமாக பேக் போர்ட்ச் ச்கிரிப்ட்களை நகலி செய்யுங்கள் (~) கோப்பகத்திலிருந்து ::"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:73
 msgid ""
@@ -12481,18 +12633,21 @@ msgid "Download 4.2 kernel sources"
 msgstr "4.2 கர்னல் ஆதாரங்களைப் பதிவிறக்குங்கள்"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:78
+#, fuzzy
 msgid ""
 "Create a directory (outside your halium source tree) for the kernel source "
 "from which you will pull the newer drivers::"
 msgstr ""
-"கர்னல் மூலத்திற்கு ஒரு கோப்பகத்தை (உங்கள் ஆலியம் மூல மரத்திற்கு வெளியே) உருவாக்கவும், "
-"அதில் இருந்து நீங்கள் புதிய டிரைவர்களை இழுப்பீர்கள் ::"
+"கர்னல் மூலத்திற்கு ஒரு கோப்பகத்தை (உங்கள் ஆலியம் மூல மரத்திற்கு வெளியே) உருவாக்கவும், அதில்"
+" இருந்து நீங்கள் புதிய டிரைவர்களை இழுப்பீர்கள் ::"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:82
+#, fuzzy
 msgid "Now clone the kernel source for v4.2::"
 msgstr "இப்போது V4.2 க்கான கர்னல் மூலத்தை நகலி செய்யுங்கள் ::"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:90
+#, fuzzy
 msgid ""
 "Navigate to your backports scripts directory and issue the command below "
 "(using Python2 as shown)::"
@@ -12534,6 +12689,7 @@ msgstr ""
 "கோப்பு (DEFCONFIG) மாற்றப்பட வேண்டும்."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:106
+#, fuzzy
 msgid ""
 "Start by locating all lines beginning with ``CONFIG_BT_`` and move these to "
 "the end of the file. Collecting them there makes the subsequent steps "
@@ -12544,24 +12700,28 @@ msgstr ""
 "அடுத்தடுத்த படிகளை ஓரளவு எளிதாக்குகிறது."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:108
+#, fuzzy
 msgid ""
 "Next, deactivate all that are activated, *i.e.* do not have a leading ``#``, "
 "by inserting this leading ``#``. At the same time, for each one, add a "
 "corresponding one beginning with ``CONFIG_BACKPORT_BT_``, *e.g.*::"
 msgstr ""
-"அடுத்து, செயல்படுத்தப்பட்ட அனைத்தையும் செயலிழக்கச் செய்யுங்கள், *அதாவது* இந்த முன்னணி "
-"``#`` ஐச் செருகுவதன் மூலம் ஒரு முன்னணி ``#`` இல்லை. அதே நேரத்தில், ஒவ்வொன்றிற்கும், "
-"தொடர்புடைய ஒரு தொடக்கத்தை ``CONFIG_BACKPORT_BT_``, *எ.கா.*::"
+"அடுத்து, செயல்படுத்தப்பட்ட அனைத்தையும் செயலிழக்கச் செய்யுங்கள், *அதாவது* இந்த முன்னணி ``#``"
+" ஐச் செருகுவதன் மூலம் ஒரு முன்னணி ``#`` இல்லை. அதே நேரத்தில், ஒவ்வொன்றிற்கும், தொடர்புடை"
+"ய ஒரு தொடக்கத்தை ``CONFIG_BACKPORT_BT_``, *எ.கா.*::"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:112
+#, fuzzy
 msgid "becomes::"
 msgstr "ஆகிறது ::"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:116
+#, fuzzy
 msgid "and then insert the corresponding line for backports::"
 msgstr "பின்னர் பின்னணியில் தொடர்புடைய வரியைச் செருகவும் ::"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:120
+#, fuzzy
 msgid "Now add these settings::"
 msgstr "இப்போது இந்த அமைப்புகளைச் சேர்க்கவும் ::"
 
@@ -12594,12 +12754,13 @@ msgstr ""
 "சரிபார்க்கவும்."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:142
+#, fuzzy
 msgid ""
 "Once the above is complete, add the following lines and edit as necessary, "
 "following the directions below::"
 msgstr ""
-"மேலே உள்ளவை முடிந்ததும், கீழேயுள்ள திசைகளைப் பின்பற்றி, பின்வரும் வரிகளைச் சேர்த்து "
-"தேவையான அளவு திருத்தவும் ::"
+"மேலே உள்ளவை முடிந்ததும், கீழேயுள்ள திசைகளைப் பின்பற்றி, பின்வரும் வரிகளைச் சேர்த்து தேவையா"
+"ன அளவு திருத்தவும் ::"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:170
 msgid ""
@@ -12618,6 +12779,7 @@ msgid "You are now ready to build."
 msgstr "நீங்கள் இப்போது கட்ட தயாராக உள்ளீர்கள்."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:177
+#, fuzzy
 msgid "Return to the root of your BUILDDIR and build::"
 msgstr "உங்கள் பில்டிரின் வேருக்கு திரும்பி உருவாக்கு ::"
 
@@ -12630,6 +12792,7 @@ msgstr ""
 "கையாளுங்கள், :ref:`உதவியை நாடுவது <Getting-community-help>` தேவைக்கேற்ப."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:183
+#, fuzzy
 msgid ""
 "After building and flashing halium-boot, check the output of ``dmesg`` on "
 "the device to see that bluetooth has been enabled::"
@@ -12638,6 +12801,7 @@ msgstr ""
 "`` dmesg`` வெளியீட்டைச் சரிபார்க்கவும் ::"
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:187
+#, fuzzy
 msgid ""
 "Your output should resemble the following (from the Samsung Galaxy S7)::"
 msgstr ""
@@ -12661,6 +12825,7 @@ msgstr ""
 "கட்டியெழுப்பியுள்ளீர்கள், ஒரு இறுதி கட்டம் மட்டுமே உள்ளது."
 
 #: ../../porting/configure_test_fix/Bluetooth.rst:221
+#, fuzzy
 msgid ""
 "The system image needs to be rebuilt with a configuration script for "
 "bluetooth adapted to your device. On the completed build, this file is "
@@ -12714,6 +12879,7 @@ msgstr ""
 "`காட்சி அமைப்புகளில் உள்ள பிரிவில் <Display-settings>`."
 
 #: ../../porting/configure_test_fix/Display.rst:10
+#, fuzzy
 msgid ""
 "All of these settings are guessed by Unity 8 if none are set. There are many "
 "cases, however, where the guess is wrong (for example, very high resolution "
@@ -12723,11 +12889,11 @@ msgid ""
 "the Nexus 7 tablet::"
 msgstr ""
 "இந்த அமைப்புகள் அனைத்தும் எதுவும் அமைக்கப்படாவிட்டால் ஒற்றுமை 8 ஆல் யூகிக்கப்படுகின்றன. "
-"இருப்பினும், பல சந்தர்ப்பங்கள் உள்ளன, இருப்பினும், உய்த்துணர்தல் தவறாக உள்ளது "
-"(எடுத்துக்காட்டாக, மிக உயர்ந்த தெளிவுத்திறன் கொண்ட தொலைபேசி காட்சிகள் டெச்க்டாப் "
-"கணினிகளாக அடையாளம் காணப்படும்). இந்த மாறிகளுக்கு ஒரு மதிப்பை கைமுறையாக அமைக்க, "
-"கோப்பை ``etc/ubuntu-touch-session.d/android.conf`` . எடுத்துக்காட்டாக, இது நெக்சச் "
-"7 டேப்லெட்டுக்கான கோப்பு ::"
+"இருப்பினும், பல சந்தர்ப்பங்கள் உள்ளன, இருப்பினும், உய்த்துணர்தல் தவறாக உள்ளது (எடுத்துக்காட்டா"
+"க, மிக உயர்ந்த தெளிவுத்திறன் கொண்ட தொலைபேசி காட்சிகள் டெச்க்டாப் கணினிகளாக அடையாளம் "
+"காணப்படும்). இந்த மாறிகளுக்கு ஒரு மதிப்பை கைமுறையாக அமைக்க, கோப்பை ``etc/"
+"ubuntu-touch-session.d/android.conf`` . எடுத்துக்காட்டாக, இது நெக்சச் 7 "
+"டேப்லெட்டுக்கான கோப்பு ::"
 
 #: ../../porting/configure_test_fix/Display.rst:18
 msgid ""
@@ -12769,6 +12935,7 @@ msgid "Display scaling"
 msgstr "காட்சி அளவிடுதல்"
 
 #: ../../porting/configure_test_fix/Display.rst:34
+#, fuzzy
 msgid ""
 "``GRID_UNIT_PX`` (Pixels per Grid Unit or Px/GU) is specific to each device. "
 "Its goal is to make the user interface of the system and its applications "
@@ -12789,6 +12956,7 @@ msgstr ""
 "கருதுகிறோம்."
 
 #: ../../porting/configure_test_fix/Display.rst:36
+#, fuzzy
 msgid ""
 "``QTWEBKIT_DPR`` sets the display scaling for the Oxide web engine, so "
 "changes to this value will affect the scale of the browser and webapps."
@@ -13002,6 +13170,7 @@ msgid "Form factor"
 msgstr "உருவம் காரணி"
 
 #: ../../porting/configure_test_fix/Display.rst:60
+#, fuzzy
 msgid ""
 "``FORM_FACTOR`` specifies the device's form factor. This value is set as the "
 "device's Chassis, which you can find by running ``hostnamectl``. The "
@@ -13013,15 +13182,15 @@ msgstr ""
 "`` ``Form_factor`` கருவியின் படிவக் காரணியைக் குறிப்பிடுகிறது. இந்த மதிப்பு "
 "கருவியின் சேசாக அமைக்கப்பட்டுள்ளது, இது ``Hastnamectl`` ஐ இயக்குவதன் மூலம் நீங்கள் "
 "காணலாம். ஏற்றுக்கொள்ளக்கூடிய மதிப்புகள் ``கைபேசி``, ``டேப்லெட்`, ``லேப்டாப்`` மற்றும் `` "
-"டெச்க்டாப்``. கேலரி போன்ற பயன்பாடுகள் அவற்றின் செயல்பாட்டை மாற்ற இந்த தகவலைப் "
-"பயன்படுத்துகின்றன. சேச் பற்றிய கூடுதல் தகவலுக்கு, redesktop.org ஓச்டாமிங் "
-"விவரக்குறிப்பைப் பார்க்கவும்."
+"டெச்க்டாப்``. கேலரி போன்ற பயன்பாடுகள் அவற்றின் செயல்பாட்டை மாற்ற இந்த தகவலைப் பயன்படுத்துகின்"
+"றன. சேச் பற்றிய கூடுதல் தகவலுக்கு, redesktop.org ஓச்டாமிங் விவரக்குறிப்பைப் பார்க்கவும்."
 
 #: ../../porting/configure_test_fix/Display.rst:63
 msgid "Native orientation"
 msgstr "சொந்த நோக்குநிலை"
 
 #: ../../porting/configure_test_fix/Display.rst:65
+#, fuzzy
 msgid ""
 "``NATIVE_ORIENTATION`` sets the display orientation for the device's built-"
 "in screen. This value is used whenever autorotation isn't working correctly "
@@ -13030,12 +13199,12 @@ msgid ""
 "laptops, and desktops; and ``portrait``, which is usually used for phone "
 "handsets."
 msgstr ""
-"`` நேட்டிவ்_ஓண்டேசன்`` கருவியின் உள்ளமைக்கப்பட்ட திரைக்கான காட்சி நோக்குநிலையை "
-"அமைக்கிறது. ஆட்டோரோடேசன் சரியாக செயல்படாத போதெல்லாம் அல்லது கருவியின் சொந்த "
-"நோக்குநிலைக்கு ஒரு பயன்பாடு பூட்டப்பட விரும்பும் போது இந்த மதிப்பு பயன்படுத்தப்படுகிறது. "
-"ஏற்றுக்கொள்ளக்கூடிய மதிப்புகள் ``லேண்ட்ச்கேப்`` ஆகும், இது பொதுவாக டேப்லெட்டுகள், "
-"மடிக்கணினிகள் மற்றும் டெச்க்டாப்புகளுக்கு பயன்படுத்தப்படுகிறது; மற்றும் ``உருவப்படம்``, இது "
-"பொதுவாக தொலைபேசி கைபேசிகளுக்கு பயன்படுத்தப்படுகிறது."
+"`` நேட்டிவ்_ஓண்டேசன்`` கருவியின் உள்ளமைக்கப்பட்ட திரைக்கான காட்சி நோக்குநிலையை அமைக்கிறது"
+". ஆட்டோரோடேசன் சரியாக செயல்படாத போதெல்லாம் அல்லது கருவியின் சொந்த நோக்குநிலைக்கு ஒரு "
+"பயன்பாடு பூட்டப்பட விரும்பும் போது இந்த மதிப்பு பயன்படுத்தப்படுகிறது. ஏற்றுக்கொள்ளக்கூடிய "
+"மதிப்புகள் ``லேண்ட்ச்கேப்`` ஆகும், இது பொதுவாக டேப்லெட்டுகள், மடிக்கணினிகள் மற்றும் "
+"டெச்க்டாப்புகளுக்கு பயன்படுத்தப்படுகிறது; மற்றும் ``உருவப்படம்``, இது பொதுவாக தொலைபேசி "
+"கைபேசிகளுக்கு பயன்படுத்தப்படுகிறது."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:5
 #, fuzzy
@@ -13210,6 +13379,7 @@ msgid "Make / (root) writable"
 msgstr "உருவாக்கு / (ரூட்) எழுதக்கூடியது"
 
 #: ../../porting/configure_test_fix/Lomiri.rst:21
+#, fuzzy
 msgid ""
 "Before you make any changes to the rootfs (which will be required for the "
 "next steps), you'll need to remount your root directory (/) with write "
@@ -13232,6 +13402,7 @@ msgstr ""
 "வேண்டும்."
 
 #: ../../porting/configure_test_fix/Lomiri.rst:30
+#, fuzzy
 msgid ""
 "If you are building a Halium-7.1 based port, run the following command, "
 "replacing [CODENAME] with your device's codename::"
@@ -13240,12 +13411,13 @@ msgstr ""
 "கட்டளையை இயக்கவும், [குறியீட்டு பெயரை] உங்கள் கருவியின் குறியீட்டு பெயருடன் மாற்றவும் ::"
 
 #: ../../porting/configure_test_fix/Lomiri.rst:35
+#, fuzzy
 msgid ""
 "For a Halium-9.0 based port you should use the commands below, again "
 "replacing [CODENAME] with your device's codename::"
 msgstr ""
-"ஆலியம் -9.0 அடிப்படையிலான துறைமுகத்திற்கு நீங்கள் கீழே உள்ள கட்டளைகளைப் பயன்படுத்த "
-"வேண்டும், மீண்டும் [குறியீட்டு பெயர்] உங்கள் கருவியின் குறியீட்டு பெயர் ::"
+"ஆலியம் -9.0 அடிப்படையிலான துறைமுகத்திற்கு நீங்கள் கீழே உள்ள கட்டளைகளைப் பயன்படுத்த வேண்டும்"
+", மீண்டும் [குறியீட்டு பெயர்] உங்கள் கருவியின் குறியீட்டு பெயர் ::"
 
 #: ../../porting/configure_test_fix/Lomiri.rst:42
 msgid ""
@@ -13352,6 +13524,7 @@ msgstr ""
 "வழிமுறைகளும் கீழே விரிவாக விவாதிக்கப்படும்."
 
 #: ../../porting/configure_test_fix/Overlay.rst:17
+#, fuzzy
 msgid ""
 "Some ports of Ubuntu Touch 16.04 using the GitLab CI-based build method add "
 "custom scripts or configuration files (e.g. in ``/usr/sbin/mount-android."
@@ -13360,8 +13533,8 @@ msgid ""
 "be possible using this build method. This practice is strongly discouraged "
 "for a several reasons:"
 msgstr ""
-"அறிவிலிஆய்வு சிஐ-அடிப்படையிலான உருவாக்க முறையைப் பயன்படுத்தி உபுண்டு டச் 16.04 இன் "
-"சில துறைமுகங்கள் தனிப்பயன் ச்கிரிப்ட்கள் அல்லது உள்ளமைவு கோப்புகளைச் சேர்க்கவும் (எ.கா. இந்த "
+"அறிவிலிஆய்வு சிஐ-அடிப்படையிலான உருவாக்க முறையைப் பயன்படுத்தி உபுண்டு டச் 16.04 இன் சி"
+"ல துறைமுகங்கள் தனிப்பயன் ச்கிரிப்ட்கள் அல்லது உள்ளமைவு கோப்புகளைச் சேர்க்கவும் (எ.கா. இந்த "
 "உருவாக்க முறையைப் பயன்படுத்தி இது சாத்தியமில்லை. இந்த நடைமுறை பல காரணங்களுக்காக "
 "கடுமையாக ஊக்கமளிக்கிறது:"
 
@@ -13521,6 +13694,7 @@ msgstr ""
 "மற்றும் கோப்பகங்களையும் மேலடுக்கலாம்."
 
 #: ../../porting/configure_test_fix/Overlay.rst:53
+#, fuzzy
 msgid ""
 "Depending on the build method the designated base directory is either ``/opt/"
 "halium-overlay`` or ``/android/system/halium`` on the device. The directory "
@@ -13598,14 +13772,17 @@ msgid "Example"
 msgstr "எடுத்துக்காட்டு"
 
 #: ../../porting/configure_test_fix/Overlay.rst:66
+#, fuzzy
 msgid "Contents of ``overlay/system/halium``::"
 msgstr "உள்ளடக்கங்கள் ``மேலடுக்கு/அமைப்பு/ஆலியம்``::"
 
 #: ../../porting/configure_test_fix/Overlay.rst:83
+#, fuzzy
 msgid "Contents of the underlying filesystem image::"
 msgstr "அடிப்படை கோப்பு முறைமை படத்தின் உள்ளடக்கங்கள் ::"
 
 #: ../../porting/configure_test_fix/Overlay.rst:97
+#, fuzzy
 msgid "The resulting combined filesystem the looks as follows::"
 msgstr "இதன் விளைவாக ஒருங்கிணைந்த கோப்பு முறைமை பின்வருமாறு தோற்றம் ::"
 
@@ -13622,6 +13799,7 @@ msgid "Overlay files in full system.img builds"
 msgstr "முழு system.img உருவாக்கும் கோப்புகளை மேலடுக்கு"
 
 #: ../../porting/configure_test_fix/Overlay.rst:120
+#, fuzzy
 msgid ""
 "In the case of full ``system.img``-based builds all supported Halium "
 "versions allow for copying overlay files to the Android system filesystem "
@@ -13640,8 +13818,8 @@ msgstr ""
 "நகலெடுக்க அனுமதிக்கின்றன. ஒவ்வொரு நுழைவும் ஒரு கோப்பின் மூல மற்றும் இலக்கு பாதையைக் "
 "கொண்டுள்ளது, இது “` `:` `” மூலம் பிரிக்கப்பட்டுள்ளது. மாநாட்டின் ஒரு விசயமாக, அனைத்து "
 "மேலடுக்கு கோப்புகளும் களஞ்சியத்தின் மூல பாதைக்குக் கீழே ``உபுண்டு`` கோப்பகத்தில் வைக்கப்பட "
-"வேண்டும். இந்த கோப்பகத்தை ``$ (லோக்கல்_பாத்)/உபுண்டு`` என குறிப்பிடலாம். இலக்கு அடைவு "
-"அதன் இயல்புநிலை மவுண்ட் பாயிண்ட் ``/Android/system`` உடன் ஒப்பிடும்போது குறிப்பிடப்பட "
+"வேண்டும். இந்த கோப்பகத்தை ``$ (லோக்கல்_பாத்)/உபுண்டு`` என குறிப்பிடலாம். இலக்கு அடைவு அதன்"
+" இயல்புநிலை மவுண்ட் பாயிண்ட் ``/Android/system`` உடன் ஒப்பிடும்போது குறிப்பிடப்பட "
 "வேண்டும் ``$(TARGET_COPY_OUT_SYSTEM)``."
 
 #: ../../porting/configure_test_fix/Overlay.rst:122
@@ -13661,6 +13839,7 @@ msgstr ""
 "புதிய கோப்புகளை மட்டுமே சேர்க்க முடியும்."
 
 #: ../../porting/configure_test_fix/Overlay.rst:127
+#, fuzzy
 msgid ""
 "Typically at least the file ``/lib/udev/rules.d/70-android.rules`` created "
 "when bringing up Lomiri (see :ref:`Lomiri`) and the file ``/etc/ubuntu-touch-"
@@ -13671,22 +13850,24 @@ msgid ""
 "rules.d/70-android.rules`` and ``/android/system/halium/etc/ubuntu-touch-"
 "session.d/android.conf``"
 msgstr ""
-"பொதுவாக லோமிரியைக் கொண்டுவரும்போது உருவாக்கப்பட்ட கோப்பு ``/lib/udev/rules.d/70-"
-"android.rules`` (பார்க்க :ref:`Lomiri`) மற்றும் கோப்பு ``/etc/ubuntu-touch-"
-"session.d/android.conf`` ஆகியவை மேலடுக்கு கோப்புகள் வழியாகச் சேர்க்கப்பட வேண்டும். "
-"உபுண்டு டச் 16.04 மற்றும் 20.04 இரண்டின் பிணைப்பு ஏற்றப் பொறிமுறையானது, கோப்புகள் "
-"நியமிக்கப்பட்ட அடிப்படை கோப்பகமான ''/android/system/halium'' க்கு கீழே வைக்கப்பட "
-"வேண்டும், அதாவது ``/android/system/halium/lib/udev/rules.d/70-android.rules`` "
-"மற்றும் ``/android/system/halium/etc/ubuntu-touch-session.d/android.conf``"
+"பொதுவாக லோமிரியைக் கொண்டுவரும்போது உருவாக்கப்பட்ட கோப்பு ``/lib/udev/rules.d/"
+"70-android.rules`` (பார்க்க :ref:`Lomiri`) மற்றும் கோப்பு ``/etc/"
+"ubuntu-touch-session.d/android.conf`` ஆகியவை மேலடுக்கு கோப்புகள் வழியாகச் சேர்க்கப்"
+"பட வேண்டும். உபுண்டு டச் 16.04 மற்றும் 20.04 இரண்டின் பிணைப்பு ஏற்றப் பொறிமுறையானது, "
+"கோப்புகள் நியமிக்கப்பட்ட அடிப்படை கோப்பகமான ''/android/system/halium'' க்கு கீழே வைக்கப்"
+"பட வேண்டும், அதாவது ``/android/system/halium/lib/udev/rules.d/"
+"70-android.rules`` மற்றும் ``/android/system/halium/etc/ubuntu-touch-session.d/"
+"android.conf``"
 
 #: ../../porting/configure_test_fix/Overlay.rst:129
+#, fuzzy
 msgid ""
 "Both ``70-android.rules`` and ``android.conf`` should be placed in the "
 "subdirectory ``ubuntu`` of the repository and the following lines need to be "
 "added to ``device.mk`` in order to copy them onto the generated image::"
 msgstr ""
-"''70-android.rules'' மற்றும் ''android.conf'' இரண்டும் களஞ்சியத்தின் ''உபுண்டு'' "
-"துணை அடைவில் வைக்கப்பட வேண்டும், மேலும் உருவாக்கப்பட்ட படத்தில் அவற்றை நகலெடுக்க பின்வரும் "
+"''70-android.rules'' மற்றும் ''android.conf'' இரண்டும் களஞ்சியத்தின் ''உபுண்டு'' துணை"
+" அடைவில் வைக்கப்பட வேண்டும், மேலும் உருவாக்கப்பட்ட படத்தில் அவற்றை நகலெடுக்க பின்வரும் "
 "வரிகளை ''device.mk'' இல் சேர்க்க வேண்டும்::"
 
 #: ../../porting/configure_test_fix/Overlay.rst:140
@@ -13753,6 +13934,7 @@ msgstr ""
 "உபுண்டு டச் 16.04 இந்த பயன்முறையை மட்டுமே ஆதரிக்கிறது."
 
 #: ../../porting/configure_test_fix/Overlay.rst:153
+#, fuzzy
 msgid ""
 "While Ubuntu Touch 16.04 only allows overlaying files by overwriting them, "
 "in case of Ubuntu Touch 20.04 or later versions the mount-based overlay "
@@ -13770,11 +13952,12 @@ msgstr ""
 "இல் ``DeviceInfo_use_overlayStore = \"உண்மை\"`` என்பதைக் குறிப்பிடுவதன் மூலம் இதைச் "
 "செய்யலாம். துறைமுகம் பகிரப்பட்ட கட்டிட ச்கிரிப்டைப் பயன்படுத்தவில்லை என்றால், அது பகிரப்பட்ட "
 "உருவாக்க ச்கிரிப்டுக்கும் மாற வேண்டும் (பார்க்க :ref:`UpdatePortsfor2004`). விருப்பம் "
-"அமைக்கப்படும்போது, கணினியில் ``/opt/halium-overlay`` க்குள் கோப்பு முடிவடைவதை "
-"உருவாக்க ச்கிரிப்ட் உறுதி செய்கிறது, மேலும் ``system.img`` உருவாக்கும் அதே வழியில் "
+"அமைக்கப்படும்போது, கணினியில் ``/opt/halium-overlay`` க்குள் கோப்பு முடிவடைவதை உருவாக்"
+"க ச்கிரிப்ட் உறுதி செய்கிறது, மேலும் ``system.img`` உருவாக்கும் அதே வழியில் "
 "ஏற்றப்படுகிறது. இதனால், அதே கட்டமைப்பு மற்றும் வரம்புகள் பொருந்தும்."
 
 #: ../../porting/configure_test_fix/Overlay.rst:158
+#, fuzzy
 msgid ""
 "Following the above example, overlaying files ``/lib/udev/rules.d/70-android."
 "rules`` and ``/etc/ubuntu-touch-session.d/android.conf`` requires placing "
@@ -13782,8 +13965,8 @@ msgid ""
 "``overlay/system/etc/ubuntu-touch-session.d/android.conf`` in the repository."
 msgstr ""
 "மேலே உள்ள எடுத்துக்காட்டைப் பின்பற்றி, `/lib/udev/roves.d/70-android.rules`` மற்றும் "
-"``/etc/ubuntu-touch-session.d/android.conf`` ``overlay/system/lib/udev/rules."
-"d/70-android.rules`` மற்றும் ``overlay/system/etc/ubuntu-touch-session.d/"
+"``/etc/ubuntu-touch-session.d/android.conf`` ``overlay/system/lib/udev/"
+"rules.d/70-android.rules`` மற்றும் ``overlay/system/etc/ubuntu-touch-session.d/"
 "android.conf`` களஞ்சியத்தில்."
 
 #: ../../porting/configure_test_fix/Overlay.rst:160
@@ -13857,14 +14040,17 @@ msgstr ""
 "நீங்கள் உருவாக்கிய ``உபுண்டு`` கோப்பகத்திற்கு நகலெடுக்கவும் (பார்க்க :ref:`Overlay`)."
 
 #: ../../porting/configure_test_fix/Sound.rst:8
+#, fuzzy
 msgid "Locate the line::"
 msgstr "வரியைக் கண்டுபிடி::"
 
 #: ../../porting/configure_test_fix/Sound.rst:12
+#, fuzzy
 msgid "and replace it with this::"
 msgstr "இதை மாற்றவும்::"
 
 #: ../../porting/configure_test_fix/Sound.rst:16
+#, fuzzy
 msgid "At the end of the file, append this::"
 msgstr "கோப்பின் முடிவில், இதைச் சேர்க்கவும்::"
 
@@ -13883,6 +14069,7 @@ msgid "Configuring usb-moded"
 msgstr "யூ.எச்.பி-பயமுறுத்திய கட்டமைத்தல்"
 
 #: ../../porting/configure_test_fix/USBModed.rst:7
+#, fuzzy
 msgid ""
 "Information on this page is applicable for ports supporting Ubuntu Touch "
 "20.04. To make your port support Ubuntu Touch 20.04, see :ref:"
@@ -14202,10 +14389,11 @@ msgid "Ayatana-indicator-power"
 msgstr "அயாதானா-எச்கேட்டர்-பவர்"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:6
+#, fuzzy
 msgid "All deviceinfo keys used by ayatana-indicator-power are given below::"
 msgstr ""
-"அயாதானா-ஐச்கேட்டர்-சக்தி பயன்படுத்தும் அனைத்து கருவியின் விசைகளும் கீழே "
-"கொடுக்கப்பட்டுள்ளன ::"
+"அயாதானா-ஐச்கேட்டர்-சக்தி பயன்படுத்தும் அனைத்து கருவியின் விசைகளும் கீழே கொடுக்கப்பட்டுள்ளன "
+"::"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:13
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:13
@@ -14289,6 +14477,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:30
 #: ../../porting/configure_test_fix/device_info/Mir.rst:72
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:33
+#, fuzzy
 msgid "Config file::"
 msgstr "கட்டமைப்பு கோப்பு ::"
 
@@ -14297,6 +14486,7 @@ msgid "hfd-service"
 msgstr "எச்.எஃப்.டி-சேவை"
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:6
+#, fuzzy
 msgid "Overview of all hfd-service keys::"
 msgstr "அனைத்து HFD-சேவை விசைகளின் கண்ணோட்டம் ::"
 
@@ -14346,6 +14536,7 @@ msgid "Mir"
 msgstr "மிர்"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:6
+#, fuzzy
 msgid "Overview of all Mir keys::"
 msgstr "அனைத்து மிர் விசைகளின் கண்ணோட்டம் ::"
 
@@ -14415,6 +14606,7 @@ msgid "MirAndroidPlatformServerEglSync"
 msgstr "மிரான்ட்ராய்டு இயங்குதள சேவையக ஒத்திசைவு"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:26
+#, fuzzy
 msgid "Launcher argument (``default``)"
 msgstr "துவக்கி உரையாடல் (`` இயல்புநிலை``)"
 
@@ -14493,6 +14685,7 @@ msgid "Repowerd"
 msgstr "மறுபிரவேசம்"
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:6
+#, fuzzy
 msgid "Overview of all repowerd keys::"
 msgstr "அனைத்து மறுபிரவேச விசைகளின் கண்ணோட்டம் ::"
 
@@ -14579,12 +14772,13 @@ msgstr ""
 "சாதனப் பெயரும் சிறிய எழுத்துக்கு மாற்றப்படும்."
 
 #: ../../porting/configure_test_fix/device_info/index.rst:18
+#, fuzzy
 msgid ""
 "For example, the file for the Nexus 7 tablet (flo) would be located at ``/"
 "etc/deviceinfo/devices/flo.yaml`` and needs to start with the device's name::"
 msgstr ""
-"எடுத்துக்காட்டாக, நெக்சச் 7 டேப்லெட் (FLO) க்கான கோப்பு ``/etc/deviceInfo/கருவிள்/flo."
-"yaml`` இல் அமைந்திருக்கும், மேலும் கருவியின் பெயருடன் தொடங்க வேண்டும் ::"
+"எடுத்துக்காட்டாக, நெக்சச் 7 டேப்லெட் (FLO) க்கான கோப்பு ``/etc/deviceInfo/"
+"கருவிள்/flo.yaml`` இல் அமைந்திருக்கும், மேலும் கருவியின் பெயருடன் தொடங்க வேண்டும் ::"
 
 #: ../../porting/configure_test_fix/device_info/index.rst:28
 msgid ""
@@ -14744,6 +14938,7 @@ msgstr ""
 "விளக்குகிறது."
 
 #: ../../porting/configure_test_fix/index.rst:6
+#, fuzzy
 msgid ""
 "If you are doing a GSI port, much, if not all device features, should "
 "already work 'out of the box' once you have brought up Lomiri and added "
@@ -14754,16 +14949,17 @@ msgid ""
 "function properly, you may have to resort to building a device-specific "
 "``system.img`` in order to reach your goal."
 msgstr ""
-"நீங்கள் ஒரு சி.எச்.ஐ போர்ட்டைச் செய்கிறீர்கள் என்றால், எல்லா சாதன அம்சங்களும் இல்லையென்றால், "
-"நீங்கள் லோமிரியை வளர்த்து, அப்பார்மரைச் சேர்த்தவுடன் 'பெட்டியிலிருந்து வெளியே' ஏற்கனவே "
-"வேலை செய்ய வேண்டும். இந்த காரணத்திற்காக, ஆலியம் -9/சி.எச்.ஐ போர்ட்டிங் மற்றும் முழுமையான "
-"கர்னல் கட்டடங்களை அடிப்படையாகக் கொண்ட போர்ட்டிங் பொதுவாக யுடேவ் விதிகள், அப்பார்மோர் "
-"திட்டுகள் மற்றும் ஏதேனும் இருந்தால், மேலடுக்கு கோப்பு முறையைப் பயன்படுத்தி கட்டமைக்க "
-"மட்டுமே தேவைப்பட வேண்டும். இந்த பணிகளைச் செய்த போதிலும், உங்கள் சி.எச்.ஐ அடிப்படையிலான "
-"கட்டமைப்பானது இன்னும் சரியாக செயல்படவில்லை என்றால், உங்கள் இலக்கை அடைய கருவியில் "
-"குறிப்பிட்ட `சிச்டம்.இ.எம்.சி`` ஐ உருவாக்க நீங்கள் நாட வேண்டியிருக்கும்."
+"நீங்கள் ஒரு சி.எச்.ஐ போர்ட்டைச் செய்கிறீர்கள் என்றால், எல்லா சாதன அம்சங்களும் இல்லையென்றால், நீங்கள்"
+" லோமிரியை வளர்த்து, அப்பார்மரைச் சேர்த்தவுடன் 'பெட்டியிலிருந்து வெளியே' ஏற்கனவே வேலை செய்"
+"ய வேண்டும். இந்த காரணத்திற்காக, ஆலியம் -9/சி.எச்.ஐ போர்ட்டிங் மற்றும் முழுமையான கர்னல் "
+"கட்டடங்களை அடிப்படையாகக் கொண்ட போர்ட்டிங் பொதுவாக யுடேவ் விதிகள், அப்பார்மோர் திட்டுகள் "
+"மற்றும் ஏதேனும் இருந்தால், மேலடுக்கு கோப்பு முறையைப் பயன்படுத்தி கட்டமைக்க மட்டுமே தேவைப்"
+"பட வேண்டும். இந்த பணிகளைச் செய்த போதிலும், உங்கள் சி.எச்.ஐ அடிப்படையிலான கட்டமைப்பானது "
+"இன்னும் சரியாக செயல்படவில்லை என்றால், உங்கள் இலக்கை அடைய கருவியில் குறிப்பிட்ட "
+"`சிச்டம்.இ.எம்.சி`` ஐ உருவாக்க நீங்கள் நாட வேண்டியிருக்கும்."
 
 #: ../../porting/configure_test_fix/index.rst:8
+#, fuzzy
 msgid ""
 "On the other hand, Halium 7.1 porting and Halium-9.0 porting (when building "
 "the full device-specific ``system.img``) will require the most work."
@@ -15407,6 +15603,7 @@ msgstr ""
 "உங்கள் இலக்கு கருவியை ஆராய்ச்சி செய்யுங்கள்."
 
 #: ../../porting/introduction/Preparations.rst:8
+#, fuzzy
 msgid ""
 "To determine your device's specifications, search for it on `GSM Arena "
 "<https://www.gsmarena.com>`_ and/or `Device Specification <https://www."
@@ -15418,8 +15615,8 @@ msgstr ""
 "உங்கள் கருவியின் விவரக்குறிப்புகளைத் தீர்மானிக்க, அதை `சிஎச்எம் அரங்கில் தேடுங்கள் <https://"
 "www.gsmarena.com> ஆலியம் போர்ட்டிங் வழிகாட்டியில் ஒரு ஆண்ட்ராய்டு இலக்கு கருவியைத் "
 "தேர்ந்தெடுங்கள் <http://docs.halium.org/en/latest/porting/first-steps.html#pick-"
-"an-android- இலாபம்-தேசம்>`_ உங்கள் கருவிள் பற்றிய கூடுதல் தகவல்களுக்கு எவ்வாறு "
-"சரிபார்க்க வேண்டும்."
+"an-android- இலாபம்-தேசம்>`_ உங்கள் கருவிள் பற்றிய கூடுதல் தகவல்களுக்கு எவ்வாறு சரிபார்க்"
+"க வேண்டும்."
 
 #: ../../porting/introduction/Preparations.rst:14
 msgid "Locate relevant guides and other information"
@@ -15559,6 +15756,7 @@ msgid "Prerequisites"
 msgstr "முன்நிபந்தனைகள்"
 
 #: ../../porting/introduction/Setting_up.rst:11
+#, fuzzy
 msgid ""
 "When setting up the build environment you need to have Python 3.6 or newer "
 "installed on your system. This can be installed via your system's package "
@@ -15588,6 +15786,7 @@ msgstr ""
 #: ../../porting/introduction/Setting_up.rst:21
 #: ../../porting/introduction/Setting_up.rst:36
 #: ../../porting/introduction/Setting_up.rst:56
+#, fuzzy
 msgid "Install the required dependencies::"
 msgstr "தேவையான சார்புகளை நிறுவவும் ::"
 
@@ -15597,6 +15796,7 @@ msgstr "டெபியன் (நீட்சி அல்லது புத�
 
 #: ../../porting/introduction/Setting_up.rst:28
 #: ../../porting/introduction/Setting_up.rst:48
+#, fuzzy
 msgid ""
 "If your host PC has a 64-bit architecture (amd64), enable the usage of the "
 "i386 architecture::"
@@ -15606,14 +15806,17 @@ msgstr ""
 
 #: ../../porting/introduction/Setting_up.rst:32
 #: ../../porting/introduction/Setting_up.rst:52
+#, fuzzy
 msgid "Update your package lists to take advantage of the new architecture::"
-msgstr "புதிய கட்டமைப்பைப் பயன்படுத்த உங்கள் தொகுப்பு பட்டியல்களைப் புதுப்பிக்கவும் ::"
+msgstr ""
+"புதிய கட்டமைப்பைப் பயன்படுத்த உங்கள் தொகுப்பு பட்டியல்களைப் புதுப்பிக்கவும் ::"
 
 #: ../../porting/introduction/Setting_up.rst:46
 msgid "Ubuntu (20.04 or newer)"
 msgstr "உபுண்டு (20.04 அல்லது புதியது)"
 
 #: ../../porting/introduction/Setting_up.rst:66
+#, fuzzy
 msgid ""
 "Create a directory named 'bin' in your home directory, and include it in "
 "your path::"
@@ -15621,6 +15824,7 @@ msgstr ""
 "உங்கள் வீட்டு கோப்பகத்தில் 'பின்' என்ற கோப்பகத்தை உருவாக்கி, அதை உங்கள் பாதையில் சேர்க்கவும் ::"
 
 #: ../../porting/introduction/Setting_up.rst:72
+#, fuzzy
 msgid "Download the repo script and make it executable::"
 msgstr "ரெப்போ ச்கிரிப்டைப் பதிவிறக்கி அதை இயக்கக்கூடியதாக மாற்றவும் ::"
 
@@ -15646,6 +15850,7 @@ msgstr ""
 "நீங்கள் அடிப்படை-டெவல் தொகுப்பு நிறுவப்பட்டுள்ளீர்கள் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்."
 
 #: ../../porting/introduction/Setting_up.rst:84
+#, fuzzy
 msgid "Install the required dependencies from AUR::"
 msgstr "அவுர் இலிருந்து தேவையான சார்புகளை நிறுவவும் ::"
 
@@ -15833,6 +16038,7 @@ msgstr ""
 "``கணக்கு-கன்சோல்`` கருவியை நீங்கள் அழைக்கலாம்:"
 
 #: ../../systemdev/calendars.rst:53
+#, fuzzy
 msgid ""
 "This will print the list of the current valid accounts. Once you've figured "
 "out what is the account you are interested in, open the file ``~/.config/"
@@ -15841,9 +16047,10 @@ msgid ""
 "the HTTP traffic):"
 msgstr ""
 "இது தற்போதைய செல்லுபடியாகும் கணக்குகளின் பட்டியலை அச்சிடும். நீங்கள் ஆர்வமுள்ள கணக்கு என்ன "
-"என்பதை நீங்கள் கண்டறிந்ததும், ``~/.config/ஒத்திசைவு/<கணக்கு>/சகாக்கள்/இலக்கு-கான்ஃபிக்/"
-"config.ini``` கோப்பைத் திறந்து, ``லோக்லெவல்` மாறுபாட்டை அதிக மதிப்புக்கு அமைக்கவும் "
-"(`11`` அனைத்து HTTP போக்குவரத்தையும் அச்சிடுவதற்கு போதுமானதாகத் தெரிகிறது):"
+"என்பதை நீங்கள் கண்டறிந்ததும், ``~/.config/"
+"ஒத்திசைவு/<கணக்கு>/சகாக்கள்/இலக்கு-கான்ஃபிக்/config.ini``` கோப்பைத் திறந்து, ``லோக்லெவல்`"
+" மாறுபாட்டை அதிக மதிப்புக்கு அமைக்கவும் (`11`` அனைத்து HTTP போக்குவரத்தையும் "
+"அச்சிடுவதற்கு போதுமானதாகத் தெரிகிறது):"
 
 #: ../../systemdev/calendars.rst:65
 msgid ""
@@ -15895,6 +16102,7 @@ msgid "Non-native packages"
 msgstr "பூர்வீக அல்லாத தொகுப்புகள்"
 
 #: ../../systemdev/debian-pkg.rst:20
+#, fuzzy
 msgid ""
 "Non-native package repositories (e.g. https://gitlab.com/ubports/core/"
 "packaging/sensorfw) contain a ``debian`` folder, usually without the source "
@@ -16246,6 +16454,7 @@ msgid ":doc:`Pinetab (pinetab) <kernel-pinephone>`"
 msgstr ":doc:`பினெடாப் (பினெடாப்) <kernel-pinephone>`"
 
 #: ../../systemdev/kernel-hal.rst:87
+#, fuzzy
 msgid ""
 "`Raspberry Pi (rpi) <https://gitlab.com/ubports/community-ports/"
 "raspberrypi>`_ (see also this `blog post <https://ubports.com/blog/ubports-"
@@ -16283,6 +16492,7 @@ msgstr ""
 "மற்றும் தொகுதி-அப் பொத்தான்களைப் பிடித்துக் கொள்ளுங்கள்."
 
 #: ../../systemdev/kernel-pinephone.rst:11
+#, fuzzy
 msgid ""
 "The recovery presents the PinePhone as a network device over USB and runs a "
 "telnet server. When you connect the PinePhone to your desktop via USB, you "
@@ -16297,6 +16507,7 @@ msgid "You can log in to the recovery system with ``telnet 172.16.42.1``."
 msgstr "நீங்கள் ``டெல்நெட் 172.16.42.1`` உடன் மீட்பு அமைப்பில் உள்நுழையலாம்."
 
 #: ../../systemdev/kernel-pinephone.rst:21
+#, fuzzy
 msgid ""
 "The recovery also exposes the eMMC and the microSD card over USB. Assuming "
 "you have already installed Ubuntu Touch on your microSD card you will see "
@@ -16336,20 +16547,22 @@ msgid "Building the kernel"
 msgstr "கர்னலை உருவாக்குதல்"
 
 #: ../../systemdev/kernel-pinephone.rst:42
+#, fuzzy
 msgid ""
 "To install dependencies, get the `source code <https://gitlab.com/pine64-org/"
 "linux/-/tree/pine64-kernel-ubports>`_, configure and build the kernel, run "
 "the following::"
 msgstr ""
-"சார்புகளை நிறுவ, `மூலக் குறியீட்டைப் பெறுங்கள் <https://gitlab.com/pine64-org/"
-"linux/-/tree/pine64-kernel-ubports>`_, கர்னலை உள்ளமைத்து உருவாக்குங்கள், "
-"பின்வருவனவற்றை இயக்கவும் ::"
+"சார்புகளை நிறுவ, `மூலக் குறியீட்டைப் பெறுங்கள் <https://gitlab.com/pine64-org/linux/"
+"-/tree/pine64-kernel-ubports>`_, கர்னலை உள்ளமைத்து உருவாக்குங்கள், பின்வருவனவற்றை "
+"இயக்கவும் ::"
 
 #: ../../systemdev/kernel-pinephone.rst:51
 msgid "Install the kernel"
 msgstr "கர்னலை நிறுவவும்"
 
 #: ../../systemdev/kernel-pinephone.rst:53
+#, fuzzy
 msgid ""
 "Boot into recovery and mount boot_a. Make a backup if needed. Then copy over "
 "your newly built kernel and if needed modules::"
@@ -16402,6 +16615,7 @@ msgid ""
 msgstr "`பைன் 64 <https://forum.pine64.org/forumdisplay.php?fid=120>`_"
 
 #: ../../systemdev/kernel-pinephone.rst:70
+#, fuzzy
 msgid ""
 "`sunxi <https://linux-sunxi.org>`_ community is where much of the "
 "`mainlining effort <https://linux-sunxi.org/Linux_mainlining_effort>`_ for "
@@ -16633,6 +16847,7 @@ msgstr ""
 "இயங்கும்"
 
 #: ../../systemdev/online-accounts.rst:9
+#, fuzzy
 msgid ""
 "``client``: the library that client applications can use to request access "
 "to an account"
@@ -16651,16 +16866,18 @@ msgstr ""
 "கணக்கீடு-யுஐ`` ஐ இணைக்க முடியும்"
 
 #: ../../systemdev/online-accounts.rst:11
+#, fuzzy
 msgid ""
 "``online-accounts-ui``: the user interface which pops up when applications "
 "interact with online accounts (for example, the dialog that appears when an "
 "application requests access to an account)"
 msgstr ""
-"`` ஆன்லைன்-கணக்கீடு-யுஐ``: பயன்பாடுகள் நிகழ்நிலை கணக்குகளுடன் தொடர்பு கொள்ளும்போது "
-"தோன்றும் பயனர் இடைமுகம் (எடுத்துக்காட்டாக, ஒரு பயன்பாடு ஒரு கணக்கிற்கான அணுகலைக் "
-"கோரும்போது தோன்றும் உரையாடல்)"
+"`` ஆன்லைன்-கணக்கீடு-யுஐ``: பயன்பாடுகள் நிகழ்நிலை கணக்குகளுடன் தொடர்பு கொள்ளும்போது தோன்றும்"
+" பயனர் இடைமுகம் (எடுத்துக்காட்டாக, ஒரு பயன்பாடு ஒரு கணக்கிற்கான அணுகலைக் கோரும்போது "
+"தோன்றும் உரையாடல்)"
 
 #: ../../systemdev/online-accounts.rst:12
+#, fuzzy
 msgid ""
 "``plugins``: the base classes and QML elements that account plugins can use "
 "in their implementation"
@@ -16669,6 +16886,7 @@ msgstr ""
 "அடிப்படை வகுப்புகள் மற்றும் QML கூறுகள்"
 
 #: ../../systemdev/online-accounts.rst:13
+#, fuzzy
 msgid ""
 "``system-settings-plugin``: the user interface for the Accounts panel in the "
 "System Settings application"
@@ -16842,6 +17060,7 @@ msgstr ""
 "காட்சி வரைபடம்`_ ஆகவும் பயன்படுத்த அனுமதிக்கிறது."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:11
+#, fuzzy
 msgid ""
 "You'll find most of QtMir's logging in Unity8's logs, normally stored at ``/"
 "home/phablet/.cache/upstart/unity8`` on Ubuntu Touch. Different logging "
@@ -16849,9 +17068,9 @@ msgid ""
 "to different modules within QtMir's codebase."
 msgstr ""
 "யூனிட்டி 8 இன் பதிவுகளில் QTMIR இன் பெரும்பாலான உள்நுழைவை நீங்கள் காணலாம், பொதுவாக ``/"
-"home/pablet/.cache/Upstart/Unity8`` இல் உபுண்டு தொடுதலில் சேமிக்கப்படும். ``Qtmir."
-"sessions`` மற்றும் `qtmir.surfaces`` போன்ற வெவ்வேறு பதிவு வகைகள், QTMIR இன் "
-"குறியீட்டுத் தளத்திற்குள் உள்ள வெவ்வேறு தொகுதிகளுடன் நேரடியாக தொடர்புடையவை."
+"home/pablet/.cache/Upstart/Unity8`` இல் உபுண்டு தொடுதலில் சேமிக்கப்படும். "
+"``Qtmir.sessions`` மற்றும் `qtmir.surfaces`` போன்ற வெவ்வேறு பதிவு வகைகள், QTMIR இன்"
+" குறியீட்டுத் தளத்திற்குள் உள்ள வெவ்வேறு தொகுதிகளுடன் நேரடியாக தொடர்புடையவை."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:13
 msgid ""
@@ -16881,6 +17100,7 @@ msgstr ""
 "பயன்படுத்துகிறது."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:30
+#, fuzzy
 msgid ""
 "Since QtUbuntu is used directly by apps, any logging output from it will be "
 "located in an app's log file. Most of the time, QtUbuntu gives no logging "
@@ -17072,6 +17292,7 @@ msgid "Preparing a package for a build"
 msgstr "ஒரு கட்டமைப்பிற்கு ஒரு தொகுப்பைத் தயாரித்தல்"
 
 #: ../../systemdev/testing-locally.rst:28
+#, fuzzy
 msgid ""
 "``sbuild`` or ``crossbuilder`` need to be invoked from a debianized package "
 "source tree (i.e. the package sources with a ``debian`` subdirectory), "
@@ -17083,9 +17304,9 @@ msgstr ""
 "``sbuild`` அல்லது ``கிராச் பில்டர்`` ஒரு டெபியன்ச் செய்யப்பட்ட தொகுப்பு மூல "
 "மரத்திலிருந்து (அதாவது ஒரு ``டெபியன்`` துணை அடைவு கொண்ட தொகுப்பு ஆதாரங்கள்) "
 "பயன்படுத்தப்பட வேண்டும், யுபிதுறைமுகங்கள் தொகுப்புகள் பெரும்பாலும் பூர்வீக அல்லது பூர்வீக "
-"அல்லாத தொகுப்புகளைக் கொண்ட அறிவிலி களஞ்சியங்களைக் கொண்டுள்ளன. சொந்த தொகுப்புகளை "
-"நேரடியாக உருவாக்க முடியும் மற்றும் ஒரு கட்டமைப்பிற்கு சொந்தமற்ற தொகுப்பை தயாரிக்க "
-"பின்வரும் ச்கிரிப்டைப் பயன்படுத்தலாம் ::"
+"அல்லாத தொகுப்புகளைக் கொண்ட அறிவிலி களஞ்சியங்களைக் கொண்டுள்ளன. சொந்த தொகுப்புகளை நேரடியா"
+"க உருவாக்க முடியும் மற்றும் ஒரு கட்டமைப்பிற்கு சொந்தமற்ற தொகுப்பை தயாரிக்க பின்வரும் "
+"ச்கிரிப்டைப் பயன்படுத்தலாம் ::"
 
 #: ../../systemdev/testing-locally.rst:67
 msgid "Building packages in a chroot using sbuild"
@@ -17162,6 +17383,7 @@ msgstr ""
 "linuxcontainers.org/lxd/geting-started-cli/#installing-a- பேக்கேச்>`__."
 
 #: ../../systemdev/testing-locally.rst:83
+#, fuzzy
 msgid ""
 "A LXD container requires the following configuration setting in order to "
 "allow debootstrap to use the mknod system call for creating pseudo devices "
@@ -17180,14 +17402,15 @@ msgstr ""
 "கட்டளைகளை இயக்க அனுமதிக்கப்படுவார் என்று கருதப்படுகிறது."
 
 #: ../../systemdev/testing-locally.rst:89
+#, fuzzy
 msgid ""
 "``sbuild`` uses ``schroot`` in order to manage chroots which in turn uses "
 "debootstrap for creating the chroot.  The required packages are installed "
 "with::"
 msgstr ""
 "Chroot ஐ நிர்வகிக்க ``esbuild`` ``Chroot`` ஐப் பயன்படுத்தவும், இது க்ரூட்டை "
-"உருவாக்குவதற்கு டெபோட்ச்ட்ராப்பைப் பயன்படுத்துகிறது. தேவையான தொகுப்புகள் உடன் "
-"நிறுவப்பட்டுள்ளன ::"
+"உருவாக்குவதற்கு டெபோட்ச்ட்ராப்பைப் பயன்படுத்துகிறது. தேவையான தொகுப்புகள் உடன் நிறுவப்பட்டுள்"
+"ளன ::"
 
 #: ../../systemdev/testing-locally.rst:93
 msgid ""
@@ -17202,6 +17425,7 @@ msgid "Setting up sbuild"
 msgstr "Sbuild ஐ அமைத்தல்"
 
 #: ../../systemdev/testing-locally.rst:98
+#, fuzzy
 msgid ""
 "An unprivileged user needs to be added to the sbuild group in order to gain "
 "the necessary privilege to build packages::"
@@ -17210,12 +17434,13 @@ msgstr ""
 "குழுவில் சேர்க்கப்பட வேண்டும் ::"
 
 #: ../../systemdev/testing-locally.rst:102
+#, fuzzy
 msgid ""
 "The build user can configure ``sbuild`` by creating a file ``~/.sbuildrc`` "
 "as follows::"
 msgstr ""
-"உருவாக்க பயனர் ஒரு கோப்பை உருவாக்குவதன் மூலம் ``sbuild`` ஐ கட்டமைக்க முடியும் ``/."
-"sbuildrc`` பின்வருமாறு ::"
+"உருவாக்க பயனர் ஒரு கோப்பை உருவாக்குவதன் மூலம் ``sbuild`` ஐ கட்டமைக்க முடியும் "
+"``/.sbuildrc`` பின்வருமாறு ::"
 
 #: ../../systemdev/testing-locally.rst:110
 msgid ""
@@ -17226,6 +17451,7 @@ msgstr ""
 "example.sbuildrc``."
 
 #: ../../systemdev/testing-locally.rst:112
+#, fuzzy
 msgid "Create the directory ``~/logs`` if it does not exist, yet::"
 msgstr "`` ~/பதிவுகள்`` அது இல்லை என்றால், இன்னும் ::"
 
@@ -17242,6 +17468,7 @@ msgstr ""
 "களஞ்சியத்திலிருந்து புரவலன் கணினியில் நிறுவப்பட வேண்டிய தொகுப்புகள் தேவைப்படுகின்றன."
 
 #: ../../systemdev/testing-locally.rst:122
+#, fuzzy
 msgid ""
 "In that case UBports package repository needs to be added on the host "
 "machine. First initialize the ``chroot_repo`` and ``chroot_distro`` "
@@ -17253,6 +17480,7 @@ msgstr ""
 "பில்ட்`_ பிரிவில் காண்பிக்கப்படுவதைப் போல துவக்கி, பின்னர் களஞ்சியத்தை சேர்க்கவும் ::"
 
 #: ../../systemdev/testing-locally.rst:127
+#, fuzzy
 msgid "Install the needed packages using::"
 msgstr ":: பயன்படுத்தி தேவையான தொகுப்புகளை நிறுவவும் ::"
 
@@ -17261,18 +17489,19 @@ msgid "Native build"
 msgstr "பூர்வீக உருவாக்கம்"
 
 #: ../../systemdev/testing-locally.rst:134
+#, fuzzy
 msgid ""
 "In order to create a chroot based on Ubuntu 20.04 (Focal Fossa) with the "
 "amd64 architecture under the directory ``/srv/chroot/ubports-"
 "${chroot_distro}-amd64`` (``chroot_base`` can be changed if needed) the "
 "following variables can be defined for later use by the actual commands::"
 msgstr ""
-"''/srv/chroot/ubports-${chroot_distro}-amd64'' (''chroot_base'' என்ற "
-"கோப்பகத்தின் கீழ் உள்ள amd64 கட்டமைப்புடன் உபுண்டு 20.04 (Focal Fossa) அடிப்படையில் ஒரு "
-"chroot ஐ உருவாக்க, பின்வரும் மாறிகள் உண்மையான கட்டளைகளால் பின்னர் பயன்படுத்த "
-"வரையறுக்கப்படலாம்::"
+"''/srv/chroot/ubports-${chroot_distro}-amd64'' (''chroot_base'' என்ற கோப்பகத்தின்"
+" கீழ் உள்ள amd64 கட்டமைப்புடன் உபுண்டு 20.04 (Focal Fossa) அடிப்படையில் ஒரு chroot ஐ "
+"உருவாக்க, பின்வரும் மாறிகள் உண்மையான கட்டளைகளால் பின்னர் பயன்படுத்த வரையறுக்கப்படலாம்::"
 
 #: ../../systemdev/testing-locally.rst:140
+#, fuzzy
 msgid ""
 "For creating a chroot based on Ubuntu 16.04 (Xenial Xerus) with the amd64 "
 "architecture define the following variables instead::"
@@ -17282,17 +17511,21 @@ msgstr ""
 
 #: ../../systemdev/testing-locally.rst:146
 #: ../../systemdev/testing-locally.rst:192
+#, fuzzy
 msgid ""
 "In both cases the chroot will be created by running the following command::"
-msgstr "இரண்டு சந்தர்ப்பங்களிலும் பின்வரும் கட்டளையை இயக்குவதன் மூலம் க்ரூட் உருவாக்கப்படும் ::"
+msgstr ""
+"இரண்டு சந்தர்ப்பங்களிலும் பின்வரும் கட்டளையை இயக்குவதன் மூலம் க்ரூட் உருவாக்கப்படும் ::"
 
 #: ../../systemdev/testing-locally.rst:150
 #: ../../systemdev/testing-locally.rst:196
+#, fuzzy
 msgid "The UBports package repository needs to be added using::"
 msgstr "UBPORTS தொகுப்பு களஞ்சியத்தை பயன்படுத்தி சேர்க்க வேண்டும் ::"
 
 #: ../../systemdev/testing-locally.rst:155
 #: ../../systemdev/testing-locally.rst:201
+#, fuzzy
 msgid ""
 "Synchronizing package index files and subsequent package upgrades can be "
 "performed using::"
@@ -17301,6 +17534,7 @@ msgstr ""
 
 #: ../../systemdev/testing-locally.rst:159
 #: ../../systemdev/testing-locally.rst:205
+#, fuzzy
 msgid ""
 "A build can be started from inside the debianized package source directory "
 "using::"
@@ -17312,6 +17546,7 @@ msgid "Cross compile build"
 msgstr "குறுக்கு தொகுப்பு உருவாக்க"
 
 #: ../../systemdev/testing-locally.rst:165
+#, fuzzy
 msgid ""
 "The only difference with the native build comes in the command for starting "
 "the build which is the following::"
@@ -17324,6 +17559,7 @@ msgid "Qemu cross architecture build"
 msgstr "QEMU குறுக்கு கட்டிடக்கலை உருவாக்க"
 
 #: ../../systemdev/testing-locally.rst:172
+#, fuzzy
 msgid ""
 "To simplify the chroot setup, we use `mk-sbuild <https://wiki.debian.org/mk-"
 "sbuild>`__ from the ``ubuntu-dev-tools`` package. The `qemu-user-static "
@@ -17336,10 +17572,12 @@ msgstr ""
 "சொந்த அல்லாத இலக்கு செயல்படுத்தக்கூடியவற்றை செயல்படுத்த அனுமதிக்கிறது."
 
 #: ../../systemdev/testing-locally.rst:174
+#, fuzzy
 msgid "Install the packages with the following commands::"
 msgstr "பின்வரும் கட்டளைகளுடன் தொகுப்புகளை நிறுவவும் ::"
 
 #: ../../systemdev/testing-locally.rst:178
+#, fuzzy
 msgid ""
 "In order to create a chroot based on Ubuntu 20.04 (Focal Fossa) with the "
 "arm64 architecture under the directory ``/var/lib/schroot/chroots/ubports-"
@@ -17352,18 +17590,20 @@ msgstr ""
 "பயன்படுத்த வரையறுக்கப்படலாம்::"
 
 #: ../../systemdev/testing-locally.rst:185
+#, fuzzy
 msgid ""
 "For creating a chroot based on Ubuntu 16.04 (Xenial Xerus) with the arm64 "
 "architecture define the following variables instead::"
 msgstr ""
-"ARM64 கட்டிடக்கலையுடன் உபுண்டு 16.04 (Xenial Xerus) ஐ அடிப்படையாகக் கொண்ட ஒரு "
-"க்ரூட்டை உருவாக்குவதற்கு பின்வரும் மாறிகள் வரையறுக்கின்றன ::"
+"ARM64 கட்டிடக்கலையுடன் உபுண்டு 16.04 (Xenial Xerus) ஐ அடிப்படையாகக் கொண்ட ஒரு க்ரூட்டை"
+" உருவாக்குவதற்கு பின்வரும் மாறிகள் வரையறுக்கின்றன ::"
 
 #: ../../systemdev/testing-locally.rst:210
 msgid "Building completion"
 msgstr "கட்டிடம் நிறைவு"
 
 #: ../../systemdev/testing-locally.rst:212
+#, fuzzy
 msgid ""
 "If the build was successful, the binary packages will be placed in the "
 "parent directory.  The build log will be placed inside ``~/logs``.  In case "
@@ -17382,6 +17622,7 @@ msgid "Caching package downloads"
 msgstr "தற்காலிக சேமிப்பு பதிவிறக்கங்கள்"
 
 #: ../../systemdev/testing-locally.rst:222
+#, fuzzy
 msgid ""
 "In order to save bandwidth and time it is highly advisable to cache "
 "downloaded packages by using ``apt-cacher-ng``.  It can be installed with::"
@@ -17391,6 +17632,7 @@ msgstr ""
 "நிறுவலாம் ::"
 
 #: ../../systemdev/testing-locally.rst:226
+#, fuzzy
 msgid ""
 "Chroots then need to be configured so that apt inside the chroot uses ``apt-"
 "cacher-ng`` on the host as a proxy server::"
@@ -17403,6 +17645,7 @@ msgid "Caching compilation results"
 msgstr "தற்காலிக தொகுப்பு முடிவுகள்"
 
 #: ../../systemdev/testing-locally.rst:233
+#, fuzzy
 msgid ""
 "``ccache`` is a compiler cache which speeds up repeated compilation of the "
 "same source code by caching the resulting object files. The actual cache is "
@@ -17415,12 +17658,15 @@ msgstr ""
 "''sbuild'' chroots இல் பிணைக்கப்படுகிறது::"
 
 #: ../../systemdev/testing-locally.rst:240
+#, fuzzy
 msgid ""
 "In order to make use of ``ccache inside`` a ``sbuild`` chroot a wrapper "
 "script needs to be created::"
-msgstr "``Ccache ince`` a ``sbuild`` ஒரு ரேப்பர் ச்கிரிப்டை உருவாக்க வேண்டும் ::"
+msgstr ""
+"``Ccache ince`` a ``sbuild`` ஒரு ரேப்பர் ச்கிரிப்டை உருவாக்க வேண்டும் ::"
 
 #: ../../systemdev/testing-locally.rst:253
+#, fuzzy
 msgid ""
 "In order to use this wrapper script the following line must be added to the "
 "configuration of a ``schroot`` chroot in ``/etc/schroot/chroot.d/``::"
@@ -17474,10 +17720,12 @@ msgstr ""
 "கிராச் பில்டர் உங்களுக்காக ``எல்எக்ச்.டி`` அமைப்பார்."
 
 #: ../../systemdev/testing-locally.rst:271
+#, fuzzy
 msgid "Start by installing Crossbuilder on your host::"
 msgstr "உங்கள் ஓச்டில் கிராச் பில்டரை நிறுவுவதன் மூலம் தொடங்கவும் ::"
 
 #: ../../systemdev/testing-locally.rst:276
+#, fuzzy
 msgid ""
 "Crossbuilder is a shell script, so you don't need to build it. Instead, you "
 "will need to add its directory to your ``PATH`` environment variable, so "
@@ -17488,6 +17736,7 @@ msgstr ""
 "நீங்கள் அதை எந்த கோப்பகத்திலிருந்தும் செயல்படுத்தலாம் ::"
 
 #: ../../systemdev/testing-locally.rst:282
+#, fuzzy
 msgid "Now that Crossbuilder is installed, we can use it to set up LXD::"
 msgstr ""
 "இப்போது கிராச் பில்டர் நிறுவப்பட்டுள்ளது, எல்எக்ச்.டி :: ஐ அமைக்க இதைப் பயன்படுத்தலாம் ::"
@@ -17501,6 +17750,7 @@ msgstr ""
 "ஓச்டை மீண்டும் துவக்க வேண்டியிருக்கும்."
 
 #: ../../systemdev/testing-locally.rst:288
+#, fuzzy
 msgid ""
 "After LXD has been set up, a build for UBports based on Ubuntu 20.04 (Focal "
 "Fossa) using the arm64 architecture can be started from inside the "
@@ -17511,6 +17761,7 @@ msgstr ""
 "கட்டமைப்பை உருவாக்கலாம் :::"
 
 #: ../../systemdev/testing-locally.rst:294
+#, fuzzy
 msgid ""
 "For building against a different UBports release or architecture change "
 "``distro`` and ``arch`` as needed."
@@ -17533,6 +17784,7 @@ msgstr ""
 "செயல்படுத்தப்படும்."
 
 #: ../../systemdev/testing-locally.rst:298
+#, fuzzy
 msgid ""
 "In order to deploy the newly built package on a local device (see :doc:`/"
 "userguide/advanceduse/adb` to learn more about connecting your device), you "
@@ -17552,6 +17804,7 @@ msgstr ""
 "தட்டச்சு செய்யும் போது, மாற்றப்பட்ட கோப்புகள் மட்டுமே மீண்டும் கட்டப்படும்."
 
 #: ../../systemdev/testing-locally.rst:304
+#, fuzzy
 msgid ""
 "If the build dependencies have changed the following command can be used to "
 "update the container accordingly (``distro`` and ``arch`` should be set as "
@@ -17561,6 +17814,7 @@ msgstr ""
 "பயன்படுத்தலாம் (``டிச்ட்ரோ`` மற்றும் ``பரம`` மேலே அமைக்கப்பட வேண்டும்) ::"
 
 #: ../../systemdev/testing-locally.rst:308
+#, fuzzy
 msgid ""
 "While ``crossbuilder`` does not create log files for the build process, the "
 "``script`` utility may be used for that purpose::"
@@ -17569,14 +17823,17 @@ msgstr ""
 "``ச்கிரிப்ட்`` பயன்பாடு அந்த நோக்கத்திற்காக பயன்படுத்தப்படலாம் ::"
 
 #: ../../systemdev/testing-locally.rst:312
+#, fuzzy
 msgid "When a build container is no longer needed it maybe removed using::"
-msgstr "ஒரு கட்டமைப்புக் கொள்கலன் இனி தேவையில்லை, அதைப் பயன்படுத்தி அகற்றப்படலாம் ::"
+msgstr ""
+"ஒரு கட்டமைப்புக் கொள்கலன் இனி தேவையில்லை, அதைப் பயன்படுத்தி அகற்றப்படலாம் ::"
 
 #: ../../systemdev/testing-locally.rst:317
 msgid "Unit tests"
 msgstr "அலகு சோதனைகள்"
 
 #: ../../systemdev/testing-locally.rst:319
+#, fuzzy
 msgid ""
 "By default crossbuilder does not run unit tests; that's both for speed "
 "reasons, and because the container created by crossbuilder is not meant to "
@@ -17651,23 +17908,27 @@ msgstr ""
 "இயக்கப்பட வேண்டும்."
 
 #: ../../systemdev/testing-locally.rst:337
+#, fuzzy
 msgid ""
 "You can gain a shell on the device using :doc:`/userguide/advanceduse/adb` "
 "or :doc:`/userguide/advanceduse/ssh`. Remount the root filesystem read-write "
 "to begin::"
 msgstr ""
-"கருவியில் நீங்கள் ஒரு செல்லைப் பெறலாம் :doc:`/userguide/advanceduse/adb` அல்லது :doc:"
-"`/userguide/advanceduse/ssh`. தொடங்குவதற்கு ரூட் கோப்பு முறைமை படிக்க எழுதுங்கள்::"
+"கருவியில் நீங்கள் ஒரு செல்லைப் பெறலாம் :doc:`/userguide/advanceduse/adb` அல்லது "
+":doc:`/userguide/advanceduse/ssh`. தொடங்குவதற்கு ரூட் கோப்பு முறைமை படிக்க "
+"எழுதுங்கள்::"
 
 #: ../../systemdev/testing-locally.rst:341
+#, fuzzy
 msgid ""
 "Next, install all the packages needed to rebuild the component you want to "
 "modify (the Contacts app, in this example)::"
 msgstr ""
-"அடுத்து, நீங்கள் மாற்ற விரும்பும் கூறுகளை மீண்டும் உருவாக்க தேவையான அனைத்து "
-"தொகுப்புகளையும் நிறுவவும் (தொடர்புகள் பயன்பாடு, இந்த எடுத்துக்காட்டில்) ::"
+"அடுத்து, நீங்கள் மாற்ற விரும்பும் கூறுகளை மீண்டும் உருவாக்க தேவையான அனைத்து தொகுப்புகளையும்"
+" நிறுவவும் (தொடர்புகள் பயன்பாடு, இந்த எடுத்துக்காட்டில்) ::"
 
 #: ../../systemdev/testing-locally.rst:347
+#, fuzzy
 msgid ""
 "Additionally, you probably want to install ``git`` in order to get your "
 "app's source code on the device and later push your changes back into the "
@@ -17677,6 +17938,7 @@ msgstr ""
 "நிறுவ விரும்பலாம், பின்னர் உங்கள் மாற்றங்களை மீண்டும் களஞ்சியத்திற்குள் தள்ளுங்கள் ::"
 
 #: ../../systemdev/testing-locally.rst:351
+#, fuzzy
 msgid ""
 "Once you're finished, you can retrieve the source for an app (in our "
 "example, the address book) and move into its directory::"
@@ -17685,10 +17947,12 @@ msgstr ""
 "முகவரி புத்தகம்) மற்றும் அதன் கோப்பகத்திற்கு செல்லலாம் ::"
 
 #: ../../systemdev/testing-locally.rst:356
+#, fuzzy
 msgid "Now, you are ready to build the package::"
 msgstr "இப்போது, நீங்கள் தொகுப்பை உருவாக்க தயாராக உள்ளீர்கள் ::"
 
 #: ../../systemdev/testing-locally.rst:360
+#, fuzzy
 msgid ""
 "The ``dpkg-buildpackage`` command will print out the names of generated "
 "packages. Install those packages with ``dpkg``::"
@@ -17697,6 +17961,7 @@ msgstr ""
 "தொகுப்புகளை ``dpkg`` உடன் நிறுவவும் ::"
 
 #: ../../systemdev/testing-locally.rst:364
+#, fuzzy
 msgid ""
 "Note, however, that you might not need to install all the packages: "
 "generally, you can skip all packages whose names end with ``-doc`` or "
@@ -17756,6 +18021,7 @@ msgid "Getting set up"
 msgstr "அமைக்கப்படுகிறது"
 
 #: ../../systemdev/ubp-5.1.rst:16
+#, fuzzy
 msgid ""
 "``ubp-5.1`` ports must be built using Ubuntu 16.04. A container or virtual "
 "machine based on 16.04 is recommended for this purpose."
@@ -17765,18 +18031,22 @@ msgstr ""
 "பரிந்துரைக்கப்படுகிறது."
 
 #: ../../systemdev/ubp-5.1.rst:18
+#, fuzzy
 msgid "Let's get started by installing some build dependencies::"
 msgstr "Let's get started by installing some உருவாக்கு dependencies::"
 
 #: ../../systemdev/ubp-5.1.rst:24
+#, fuzzy
 msgid "Create a directory for your ``ubp-5.1`` source::"
 msgstr "Create a directory க்கு your ``ubp-5.1`` source::"
 
 #: ../../systemdev/ubp-5.1.rst:29
+#, fuzzy
 msgid "Next, we'll initialize the repository::"
 msgstr "அடுத்து, நாங்கள் களஞ்சியத்தைத் தொடங்குவோம் ::"
 
 #: ../../systemdev/ubp-5.1.rst:35
+#, fuzzy
 msgid ""
 "The ``allthefixings`` branch is provided for convenience. It adds all of the "
 "current UT device ports to the tree at the expense of a bit more downloaded "
@@ -17790,6 +18060,7 @@ msgstr ""
 "<https://github.com/ubports/build-scripts>`__ பெறுநர் pick the repos you like."
 
 #: ../../systemdev/ubp-5.1.rst:37
+#, fuzzy
 msgid "Finally, we'll download the source::"
 msgstr "Finally, we'll பதிவிறக்கம் the source::"
 
@@ -17808,20 +18079,23 @@ msgstr ""
 "through these steps."
 
 #: ../../systemdev/ubp-5.1.rst:46
+#, fuzzy
 msgid "First, bring in the default Android build environment::"
 msgstr "முதலில், இயல்புநிலை ஆண்ட்ராய்டு உருவாக்க சூழலைக் கொண்டு வாருங்கள் ::"
 
 #: ../../systemdev/ubp-5.1.rst:50
+#, fuzzy
 msgid ""
 "Run ``lunch`` and pick the appropriate combo for your device. The name of "
 "the combination should start with ``cm_``, followed by the device name and "
 "ending with ``-userdebug``::"
 msgstr ""
-"`` மதிய உணவு`` இயக்கி, உங்கள் கருவியிற்கு பொருத்தமான காம்போவைத் தேர்ந்தெடுங்கள். "
-"கலவையின் பெயர் ``cm_`` உடன் தொடங்க வேண்டும், அதைத் தொடர்ந்து சாதனப் பெயரில் மற்றும் ``-"
-"userdebug`` ::"
+"`` மதிய உணவு`` இயக்கி, உங்கள் கருவியிற்கு பொருத்தமான காம்போவைத் தேர்ந்தெடுங்கள். கலவையின்"
+" பெயர் ``cm_`` உடன் தொடங்க வேண்டும், அதைத் தொடர்ந்து சாதனப் பெயரில் மற்றும் "
+"``-userdebug`` ::"
 
 #: ../../systemdev/ubp-5.1.rst:54
+#, fuzzy
 msgid "With that done, the build can be started::"
 msgstr "With that done, the உருவாக்கு can be started::"
 
@@ -17842,6 +18116,7 @@ msgstr ""
 "needed கருவிகள் அரே in your PATH."
 
 #: ../../systemdev/ubp-5.1.rst:63
+#, fuzzy
 msgid ""
 "We'll begin with the boot and recovery images. Boot your device into "
 "fastboot mode and run the following commands::"
@@ -17858,6 +18133,7 @@ msgstr ""
 "துவக்கவும். மீட்டெடுப்பதில் நீங்கள் துவக்க விரும்பலாம்."
 
 #: ../../systemdev/ubp-5.1.rst:71
+#, fuzzy
 msgid ""
 "To install your new build of the system image, use the `replace-android-"
 "system script <https://github.com/janimo/phablet-porting-scripts/"
@@ -17866,8 +18142,8 @@ msgid ""
 msgstr ""
 "பெறுநர் install your புதிய உருவாக்கு of the மண்டலம் image, use the `replace-"
 "android-system script <https://github.com/janimo/phablet-porting-scripts/"
-"blob/68734ca07998b8e784397df77d9aca4b968b3815/build/replace-android-"
-"system>`_. It can be ஓடு அச் follows with your device attached::"
+"blob/68734ca07998b8e784397df77d9aca4b968b3815/build/replace-android-system>`"
+"_. It can be ஓடு அச் follows with your device attached::"
 
 #: ../../systemdev/uploading-changes.rst:2
 msgid "Uploading and testing with ``ubports-qa``"
@@ -17967,6 +18243,7 @@ msgstr ""
 "முன், உங்கள் கருவி அவற்றை நிறுவும் என்பதை உறுதிப்படுத்த விரும்புகிறோம்."
 
 #: ../../systemdev/uploading-changes.rst:29
+#, fuzzy
 msgid "Update the ``debian/changelog`` file"
 msgstr "`` டெபியன்/சேஞ்ச்லாக்`` கோப்பைப் புதுப்பிக்கவும்"
 
@@ -17998,11 +18275,13 @@ msgid "Determine a new version number"
 msgstr "Determine a புதிய version எண்"
 
 #: ../../systemdev/uploading-changes.rst:40
+#, fuzzy
 msgid ""
 "To start, figure out what the current version numbering for the package is::"
 msgstr "தொடங்க, தொகுப்புக்கான தற்போதைய பதிப்பு எண்ணிக்கை என்ன ::"
 
 #: ../../systemdev/uploading-changes.rst:44
+#, fuzzy
 msgid ""
 "This will return a few lines, but the first is the most important to us::"
 msgstr "இது சில வரிகளைத் தரும், ஆனால் முதலாவது எங்களுக்கு மிக முக்கியமானது ::"
@@ -18027,6 +18306,7 @@ msgstr ""
 "களஞ்சியம் அசல் திட்டக் குறியீடாகும். இது உப்போர்ட்சை அந்த திட்டத்தின் \"மேலோடை\" ஆக்குகிறது."
 
 #: ../../systemdev/uploading-changes.rst:52
+#, fuzzy
 msgid ""
 "If you are making large changes to the repository and UBports is the "
 "upstream, you should increment the first part of the version number before "
@@ -18034,11 +18314,12 @@ msgid ""
 "would make this new version number::"
 msgstr ""
 "நீங்கள் களஞ்சியத்தில் பெரிய மாற்றங்களைச் செய்கிறீர்கள் மற்றும் யுபிதுறைமுகங்கள் மேலோடை என்றால், "
-"நீங்கள் பிளச் (+) க்கு முன் பதிப்பு எண்ணின் முதல் பகுதியை அதிகரிக்க வேண்டும் மற்றும் "
-"விநியோக பின்னொட்டை மீட்டமைக்க வேண்டும். மேலே உள்ள எங்கள் எடுத்துக்காட்டில், இந்த புதிய "
-"பதிப்பு எண்ணை நீங்கள் உருவாக்குவீர்கள் ::"
+"நீங்கள் பிளச் (+) க்கு முன் பதிப்பு எண்ணின் முதல் பகுதியை அதிகரிக்க வேண்டும் மற்றும் விநியோ"
+"க பின்னொட்டை மீட்டமைக்க வேண்டும். மேலே உள்ள எங்கள் எடுத்துக்காட்டில், இந்த புதிய பதிப்பு எண்ணை"
+" நீங்கள் உருவாக்குவீர்கள் ::"
 
 #: ../../systemdev/uploading-changes.rst:56
+#, fuzzy
 msgid ""
 "If you are making changes only to the package build (files in the ``debian/"
 "`` folder), it is best to only increment the version suffix::"
@@ -18059,6 +18340,7 @@ msgid "Write the changelog entry"
 msgstr "சேஞ்ச்லாக் நுழைவு எழுதுங்கள்"
 
 #: ../../systemdev/uploading-changes.rst:67
+#, fuzzy
 msgid ""
 "Now it is time to write your changelog entry! Start with the following "
 "template::"
@@ -18146,6 +18428,7 @@ msgstr ""
 "கொள்க."
 
 #: ../../systemdev/uploading-changes.rst:94
+#, fuzzy
 msgid "With that, my new changelog entry follows::"
 msgstr "அதனுடன், எனது புதிய சேஞ்ச்லாக் நுழைவு பின்வருமாறு ::"
 
@@ -18195,6 +18478,7 @@ msgstr ""
 "இழுக்கும் கோரிக்கையை உருவாக்கக்கூடிய ஒரு பக்கத்திற்கு நீங்கள் அழைத்துச் செல்லப்படுவீர்கள்."
 
 #: ../../systemdev/uploading-changes.rst:119
+#, fuzzy
 msgid ""
 "Give your pull request a descriptive title and description (include links to "
 "reference bugs or other material). Ensure that the \"base\" branch is the "
@@ -18203,8 +18487,8 @@ msgid ""
 msgstr ""
 "உங்கள் இழுத்தல் கோரிக்கையை விளக்க தலைப்பு மற்றும் விளக்கத்தை கொடுங்கள் (குறிப்பு பிழைகள் "
 "அல்லது பிற பொருள்களுக்கான இணைப்புகளைச் சேர்க்கவும்). உங்கள் மாற்றங்கள் பயன்படுத்தப்பட வேண்டும் "
-"என்று நீங்கள் விரும்பும் \"அடிப்படை\" கிளைதான் என்பதை உறுதிசெய்து, (`` xenial``), "
-"பின்னர் \"இழுத்தல் கோரிக்கையை உருவாக்கு\" என்பதைக் சொடுக்கு செய்க."
+"என்று நீங்கள் விரும்பும் \"அடிப்படை\" கிளைதான் என்பதை உறுதிசெய்து, (`` xenial``), பின்னர்"
+" \"இழுத்தல் கோரிக்கையை உருவாக்கு\" என்பதைக் சொடுக்கு செய்க."
 
 #: ../../systemdev/uploading-changes.rst:121
 msgid ""
@@ -18248,6 +18532,7 @@ msgstr ""
 "குறிப்பிடப்பட்டுள்ளது) மற்றும் உங்கள் மாற்றங்களை நிறுவ இந்த நடவடிக்கைகளைப் பின்பற்றவும்:"
 
 #: ../../systemdev/uploading-changes.rst:134
+#, fuzzy
 msgid ""
 "Ensure your device is running the newest version of Ubuntu Touch from the "
 "``devel`` channel."
@@ -18264,6 +18549,7 @@ msgstr ""
 "doc:`/userguide/advanceduse/ssh`."
 
 #: ../../systemdev/uploading-changes.rst:136
+#, fuzzy
 msgid ""
 "Run ``sudo ubports-qa install REPOSITORY PR``, replacing ``REPOSITORY`` with "
 "the name of the repository you have submitted a PR to and ``PR`` with the "
@@ -18271,12 +18557,13 @@ msgid ""
 "ubports-qa morph-browser 123`` to install the PR number 123 to morph-browser "
 "repo."
 msgstr ""
-"``sudo ubports-qa install களஞ்சியம் இகோ``, ``களஞ்சியம்``த்தை மாற்றியமைத்து, நீங்கள் "
-"ஒரு PR ஐ சமர்ப்பித்த களஞ்சியத்தின் பெயருடன் ``இகோ`` உங்கள் இழுக்கும் கோரிக்கையின் "
-"எண்ணிக்கையுடன் ``#`` இல்லாமல் இயக்கவும். எடுத்துக்காட்டாக, மார்ப்-உலாவி ரெப்போவுக்கு பிஆர் "
-"எண் 123 ஐ நிறுவ ``sudo ubports-qa morph-browser 123`` ஐ இயக்கவும்."
+"``sudo ubports-qa install களஞ்சியம் இகோ``, ``களஞ்சியம்``த்தை மாற்றியமைத்து, நீங்கள் ஒரு"
+" PR ஐ சமர்ப்பித்த களஞ்சியத்தின் பெயருடன் ``இகோ`` உங்கள் இழுக்கும் கோரிக்கையின் எண்ணிக்கையுடன்"
+" ``#`` இல்லாமல் இயக்கவும். எடுத்துக்காட்டாக, மார்ப்-உலாவி ரெப்போவுக்கு பிஆர் எண் 123 ஐ "
+"நிறுவ ``sudo ubports-qa morph-browser 123`` ஐ இயக்கவும்."
 
 #: ../../systemdev/uploading-changes.rst:138
+#, fuzzy
 msgid ""
 "``ubports-qa`` will automatically add the repository containing your changed "
 "software and start the installation for you. All you will need to do is "
@@ -18288,6 +18575,7 @@ msgstr ""
 "கேட்கும் தொகுப்புகளைச் சரிபார்த்து, அவை சரியாக இருந்தால் \"ஆம்\" என்று சொல்லுங்கள்."
 
 #: ../../systemdev/uploading-changes.rst:140
+#, fuzzy
 msgid ""
 "If ``ubports-qa`` fails to install your packages, run it again with the ``-"
 "v`` flag (for example, ``ubports-qa -v install ...``). If it still fails, "
@@ -18295,22 +18583,23 @@ msgid ""
 "command) to `Ubuntu Pastebin <https://paste.ubuntu.com/>`_ and contact us "
 "for help."
 msgstr ""
-"உங்கள் தொகுப்புகளை நிறுவத் தவறினால், ``-v`` கொடியுடன் மீண்டும் இயக்கவும் "
-"(எடுத்துக்காட்டாக, ``Ubports-qa -v நிறுவல் ... ``). அது இன்னும் தோல்வியுற்றால், முழு "
-"பதிவையும் (`` `ub` ```ubports-qa`` கட்டளைக்கு முன் தொடங்கி)` ubuntu பேச்ட்பின் "
-"<https://paste.ubuntu.com/>`_ _ க்கு சமர்ப்பிக்கவும்."
+"உங்கள் தொகுப்புகளை நிறுவத் தவறினால், ``-v`` கொடியுடன் மீண்டும் இயக்கவும் (எடுத்துக்காட்டா"
+"க, ``Ubports-qa -v நிறுவல் ... ``). அது இன்னும் தோல்வியுற்றால், முழு பதிவையும் (`` "
+"`ub` ```ubports-qa`` கட்டளைக்கு முன் தொடங்கி)` ubuntu பேச்ட்பின் <https://"
+"paste.ubuntu.com/>`_ _ க்கு சமர்ப்பிக்கவும்."
 
 #: ../../systemdev/uploading-changes.rst:142
+#, fuzzy
 msgid ""
 "Once ``ubports-qa`` is finished, test your changes to ensure they have fixed "
 "the original bug. Add the ``ubports-qa`` command to your pull request, then "
 "send the link to the pull request to other developers and testers so they "
 "may also test your changes."
 msgstr ""
-"`` Ubports-qa``` முடிந்ததும், உங்கள் மாற்றங்களைச் சோதிக்கவும், அவை அசல் பிழையை "
-"சரிசெய்தன என்பதை உறுதிப்படுத்தவும். உங்கள் இழுப்பு கோரிக்கைக்கு ``UBPORTS-QA`` "
-"கட்டளையைச் சேர்த்து, பின்னர் மற்ற உருவாக்குபவர்கள் மற்றும் சோதனையாளர்களுக்கு இழுக்கும் "
-"கோரிக்கைக்கான இணைப்பை அனுப்பவும், இதனால் அவை உங்கள் மாற்றங்களையும் சோதிக்கக்கூடும்."
+"`` Ubports-qa``` முடிந்ததும், உங்கள் மாற்றங்களைச் சோதிக்கவும், அவை அசல் பிழையை சரிசெய்"
+"தன என்பதை உறுதிப்படுத்தவும். உங்கள் இழுப்பு கோரிக்கைக்கு ``UBPORTS-QA`` கட்டளையைச் "
+"சேர்த்து, பின்னர் மற்ற உருவாக்குபவர்கள் மற்றும் சோதனையாளர்களுக்கு இழுக்கும் கோரிக்கைக்கான "
+"இணைப்பை அனுப்பவும், இதனால் அவை உங்கள் மாற்றங்களையும் சோதிக்கக்கூடும்."
 
 #: ../../systemdev/uploading-changes.rst:144
 msgid ""
@@ -18323,6 +18612,7 @@ msgstr ""
 "நிலை குறித்து அனைவரும் புதுப்பிக்கப்படுவார்கள்."
 
 #: ../../systemdev/uploading-changes.rst:146
+#, fuzzy
 msgid ""
 "Every time you make a change and push it to GitHub, it will trigger a new "
 "build. You can run ``sudo ubports-qa update`` to get the freshest changes "
@@ -18372,14 +18662,17 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "முதலில், உங்கள் கணினியில் ADB நிறுவ வேண்டும்."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "உபுண்டுவில் ::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "ஃபெடோராவில் ::"
 
 #: ../../userguide/advanceduse/adb.rst:20
+#, fuzzy
 msgid "And on macOS with `Homebrew <https://brew.sh>`_::"
 msgstr "மற்றும் `ஓம்பிரூ <https://brew.sh>`_ ::"
 
@@ -18476,10 +18769,12 @@ msgid "Frequently used ADB commands"
 msgstr "அடிக்கடி பயன்படுத்தப்படும் ADB கட்டளைகள்"
 
 #: ../../userguide/advanceduse/adb.rst:59
+#, fuzzy
 msgid "ADB shell commands::"
 msgstr "Adb செல் கட்டளைகள் ::"
 
 #: ../../userguide/advanceduse/adb.rst:64
+#, fuzzy
 msgid "Additional Adb commands::"
 msgstr "கூடுதல் ஆபிதி கட்டளைகள்::"
 
@@ -18513,10 +18808,12 @@ msgstr ""
 "server`` ஐ இயக்கவும் நீங்கள் ஆரம்பத்தில் இயக்க முயற்சிக்கும் கட்டளையைத் தொடர்ந்து."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "ஃபேர்போன் 2 ::"
 
 #: ../../userguide/advanceduse/adb.rst:82
+#, fuzzy
 msgid "OnePlus One::"
 msgstr "ஒன்பிளச் ஒன்று ::"
 
@@ -18603,42 +18900,52 @@ msgstr ""
 "பதிவிறக்கவும்:"
 
 #: ../../userguide/advanceduse/dav.rst:26
+#, fuzzy
 msgid "``CAL_URL``"
 msgstr "`` Cal_url``"
 
 #: ../../userguide/advanceduse/dav.rst:27
+#, fuzzy
 msgid "``CONTACTS_URL``"
 msgstr "`` Contacts_url``"
 
 #: ../../userguide/advanceduse/dav.rst:28
+#, fuzzy
 msgid "``USERNAME``"
 msgstr "`` பயனர்பெயர்``"
 
 #: ../../userguide/advanceduse/dav.rst:29
+#, fuzzy
 msgid "``PASSWORD``"
 msgstr "`` கடவுச்சொல்``"
 
 #: ../../userguide/advanceduse/dav.rst:30
+#, fuzzy
 msgid "``CONTACT_NAME``"
 msgstr "`` Contact_name``"
 
 #: ../../userguide/advanceduse/dav.rst:31
+#, fuzzy
 msgid "``CALENDAR_NAME``"
 msgstr "`` காலெண்டர்_பெயர்``"
 
 #: ../../userguide/advanceduse/dav.rst:32
+#, fuzzy
 msgid "``VISUAL_NAME``"
 msgstr "`` விசுவல்_நேம்``"
 
 #: ../../userguide/advanceduse/dav.rst:33
+#, fuzzy
 msgid "``CONFIG_NAME``"
 msgstr "`` Config_name``"
 
 #: ../../userguide/advanceduse/dav.rst:34
+#, fuzzy
 msgid "``CRON_FREQUENCY``"
 msgstr "`` Cron_frequency``"
 
 #: ../../userguide/advanceduse/dav.rst:36
+#, fuzzy
 msgid ""
 "Move the file to your Ubuntu Touch device, either by way of a file manager "
 "or through the use of ADB::"
@@ -18648,6 +18955,7 @@ msgstr ""
 
 #: ../../userguide/advanceduse/dav.rst:40
 #: ../../userguide/advanceduse/dav.rst:67
+#, fuzzy
 msgid ""
 "Connect with the phablet shell (using ``adb shell``) or type the following "
 "directly into the Ubuntu Touch device terminal app::"
@@ -18677,10 +18985,12 @@ msgstr ""
 "utouch_caldav_and_carddav_synchronization>`_"
 
 #: ../../userguide/advanceduse/dav.rst:53
+#, fuzzy
 msgid "Download the script and config files::"
 msgstr "ச்கிரிப்ட் மற்றும் கட்டமைப்பு கோப்புகளைப் பதிவிறக்கவும் ::"
 
 #: ../../userguide/advanceduse/dav.rst:58
+#, fuzzy
 msgid ""
 "Edit the config file as explained in the `instructions <https://github.com/"
 "UT-ilities/UTouch_CalDAV_and_CardDAV_synchronization>`_::"
@@ -18689,6 +18999,7 @@ msgstr ""
 "utouch_caldav_and_carddav_synchronization>`_ ::"
 
 #: ../../userguide/advanceduse/dav.rst:63
+#, fuzzy
 msgid ""
 "Move the files to your Ubuntu Touch device, either by way of a file manager "
 "or through the use of ADB::"
@@ -18815,6 +19126,7 @@ msgid "Run the following commands on your *computer*:"
 msgstr "உங்கள் *கணினியில்* பின்வரும் கட்டளைகளை இயக்கவும்:"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:24
+#, fuzzy
 msgid "Get your interface name: ``ip route show to default via 10.42.0.1`` ::"
 msgstr "உங்கள் இடைமுக பெயரைப் பெறுங்கள்: ``ஐபி பாதை 10.42.0.1`` :::"
 
@@ -18823,6 +19135,7 @@ msgid "Your interface name is: ``enx122626d0fe26``"
 msgstr "உங்கள் இடைமுகத்தின் பெயர்: ``enx122626d0fe26``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:30
+#, fuzzy
 msgid ""
 "Get your connection name: ``nmcli --field GENERAL.CONNECTION device show "
 "enx122626d0fe26`` ::"
@@ -18924,6 +19237,7 @@ msgid "Using ADB"
 msgstr "ADB ஐப் பயன்படுத்துதல்"
 
 #: ../../userguide/advanceduse/screencasting.rst:10
+#, fuzzy
 msgid ""
 "You can catch output directly from the ``adb exec-out`` command and forward "
 "it to MPlayer::"
@@ -18932,6 +19246,7 @@ msgstr ""
 "mplayerக்கு அனுப்பலாம் ::"
 
 #: ../../userguide/advanceduse/screencasting.rst:14
+#, fuzzy
 msgid ""
 "``timeout`` above is used to kill the process in a proper manner on the "
 "Ubuntu Touch device (120 seconds here). (Otherwise the process continues "
@@ -18957,6 +19272,7 @@ msgid "For real-time casting:"
 msgstr "நிகழ்நேர வார்ப்புக்கு:"
 
 #: ../../userguide/advanceduse/screencasting.rst:29
+#, fuzzy
 msgid ""
 "Prepare your computer to listen to a TCP port (1234 here) and forward the "
 "raw stream to a video player (MPlayer here) with a framesize of 384x640::"
@@ -18969,6 +19285,7 @@ msgid "For stream recording:"
 msgstr "ச்ட்ரீம் பதிவுக்கு:"
 
 #: ../../userguide/advanceduse/screencasting.rst:35
+#, fuzzy
 msgid ""
 "Prepare your computer to listen to a TCP port (1234 here), unpack and "
 "forward the raw stream to a video encoder (MEncoder here)::"
@@ -18981,6 +19298,7 @@ msgid "On the Ubuntu Touch device"
 msgstr "உபுண்டு டச் கருவியில்"
 
 #: ../../userguide/advanceduse/screencasting.rst:42
+#, fuzzy
 msgid ""
 "Forward and gzip the stream with 60 FPS (--cap-interval 1) and a framesize "
 "of 384x640 to the computer at 10.42.0.209 on port 1234::"
@@ -18993,6 +19311,7 @@ msgid "Example script"
 msgstr "எடுத்துக்காட்டு ச்கிரிப்ட்"
 
 #: ../../userguide/advanceduse/screencasting.rst:50
+#, fuzzy
 msgid ""
 "Run this on a computer (with MPlayer installed and SSH access to the Ubuntu "
 "Touch device) to screencast a remote Ubuntu Touch device to it.::"
@@ -19001,6 +19320,7 @@ msgstr ""
 "அணுகல்) தொலைதூர உபுண்டு தொடு கருவியை ச்கிரீன்காச்ட் செய்ய. ::"
 
 #: ../../userguide/advanceduse/screencasting.rst:71
+#, fuzzy
 msgid "You can download it here: :download:`files/mircast.sh`"
 msgstr "இதை இங்கே பதிவிறக்கம் செய்யலாம் :: பதிவிறக்கம்: `கோப்புகள்/mircast.sh`"
 
@@ -19037,6 +19357,7 @@ msgid "Create your public key"
 msgstr "உங்கள் பொது விசையை உருவாக்கவும்"
 
 #: ../../userguide/advanceduse/ssh.rst:11
+#, fuzzy
 msgid ""
 "If not already created, create your public key. Default choices should be "
 "fine for LAN. You can leave empty password if you don't want to deal with it "
@@ -19075,6 +19396,7 @@ msgstr ""
 "உங்கள் சொந்த முகில் ச்டோரேச், வலை சேவையகம் போன்றவற்றில் பதிவேற்றவும்."
 
 #: ../../userguide/advanceduse/ssh.rst:22
+#, fuzzy
 msgid ""
 "You can also connect via :doc:`adb <adb>` and use the following command to "
 "copy it (Some devices cant support ADB, check the devices page to learn "
@@ -19089,16 +19411,18 @@ msgid "Configure your device"
 msgstr "உங்கள் கருவியை உள்ளமைக்கவும்"
 
 #: ../../userguide/advanceduse/ssh.rst:29
+#, fuzzy
 msgid ""
 "Now you have the public key on the UBports device. Let's assume it's stored "
 "as ``/home/phablet/id_rsa.pub``. Use the terminal app or an ADB connection "
 "to perform the following steps on your device. ::"
 msgstr ""
-"இப்போது உங்களிடம் உப்போர்ட்ச் கருவியில் பொது விசை உள்ளது. இது ``/home/pablet/id_rsa."
-"pub`` என சேமிக்கப்பட்டுள்ளது என்று வைத்துக் கொள்வோம். உங்கள் கருவியில் பின்வரும் படிகளைச் "
-"செய்ய முனைய பயன்பாடு அல்லது ADB இணைப்பைப் பயன்படுத்தவும். ::"
+"இப்போது உங்களிடம் உப்போர்ட்ச் கருவியில் பொது விசை உள்ளது. இது ``/home/pablet/"
+"id_rsa.pub`` என சேமிக்கப்பட்டுள்ளது என்று வைத்துக் கொள்வோம். உங்கள் கருவியில் பின்வரும் "
+"படிகளைச் செய்ய முனைய பயன்பாடு அல்லது ADB இணைப்பைப் பயன்படுத்தவும். ::"
 
 #: ../../userguide/advanceduse/ssh.rst:38
+#, fuzzy
 msgid "Now start the SSH server::"
 msgstr "இப்போது பாஓடு சேவையகத்தைத் தொடங்கவும் ::"
 
@@ -19107,22 +19431,27 @@ msgid "Connect"
 msgstr "இணை"
 
 #: ../../userguide/advanceduse/ssh.rst:46
+#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
-msgstr "இப்போது எல்லாம் அமைக்கப்பட்டுள்ளது, நீங்கள் ``ssh`` ஐப் பயன்படுத்தலாம் ::"
+msgstr ""
+"இப்போது எல்லாம் அமைக்கப்பட்டுள்ளது, நீங்கள் ``ssh`` ஐப் பயன்படுத்தலாம் ::"
 
 #: ../../userguide/advanceduse/ssh.rst:50
+#, fuzzy
 msgid "or, if that does not work ::"
 msgstr "அல்லது, அது வேலை செய்யவில்லை என்றால் ::"
 
 #: ../../userguide/advanceduse/ssh.rst:54
+#, fuzzy
 msgid ""
 "To identify the IP-address of your UBports device, open the Terminal app on "
 "your device and run the following command::"
 msgstr ""
-"உங்கள் UBPORTS கருவியின் ஐபி முகவரியை அடையாளம் காண, உங்கள் கருவியில் முனைய "
-"பயன்பாட்டைத் திறந்து பின்வரும் கட்டளையை இயக்கவும் ::"
+"உங்கள் UBPORTS கருவியின் ஐபி முகவரியை அடையாளம் காண, உங்கள் கருவியில் முனைய பயன்பாட்டைத்"
+" திறந்து பின்வரும் கட்டளையை இயக்கவும் ::"
 
 #: ../../userguide/advanceduse/ssh.rst:58
+#, fuzzy
 msgid ""
 "The output is a list of IP addresses separated by spaces. Use the IP address "
 "that matches your subnet. On your PC or laptop: ::"
@@ -19131,6 +19460,7 @@ msgstr ""
 "பொருந்தக்கூடிய ஐபி முகவரியைப் பயன்படுத்தவும். உங்கள் பிசி அல்லது மடிக்கணினியில்: ::"
 
 #: ../../userguide/advanceduse/ssh.rst:64
+#, fuzzy
 msgid "On the phone: ::"
 msgstr "தொலைபேசியில் :::"
 
@@ -19148,14 +19478,18 @@ msgid "Configuration"
 msgstr "உள்ளமைவு"
 
 #: ../../userguide/advanceduse/ssh.rst:76
+#, fuzzy
 msgid "you can enable ssh on boot by running the following command::"
 msgstr "பின்வரும் கட்டளையை இயக்குவதன் மூலம் துவக்கத்தில் பாஓடு ஐ இயக்கலாம் ::"
 
 #: ../../userguide/advanceduse/ssh.rst:80
+#, fuzzy
 msgid "you can edit the port ssh is listening on with the following command::"
-msgstr "துறைமுகம் பாஓடு ஐத் திருத்தலாம் பின்வரும் கட்டளையுடன் கேட்கப்படுகிறது ::"
+msgstr ""
+"துறைமுகம் பாஓடு ஐத் திருத்தலாம் பின்வரும் கட்டளையுடன் கேட்கப்படுகிறது ::"
 
 #: ../../userguide/advanceduse/ssh.rst:84
+#, fuzzy
 msgid "then add the following text::"
 msgstr "பின்னர் பின்வரும் உரையைச் சேர்க்கவும் ::"
 
@@ -19293,6 +19627,7 @@ msgstr ""
 "உறுதிப்படுத்தவும், மேலும் கொள்கலன் உருவாக்கப்படும்."
 
 #: ../../userguide/dailyuse/libertine.rst:33
+#, fuzzy
 msgid "To do this via the command-line::"
 msgstr "கட்டளை-வரி வழியாக இதைச் செய்ய ::"
 
@@ -19301,6 +19636,7 @@ msgid "You can add extra options such as:"
 msgstr "போன்ற கூடுதல் விருப்பங்களை நீங்கள் சேர்க்கலாம்:"
 
 #: ../../userguide/dailyuse/libertine.rst:39
+#, fuzzy
 msgid "``-n name`` name is a more user-friendly name of the container"
 msgstr "`` -n பெயர்`` பெயர் என்பது கொள்கலனின் பயனர் நட்பு பெயர்"
 
@@ -19349,6 +19685,7 @@ msgstr ""
 "கொள்கலன்கள்* துணை மெனுவைப் பயன்படுத்தவும்."
 
 #: ../../userguide/dailyuse/libertine.rst:56
+#, fuzzy
 msgid "You can also use the command-line. Run::"
 msgstr "நீங்கள் கட்டளை-வரியையும் பயன்படுத்தலாம். ரன் ::"
 
@@ -19370,6 +19707,7 @@ msgstr ""
 "*நிர்வகி லிபர்டைன் கொள்கலன்கள்* பட்டியலில் உள்ள கொள்கலனின் பெயரையும் நீங்கள் தட்டலாம்."
 
 #: ../../userguide/dailyuse/libertine.rst:72
+#, fuzzy
 msgid "You can also list them via the command-line::"
 msgstr "கட்டளை-வரி வழியாக அவற்றைப் பட்டியலிடலாம் ::"
 
@@ -19399,6 +19737,7 @@ msgstr ""
 "பெரியதாக மாற்ற *திறந்த கடையில்* *லிபர்டைன் ட்யூக் கருவியை* பயன்படுத்த வேண்டும்."
 
 #: ../../userguide/dailyuse/libertine.rst:86
+#, fuzzy
 msgid "Packages may also be installed via the command-line::"
 msgstr "கட்டளை-வரி வழியாகத் தொகுப்புகள் நிறுவப்படலாம் ::"
 
@@ -19417,6 +19756,7 @@ msgstr ""
 "பெயர்* ). அதை அகற்ற ஒரு விருப்பம் வெளிப்படும்."
 
 #: ../../userguide/dailyuse/libertine.rst:95
+#, fuzzy
 msgid "Or you can remove the package via the command-line::"
 msgstr "அல்லது கட்டளை-வரி வழியாகத் தொகுப்பை அகற்றலாம் ::"
 
@@ -19434,6 +19774,7 @@ msgid "Run desktop application"
 msgstr "ஓடு desktop application"
 
 #: ../../userguide/dailyuse/libertine.rst:105
+#, fuzzy
 msgid ""
 "Run it from the app menu like any other app. To start a graphical app from "
 "the command-line, for example ``gedit``, run this in a terminal::"
@@ -19486,12 +19827,13 @@ msgstr ""
 "ஒரு ரூட் அடைவு ``~/.cache/லிபர்டைன்-கான்டைனர்/கொள்கலன்-அடையாளங்காட்டி/ரூட்ஃப்ச்/`` மற்றும்"
 
 #: ../../userguide/dailyuse/libertine.rst:130
+#, fuzzy
 msgid ""
 "a user directory ``~/.local/share/libertine-container/user-data/CONTAINER-"
 "IDENTIFIER/``"
 msgstr ""
-"ஒரு பயனர் அடைவு `~/.local/share/libertine-container/user-data/CONTAINER-"
-"IDENTIFIER/``"
+"ஒரு பயனர் அடைவு `~/.local/share/libertine-container/user-data/"
+"CONTAINER-IDENTIFIER/``"
 
 #: ../../userguide/dailyuse/libertine.rst:133
 msgid "Shell access"
@@ -19525,15 +19867,18 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:143
 #: ../../userguide/dailyuse/libertine.rst:159
+#, fuzzy
 msgid "To execute a command you can use the following pattern::"
 msgstr "ஒரு கட்டளையை இயக்க நீங்கள் பின்வரும் முறையைப் பயன்படுத்தலாம் ::"
 
 #: ../../userguide/dailyuse/libertine.rst:147
 #: ../../userguide/dailyuse/libertine.rst:163
+#, fuzzy
 msgid "For example, run::"
 msgstr "உதாரணமாக, ரன் ::"
 
 #: ../../userguide/dailyuse/libertine.rst:151
+#, fuzzy
 msgid "To get a shell into your container as ``root``, run::"
 msgstr "`` ரூட்`` என உங்கள் கொள்கலனில் ஒரு செல்லைப் பெற, இயக்க ::"
 
@@ -19548,6 +19893,7 @@ msgstr ""
 "தொகுப்புகளைப் பயன்படுத்தி உங்கள் கோப்புகளை மாற்ற இந்த விருப்பத்தைப் பயன்படுத்தலாம்."
 
 #: ../../userguide/dailyuse/libertine.rst:167
+#, fuzzy
 msgid "To get a shell as the user ``phablet``, run::"
 msgstr "ஒரு செல்லை பயனராகப் பெற ``பேப்லெட்``, இயக்க ::"
 
@@ -19599,10 +19945,12 @@ msgstr ""
 "முறைமையின் வேறு எந்த பகுதியையும் அணுக நீங்கள் ஒரு பிணைப்பு ஏற்றத்தை உருவாக்க வேண்டும்."
 
 #: ../../userguide/dailyuse/libertine.rst:190
+#, fuzzy
 msgid "To add a bind mount, use::"
 msgstr "பிணைப்பு மவுண்டைச் சேர்க்க, பயன்படுத்தவும் ::"
 
 #: ../../userguide/dailyuse/libertine.rst:194
+#, fuzzy
 msgid ""
 "You can also make deep links if you only want parts of your SD-card "
 "available in the container. In this case just add the entire path to the "
@@ -19646,28 +19994,31 @@ msgid "Shortcuts"
 msgstr "குறுக்குவழிகள்"
 
 #: ../../userguide/dailyuse/libertine.rst:209
+#, fuzzy
 msgid ""
 "If you want, you can add aliases for command-line tools. Add lines like the "
 "following ones to your ``~/.bash_aliases``::"
 msgstr ""
-"நீங்கள் விரும்பினால், கட்டளை-வரி கருவிகளுக்கு மாற்றுப்பெயர்களைச் சேர்க்கலாம். உங்கள் ``~/."
-"Bash_aliases`` க்கு பின்வரும் வரிகள் போன்ற வரிகளைச் சேர் ::"
+"நீங்கள் விரும்பினால், கட்டளை-வரி கருவிகளுக்கு மாற்றுப்பெயர்களைச் சேர்க்கலாம். உங்கள் "
+"``~/.Bash_aliases`` க்கு பின்வரும் வரிகள் போன்ற வரிகளைச் சேர் ::"
 
 #: ../../userguide/dailyuse/libertine.rst:216
 msgid "Installing packages manually"
 msgstr "தொகுப்புகளை கைமுறையாக நிறுவுதல்"
 
 #: ../../userguide/dailyuse/libertine.rst:218
+#, fuzzy
 msgid ""
 "If you want to install a package from a file, you will first have to make it "
 "available to the root user, for example by copying it to the ``/root`` "
 "directory::"
 msgstr ""
 "நீங்கள் ஒரு கோப்பிலிருந்து ஒரு தொகுப்பை நிறுவ விரும்பினால், முதலில் அதை ரூட் பயனருக்கு "
-"கிடைக்கச் செய்ய வேண்டும், எடுத்துக்காட்டாக அதை ``/ரூட்`` கோப்பகத்திற்கு நகலெடுப்பதன் "
-"மூலம் ::"
+"கிடைக்கச் செய்ய வேண்டும், எடுத்துக்காட்டாக அதை ``/ரூட்`` கோப்பகத்திற்கு நகலெடுப்பதன் மூலம் "
+"::"
 
 #: ../../userguide/dailyuse/libertine.rst:222
+#, fuzzy
 msgid "Then install it using dpkg::"
 msgstr "பின்னர் அதை DPKG ஐப் பயன்படுத்தி நிறுவவும் ::"
 
@@ -19706,6 +20057,7 @@ msgid "Using location services"
 msgstr "இருப்பிட சேவைகளைப் பயன்படுத்துதல்"
 
 #: ../../userguide/dailyuse/location.rst:4
+#, fuzzy
 msgid ""
 "Location services in Ubuntu Touch allow apps to access your current "
 "location. Using this data, apps can `offer turn-by-turn navigation <https://"
@@ -19884,8 +20236,10 @@ msgstr ""
 "கண்டறியட்டும்:``, பொருத்தமான விருப்பத்தைத் தேர்ந்தெடுக்கவும்:"
 
 #: ../../userguide/dailyuse/location.rst:89
+#, fuzzy
 msgid "``Using GPS`` turns on location services."
-msgstr "`` உலக இடம் காட்டும் அமைப்பு ஐப் பயன்படுத்துதல் இருப்பிட சேவைகளை இயக்குகிறது."
+msgstr ""
+"`` உலக இடம் காட்டும் அமைப்பு ஐப் பயன்படுத்துதல் இருப்பிட சேவைகளை இயக்குகிறது."
 
 #: ../../userguide/dailyuse/location.rst:90
 msgid "``Not at all`` turns off location services."
@@ -19965,6 +20319,7 @@ msgid "App permission settings"
 msgstr "பயன்பாட்டு இசைவு அமைப்புகள்"
 
 #: ../../userguide/dailyuse/location.rst:127
+#, fuzzy
 msgid ""
 "Launch the ``System Settings`` app. Select ``Security & Privacy``, then "
 "select ``App permissions``, followed by ``Location``. All of the apps that "
@@ -19974,9 +20329,9 @@ msgid ""
 msgstr ""
 "`` கணினி அமைப்புகள்` பயன்பாட்டைத் தொடங்கவும். ``பாதுகாப்பு மற்றும் தனியுரிமை`` என்பதைத் "
 "தேர்ந்தெடுத்து, ``பயன்பாட்டு அனுமதிகள்`` என்பதைத் தேர்ந்தெடுக்கவும், அதைத் தொடர்ந்து "
-"``இருப்பிடம்``. உங்கள் இருப்பிடத்தை அணுகக் கோரிய அனைத்து பயன்பாடுகளும் "
-"பட்டியலிடப்பட்டுள்ளன. உங்கள் இருப்பிடத் தரவை அணுக அனுமதிக்க \"ஆன்\" பயன்பாட்டின் அடுத்த "
-"சுவிட்சை மாற்றவும். அணுகலை மறுக்க \"ஆஃப்\" சுவிட்சை மாற்றவும்."
+"``இருப்பிடம்``. உங்கள் இருப்பிடத்தை அணுகக் கோரிய அனைத்து பயன்பாடுகளும் பட்டியலிடப்பட்டுள்"
+"ளன. உங்கள் இருப்பிடத் தரவை அணுக அனுமதிக்க \"ஆன்\" பயன்பாட்டின் அடுத்த சுவிட்சை மாற்றவும். "
+"அணுகலை மறுக்க \"ஆஃப்\" சுவிட்சை மாற்றவும்."
 
 #: ../../userguide/dailyuse/location.rst:134
 msgid "Using apps with location services"
@@ -20284,6 +20639,7 @@ msgstr ""
 "உங்கள் உபுண்டு டச் கருவியில் APK ஐ ``/home/Pablet/downloads`` க்கு நகலெடுக்கவும்."
 
 #: ../../userguide/dailyuse/waydroid.rst:32
+#, fuzzy
 msgid ""
 "Run the following in your shell ``waydroid app install /home/phablet/"
 "Downloads/my-app.apk``"
@@ -20400,9 +20756,11 @@ msgstr ""
 "அமைந்துள்ளது."
 
 #: ../../userguide/dailyuse/waydroid.rst:68
+#, fuzzy
 msgid ""
 "Links to android libraries can be made in their respective XDG counterparts::"
-msgstr "ஆண்ட்ராய்டு நூலகங்களுக்கான இணைப்புகள் அந்தந்த எக்ச்டிசி சகாக்களில் செய்யப்படலாம் ::"
+msgstr ""
+"ஆண்ட்ராய்டு நூலகங்களுக்கான இணைப்புகள் அந்தந்த எக்ச்டிசி சகாக்களில் செய்யப்படலாம் ::"
 
 #: ../../userguide/dailyuse/waydroid.rst:79
 msgid ""
@@ -20459,6 +20817,7 @@ msgid "Install Ubuntu Touch"
 msgstr "உபுண்டு தொடுதலை நிறுவவும்"
 
 #: ../../userguide/install.rst:4
+#, fuzzy
 msgid ""
 "Installing Ubuntu Touch is easy, and a lot of work has gone in to making the "
 "installation process less intimidating to the average user. The UBports "
@@ -20471,13 +20830,13 @@ msgid ""
 "<https://devices.ubuntu-touch.io/>`_."
 msgstr ""
 "உபுண்டு தொடுதலை நிறுவுவது எளிதானது, மேலும் நிறுவல் செயல்முறையை சராசரி பயனருக்கு "
-"குறைவாக மிரட்டுவதாக மாற்றுவதற்கு நிறைய வேலைகள் சென்றுள்ளன. Ubports நிறுவி என்பது "
-"ஒரு நல்ல வரைகலை கருவியாகும், இது `ஆதரிக்கப்பட்ட கருவியில் உபுண்டு தொடுதலை நிறுவ "
-"நீங்கள் பயன்படுத்தலாம் <https://devices.ubuntuu-touch.io/>`_ உங்கள் `லினக்ச் <https://"
+"குறைவாக மிரட்டுவதாக மாற்றுவதற்கு நிறைய வேலைகள் சென்றுள்ளன. Ubports நிறுவி என்பது ஒரு"
+" நல்ல வரைகலை கருவியாகும், இது `ஆதரிக்கப்பட்ட கருவியில் உபுண்டு தொடுதலை நிறுவ நீங்கள் "
+"பயன்படுத்தலாம் <https://devices.ubuntuu-touch.io/>`_ உங்கள் `லினக்ச் <https://"
 "snapcrapt <https://devices.ubuntu-touch.io/installer/?package=dmg>`_ அல்லது` "
 "சாளரங்கள் <https://devices.ubuntu-touch.io/installer/?package=exe>`_ கணினி. "
-"மேலும் பட்டறிவு வாய்ந்த பயனர்களுக்கு, ஒவ்வொரு கருவியிற்கும் கையேடு நிறுவல் வழிமுறைகள் "
-"உள்ளன `கருவிள் பக்கத்தில் <https://devices.ubuntu-touch.io/>`_."
+"மேலும் பட்டறிவு வாய்ந்த பயனர்களுக்கு, ஒவ்வொரு கருவியிற்கும் கையேடு நிறுவல் வழிமுறைகள் உள்"
+"ளன `கருவிள் பக்கத்தில் <https://devices.ubuntu-touch.io/>`_."
 
 #: ../../userguide/install.rst:7
 msgid ""
@@ -20572,6 +20931,7 @@ msgstr ""
 "சரிபார்க்கவும்."
 
 #: ../../userguide/install.rst:27
+#, fuzzy
 msgid ""
 "If you need help, you can join UBports' support channels on `telegram "
 "<https://t.me/WelcomePlus>`_ or `matrix <https://matrix.to/#/!"
@@ -20582,10 +20942,10 @@ msgid ""
 "github.com/ubports/ubports-installer/issues/new>`_ to help us solve the "
 "problem."
 msgstr ""
-"உங்களுக்கு உதவி தேவைப்பட்டால், `தந்தி <https://t.me/WelcomePlus>`_ அல்லது "
-"`மேட்ரிக்சில் யுபோர்ட்சின் உதவி சேனல்களில் சேரலாம் <https://matrix.to/#/! <https://"
-"askubuntu.com>`_. யுபிதுறைமுகங்கள் நிறுவி சரியாக வேலை செய்யவில்லை என்று நீங்கள் "
-"நம்பினால், சிக்கலைத் தீர்க்க எங்களுக்கு உதவ ஒரு புதிய சிக்கலை <https://github.com/"
+"உங்களுக்கு உதவி தேவைப்பட்டால், `தந்தி <https://t.me/WelcomePlus>`_ அல்லது `மேட்ரிக்சில்"
+" யுபோர்ட்சின் உதவி சேனல்களில் சேரலாம் <https://matrix.to/#/! "
+"<https://askubuntu.com>`_. யுபிதுறைமுகங்கள் நிறுவி சரியாக வேலை செய்யவில்லை என்று "
+"நீங்கள் நம்பினால், சிக்கலைத் தீர்க்க எங்களுக்கு உதவ ஒரு புதிய சிக்கலை <https://github.com/"
 "ubports-installer/issues/new>`_."
 
 #: ../../userguide/install.rst:30
