@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2025-05-28 02:01+0000\n"
-"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/nl/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -14439,14 +14439,17 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "Het eerste wat je moet doen is ADB installeren op je computer."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "Ubuntu::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "Fedora::"
 
 #: ../../userguide/advanceduse/adb.rst:20
+#, fuzzy
 msgid "And on macOS with `Homebrew <https://brew.sh>`_::"
 msgstr "macOS (middels `Homebrew <https://brew.sh>`_)::"
 
@@ -14533,10 +14536,12 @@ msgid "Frequently used ADB commands"
 msgstr ""
 
 #: ../../userguide/advanceduse/adb.rst:59
+#, fuzzy
 msgid "ADB shell commands::"
 msgstr "ADB-shellopdrachten::"
 
 #: ../../userguide/advanceduse/adb.rst:64
+#, fuzzy
 msgid "Additional Adb commands::"
 msgstr "Aanvullende ADB-opdrachten::"
 
@@ -14571,10 +14576,12 @@ msgstr ""
 "door de opdracht voorafgaand aan het lezen van deze sectie."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
 #: ../../userguide/advanceduse/adb.rst:82
+#, fuzzy
 msgid "OnePlus One::"
 msgstr "OnePlus One::"
 
