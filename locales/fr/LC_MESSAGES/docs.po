@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
 "PO-Revision-Date: 2025-09-19 13:55+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/fr/>\n"
 "Language: fr\n"
@@ -136,6 +136,7 @@ msgid "Click-Packages"
 msgstr "Paquets Click"
 
 #: ../../about/process/branch-naming.rst:11
+#, fuzzy
 msgid ""
 "Software exclusively distributed as a click-package (and not also as a DEB) "
 "only uses one ``master`` branch that is protected. Separate temporary "
@@ -366,16 +367,18 @@ msgstr ""
 "exemple:"
 
 #: ../../about/process/branch-naming.rst:65
+#, fuzzy
 msgid ""
 "An MR numbered 100 made against the ``main`` branch of Git repository "
 "``lomiri`` (when the current Ubuntu LTS is ``noble``) will have APT archives "
 "named ``devel-noble_-_PR_lomiri_100`` *and* ``devel-debian_-_PR_lomiri_100``."
 msgstr ""
-"Un MR numéroté 100 fait sur la branche ``main`` du dépôt Git ``lomiri`` "
-"(quand le LTS Ubuntu actuel est ``noble``) aura des archives APT nommées "
+"Un MR numéroté 100 fait sur la branche ``main`` du dépôt Git ``lomiri`` ("
+"quand le LTS Ubuntu actuel est ``noble``) aura des archives APT nommées "
 "``devel-noble_-_PR_lomiri_100` *et* ``devel-debian_-_PR_lomiri_100``."
 
 #: ../../about/process/branch-naming.rst:66
+#, fuzzy
 msgid ""
 "An MR numbered 125 made against the ``ubports/24.6.x`` branch of Git "
 "repository ``morph-browser`` will have an APT archive named ``24.6.x_-"
@@ -386,6 +389,7 @@ msgstr ""
 "browser_125`"
 
 #: ../../about/process/branch-naming.rst:68
+#, fuzzy
 msgid ""
 "The word ``PR`` stuck around from the time we hosted our code on GitHub."
 msgstr ""
