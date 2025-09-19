@@ -3,38 +3,21 @@
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2018-06-03 17:09+0000\n"
-"Last-Translator: Rrahim Gashi <jimmygashi@gmail.com>\n"
-"Language-Team: Albanian <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-userguide/sq/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Albanian <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/sq/>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports 1.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  appdev.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
-"#-#-#-#-#  contribute.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
-"#-#-#-#-#  index.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
-"#-#-#-#-#  porting.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
-"#-#-#-#-#  userguide.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 #, fuzzy
@@ -1764,14 +1747,15 @@ msgstr ""
 "lazarus-development-for-ubuntu-phone.html>`__"
 
 #: ../../appdev/guides/index.rst:42
+#, fuzzy
 msgid ""
 "`Geany on Ubuntu Touch device as text editor, source code editor, debugger "
 "and compiler for multiple languages <http://kriscode.blogspot.tw/2017/10/"
 "geany-on-ubuntu-touch-device-as-text.html>`__"
 msgstr ""
 "`Geany për pajisjen Ubuntu Touch si editor teksti, redaktor i kodit burimor, "
-"debugger dhe përpilues për gjuhë të shumëfishta <http://kriscode.blogspot."
-"tw/2017/10/geany-on-ubuntu-touch-device-as-text.html >`__"
+"debugger dhe përpilues për gjuhë të shumëfishta <http://kriscode.blogspot.tw/"
+"2017/10/geany-on-ubuntu-touch-device-as-text.html >`__"
 
 #: ../../appdev/guides/index.rst:43
 msgid ""
@@ -3423,6 +3407,7 @@ msgstr ""
 "autori, korniza sdk target dhe versioni."
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
 msgstr "Shembull ``manifest.json`` file::"
 
@@ -3431,6 +3416,7 @@ msgid "AppArmor profile policy file"
 msgstr "Skedari i privatesisë të profilit AppArmor"
 
 #: ../../appdev/platform/click.rst:29
+#, fuzzy
 msgid ""
 "Contains which policy the app needs to work properly. See `Security and app "
 "isolation`_ below for more information on this file."
@@ -3452,6 +3438,7 @@ msgstr ""
 "ikonën për t'u shfaqur në ekranin kryesor dhe disa prona të tjera."
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
 msgstr "Shembulli i ``app.desktop``::"
 
@@ -3523,6 +3510,7 @@ msgstr ""
 "funksionuar siç duhet me një ``.json``skedar."
 
 #: ../../appdev/platform/click.rst:64
+#, fuzzy
 msgid "Example ``apparmor.json`` file::"
 msgstr "Shembull ``apparmor.json`` file::"
 
@@ -7424,12 +7412,13 @@ msgid ""
 msgstr ""
 
 #: ../../index.rst:12
+#, fuzzy
 msgid ""
 "If you want to help improving this documentation, :doc:`the Documentation "
 "contribute page <contribute/documentation>` will get you started."
 msgstr ""
-"Nëse dëshironi të ndihmoni në përmirësimin e këtij dokumentacioni, :doc:"
-"`faqja e kontributit të Dokumentacionit<kontribuon/dokumentacionin>` do t'ju "
+"Nëse dëshironi të ndihmoni në përmirësimin e këtij dokumentacioni, :doc:`"
+"faqja e kontributit të Dokumentacionit<kontribuon/dokumentacionin>` do t'ju "
 "fillojë."
 
 #: ../../index.rst:14
@@ -14616,10 +14605,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "Së pari, do t'ju duhet të instaloni ADB në kompjuterin tuaj."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "Në Ubuntu ::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "Në Fedora ::"
 
