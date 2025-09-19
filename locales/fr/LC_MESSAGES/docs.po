@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2025-09-14 21:02+0000\n"
-"Last-Translator: libermax <libremax@protonmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/fr/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1205,6 +1205,7 @@ msgstr ""
 "charge non plus en raison du manque de main-d’œuvre."
 
 #: ../../appdev/code-editor.rst:12
+#, fuzzy
 msgid ""
 "You can still install the SDK IDE in Ubuntu 16.04, but it is not guaranteed "
 "to work correctly. You can use the following commands to install::"
@@ -1309,15 +1310,16 @@ msgid "Different ways of sharing the content"
 msgstr "Différentes manières de partager le contenu"
 
 #: ../../appdev/guides/contenthub.rst:16
+#, fuzzy
 msgid ""
 "As we can see in the `Content Hub documentation <https://api-docs.ubports."
 "com/sdk/apps/qml/Ubuntu.Content/ContentHandler.html#detailed-description>`_, "
 "there are several ways of handling the file to be shared:"
 msgstr ""
-"Comme nous pouvons le voir dans la `documentation du centre de "
-"contenus<https://api-docs.ubports.com/sdk/apps/qml/Ubuntu.Content/"
-"ContentHandler.html#detailed-description>`_, il existe plusieurs manière de "
-"gérer le fichier à partager :"
+"Comme nous pouvons le voir dans la `documentation du centre de contenus<https"
+"://api-docs.ubports.com/sdk/apps/qml/Ubuntu.Content/ContentHandler.html"
+"#detailed-description>`_, il existe plusieurs manière de gérer le fichier à "
+"partager :"
 
 #: ../../appdev/guides/contenthub.rst:18
 msgid ""
@@ -1976,6 +1978,7 @@ msgstr ""
 "cela :"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:100
+#, fuzzy
 msgid ""
 "In the main qml file, we need to add some code to know what to do with the "
 "dispatched URL. Let's check how Linphone app manages this adding a "
@@ -1985,14 +1988,15 @@ msgid ""
 msgstr ""
 "Dans le fichier QML principal, nous devons ajouter du code pour savoir quoi "
 "faire avec le lien expédié. Commencez par ajouter un `élément d'argument "
-"<https://gitlab.com/ubports-linphone/linphone-simple/blob/master/qml/Main."
-"qml#L189>`_ qui gère le lien , tel que cela est fait par exemple dans "
-"`l'application Linphone <https://open-store.io/app/linphone.cibersheep>`_. "
+"<https://gitlab.com/ubports-linphone/linphone-simple/blob/master/qml/"
+"Main.qml#L189>`_ qui gère le lien , tel que cela est fait par exemple dans `"
+"l'application Linphone <https://open-store.io/app/linphone.cibersheep>`_. "
 "Nous ajoutons également une `connexion au gestionnaire de liens <https://"
 "gitlab.com/ubports-linphone/linphone-simple/blob/master/qml/Main.qml#L212>`_ "
 "avec un élément de connexion ayant comme cible ``UriHandler``."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:117
+#, fuzzy
 msgid ""
 "This code will manage an URI in the form ``linphone://sip:xxx@xxx.xx`` when "
 "the app is opened. But what do we need to do to handle this link when the "
@@ -2000,7 +2004,7 @@ msgid ""
 msgstr ""
 "Ce code gérera un lien de la forme ``linphone://sip:xxx@xxx.xx``lorsque "
 "l'application sera ouverte. Mais que devons-nous faire pour gérer ce lien "
-"lorsque l'application est fermée ?"
+"lorsque l'application est fermée ?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:119
 msgid ""
@@ -2720,11 +2724,13 @@ msgstr ""
 "exclusivement sur celui-ci. Vide par défaut (pas de son). Le chemin est"
 
 #: ../../appdev/guides/pushnotifications.rst:0
+#, fuzzy
 msgid "relative, and will be looked up in (a) the application's"
 msgstr ""
 "relatif et sera recherché dans (a) le dossier ``.local/share/<pkgname>``"
 
 #: ../../appdev/guides/pushnotifications.rst:0
+#, fuzzy
 msgid "``.local/share/<pkgname>``, and (b) standard xdg dirs."
 msgstr "de l'application, (b) les dossiers xdg standards."
 
@@ -3290,6 +3296,7 @@ msgid "Standard Paths"
 msgstr "Chemins standards"
 
 #: ../../appdev/guides/writeable-dirs.rst:8
+#, fuzzy
 msgid ""
 "Besides the write access to the app directories explained below, the app can "
 "write debug messages into the app log file located at ``/home/phablet/.cache/"
@@ -3301,8 +3308,8 @@ msgstr ""
 "dessous, l'application peut écrire des message de dépannage dans le fichier "
 "journal de l'application situé dans ``/home/phablet/.cache/upstart/"
 "application-click-<nomcomplet>_<nomdelapplication>_<version>.log``. Pour "
-"ajouter des messages dans le fichier journal, utilisez les fonctions "
-"`dépannage de Qt<https://doc.qt.io/qt-5/qdebug.html>`_."
+"ajouter des messages dans le fichier journal, utilisez les fonctions `"
+"dépannage de Qt<https://doc.qt.io/qt-5/qdebug.html>`_."
 
 #: ../../appdev/guides/writeable-dirs.rst:11
 msgid "Config"
@@ -4258,8 +4265,9 @@ msgstr ""
 "(Software Development Kit ou SKD) et la version."
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
-msgstr "Exemple de fichier ``manifest.json`` ::"
+msgstr "Exemple de fichier ``manifest.json`` ::"
 
 #: ../../appdev/platform/click.rst:28
 msgid "AppArmor profile policy file"
@@ -4288,8 +4296,9 @@ msgstr ""
 "propriétés."
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
-msgstr "Exemple de ``app.desktop`` ::"
+msgstr "Exemple de ``app.desktop`` ::"
 
 #: ../../appdev/platform/click.rst:44
 msgid "Non exhaustive list of properties:"
@@ -6041,12 +6050,13 @@ msgstr ""
 "sommaire (volet de gauche) et en haut de la page."
 
 #: ../../contribute/documentation.rst:19
+#, fuzzy
 msgid ""
 "Titles should be \"sentence cased\" rather than \"Title Cased\". For "
 "example::"
 msgstr ""
 "Les mots dans les titres doivent commencer par une minuscule plutôt que par "
-"une majuscule. Par exemple ::"
+"une majuscule. Par exemple ::"
 
 #: ../../contribute/documentation.rst:28
 msgid ""
@@ -6598,9 +6608,9 @@ msgstr ""
 "une proposition pour l'améliorer !"
 
 #: ../../contribute/documentation.rst:204
+#, fuzzy
 msgid "To create a todo, add this markup to your page::"
-msgstr ""
-"Pour créer une chose à faire, ajoutez cet indicateur dans votre page ::"
+msgstr "Pour créer une chose à faire, ajoutez cet indicateur dans votre page ::"
 
 #: ../../contribute/documentation.rst:213
 msgid "ReadTheDocs hosting"
@@ -7343,6 +7353,7 @@ msgstr ""
 "toujours vous rappeler est la suivante :"
 
 #: ../../contribute/translations.rst:54
+#, fuzzy
 msgid ""
 "Do **never** commit *.po* files to projects that are translated using "
 "weblate. This could break the whole translation exchange process with "
@@ -9418,6 +9429,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:43
 #: ../../porting/build_and_boot/H9_build.rst:46
+#, fuzzy
 msgid "Ubuntu Touch requires setting console=tty0"
 msgstr "Ubuntu Touch requière le paramètre ``console=tty0``"
 
@@ -9466,6 +9478,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:56
 #: ../../porting/build_and_boot/H9_build.rst:59
+#, fuzzy
 msgid ""
 "The above method, although the preferred one, may not work for some Samsung "
 "devices. The result will be that you cannot get access to the device through "
@@ -9478,7 +9491,7 @@ msgstr ""
 "à l'appareil par SSH après le démarrage et qu'Unity 8 ne pourra pas "
 "démarrer. Si vous rencontrez ce problème, vous pouvez spécifier le paramètre "
 "dans le fichier de configuration du noyau de votre périphérique à la place. "
-"Ajoutez les lignes suivantes ::"
+"Ajoutez les lignes suivantes ::"
 
 #: ../../porting/build_and_boot/H7_build.rst:62
 #: ../../porting/build_and_boot/H9_build.rst:65
@@ -10198,6 +10211,7 @@ msgstr ""
 "puis faites ceci à partir de votre arborescence d'Halium ::"
 
 #: ../../porting/build_and_boot/Halium_install.rst:25
+#, fuzzy
 msgid ""
 "If you have trouble accessing your device in fastboot mode, but are able to "
 "access it in TWRP recovery mode using adb, then boot into recovery mode and "
@@ -10206,7 +10220,7 @@ msgstr ""
 "Si vous avez des difficultés à accéder à votre appareil en mode de démarrage "
 "rapide, mais que vous pouvez y accéder en mode récupération avec TWRP en "
 "utilisant adb, alors démarrez en mode de récupération et essayez la méthode "
-"alternative suivante ::"
+"alternative suivante ::"
 
 #: ../../porting/build_and_boot/Halium_install.rst:30
 #, fuzzy
@@ -11989,6 +12003,7 @@ msgstr ""
 "section de référence sur les :ref:`Paramètres d'affichage`."
 
 #: ../../porting/configure_test_fix/Display.rst:10
+#, fuzzy
 msgid ""
 "All of these settings are guessed by Unity 8 if none are set. There are many "
 "cases, however, where the guess is wrong (for example, very high resolution "
@@ -12001,9 +12016,9 @@ msgstr ""
 "défini. Il existe de nombreux cas, cependant, pour lesquels la déduction est "
 "fausse (par exemple, les écrans de téléphone à très haute résolution seront "
 "identifiés comme des ordinateurs). Pour définir manuellement une valeur pour "
-"ces variables, modifiez tout simplement le fichier sous ``etc/ubuntu-touch-"
-"session.d/android.conf`` en les spécifiant. Par exemple, voici le fichier "
-"pour la tablette Nexus 7 ::"
+"ces variables, modifiez tout simplement le fichier sous ``etc/"
+"ubuntu-touch-session.d/android.conf`` en les spécifiant. Par exemple, voici "
+"le fichier pour la tablette Nexus 7 ::"
 
 #: ../../porting/configure_test_fix/Display.rst:18
 msgid ""
@@ -12981,16 +12996,19 @@ msgstr ""
 "répertoire 'ubuntu'."
 
 #: ../../porting/configure_test_fix/Sound.rst:8
+#, fuzzy
 msgid "Locate the line::"
-msgstr "Localisez la ligne ::"
+msgstr "Localisez la ligne ::"
 
 #: ../../porting/configure_test_fix/Sound.rst:12
+#, fuzzy
 msgid "and replace it with this::"
-msgstr "et remplacez-la avec ceci ::"
+msgstr "et remplacez-la avec ceci ::"
 
 #: ../../porting/configure_test_fix/Sound.rst:16
+#, fuzzy
 msgid "At the end of the file, append this::"
-msgstr "À la fin du fichier, ajoutez ceci ::"
+msgstr "À la fin du fichier, ajoutez ceci ::"
 
 #: ../../porting/configure_test_fix/Sound.rst:23
 msgid ""
@@ -14423,6 +14441,7 @@ msgstr ""
 "spécifications matérielles différentes."
 
 #: ../../porting/introduction/Preparations.rst:20
+#, fuzzy
 msgid ""
 "Another rich source of information is the `XDA Developers Forum <https://www."
 "xda-developers.com/>`_."
@@ -16814,10 +16833,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "Tout d'abord, il est nécessaire d'installer ADB sur votre ordinateur."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "Sur Ubuntu::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "Sur Fedora::"
 
@@ -16918,8 +16939,9 @@ msgid "ADB shell commands::"
 msgstr "Commandes adb shell ::"
 
 #: ../../userguide/advanceduse/adb.rst:64
+#, fuzzy
 msgid "Additional Adb commands::"
-msgstr "Commandes supplémentaires adb ::"
+msgstr "Commandes supplémentaires adb ::"
 
 #: ../../userguide/advanceduse/adb.rst:69
 #, fuzzy
@@ -16954,6 +16976,7 @@ msgstr ""
 "initialement essayé de lancer."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
@@ -17455,8 +17478,9 @@ msgid ""
 msgstr ""
 
 #: ../../userguide/advanceduse/screencasting.rst:71
+#, fuzzy
 msgid "You can download it here: :download:`files/mircast.sh`"
-msgstr "Vous pouvez le télécharger ici : :télécharger:`files/mircast.sh`"
+msgstr "Vous pouvez le télécharger ici : :télécharger:`files/mircast.sh`"
 
 #: ../../userguide/advanceduse/screencasting.rst:76
 #, fuzzy
@@ -17575,6 +17599,7 @@ msgid "Connect"
 msgstr "Connexion"
 
 #: ../../userguide/advanceduse/ssh.rst:46
+#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
 msgstr "Maintenant que tout est configuré, vous pouvez utiliser ``ssh``::"
 
@@ -17738,11 +17763,12 @@ msgid "Create a container"
 msgstr "Créer un conteneur"
 
 #: ../../userguide/dailyuse/libertine.rst:22
+#, fuzzy
 msgid ""
 "The first step is to create a container where applications can be installed:"
 msgstr ""
 "La première étape est de créer un conteneur dans lequel les applications "
-"peuvent être installées ::"
+"peuvent être installées ::"
 
 #: ../../userguide/dailyuse/libertine.rst:24
 msgid ""
@@ -18042,6 +18068,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:143
 #: ../../userguide/dailyuse/libertine.rst:159
+#, fuzzy
 msgid "To execute a command you can use the following pattern::"
 msgstr "Pour exécuter une commande, vous pouvez utiliser le modèle suivant::"
 
@@ -18485,6 +18512,7 @@ msgstr ""
 "première fois qu'elle essaiera d'accéder à votre position actuelle."
 
 #: ../../userguide/dailyuse/location.rst:104
+#, fuzzy
 msgid ""
 "Select ``Allow`` to give the app access to your current location. Select "
 "``Don't Allow`` to deny the app access to your current location. Some app "
@@ -18959,11 +18987,12 @@ msgstr ""
 "data/data/media/0``."
 
 #: ../../userguide/dailyuse/waydroid.rst:68
+#, fuzzy
 msgid ""
 "Links to android libraries can be made in their respective XDG counterparts::"
 msgstr ""
 "Les liens vers les bibliothèques d'Android peuvent être faits dans leurs "
-"équivalents XDG respectifs ::"
+"équivalents XDG respectifs ::"
 
 #: ../../userguide/dailyuse/waydroid.rst:79
 msgid ""
@@ -19014,6 +19043,7 @@ msgid "Install Ubuntu Touch"
 msgstr "Installer Ubuntu Touch"
 
 #: ../../userguide/install.rst:4
+#, fuzzy
 msgid ""
 "Installing Ubuntu Touch is easy, and a lot of work has gone in to making the "
 "installation process less intimidating to the average user. The UBports "
@@ -19030,11 +19060,12 @@ msgstr ""
 "utilisatrices les moins techniques. L'installateur d'UBports est un bel "
 "outil graphique qui permet d'installer Ubuntu Touch sur un `appareil "
 "compatible <https://devices.ubuntu-touch.io/>`_ à partir de votre ordinateur "
-"Linux <https://snapcraft.io/ubports-installer>`_, `Mac <https://devices."
-"ubuntu-touch.io/installer/?package=dmg>` ou `Windows <https://devices.ubuntu-"
-"touch.io/installer/?package=exe>`. Pour les personnes plus expérimentées, "
-"nous avons également des instructions d'installation manuelle pour chaque "
-"appareil `sur la page des appareils <https://devices.ubuntu-touch.io/>`_."
+"Linux <https://snapcraft.io/ubports-installer>`_, `Mac <https://"
+"devices.ubuntu-touch.io/installer/?package=dmg>` ou `Windows <https://"
+"devices.ubuntu-touch.io/installer/?package=exe>`. Pour les personnes plus "
+"expérimentées, nous avons également des instructions d'installation manuelle "
+"pour chaque appareil `sur la page des appareils <https://"
+"devices.ubuntu-touch.io/>`_."
 
 #: ../../userguide/install.rst:7
 msgid ""
