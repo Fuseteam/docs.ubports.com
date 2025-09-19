@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2025-01-18 23:00+0000\n"
-"Last-Translator: Guilherme <guilhermelibsoa@gmail.com>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "ubports/doc-ubports-com/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -1054,6 +1054,7 @@ msgid "Different ways of sharing the content"
 msgstr "Diferentes formas de compartilhar o conteúdo"
 
 #: ../../appdev/guides/contenthub.rst:16
+#, fuzzy
 msgid ""
 "As we can see in the `Content Hub documentation <https://api-docs.ubports."
 "com/sdk/apps/qml/Ubuntu.Content/ContentHandler.html#detailed-description>`_, "
@@ -1100,6 +1101,7 @@ msgid "Webapp Creator on the OpenStore"
 msgstr "Criador de Webapp no OpenStore"
 
 #: ../../appdev/guides/contenthub.rst:35
+#, fuzzy
 msgid ""
 "Looking into the code of Webapp Creator, we’ll find the code to import an "
 "image to be used as icon. Tapping on the place holder will open the Content "
@@ -1115,10 +1117,12 @@ msgstr ""
 "app / ImportPage.qml # L38> `_)"
 
 #: ../../appdev/guides/contenthub.rst:46
+#, fuzzy
 msgid "``ContentPeerPicker`` is the element that shows the apps."
 msgstr "`` ContentPeerPicker`` é o elemento que mostra os aplicativos."
 
 #: ../../appdev/guides/contenthub.rst:52
+#, fuzzy
 msgid ""
 "``contentType`` is passed in `Main.qml <https://gitlab.com/cibersheep/webapp-"
 "creator/blob/master/webapp-creator/app/Main.qml#L118>`_ as ContentType."
