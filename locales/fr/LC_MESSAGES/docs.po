@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 23:07+0700\n"
+"POT-Creation-Date: 2025-09-16 12:50+0000\n"
 "PO-Revision-Date: 2025-09-14 21:02+0000\n"
 "Last-Translator: libermax <libremax@protonmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/ubports/"
-"doc-ubports-com/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ubports/doc-"
+"ubports-com/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -441,10 +441,10 @@ msgid ""
 "Touch issues, and serves as an entry point for users to report issues "
 "they've encountered."
 msgstr ""
-"Le principal outil de suivi des problèmes pour Ubuntu Touch est le projet `"
-"GitLab ubports/development/ubuntu-touch`_. Ce projet suit tous les problèmes "
-"liés au système Ubuntu Touch et sert de point d'entrée aux utilisateurs pour "
-"signaler les problèmes qu'ils ont rencontrés."
+"Le principal outil de suivi des problèmes pour Ubuntu Touch est le projet "
+"`GitLab ubports/development/ubuntu-touch`_. Ce projet suit tous les "
+"problèmes liés au système Ubuntu Touch et sert de point d'entrée aux "
+"utilisateurs pour signaler les problèmes qu'ils ont rencontrés."
 
 #: ../../about/process/issue-tracking.rst:12
 msgid ""
@@ -762,7 +762,7 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:83
 msgid ""
-"Onec the in development release enters a stabilization phase, a milestone "
+"Once the in development release enters a stabilization phase, a milestone "
 "for the next major release (e.g. 'Ubuntu Touch 24.04-3.0') can be created."
 msgstr ""
 
@@ -6643,9 +6643,13 @@ msgstr ""
 "bon endroit pour démarrer."
 
 #: ../../contribute/index.rst:8
+#, fuzzy
+#| msgid ""
+#| "If those aren't enough for you, see `our contribute page <https://ubports."
+#| "com/page/vo-get-involved>`_ for an introduction of our focus groups."
 msgid ""
 "If those aren't enough for you, see `our contribute page <https://ubports."
-"com/page/vo-get-involved>`_ for an introduction of our focus groups."
+"com/community-center>`_ for an introduction of our focus groups."
 msgstr ""
 "Si ce n'est pas suffisant pour vous, consultez `notre page de contribution "
 "<https://ubports.com/page/vo-get-involved>`_ pour une introduction à nos "
@@ -12312,6 +12316,115 @@ msgstr ""
 "tablettes, les ordinateurs portables et les ordinateurs de bureau) et "
 "``portrait`` (portait, qui est habituellement utilisée pour les terminaux "
 "téléphoniques)."
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:5
+#, fuzzy
+msgid "Filesystem encryption for Ubuntu Touch 24.04"
+msgstr "Compilation des images pour Ubuntu Touch"
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:7
+msgid ""
+"Filesystem encryption in this document refers to encrypting files on a per-"
+"file basis using \"File Based Encryption\", in comparison to \"Full Disk "
+"Encryption\"."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:9
+msgid ""
+"Encryption on Ubuntu Touch 24.04 is solved using `fscrypt. <https://github."
+"com/google/fscrypt>`_"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:12
+#, fuzzy
+msgid "Technical details"
+msgstr "Exemples d'applications"
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:14
+msgid ""
+"Instead of Full Disk Encryption like LUKS would provide, fscrypt enables "
+"encryption baked into the ext4 and f2fs filesystems, for individual "
+"directory hierarchies. This way the system can boot off of an unencrypted "
+"root file system while postponing PIN entry until the point where it's "
+"needed. This is especially important with the Ubuntu Touch partitioning "
+"scheme."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:16
+msgid ""
+"This is accomplished by loading a user's key into either the user's keyring "
+"(policy v1) or the filesystem keyring (policy v2), with which the file "
+"system can then encrypt the data. Loading the key into the user's keyring "
+"has the effect of disallowing file decryption for other users, even root. "
+"With filesystem keyring in use, things like Docker with access to the home "
+"directory work properly."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:18
+msgid ""
+"All directories set up by the user using the login protector (PIN or "
+"password) will unlock at bootup when the user unlocks their device. This "
+"means that the user might have potentially added multiple additional "
+"directories to encrypt."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:21
+msgid "Creating an fscrypt.conf file"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:23
+msgid ""
+"A new device port requires a pre-configured file in `/etc/fscrypt.conf` to "
+"be present. In order to support encryption on the device this is a must to "
+"overlay."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:25
+msgid "Run `sudo fscrypt setup` to generate a new file."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:27
+msgid "The resulting configuration file might look like::"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:47
+msgid "use_fs_keyring_for_v1_policies configuration switch"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:49
+msgid ""
+"Older device kernels which require a policy version `\"1\"` might have to "
+"set this switch to `true` in order to have login unlock the home directory "
+"successfully."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:51
+msgid ""
+"Devices with newer kernels (5.4 and above) don't require this to be changed, "
+"and can solely rely on version 2 of the encryption policies."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:54
+#, fuzzy
+#| msgid "Complete device configuration"
+msgid "Device info configuration"
+msgstr "Configuration complète de l'appareil"
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:56
+msgid ""
+"To signify finished configuration, and to unlock the encryption UI from "
+"within lomiri-system-settings, the DeviceInfo config switch "
+"`FilesystemEncryption` needs to be set to `true`."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:59
+#, fuzzy
+msgid "Example::"
+msgstr "Exemples"
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:72
+msgid "Only after this will you be able to set up encryption on your device."
+msgstr ""
 
 #: ../../porting/configure_test_fix/Lomiri.rst:4
 #, fuzzy
@@ -19845,9 +19958,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Cette étape implique l'ajustement de certaines configurations et un "
 #~ "débogage supplémentaire de votre compilation."
-
-#~ msgid "Complete device configuration"
-#~ msgstr "Configuration complète de l'appareil"
 
 #~ msgid ""
 #~ "Now you need to further debug the build and adjust configuration until "

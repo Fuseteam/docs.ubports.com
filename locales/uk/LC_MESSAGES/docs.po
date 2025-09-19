@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 23:07+0700\n"
+"POT-Creation-Date: 2025-09-16 12:50+0000\n"
 "PO-Revision-Date: 2025-07-15 21:02+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
-"doc-ubports-com/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
+"ubports-com/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -448,7 +448,8 @@ msgstr ""
 #: ../../about/process/issue-tracking.rst:15
 msgid ""
 "Core applications under `ubports/development/apps`_ track their own issues."
-msgstr "Основні програми записують свої проблеми у `ubports/development/apps`_."
+msgstr ""
+"Основні програми записують свої проблеми у `ubports/development/apps`_."
 
 #: ../../about/process/issue-tracking.rst:16
 msgid ""
@@ -542,8 +543,8 @@ msgid ""
 "**Kind: FTBFS**: this issue describes a \"Fails To Build From Source\" issue "
 "(`an accronym from Debian`_)."
 msgstr ""
-"**Kind: FTBFS**: ця проблема описує проблеми збірки з джерельного коду ("
-"\"Fails To Build From Source\") (`акронім з Debian`_)."
+"**Kind: FTBFS**: ця проблема описує проблеми збірки з джерельного коду "
+"(\"Fails To Build From Source\") (`акронім з Debian`_)."
 
 #: ../../about/process/issue-tracking.rst:44
 msgid ""
@@ -760,25 +761,29 @@ msgstr ""
 msgid ""
 "A milestone for the upcoming stable release e.g. 'Ubuntu Touch 24.04-1.1'."
 msgstr ""
-"Контрольна точка для найближчого стабільного релізу, напр., "
-"\"Ubuntu Touch 24.04-1.1\"."
+"Контрольна точка для найближчого стабільного релізу, напр., \"Ubuntu Touch "
+"24.04-1.1\"."
 
 #: ../../about/process/issue-tracking.rst:82
 msgid ""
 "A milestone for the in development major release e.g. 'Ubuntu Touch "
 "24.04-2.0'."
 msgstr ""
-"Контрольна точка для старшої версії релізу у розробці, напр., "
-"\"Ubuntu Touch 24.04-2.0\"."
+"Контрольна точка для старшої версії релізу у розробці, напр., \"Ubuntu Touch "
+"24.04-2.0\"."
 
 #: ../../about/process/issue-tracking.rst:83
+#, fuzzy
+#| msgid ""
+#| "Onec the in development release enters a stabilization phase, a milestone "
+#| "for the next major release (e.g. 'Ubuntu Touch 24.04-3.0') can be created."
 msgid ""
-"Onec the in development release enters a stabilization phase, a milestone "
+"Once the in development release enters a stabilization phase, a milestone "
 "for the next major release (e.g. 'Ubuntu Touch 24.04-3.0') can be created."
 msgstr ""
 "Як тільки розробка релізу виходить на стабільну фазу, можна створити "
-"контрольну точку для наступної старшої версії випуску (напр., "
-"\"Ubuntu Touch 24.04-3.0\")."
+"контрольну точку для наступної старшої версії випуску (напр., \"Ubuntu Touch "
+"24.04-3.0\")."
 
 #: ../../about/process/issue-tracking.rst:85
 msgid ""
@@ -892,8 +897,8 @@ msgid ""
 msgstr ""
 "Так само через фільтр можна відкидати нецікаві проблеми. Наприклад, якщо "
 "розробник хоче знайти цікаву для себе проблему, над якою міг би попрацювати, "
-"можна скористатися фільтром з міткою \"Вид: процес\" (Kind: process) ("
-"використовується, напр., для проблем реєстрації процесів)."
+"можна скористатися фільтром з міткою \"Вид: процес\" (Kind: process) "
+"(використовується, напр., для проблем реєстрації процесів)."
 
 #: ../../about/process/issue-tracking.rst:115
 msgid ""
@@ -4596,8 +4601,8 @@ msgid ""
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
-"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є "
-"design.ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
+"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є design."
+"ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
 "піддоменів через маску замість назви піддомена:::"
 
 #: ../../appdev/webapp/guide.rst:113
@@ -4609,8 +4614,8 @@ msgid ""
 msgstr ""
 "Підказка: Зірочка замість піддомена замінює собою будь-який дійсний "
 "піддомен. Цей шаблон корисний, коли потрібно мати доступ до усіх піддоменів "
-"та їх сторінок, включно з поверненням до початкової адреси "
-"(https://www.ubuntu.com) та сторінок цього домену."
+"та їх сторінок, включно з поверненням до початкової адреси (https://www."
+"ubuntu.com) та сторінок цього домену."
 
 #: ../../appdev/webapp/guide.rst:116
 msgid "Adding http"
@@ -4654,11 +4659,13 @@ msgstr "Уся довідка доступна з:::"
 
 #: ../../appdev/webapp/guide.rst:133
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr "Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
+msgstr ""
+"Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
 
 #: ../../appdev/webapp/guide.rst:147
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
-msgstr "Параметри Chrome (стандартно, якщо порожньо, Chrome не зображується):::"
+msgstr ""
+"Параметри Chrome (стандартно, якщо порожньо, Chrome не зображується):::"
 
 #: ../../appdev/webapp/guide.rst:152
 msgid ""
@@ -4770,8 +4777,8 @@ msgid ""
 "app/webber.timsueberkrueb>`__."
 msgstr ""
 "Альтернатива до webapps розміщених в \"Open Store\" це просто створити "
-"ярлики за допомогою `webber app <https://open-store.io/app/"
-"webber.timsueberkrueb>`__."
+"ярлики за допомогою `webber app <https://open-store.io/app/webber."
+"timsueberkrueb>`__."
 
 #: ../../appdev/webapp/index.rst:21
 msgid ""
@@ -4789,8 +4796,8 @@ msgstr ""
 "документування. Webapp+ є простим додатком qml та легко налаштовується. "
 "Створення таке просте, як і класичний контейнер webapp, але результат "
 "потужніший та з чудовими можливостями навігації. Доволі непоганий приклад "
-"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-salta>`"
-" __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
+"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-"
+"salta>` __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
 
 #: ../../appdev/webapp/index.rst:28
 msgid "Guide"
@@ -4809,8 +4816,8 @@ msgid ""
 "`Webapp creator <https://open-store.io/app/webapp-creator.jujuyeh>`_ "
 "application available from the openstore"
 msgstr ""
-"Програма `Webapp creator <https://open-store.io/app/webapp-creator.jujuyeh>`"
-"_ доступна в OpenStore"
+"Програма `Webapp creator <https://open-store.io/app/webapp-creator."
+"jujuyeh>`_ доступна в OpenStore"
 
 #: ../../appdev/webapp/index.rst:42
 msgid "`Clickable <https://clickable-ut.dev>`_ CLI"
@@ -4867,8 +4874,8 @@ msgid ""
 "You can check the log file in the terminal or use the `LogViewer <https://"
 "open-store.io/app/logviewer.neothethird>`_ app."
 msgstr ""
-"Файл журналу можна перевірити у терміналі або з програмою `LogViewer <https"
-"://open-store.io/app/logviewer.neothethird>`_."
+"Файл журналу можна перевірити у терміналі або з програмою `LogViewer "
+"<https://open-store.io/app/logviewer.neothethird>`_."
 
 #: ../../appdev/webapp/webdebug.rst:19
 msgid ""
@@ -4974,8 +4981,8 @@ msgstr ""
 "По-перше, потрібно пересвідчитися, що помилка, про яку Ви хочете повідомити, "
 "не міститься у попередніх звітах. Виконайте пошук серед помилок. Під час "
 "пошуку використовуйте декілька слів, які б могли описати те, що бачите. "
-"Наприклад, \"Екран блокування прозорий\" або "
-"\"На екрані блокування видно програми\"."
+"Наприклад, \"Екран блокування прозорий\" або \"На екрані блокування видно "
+"програми\"."
 
 #: ../../contribute/bugreporting.rst:21
 msgid ""
@@ -4983,9 +4990,9 @@ msgid ""
 "Reaction\" button (it looks like a smiley face) and select the +1 (thumbs "
 "up) reaction. This shows that you are also experiencing the bug."
 msgstr ""
-"Якщо Ви знайшли наявний звіт про помилку, виберіть кнопку \"Додати реакцію\" "
-"(вона виглядає як смайл) та оберіть реакцію +1 (великий палець вгору). Це "
-"буде знаком, що Ви також зіткнулися з такою самою проблемою."
+"Якщо Ви знайшли наявний звіт про помилку, виберіть кнопку \"Додати "
+"реакцію\" (вона виглядає як смайл) та оберіть реакцію +1 (великий палець "
+"вгору). Це буде знаком, що Ви також зіткнулися з такою самою проблемою."
 
 #: ../../contribute/bugreporting.rst:23
 msgid ""
@@ -5021,8 +5028,8 @@ msgid ""
 "Now it's time for what you've been waiting for, the bug report itself! Bug "
 "reports need to be filed in English."
 msgstr ""
-"Тепер настав час, якого Ви так чекали, щоби створити свій звіт про проблему ("
-"= баг-репорт)! Ці звіти повинні бути англійською мовою."
+"Тепер настав час, якого Ви так чекали, щоби створити свій звіт про проблему "
+"(= баг-репорт)! Ці звіти повинні бути англійською мовою."
 
 #: ../../contribute/bugreporting.rst:35
 msgid ""
@@ -5419,11 +5426,11 @@ msgid ""
 msgstr ""
 "Як приклад серії комітів (commit), які дуже добре відповідають цим головним "
 "принципам, подивіться на три коміти зверху журналу `git log leading to "
-"840777f з Lomiri <https://github.com/ubports/unity8/commits/"
-"840777f92fb663a525dbe765155dbcf2a6f7541e>`_. Не кожна зміна вимагає такого "
-"поглибленого опису, як ці приклади. Подивіться збоку на деталі; іноді *Ви* "
-"той самий, хто озирається на свої коміти і цікавиться, чому те чи інше було "
-"зроблене."
+"840777f з Lomiri <https://github.com/ubports/unity8/"
+"commits/840777f92fb663a525dbe765155dbcf2a6f7541e>`_. Не кожна зміна вимагає "
+"такого поглибленого опису, як ці приклади. Подивіться збоку на деталі; іноді "
+"*Ви* той самий, хто озирається на свої коміти і цікавиться, чому те чи інше "
+"було зроблене."
 
 #: ../../contribute/code.rst:71
 msgid "Answer crucial questions in commit messages"
@@ -5458,8 +5465,8 @@ msgid ""
 "<https://github.com/ubports/unity8/commit/"
 "a81421ac1fe5135b9cff710c3cd819aa1804c6e6>`_\"."
 msgstr ""
-"Дайте відповідь на це запитання у перших рядках коментаря до коміту. "
-"\"Що робить Ваш коміт?\" \"`Оптимізує шпалери для часу завантаження та "
+"Дайте відповідь на це запитання у перших рядках коментаря до коміту. \"Що "
+"робить Ваш коміт?\" \"`Оптимізує шпалери для часу завантаження та "
 "використання пам'яті <https://github.com/ubports/unity8/commit/"
 "a81421ac1fe5135b9cff710c3cd819aa1804c6e6>`_\"."
 
@@ -6292,7 +6299,7 @@ msgstr ""
 #: ../../contribute/index.rst:8
 msgid ""
 "If those aren't enough for you, see `our contribute page <https://ubports."
-"com/page/vo-get-involved>`_ for an introduction of our focus groups."
+"com/community-center>`_ for an introduction of our focus groups."
 msgstr ""
 
 #: ../../contribute/monetary.rst:2
@@ -11456,6 +11463,112 @@ msgid ""
 "Acceptable values are ``landscape``, which is normally used for tablets, "
 "laptops, and desktops; and ``portrait``, which is usually used for phone "
 "handsets."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:5
+msgid "Filesystem encryption for Ubuntu Touch 24.04"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:7
+msgid ""
+"Filesystem encryption in this document refers to encrypting files on a per-"
+"file basis using \"File Based Encryption\", in comparison to \"Full Disk "
+"Encryption\"."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:9
+msgid ""
+"Encryption on Ubuntu Touch 24.04 is solved using `fscrypt. <https://github."
+"com/google/fscrypt>`_"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:12
+msgid "Technical details"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:14
+msgid ""
+"Instead of Full Disk Encryption like LUKS would provide, fscrypt enables "
+"encryption baked into the ext4 and f2fs filesystems, for individual "
+"directory hierarchies. This way the system can boot off of an unencrypted "
+"root file system while postponing PIN entry until the point where it's "
+"needed. This is especially important with the Ubuntu Touch partitioning "
+"scheme."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:16
+msgid ""
+"This is accomplished by loading a user's key into either the user's keyring "
+"(policy v1) or the filesystem keyring (policy v2), with which the file "
+"system can then encrypt the data. Loading the key into the user's keyring "
+"has the effect of disallowing file decryption for other users, even root. "
+"With filesystem keyring in use, things like Docker with access to the home "
+"directory work properly."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:18
+msgid ""
+"All directories set up by the user using the login protector (PIN or "
+"password) will unlock at bootup when the user unlocks their device. This "
+"means that the user might have potentially added multiple additional "
+"directories to encrypt."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:21
+msgid "Creating an fscrypt.conf file"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:23
+msgid ""
+"A new device port requires a pre-configured file in `/etc/fscrypt.conf` to "
+"be present. In order to support encryption on the device this is a must to "
+"overlay."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:25
+msgid "Run `sudo fscrypt setup` to generate a new file."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:27
+msgid "The resulting configuration file might look like::"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:47
+msgid "use_fs_keyring_for_v1_policies configuration switch"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:49
+msgid ""
+"Older device kernels which require a policy version `\"1\"` might have to "
+"set this switch to `true` in order to have login unlock the home directory "
+"successfully."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:51
+msgid ""
+"Devices with newer kernels (5.4 and above) don't require this to be changed, "
+"and can solely rely on version 2 of the encryption policies."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:54
+msgid "Device info configuration"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:56
+msgid ""
+"To signify finished configuration, and to unlock the encryption UI from "
+"within lomiri-system-settings, the DeviceInfo config switch "
+"`FilesystemEncryption` needs to be set to `true`."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:59
+#, fuzzy
+#| msgid "Examples"
+msgid "Example::"
+msgstr "Приклади"
+
+#: ../../porting/configure_test_fix/Fscrypt.rst:72
+msgid "Only after this will you be able to set up encryption on your device."
 msgstr ""
 
 #: ../../porting/configure_test_fix/Lomiri.rst:4
