@@ -40,8 +40,8 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2025-02-27 07:18+0000\n"
-"Last-Translator: kuailexs <952415538@qq.com>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/ubports/doc-ubports-com/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -49,7 +49,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.2-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -2981,11 +2981,11 @@ msgid "Usage: common"
 msgstr "用法：普通"
 
 #: ../../appdev/platform/apparmor.rst:32
+#, fuzzy
 msgid ""
 "The accounts policy gives your app the permissions it needs to access the "
 "`Online Accounts API`_."
-msgstr ""
-"账户权限（accounts policy）将允许你的应用使用在线账户API（Online Accounts "
+msgstr "账户权限（accounts policy）将允许你的应用使用在线账户API（Online Accounts "
 "API）_."
 
 #: ../../appdev/platform/apparmor.rst:36
@@ -3461,6 +3461,7 @@ msgid ""
 msgstr ""
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
 msgstr "``manifest.json`` 文件示例::"
 
@@ -3487,6 +3488,7 @@ msgstr ""
 "图标，以及其他一些属性。"
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
 msgstr "``app.desktop``示例::"
 
@@ -3652,6 +3654,7 @@ msgid "You can launch a webapp from the terminal with:::"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:21
+#, fuzzy
 msgid "For example:::"
 msgstr "示例::"
 
@@ -7705,6 +7708,7 @@ msgid "For everyone: check custom Upstart jobs"
 msgstr "对于所有移植: 检查自定义 Upstart 任务"
 
 #: ../../porting/UpdatePortsFor2004.rst:62
+#, fuzzy
 msgid ""
 "Some ports has custom Upstart jobs to do certain things on boot. Those jobs "
 "has to be converted to Systemd units in order to run at all in Ubuntu Touch "
@@ -7712,9 +7716,9 @@ msgid ""
 "SystemdForUpstartUsers#Job_vs._unit_keywords>` useful."
 msgstr ""
 "有些移植有自定义的 Upstart 任务，以便在启动时做某些事情。这些工作必须转换为 "
-"Systemd 单元才能在 Ubuntu Touch 20.04 中运行。您可能会发现 `Ubuntu 关于此主题"
-"的指南 <https://wiki.ubuntu.com/SystemdForUpstartUsers#Job_vs."
-"_unit_keywords>`_ 非常有用。"
+"Systemd 单元才能在 Ubuntu Touch 20.04 中运行。您可能会发现 `Ubuntu "
+"关于此主题的指南 <https://wiki.ubuntu.com/"
+"SystemdForUpstartUsers#Job_vs._unit_keywords>`_ 非常有用。"
 
 #: ../../porting/UpdatePortsFor2004.rst:64
 msgid ""
@@ -7807,15 +7811,16 @@ msgid "Establish an ssh connection to your device as follows:"
 msgstr "按如下步骤建立与设备的 ssh 连接："
 
 #: ../../porting/build_and_boot/Boot_debug.rst:29
+#, fuzzy
 msgid ""
 "Your computer should now have a newly connected RNDIS interface. Check the "
 "output of ``ip link show`` for the device name. The device name will most "
 "likely resemble ``enp0s29u1u1``. Assign this device a fake MAC address (if "
 "the default one is all 00s) and an IP of 10.15.19.100::"
 msgstr ""
-"现在，您的电脑应该有了一个新连接的 RNDIS 接口。检查 ip link show 的输出，查看"
-"设备名称。设备名称很可能类似 enp0s29u1u1。为该设备分配一个假的 MAC 地址（如果"
-"默认的都是 00）和一个 10.15.19.100 的 IP："
+"现在，您的电脑应该有了一个新连接的 RNDIS 接口。检查 ip link show "
+"的输出，查看设备名称。设备名称很可能类似 enp0s29u1u1。为该设备分配一个假的 "
+"MAC 地址（如果默认的都是 00）和一个 10.15.19.100 的 IP："
 
 #: ../../porting/build_and_boot/Boot_debug.rst:35
 msgid "Once finished, you should be able to login with the following::"
@@ -7886,12 +7891,12 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:25
 #: ../../porting/build_and_boot/H9_build.rst:28
+#, fuzzy
 msgid ""
 "Breakfast will attempt to find your device, set up all of the environment "
 "variables needed for building, and give you a summary at the end."
-msgstr ""
-"``breakfast`` 命令会尝试找到你的设备，设置构建所需的所有环境变量，并在最后给"
-"你一个摘要"
+msgstr "``breakfast`` "
+"命令会尝试找到你的设备，设置构建所需的所有环境变量，并在最后给你一个摘要"
 
 #: ../../porting/build_and_boot/H7_build.rst:30
 #: ../../porting/build_and_boot/H9_build.rst:33
@@ -7926,15 +7931,16 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:40
 #: ../../porting/build_and_boot/H9_build.rst:43
+#, fuzzy
 msgid ""
 "You may have to do this twice. It will likely fix things both times. Then, "
 "run the script without the ``-w`` flag to see if there are any more errors. "
 "If there are, fix them manually. Once finished, run the script without the "
 "``-w`` flag one more time to make sure everything is correct."
 msgstr ""
-"你可能要做两次。 它可能会解决问题。 然后，运行没有`-w``标志的脚本，看看是否还"
-"有错误。 如果有，请手动修复它们。 完成后，再次运行不带“-w``标志的脚本，以确保"
-"一切正确。"
+"你可能要做两次。 它可能会解决问题。 "
+"然后，运行没有`-w``标志的脚本，看看是否还有错误。 如果有，请手动修复它们。 "
+"完成后，再次运行不带“-w``标志的脚本，以确保一切正确。"
 
 #: ../../porting/build_and_boot/H7_build.rst:43
 #: ../../porting/build_and_boot/H9_build.rst:46
@@ -7943,6 +7949,7 @@ msgstr "Ubuntu Touch 需要设置 console=tty0"
 
 #: ../../porting/build_and_boot/H7_build.rst:45
 #: ../../porting/build_and_boot/H9_build.rst:48
+#, fuzzy
 msgid ""
 "The halium-boot initramfs expects ``/dev/console`` to be a console device "
 "and will not start init if it is not available. This is commonly the case on "
@@ -7951,10 +7958,10 @@ msgid ""
 "``console=tty0`` as the last argument in the kernel cmdline. To achieve "
 "this, proceed as follows:"
 msgstr ""
-"halium-boot initramfs 希望 ``/dev/console``是一个控制台设备，如果它不存在，就"
-"不会启动 init。这种情况通常发生在最近的设备上，因为它们要么禁用了 UART，要么"
-"默认没有指定 `console=``（为空）。这可以通过提供 ``console=tty0`` 作为内核 "
-"cmdline 的最后一个参数来解决。要做到这一点，请按以下步骤操作："
+"halium-boot initramfs 希望 ``/dev/console``是一个控制台设备，如果它不存在，"
+"就不会启动 init。这种情况通常发生在最近的设备上，因为它们要么禁用了 UART，"
+"要么默认没有指定 `console=``（为空）。这可以通过提供 ``console=tty0`` "
+"作为内核 cmdline 的最后一个参数来解决。要做到这一点，请按以下步骤操作："
 
 #: ../../porting/build_and_boot/H7_build.rst:47
 #: ../../porting/build_and_boot/H9_build.rst:50
@@ -10479,6 +10486,7 @@ msgid "Display scaling"
 msgstr "显示缩放"
 
 #: ../../porting/configure_test_fix/Display.rst:34
+#, fuzzy
 msgid ""
 "``GRID_UNIT_PX`` (Pixels per Grid Unit or Px/GU) is specific to each device. "
 "Its goal is to make the user interface of the system and its applications "
@@ -10489,20 +10497,22 @@ msgid ""
 "and laptops are the same distance and that they are held at 1.235 times the "
 "distance phones tend to be held at."
 msgstr ""
-"``GRID_UNIT_PX`` (Pixels per Grid Unit or Px/GU)用于每个设备。目标是使系统用"
-"户界面和应用具有一致的“感官”大小，而不管它们显示在什么设备上。它主要取决于设"
-"备屏幕的像素密度和用户到屏幕的距离。后一个值不能自动检测，它是基于启发式的。"
-"我们假设平板电脑和笔记本电脑的距离是一样的，它们的距离是手机的1.235倍。"
+"``GRID_UNIT_PX`` (Pixels per Grid Unit or Px/"
+"GU)用于每个设备。目标是使系统用户界面和应用具有一致的“感官”大小，而不管它们显"
+"示在什么设备上。它主要取决于设备屏幕的像素密度和用户到屏幕的距离。后一个值不"
+"能自动检测，它是基于启发式的。我们假设平板电脑和笔记本电脑的距离是一样的，它"
+"们的距离是手机的1.235倍。"
 
 #: ../../porting/configure_test_fix/Display.rst:36
+#, fuzzy
 msgid ""
 "``QTWEBKIT_DPR`` sets the display scaling for the Oxide web engine, so "
 "changes to this value will affect the scale of the browser and webapps."
-msgstr ""
-"``QTWEBKIT_DPR``设置Oxide网页引擎的显示尺寸，本值的改变将影响浏览器和web应用"
+msgstr "``QTWEBKIT_DPR``设置Oxide网页引擎的显示尺寸，本值的改变将影响浏览器和web应用"
 "的尺寸。"
 
 #: ../../porting/configure_test_fix/Display.rst:38
+#, fuzzy
 msgid ""
 "A reference device has been chosen from which we derive the values for all "
 "other devices. The reference device is a laptop with a 120ppi screen. "
@@ -12644,6 +12654,7 @@ msgid ""
 msgstr "当你遇到麻烦时（你肯定会遇到的），请参考以下一个或多个来源："
 
 #: ../../porting/introduction/Intro.rst:124
+#, fuzzy
 msgid "`Telegram: @ubports_porting <https://t.me/ubports_porting>`_"
 msgstr "Telegram: @ubports_porting"
 
@@ -14984,10 +14995,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "首先，您需要在您的计算机上安装 ADB。"
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "在 Ubuntu 上::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "在 Fedora 上::"
 
@@ -14997,6 +15010,7 @@ msgid "And on macOS with `Homebrew <https://brew.sh>`_::"
 msgstr "在 MacOS 上使用 `Homebrew <https://brew.sh>`_::"
 
 #: ../../userguide/advanceduse/adb.rst:24
+#, fuzzy
 msgid ""
 "For Windows, grab the command-line tools only package from `developer."
 "android.com <https://developer.android.com/studio/index.html#downloads>`_."
@@ -15083,6 +15097,7 @@ msgid "ADB shell commands::"
 msgstr "Adb shell 命令::"
 
 #: ../../userguide/advanceduse/adb.rst:64
+#, fuzzy
 msgid "Additional Adb commands::"
 msgstr "额外 Adb 命令::"
 
@@ -15117,6 +15132,7 @@ msgstr ""
 "最初所要执行的命令。"
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
