@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2025-07-15 21:02+0000\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -69,6 +69,7 @@ msgid "About the Documentation"
 msgstr "Щодо документації"
 
 #: ../../about/introduction.rst:16
+#, fuzzy
 msgid ""
 "Changes to the documentation are made by the UBports community. It is "
 "written in reStructuredText and converted into this readable form by `Sphinx "
@@ -78,13 +79,14 @@ msgid ""
 "`Documentation contribution document </contribute/documentation>`."
 msgstr ""
 "Зміни у документації здійснюються спільнотою Ubports. Вони записуються у "
-"reStructuredText та конвертуються у таку читабельну форму з \"Sphinx "
-"<https://www.sphinx-doc.org/en/master/>\" _, \"recommonmark <http://"
-"recommonmark.readthedocs.io/en/latest/>\" _, та \"Read the Docs <https://"
-"readthedocs.io>\"_. Почати можна з перевірки :doc: \"Документа з підтримки "
-"документації </contribute/documentation>\"."
+"reStructuredText та конвертуються у таку читабельну форму з "
+"\"Sphinx <https://www.sphinx-doc.org/en/master/>\" _, "
+"\"recommonmark <http://recommonmark.readthedocs.io/en/latest/>\" _, та "
+"\"Read the Docs <https://readthedocs.io>\"_. Почати можна з перевірки :doc: "
+"\"Документа з підтримки документації </contribute/documentation>\"."
 
 #: ../../about/introduction.rst:18
+#, fuzzy
 msgid ""
 "All documents are licensed Creative Commons Attribution ShareAlike 4.0 (`CC-"
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
@@ -135,6 +137,7 @@ msgid "Click-Packages"
 msgstr "Click-пакунки"
 
 #: ../../about/process/branch-naming.rst:11
+#, fuzzy
 msgid ""
 "Software exclusively distributed as a click-package (and not also as a DEB) "
 "only uses one ``master`` branch that is protected. Separate temporary "
@@ -289,6 +292,7 @@ msgid "``focal_-_<ext>``"
 msgstr "``focal_-_<ext>``"
 
 #: ../../about/process/branch-naming.rst:48
+#, fuzzy
 msgid "``personal/<user>/<name>``, and any other branches."
 msgstr "``особисте/<ім'я>/<користувача>``та будь-які інші гілки."
 
@@ -307,6 +311,7 @@ msgid ""
 msgstr "Н/Д доки не запитано злиття для згаданих гілок (див. нижче)."
 
 #: ../../about/process/branch-naming.rst:55
+#, fuzzy
 msgid ""
 "To ensure the ``main`` branch doesn't miss any changes, all changes must be "
 "made against ``main`` branch first before backporting to the major release "
@@ -822,6 +827,7 @@ msgid "GitLab issue board"
 msgstr "Панель проблем GitLab"
 
 #: ../../about/process/issue-tracking.rst:99
+#, fuzzy
 msgid ""
 "We use GitLab's issue boards to visualize progress of issues in each "
 "milestone. The boards are kanban boards, where each column corresponds to "
@@ -1070,6 +1076,7 @@ msgstr ""
 "гілку. Потім додайте (push) цю гілку зі свого локального дерева Git."
 
 #: ../../about/process/security-vulnerabilities.rst:18
+#, fuzzy
 msgid ""
 "This MR will target the ``.secfix`` repo, NOT the main repo [1]_. This "
 "allows reviewing the patch to happen in private."
@@ -1206,6 +1213,7 @@ msgid "Ubuntu SDK ( Unmaintained )"
 msgstr "Ubuntu SDK ( не обслуговується )"
 
 #: ../../appdev/code-editor.rst:10
+#, fuzzy
 msgid ""
 "Alternatively there is the old `Ubuntu SDK IDE <https://docs.ubuntu.com/"
 "phone/en/platform/sdk>`__. Be aware that it is no longer supported by "
@@ -1655,6 +1663,7 @@ msgstr ""
 "залежностей у такий спосіб:"
 
 #: ../../appdev/guides/dependencies.rst:62
+#, fuzzy
 msgid ""
 "Clickable will install the specified package automatically for the target "
 "architecture inside the build container. An example can be found in `Guitar "
@@ -1663,8 +1672,8 @@ msgid ""
 msgstr ""
 "Clickable встановить вказаний пакет для цільової архітектури автоматично "
 "всередині скомпільованого контейнера. Приклад можна знайти у `Guitar Tools ' "
-"clickable.json <https://github.com/t-mon/guitar-tools/blob/master/clickable."
-"json#L4>` _."
+"clickable.json <https://github.com/t-mon/guitar-tools/blob/master/"
+"clickable.json#L4>` _."
 
 #: ../../appdev/guides/dependencies.rst:64
 msgid ""
@@ -1693,6 +1702,7 @@ msgstr ""
 "бібліотеку з двійковою програмою."
 
 #: ../../appdev/guides/dependencies.rst:81
+#, fuzzy
 msgid ""
 "In case the library contains a CMake configuration file, you can use the "
 "`find_package <https://cmake.org/cmake/help/latest/command/find_package."
@@ -1702,11 +1712,12 @@ msgid ""
 msgstr ""
 "У випадку, якщо бібліотека містить файл налаштувань CMake, можна "
 "використовувати команду `find_package <https://cmake.org/cmake/help/latest/"
-"command/find_package.html>` _, яка надасть цільовий об'єкт для зв'язку "
-"(link) або змінні, які вказуватимуть на двійкові бібліотеки та додаткові "
-"(include) каталоги. Додаткові рядки Вашого CMakeLists.txt можуть виглядати:"
+"command/find_package.html>` _, яка надасть цільовий об'єкт для зв'язку (link)"
+" або змінні, які вказуватимуть на двійкові бібліотеки та додаткові (include) "
+"каталоги. Додаткові рядки Вашого CMakeLists.txt можуть виглядати:"
 
 #: ../../appdev/guides/dependencies.rst:90
+#, fuzzy
 msgid ""
 "The ``find_package`` command usually defines the path to the include "
 "directory as ``SOMELIBRARY_INCLUDE_DIRS`` and the library's binaries as "
@@ -1721,8 +1732,8 @@ msgstr ""
 "``SOMELIBRARY_INCLUDE_DIRS`` та двійкові файли бібліотеки як `` "
 "SOMELIBRARY_LIBS`` (перевірте документацію бібліотеки, що саме надає "
 "конфігурація CMake). Використовуйте їх з командами `` include_directories`` "
-"та ``target_link_libraries``. Реальні приклади можна переглянути тут: "
-"`Camera Scanner ImageProcessing CMakeLists.txt <https://github.com/jonnius/"
+"та ``target_link_libraries``. Реальні приклади можна переглянути тут: `"
+"Camera Scanner ImageProcessing CMakeLists.txt <https://github.com/jonnius/"
 "camera-scanner/blob/master/plugins/ImageProcessing/CMakeLists.txt#L23>`_."
 
 #: ../../appdev/guides/dependencies.rst:92
@@ -1758,6 +1769,7 @@ msgstr ""
 "про відсутній файл спільного об'єкта."
 
 #: ../../appdev/guides/dependencies.rst:100
+#, fuzzy
 msgid ""
 "Find the path to the shared object files. For libraries built via clickable, "
 "they are located somewhere in the library's install dir, which is located "
@@ -1770,13 +1782,12 @@ msgid ""
 msgstr ""
 "Знайдіть шлях до файлів спільних об'єктів. Для бібліотек, побудованих з "
 "clickable, вони розташовуються десь в інсталяційному каталозі бібліотеки, "
-"який типово розташований у каталозі для компільованих бібліотек (напр. "
-"``build/arm-linux-gnueabihf/opencv/install``). Для бібліотек зібраних "
-"наперед виконайте ``clickable run \"find / -name 'libSomething."
-"so'\"``(замінивши ``libSomething.so`` файлом, який Ви шукаєте). Це повинно "
-"надати шлях до файлу (поряд з деякими повідомленнями про помилки, які можна "
-"ігнорувати). Загалом, для пошуку загальних файлів гарний вибір буде ``/usr/"
-"lib``."
+"який типово розташований у каталозі для компільованих бібліотек (напр. ``"
+"build/arm-linux-gnueabihf/opencv/install``). Для бібліотек зібраних наперед "
+"виконайте ``clickable run \"find / -name 'libSomething.so'\"``(замінивши "
+"``libSomething.so`` файлом, який Ви шукаєте). Це повинно надати шлях до "
+"файлу (поряд з деякими повідомленнями про помилки, які можна ігнорувати). "
+"Загалом, для пошуку загальних файлів гарний вибір буде ``/usr/lib``."
 
 #: ../../appdev/guides/dependencies.rst:102
 msgid ""
@@ -1820,6 +1831,7 @@ msgid "Importing from Content Hub and URLdispatcher"
 msgstr "Імпорт з Content Hub та URLdispatcher"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:15
+#, fuzzy
 msgid ""
 "In the previous guide we have seen a little bit about how Content Hub works. "
 "In this guide we will see how ``URLdispatcher`` works and how to handle "
@@ -1938,6 +1950,7 @@ msgstr ""
 "потрібно опрацювати URL / URI у цільовій програмі. Подивимося як це зробити:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:100
+#, fuzzy
 msgid ""
 "In the main qml file, we need to add some code to know what to do with the "
 "dispatched URL. Let's check how Linphone app manages this adding a "
@@ -4124,6 +4137,7 @@ msgstr ""
 "sdk та версія."
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
 msgstr "Приклад файлу ``manifest.json``::"
 
@@ -4141,6 +4155,7 @@ msgstr ""
 "`Безпека та ізоляція програми`_."
 
 #: ../../appdev/platform/click.rst:31
+#, fuzzy
 msgid "``.desktop`` file"
 msgstr "файл ``.desktop`"
 
@@ -4153,6 +4168,7 @@ msgstr ""
 "назва та значок повинні бути на стільниці та ще деякі властивості."
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
 msgstr "Приклад файлу ``app.desktop``::"
 
@@ -4224,6 +4240,7 @@ msgstr ""
 "``.json``."
 
 #: ../../appdev/platform/click.rst:64
+#, fuzzy
 msgid "Example ``apparmor.json`` file::"
 msgstr "Приклад файлу ``apparmor.json``::"
 
@@ -4348,10 +4365,12 @@ msgid "Launching"
 msgstr "Запуск"
 
 #: ../../appdev/webapp/guide.rst:17
+#, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
 msgstr "Ви можете запустити webapp з термінала:::"
 
 #: ../../appdev/webapp/guide.rst:21
+#, fuzzy
 msgid "For example:::"
 msgstr "Наприклад:::"
 
@@ -4436,6 +4455,7 @@ msgid "Uncontained by default"
 msgstr "Типово без обмежень"
 
 #: ../../appdev/webapp/guide.rst:49
+#, fuzzy
 msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
@@ -4466,6 +4486,7 @@ msgid "Simple containment to the site"
 msgstr "Прості обмеження на сайті"
 
 #: ../../appdev/webapp/guide.rst:60
+#, fuzzy
 msgid ""
 "One often wants to contain users to the site itself. That is, if the website "
 "is www.ubuntu.com, it may be useful to contain webapp users only to subpages "
@@ -4473,9 +4494,9 @@ msgid ""
 "launch command, as follows:::"
 msgstr ""
 "Часто хочеться обмежити користувачів самим сайтом. Тобто, якщо вебсайт це "
-"www.ubuntu.com, може бути корисним обмеження користувачів webapp сайтом www."
-"ubuntu.com. Це можна зробити, додаючи маску посилання URL до команди запуску "
-"за зразком:::"
+"www.ubuntu.com, може бути корисним обмеження користувачів webapp сайтом "
+"www.ubuntu.com. Це можна зробити, додаючи маску посилання URL до команди "
+"запуску за зразком:::"
 
 #: ../../appdev/webapp/guide.rst:64
 msgid "``--webappUrlPatterns=`` indicates a pattern is next"
@@ -4521,6 +4542,7 @@ msgid "More complex wildcard patterns"
 msgstr "Більш складні шаблони заміни"
 
 #: ../../appdev/webapp/guide.rst:76
+#, fuzzy
 msgid ""
 "You might want to limit access to only some subpages of your site from "
 "within the webapp. This is easy with wildcard patterns. (Links to other "
@@ -4539,14 +4561,15 @@ msgid "Multiple patterns"
 msgstr "Декілька шаблонів"
 
 #: ../../appdev/webapp/guide.rst:84
+#, fuzzy
 msgid ""
 "You can use multiple patterns by separating them with a comma. For example, "
 "the following allows access only to www.ubuntu.com/desktop/features and www."
 "ubuntu.com/phone/features:::"
 msgstr ""
 "Можна використовувати декілька шаблонів, розділюючи їх комою. Наприклад, "
-"наступне надасть доступ тільки до www.ubuntu.com/desktop/features та www."
-"ubuntu.com/phone/features:::"
+"наступне надасть доступ тільки до www.ubuntu.com/desktop/features та "
+"www.ubuntu.com/phone/features:::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4561,6 +4584,7 @@ msgid "Adding a specific subdomain"
 msgstr "Додавання піддомена"
 
 #: ../../appdev/webapp/guide.rst:94
+#, fuzzy
 msgid ""
 "Many URLs have one or more subdomains. (For example, in the following, "
 "\"developer\" is the subdomain: developer.ubuntu.com.) You can allow access "
@@ -4572,23 +4596,25 @@ msgstr ""
 "шаблоном:::"
 
 #: ../../appdev/webapp/guide.rst:98
+#, fuzzy
 msgid ""
 "However, one usually wants the user to be able to navigate back to the "
 "starting URL (and its subpages). So, if the starting URL is https://www."
 "ubuntu.com, a second pattern is needed:::"
 msgstr ""
 "Хоча, іноді потрібно, щоби користувач міг переходити назад до початкової "
-"адреси (та її сторінок). Тож, якщо початкова адреса це https://www.ubuntu."
-"com, потрібен додатковий шаблон:::"
+"адреси (та її сторінок). Тож, якщо початкова адреса це https://"
+"www.ubuntu.com, потрібен додатковий шаблон:::"
 
 #: ../../appdev/webapp/guide.rst:102
+#, fuzzy
 msgid ""
 "Putting these together, here’s an example that starts on https://www.ubuntu."
 "com and allows navigation to https://developer.ubuntu.com and subpages and "
 "back to https://www.ubuntu.com and subpages:::"
 msgstr ""
-"Якщо скласти все разом, отримаємо приклад, який починається з https://www."
-"ubuntu.com та дозволяє відвідувати https://developer.ubuntu.com та усі "
+"Якщо скласти все разом, отримаємо приклад, який починається з https://"
+"www.ubuntu.com та дозволяє відвідувати https://developer.ubuntu.com та усі "
 "сторінки сайту, і повертаємося до https://www.ubuntu.com з усім сторінками:::"
 
 #: ../../appdev/webapp/guide.rst:107
@@ -4596,13 +4622,14 @@ msgid "Adding subdomains with a wildcard"
 msgstr "Додавання піддоменів з маскою"
 
 #: ../../appdev/webapp/guide.rst:109
+#, fuzzy
 msgid ""
 "Some URLs have multiple subdomains. For example, www.ubuntu.com has design."
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
-"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є design."
-"ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
+"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є "
+"design.ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
 "піддоменів через маску замість назви піддомена:::"
 
 #: ../../appdev/webapp/guide.rst:113
@@ -4622,6 +4649,7 @@ msgid "Adding http"
 msgstr "Додавання http"
 
 #: ../../appdev/webapp/guide.rst:118
+#, fuzzy
 msgid ""
 "Sometimes a site uses http for some of its URLs. In general this is unsafe "
 "and should be avoided, but here is an example that allows access to www."
@@ -4654,18 +4682,19 @@ msgstr ""
 "запускати різні веб-додатки."
 
 #: ../../appdev/webapp/guide.rst:129
+#, fuzzy
 msgid "See all help with:::"
 msgstr "Уся довідка доступна з:::"
 
 #: ../../appdev/webapp/guide.rst:133
+#, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr ""
-"Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
+msgstr "Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
 
 #: ../../appdev/webapp/guide.rst:147
+#, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
-msgstr ""
-"Параметри Chrome (стандартно, якщо порожньо, Chrome не зображується):::"
+msgstr "Параметри Chrome (стандартно, якщо порожньо, Chrome не зображується):::"
 
 #: ../../appdev/webapp/guide.rst:152
 msgid ""
@@ -4692,6 +4721,7 @@ msgstr ""
 "необхідність змінити типові налаштування контейнера webapp."
 
 #: ../../appdev/webapp/guide.rst:159
+#, fuzzy
 msgid "To change the string from the command line, use the following option:::"
 msgstr ""
 "Для зміни цього параметру у командному рядку, використовуйте наступний "
@@ -4781,6 +4811,7 @@ msgstr ""
 "timsueberkrueb>`__."
 
 #: ../../appdev/webapp/index.rst:21
+#, fuzzy
 msgid ""
 "There is also another way to create somewhat more featureful webapps, "
 "sometimes referred to as webapp+ or alternative container. This needst to be "
@@ -4796,8 +4827,8 @@ msgstr ""
 "документування. Webapp+ є простим додатком qml та легко налаштовується. "
 "Створення таке просте, як і класичний контейнер webapp, але результат "
 "потужніший та з чудовими можливостями навігації. Доволі непоганий приклад "
-"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-"
-"salta>` __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
+"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-salta>`"
+" __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
 
 #: ../../appdev/webapp/index.rst:28
 msgid "Guide"
@@ -4862,6 +4893,7 @@ msgid "Watch the logs"
 msgstr "Перегляньте журнали"
 
 #: ../../appdev/webapp/webdebug.rst:11
+#, fuzzy
 msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
@@ -4903,6 +4935,7 @@ msgstr ""
 "Chrome."
 
 #: ../../appdev/webapp/webdebug.rst:26
+#, fuzzy
 msgid "On your phone, start the browser in inspector mode:::"
 msgstr "Запустіть браузер на своєму телефоні у режимі інспектора:::"
 
@@ -5183,6 +5216,7 @@ msgid "Assumptions"
 msgstr "Застереження"
 
 #: ../../contribute/code.rst:9
+#, fuzzy
 msgid ""
 "This page does not include information about how to develop applications or "
 "changes to Ubuntu Touch. To learn how to develop Ubuntu Touch components, "
@@ -8426,6 +8460,7 @@ msgid "You may view this documentation in the following languages:"
 msgstr ""
 
 #: ../../index.rst:18
+#, fuzzy
 msgid "`English <https://docs.ubports.com/en>`_"
 msgstr ""
 "`English <https://docs.ubports.com/en>`_\n"
