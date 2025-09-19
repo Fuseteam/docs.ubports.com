@@ -51,16 +51,16 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2025-08-07 23:02+0000\n"
-"Last-Translator: Alessandro Marigliano <alemarigliano22@proton.me>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/it/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -1450,6 +1450,7 @@ msgstr ""
 "``build_args``, che può essere simile a questo:"
 
 #: ../../appdev/guides/dependencies.rst:41
+#, fuzzy
 msgid ""
 "Most build arguments are project specific. Therefore, study the library's "
 "build instructions and also look for ``option`` settings in its ``CMakeLists."
@@ -1457,8 +1458,8 @@ msgid ""
 msgstr ""
 "La maggior parte degli argomenti di compilazione sono specifici del "
 "progetto. Per questo motivo, si devono studiare le istruzioni di "
-"compilazione della libreria e cercare anche le impostazioni delle "
-"``opzioni'' nel suo ``CMakeLists.txt''."
+"compilazione della libreria e cercare anche le impostazioni delle ``"
+"opzioni'' nel suo ``CMakeLists.txt''."
 
 #: ../../appdev/guides/dependencies.rst:43
 #, fuzzy
@@ -1774,6 +1775,7 @@ msgstr ""
 "json``) aprirà un determinato collegamento."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:61
+#, fuzzy
 msgid ""
 "Let’s see how our navigation app looks inside. uNav’s manifest shows special "
 "hooks for the ``URLdispatcher`` in its `manifest.json code <https://bazaar."
@@ -1807,6 +1809,7 @@ msgid "And how do we manage the received URL?"
 msgstr "E come gestiamo l'URL ricevuto?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:98
+#, fuzzy
 msgid ""
 "After the ``URLdispatcher`` sends the link to the correspondent app, we need "
 "to handle that URL or URI in the targeted app. Let’s see how to do that:"
@@ -2296,6 +2299,7 @@ msgstr ""
 "**pushexec** che inoltrerà la notifica senza modificare nulla:"
 
 #: ../../appdev/guides/pushnotifications.rst:115
+#, fuzzy
 msgid ""
 "We also need to add this new files to the **CMakeLists.txt** and make the "
 "pushexec executable::"
@@ -2870,6 +2874,7 @@ msgstr ""
 "include un contatore)"
 
 #: ../../appdev/guides/user-metrics.rst:82
+#, fuzzy
 msgid ""
 "We have now updated the metric for today. When the time rolls over to "
 "tomorrow, the metric will be reset to whatever is in ``emptyFormat``."
@@ -3824,6 +3829,7 @@ msgstr ""
 "descrizione, l'autore, l'obiettivo sdk del framework e la versione."
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
 msgstr "Esempio di file `manifest.json`` ::"
 
@@ -3832,6 +3838,7 @@ msgid "AppArmor profile policy file"
 msgstr "File della politica (policy) del profilo AppArmor"
 
 #: ../../appdev/platform/click.rst:29
+#, fuzzy
 msgid ""
 "Contains which policy the app needs to work properly. See `Security and app "
 "isolation`_ below for more information on this file."
@@ -3853,6 +3860,7 @@ msgstr ""
 "visualizzare nella schermata iniziale e alcune altre proprietà."
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
 msgstr "Esempio di ``app.desktop``::"
 
@@ -3923,6 +3931,7 @@ msgstr ""
 "corretta con un file apparmor ``.json``."
 
 #: ../../appdev/platform/click.rst:64
+#, fuzzy
 msgid "Example ``apparmor.json`` file::"
 msgstr "Esempio ``apparmor.json`` file::"
 
@@ -4047,10 +4056,12 @@ msgid "Launching"
 msgstr "Lancio"
 
 #: ../../appdev/webapp/guide.rst:17
+#, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
 msgstr "Ė possibile eseguire una webapp dal terminale con:::"
 
 #: ../../appdev/webapp/guide.rst:21
+#, fuzzy
 msgid "For example:::"
 msgstr "Per esempio:::"
 
@@ -4089,6 +4100,7 @@ msgstr ""
 "come argomenti della riga di comando:"
 
 #: ../../appdev/webapp/guide.rst:34
+#, fuzzy
 msgid ""
 "``--enable-back-forward`` Enable the display of the back and forward buttons "
 "in the toolbar (at the bottom of the webapp window)"
@@ -4098,6 +4110,7 @@ msgstr ""
 "inferiore della finestra webapp)"
 
 #: ../../appdev/webapp/guide.rst:35
+#, fuzzy
 msgid ""
 "``--enable-addressbar`` Enable the display of the address bar (at the bottom "
 "of the webapp window)"
@@ -4145,6 +4158,7 @@ msgid "Uncontained by default"
 msgstr "Vuoto per default"
 
 #: ../../appdev/webapp/guide.rst:49
+#, fuzzy
 msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
@@ -4175,6 +4189,7 @@ msgid "Simple containment to the site"
 msgstr "Semplice contenuto al sito"
 
 #: ../../appdev/webapp/guide.rst:60
+#, fuzzy
 msgid ""
 "One often wants to contain users to the site itself. That is, if the website "
 "is www.ubuntu.com, it may be useful to contain webapp users only to subpages "
@@ -4234,6 +4249,7 @@ msgid "More complex wildcard patterns"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:76
+#, fuzzy
 msgid ""
 "You might want to limit access to only some subpages of your site from "
 "within the webapp. This is easy with wildcard patterns. (Links to other "
@@ -4245,22 +4261,23 @@ msgstr ""
 "del tuo sito. Questo è facile con i caratteri jolly. (I collegamenti ad "
 "altre pagine secondarie sono aperti nel browser.) Ad esempio, quanto segue "
 "consente l'accesso a www.ubuntu.com/desktop/features e www.ubuntu.com/phone/"
-"features pur non consentendo l'accesso a www.ubuntu.com/ desktop o www."
-"ubuntu.com/phone ::"
+"features pur non consentendo l'accesso a www.ubuntu.com/ desktop o "
+"www.ubuntu.com/phone ::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
 msgstr "Modelli multipli"
 
 #: ../../appdev/webapp/guide.rst:84
+#, fuzzy
 msgid ""
 "You can use multiple patterns by separating them with a comma. For example, "
 "the following allows access only to www.ubuntu.com/desktop/features and www."
 "ubuntu.com/phone/features:::"
 msgstr ""
 "Puoi utilizzare modelli multipli separandoli con una virgola. Ad esempio, "
-"quanto segue consente l'accesso solo a www.ubuntu.com/desktop/features e www."
-"ubuntu.com/phone/features :::"
+"quanto segue consente l'accesso solo a www.ubuntu.com/desktop/features e "
+"www.ubuntu.com/phone/features :::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4313,14 +4330,16 @@ msgid "Adding subdomains with a wildcard"
 msgstr "Aggiunta di sottodomini con un carattere jolly"
 
 #: ../../appdev/webapp/guide.rst:109
+#, fuzzy
 msgid ""
 "Some URLs have multiple subdomains. For example, www.ubuntu.com has design."
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
-"Alcuni URL hanno più sottodomini. Ad esempio, www.ubuntu.com ha design."
-"ubuntu.com, developer.ubuntu.com e altro ancora. Puoi aggiungere l'accesso a "
-"tutti i sottodomini con un jolly nella posizione del sottodominio :::"
+"Alcuni URL hanno più sottodomini. Ad esempio, www.ubuntu.com ha "
+"design.ubuntu.com, developer.ubuntu.com e altro ancora. Puoi aggiungere "
+"l'accesso a tutti i sottodomini con un jolly nella posizione del "
+"sottodominio :::"
 
 #: ../../appdev/webapp/guide.rst:113
 #, fuzzy
@@ -4375,14 +4394,17 @@ msgstr ""
 "ospita varie applicazioni web."
 
 #: ../../appdev/webapp/guide.rst:129
+#, fuzzy
 msgid "See all help with:::"
 msgstr "Vedi l'aiuto con :::"
 
 #: ../../appdev/webapp/guide.rst:133
+#, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
 msgstr "Nota: solo le seguenti opzioni si applicano ad Ubuntu convergente. ::"
 
 #: ../../appdev/webapp/guide.rst:147
+#, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
 msgstr ""
 "Opzioni chrome (se nessuna specificata, non viene mostrato chrome di "
@@ -4413,6 +4435,7 @@ msgstr ""
 "necessario modificare la stringa predefinita inviata dal contenitore webapp."
 
 #: ../../appdev/webapp/guide.rst:159
+#, fuzzy
 msgid "To change the string from the command line, use the following option:::"
 msgstr ""
 "Per cambiare la stringa dalla riga di comando, utilizzare la seguente "
@@ -4579,6 +4602,7 @@ msgid "Watch the logs"
 msgstr "Guardare i file di log"
 
 #: ../../appdev/webapp/webdebug.rst:11
+#, fuzzy
 msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
@@ -4614,6 +4638,7 @@ msgstr ""
 "modalità speciale, avrai accesso al debug in stile Chrome."
 
 #: ../../appdev/webapp/webdebug.rst:26
+#, fuzzy
 msgid "On your phone, start the browser in inspector mode:::"
 msgstr "Sul tuo smartphone, avvia il browser in modalità inspector:::"
 
@@ -5526,6 +5551,7 @@ msgid "Documentation"
 msgstr "TODOs della documentazione"
 
 #: ../../contribute/documentation.rst:5
+#, fuzzy
 msgid ""
 "Documentation on this site is written in ReStructuredText, or RST for short. "
 "Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/rest."
@@ -5572,6 +5598,7 @@ msgstr ""
 "nell'indice (a sinistra) in cima alla pagina."
 
 #: ../../contribute/documentation.rst:19
+#, fuzzy
 msgid ""
 "Titles should be \"sentence cased\" rather than \"Title Cased\". For "
 "example::"
@@ -5788,6 +5815,7 @@ msgstr ""
 "redirect."
 
 #: ../../contribute/documentation.rst:120
+#, fuzzy
 msgid ""
 "You are moving ``systemdev/calendars.rst`` to ``appdev/calendars.rst``. Add "
 "the following to the ``redirects.txt`` file::"
@@ -5796,6 +5824,7 @@ msgstr ""
 "Aggiungi quanto segue al file ``redirects.txt``::"
 
 #: ../../contribute/documentation.rst:124
+#, fuzzy
 msgid ""
 "You are moving ``appdev/clickable.rst`` into several pages in ``appdev/"
 "clickable/`` to give significantly more information about the tool than "
@@ -5806,10 +5835,10 @@ msgid ""
 msgstr ""
 "Stai muovendo ``appdev/clickable.rst`` in diverse pagine in ``appdev/"
 "clickable/`` per dare significativamente più informazioni sullo strumento di "
-"quanto non ci fosse in precedenza. Hai creato una pagina di introduzione, "
-"``appdev/clickable/introduction.rst``. In questo caso, sarebbe una buona "
-"idea reindirizzare la vecchia pagina alla nuova pagina di introduzione. "
-"Questo può essere fatto aggiungendo il seguente a ``redirects.txt``::"
+"quanto non ci fosse in precedenza. Hai creato una pagina di introduzione, ``"
+"appdev/clickable/introduction.rst``. In questo caso, sarebbe una buona idea "
+"reindirizzare la vecchia pagina alla nuova pagina di introduzione. Questo "
+"può essere fatto aggiungendo il seguente a ``redirects.txt``::"
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
@@ -6123,6 +6152,7 @@ msgstr ""
 "Se sai come risolverne uno, mandaci una PR per farlo come si deve!"
 
 #: ../../contribute/documentation.rst:204
+#, fuzzy
 msgid "To create a todo, add this markup to your page::"
 msgstr ""
 "Per creare un todo, aggiungi questo marcatore (markup) alla tua pagina::"
@@ -6370,6 +6400,7 @@ msgid "UBports Welcome"
 msgstr "Benvenuti a UBports"
 
 #: ../../contribute/preinstalled-apps.rst:34
+#, fuzzy
 msgid "`UBports Welcome on OpenStore`_"
 msgstr "` Benvenuti a UBports on OpenStore`_"
 
@@ -6485,6 +6516,7 @@ msgid "Smoke testing"
 msgstr "Beta test"
 
 #: ../../contribute/quality-assurance.rst:9
+#, fuzzy
 msgid ""
 "To test the core functionality of the operating system, we have compiled `a "
 "set of standardized tests <https://gitlab.com/ubports/teams/qa/project-"
@@ -6526,17 +6558,19 @@ msgstr ""
 "numero di costruzione e se sei stato in grado di riprodurre il problema."
 
 #: ../../contribute/quality-assurance.rst:16
+#, fuzzy
 msgid ""
 "If you have write-access to the repository, you can replace the **needs "
 "confirmation** label with **bug** (to mark it confirmed) or **invalid** (if "
 "the issue is definitely not reproducible). In that case it should be closed."
 msgstr ""
 "Qualora avessi un accesso in scrittura nel repository, potresti sostituire "
-"l'etichetta **needs confirmation** (**in attesa di conferma**) con **bug** "
-"(per marchiarlo confermato) oppure **invalid** (se il problema non fosse "
+"l'etichetta **needs confirmation** (**in attesa di conferma**) con **bug** ("
+"per marchiarlo confermato) oppure **invalid** (se il problema non fosse "
 "riproducibile). In questo caso dovrebbe essere chiuso."
 
 #: ../../contribute/quality-assurance.rst:18
+#, fuzzy
 msgid ""
 "If you find two issues describing the same problem, leave a comment and try "
 "to find their differences. If they are in fact identical, close the newer "
@@ -6606,6 +6640,7 @@ msgstr ""
 "conferma del bugreport."
 
 #: ../../contribute/quality-assurance.rst:32
+#, fuzzy
 msgid ""
 "If the new issue has already been reported elsewhere, label it **duplicate** "
 "and close it."
@@ -7771,6 +7806,7 @@ msgstr ""
 "o nelle icone dell'applicazione, ad esempio nell'intestazione o nei menu."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:9
+#, fuzzy
 msgid ""
 "|stock_message.svg| |share.svg| |stock_alarm-clock.svg| |security-alert.svg| "
 "|settings.svg|"
@@ -8829,6 +8865,7 @@ msgstr ""
 "sulla convergenza."
 
 #: ../../index.rst:10
+#, fuzzy
 msgid ""
 "On this website you find guides to :doc:`install Ubuntu Touch on your mobile "
 "phone <userguide/install>`, :doc:`use Ubuntu Touch <userguide/dailyuse/"
@@ -8838,11 +8875,11 @@ msgid ""
 "here, please consider reading our :doc:`introduction <about/introduction>`."
 msgstr ""
 "In questo sito web si trovano guide per :doc:`installare Ubuntu Touch sul "
-"telefono cellulare <userguide/install>`, :doc:`utilizzare Ubuntu Touch "
-"<userguide/dailyuse/index>`, :doc:`sviluppare applicazioni Ubuntu Touch "
-"<appdev/index>`, :doc:`portare Ubuntu Touch su un telefono Android <porting/"
-"introduction/index>` e :doc:`apprendere di più sui componenti del sistema "
-"<systemdev/index>`. Se è la prima volta che venite qui, vi invitiamo a "
+"telefono cellulare <userguide/install>`, :doc:`utilizzare Ubuntu Touch <"
+"userguide/dailyuse/index>`, :doc:`sviluppare applicazioni Ubuntu Touch <"
+"appdev/index>`, :doc:`portare Ubuntu Touch su un telefono Android <porting/"
+"introduction/index>` e :doc:`apprendere di più sui componenti del sistema <"
+"systemdev/index>`. Se è la prima volta che venite qui, vi invitiamo a "
 "leggere la nostra :doc:`introduzione <about/introduzione>`."
 
 #: ../../index.rst:12
@@ -11742,6 +11779,7 @@ msgid "Display scaling"
 msgstr "Ridimensionamento del display"
 
 #: ../../porting/configure_test_fix/Display.rst:34
+#, fuzzy
 msgid ""
 "``GRID_UNIT_PX`` (Pixels per Grid Unit or Px/GU) is specific to each device. "
 "Its goal is to make the user interface of the system and its applications "
@@ -11763,6 +11801,7 @@ msgstr ""
 "distanza a cui i telefoni tendono ad essere tenuti."
 
 #: ../../porting/configure_test_fix/Display.rst:36
+#, fuzzy
 msgid ""
 "``QTWEBKIT_DPR`` sets the display scaling for the Oxide web engine, so "
 "changes to this value will affect the scale of the browser and webapps."
@@ -12003,6 +12042,7 @@ msgid "Native orientation"
 msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:65
+#, fuzzy
 msgid ""
 "``NATIVE_ORIENTATION`` sets the display orientation for the device's built-"
 "in screen. This value is used whenever autorotation isn't working correctly "
@@ -14300,6 +14340,7 @@ msgid "Calendar data synchronisation issues"
 msgstr "Problemi di sincronizzazione dei dati del calendario"
 
 #: ../../systemdev/calendars.rst:33
+#, fuzzy
 msgid ""
 "Follow these steps one you are confident that a synchronisation of your "
 "account is at least attempted, and want to investigate a synchronisation "
@@ -14334,6 +14375,7 @@ msgstr ""
 "appariranno nel terminale."
 
 #: ../../systemdev/calendars.rst:47
+#, fuzzy
 msgid ""
 "In some cases, the output from ``syncevolution`` might not be enough: for "
 "example, the raw HTTP data is usually not printed. Should you need to see "
@@ -14517,6 +14559,7 @@ msgstr ""
 "Un problema relativo al processo di aggiornamento dell'immagine del sistema"
 
 #: ../../systemdev/kernel-hal.rst:10
+#, fuzzy
 msgid ""
 "This document is not useful if you would like to modify :doc:`../contribute/"
 "preinstalled-apps` or :doc:`System software <../systemdev/index>`. See the "
@@ -14645,6 +14688,7 @@ msgid "Nexus 7 2013 GSM (deb)"
 msgstr "Nexus 7 2013 GSM (deb)"
 
 #: ../../systemdev/kernel-hal.rst:51
+#, fuzzy
 msgid ""
 "Detailed steps for the three CI enabled devices can be found under  :doc:"
 "`HAL for Nexus 5, OnePlus One, and Fairphone 2 <ubp-5.1>`."
@@ -14675,12 +14719,14 @@ msgid "Document the process for Nexus 4 (mako)"
 msgstr "Documentare il processo per Nexus 4 (mako)"
 
 #: ../../systemdev/kernel-hal.rst:66
+#, fuzzy
 msgid ""
 "Newer ports to Android devices are based on `Halium <https://docs.halium."
 "org>`_. In some aspects Halium is similar to the 5.1 based ports:"
 msgstr ""
-"I trasporti più recenti ai dispositivi Android si basano su `Halium <https://"
-"docs.halium.org`_. In alcuni aspetti Halium è simile ai trasporti basati 5.1:"
+"I trasporti più recenti ai dispositivi Android si basano su `Halium "
+"<https://docs.halium.org`_. In alcuni aspetti Halium è simile ai trasporti "
+"basati 5.1:"
 
 #: ../../systemdev/kernel-hal.rst:68
 msgid ""
@@ -14721,14 +14767,15 @@ msgstr ""
 "Linux."
 
 #: ../../systemdev/kernel-hal.rst:75
+#, fuzzy
 msgid ""
 "All new ports of UT to Android devices should follow the Halium process. "
 "Further details can be found under :doc:`Halium porting <../porting/"
 "introduction/index>`"
 msgstr ""
 "Tutti i nuovi trasporti di UT a dispositivi Android dovrebbero seguire il "
-"processo Halium. Ulteriori dettagli possono essere trovati sotto:doc: "
-"`Halium porting <../porting/introduction/index>`"
+"processo Halium. Ulteriori dettagli possono essere trovati sotto:doc: `"
+"Halium porting <../porting/introduction/index>`"
 
 #: ../../systemdev/kernel-hal.rst:78
 msgid "Linux based ports"
@@ -14792,6 +14839,7 @@ msgid "Recovery"
 msgstr "Recupero (recovery)"
 
 #: ../../systemdev/kernel-pinephone.rst:9
+#, fuzzy
 msgid ""
 "The Ubuntu Touch image contains a `recovery <https://github.com/ubports/"
 "jumpdrive>`_ boot mode based on \"jumpdrive\". To get into the recovery "
@@ -14803,6 +14851,7 @@ msgstr ""
 "il led si accende."
 
 #: ../../systemdev/kernel-pinephone.rst:11
+#, fuzzy
 msgid ""
 "The recovery presents the PinePhone as a network device over USB and runs a "
 "telnet server. When you connect the PinePhone to your desktop via USB, you "
@@ -14818,6 +14867,7 @@ msgstr ""
 "È possibile accedere al sistema di recupero con ``telnet 172.16.42.1``."
 
 #: ../../systemdev/kernel-pinephone.rst:21
+#, fuzzy
 msgid ""
 "The recovery also exposes the eMMC and the microSD card over USB. Assuming "
 "you have already installed Ubuntu Touch on your microSD card you will see "
@@ -14855,6 +14905,7 @@ msgid "Building the kernel"
 msgstr "Costruire il kernel"
 
 #: ../../systemdev/kernel-pinephone.rst:42
+#, fuzzy
 msgid ""
 "To install dependencies, get the `source code <https://gitlab.com/pine64-org/"
 "linux/-/tree/pine64-kernel-ubports>`_, configure and build the kernel, run "
@@ -14869,6 +14920,7 @@ msgid "Install the kernel"
 msgstr "Installare il kernel"
 
 #: ../../systemdev/kernel-pinephone.rst:53
+#, fuzzy
 msgid ""
 "Boot into recovery and mount boot_a. Make a backup if needed. Then copy over "
 "your newly built kernel and if needed modules::"
@@ -14889,6 +14941,7 @@ msgstr ""
 "data di compilazione con ``uname -a`` sul dispositivo."
 
 #: ../../systemdev/kernel-pinephone.rst:66
+#, fuzzy
 msgid ""
 "`Pine64 wiki <https://wiki.pine64.org/index.php/PinePhone>`_ has general HW "
 "info, pointers to other PinePhone OS projects, HW revisions, serial UART "
@@ -16435,10 +16488,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "Per prima cosa avrai bisogno di installare ADB  sul tuo computer."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "Su Ubuntu::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "Su Fedora::"
 
@@ -16539,6 +16594,7 @@ msgid "ADB shell commands::"
 msgstr "Comandi Adb da shell::"
 
 #: ../../userguide/advanceduse/adb.rst:64
+#, fuzzy
 msgid "Additional Adb commands::"
 msgstr "Comandi Adb addizionali::"
 
@@ -16575,6 +16631,7 @@ msgstr ""
 "che inizialmente stavi cercando  di eseguire."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
@@ -17069,6 +17126,7 @@ msgid ""
 msgstr ""
 
 #: ../../userguide/advanceduse/screencasting.rst:71
+#, fuzzy
 msgid "You can download it here: :download:`files/mircast.sh`"
 msgstr "Puoi scaricarlo qui:: download: `files / mircast.sh`"
 
@@ -17186,6 +17244,7 @@ msgid "Connect"
 msgstr "Connettere"
 
 #: ../../userguide/advanceduse/ssh.rst:46
+#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
 msgstr "Ora tutto è pronto per usare `` ssh`` ::"
 
@@ -17217,6 +17276,7 @@ msgid "In this case you use the second IP address"
 msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:71
+#, fuzzy
 msgid "Of course you can now also use ``scp`` or ``sshfs`` to transfer files."
 msgstr ""
 "Ovviamente ora puoi anche usare `` scp`` o `` sshfs`` per trasferire i file."
@@ -17346,6 +17406,7 @@ msgid "Create a container"
 msgstr "Creare un contenitore"
 
 #: ../../userguide/dailyuse/libertine.rst:22
+#, fuzzy
 msgid ""
 "The first step is to create a container where applications can be installed:"
 msgstr ""
@@ -17353,6 +17414,7 @@ msgstr ""
 "applicazioni::"
 
 #: ../../userguide/dailyuse/libertine.rst:24
+#, fuzzy
 msgid ""
 "Open Settings and scroll down to *Libertine* under the *System* sub-heading."
 msgstr ""
@@ -17599,6 +17661,7 @@ msgstr ""
 "`` e"
 
 #: ../../userguide/dailyuse/libertine.rst:130
+#, fuzzy
 msgid ""
 "a user directory ``~/.local/share/libertine-container/user-data/CONTAINER-"
 "IDENTIFIER/``"
@@ -17642,6 +17705,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:143
 #: ../../userguide/dailyuse/libertine.rst:159
+#, fuzzy
 msgid "To execute a command you can use the following pattern::"
 msgstr "Per eseguire un comando è possibile utilizzare il seguente schema::"
 
@@ -17969,10 +18033,11 @@ msgid "Quick settings"
 msgstr "Impostazioni rapide"
 
 #: ../../userguide/dailyuse/location.rst:59
+#, fuzzy
 msgid "`Open location quick settings`_, then select ``Location settings...``."
 msgstr ""
-"Aprire le impostazioni rapide di localizzazione`_, quindi selezionare "
-"``Impostazioni di localizzazione...``."
+"Aprire le impostazioni rapide di localizzazione`_, quindi selezionare ``"
+"Impostazioni di localizzazione...``."
 
 #: ../../userguide/dailyuse/location.rst:62
 #: ../../userguide/dailyuse/location.rst:84
@@ -18070,6 +18135,7 @@ msgstr ""
 "che tenta di accedere alla tua posizione corrente."
 
 #: ../../userguide/dailyuse/location.rst:104
+#, fuzzy
 msgid ""
 "Select ``Allow`` to give the app access to your current location. Select "
 "``Don't Allow`` to deny the app access to your current location. Some app "
@@ -18533,6 +18599,7 @@ msgstr ""
 "data/media/0``."
 
 #: ../../userguide/dailyuse/waydroid.rst:68
+#, fuzzy
 msgid ""
 "Links to android libraries can be made in their respective XDG counterparts::"
 msgstr ""
@@ -18587,6 +18654,7 @@ msgid "Install Ubuntu Touch"
 msgstr "Installare Ubuntu Touch"
 
 #: ../../userguide/install.rst:4
+#, fuzzy
 msgid ""
 "Installing Ubuntu Touch is easy, and a lot of work has gone in to making the "
 "installation process less intimidating to the average user. The UBports "
