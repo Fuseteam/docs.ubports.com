@@ -3,38 +3,21 @@
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2021-05-21 08:58+0000\n"
-"Last-Translator: Davidrebolomaga <davidre345@hotmail.com>\n"
-"Language-Team: Galician <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-userguide/gl/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  appdev.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  contribute.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  index.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  porting.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  userguide.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -1031,23 +1014,25 @@ msgid "QtCreator"
 msgstr "QtCreator"
 
 #: ../../appdev/code-editor.rst:6
+#, fuzzy
 msgid ""
 "Available on top of clickable docker image, ``clickable ide qtcreator`` "
 "command within your project directory will launch a QtCreator instance and "
 "auto setup the project for you, you will have code completion and navigation "
 "for Ubuntu Touch components as well as run/debug facilities."
 msgstr ""
-"Dispoñible na imaxe de docker que se pode facer clic, o comando \"clicable "
-"ide qtcreator\" no seu directorio do proxecto iniciará unha instancia de "
-"QtCreator e configurará automaticamente o proxecto para ti, terá "
-"completación de código e navegación para os compoñentes de Ubuntu Touch, así "
-"como instalacións de execución / depuración."
+"Dispoñible na imaxe de docker que se pode facer clic, o comando "
+"\"clicable ide qtcreator\" no seu directorio do proxecto iniciará unha "
+"instancia de QtCreator e configurará automaticamente o proxecto para ti, "
+"terá completación de código e navegación para os compoñentes de Ubuntu "
+"Touch, así como instalacións de execución / depuración."
 
 #: ../../appdev/code-editor.rst:8
 msgid "Ubuntu SDK ( Unmaintained )"
 msgstr "SDK de Ubuntu (sen manter)"
 
 #: ../../appdev/code-editor.rst:10
+#, fuzzy
 msgid ""
 "Alternatively there is the old `Ubuntu SDK IDE <https://docs.ubuntu.com/"
 "phone/en/platform/sdk>`__. Be aware that it is no longer supported by "
@@ -1085,6 +1070,7 @@ msgid ""
 msgstr ""
 
 #: ../../appdev/external-docs.rst:8
+#, fuzzy
 msgid "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
 msgstr "`API QML <https://api-docs.ubports.com/sdk/apps/qml/index.html>` __"
 
@@ -1096,12 +1082,13 @@ msgstr ""
 "html>` __"
 
 #: ../../appdev/external-docs.rst:10
+#, fuzzy
 msgid ""
 "`Cordova HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/index."
 "html>`__"
 msgstr ""
-"`API HTML5 de Córdoba <https://api-docs.ubports.com/sdk/apps/html5/index."
-"html>` __"
+"`API HTML5 de Córdoba <https://api-docs.ubports.com/sdk/apps/html5/"
+"index.html>` __"
 
 #: ../../appdev/external-docs.rst:12
 msgid ""
@@ -1123,16 +1110,18 @@ msgstr ""
 "requisito para o teu aplicativo, podes consultar estas API:"
 
 #: ../../appdev/external-docs.rst:21
+#, fuzzy
 msgid "`Kirigami API <https://api.kde.org/frameworks/kirigami/html/>`__"
 msgstr "`API Kirigami <https://api.kde.org/frameworks/kirigami/html/>` __"
 
 #: ../../appdev/external-docs.rst:22
+#, fuzzy
 msgid ""
 "`Qt Quick Controls 2 API <https://doc.qt.io/qt-5/qtquickcontrols-index."
 "html>`__"
 msgstr ""
-"`API Qt Quick Controls 2 <https://doc.qt.io/qt-5/qtquickcontrols-index."
-"html>` __"
+"`API Qt Quick Controls 2 <https://doc.qt.io/qt-5/qtquickcontrols-index.html>`"
+" __"
 
 #: ../../appdev/guides/contenthub.rst:4
 msgid "The content hub - tips and tricks"
@@ -1167,6 +1156,7 @@ msgstr ""
 "_, hai varias formas de tratar o ficheiro a compartir:"
 
 #: ../../appdev/guides/contenthub.rst:18
+#, fuzzy
 msgid ""
 "``ContentHandler.Source`` (The selected app will provide a file to be "
 "imported)"
@@ -1175,6 +1165,7 @@ msgstr ""
 "ficheiro para importar)"
 
 #: ../../appdev/guides/contenthub.rst:19
+#, fuzzy
 msgid ""
 "``ContentHandler.Destination`` (The selected app will be the destination for "
 "the exported file)"
@@ -1183,6 +1174,7 @@ msgstr ""
 "ficheiro exportado)"
 
 #: ../../appdev/guides/contenthub.rst:20
+#, fuzzy
 msgid ""
 "``ContentHandler.Share`` (The selected app will be the destination for the "
 "exported file, which will then be shared externally)"
@@ -1199,6 +1191,7 @@ msgid "Webapp Creator on the OpenStore"
 msgstr "Creador de Webapp no OpenStore"
 
 #: ../../appdev/guides/contenthub.rst:35
+#, fuzzy
 msgid ""
 "Looking into the code of Webapp Creator, we’ll find the code to import an "
 "image to be used as icon. Tapping on the place holder will open the Content "
@@ -1213,10 +1206,12 @@ msgstr ""
 "blob/master/webapp- creator / app / ImportPage.qml # L38> `_)"
 
 #: ../../appdev/guides/contenthub.rst:46
+#, fuzzy
 msgid "``ContentPeerPicker`` is the element that shows the apps."
 msgstr "\"ContentPeerPicker\" é o elemento que mostra os aplicativos."
 
 #: ../../appdev/guides/contenthub.rst:52
+#, fuzzy
 msgid ""
 "``contentType`` is passed in `Main.qml <https://gitlab.com/cibersheep/webapp-"
 "creator/blob/master/webapp-creator/app/Main.qml#L118>`_ as ContentType."
@@ -1224,11 +1219,12 @@ msgid ""
 "``handler`` is passed in the same line as ContentHandler.Source. As we want "
 "to import an image from the app selected in the Content Hub."
 msgstr ""
-"\"ContentType\" pasa en \"Main.qml <https://gitlab.com/cibersheep/webapp-"
-"creator/blob/master/webapp-creator/app/Main.qml#L118>\" _ como ContentType."
-"Pictures. Entón, só veremos aplicativos das que só podemos importar imaxes. "
-"\"manipulador\" pasa na mesma liña que ContentHandler.Source. Como queremos "
-"importar unha imaxe do aplicativo seleccionado no Content Hub."
+"\"ContentType\" pasa en \"Main.qml <https://gitlab.com/cibersheep/"
+"webapp-creator/blob/master/webapp-creator/app/Main.qml#L118>\" _ como "
+"ContentType.Pictures. Entón, só veremos aplicativos das que só podemos "
+"importar imaxes. \"manipulador\" pasa na mesma liña que "
+"ContentHandler.Source. Como queremos importar unha imaxe do aplicativo "
+"seleccionado no Content Hub."
 
 #: ../../appdev/guides/contenthub.rst:55
 msgid "Exporting"
@@ -1249,6 +1245,7 @@ msgstr ""
 "noso computador)."
 
 #: ../../appdev/guides/contenthub.rst:66
+#, fuzzy
 msgid ""
 "Tapping on the download icon we will get a Content Hub to *save* the game "
 "file (which is actually an export)."
@@ -1257,6 +1254,7 @@ msgstr ""
 "ficheiro do xogo (que en realidade é unha exportación)."
 
 #: ../../appdev/guides/contenthub.rst:68
+#, fuzzy
 msgid ""
 "The game file is a file of type ``glksave``. We will tell Content Hub that "
 "we are sending a file of type ``All`` (`see the Install Page code <https://"
@@ -1268,6 +1266,7 @@ msgstr ""
 "master/app/InstallPage.qml#L38> `_)."
 
 #: ../../appdev/guides/contenthub.rst:81
+#, fuzzy
 msgid ""
 "``contentType`` is ``ContentType.All``, so we will only see apps which are "
 "able to receive unmarked file types. ``handler`` is ``ContentHandler."
@@ -1291,6 +1290,7 @@ msgid "Sharing"
 msgstr "Compartindo"
 
 #: ../../appdev/guides/contenthub.rst:88
+#, fuzzy
 msgid ""
 "Similarly, tapping on the share icon will allow us to send the saved game "
 "through Telegram to ourselves (`see the Webapp Creator Import Page source "
@@ -1301,13 +1301,14 @@ msgid ""
 msgstr ""
 "Do mesmo xeito, tocar a icona de compartir permitiranos enviar o xogo "
 "gardado a través de Telegram a nós mesmos (\"vexa o código fonte da páxina "
-"de importación do creador de Webapp <https://gitlab.com/cibersheep/webapp-"
-"creator/blob/master/webapp- creator / app / ImportPage.qml # L38> `_). O uso "
-"compartido é similar ao da exportación, excepto que a aplicación de destino "
-"poida compartir o contido externamente (por exemplo, mediante Telegram ou "
-"mensaxe de texto)."
+"de importación do creador de Webapp <https://gitlab.com/cibersheep/"
+"webapp-creator/blob/master/webapp- creator / app / ImportPage.qml # L38> `_)"
+". O uso compartido é similar ao da exportación, excepto que a aplicación de "
+"destino poida compartir o contido externamente (por exemplo, mediante "
+"Telegram ou mensaxe de texto)."
 
 #: ../../appdev/guides/contenthub.rst:101
+#, fuzzy
 msgid ""
 "The only difference between this and the previous code is that ``handler`` "
 "is ``ContentHandler.Share``."
@@ -1337,6 +1338,7 @@ msgid "Let’s check its manifest.json"
 msgstr "Comprobemos o seu manifest.json"
 
 #: ../../appdev/guides/contenthub.rst:126
+#, fuzzy
 msgid ""
 "The above code defines that the hooks for the app named ``\"openstore\"`` in "
 "relation to the ``\"content-hub\"`` should follow the rules defined in "
@@ -1347,16 +1349,19 @@ msgstr ""
 "definidas en `` openstore-contenthub.json``"
 
 #: ../../appdev/guides/contenthub.rst:136
+#, fuzzy
 msgid ""
 "This means, the OpenStore will be the destination for *all* ``ContentTypes``."
 msgstr ""
 "Isto significa que o OpenStore será o destino de * todos * \"ContentTypes\"."
 
 #: ../../appdev/guides/contenthub.rst:138
+#, fuzzy
 msgid "What about uMatriks? Let’s see its ``content-hub.json``"
 msgstr "Que pasa con uMatriks? Vexamos o seu \"content-hub.json\""
 
 #: ../../appdev/guides/contenthub.rst:166
+#, fuzzy
 msgid ""
 "So, with this example, uMatriks will be able to be the destination, source "
 "and share app for all kinds of ``ContentType``. What about the other hooks "
@@ -1403,6 +1408,7 @@ msgid "Compilation"
 msgstr "Ubicación"
 
 #: ../../appdev/guides/dependencies.rst:12
+#, fuzzy
 msgid ""
 "Put the library's source code at ``libs/LIBNAME`` (replacing ``LIBNAME`` by "
 "the library's name), because this is where clickable will look for it by "
@@ -1435,6 +1441,7 @@ msgstr ""
 "constructor `qmake` ou` personalizado`."
 
 #: ../../appdev/guides/dependencies.rst:26
+#, fuzzy
 msgid ""
 "Optionally, configure the compilation by adding ``build_args``, which may "
 "look like this:"
@@ -1443,6 +1450,7 @@ msgstr ""
 "ter este aspecto:"
 
 #: ../../appdev/guides/dependencies.rst:41
+#, fuzzy
 msgid ""
 "Most build arguments are project specific. Therefore, study the library's "
 "build instructions and also look for ``option`` settings in its ``CMakeLists."
@@ -1487,6 +1495,7 @@ msgstr ""
 "paso."
 
 #: ../../appdev/guides/dependencies.rst:51
+#, fuzzy
 msgid ""
 "A pre-built library is usually only available as a shared object that needs "
 "to be linked dynamically. Furthermore, it may contain components that you "
@@ -1514,6 +1523,7 @@ msgstr ""
 "lista de dependencias, así:"
 
 #: ../../appdev/guides/dependencies.rst:62
+#, fuzzy
 msgid ""
 "Clickable will install the specified package automatically for the target "
 "architecture inside the build container. An example can be found in `Guitar "
@@ -1554,6 +1564,7 @@ msgstr ""
 "aplicativo."
 
 #: ../../appdev/guides/dependencies.rst:81
+#, fuzzy
 msgid ""
 "In case the library contains a CMake configuration file, you can use the "
 "`find_package <https://cmake.org/cmake/help/latest/command/find_package."
@@ -1568,6 +1579,7 @@ msgstr ""
 "liñas adicionais do CMakeLists.txt poden parecer:"
 
 #: ../../appdev/guides/dependencies.rst:90
+#, fuzzy
 msgid ""
 "The ``find_package`` command usually defines the path to the include "
 "directory as ``SOMELIBRARY_INCLUDE_DIRS`` and the library's binaries as "
@@ -1588,6 +1600,7 @@ msgstr ""
 "do mundo real."
 
 #: ../../appdev/guides/dependencies.rst:92
+#, fuzzy
 msgid ""
 "At this point you should already be able to test with Clickable's desktop "
 "mode running ``clickable desktop``."
@@ -1608,6 +1621,7 @@ msgstr ""
 "binario da biblioteca xa está dentro do binario do teu aplicativo."
 
 #: ../../appdev/guides/dependencies.rst:98
+#, fuzzy
 msgid ""
 "Find out which shared object files (``*.so``) you need to ship. You can do "
 "so by starting the app on your device via ``clickable && clickable logs``. "
@@ -1620,6 +1634,7 @@ msgstr ""
 "que lle indicaba o ficheiro de obxecto compartido que faltaba."
 
 #: ../../appdev/guides/dependencies.rst:100
+#, fuzzy
 msgid ""
 "Find the path to the shared object files. For libraries built via clickable, "
 "they are located somewhere in the library's install dir, which is located "
@@ -1633,13 +1648,13 @@ msgstr ""
 "Busque o camiño cara aos ficheiros de obxectos compartidos. Para as "
 "bibliotecas construídas mediante pinchables, localízanse nalgún lugar do "
 "directorio de instalación da biblioteca, que se atopa dentro do directorio "
-"de compilación da biblioteca por defecto (por exemplo, \"build / arm-linux-"
-"gnueabihf / opencv / install\"). Para bibliotecas pre-construídas, execute "
-"\"execución clicable\" find / -name 'libSomething.so' \"\" (substituíndo `` "
-"libSomething.so` polo ficheiro que está a procurar). Isto debería imprimir a "
-"ruta ao ficheiro (xunto con algunhas mensaxes de erro que podes ignorar). En "
-"xeral, \"/ usr / lib\" é unha boa aposta ao buscar ficheiros de obxectos "
-"compartidos."
+"de compilación da biblioteca por defecto (por exemplo, "
+"\"build / arm-linux-gnueabihf / opencv / install\"). Para bibliotecas pre-"
+"construídas, execute \"execución clicable\" find / -name 'libSomething.so' \""
+"\" (substituíndo `` libSomething.so` polo ficheiro que está a procurar). "
+"Isto debería imprimir a ruta ao ficheiro (xunto con algunhas mensaxes de "
+"erro que podes ignorar). En xeral, \"/ usr / lib\" é unha boa aposta ao "
+"buscar ficheiros de obxectos compartidos."
 
 #: ../../appdev/guides/dependencies.rst:102
 #, fuzzy
@@ -1653,6 +1668,7 @@ msgstr ""
 "_ ao seu clicable.json:"
 
 #: ../../appdev/guides/dependencies.rst:115
+#, fuzzy
 msgid ""
 "The lines above contain two examples. The first one installing a library "
 "built with Clickable. The asterisk in ``.so*`` helps to catch symbolic links "
@@ -1672,6 +1688,7 @@ msgstr ""
 "Nese caso consulte o readme da biblioteca ou as instrucións de instalación."
 
 #: ../../appdev/guides/dependencies.rst:119
+#, fuzzy
 msgid ""
 "You should be set up to build and install your click package on a device "
 "connected to your computer now by running ``clickable``."
@@ -1684,6 +1701,7 @@ msgid "Importing from Content Hub and URLdispatcher"
 msgstr "Importando desde Content Hub e URLdispatcher"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:15
+#, fuzzy
 msgid ""
 "In the previous guide we have seen a little bit about how Content Hub works. "
 "In this guide we will see how ``URLdispatcher`` works and how to handle "
@@ -1724,6 +1742,7 @@ msgstr ""
 "qml#L85>\" _ para ver como se fai:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:49
+#, fuzzy
 msgid ""
 "Do you see that Connections element that targets the ContentHub? When it "
 "receives the signal onImportRequested, it will take the url of the data sent "
@@ -1731,8 +1750,8 @@ msgid ""
 "sent) and open a ``PopUp`` element to let the user install the click."
 msgstr ""
 "Ves ese elemento Conexións dirixido a ContentHub? Cando reciba o sinal "
-"enImportRequested, tomará a url dos datos enviados desde o Hub de contido "
-"(\"transfer.items [0] .url\" é a url dos primeiros datos enviados) e abrirá "
+"enImportRequested, tomará a url dos datos enviados desde o Hub de contido ("
+"\"transfer.items [0] .url\" é a url dos primeiros datos enviados) e abrirá "
 "un \"PopUp\" elemento para que o usuario instale o clic."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:52
@@ -1755,23 +1774,25 @@ msgstr ""
 "funciona iso?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:56
+#, fuzzy
 msgid ""
 "The ``URLdispatcher`` selects which app (according to their ``manifest."
 "json``) will open a certain link."
 msgstr ""
-"O \"URLdispatcher\" selecciona que aplicación (segundo o seu \"manifest."
-"json\") abrirá unha ligazón determinada."
+"O \"URLdispatcher\" selecciona que aplicación (segundo o seu "
+"\"manifest.json\") abrirá unha ligazón determinada."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:61
+#, fuzzy
 msgid ""
 "Let’s see how our navigation app looks inside. uNav’s manifest shows special "
 "hooks for the ``URLdispatcher`` in its `manifest.json code <https://bazaar."
 "launchpad.net/~unav-devs/unav/trunk/view/head:/manifest.json#L9>`_:"
 msgstr ""
 "Vexamos como se ve o noso aplicativo de navegación. O manifesto de uNav "
-"mostra ganchos especiais para o \"URLdispatcher\" no seu código \"manifest."
-"json <https://bazaar.launchpad.net/~unav-devs/unav/trunk/view/head:/manifest."
-"json#L9> `_:"
+"mostra ganchos especiais para o \"URLdispatcher\" no seu código \"manifest"
+".json <https://bazaar.launchpad.net/~unav-devs/unav/trunk/view/"
+"head:/manifest.json#L9> `_:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:91
 msgid ""
@@ -1796,6 +1817,7 @@ msgid "And how do we manage the received URL?"
 msgstr "E como administramos o URL recibido?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:98
+#, fuzzy
 msgid ""
 "After the ``URLdispatcher`` sends the link to the correspondent app, we need "
 "to handle that URL or URI in the targeted app. Let’s see how to do that:"
@@ -1805,6 +1827,7 @@ msgstr ""
 "Vexamos como facelo:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:100
+#, fuzzy
 msgid ""
 "In the main qml file, we need to add some code to know what to do with the "
 "dispatched URL. Let's check how Linphone app manages this adding a "
@@ -1819,6 +1842,7 @@ msgstr ""
 "configurando \"UriHandler\" como obxectivo."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:117
+#, fuzzy
 msgid ""
 "This code will manage an URI in the form ``linphone://sip:xxx@xxx.xx`` when "
 "the app is opened. But what do we need to do to handle this link when the "
@@ -1829,16 +1853,18 @@ msgstr ""
 "ligazón cando o aplicativo está pechado?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:119
+#, fuzzy
 msgid ""
 "We need to add a little bit `extra code <https://gitlab.com/ubports-linphone/"
 "linphone-simple/blob/master/qml/Main.qml#L76>`_ that will cover two cases: "
 "1) We receive one URL 2) We receive more than one URL"
 msgstr ""
-"Necesitamos engadir un pouco de `código extra <https://gitlab.com/ubports-"
-"linphone/linphone-simple/blob/master/qml/Main.qml#L76>` _ que cubrirá dous "
-"casos: 1) Nós recibir un URL 2) Recibimos máis dun URL"
+"Necesitamos engadir un pouco de `código extra <https://gitlab.com/"
+"ubports-linphone/linphone-simple/blob/master/qml/Main.qml#L76>` _ que "
+"cubrirá dous casos: 1) Nós recibir un URL 2) Recibimos máis dun URL"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:123
+#, fuzzy
 msgid ""
 "Let's check if ``Qt.application.arguments`` is not empty and if not, if any "
 "argument matches our URI format."
@@ -1847,6 +1873,7 @@ msgstr ""
 "argumento coincide co noso formato URI."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:143
+#, fuzzy
 msgid ""
 "Remember to check that %u (to receive 1 URL) or %U (to receive 1 or more "
 "URLs) is present under the ``Exec`` line in the `.desktop <https://gitlab."
@@ -1888,6 +1915,7 @@ msgstr ""
 "Que ocorre se hai máis dun aplicativo que ten o mesmo tipo de URL definido?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:159
+#, fuzzy
 msgid ""
 "A very good question. What happens if we tap on a Twitter link? How is such "
 "a URL handled by the ``URLdispatcher`` as protocol ``http`` or the protocol "
@@ -2012,22 +2040,24 @@ msgstr ""
 "tw/2016/09/freepascal-development-for-ubuntu-phone.html>`__"
 
 #: ../../appdev/guides/index.rst:41
+#, fuzzy
 msgid ""
 "`Lazarus development for Ubuntu Touch <http://kriscode.blogspot.tw/2016/10/"
 "lazarus-development-for-ubuntu-phone.html>`__"
 msgstr ""
-"`Desenvolvemento de Lazarus para Ubuntu Touch <http://kriscode.blogspot."
-"tw/2016/10/lazarus-development-for-ubuntu-phone.html>` __"
+"`Desenvolvemento de Lazarus para Ubuntu Touch <http://kriscode.blogspot.tw/"
+"2016/10/lazarus-development-for-ubuntu-phone.html>` __"
 
 #: ../../appdev/guides/index.rst:42
+#, fuzzy
 msgid ""
 "`Geany on Ubuntu Touch device as text editor, source code editor, debugger "
 "and compiler for multiple languages <http://kriscode.blogspot.tw/2017/10/"
 "geany-on-ubuntu-touch-device-as-text.html>`__"
 msgstr ""
 "`Geany no dispositivo Ubuntu Touch como editor de texto, editor de código "
-"fonte, depurador e compilador para varios idiomas <http://kriscode.blogspot."
-"tw/2017/10/geany-on-ubuntu-touch-device-as-text.html > `__"
+"fonte, depurador e compilador para varios idiomas <http://"
+"kriscode.blogspot.tw/2017/10/geany-on-ubuntu-touch-device-as-text.html > `__"
 
 #: ../../appdev/guides/index.rst:43
 #, fuzzy
@@ -2057,12 +2087,13 @@ msgid "`Content Hub overview (Video) <https://youtu.be/AihwC2sPIk0>`__"
 msgstr "`Presentación xeral de Hub (Vídeo) <https://youtu.be/AihwC2sPIk0>`__"
 
 #: ../../appdev/guides/index.rst:47
+#, fuzzy
 msgid ""
 "`Import files to your app with Content Hub (Video) <https://youtu.be/"
 "q6zzM16jw1U>`__"
 msgstr ""
-"`Importa ficheiros ao teu aplicativo con Content Hub (vídeo) <https://youtu."
-"be/q6zzM16jw1U>` __"
+"`Importa ficheiros ao teu aplicativo con Content Hub (vídeo) <https://"
+"youtu.be/q6zzM16jw1U>` __"
 
 #: ../../appdev/guides/port-to-focal.rst:2
 msgid "Porting Apps to Focal"
@@ -2269,6 +2300,7 @@ msgstr ""
 "novo enganche no manifesto. Podería ter o seguinte aspecto:"
 
 #: ../../appdev/guides/pushnotifications.rst:83
+#, fuzzy
 msgid ""
 "It should be clear that we now need a different apparmor file and a "
 "different executable file. The **push-apparmor.json** file must only contain "
@@ -2280,10 +2312,12 @@ msgstr ""
 "seguinte aspecto:"
 
 #: ../../appdev/guides/pushnotifications.rst:95
+#, fuzzy
 msgid "The **push.json** is for redirecting to the executable file:"
 msgstr "O ** push.json ** serve para redireccionar ao ficheiro executable:"
 
 #: ../../appdev/guides/pushnotifications.rst:103
+#, fuzzy
 msgid ""
 "In our tutorial we will use python to create a executable named **pushexec** "
 "which will forward the notification without changing anything:"
@@ -2292,6 +2326,7 @@ msgstr ""
 "pushexec ** que reenviará a notificación sen cambiar nada:"
 
 #: ../../appdev/guides/pushnotifications.rst:115
+#, fuzzy
 msgid ""
 "We also need to add this new files to the **CMakeLists.txt** and make the "
 "pushexec executable::"
@@ -2505,6 +2540,7 @@ msgid "relative, and will be looked up in (a) the application's"
 msgstr "parente e buscarase no aplicativo de"
 
 #: ../../appdev/guides/pushnotifications.rst:0
+#, fuzzy
 msgid "``.local/share/<pkgname>``, and (b) standard xdg dirs."
 msgstr "\".local / share / <pkgname>\" \"e (b) directorios xdg estándar."
 
@@ -2761,6 +2797,7 @@ msgid "This shows \"7 text messages sent today.\" How did it know?"
 msgstr "Amosa \"7 mensaxes de texto enviadas hoxe\". Como o soubo?"
 
 #: ../../appdev/guides/user-metrics.rst:15
+#, fuzzy
 msgid ""
 "This is from a 3rd-party application (`nCounter <https://gitlab.com/"
 "joboticon/ncounter/>`_) that makes use of the User Metrics feature."
@@ -2786,6 +2823,7 @@ msgid ""
 msgstr "Toda a seguinte información basearase no código de `nCounter`_."
 
 #: ../../appdev/guides/user-metrics.rst:24
+#, fuzzy
 msgid "Your app's apparmor file must include ``usermetrics`` in the policy:"
 msgstr ""
 "O ficheiro apparmor do teu aplicativo debe incluír \"usermetrics\" na "
@@ -2837,6 +2875,7 @@ msgstr ""
 "Id métrica [punto] Nome da variable [igual] Nova información de variable"
 
 #: ../../appdev/guides/user-metrics.rst:72
+#, fuzzy
 msgid "``metric.circleMetric = \"New Metric Message\"``"
 msgstr "`` metric.circleMetric = \"Nova mensaxe métrica\" ``"
 
@@ -2857,6 +2896,7 @@ msgid "``metric.update(0)``"
 msgstr "``metric.update(0)``"
 
 #: ../../appdev/guides/user-metrics.rst:80
+#, fuzzy
 msgid ""
 "(Note: In this example, ``0`` is arbitrary since the metric value doesn't "
 "include a counter)"
@@ -2865,6 +2905,7 @@ msgstr ""
 "un contador)"
 
 #: ../../appdev/guides/user-metrics.rst:82
+#, fuzzy
 msgid ""
 "We have now updated the metric for today. When the time rolls over to "
 "tomorrow, the metric will be reset to whatever is in ``emptyFormat``."
@@ -2887,14 +2928,17 @@ msgid "User Metrics are made up of two \"formats\":"
 msgstr "As métricas de usuario compóñense de dous \"formatos\":"
 
 #: ../../appdev/guides/user-metrics.rst:91
+#, fuzzy
 msgid "metrics/messages for today (``format``)"
 msgstr "métricas / mensaxes de hoxe (\"formato\")"
 
 #: ../../appdev/guides/user-metrics.rst:92
+#, fuzzy
 msgid "metrics/messages for tomorrow (``emptyFormat``)"
 msgstr "métricas / mensaxes para mañá (\"Formato baleiro\")"
 
 #: ../../appdev/guides/user-metrics.rst:94
+#, fuzzy
 msgid ""
 "The value of ``emptyFormat`` is what displays on the lock screen when no "
 "value has been stored in ``format``. In order to display a new value of "
@@ -2913,23 +2957,25 @@ msgid "Set the metric to a specific amount:"
 msgstr "Estableza a métrica nunha cantidade específica:"
 
 #: ../../appdev/guides/user-metrics.rst:100
+#, fuzzy
 msgid ""
 "``metricID.update(x)`` (where x is a number of type `double` to set for a "
 "counter value). ``metricID`` is the ``id:`` specified in the Metric item. "
 "The counter value can be included in the ``format`` setting by using ``%1``. "
 "e.g. ``format: \"%1 buttons pressed today\"``"
 msgstr ""
-"\"metricID.update (x)\" \"(onde x é un número de tipo\" dobre \"para "
-"establecer un valor de contador). \"metricID\" é o \"id:\" especificado no "
-"elemento Métrica. O valor do contador pódese incluír na configuración "
-"\"formato\" usando \"% 1\". por exemplo `` format: \"% 1 botóns presionados "
-"hoxe\" ``"
+"\"metricID.update (x)\" \"(onde x é un número de tipo\" dobre "
+"\"para establecer un valor de contador). \"metricID\" é o \"id:\" "
+"especificado no elemento Métrica. O valor do contador pódese incluír na "
+"configuración \"formato\" usando \"% 1\". por exemplo `` format: "
+"\"% 1 botóns presionados hoxe\" ``"
 
 #: ../../appdev/guides/user-metrics.rst:102
 msgid "Increment the metric:"
 msgstr "Subir a métrica:"
 
 #: ../../appdev/guides/user-metrics.rst:104
+#, fuzzy
 msgid ""
 "``metricID.increment(x)`` (where x is the amount to add to the current "
 "counter)"
@@ -2938,12 +2984,14 @@ msgstr ""
 "actual)"
 
 #: ../../appdev/guides/user-metrics.rst:106
+#, fuzzy
 msgid ""
 "The metric will reset back to the value stored in ``emptyFormat`` each day."
 msgstr ""
 "A métrica restablecerase ao valor almacenado en \"Formato baleiro\" cada día."
 
 #: ../../appdev/guides/user-metrics.rst:108
+#, fuzzy
 msgid ""
 "Applications make use of User Metrics by setting and updating the "
 "\"formats\" whenever a certain event takes place. e.g. When you press send "
@@ -2960,6 +3008,7 @@ msgstr ""
 "ubports/libusermetrics/tree/xenial/doc/pages>` _) ."
 
 #: ../../appdev/guides/user-metrics.rst:111
+#, fuzzy
 msgid ""
 "(See this `blog post <https://daker.me/2013/11/adding-usermetrics-to-your-"
 "app-on-ubuntu-touch.html>`_ for a simple example)"
@@ -2987,6 +3036,7 @@ msgstr ""
 "editarse en vez de eliminarse."
 
 #: ../../appdev/guides/user-metrics.rst:117
+#, fuzzy
 msgid ""
 "Based on how the \"formats\" are set up, it seems that it is difficult to "
 "maintain a running tally beyond one day (though not impossible. See "
@@ -2997,6 +3047,7 @@ msgstr ""
 "Vexa `FluffyChat <https://gitlab.com/ChristianPauly/fluffychat>` _)."
 
 #: ../../appdev/guides/user-metrics.rst:119
+#, fuzzy
 msgid ""
 "In the case of the `nCounter`_ app. I wanted to count the number of days, "
 "but since the metric \"resets\" each day, that presents a problem. I created "
@@ -3030,6 +3081,7 @@ msgid "Writable directories"
 msgstr "Directorios editables"
 
 #: ../../appdev/guides/writeable-dirs.rst:4
+#, fuzzy
 msgid ""
 "App confinement is part of the Ubuntu Touch security concept. Data can be "
 "exchanged between apps only according to the AppArmor policies, mainly using "
@@ -3039,16 +3091,16 @@ msgid ""
 msgstr ""
 "O confinamento de aplicacións forma parte do concepto de seguridade Ubuntu "
 "Touch. Os datos pódense intercambiar entre aplicativos só segundo as "
-"políticas de AppArmor, principalmente usando: ref: `ContentHub "
-"<contenthub>`. Dito isto, os aplicativos só poden ler e escribir ficheiros "
-"que se atopan nun dos tres directorios específicos do aplicativo explicados "
-"nesta guía."
+"políticas de AppArmor, principalmente usando: ref: `ContentHub <contenthub>`"
+". Dito isto, os aplicativos só poden ler e escribir ficheiros que se atopan "
+"nun dos tres directorios específicos do aplicativo explicados nesta guía."
 
 #: ../../appdev/guides/writeable-dirs.rst:7
 msgid "Standard Paths"
 msgstr "Ruta estándar"
 
 #: ../../appdev/guides/writeable-dirs.rst:8
+#, fuzzy
 msgid ""
 "Besides the write access to the app directories explained below, the app can "
 "write debug messages into the app log file located at ``/home/phablet/.cache/"
@@ -3072,14 +3124,15 @@ msgid "Path: ``/home/phablet/.config/<fullappname>/``"
 msgstr "Ruta: ``/home/phablet/.config/<fullappname>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:14
+#, fuzzy
 msgid ""
 "This is the place to store configurations files to. The music app for "
 "example stores its configuration to ``/home/phablet/.config/com.ubuntu.music/"
 "com.ubuntu.music.conf``."
 msgstr ""
 "Este é o lugar onde gardar os ficheiros de configuración. O aplicativo de "
-"música, por exemplo, almacena a súa configuración en \"/ home / phablet / ."
-"config / com.ubuntu.music / com.ubuntu.music.conf\"."
+"música, por exemplo, almacena a súa configuración en "
+"\"/ home / phablet / .config / com.ubuntu.music / com.ubuntu.music.conf\"."
 
 #: ../../appdev/guides/writeable-dirs.rst:17
 msgid "Cache"
@@ -3090,6 +3143,7 @@ msgid "Path: ``/home/phablet/.cache/<fullappname>/``"
 msgstr "Ruta: ``/home/phablet/.cache/<fullappname>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:20
+#, fuzzy
 msgid ""
 "This is the place to cache data for later use. The cache is also used by the "
 "Content Hub. Files that have been shared with the music app for example can "
@@ -3097,8 +3151,8 @@ msgid ""
 msgstr ""
 "Este é o lugar onde gardar caché de datos para o seu uso posterior. A caché "
 "tamén a usa o Content Hub. Os ficheiros que se compartiron co aplicativo de "
-"música, por exemplo, pódense atopar en \"/ home / phablet / .cache / com."
-"ubuntu.music / HubIncoming /\"."
+"música, por exemplo, pódense atopar en "
+"\"/ home / phablet / .cache / com.ubuntu.music / HubIncoming /\"."
 
 #: ../../appdev/guides/writeable-dirs.rst:23
 msgid ""
@@ -3117,19 +3171,21 @@ msgid "Path: ``/home/phablet/.local/share/<fullappname>/``"
 msgstr "Ruta: ``/home/phablet/.local/share/<fullappname>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:29
+#, fuzzy
 msgid ""
 "This is where your app stores any data. The music app for example stores its "
 "data bases to ``/home/phablet/.local/share/com.ubuntu.music/Databases/``."
 msgstr ""
 "Aquí é onde o teu aplicativo almacena calquera dato. O aplicativo de música, "
-"por exemplo, almacena as súas bases de datos en \"/ home / phablet / ."
-"local / share / com.ubuntu.music / Databases /\"."
+"por exemplo, almacena as súas bases de datos en "
+"\"/ home / phablet / .local / share / com.ubuntu.music / Databases /\"."
 
 #: ../../appdev/guides/writeable-dirs.rst:33
 msgid "Using Standard Paths in C++"
 msgstr "Usando rutas estándar en C ++"
 
 #: ../../appdev/guides/writeable-dirs.rst:34
+#, fuzzy
 msgid ""
 "The Qt header ``QStandardPaths`` provides the app's writable locations in C+"
 "+:"
@@ -3162,6 +3218,7 @@ msgid "Using Standard Paths in QML"
 msgstr "Usando rutas estándar en QML"
 
 #: ../../appdev/guides/writeable-dirs.rst:52
+#, fuzzy
 msgid ""
 "The Qt module `Qt.labs.platform <https://doc.qt.io/archives/qt-5.10/qml-qt-"
 "labs-platform-standardpaths.html>`_ provides the app's writable locations in "
@@ -3172,16 +3229,18 @@ msgstr ""
 "do aplicativo en QML:"
 
 #: ../../appdev/guides/writeable-dirs.rst:72
+#, fuzzy
 msgid ""
 "Notice that ``QStandardPaths`` returns paths (``'/phablet/home/...'``), and "
 "QML ``StandardPaths`` returns urls (``'file:///phablet/home/...'``). This "
 "must be considered specially if the app is sharing location strings between "
 "QML and C++."
 msgstr ""
-"Teña en conta que \"QStandardPaths\" devolve camiños (\"/ phablet / "
-"home / ...\" \") e QML\" StandardPaths \"devolve urls (\" \"file: /// "
-"phablet / home / .. . \"\"). Isto debe terse en conta especialmente se o "
-"aplicativo comparte cordas de localización entre QML e C ++."
+"Teña en conta que \"QStandardPaths\" devolve camiños ("
+"\"/ phablet / home / ...\" \") e QML\" StandardPaths \"devolve urls (\" "
+"\"file: /// phablet / home / .. . \"\"). Isto debe terse en conta "
+"especialmente se o aplicativo comparte cordas de localización entre QML e C "
+"++."
 
 #: ../../appdev/index.rst:2
 msgid "App development"
@@ -3354,6 +3413,7 @@ msgstr ""
 "Javascript para o seu backend."
 
 #: ../../appdev/nativeapp/index.rst:10
+#, fuzzy
 msgid ""
 "Ubuntu Touch provides a subset of Qt QML components to ease the development "
 "of your app : `QML API <https://api-docs.ubports.com/sdk/apps/qml/index."
@@ -3368,6 +3428,7 @@ msgstr ""
 "multiplataforma empregando compoñentes estándar Qt QML QtQuick2."
 
 #: ../../appdev/nativeapp/index.rst:13
+#, fuzzy
 msgid ""
 "You can use `Clickable <http://clickable.bhdouglass.com/en/latest/>`_ to "
 "facilitate Packaging, deploying, publishing and tests ."
@@ -3376,6 +3437,7 @@ msgstr ""
 "facilitar o envasado, a implantación, a publicación e as probas."
 
 #: ../../appdev/nativeapp/index.rst:15
+#, fuzzy
 msgid ""
 "Check out informations about the platform and confinement model in :ref:"
 "`Platform <platform>` section"
@@ -3781,6 +3843,7 @@ msgid "Description: Can access the network"
 msgstr "Descrición: pode acceder ás redes"
 
 #: ../../appdev/platform/apparmor.rst:205
+#, fuzzy
 msgid ""
 "The networking policy group allows an app to contact network devices and use "
 "the `download manager`_."
@@ -3970,6 +4033,7 @@ msgid "Click package"
 msgstr "Paquete «click»"
 
 #: ../../appdev/platform/click.rst:6
+#, fuzzy
 msgid "Every ``click`` application package must embed at least 3 files:"
 msgstr ""
 "Cada paquete de aplicativo \"clic\" debe incorporar polo menos 3 ficheiros:"
@@ -3987,6 +4051,7 @@ msgstr ""
 "o autor, o marco sdk target e a versión."
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
 msgstr "Ficheiro de exemplo \"manifest.json\" ::"
 
@@ -3995,6 +4060,7 @@ msgid "AppArmor profile policy file"
 msgstr "Ficheiro de política do perfil AppArmor"
 
 #: ../../appdev/platform/click.rst:29
+#, fuzzy
 msgid ""
 "Contains which policy the app needs to work properly. See `Security and app "
 "isolation`_ below for more information on this file."
@@ -4016,6 +4082,7 @@ msgstr ""
 "icona amosar na pantalla de inicio e algunhas outras propiedades."
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
 msgstr "Exemplo de ``app.desktop``::"
 
@@ -4036,6 +4103,7 @@ msgid "Icon: Path to the icon to display"
 msgstr "Icona: ruta á icona que se amosa"
 
 #: ../../appdev/platform/click.rst:49
+#, fuzzy
 msgid "Terminal: ``false`` if will not run in terminal window"
 msgstr "Terminal: \"falso\" se non se executa na xanela do terminal"
 
@@ -4048,15 +4116,17 @@ msgstr ""
 "Ligazón ou Directorio."
 
 #: ../../appdev/platform/click.rst:51
+#, fuzzy
 msgid "X-Ubuntu-Touch: ``true`` to make the app visible"
 msgstr "X-Ubuntu-Touch: \"true\" para facer visible o aplicativo"
 
 #: ../../appdev/platform/click.rst:52
+#, fuzzy
 msgid "X-Ubuntu-XMir-Enable: ``true`` if your app is built for X"
-msgstr ""
-"X-Ubuntu-XMir-Enable: \"true\" se o teu aplicativo está deseñado para X"
+msgstr "X-Ubuntu-XMir-Enable: \"true\" se o teu aplicativo está deseñado para X"
 
 #: ../../appdev/platform/click.rst:53
+#, fuzzy
 msgid ""
 "X-Ubuntu-Supported-Orientations: ``landscape`` or ``portrait`` to force your "
 "app start in landscape mode and portrait mode respectively."
@@ -4069,6 +4139,7 @@ msgid "Security and app isolation"
 msgstr "Seguridade e illamento de aplicativos"
 
 #: ../../appdev/platform/click.rst:62
+#, fuzzy
 msgid ""
 "All Ubuntu apps are confined respecting AppArmor access control mechanism "
 "(see `Application Confinement <https://wiki.ubuntu.com/SecurityTeam/"
@@ -4088,10 +4159,12 @@ msgstr ""
 "correctamente cun ficheiro apparmor \".json\"."
 
 #: ../../appdev/platform/click.rst:64
+#, fuzzy
 msgid "Example ``apparmor.json`` file::"
 msgstr "Ficheiro de exemplo \"apparmor.json\" ::"
 
 #: ../../appdev/platform/click.rst:76
+#, fuzzy
 msgid "For a full list of available policy groups, see :doc:`apparmor`."
 msgstr ""
 "Para unha lista completa dos grupos de políticas dispoñibles, consulte: doc: "
@@ -4217,10 +4290,12 @@ msgid "Launching"
 msgstr "Lanzamento"
 
 #: ../../appdev/webapp/guide.rst:17
+#, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
 msgstr "Podes iniciar un aplicativo web desde o terminal con :::"
 
 #: ../../appdev/webapp/guide.rst:21
+#, fuzzy
 msgid "For example:::"
 msgstr "Por exemplo:::"
 
@@ -4259,6 +4334,7 @@ msgstr ""
 "argumentos da liña de comandos:"
 
 #: ../../appdev/webapp/guide.rst:34
+#, fuzzy
 msgid ""
 "``--enable-back-forward`` Enable the display of the back and forward buttons "
 "in the toolbar (at the bottom of the webapp window)"
@@ -4268,6 +4344,7 @@ msgstr ""
 "web)"
 
 #: ../../appdev/webapp/guide.rst:35
+#, fuzzy
 msgid ""
 "``--enable-addressbar`` Enable the display of the address bar (at the bottom "
 "of the webapp window)"
@@ -4314,6 +4391,7 @@ msgid "Uncontained by default"
 msgstr "Sen conter por defecto"
 
 #: ../../appdev/webapp/guide.rst:49
+#, fuzzy
 msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
@@ -4331,6 +4409,7 @@ msgstr ""
 "premen o aplicativo web."
 
 #: ../../appdev/webapp/guide.rst:55
+#, fuzzy
 msgid ""
 "Tip: You can see the URL of the current page by enabling the address bar "
 "with ``--enable-addressbar``."
@@ -4343,18 +4422,20 @@ msgid "Simple containment to the site"
 msgstr "Contención sinxela do sitio"
 
 #: ../../appdev/webapp/guide.rst:60
+#, fuzzy
 msgid ""
 "One often wants to contain users to the site itself. That is, if the website "
 "is www.ubuntu.com, it may be useful to contain webapp users only to subpages "
 "of www.ubuntu.com. This is done by adding a wildcard URL pattern to the "
 "launch command, as follows:::"
 msgstr ""
-"A miúdo quérese conter usuarios no sitio. É dicir, se o sitio web é www."
-"ubuntu.com, pode ser útil que conteña usuarios de aplicativos web só en "
+"A miúdo quérese conter usuarios no sitio. É dicir, se o sitio web é "
+"www.ubuntu.com, pode ser útil que conteña usuarios de aplicativos web só en "
 "subpáxinas de www.ubuntu.com. Isto faise engadindo un patrón de URL comodín "
 "ao comando de inicio, do seguinte xeito :::"
 
 #: ../../appdev/webapp/guide.rst:64
+#, fuzzy
 msgid "``--webappUrlPatterns=`` indicates a pattern is next"
 msgstr "\"--webappUrlPatterns =\" indica que o seguinte patrón é"
 
@@ -4401,6 +4482,7 @@ msgid "More complex wildcard patterns"
 msgstr "Patróns comodíns máis complexos"
 
 #: ../../appdev/webapp/guide.rst:76
+#, fuzzy
 msgid ""
 "You might want to limit access to only some subpages of your site from "
 "within the webapp. This is easy with wildcard patterns. (Links to other "
@@ -4419,6 +4501,7 @@ msgid "Multiple patterns"
 msgstr "Patróns múltiples"
 
 #: ../../appdev/webapp/guide.rst:84
+#, fuzzy
 msgid ""
 "You can use multiple patterns by separating them with a comma. For example, "
 "the following allows access only to www.ubuntu.com/desktop/features and www."
@@ -4441,6 +4524,7 @@ msgid "Adding a specific subdomain"
 msgstr "Engadindo un subdominio específico"
 
 #: ../../appdev/webapp/guide.rst:94
+#, fuzzy
 msgid ""
 "Many URLs have one or more subdomains. (For example, in the following, "
 "\"developer\" is the subdomain: developer.ubuntu.com.) You can allow access "
@@ -4478,14 +4562,15 @@ msgid "Adding subdomains with a wildcard"
 msgstr "Engadindo subdominios cun comodín"
 
 #: ../../appdev/webapp/guide.rst:109
+#, fuzzy
 msgid ""
 "Some URLs have multiple subdomains. For example, www.ubuntu.com has design."
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
-"Algúns URL teñen varios subdominios. Por exemplo, www.ubuntu.com ten design."
-"ubuntu.com, developer.ubuntu.com e moito máis. Podes engadir acceso a todos "
-"os subdominios cun comodín na posición do subdominio :::"
+"Algúns URL teñen varios subdominios. Por exemplo, www.ubuntu.com ten "
+"design.ubuntu.com, developer.ubuntu.com e moito máis. Podes engadir acceso a "
+"todos os subdominios cun comodín na posición do subdominio :::"
 
 #: ../../appdev/webapp/guide.rst:113
 #, fuzzy
@@ -4539,14 +4624,17 @@ msgstr ""
 "aplicativos web."
 
 #: ../../appdev/webapp/guide.rst:129
+#, fuzzy
 msgid "See all help with:::"
 msgstr "Ver toda a axuda con:::"
 
 #: ../../appdev/webapp/guide.rst:133
+#, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
 msgstr "Nota: só se aplican as seguintes opcións a Ubuntu converxido.::"
 
 #: ../../appdev/webapp/guide.rst:147
+#, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
 msgstr ""
 "Opcións de Chrome (se non se especifica ningunha, non se mostra ningún "
@@ -4577,6 +4665,7 @@ msgstr ""
 "é necesario cambiar a cadea predeterminada enviada polo recipiente webapp."
 
 #: ../../appdev/webapp/guide.rst:159
+#, fuzzy
 msgid "To change the string from the command line, use the following option:::"
 msgstr "Para cambiar a cadea na liña de ordes, use a seguinte opción:::"
 
@@ -4688,12 +4777,13 @@ msgstr ""
 "aplicativo web no seu dispositivo:"
 
 #: ../../appdev/webapp/index.rst:41
+#, fuzzy
 msgid ""
 "`Webapp creator <https://open-store.io/app/webapp-creator.jujuyeh>`_ "
 "application available from the openstore"
 msgstr ""
-"`Creador de aplicativos web <https://open-store.io/app/webapp-creator."
-"jujuyeh>` _ aplicativo dispoñible desde a tenda aberta"
+"`Creador de aplicativos web <https://open-store.io/app/webapp-"
+"creator.jujuyeh>` _ aplicativo dispoñible desde a tenda aberta"
 
 #: ../../appdev/webapp/index.rst:42
 #, fuzzy
@@ -4775,10 +4865,12 @@ msgstr ""
 "terás acceso ao depurador normal ao estilo Chrome."
 
 #: ../../appdev/webapp/webdebug.rst:26
+#, fuzzy
 msgid "On your phone, start the browser in inspector mode:::"
 msgstr "No teu teléfono, inicie o navegador en modo inspector:::"
 
 #: ../../appdev/webapp/webdebug.rst:31
+#, fuzzy
 msgid ""
 "Now on your computer, launch Chrome/Chromium browser, and point address to "
 "``http://YOUR_UT_IP_ADDRESS:9221``"
@@ -4880,6 +4972,7 @@ msgid "Reproduce the issue you've found"
 msgstr "Reproducir o problema que atopaches"
 
 #: ../../contribute/bugreporting.rst:28
+#, fuzzy
 msgid ""
 "Next, find out exactly how to recreate the bug that you've found. Document "
 "the exact steps that you took to find the problem in detail. Then, reboot "
@@ -5688,14 +5781,15 @@ msgid "Documentation"
 msgstr "Documentos"
 
 #: ../../contribute/documentation.rst:5
+#, fuzzy
 msgid ""
 "Documentation on this site is written in ReStructuredText, or RST for short. "
 "Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/rest."
 "html>`_ if you are not familiar with RST."
 msgstr ""
 "A documentación neste sitio está escrita en ReStructuredText, ou RST en "
-"breve. Comprobe o `RST Primer <http://www.sphinx-doc.org/en/stable/rest."
-"html>` _ se non está familiarizado con RST."
+"breve. Comprobe o `RST Primer <http://www.sphinx-doc.org/en/stable/"
+"rest.html>` _ se non está familiarizado con RST."
 
 #: ../../contribute/documentation.rst:7
 msgid ""
@@ -5752,6 +5846,7 @@ msgstr ""
 "consistente."
 
 #: ../../contribute/documentation.rst:30
+#, fuzzy
 msgid ""
 "Page titles are underlined with equals signs. For example, the markup for :"
 "doc:`./bugreporting` includes the following title:"
@@ -5949,6 +6044,7 @@ msgstr ""
 "redireccións."
 
 #: ../../contribute/documentation.rst:120
+#, fuzzy
 msgid ""
 "You are moving ``systemdev/calendars.rst`` to ``appdev/calendars.rst``. Add "
 "the following to the ``redirects.txt`` file::"
@@ -5957,6 +6053,7 @@ msgstr ""
 "Engada o seguinte ao ficheiro \"redirects.txt\" ::"
 
 #: ../../contribute/documentation.rst:124
+#, fuzzy
 msgid ""
 "You are moving ``appdev/clickable.rst`` into several pages in ``appdev/"
 "clickable/`` to give significantly more information about the tool than "
@@ -5965,12 +6062,12 @@ msgid ""
 "redirect the old page to the new introduction page. This can be done by "
 "adding the following to ``redirects.txt``::"
 msgstr ""
-"Estás a mover \"appdev / clickable.rst\" a varias páxinas en \"appdev / "
-"clickable /\" para dar significativamente máis información sobre a "
-"ferramenta que a anterior. Creaches unha páxina de introdución, \"appdev / "
-"clickable / introduction.rst\". Neste caso, sería unha boa idea redirixir a "
-"páxina antiga á nova páxina de introdución. Isto pódese facer engadindo o "
-"seguinte a \"redirects.txt\" ::"
+"Estás a mover \"appdev / clickable.rst\" a varias páxinas en "
+"\"appdev / clickable /\" para dar significativamente máis información sobre "
+"a ferramenta que a anterior. Creaches unha páxina de introdución, "
+"\"appdev / clickable / introduction.rst\". Neste caso, sería unha boa idea "
+"redirixir a páxina antiga á nova páxina de introdución. Isto pódese facer "
+"engadindo o seguinte a \"redirects.txt\" ::"
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
@@ -6087,6 +6184,7 @@ msgstr ""
 "do repositorio."
 
 #: ../../contribute/documentation.rst:159
+#, fuzzy
 msgid ""
 "The documentation can be built by running ``./build.sh`` in the root of this "
 "repository. The script will also create a virtual build environment in ``~/"
@@ -6097,6 +6195,7 @@ msgstr ""
 "\"~ / ubportsdocsenv\" se non hai ningún."
 
 #: ../../contribute/documentation.rst:161
+#, fuzzy
 msgid ""
 "If all went well, you can enter the ``_build/html`` directory and open "
 "``index.html`` to view the UBports documentation."
@@ -6280,6 +6379,7 @@ msgstr ""
 "arranxar un, envíanos unha solicitude de extracción para melloralo!"
 
 #: ../../contribute/documentation.rst:204
+#, fuzzy
 msgid "To create a todo, add this markup to your page::"
 msgstr "Para crear un por facer, engada esta marcaxe á súa páxina::"
 
@@ -6313,6 +6413,7 @@ msgstr ""
 "útil tanto para o proxecto como para ti mesmo."
 
 #: ../../contribute/index.rst:6
+#, fuzzy
 msgid ""
 "If you're just getting started, we always need help with :doc:`thorough bug "
 "reporting <bugreporting>`. If you are multilingual, :doc:`translations "
@@ -6340,14 +6441,15 @@ msgid "Monetary support"
 msgstr "Apoio monetario"
 
 #: ../../contribute/monetary.rst:4
+#, fuzzy
 msgid ""
 "You can help us keep the lights on at UBports by becoming a patron on "
 "`Liberapay <https://liberapay.com/UBports/>`_ or `Patreon <https://www."
 "patreon.com/ubports>`_!"
 msgstr ""
 "Podes axudarnos a manter as luces acesas en UBports converténdote en mecenas "
-"en `Liberapay <https://liberapay.com/UBports/>` _ ou `Patreon <https://www."
-"patreon.com/ubports>` _!"
+"en `Liberapay <https://liberapay.com/UBports/>` _ ou `Patreon <https://"
+"www.patreon.com/ubports>` _!"
 
 #: ../../contribute/monetary.rst:6
 msgid ""
@@ -6375,6 +6477,7 @@ msgid "Core apps"
 msgstr "Aplicativos principais"
 
 #: ../../contribute/preinstalled-apps.rst:11
+#, fuzzy
 msgid ""
 "Core apps are applications which are included with UBports distributions of "
 "Ubuntu Touch **and** placed in the OpenStore for updates. Core apps are a "
@@ -6384,8 +6487,8 @@ msgid ""
 msgstr ""
 "Os aplicativos básicos son aplicativos que se inclúen coas distribucións "
 "UBports de Ubuntu Touch ** e ** colocadas no OpenStore para actualizacións. "
-"Os aplicativos básicos son unha boa experiencia de \"primeiro "
-"desenvolvemento\" dentro de UBports. Moitos están construídos con "
+"Os aplicativos básicos son unha boa experiencia de "
+"\"primeiro desenvolvemento\" dentro de UBports. Moitos están construídos con "
 "`Clickable`_, un sistema de compilación e proba doado de usar para os "
 "aplicativos Ubuntu Touch. A maioría dos aplicativos básicos poden incluso "
 "construírse e executarse sen un dispositivo Ubuntu Touch!"
@@ -6622,6 +6725,7 @@ msgid "Quality Assurance"
 msgstr "Control de calidade"
 
 #: ../../contribute/quality-assurance.rst:4
+#, fuzzy
 msgid ""
 "This page explains how to help the UBports QA team, both as an official "
 "member or a new contributor. Please also read the :doc:`issue tracking </"
@@ -6641,6 +6745,7 @@ msgid "Smoke testing"
 msgstr "Probas de fume"
 
 #: ../../contribute/quality-assurance.rst:9
+#, fuzzy
 msgid ""
 "To test the core functionality of the operating system, we have compiled `a "
 "set of standardized tests <https://gitlab.com/ubports/teams/qa/project-"
@@ -6683,6 +6788,7 @@ msgstr ""
 "se foi capaz de reproducir ou non o problema."
 
 #: ../../contribute/quality-assurance.rst:16
+#, fuzzy
 msgid ""
 "If you have write-access to the repository, you can replace the **needs "
 "confirmation** label with **bug** (to mark it confirmed) or **invalid** (if "
@@ -6694,6 +6800,7 @@ msgstr ""
 "debería pecharse."
 
 #: ../../contribute/quality-assurance.rst:18
+#, fuzzy
 msgid ""
 "If you find two issues describing the same problem, leave a comment and try "
 "to find their differences. If they are in fact identical, close the newer "
@@ -6749,6 +6856,7 @@ msgid "Initial triaging of issues"
 msgstr "Triaxe inicial dos problemas"
 
 #: ../../contribute/quality-assurance.rst:30
+#, fuzzy
 msgid ""
 "Initial triaging of new issues is done by QA-team members with write-access "
 "to the repository. If a new issue is filed, read the report and add the "
@@ -6758,11 +6866,12 @@ msgid ""
 msgstr ""
 "Os membros do equipo QA realizan o triado inicial de novas cuestións con "
 "acceso de escritura ao repositorio. Se presenta un novo problema, lea o "
-"informe e engada as etiquetas correctas segundo se especifica en: doc: "
-"`directrices de seguimento de problemas </ about / process / issue-"
-"tracking>`. Tamén pode comezar inmediatamente a confirmar o informe de erros."
+"informe e engada as etiquetas correctas segundo se especifica en: doc: `"
+"directrices de seguimento de problemas </ about / process / issue-tracking>`"
+". Tamén pode comezar inmediatamente a confirmar o informe de erros."
 
 #: ../../contribute/quality-assurance.rst:32
+#, fuzzy
 msgid ""
 "If the new issue has already been reported elsewhere, label it **duplicate** "
 "and close it."
@@ -6793,6 +6902,7 @@ msgid "How does a text get translated (technical background)"
 msgstr "Como se traduce un texto (antecedentes técnicos)"
 
 #: ../../contribute/translations.rst:10
+#, fuzzy
 msgid ""
 "Most apps running on Ubuntu Touch use `GNU gettext <https://www.gnu.org/"
 "software/gettext/>`_ for translations. A *.pot* template file holds an apps "
@@ -6810,8 +6920,8 @@ msgstr ""
 "<https://www.gnu.org/software/gettext/>` _ para traducións. Un ficheiro de "
 "modelo * .pot * contén cadeas de aplicativos. Deste modelo para cada idioma "
 "derívase un ficheiro * .po * individual. Eses ficheiros * .po * conteñen as "
-"traducións reais. Para engadir un novo idioma cómpre crear un novo ficheiro "
-"* .po *. Para traducir unha cadea hai que editar o ficheiro * .po *. Xunto á "
+"traducións reais. Para engadir un novo idioma cómpre crear un novo ficheiro *"
+" .po *. Para traducir unha cadea hai que editar o ficheiro * .po *. Xunto á "
 "cadea orixinal (inglés na maioría dos casos) hai que introducir a tradución "
 "adecuada seguindo a sintaxe do ficheiro gettext * .po *. Algúns aplicativos "
 "usan `QtLinguist <https://doc.qt.io/qt-5/qtlinguist-index.html>` _ para a "
@@ -6819,6 +6929,7 @@ msgstr ""
 "traducións con outra sintaxe. Como modelo úsase un ficheiro * .ts *."
 
 #: ../../contribute/translations.rst:14
+#, fuzzy
 msgid ""
 "Within an app strings are marked either this way ``i18n.tr(\"string\")`` "
 "when using gettext or like this ``tr(\"string\")`` when using QtLinguist. "
@@ -6826,8 +6937,8 @@ msgid ""
 "into the *.pot* or *.ts* template files. The *.po* and *.ts* language files "
 "then need to be updated from their template."
 msgstr ""
-"Dentro dun aplicativo, as cadeas márcanse deste xeito `i18n.tr (\" cadea "
-"\")` cando se usa gettext ou como este `tr (\" cadea \")` cando se usa "
+"Dentro dun aplicativo, as cadeas márcanse deste xeito `i18n.tr (\" cadea \")`"
+" cando se usa gettext ou como este `tr (\" cadea \")` cando se usa "
 "QtLinguist. Cando o aplicativo está construído, esas cadeas traducibles "
 "extráense e escríbense nos ficheiros de modelos * .pot * ou * .ts *. Os "
 "ficheiros de idioma * .po * e * .ts * deberán actualizarse a partir do seu "
@@ -6884,16 +6995,17 @@ msgstr ""
 "solicitude de combinación / solicitude de extracción."
 
 #: ../../contribute/translations.rst:25
+#, fuzzy
 msgid ""
 "Team translation: We also have  a `Translation Forum <https://forums.ubports."
 "com/category/39/translations>`_ to discuss translating Ubuntu Touch and its "
 "core apps. Some projects are using Telegram or Matrix groups too, and some "
 "teams are still using the Ubuntu Launchpad framework."
 msgstr ""
-"Tradución do equipo: tamén temos un `Foro de tradución <https://forums."
-"ubports.com/category/39/translations>` _ para discutir a tradución de Ubuntu "
-"Touch e os seus principais aplicativos. Algúns proxectos tamén usan grupos "
-"Telegram ou Matrix, e algúns equipos seguen usando o framework Ubuntu "
+"Tradución do equipo: tamén temos un `Foro de tradución <https://"
+"forums.ubports.com/category/39/translations>` _ para discutir a tradución de "
+"Ubuntu Touch e os seus principais aplicativos. Algúns proxectos tamén usan "
+"grupos Telegram ou Matrix, e algúns equipos seguen usando o framework Ubuntu "
 "Launchpad."
 
 #: ../../contribute/translations.rst:27
@@ -6917,6 +7029,7 @@ msgstr ""
 "tradución."
 
 #: ../../contribute/translations.rst:29
+#, fuzzy
 msgid ""
 "Most apps maintained by individual developers are mainly using *.pot*/*.po* "
 "files for translation. Those generally need to be edited manually and "
@@ -6997,6 +7110,7 @@ msgid ".po/.ts File Editor"
 msgstr "Editor de ficheiros .po/.ts"
 
 #: ../../contribute/translations.rst:51
+#, fuzzy
 msgid ""
 "If you want to work with *.po*/*.ts* files directly you need to know what "
 "you're doing for sure. The first thing you should always remember is:"
@@ -7005,6 +7119,7 @@ msgstr ""
 "saber con certeza o que fas. O primeiro que sempre debes recordar é:"
 
 #: ../../contribute/translations.rst:54
+#, fuzzy
 msgid ""
 "Do **never** commit *.po* files to projects that are translated using "
 "weblate. This could break the whole translation exchange process with "
@@ -7015,6 +7130,7 @@ msgstr ""
 "weblate."
 
 #: ../../contribute/translations.rst:56
+#, fuzzy
 msgid ""
 "As was said up above, you need a file editor of your choice and a GitHub/"
 "GitLab account to translate *.po*/*.ts* files directly. Idealy you do have "
@@ -7027,6 +7143,7 @@ msgstr ""
 "latest/>` clickable e saber construír un aplicativo."
 
 #: ../../contribute/translations.rst:58
+#, fuzzy
 msgid ""
 "There are online gettext .po editors and those you can install on your "
 "computer. You can choose whatever editor you want, but we prefer to work "
@@ -7069,6 +7186,7 @@ msgid "(optional) Create a new branch for the translation"
 msgstr "(opcional) Crear unha nova rama para a tradución"
 
 #: ../../contribute/translations.rst:68
+#, fuzzy
 msgid ""
 "Build the app using clickable to get up-to-date *.pot*/*.ts* template files"
 msgstr ""
@@ -7076,6 +7194,7 @@ msgstr ""
 "Ts * actualizados"
 
 #: ../../contribute/translations.rst:69
+#, fuzzy
 msgid "Update the desired *.po*/*.ts* language file(s) from the template"
 msgstr ""
 "Actualice os ficheiros de idioma * .po * / *. Ts * desexados desde o modelo"
@@ -7096,6 +7215,7 @@ msgstr ""
 "(opcional) Repita os pasos 6. e 7. ata que estea satisfeito co seu traballo"
 
 #: ../../contribute/translations.rst:73
+#, fuzzy
 msgid ""
 "Push the translated *.po*/*.ts* file(s) to your forked repo [do NOT commit *."
 "pot*/*.ts* template files]"
@@ -7126,14 +7246,15 @@ msgstr ""
 "xa está rexistrado."
 
 #: ../../contribute/translations.rst:82
+#, fuzzy
 msgid ""
 "The only requirement is to start your post putting down your language in "
 "brackets in the \"Enter your topic title here\" field. For example, "
 "``[Spanish] How to translate whatever?``"
 msgstr ""
 "O único requisito é comezar a publicar o seu idioma entre parénteses no "
-"campo \"Insira aquí o título do tema\". Por exemplo, \"[español] Como "
-"traducir o que sexa?\""
+"campo \"Insira aquí o título do tema\". Por exemplo, "
+"\"[español] Como traducir o que sexa?\""
 
 #: ../../contribute/translations.rst:84
 msgid ""
@@ -8540,6 +8661,7 @@ msgid "Other design considerations"
 msgstr "Máis configuración"
 
 #: ../../humanguide/other-design-considerations/index.rst:13
+#, fuzzy
 msgid "`Suru Icons <http://docs.ubports.com/projects/icons/en/latest/>`__"
 msgstr "`Suru Icons <http://docs.ubports.com/projects/icons/en/latest/>` __"
 
@@ -9033,6 +9155,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:40
 #: ../../porting/build_and_boot/H9_build.rst:43
+#, fuzzy
 msgid ""
 "You may have to do this twice. It will likely fix things both times. Then, "
 "run the script without the ``-w`` flag to see if there are any more errors. "
@@ -9052,6 +9175,7 @@ msgstr "Ubuntu Touch require configurar console = tty0"
 
 #: ../../porting/build_and_boot/H7_build.rst:45
 #: ../../porting/build_and_boot/H9_build.rst:48
+#, fuzzy
 msgid ""
 "The halium-boot initramfs expects ``/dev/console`` to be a console device "
 "and will not start init if it is not available. This is commonly the case on "
@@ -9069,6 +9193,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:47
 #: ../../porting/build_and_boot/H9_build.rst:50
+#, fuzzy
 msgid ""
 "It should be done in the makefile named ``BoardConfig.mk`` (or "
 "``BoardConfigCommon.mk``) located in the root directory of your device tree, "
@@ -9076,16 +9201,18 @@ msgid ""
 msgstr ""
 "Debería facerse no makefile chamado \"BoardConfig.mk\" (ou "
 "\"BoardConfigCommon.mk\") situado no directorio raíz da árbore do "
-"dispositivo, por exemplo. \"~ / halium / device / <vendor> / "
-"<model_codename> / BoardConfig.mk\""
+"dispositivo, por exemplo. "
+"\"~ / halium / device / <vendor> / <model_codename> / BoardConfig.mk\""
 
 #: ../../porting/build_and_boot/H7_build.rst:49
 #: ../../porting/build_and_boot/H9_build.rst:52
+#, fuzzy
 msgid "Add the following line::"
 msgstr "Engadir a seguinte liña::"
 
 #: ../../porting/build_and_boot/H7_build.rst:53
 #: ../../porting/build_and_boot/H9_build.rst:56
+#, fuzzy
 msgid ""
 "If your makefile already includes a line beginning with "
 "``BOARD_KERNEL_CMDLINE``, you may add it just below that to keep things tidy."
@@ -9847,6 +9974,7 @@ msgstr ""
 "seleccione * Arrancar * e pase o dedo para flashear."
 
 #: ../../porting/build_and_boot/Halium_install.rst:33
+#, fuzzy
 msgid ""
 "Samsung devices: Flashing halium-boot.img on Samsung devices is done using "
 "the Heimdall flashing utility (on Linux) or the Odin utility (on Windows) "
@@ -9859,13 +9987,13 @@ msgid ""
 msgstr ""
 "Dispositivos Samsung: o halium-boot.img intermitente nos dispositivos "
 "Samsung faise mediante a utilidade intermitente Heimdall (en Linux) ou a "
-"utilidade Odin (en Windows) despois de levar o dispositivo ao \"modo de "
-"descarga\". Vexa máis información sobre estas utilidades `aquí <http://docs."
-"halium.org/en/latest/porting/install-build/reference-rootfs.html#install-"
-"hybris-boot-img-on-samsung-devices>` _. Siga as instrucións da utilidade que "
-"escolla, incluído o comando de parpadeo específico para parpadear a "
-"partición de arranque. Instale system.img e rootfs (a continuación) co "
-"dispositivo en modo de recuperación."
+"utilidade Odin (en Windows) despois de levar o dispositivo ao "
+"\"modo de descarga\". Vexa máis información sobre estas utilidades `aquí "
+"<http://docs.halium.org/en/latest/porting/install-build/reference-rootfs.html"
+"#install-hybris-boot-img-on-samsung-devices>` _. Siga as instrucións da "
+"utilidade que escolla, incluído o comando de parpadeo específico para "
+"parpadear a partición de arranque. Instale system.img e rootfs (a "
+"continuación) co dispositivo en modo de recuperación."
 
 #: ../../porting/build_and_boot/Halium_install.rst:38
 #, fuzzy
@@ -9967,6 +10095,7 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/Halium_install.rst:71
+#, fuzzy
 msgid ""
 "The script will copy and extract the files to their proper places, then "
 "allow you to set the user password for your device (the *phablet* user's "
@@ -11612,6 +11741,7 @@ msgstr ""
 "ref: `Display-settings`."
 
 #: ../../porting/configure_test_fix/Display.rst:10
+#, fuzzy
 msgid ""
 "All of these settings are guessed by Unity 8 if none are set. There are many "
 "cases, however, where the guess is wrong (for example, very high resolution "
@@ -11624,9 +11754,9 @@ msgstr ""
 "Non obstante, hai moitos casos nos que a suposición é incorrecta (por "
 "exemplo, as pantallas de teléfono de moi alta resolución identificaranse "
 "como computadoras de escritorio). Para establecer manualmente un valor para "
-"estas variables, simplemente edite o ficheiro en \"etc / ubuntu-touch-"
-"session.d / android.conf\" especificándoas. Por exemplo, este é o ficheiro "
-"da tableta Nexus 7:"
+"estas variables, simplemente edite o ficheiro en "
+"\"etc / ubuntu-touch-session.d / android.conf\" especificándoas. Por "
+"exemplo, este é o ficheiro da tableta Nexus 7:"
 
 #: ../../porting/configure_test_fix/Display.rst:18
 msgid ""
@@ -11663,6 +11793,7 @@ msgid "Display scaling"
 msgstr "Escalada da pantalla"
 
 #: ../../porting/configure_test_fix/Display.rst:34
+#, fuzzy
 msgid ""
 "``GRID_UNIT_PX`` (Pixels per Grid Unit or Px/GU) is specific to each device. "
 "Its goal is to make the user interface of the system and its applications "
@@ -11684,6 +11815,7 @@ msgstr ""
 "distancia que adoitan estar os teléfonos."
 
 #: ../../porting/configure_test_fix/Display.rst:36
+#, fuzzy
 msgid ""
 "``QTWEBKIT_DPR`` sets the display scaling for the Oxide web engine, so "
 "changes to this value will affect the scale of the browser and webapps."
@@ -11693,6 +11825,7 @@ msgstr ""
 "webapps."
 
 #: ../../porting/configure_test_fix/Display.rst:38
+#, fuzzy
 msgid ""
 "A reference device has been chosen from which we derive the values for all "
 "other devices. The reference device is a laptop with a 120ppi screen. "
@@ -11899,6 +12032,7 @@ msgid "Form factor"
 msgstr "Factor de forma"
 
 #: ../../porting/configure_test_fix/Display.rst:60
+#, fuzzy
 msgid ""
 "``FORM_FACTOR`` specifies the device's form factor. This value is set as the "
 "device's Chassis, which you can find by running ``hostnamectl``. The "
@@ -11919,6 +12053,7 @@ msgid "Native orientation"
 msgstr "Orientación nativa"
 
 #: ../../porting/configure_test_fix/Display.rst:65
+#, fuzzy
 msgid ""
 "``NATIVE_ORIENTATION`` sets the display orientation for the device's built-"
 "in screen. This value is used whenever autorotation isn't working correctly "
@@ -12595,14 +12730,17 @@ msgstr ""
 "\"ubuntu\"."
 
 #: ../../porting/configure_test_fix/Sound.rst:8
+#, fuzzy
 msgid "Locate the line::"
 msgstr "Localizar a liña::"
 
 #: ../../porting/configure_test_fix/Sound.rst:12
+#, fuzzy
 msgid "and replace it with this::"
 msgstr "e reemprazala con isto::"
 
 #: ../../porting/configure_test_fix/Sound.rst:16
+#, fuzzy
 msgid "At the end of the file, append this::"
 msgstr "Na fin do ficheiro, engada isto::"
 
@@ -13432,6 +13570,7 @@ msgid "Building UBports recovery"
 msgstr "Construír unha imaxe de reucperación UBports"
 
 #: ../../porting/finalize/UBports_recovery.rst:6
+#, fuzzy
 msgid ""
 "For the time being, Halium 7.1 porters should refer to the UBports porting "
 "notes on `the UBPorts installer and System image <https://github.com/ubports/"
@@ -13439,8 +13578,8 @@ msgid ""
 msgstr ""
 "Polo momento, os portadores Halium 7.1 deberían consultar as notas de "
 "portaxe de UBports no `Instalador de UBPorts e na imaxe do sistema <https://"
-"github.com/ubports/porting-notes/wiki/HowTo:-UBports-Installer-&-System -"
-"Imaxe- (Halium-7.1)> `_."
+"github.com/ubports/porting-notes/wiki/HowTo:-UBports-Installer-&-System "
+"-Imaxe- (Halium-7.1)> `_."
 
 #: ../../porting/finalize/index.rst:4
 #, fuzzy
@@ -13630,6 +13769,7 @@ msgid "The Ubuntu Touch (UT) root filesystem (rootfs)"
 msgstr "O sistema de ficheiros raíz de Ubuntu Touch (UT) (rootfs)"
 
 #: ../../porting/introduction/Intro.rst:31
+#, fuzzy
 msgid ""
 "`Halium <https://halium.org/>`_ (contained in the boot and system images)"
 msgstr ""
@@ -14007,6 +14147,7 @@ msgstr ""
 "(Ver abaixo)."
 
 #: ../../porting/introduction/Preparations.rst:18
+#, fuzzy
 msgid ""
 "Head over to the `LineageOS Wiki <https://wiki.lineageos.org/>`_. Look up "
 "your device and read and bookmark the guides that are listed there. Try a "
@@ -14025,12 +14166,13 @@ msgstr ""
 "variantes diferentes con especificacións de hardware diferentes."
 
 #: ../../porting/introduction/Preparations.rst:20
+#, fuzzy
 msgid ""
 "Another rich source of information is the `XDA Developers Forum <https://www."
 "xda-developers.com/>`_."
 msgstr ""
-"Outra fonte rica de información é o `XDA Developers Forum <https://www.xda-"
-"developers.com/>` _."
+"Outra fonte rica de información é o `XDA Developers Forum <https://"
+"www.xda-developers.com/>` _."
 
 #: ../../porting/introduction/Preparations.rst:25
 msgid "Unlock the bootloader"
@@ -14069,6 +14211,7 @@ msgid "Install TWRP recovery"
 msgstr "Instalar recuperación TWRP"
 
 #: ../../porting/introduction/Preparations.rst:36
+#, fuzzy
 msgid ""
 "You need to install a custom recovery image on your device in order to "
 "handle formatting and flashing image files onto it. Head over to the `Team "
@@ -16330,10 +16473,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "En primeiro lugar, necesitarías instalado ADB no teu computador."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "En Ubuntu::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "En Fedora::"
 
@@ -16343,13 +16488,14 @@ msgid "And on macOS with `Homebrew <https://brew.sh>`_::"
 msgstr "E en MacOS con `Homebrew <https://brew.sh>`_::"
 
 #: ../../userguide/advanceduse/adb.rst:24
+#, fuzzy
 msgid ""
 "For Windows, grab the command-line tools only package from `developer."
 "android.com <https://developer.android.com/studio/index.html#downloads>`_."
 msgstr ""
-"Para Windows, colle o paquete só de ferramentas de liña de comandos de "
-"`developer.android.com <https://developer.android.com/studio/index."
-"html#downloads>` _."
+"Para Windows, colle o paquete só de ferramentas de liña de comandos de `"
+"developer.android.com <https://developer.android.com/studio/"
+"index.html#downloads>` _."
 
 #: ../../userguide/advanceduse/adb.rst:27
 msgid "Enable developer mode"
@@ -16377,6 +16523,7 @@ msgid "Plug the device into a computer with ADB installed"
 msgstr "Conecte o dispositivo a un ordenador con adb instalado"
 
 #: ../../userguide/advanceduse/adb.rst:34
+#, fuzzy
 msgid "Open a terminal and run ``adb devices``."
 msgstr "Abre un terminal e executa \"dispositivos adb\"."
 
@@ -16434,6 +16581,7 @@ msgid "ADB shell commands::"
 msgstr "Comandos do shell adb::"
 
 #: ../../userguide/advanceduse/adb.rst:64
+#, fuzzy
 msgid "Additional Adb commands::"
 msgstr "Comandos adicionais adb::"
 
@@ -16460,6 +16608,7 @@ msgstr ""
 "Podes engadir manualmente os dispositivos cos que non sabe falar."
 
 #: ../../userguide/advanceduse/adb.rst:76
+#, fuzzy
 msgid ""
 "Just run the command for your selected device if it's below. Then, run ``adb "
 "kill-server`` followed by the command you were initially trying to run."
@@ -16469,6 +16618,7 @@ msgstr ""
 "inicialmente intentaba executar."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
@@ -17074,6 +17224,7 @@ msgid "Connect"
 msgstr "Conectar"
 
 #: ../../userguide/advanceduse/ssh.rst:46
+#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
 msgstr "Agora todo está configurado e pode usar ``ssh`` ::"
 
@@ -17109,6 +17260,7 @@ msgid "In this case you use the second IP address"
 msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:71
+#, fuzzy
 msgid "Of course you can now also use ``scp`` or ``sshfs`` to transfer files."
 msgstr ""
 "Por suposto, agora tamén podes usar \"scp\" ou \"sshfs\" para transferir "
@@ -17243,6 +17395,7 @@ msgstr ""
 "O primeiro paso é crear un recipiente onde os aplicativos van ser instalados:"
 
 #: ../../userguide/dailyuse/libertine.rst:24
+#, fuzzy
 msgid ""
 "Open Settings and scroll down to *Libertine* under the *System* sub-heading."
 msgstr ""
@@ -17329,6 +17482,7 @@ msgid "List containers"
 msgstr "Facer unha lista de recipientes"
 
 #: ../../userguide/dailyuse/libertine.rst:54
+#, fuzzy
 msgid ""
 "Use the *Settings Manage Libertine Containers* sub-menu to list all the "
 "containers you have created on the device."
@@ -17350,6 +17504,7 @@ msgid "Manage applications"
 msgstr "Xestión de aplicativos"
 
 #: ../../userguide/dailyuse/libertine.rst:69
+#, fuzzy
 msgid ""
 "Once a container is set up, the installed applications are available in the "
 "app drawer. You can also tap the name of the container in the *Manage "
@@ -17481,14 +17636,16 @@ msgid "For every container you create, two directories will be created:"
 msgstr "Para cada recipiente que cre haberá dous directorios creados:"
 
 #: ../../userguide/dailyuse/libertine.rst:129
+#, fuzzy
 msgid ""
 "A root directory ``~/.cache/libertine-container/CONTAINER-IDENTIFIER/rootfs/"
 "`` and"
 msgstr ""
-"Un directorio raíz \"~ / .cache / libertine-container / CONTAINER-"
-"IDENTIFIER / rootfs /\" e"
+"Un directorio raíz "
+"\"~ / .cache / libertine-container / CONTAINER-IDENTIFIER / rootfs /\" e"
 
 #: ../../userguide/dailyuse/libertine.rst:130
+#, fuzzy
 msgid ""
 "a user directory ``~/.local/share/libertine-container/user-data/CONTAINER-"
 "IDENTIFIER/``"
@@ -17724,6 +17881,7 @@ msgid "Using location services"
 msgstr "Usando servizos de localización"
 
 #: ../../userguide/dailyuse/location.rst:4
+#, fuzzy
 msgid ""
 "Location services in Ubuntu Touch allow apps to access your current "
 "location. Using this data, apps can `offer turn-by-turn navigation <https://"
@@ -17734,8 +17892,8 @@ msgid ""
 msgstr ""
 "Os servizos de localización en Ubuntu Touch permiten ás aplicacións acceder "
 "á túa situación actual. Usando estes datos, os aplicativos poden `ofrecer "
-"navegación paso a paso <https://open-store.io/app/navigator.costales>` __, "
-"`rastrexar os camiños de exercicios <https://open-store.io/ app / "
+"navegación paso a paso <https://open-store.io/app/navigator.costales>` __, `"
+"rastrexar os camiños de exercicios <https://open-store.io/ app / "
 "activitytracker.cwayne18> `__,` localiza o transporte público preto de ti "
 "<https://open-store.io/app/transport.zubozrout> `__ e moito máis."
 
@@ -17859,6 +18017,7 @@ msgid "Quick settings"
 msgstr "Configuración rápida"
 
 #: ../../userguide/dailyuse/location.rst:59
+#, fuzzy
 msgid "`Open location quick settings`_, then select ``Location settings...``."
 msgstr ""
 "`Abrir configuración rápida de localización`_ e logo seleccione“ "
@@ -17870,12 +18029,13 @@ msgid "System settings app"
 msgstr "Aplicativo de configuración do sistema"
 
 #: ../../userguide/dailyuse/location.rst:64
+#, fuzzy
 msgid ""
 "Launch the ``System Settings`` app. Select ``Security & Privacy``, then "
 "select ``Location``."
 msgstr ""
-"Inicia o aplicativo \"Configuración do sistema\". Selecciona \"Seguridade e "
-"privacidade\" e logo selecciona \"Localización\"."
+"Inicia o aplicativo \"Configuración do sistema\". Selecciona "
+"\"Seguridade e privacidade\" e logo selecciona \"Localización\"."
 
 #: ../../userguide/dailyuse/location.rst:68
 msgid "Enabling or disabling location services"
@@ -17920,6 +18080,7 @@ msgstr ""
 "localización."
 
 #: ../../userguide/dailyuse/location.rst:86
+#, fuzzy
 msgid ""
 "`Open location settings in the settings app`_. Under ``Let the device detect "
 "your location:``, select the appropriate option:"
@@ -17929,10 +18090,12 @@ msgstr ""
 "axeitada:"
 
 #: ../../userguide/dailyuse/location.rst:89
+#, fuzzy
 msgid "``Using GPS`` turns on location services."
 msgstr "\"Usar GPS\" activa os servizos de localización."
 
 #: ../../userguide/dailyuse/location.rst:90
+#, fuzzy
 msgid "``Not at all`` turns off location services."
 msgstr "\"En absoluto\" desactiva os servizos de localización."
 
@@ -17960,6 +18123,7 @@ msgstr ""
 "vez que intenta acceder á súa situación actual."
 
 #: ../../userguide/dailyuse/location.rst:104
+#, fuzzy
 msgid ""
 "Select ``Allow`` to give the app access to your current location. Select "
 "``Don't Allow`` to deny the app access to your current location. Some app "
@@ -18048,6 +18212,7 @@ msgid "Time to first fix"
 msgstr "Tempo para a primeira solución"
 
 #: ../../userguide/dailyuse/location.rst:142
+#, fuzzy
 msgid ""
 "A \"fix\" is a data point generated by GPS hardware that contains its "
 "current location and the expected accuracy of that location. GPS hardware is "
@@ -18058,10 +18223,12 @@ msgstr ""
 "Unha \"corrección\" é un punto de datos xerado polo hardware GPS que contén "
 "a súa situación actual e a precisión esperada desa situación. O hardware GPS "
 "clasifícase polo tempo que tarda en devolver un destes puntos de datos "
-"despois de activar o dispositivo. Esta clasificación chámase \"` Time To "
-"First Fix <https://en.wikipedia.org/wiki/Time_to_first_fix> `_\" ou TTFF."
+"despois de activar o dispositivo. Esta clasificación chámase "
+"\"` Time To First Fix <https://en.wikipedia.org/wiki/Time_to_first_fix> `_\" "
+"ou TTFF."
 
 #: ../../userguide/dailyuse/location.rst:146
+#, fuzzy
 msgid ""
 "A device with a mobile data connection should take one to four minutes to "
 "receive its first fix. If location services have not been used for a long "
@@ -18476,6 +18643,7 @@ msgid "Install Ubuntu Touch"
 msgstr "Instalar Ubuntu Touch"
 
 #: ../../userguide/install.rst:4
+#, fuzzy
 msgid ""
 "Installing Ubuntu Touch is easy, and a lot of work has gone in to making the "
 "installation process less intimidating to the average user. The UBports "
@@ -18509,6 +18677,7 @@ msgstr ""
 "queres conservala."
 
 #: ../../userguide/install.rst:9
+#, fuzzy
 msgid ""
 "You can `Download the UBports Installer from GitHub <https://github.com/"
 "ubports/ubports-installer/releases/latest>`_. The following packages are "
@@ -18519,6 +18688,7 @@ msgstr ""
 "dispoñibles:"
 
 #: ../../userguide/install.rst:11
+#, fuzzy
 msgid ""
 "`Windows <https://devices.ubuntu-touch.io/installer/?package=exe>`_: "
 "``ubports-installer-<version-number>.exe``"
@@ -18580,6 +18750,7 @@ msgstr ""
 "porting / index>`."
 
 #: ../../userguide/install.rst:22
+#, fuzzy
 msgid ""
 "Please do **not** start the installer with ``sudo``. It is meant to be run "
 "as a normal user, not as root. Using the installer with sudo will mess up "
@@ -18594,6 +18765,7 @@ msgstr ""
 "dispositivo, consulte a información de solución de problemas a continuación."
 
 #: ../../userguide/install.rst:27
+#, fuzzy
 msgid ""
 "If you need help, you can join UBports' support channels on `telegram "
 "<https://t.me/WelcomePlus>`_ or `matrix <https://matrix.to/#/!"
@@ -18604,9 +18776,9 @@ msgid ""
 "github.com/ubports/ubports-installer/issues/new>`_ to help us solve the "
 "problem."
 msgstr ""
-"Se precisa axuda, pode unirse ás canles de asistencia de UBports en "
-"`telegram <https://t.me/WelcomePlus>` _ ou `matrix <https://matrix.to/#/!"
-"KwdniMNeTmClpgHkND:matrix.org?via = matrix.org & via = ubports.chat & via = "
+"Se precisa axuda, pode unirse ás canles de asistencia de UBports en `"
+"telegram <https://t.me/WelcomePlus>` _ ou `matrix <https://matrix.to/#/"
+"!KwdniMNeTmClpgHkND:matrix.org?via = matrix.org & via = ubports.chat & via = "
 "disroot.org> `_ ou faga unha pregunta` no foro <https://forums.ubports.com/> "
 "`_ ou en` askubuntu <https://askubuntu.com> _. Se cres que o instalador de "
 "UBports non funciona correctamente, tamén podes \"presentar un novo problema "
@@ -18662,6 +18834,7 @@ msgid "Windows ADB drivers"
 msgstr "Controladores de Windows ADB"
 
 #: ../../userguide/install.rst:50
+#, fuzzy
 msgid ""
 "Install the `universal adb driver <http://adb.clockworkmod.com/>`_ and "
 "reboot your computer."
@@ -18674,6 +18847,7 @@ msgid "Fairphone 2 Vendor-ID"
 msgstr "Indentificación do fabricante para o Fairphone 2"
 
 #: ../../userguide/install.rst:55
+#, fuzzy
 msgid ""
 "Run ``echo 0x2ae5 >> ~/.android/adb_usb.ini`` in the terminal and restart "
 "the installer. This does not affect the snap package."
@@ -18695,20 +18869,23 @@ msgstr ""
 "posible que falte ** udev-rules **."
 
 #: ../../userguide/install.rst:62
+#, fuzzy
 msgid ""
 "See if ``/etc/udev/rules.d/51-android.rules`` exists and contains the rules "
 "below. If not, add them to the file and run ``sudo service udev restart`` or "
 "``sudo udevadm control --reload-rules && udevadm trigger``."
 msgstr ""
 "Vexa se existe \"/ etc / udev / rules.d / 51-android.rules\" e contén as "
-"regras a continuación. Se non, engádeos ao ficheiro e execute \"sudo service "
-"udev restart\" ou \"sudo udevadm control --reload-rules && udevadm trigger\"."
+"regras a continuación. Se non, engádeos ao ficheiro e execute "
+"\"sudo service udev restart\" ou "
+"\"sudo udevadm control --reload-rules && udevadm trigger\"."
 
 #: ../../userguide/install.rst:102
 msgid "Other issues"
 msgstr "Outros problemas"
 
 #: ../../userguide/install.rst:104
+#, fuzzy
 msgid ""
 "If the troubleshooting tips do not work, you might also try following the "
 "manual installation instructions for your device `on the devices page "
