@@ -40,46 +40,21 @@
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2021-10-04 15:44+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
-"Language-Team: Spanish <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-userguide/es/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports 1.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  appdev.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.1\n"
-"#-#-#-#-#  contribute.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  humanguide.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  index.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  porting.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.1\n"
-"#-#-#-#-#  userguide.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.14-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -1083,6 +1058,7 @@ msgstr ""
 "mano de obra."
 
 #: ../../appdev/code-editor.rst:12
+#, fuzzy
 msgid ""
 "You can still install the SDK IDE in Ubuntu 16.04, but it is not guaranteed "
 "to work correctly. You can use the following commands to install::"
@@ -1606,6 +1582,7 @@ msgid "Importing from Content Hub and URLdispatcher"
 msgstr "Importar desde el centro de contenido y «URLdispatcher»"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:15
+#, fuzzy
 msgid ""
 "In the previous guide we have seen a little bit about how Content Hub works. "
 "In this guide we will see how ``URLdispatcher`` works and how to handle "
@@ -3767,6 +3744,7 @@ msgstr ""
 "autor, kit de desarrollo de programas (sdk) objetivo y versión."
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
 msgstr "Ejemplo de archivo ``manifest.json``::"
 
@@ -3796,6 +3774,7 @@ msgstr ""
 "mostrar en la pantalla principal y otras propiedades."
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
 msgstr "Ejemplo de ``app.desktop``::"
 
@@ -3871,6 +3850,7 @@ msgstr ""
 "correctamente con un archivo ``.json`` de «apparmor»."
 
 #: ../../appdev/platform/click.rst:64
+#, fuzzy
 msgid "Example ``apparmor.json`` file::"
 msgstr "Ejemplo de archivo ``apparmor.json``::"
 
@@ -3998,10 +3978,12 @@ msgid "Launching"
 msgstr "Lanzamiento"
 
 #: ../../appdev/webapp/guide.rst:17
+#, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
 msgstr "Puede iniciar una aplicación web desde la terminal con:::"
 
 #: ../../appdev/webapp/guide.rst:21
+#, fuzzy
 msgid "For example:::"
 msgstr "Por ejemplo:::"
 
@@ -4096,6 +4078,7 @@ msgid "Uncontained by default"
 msgstr "Sin contener por defecto"
 
 #: ../../appdev/webapp/guide.rst:49
+#, fuzzy
 msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
@@ -4126,6 +4109,7 @@ msgid "Simple containment to the site"
 msgstr "Confinamiento simple para el sitio"
 
 #: ../../appdev/webapp/guide.rst:60
+#, fuzzy
 msgid ""
 "One often wants to contain users to the site itself. That is, if the website "
 "is www.ubuntu.com, it may be useful to contain webapp users only to subpages "
@@ -4185,6 +4169,7 @@ msgid "More complex wildcard patterns"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:76
+#, fuzzy
 msgid ""
 "You might want to limit access to only some subpages of your site from "
 "within the webapp. This is easy with wildcard patterns. (Links to other "
@@ -4204,14 +4189,15 @@ msgid "Multiple patterns"
 msgstr "Patrones múltiples"
 
 #: ../../appdev/webapp/guide.rst:84
+#, fuzzy
 msgid ""
 "You can use multiple patterns by separating them with a comma. For example, "
 "the following allows access only to www.ubuntu.com/desktop/features and www."
 "ubuntu.com/phone/features:::"
 msgstr ""
 "Puede usar patrones múltiples separándolos con una coma. Por ejemplo, lo "
-"siguiente permite el acceso solo a www.ubuntu.com/desktop/features y www."
-"ubuntu.com/phone/features:::"
+"siguiente permite el acceso solo a www.ubuntu.com/desktop/features y "
+"www.ubuntu.com/phone/features:::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4263,6 +4249,7 @@ msgid "Adding subdomains with a wildcard"
 msgstr "Añadiendo subdominios con un comodín"
 
 #: ../../appdev/webapp/guide.rst:109
+#, fuzzy
 msgid ""
 "Some URLs have multiple subdomains. For example, www.ubuntu.com has design."
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
@@ -4324,14 +4311,17 @@ msgstr ""
 "aloja varias aplicaciones web."
 
 #: ../../appdev/webapp/guide.rst:129
+#, fuzzy
 msgid "See all help with:::"
 msgstr "Vea toda la ayuda con:::"
 
 #: ../../appdev/webapp/guide.rst:133
+#, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
 msgstr "Nota: solo las siguientes opciones se aplican a Ubuntu convergente.::"
 
 #: ../../appdev/webapp/guide.rst:147
+#, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
 msgstr ""
 "Opciones de Chrome (si ninguna se especifica, no se muestra ningún chrome "
@@ -4363,6 +4353,7 @@ msgstr ""
 "por defecto que envía el contenedor de la aplicación web."
 
 #: ../../appdev/webapp/guide.rst:159
+#, fuzzy
 msgid "To change the string from the command line, use the following option:::"
 msgstr ""
 "Para cambiar la cadena en la línea de órdenes, use la siguiente opción:::"
@@ -4530,6 +4521,7 @@ msgid "Watch the logs"
 msgstr "Ver los registros («logs»)"
 
 #: ../../appdev/webapp/webdebug.rst:11
+#, fuzzy
 msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
@@ -4566,6 +4558,7 @@ msgstr ""
 "modo especial, tiene acceso al depurador normal de Chrome."
 
 #: ../../appdev/webapp/webdebug.rst:26
+#, fuzzy
 msgid "On your phone, start the browser in inspector mode:::"
 msgstr "En su teléfono, inicie el navegador en modo inspector:::"
 
@@ -5973,6 +5966,7 @@ msgstr ""
 "solicitud de incorporación de cambios («pull request») para hacerlo mejor!"
 
 #: ../../contribute/documentation.rst:204
+#, fuzzy
 msgid "To create a todo, add this markup to your page::"
 msgstr "Para crear un por hacer, añada esta marca a su página::"
 
@@ -6392,13 +6386,14 @@ msgstr ""
 "si puede o no reproducir el problema."
 
 #: ../../contribute/quality-assurance.rst:16
+#, fuzzy
 msgid ""
 "If you have write-access to the repository, you can replace the **needs "
 "confirmation** label with **bug** (to mark it confirmed) or **invalid** (if "
 "the issue is definitely not reproducible). In that case it should be closed."
 msgstr ""
-"Si tiene derecho de escritura en el repositorio, puede cambiar la etiqueta "
-"**needs confirmation** (**necesita confirmación**) por la de **bug** "
+"Si tiene derecho de escritura en el repositorio, puede cambiar la etiqueta **"
+"needs confirmation** (**necesita confirmación**) por la de **bug** "
 "(**error**) (para marcarlo como confirmado) o **invalid** (**nulo**) (si "
 "definitivamente el problema no es reproducible). En ese caso debería ser "
 "cerrado."
@@ -6787,14 +6782,15 @@ msgstr ""
 "para esta tarea."
 
 #: ../../contribute/translations.rst:82
+#, fuzzy
 msgid ""
 "The only requirement is to start your post putting down your language in "
 "brackets in the \"Enter your topic title here\" field. For example, "
 "``[Spanish] How to translate whatever?``"
 msgstr ""
 "El único requisito es comenzar su entrada poniendo su idioma entre corchetes "
-"en el campo \"Introduzca el título de su tema aquí\". Por ejemplo, "
-"`[Español] ¿Cómo traducir lo que sea?``"
+"en el campo \"Introduzca el título de su tema aquí\". Por ejemplo, `[Español]"
+" ¿Cómo traducir lo que sea?``"
 
 #: ../../contribute/translations.rst:84
 msgid ""
@@ -15796,10 +15792,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "Primero necesitará tener instalado ADB en su ordenador."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "En Ubuntu::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "En Fedora::"
 
@@ -15900,6 +15898,7 @@ msgid "ADB shell commands::"
 msgstr "Comandos de adb shell::"
 
 #: ../../userguide/advanceduse/adb.rst:64
+#, fuzzy
 msgid "Additional Adb commands::"
 msgstr "Comandos de adb adicionales::"
 
@@ -15936,6 +15935,7 @@ msgstr ""
 "inicialmente estaba intentando ejecutar."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
@@ -16553,6 +16553,7 @@ msgid "Connect"
 msgstr "Conectar"
 
 #: ../../userguide/advanceduse/ssh.rst:46
+#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
 msgstr "Ahora ya está configurado todo y puede usar ``ssh`` ::"
 
@@ -16966,6 +16967,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:143
 #: ../../userguide/dailyuse/libertine.rst:159
+#, fuzzy
 msgid "To execute a command you can use the following pattern::"
 msgstr "Para ejecutar una orden puede seguir el siguiente patrón::"
 
