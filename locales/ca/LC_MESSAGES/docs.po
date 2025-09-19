@@ -33,43 +33,21 @@
 # Copyright (C) 2017, The UBports project (Creative Commons BY-SA 4.0)
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2020-07-27 12:31+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
-"Language-Team: Catalan <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-userguide/ca/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports 1.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  appdev.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
-"Generated-By: Babel 2.5.1\n"
-"#-#-#-#-#  contribute.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  index.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"Generated-By: Babel 2.5.3\n"
-"#-#-#-#-#  porting.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15\n"
-"Generated-By: Babel 2.5.1\n"
-"#-#-#-#-#  userguide.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 5.14-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -3046,6 +3024,7 @@ msgid "Usage: common"
 msgstr "Ús: comú"
 
 #: ../../appdev/platform/apparmor.rst:32
+#, fuzzy
 msgid ""
 "The accounts policy gives your app the permissions it needs to access the "
 "`Online Accounts API`_."
@@ -3425,6 +3404,7 @@ msgid "Description: Can access the sensors"
 msgstr "Descripció: es poden accedir els sensors"
 
 #: ../../appdev/platform/apparmor.rst:253
+#, fuzzy
 msgid "Allows apps to access `device sensors`_"
 msgstr "Permet a les aplicacions accedir al «sensors de dispositiu»_"
 
@@ -3522,6 +3502,7 @@ msgstr ""
 "versió."
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
 msgstr "Exemple de fitxer ``manifest.json``::"
 
@@ -3551,6 +3532,7 @@ msgstr ""
 "icona mostrar a la pantalla d'inici, i algunes altres propietats."
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
 msgstr "Exemple d'`app.desktop``::"
 
@@ -3571,6 +3553,7 @@ msgid "Icon: Path to the icon to display"
 msgstr "Icona: camí a la icona a mostrar"
 
 #: ../../appdev/platform/click.rst:49
+#, fuzzy
 msgid "Terminal: ``false`` if will not run in terminal window"
 msgstr "Terminal: ``false``si no s'executarà a la finestra de terminal"
 
@@ -3587,6 +3570,7 @@ msgid "X-Ubuntu-Touch: ``true`` to make the app visible"
 msgstr "X-Ubuntu-Touch: ``true`` per fer visible l'aplicació"
 
 #: ../../appdev/platform/click.rst:52
+#, fuzzy
 msgid "X-Ubuntu-XMir-Enable: ``true`` if your app is built for X"
 msgstr ""
 "X-Ubuntu-XMir-Enable: ``true``si la vostra aplicació està construïda sobre "
@@ -3623,6 +3607,7 @@ msgstr ""
 "adequadament amb el fitxer ``.json``de l'apparmor."
 
 #: ../../appdev/platform/click.rst:64
+#, fuzzy
 msgid "Example ``apparmor.json`` file::"
 msgstr "Exemple de fitxer ``apparmor.json``::"
 
@@ -3748,10 +3733,12 @@ msgid "Launching"
 msgstr "Llançament"
 
 #: ../../appdev/webapp/guide.rst:17
+#, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
 msgstr "Podeu llençar una aplicació web des de la terminal amb:::"
 
 #: ../../appdev/webapp/guide.rst:21
+#, fuzzy
 msgid "For example:::"
 msgstr "Per exemple:::"
 
@@ -3790,6 +3777,7 @@ msgstr ""
 "com arguments de la línia d'ordres:"
 
 #: ../../appdev/webapp/guide.rst:34
+#, fuzzy
 msgid ""
 "``--enable-back-forward`` Enable the display of the back and forward buttons "
 "in the toolbar (at the bottom of the webapp window)"
@@ -3846,6 +3834,7 @@ msgid "Uncontained by default"
 msgstr "Sense confinament per defecte"
 
 #: ../../appdev/webapp/guide.rst:49
+#, fuzzy
 msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
@@ -3876,6 +3865,7 @@ msgid "Simple containment to the site"
 msgstr "Confinament simple al lloc"
 
 #: ../../appdev/webapp/guide.rst:60
+#, fuzzy
 msgid ""
 "One often wants to contain users to the site itself. That is, if the website "
 "is www.ubuntu.com, it may be useful to contain webapp users only to subpages "
@@ -3934,6 +3924,7 @@ msgid "More complex wildcard patterns"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:76
+#, fuzzy
 msgid ""
 "You might want to limit access to only some subpages of your site from "
 "within the webapp. This is easy with wildcard patterns. (Links to other "
@@ -3945,22 +3936,23 @@ msgstr ""
 "des de dins de l'aplicació web. Això és fàcil amb patrons comodins. (Els "
 "enllaços a altres subpàgines s'obren al navegador.) Per exemple, el següent "
 "permet l'accés a www.ubuntu.com/desktop/features i www.ubuntu.com/phone/"
-"features mentre que no permet accés a www.ubuntu.com/desktop or www.ubuntu."
-"com/phone::"
+"features mentre que no permet accés a www.ubuntu.com/desktop or "
+"www.ubuntu.com/phone::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
 msgstr "Patrons múltiples"
 
 #: ../../appdev/webapp/guide.rst:84
+#, fuzzy
 msgid ""
 "You can use multiple patterns by separating them with a comma. For example, "
 "the following allows access only to www.ubuntu.com/desktop/features and www."
 "ubuntu.com/phone/features:::"
 msgstr ""
 "Podeu usar patrons múltiples separant-los amb una coma. Per exemple, el "
-"següent permet accés sols a www.ubuntu.com/desktop/features and www.ubuntu."
-"com/phone/features:::"
+"següent permet accés sols a www.ubuntu.com/desktop/features and "
+"www.ubuntu.com/phone/features:::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4012,6 +4004,7 @@ msgid "Adding subdomains with a wildcard"
 msgstr "Addició de subdominis amb un comodí"
 
 #: ../../appdev/webapp/guide.rst:109
+#, fuzzy
 msgid ""
 "Some URLs have multiple subdomains. For example, www.ubuntu.com has design."
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
@@ -4073,14 +4066,17 @@ msgstr ""
 "diverses aplicacions web."
 
 #: ../../appdev/webapp/guide.rst:129
+#, fuzzy
 msgid "See all help with:::"
 msgstr "Vegeu tota la ajuda amb:::"
 
 #: ../../appdev/webapp/guide.rst:133
+#, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
 msgstr "Nota: Sols les opcions següents s'apliquen a l'Ubuntu convergit.::"
 
 #: ../../appdev/webapp/guide.rst:147
+#, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
 msgstr ""
 "Opcions del Chrome (si no s'especifica cap, no es mostra cap chrome per "
@@ -4112,6 +4108,7 @@ msgstr ""
 "defecte enviada pel contenidor web."
 
 #: ../../appdev/webapp/guide.rst:159
+#, fuzzy
 msgid "To change the string from the command line, use the following option:::"
 msgstr ""
 "Per canviar la cadena de caràcters des de la línia d'ordres, useu l'opció "
@@ -4281,6 +4278,7 @@ msgid "Watch the logs"
 msgstr "Inspecció dels registres"
 
 #: ../../appdev/webapp/webdebug.rst:11
+#, fuzzy
 msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
@@ -4316,6 +4314,7 @@ msgstr ""
 "especial, teniu accés al depurador regular d'estil Chrome."
 
 #: ../../appdev/webapp/webdebug.rst:26
+#, fuzzy
 msgid "On your phone, start the browser in inspector mode:::"
 msgstr "Al vostre telèfon, inicieu el navegador en mode inspector::"
 
@@ -5692,6 +5691,7 @@ msgstr ""
 "demanda d'incorporació de canvis per fer-lo millor!"
 
 #: ../../contribute/documentation.rst:204
+#, fuzzy
 msgid "To create a todo, add this markup to your page::"
 msgstr "Per crear un per fer, afegiu aquest marcatge a la vostra pàgina::"
 
@@ -10911,6 +10911,7 @@ msgid "Display scaling"
 msgstr "Escalat de la pantalla"
 
 #: ../../porting/configure_test_fix/Display.rst:34
+#, fuzzy
 msgid ""
 "``GRID_UNIT_PX`` (Pixels per Grid Unit or Px/GU) is specific to each device. "
 "Its goal is to make the user interface of the system and its applications "
@@ -10932,6 +10933,7 @@ msgstr ""
 "sostenen a 1.235 cops la distància a la qual se sostenen els telèfons."
 
 #: ../../porting/configure_test_fix/Display.rst:36
+#, fuzzy
 msgid ""
 "``QTWEBKIT_DPR`` sets the display scaling for the Oxide web engine, so "
 "changes to this value will affect the scale of the browser and webapps."
@@ -15458,10 +15460,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "En primer lloc, us caldrà instal·lar l'ADB al vostre ordinador."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "A l'Ubuntu::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "Al Fedora::"
 
@@ -15598,6 +15602,7 @@ msgstr ""
 "intentàveu executar inicialment."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
@@ -16204,6 +16209,7 @@ msgid "Connect"
 msgstr "Connecteu"
 
 #: ../../userguide/advanceduse/ssh.rst:46
+#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
 msgstr "Ara tot està configurat i podeu usar ``ssh`` ::"
 
@@ -16235,6 +16241,7 @@ msgid "In this case you use the second IP address"
 msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:71
+#, fuzzy
 msgid "Of course you can now also use ``scp`` or ``sshfs`` to transfer files."
 msgstr ""
 "Per suposat que podeu usar també ``scp`` o ``sshfs``per transferir fitxers."
