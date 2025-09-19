@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 12:50+0000\n"
+"POT-Creation-Date: 2025-09-19 12:51+0000\n"
 "PO-Revision-Date: 2020-08-08 18:48+0000\n"
 "Last-Translator: satriocode <satrioismail52@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.ubports.com/projects/ubports-"
@@ -2279,7 +2279,7 @@ msgstr ""
 #: ../../systemdev/mms-infrastructure.rst:53
 #: ../../userguide/advanceduse/reverse-tethering.rst:55
 #: ../../userguide/advanceduse/screencasting.rst:74
-#: ../../userguide/advanceduse/ssh.rst:91
+#: ../../userguide/advanceduse/ssh.rst:110
 msgid "References"
 msgstr ""
 
@@ -7687,8 +7687,9 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:85
+#: ../../porting/build_and_boot/H9_build.rst:110
 msgid ""
-"I your particular error is not listed, you will need to do some research of "
+"If your particular error is not listed, you will need to do some research of "
 "your own. If you end up here, know that there is a community of porters, "
 "developers and enthusiasts who might be able to help you. Refer to :ref:"
 "`Getting-community-help`."
@@ -8082,14 +8083,6 @@ msgstr ""
 msgid ""
 "Halium will use the ``mkbootimg`` tool for creating the boot image. In most "
 "cases it is not on the local harddisk, so it can be built by issuing::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:110
-msgid ""
-"If your particular error is not listed, you will need to do some research of "
-"your own. If you end up here, know that there is a community of porters, "
-"developers and enthusiasts who might be able to help you. Refer to :ref:"
-"`Getting-community-help`."
 msgstr ""
 
 #: ../../porting/build_and_boot/H9_build.rst:117
@@ -14728,7 +14721,7 @@ msgid "Steps to Set Up Reverse Tethering"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:10
-msgid "Prepare your device (Ubuntu Touch) and your computer:"
+msgid "Prepare your *device* (Ubuntu Touch) and your *computer* (Linux):"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:12
@@ -14743,15 +14736,13 @@ msgstr ""
 msgid "Turn off Wifi and Data on your *device*"
 msgstr ""
 
-#: ../../userguide/advanceduse/reverse-tethering.rst:16
-msgid "Run the following commands on your *device*:"
+#: ../../userguide/advanceduse/reverse-tethering.rst:15
+msgid ""
+"Set your device :doc:`usb in tethering mode </userguide/dailyuse/tethering>`"
 msgstr ""
 
-#: ../../userguide/advanceduse/reverse-tethering.rst:18
-msgid ""
-"Set your device usb in tethering mode: ``gdbus call --system --dest com."
-"meego.usb_moded --object-path /com/meego/usb_moded --method com.meego."
-"usb_moded.set_mode rndis_adb``"
+#: ../../userguide/advanceduse/reverse-tethering.rst:17
+msgid "Run the following commands on your *device*:"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:19
@@ -14819,6 +14810,7 @@ msgid "You should now have a working internet connection on your *device*!"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:47
+#: ../../userguide/advanceduse/ssh.rst:91
 #: ../../userguide/dailyuse/waydroid.rst:77 ../../userguide/install.rst:25
 msgid "Troubleshooting"
 msgstr ""
@@ -14826,7 +14818,7 @@ msgstr ""
 #: ../../userguide/advanceduse/reverse-tethering.rst:49
 msgid ""
 "If the above steps don't give you working internet connection on your "
-"*device* the try these steps on your *computer*:"
+"*device* then try these steps on your *computer*:"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:51
@@ -14835,7 +14827,7 @@ msgid ""
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:52
-msgid "Apply Forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
+msgid "Apply forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:57
@@ -15065,13 +15057,29 @@ msgid "then add the following text::"
 msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:93
+msgid "If connecting fails with the message ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:97
+msgid "check the log on the UBports device ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:101
+msgid "If you see a message about missing hostkeys such as ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:105
+msgid "You need to generate host keys with the following command ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:112
 msgid ""
 "`askubuntu.com: How can I access my Ubuntu phone over SSH? <https://"
 "askubuntu.com/questions/348714/how-can-i-access-my-ubuntu-phone-over-"
 "ssh/599041#599041>`_"
 msgstr ""
 
-#: ../../userguide/advanceduse/ssh.rst:94
+#: ../../userguide/advanceduse/ssh.rst:113
 msgid ""
 "`gurucubano: BQ Aquaris E 4.5 Ubuntu phone: How to get SSH access to the "
 "Ubuntu phone via Wi-Fi <https://gurucubano.gitbooks.io/bq-aquaris-e-4-5-"
@@ -15795,6 +15803,38 @@ msgid ""
 "locked. When an app is suspended, it cannot receive location data. For this "
 "reason, apps will not be able to track your location whenever they are not "
 "in use or the device is locked."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:2
+msgid "Tethering"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:4
+msgid ""
+"This tutorial explains how to enable USB Tethering on your Ubuntu Touch "
+"device to share it's internet connection over a USB cable with a computer."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:6
+msgid "Go to the settings app and look for the usb icon"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:10
+msgid "The USB Setting in the settings app."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:12
+msgid "On the USB page you can then choose for the USB tethering option"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:16
+msgid "The USB Setting page."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:18
+msgid ""
+"And that's it, you are now sharing the internet from your Ubuntu Touch "
+"device to your computer"
 msgstr ""
 
 #: ../../userguide/dailyuse/volte.rst:2

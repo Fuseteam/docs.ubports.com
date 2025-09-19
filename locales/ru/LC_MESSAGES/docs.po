@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 12:50+0000\n"
+"POT-Creation-Date: 2025-09-19 12:51+0000\n"
 "PO-Revision-Date: 2025-09-19 13:55+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/ubports/"
-"doc-ubports-com/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/ubports/doc-"
+"ubports-com/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1270,9 +1270,9 @@ msgid ""
 "Destination``, so the app selected should store the saved game."
 msgstr ""
 "``contentType`` - это``ContentType.All``, поэтому мы увидим только "
-"приложения,  которые могут получать файлы с неуказанными типами.  ``handler``"
-" - это ``ContentHandler.Destination``, поэтому выбранное приложение должно "
-"сохранять файл игры."
+"приложения,  которые могут получать файлы с неуказанными типами.  "
+"``handler`` - это ``ContentHandler.Destination``, поэтому выбранное "
+"приложение должно сохранять файл игры."
 
 #: ../../appdev/guides/contenthub.rst:83
 msgid ""
@@ -1339,9 +1339,9 @@ msgid ""
 "relation to the ``\"content-hub\"`` should follow the rules defined in "
 "``openstore-contenthub.json``"
 msgstr ""
-"Приведённый выше код показывает, что в приложении есть hooks ``\"openstore\""
-"``связанные с ``\"content-hub\"``, и они должны работать по правилам, "
-"заданным в файле ``openstore-contenthub.json``"
+"Приведённый выше код показывает, что в приложении есть hooks "
+"``\"openstore\"``связанные с ``\"content-hub\"``, и они должны работать по "
+"правилам, заданным в файле ``openstore-contenthub.json``"
 
 #: ../../appdev/guides/contenthub.rst:136
 msgid ""
@@ -1413,9 +1413,9 @@ msgid ""
 msgstr ""
 "Скопируйте исходный код библиотеки в папку ``libs/LIBNAME``. Эта папка по "
 "умолчанию установлена в clickable. Если исходный код нужных библиотек есть в "
-"репозиториях git, можно добавить эту библиотечку как `модуль git <https"
-"://git-scm.com/book/de/v1/Git-Tools-Submodule>`_. В противном случае "
-"придётся добавить скрипт для скачивания исходных кодов."
+"репозиториях git, можно добавить эту библиотечку как `модуль git <https://"
+"git-scm.com/book/de/v1/Git-Tools-Submodule>`_. В противном случае придётся "
+"добавить скрипт для скачивания исходных кодов."
 
 #: ../../appdev/guides/dependencies.rst:14
 #, fuzzy
@@ -1525,8 +1525,8 @@ msgid ""
 "clickable.json#L4>`_."
 msgstr ""
 "Clickable автоматически установит указанный пакет внутри контейнера сборки "
-"для нужной архитектуры. Пример можно посмотреть в приложении `Guitar Tools' -"
-" вот его json-файл-<https://github.com/t-mon/guitar-tools/blob/master/"
+"для нужной архитектуры. Пример можно посмотреть в приложении `Guitar Tools' "
+"- вот его json-файл-<https://github.com/t-mon/guitar-tools/blob/master/"
 "clickable.json#L4>`_."
 
 #: ../../appdev/guides/dependencies.rst:64
@@ -1589,9 +1589,9 @@ msgstr ""
 "``SOMELIBRARY_INCLUDE_DIRS``, а готовые бинарные файлы библиотеки как "
 "``SOMELIBRARY_LIBS``. Мы используем эти переменные с командами "
 "``include_directories`` и ``target_link_libraries``. Пример того, как это "
-"работает можно посмотреть в файле `Camera Scanner ImageProcessing "
-"CMakeLists.txt <https://github.com/jonnius/camera-scanner/blob/master/"
-"plugins/ImageProcessing/CMakeLists.txt#L23>` _ ."
+"работает можно посмотреть в файле `Camera Scanner ImageProcessing CMakeLists."
+"txt <https://github.com/jonnius/camera-scanner/blob/master/plugins/"
+"ImageProcessing/CMakeLists.txt#L23>` _ ."
 
 #: ../../appdev/guides/dependencies.rst:92
 msgid ""
@@ -1639,13 +1639,13 @@ msgid ""
 msgstr ""
 "Найдите путь к файлам общих объектов. Если библиотека создана с помощью  "
 "clickable, то эти файлы находятся в каталоге установки библиотеки. По "
-"умолчанию, папка находится внутри каталога сборки библиотеки (например, ``"
-"build/arm-linux-gnueabihf/opencv/install``). Для готовых библиотек запустите "
-"команду ``clickable run \"find / -name 'libSomething.so'\"`` (заменив "
-"libSomething.so на файл, который ищете). Это выведет на экранпуть к файлу ("
-"вместе с некоторыми сообщениями об ошибках, которые можно игнорировать). В "
-"общем, при поиске файлов общих объектов лучше всего использовать ``/usr/"
-"lib``."
+"умолчанию, папка находится внутри каталога сборки библиотеки (например, "
+"``build/arm-linux-gnueabihf/opencv/install``). Для готовых библиотек "
+"запустите команду ``clickable run \"find / -name 'libSomething.so'\"`` "
+"(заменив libSomething.so на файл, который ищете). Это выведет на экранпуть к "
+"файлу (вместе с некоторыми сообщениями об ошибках, которые можно "
+"игнорировать). В общем, при поиске файлов общих объектов лучше всего "
+"использовать ``/usr/lib``."
 
 #: ../../appdev/guides/dependencies.rst:102
 #, fuzzy
@@ -1727,9 +1727,9 @@ msgid ""
 "Main.qml#L85>`_ to see how it is done:"
 msgstr ""
 "Если мы попробуем запустить приложение из OpenStore, то система спросит, "
-"хотим ли мы установить click-файл. Давайте посмотрим на файл приложения "
-"Main.qml  <https://github.com/UbuntuOpenStore/openstore-app/blob/master/"
-"openstore/Main.qml#L85> `_, чтобы узнать, как это делается:"
+"хотим ли мы установить click-файл. Давайте посмотрим на файл приложения Main."
+"qml  <https://github.com/UbuntuOpenStore/openstore-app/blob/master/openstore/"
+"Main.qml#L85> `_, чтобы узнать, как это делается:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:49
 msgid ""
@@ -2760,7 +2760,7 @@ msgstr ""
 #: ../../systemdev/mms-infrastructure.rst:53
 #: ../../userguide/advanceduse/reverse-tethering.rst:55
 #: ../../userguide/advanceduse/screencasting.rst:74
-#: ../../userguide/advanceduse/ssh.rst:91
+#: ../../userguide/advanceduse/ssh.rst:110
 #, fuzzy
 msgid "References"
 msgstr "Справочный материал"
@@ -2967,8 +2967,8 @@ msgstr ""
 "metricID.update (x) (где x - это число типа double, устанавливаемое для "
 "значения счетчика). metricID - это идентификатор, указанный в элементе "
 "Metric. Значение счетчика можно включить с помощью опции``format``с помощью "
-"переменной ``%1``. Например ``format: "
-"\"% 1 кнопки, которые были нажаты сегодня\" ``"
+"переменной ``%1``. Например ``format: \"% 1 кнопки, которые были нажаты "
+"сегодня\" ``"
 
 #: ../../appdev/guides/user-metrics.rst:102
 msgid "Increment the metric:"
@@ -3105,8 +3105,8 @@ msgid ""
 "html>`_ functions."
 msgstr ""
 "Кроме записи файлов в каталоги, приложение так же может записывать сообщения "
-"отладки в файл журнала приложения, расположенный по адресу ``/home/phablet/"
-".cache/upstart/application-click-<fullappname>_<appname>_<version>.log``. "
+"отладки в файл журнала приложения, расположенный по адресу ``/home/phablet/."
+"cache/upstart/application-click-<fullappname>_<appname>_<version>.log``. "
 "Чтобы добавить сообщения в файл журнала, используйте функции `Qt debug "
 "<https://doc.qt.io/qt-5/qdebug.html>` _."
 
@@ -3419,8 +3419,8 @@ msgid ""
 "You can use `Clickable <http://clickable.bhdouglass.com/en/latest/>`_ to "
 "facilitate Packaging, deploying, publishing and tests ."
 msgstr ""
-"Для сборки, тестирования и распространения программы можно использовать `"
-"Clickable <http://clickable.bhdouglass.com/en/latest/>` _ ."
+"Для сборки, тестирования и распространения программы можно использовать "
+"`Clickable <http://clickable.bhdouglass.com/en/latest/>` _ ."
 
 #: ../../appdev/nativeapp/index.rst:15
 #, fuzzy
@@ -3428,8 +3428,8 @@ msgid ""
 "Check out informations about the platform and confinement model in :ref:"
 "`Platform <platform>` section"
 msgstr ""
-"Ознакомьтесь с информацией о платформе и модели ограничения в разделе: ref: `"
-"Платформа <platform>`"
+"Ознакомьтесь с информацией о платформе и модели ограничения в разделе: ref: "
+"`Платформа <platform>`"
 
 #: ../../appdev/platform/apparmor.rst:2
 msgid "AppArmor Policy Groups"
@@ -4474,9 +4474,9 @@ msgstr ""
 "Может возникнуть необходимость ограничить доступ к некоторым разделам сайта "
 "из веб-приложения. Это легко делается с помощью подстановочных шаблонов "
 "(wildcards). Ссылки на другие под-домены открываются в браузере. Например, "
-"вот как получить доступ к страницам www.ubuntu.com/desktop/features и "
-"www.ubuntu.com/phone/features, но при этом запретить открывать страницы "
-"www.ubuntu.com/desktop или www.ubuntu.com/phone::"
+"вот как получить доступ к страницам www.ubuntu.com/desktop/features и www."
+"ubuntu.com/phone/features, но при этом запретить открывать страницы www."
+"ubuntu.com/desktop или www.ubuntu.com/phone::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
@@ -6034,8 +6034,8 @@ msgid ""
 msgstr ""
 "Нужно переместить главу``appdev/clickable.rst`` в раздел ``appdev/clickable/"
 "``, так как она стала занимать больше, чем несколько страниц, и появилась "
-"новая информация об этом приложении. В разделе есть страничка с введением ``"
-"appdev/clickable/introduction.rst``. В этом случае можно перенаправить "
+"новая информация об этом приложении. В разделе есть страничка с введением "
+"``appdev/clickable/introduction.rst``. В этом случае можно перенаправить "
 "старую страницу на новую часть с введением. Это можно сделать, добавив в "
 "``redirects.txt`` следующее::"
 
@@ -7664,9 +7664,9 @@ msgid ""
 "outside of the screen upwards."
 msgstr ""
 "Наиболее распространенное действие для приложения, к которому нужно быстро "
-"получить доступ, можно добавить как действие`bottom edge <https://api-"
-"docs.ubports.com/sdk/apps/qml/Ubuntu.Components/BottomEdge.html > `__ , "
-"доступ к которому осуществляется с помощью свайпа по экрану вверх."
+"получить доступ, можно добавить как действие`bottom edge <https://api-docs."
+"ubports.com/sdk/apps/qml/Ubuntu.Components/BottomEdge.html > `__ , доступ к "
+"которому осуществляется с помощью свайпа по экрану вверх."
 
 #: ../../humanguide/app-layout/quick-actions.rst:6
 msgid "You can add a new contact in the Contacts app swiping up:"
@@ -8916,9 +8916,9 @@ msgid ""
 "wiki/Scalable_Vector_Graphics>`__. SVG files can be created using software "
 "like `Inkscape <https://inkscape.org/>`__."
 msgstr ""
-"Одним из самых популярных масштабируемых форматов является `SVG <https://"
-"en.wikipedia.org/wiki/Scalable_Vector_Graphics>`__. Файлы SVG можно "
-"создавать с помощью программы ʻInkscape <https://inkscape.org/> `__."
+"Одним из самых популярных масштабируемых форматов является `SVG <https://en."
+"wikipedia.org/wiki/Scalable_Vector_Graphics>`__. Файлы SVG можно создавать с "
+"помощью программы ʻInkscape <https://inkscape.org/> `__."
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:11
 #, fuzzy
@@ -9436,8 +9436,8 @@ msgid ""
 "``-w`` flag one more time to make sure everything is correct."
 msgstr ""
 "Может быть, скрипт придётся запустить дважды. Скорее всего, только за два "
-"раза будут сделаны необходимые изменения. Затем запустите скрипт без флага ``"
-" -w``, чтобы увидеть, есть ли еще ошибки. Если есть, исправьте их вручную. "
+"раза будут сделаны необходимые изменения. Затем запустите скрипт без флага "
+"`` -w``, чтобы увидеть, есть ли еще ошибки. Если есть, исправьте их вручную. "
 "После завершения запустите скрипт без флага `` -w`` еще раз, чтобы "
 "убедиться, что все правильно."
 
@@ -9519,8 +9519,8 @@ msgid ""
 msgstr ""
 "В редких случаях загрузчик перезаписывает аргумент командной строки ядра, "
 "что делает бесполезной указанную выше настройку. Так обстоит дело со "
-"смартфоном Google Pixel 3a (sargo). Чтобы решить эту проблему, скопируйте `"
-"этот коммит <https://github.com/fredldotme/android_kernel_google_bonito/"
+"смартфоном Google Pixel 3a (sargo). Чтобы решить эту проблему, скопируйте "
+"`этот коммит <https://github.com/fredldotme/android_kernel_google_bonito/"
 "commit/d0741dded3907f2cf4ecdc02bfcb74fc252763ff>` _."
 
 #: ../../porting/build_and_boot/H7_build.rst:65
@@ -9567,8 +9567,9 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:85
+#: ../../porting/build_and_boot/H9_build.rst:110
 msgid ""
-"I your particular error is not listed, you will need to do some research of "
+"If your particular error is not listed, you will need to do some research of "
 "your own. If you end up here, know that there is a community of porters, "
 "developers and enthusiasts who might be able to help you. Refer to :ref:"
 "`Getting-community-help`."
@@ -9974,14 +9975,6 @@ msgstr ""
 msgid ""
 "Halium will use the ``mkbootimg`` tool for creating the boot image. In most "
 "cases it is not on the local harddisk, so it can be built by issuing::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:110
-msgid ""
-"If your particular error is not listed, you will need to do some research of "
-"your own. If you end up here, know that there is a community of porters, "
-"developers and enthusiasts who might be able to help you. Refer to :ref:"
-"`Getting-community-help`."
 msgstr ""
 
 #: ../../porting/build_and_boot/H9_build.rst:117
@@ -12306,11 +12299,11 @@ msgid ""
 msgstr ""
 "`` FORM_FACTOR`` - этот параметр определяет форм-фактор устройства. По "
 "умолчанию, значение определяется шасси устройства, его можно узнать, "
-"запустив скрипт``hostnamectl``. Допустимые значения: `` handse``, ``tablet``"
-", ``laptop`` и ``desktop``. Такие приложения, как галерея, используют эту "
-"информацию для адаптивности и расширения своей функциональности. Чтобы "
-"получить дополнительную информацию о шасси см. раздел`Спецификация хоста "
-"freedesktop.org`_."
+"запустив скрипт``hostnamectl``. Допустимые значения: `` handse``, "
+"``tablet``, ``laptop`` и ``desktop``. Такие приложения, как галерея, "
+"используют эту информацию для адаптивности и расширения своей "
+"функциональности. Чтобы получить дополнительную информацию о шасси см. "
+"раздел`Спецификация хоста freedesktop.org`_."
 
 #: ../../porting/configure_test_fix/Display.rst:63
 msgid "Native orientation"
@@ -15096,9 +15089,9 @@ msgid ""
 "For the Nexus 7 2013 Wifi (flo) head  over to the `Community Ports "
 "repository for flo <https://gitlab.com/ubports/community-ports/flo>`_."
 msgstr ""
-"Для смартфона Nexus 7 2013 Wifi (flo) можно найти CI-сборку в репозитории `"
-"Community Ports repository for flo <https://gitlab.com/ubports/"
-"community-ports/flo> `_."
+"Для смартфона Nexus 7 2013 Wifi (flo) можно найти CI-сборку в репозитории "
+"`Community Ports repository for flo <https://gitlab.com/ubports/community-"
+"ports/flo> `_."
 
 #: ../../systemdev/kernel-hal.rst:55
 msgid ""
@@ -15120,9 +15113,9 @@ msgid ""
 "Newer ports to Android devices are based on `Halium <https://docs.halium."
 "org>`_. In some aspects Halium is similar to the 5.1 based ports:"
 msgstr ""
-"Новые сборки ОС для устройств Android построены на `Halium "
-"<https://docs.halium.org>` _. Во многом сборки на основе Halium похожи на "
-"сборки на основе Android 5.1:"
+"Новые сборки ОС для устройств Android построены на `Halium <https://docs."
+"halium.org>` _. Во многом сборки на основе Halium похожи на сборки на основе "
+"Android 5.1:"
 
 #: ../../systemdev/kernel-hal.rst:68
 msgid ""
@@ -15296,8 +15289,8 @@ msgstr ""
 "ядро, нужно смонтировать раздел boot_a. Проверьте, какое устройство является "
 "SD-картой в системе, и смонтируйте раздел boot_a. В приведенном выше примере "
 "это устройство sdc4. На него записано ядро vmlinuz и связанные с ним файлы: "
-"`` config-5.6.0-pine64`` `dtb`` `initrd.img``` `modules/` `` System.map-5.6 "
-".0-pine64`` ``vmlinuz``."
+"`` config-5.6.0-pine64`` `dtb`` `initrd.img``` `modules/` `` System."
+"map-5.6 .0-pine64`` ``vmlinuz``."
 
 #: ../../systemdev/kernel-pinephone.rst:40
 msgid "Building the kernel"
@@ -15310,9 +15303,9 @@ msgid ""
 "linux/-/tree/pine64-kernel-ubports>`_, configure and build the kernel, run "
 "the following::"
 msgstr ""
-"Чтобы установить файлы зависимостей, скачайте исходный код `<https://"
-"gitlab.com/pine64-org/linux/-/tree/pine64-kernel-ubports>` _, настройте и "
-"соберите ядро, выполните следующую команду::"
+"Чтобы установить файлы зависимостей, скачайте исходный код `<https://gitlab."
+"com/pine64-org/linux/-/tree/pine64-kernel-ubports>` _, настройте и соберите "
+"ядро, выполните следующую команду::"
 
 #: ../../systemdev/kernel-pinephone.rst:51
 msgid "Install the kernel"
@@ -15373,9 +15366,9 @@ msgid ""
 "fid=120>`_ is where many other communities gather that work with the "
 "PinePhone"
 msgstr ""
-"`Официальный форум PinePhone <https://forum.pine64.org/"
-"forumdisplay.php?fid=120>` _ - это место, где общаются многие группы "
-"пользователей и поклонников PinePhone"
+"`Официальный форум PinePhone <https://forum.pine64.org/forumdisplay.php?"
+"fid=120>` _ - это место, где общаются многие группы пользователей и "
+"поклонников PinePhone"
 
 #: ../../systemdev/kernel-pinephone.rst:70
 #, fuzzy
@@ -15846,9 +15839,9 @@ msgid ""
 msgstr ""
 "Вы найдете большую часть лог-файлов QtMir в лог-файлах Unity8, которые "
 "обычно хранятся в директории``/home/phablet/.cache/upstart/unity8`` на "
-"мобильном устройстве Ubuntu Touch. Другие лог-файлы, такие как "
-"qtmir.sessions и qtmir.surfaces, напрямую относятся к различным модулям в "
-"кодовой базе QtMir."
+"мобильном устройстве Ubuntu Touch. Другие лог-файлы, такие как qtmir."
+"sessions и qtmir.surfaces, напрямую относятся к различным модулям в кодовой "
+"базе QtMir."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:13
 msgid ""
@@ -15998,8 +15991,8 @@ msgstr ""
 "приложение Ubuntu Touch для своего устройства. Большая часть программного "
 "обеспечения, предустановленного на устройстве Ubuntu Touch, поставляется в в "
 "виде пакета Debian. Этот формат используется несколькими дистрибутивами "
-"Linux, такими как Debian, Ubuntu и Linux Mint. В сети доступно множество `"
-"документов о стандарте deb <https://www.debian.org/doc/manuals/maint-guide/"
+"Linux, такими как Debian, Ubuntu и Linux Mint. В сети доступно множество "
+"`документов о стандарте deb <https://www.debian.org/doc/manuals/maint-guide/"
 "index.en.html>` __, поэтому мы не будем здесь подробно об этом рассказывать. "
 "Кроме того, в большинстве случаев потребуется изменить существующее "
 "программное обеспечение, а не разрабатывать новые пакеты с нуля. По этой "
@@ -16790,9 +16783,9 @@ msgid ""
 "to take advantage of it."
 msgstr ""
 "`Сервис сборки UBports <https://ci.ubports.com> `_ может создавать пакеты "
-"Ubuntu Touch и размещать их в `репозитории UBports <https://"
-"repo.ubports.com> `_. Эта опция доступна любому разработчику, который желает "
-"ею воспользоваться."
+"Ubuntu Touch и размещать их в `репозитории UBports <https://repo.ubports."
+"com> `_. Эта опция доступна любому разработчику, который желает ею "
+"воспользоваться."
 
 #: ../../systemdev/uploading-changes.rst:6
 msgid ""
@@ -16960,8 +16953,8 @@ msgid ""
 "If you are making changes only to the package build (files in the ``debian/"
 "`` folder), it is best to only increment the version suffix::"
 msgstr ""
-"Если вы вносите изменения только в сборку пакета (файлы в папке ``debian/``')"
-", лучше увеличивать только суффикс версии::"
+"Если вы вносите изменения только в сборку пакета (файлы в папке ``debian/"
+"``'), лучше увеличивать только суффикс версии::"
 
 #: ../../systemdev/uploading-changes.rst:62
 msgid ""
@@ -17127,8 +17120,8 @@ msgid ""
 msgstr ""
 "Дайте вашему запросу название и описание (включите ссылки на баг-репорты или "
 "другой материал). Убедитесь, что «базовая» ветвь - это та, к которой "
-"необходимо применить эти правки (скорее всего, это «xenial»), затем нажмите «"
-"Create pull request»."
+"необходимо применить эти правки (скорее всего, это «xenial»), затем нажмите "
+"«Create pull request»."
 
 #: ../../systemdev/uploading-changes.rst:121
 msgid ""
@@ -17224,10 +17217,10 @@ msgid ""
 "command) to `Ubuntu Pastebin <https://paste.ubuntu.com/>`_ and contact us "
 "for help."
 msgstr ""
-"Если ``ubports-qa`` не может установить пакеты, запустите команду с "
-"флагом``-v`` (например, ``ubports-qa -v install ...``). Если и это не "
-"помогло, отправьте весь лог-файл (начиная с символа $ перед командой ubports-"
-"qa) в Ubuntu Pastebin <https://paste.ubuntu.com/> `_ и свяжитесь с нами."
+"Если ``ubports-qa`` не может установить пакеты, запустите команду с флагом``-"
+"v`` (например, ``ubports-qa -v install ...``). Если и это не помогло, "
+"отправьте весь лог-файл (начиная с символа $ перед командой ubports-qa) в "
+"Ubuntu Pastebin <https://paste.ubuntu.com/> `_ и свяжитесь с нами."
 
 #: ../../systemdev/uploading-changes.rst:142
 msgid ""
@@ -17703,7 +17696,7 @@ msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:10
 #, fuzzy
-msgid "Prepare your device (Ubuntu Touch) and your computer:"
+msgid "Prepare your *device* (Ubuntu Touch) and your *computer* (Linux):"
 msgstr "Screen Casting с мобильного устройства на компьютер"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:12
@@ -17719,17 +17712,15 @@ msgstr "Screen Casting с мобильного устройства на ком�
 msgid "Turn off Wifi and Data on your *device*"
 msgstr ""
 
-#: ../../userguide/advanceduse/reverse-tethering.rst:16
+#: ../../userguide/advanceduse/reverse-tethering.rst:15
+msgid ""
+"Set your device :doc:`usb in tethering mode </userguide/dailyuse/tethering>`"
+msgstr ""
+
+#: ../../userguide/advanceduse/reverse-tethering.rst:17
 #, fuzzy
 msgid "Run the following commands on your *device*:"
 msgstr "Выполните следующие команды, чтобы отключить rsyslogd::"
-
-#: ../../userguide/advanceduse/reverse-tethering.rst:18
-msgid ""
-"Set your device usb in tethering mode: ``gdbus call --system --dest com."
-"meego.usb_moded --object-path /com/meego/usb_moded --method com.meego."
-"usb_moded.set_mode rndis_adb``"
-msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:19
 msgid ""
@@ -17798,6 +17789,7 @@ msgid "You should now have a working internet connection on your *device*!"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:47
+#: ../../userguide/advanceduse/ssh.rst:91
 #: ../../userguide/dailyuse/waydroid.rst:77 ../../userguide/install.rst:25
 msgid "Troubleshooting"
 msgstr "Траблшутинг"
@@ -17805,7 +17797,7 @@ msgstr "Траблшутинг"
 #: ../../userguide/advanceduse/reverse-tethering.rst:49
 msgid ""
 "If the above steps don't give you working internet connection on your "
-"*device* the try these steps on your *computer*:"
+"*device* then try these steps on your *computer*:"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:51
@@ -17816,7 +17808,7 @@ msgstr ""
 "включите ip  forwarding: ``echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:52
-msgid "Apply Forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
+msgid "Apply forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:57
@@ -18116,6 +18108,22 @@ msgid "then add the following text::"
 msgstr "Добавьте следующую строку::"
 
 #: ../../userguide/advanceduse/ssh.rst:93
+msgid "If connecting fails with the message ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:97
+msgid "check the log on the UBports device ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:101
+msgid "If you see a message about missing hostkeys such as ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:105
+msgid "You need to generate host keys with the following command ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:112
 #, fuzzy
 msgid ""
 "`askubuntu.com: How can I access my Ubuntu phone over SSH? <https://"
@@ -18126,7 +18134,7 @@ msgstr ""
 "ssh? <https://askubuntu.com/questions/348714/how-can-i-access-my-ubuntu-"
 "phone-over-ssh/599041#599041>`_"
 
-#: ../../userguide/advanceduse/ssh.rst:94
+#: ../../userguide/advanceduse/ssh.rst:113
 #, fuzzy
 msgid ""
 "`gurucubano: BQ Aquaris E 4.5 Ubuntu phone: How to get SSH access to the "
@@ -18718,8 +18726,8 @@ msgid ""
 msgstr ""
 "Службы геолокации в Ubuntu Touch позволяют приложениям отслеживать, где "
 "пользователь находится. Используя эти данные, приложения могут `предлагать "
-"пошаговую навигацию <https://open-store.io/app/navigator.costales>` _, `"
-"отслеживать маршруты передвижения <https://open-store.io/app/"
+"пошаговую навигацию <https://open-store.io/app/navigator.costales>` _, "
+"`отслеживать маршруты передвижения <https://open-store.io/app/"
 "activitytracker.cwayne18>`_,`помогать с поиском общественного транспорта "
 "<https://open-store.io/app/transport.zubozrout>`_ и так далее."
 
@@ -18843,8 +18851,8 @@ msgstr "Быстрые настройки"
 #, fuzzy
 msgid "`Open location quick settings`_, then select ``Location settings...``."
 msgstr ""
-"Откройте меню `Open location quick settings`_, затем выберите вкладку``"
-"Location settings...``."
+"Откройте меню `Open location quick settings`_, затем выберите "
+"вкладку``Location settings...``."
 
 #: ../../userguide/dailyuse/location.rst:62
 #: ../../userguide/dailyuse/location.rst:84
@@ -19120,6 +19128,43 @@ msgstr ""
 "Приложения приостанавливаются, если они находятся в фоновом режиме или "
 "устройство заблокировано. Когда приложение приостановлено, оно не может "
 "получать данные о местоположении и следить за пользователем."
+
+#: ../../userguide/dailyuse/tethering.rst:2
+#, fuzzy
+#| msgid "string"
+msgid "Tethering"
+msgstr "строка"
+
+#: ../../userguide/dailyuse/tethering.rst:4
+msgid ""
+"This tutorial explains how to enable USB Tethering on your Ubuntu Touch "
+"device to share it's internet connection over a USB cable with a computer."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:6
+msgid "Go to the settings app and look for the usb icon"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:10
+#, fuzzy
+#| msgid "Open location settings in the settings app"
+msgid "The USB Setting in the settings app."
+msgstr "Откройте настройки местоположения в настройках приложения"
+
+#: ../../userguide/dailyuse/tethering.rst:12
+msgid "On the USB page you can then choose for the USB tethering option"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:16
+msgid "The USB Setting page."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:18
+#, fuzzy
+msgid ""
+"And that's it, you are now sharing the internet from your Ubuntu Touch "
+"device to your computer"
+msgstr "Screen Casting с мобильного устройства на компьютер"
 
 #: ../../userguide/dailyuse/volte.rst:2
 msgid "Voice over LTE (VoLTE)"

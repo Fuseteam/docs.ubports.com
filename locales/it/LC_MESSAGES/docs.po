@@ -50,11 +50,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 12:50+0000\n"
+"POT-Creation-Date: 2025-09-19 12:51+0000\n"
 "PO-Revision-Date: 2025-09-19 13:55+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/ubports/"
-"doc-ubports-com/it/>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/ubports/doc-"
+"ubports-com/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1458,8 +1458,8 @@ msgid ""
 msgstr ""
 "La maggior parte degli argomenti di compilazione sono specifici del "
 "progetto. Per questo motivo, si devono studiare le istruzioni di "
-"compilazione della libreria e cercare anche le impostazioni delle ``"
-"opzioni'' nel suo ``CMakeLists.txt''."
+"compilazione della libreria e cercare anche le impostazioni delle "
+"``opzioni'' nel suo ``CMakeLists.txt''."
 
 #: ../../appdev/guides/dependencies.rst:43
 #, fuzzy
@@ -2736,7 +2736,7 @@ msgstr "Impostare a true per mostrare il contatore, o falso per nasconderlo."
 #: ../../systemdev/mms-infrastructure.rst:53
 #: ../../userguide/advanceduse/reverse-tethering.rst:55
 #: ../../userguide/advanceduse/screencasting.rst:74
-#: ../../userguide/advanceduse/ssh.rst:91
+#: ../../userguide/advanceduse/ssh.rst:110
 msgid "References"
 msgstr ""
 
@@ -4261,8 +4261,8 @@ msgstr ""
 "del tuo sito. Questo è facile con i caratteri jolly. (I collegamenti ad "
 "altre pagine secondarie sono aperti nel browser.) Ad esempio, quanto segue "
 "consente l'accesso a www.ubuntu.com/desktop/features e www.ubuntu.com/phone/"
-"features pur non consentendo l'accesso a www.ubuntu.com/ desktop o "
-"www.ubuntu.com/phone ::"
+"features pur non consentendo l'accesso a www.ubuntu.com/ desktop o www."
+"ubuntu.com/phone ::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
@@ -4276,8 +4276,8 @@ msgid ""
 "ubuntu.com/phone/features:::"
 msgstr ""
 "Puoi utilizzare modelli multipli separandoli con una virgola. Ad esempio, "
-"quanto segue consente l'accesso solo a www.ubuntu.com/desktop/features e "
-"www.ubuntu.com/phone/features :::"
+"quanto segue consente l'accesso solo a www.ubuntu.com/desktop/features e www."
+"ubuntu.com/phone/features :::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4336,10 +4336,9 @@ msgid ""
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
-"Alcuni URL hanno più sottodomini. Ad esempio, www.ubuntu.com ha "
-"design.ubuntu.com, developer.ubuntu.com e altro ancora. Puoi aggiungere "
-"l'accesso a tutti i sottodomini con un jolly nella posizione del "
-"sottodominio :::"
+"Alcuni URL hanno più sottodomini. Ad esempio, www.ubuntu.com ha design."
+"ubuntu.com, developer.ubuntu.com e altro ancora. Puoi aggiungere l'accesso a "
+"tutti i sottodomini con un jolly nella posizione del sottodominio :::"
 
 #: ../../appdev/webapp/guide.rst:113
 #, fuzzy
@@ -5835,10 +5834,10 @@ msgid ""
 msgstr ""
 "Stai muovendo ``appdev/clickable.rst`` in diverse pagine in ``appdev/"
 "clickable/`` per dare significativamente più informazioni sullo strumento di "
-"quanto non ci fosse in precedenza. Hai creato una pagina di introduzione, ``"
-"appdev/clickable/introduction.rst``. In questo caso, sarebbe una buona idea "
-"reindirizzare la vecchia pagina alla nuova pagina di introduzione. Questo "
-"può essere fatto aggiungendo il seguente a ``redirects.txt``::"
+"quanto non ci fosse in precedenza. Hai creato una pagina di introduzione, "
+"``appdev/clickable/introduction.rst``. In questo caso, sarebbe una buona "
+"idea reindirizzare la vecchia pagina alla nuova pagina di introduzione. "
+"Questo può essere fatto aggiungendo il seguente a ``redirects.txt``::"
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
@@ -6565,8 +6564,8 @@ msgid ""
 "the issue is definitely not reproducible). In that case it should be closed."
 msgstr ""
 "Qualora avessi un accesso in scrittura nel repository, potresti sostituire "
-"l'etichetta **needs confirmation** (**in attesa di conferma**) con **bug** ("
-"per marchiarlo confermato) oppure **invalid** (se il problema non fosse "
+"l'etichetta **needs confirmation** (**in attesa di conferma**) con **bug** "
+"(per marchiarlo confermato) oppure **invalid** (se il problema non fosse "
 "riproducibile). In questo caso dovrebbe essere chiuso."
 
 #: ../../contribute/quality-assurance.rst:18
@@ -8875,11 +8874,11 @@ msgid ""
 "here, please consider reading our :doc:`introduction <about/introduction>`."
 msgstr ""
 "In questo sito web si trovano guide per :doc:`installare Ubuntu Touch sul "
-"telefono cellulare <userguide/install>`, :doc:`utilizzare Ubuntu Touch <"
-"userguide/dailyuse/index>`, :doc:`sviluppare applicazioni Ubuntu Touch <"
-"appdev/index>`, :doc:`portare Ubuntu Touch su un telefono Android <porting/"
-"introduction/index>` e :doc:`apprendere di più sui componenti del sistema <"
-"systemdev/index>`. Se è la prima volta che venite qui, vi invitiamo a "
+"telefono cellulare <userguide/install>`, :doc:`utilizzare Ubuntu Touch "
+"<userguide/dailyuse/index>`, :doc:`sviluppare applicazioni Ubuntu Touch "
+"<appdev/index>`, :doc:`portare Ubuntu Touch su un telefono Android <porting/"
+"introduction/index>` e :doc:`apprendere di più sui componenti del sistema "
+"<systemdev/index>`. Se è la prima volta che venite qui, vi invitiamo a "
 "leggere la nostra :doc:`introduzione <about/introduzione>`."
 
 #: ../../index.rst:12
@@ -9349,8 +9348,9 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:85
+#: ../../porting/build_and_boot/H9_build.rst:110
 msgid ""
-"I your particular error is not listed, you will need to do some research of "
+"If your particular error is not listed, you will need to do some research of "
 "your own. If you end up here, know that there is a community of porters, "
 "developers and enthusiasts who might be able to help you. Refer to :ref:"
 "`Getting-community-help`."
@@ -9754,14 +9754,6 @@ msgstr ""
 msgid ""
 "Halium will use the ``mkbootimg`` tool for creating the boot image. In most "
 "cases it is not on the local harddisk, so it can be built by issuing::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:110
-msgid ""
-"If your particular error is not listed, you will need to do some research of "
-"your own. If you end up here, know that there is a community of porters, "
-"developers and enthusiasts who might be able to help you. Refer to :ref:"
-"`Getting-community-help`."
 msgstr ""
 
 #: ../../porting/build_and_boot/H9_build.rst:117
@@ -14724,9 +14716,8 @@ msgid ""
 "Newer ports to Android devices are based on `Halium <https://docs.halium."
 "org>`_. In some aspects Halium is similar to the 5.1 based ports:"
 msgstr ""
-"I trasporti più recenti ai dispositivi Android si basano su `Halium "
-"<https://docs.halium.org`_. In alcuni aspetti Halium è simile ai trasporti "
-"basati 5.1:"
+"I trasporti più recenti ai dispositivi Android si basano su `Halium <https://"
+"docs.halium.org`_. In alcuni aspetti Halium è simile ai trasporti basati 5.1:"
 
 #: ../../systemdev/kernel-hal.rst:68
 msgid ""
@@ -14774,8 +14765,8 @@ msgid ""
 "introduction/index>`"
 msgstr ""
 "Tutti i nuovi trasporti di UT a dispositivi Android dovrebbero seguire il "
-"processo Halium. Ulteriori dettagli possono essere trovati sotto:doc: `"
-"Halium porting <../porting/introduction/index>`"
+"processo Halium. Ulteriori dettagli possono essere trovati sotto:doc: "
+"`Halium porting <../porting/introduction/index>`"
 
 #: ../../systemdev/kernel-hal.rst:78
 msgid "Linux based ports"
@@ -16884,7 +16875,7 @@ msgstr "Tethering inverso"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:10
 #, fuzzy
-msgid "Prepare your device (Ubuntu Touch) and your computer:"
+msgid "Prepare your *device* (Ubuntu Touch) and your *computer* (Linux):"
 msgstr "Effettua lo screen cast verso il PC del tuo dispositivo UT"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:12
@@ -16900,17 +16891,15 @@ msgstr "Effettua lo screen cast verso il PC del tuo dispositivo UT"
 msgid "Turn off Wifi and Data on your *device*"
 msgstr ""
 
-#: ../../userguide/advanceduse/reverse-tethering.rst:16
+#: ../../userguide/advanceduse/reverse-tethering.rst:15
+msgid ""
+"Set your device :doc:`usb in tethering mode </userguide/dailyuse/tethering>`"
+msgstr ""
+
+#: ../../userguide/advanceduse/reverse-tethering.rst:17
 #, fuzzy
 msgid "Run the following commands on your *device*:"
 msgstr "Per disabilitare rsyslogd esegui i seguenti comandi::"
-
-#: ../../userguide/advanceduse/reverse-tethering.rst:18
-msgid ""
-"Set your device usb in tethering mode: ``gdbus call --system --dest com."
-"meego.usb_moded --object-path /com/meego/usb_moded --method com.meego."
-"usb_moded.set_mode rndis_adb``"
-msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:19
 msgid ""
@@ -16979,6 +16968,7 @@ msgid "You should now have a working internet connection on your *device*!"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:47
+#: ../../userguide/advanceduse/ssh.rst:91
 #: ../../userguide/dailyuse/waydroid.rst:77 ../../userguide/install.rst:25
 msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"
@@ -16986,7 +16976,7 @@ msgstr "Risoluzione dei problemi"
 #: ../../userguide/advanceduse/reverse-tethering.rst:49
 msgid ""
 "If the above steps don't give you working internet connection on your "
-"*device* the try these steps on your *computer*:"
+"*device* then try these steps on your *computer*:"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:51
@@ -16998,7 +16988,7 @@ msgstr ""
 "ip_forward``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:52
-msgid "Apply Forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
+msgid "Apply forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:57
@@ -17299,6 +17289,22 @@ msgid "then add the following text::"
 msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:93
+msgid "If connecting fails with the message ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:97
+msgid "check the log on the UBports device ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:101
+msgid "If you see a message about missing hostkeys such as ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:105
+msgid "You need to generate host keys with the following command ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:112
 #, fuzzy
 msgid ""
 "`askubuntu.com: How can I access my Ubuntu phone over SSH? <https://"
@@ -17309,7 +17315,7 @@ msgstr ""
 "<Https://askubuntu.com/questions/348714/how-can-i-access-my-ubuntu-phone-"
 "over-ssh/599041#599041> `_"
 
-#: ../../userguide/advanceduse/ssh.rst:94
+#: ../../userguide/advanceduse/ssh.rst:113
 #, fuzzy
 msgid ""
 "`gurucubano: BQ Aquaris E 4.5 Ubuntu phone: How to get SSH access to the "
@@ -18036,8 +18042,8 @@ msgstr "Impostazioni rapide"
 #, fuzzy
 msgid "`Open location quick settings`_, then select ``Location settings...``."
 msgstr ""
-"Aprire le impostazioni rapide di localizzazione`_, quindi selezionare ``"
-"Impostazioni di localizzazione...``."
+"Aprire le impostazioni rapide di localizzazione`_, quindi selezionare "
+"``Impostazioni di localizzazione...``."
 
 #: ../../userguide/dailyuse/location.rst:62
 #: ../../userguide/dailyuse/location.rst:84
@@ -18316,6 +18322,43 @@ msgstr ""
 "bloccato. Quando un'app è sospesa, non può ricevere dati sulla posizione. "
 "Per questo motivo, le app non saranno in grado di tracciare la posizione "
 "dell'utente quando non sono in uso o il dispositivo è bloccato."
+
+#: ../../userguide/dailyuse/tethering.rst:2
+#, fuzzy
+#| msgid "string"
+msgid "Tethering"
+msgstr "stringa"
+
+#: ../../userguide/dailyuse/tethering.rst:4
+msgid ""
+"This tutorial explains how to enable USB Tethering on your Ubuntu Touch "
+"device to share it's internet connection over a USB cable with a computer."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:6
+msgid "Go to the settings app and look for the usb icon"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:10
+#, fuzzy
+#| msgid "Open location settings in the settings app"
+msgid "The USB Setting in the settings app."
+msgstr "Aprire le impostazioni di localizzazione nell'app delle impostazioni"
+
+#: ../../userguide/dailyuse/tethering.rst:12
+msgid "On the USB page you can then choose for the USB tethering option"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:16
+msgid "The USB Setting page."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:18
+#, fuzzy
+msgid ""
+"And that's it, you are now sharing the internet from your Ubuntu Touch "
+"device to your computer"
+msgstr "Effettua lo screen cast verso il PC del tuo dispositivo UT"
 
 #: ../../userguide/dailyuse/volte.rst:2
 msgid "Voice over LTE (VoLTE)"

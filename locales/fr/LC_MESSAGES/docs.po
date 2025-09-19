@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 12:50+0000\n"
+"POT-Creation-Date: 2025-09-19 12:51+0000\n"
 "PO-Revision-Date: 2025-09-19 13:55+0000\n"
 "Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/ubports/"
-"doc-ubports-com/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ubports/doc-"
+"ubports-com/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -373,8 +373,8 @@ msgid ""
 "``lomiri`` (when the current Ubuntu LTS is ``noble``) will have APT archives "
 "named ``devel-noble_-_PR_lomiri_100`` *and* ``devel-debian_-_PR_lomiri_100``."
 msgstr ""
-"Un MR numéroté 100 fait sur la branche ``main`` du dépôt Git ``lomiri`` ("
-"quand le LTS Ubuntu actuel est ``noble``) aura des archives APT nommées "
+"Un MR numéroté 100 fait sur la branche ``main`` du dépôt Git ``lomiri`` "
+"(quand le LTS Ubuntu actuel est ``noble``) aura des archives APT nommées "
 "``devel-noble_-_PR_lomiri_100` *et* ``devel-debian_-_PR_lomiri_100``."
 
 #: ../../about/process/branch-naming.rst:66
@@ -1320,10 +1320,10 @@ msgid ""
 "com/sdk/apps/qml/Ubuntu.Content/ContentHandler.html#detailed-description>`_, "
 "there are several ways of handling the file to be shared:"
 msgstr ""
-"Comme nous pouvons le voir dans la `documentation du centre de contenus<https"
-"://api-docs.ubports.com/sdk/apps/qml/Ubuntu.Content/ContentHandler.html"
-"#detailed-description>`_, il existe plusieurs manière de gérer le fichier à "
-"partager :"
+"Comme nous pouvons le voir dans la `documentation du centre de "
+"contenus<https://api-docs.ubports.com/sdk/apps/qml/Ubuntu.Content/"
+"ContentHandler.html#detailed-description>`_, il existe plusieurs manière de "
+"gérer le fichier à partager :"
 
 #: ../../appdev/guides/contenthub.rst:18
 msgid ""
@@ -1992,9 +1992,9 @@ msgid ""
 msgstr ""
 "Dans le fichier QML principal, nous devons ajouter du code pour savoir quoi "
 "faire avec le lien expédié. Commencez par ajouter un `élément d'argument "
-"<https://gitlab.com/ubports-linphone/linphone-simple/blob/master/qml/"
-"Main.qml#L189>`_ qui gère le lien , tel que cela est fait par exemple dans `"
-"l'application Linphone <https://open-store.io/app/linphone.cibersheep>`_. "
+"<https://gitlab.com/ubports-linphone/linphone-simple/blob/master/qml/Main."
+"qml#L189>`_ qui gère le lien , tel que cela est fait par exemple dans "
+"`l'application Linphone <https://open-store.io/app/linphone.cibersheep>`_. "
 "Nous ajoutons également une `connexion au gestionnaire de liens <https://"
 "gitlab.com/ubports-linphone/linphone-simple/blob/master/qml/Main.qml#L212>`_ "
 "avec un élément de connexion ayant comme cible ``UriHandler``."
@@ -2964,7 +2964,7 @@ msgstr "Positionné à true pour montrer le compteur, false pour le cacher."
 #: ../../systemdev/mms-infrastructure.rst:53
 #: ../../userguide/advanceduse/reverse-tethering.rst:55
 #: ../../userguide/advanceduse/screencasting.rst:74
-#: ../../userguide/advanceduse/ssh.rst:91
+#: ../../userguide/advanceduse/ssh.rst:110
 msgid "References"
 msgstr "Références"
 
@@ -3312,8 +3312,8 @@ msgstr ""
 "dessous, l'application peut écrire des message de dépannage dans le fichier "
 "journal de l'application situé dans ``/home/phablet/.cache/upstart/"
 "application-click-<nomcomplet>_<nomdelapplication>_<version>.log``. Pour "
-"ajouter des messages dans le fichier journal, utilisez les fonctions `"
-"dépannage de Qt<https://doc.qt.io/qt-5/qdebug.html>`_."
+"ajouter des messages dans le fichier journal, utilisez les fonctions "
+"`dépannage de Qt<https://doc.qt.io/qt-5/qdebug.html>`_."
 
 #: ../../appdev/guides/writeable-dirs.rst:11
 msgid "Config"
@@ -6614,7 +6614,8 @@ msgstr ""
 #: ../../contribute/documentation.rst:204
 #, fuzzy
 msgid "To create a todo, add this markup to your page::"
-msgstr "Pour créer une chose à faire, ajoutez cet indicateur dans votre page ::"
+msgstr ""
+"Pour créer une chose à faire, ajoutez cet indicateur dans votre page ::"
 
 #: ../../contribute/documentation.rst:213
 msgid "ReadTheDocs hosting"
@@ -9556,8 +9557,9 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:85
+#: ../../porting/build_and_boot/H9_build.rst:110
 msgid ""
-"I your particular error is not listed, you will need to do some research of "
+"If your particular error is not listed, you will need to do some research of "
 "your own. If you end up here, know that there is a community of porters, "
 "developers and enthusiasts who might be able to help you. Refer to :ref:"
 "`Getting-community-help`."
@@ -9960,14 +9962,6 @@ msgstr ""
 msgid ""
 "Halium will use the ``mkbootimg`` tool for creating the boot image. In most "
 "cases it is not on the local harddisk, so it can be built by issuing::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:110
-msgid ""
-"If your particular error is not listed, you will need to do some research of "
-"your own. If you end up here, know that there is a community of porters, "
-"developers and enthusiasts who might be able to help you. Refer to :ref:"
-"`Getting-community-help`."
 msgstr ""
 
 #: ../../porting/build_and_boot/H9_build.rst:117
@@ -12020,9 +12014,9 @@ msgstr ""
 "défini. Il existe de nombreux cas, cependant, pour lesquels la déduction est "
 "fausse (par exemple, les écrans de téléphone à très haute résolution seront "
 "identifiés comme des ordinateurs). Pour définir manuellement une valeur pour "
-"ces variables, modifiez tout simplement le fichier sous ``etc/"
-"ubuntu-touch-session.d/android.conf`` en les spécifiant. Par exemple, voici "
-"le fichier pour la tablette Nexus 7 ::"
+"ces variables, modifiez tout simplement le fichier sous ``etc/ubuntu-touch-"
+"session.d/android.conf`` en les spécifiant. Par exemple, voici le fichier "
+"pour la tablette Nexus 7 ::"
 
 #: ../../porting/configure_test_fix/Display.rst:18
 msgid ""
@@ -17234,7 +17228,7 @@ msgstr "Modem inversé"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:10
 #, fuzzy
-msgid "Prepare your device (Ubuntu Touch) and your computer:"
+msgid "Prepare your *device* (Ubuntu Touch) and your *computer* (Linux):"
 msgstr ""
 "Faire une diffusion en temps réel de l'écran de votre appareil UT sur votre "
 "ordinateur"
@@ -17254,17 +17248,15 @@ msgstr ""
 msgid "Turn off Wifi and Data on your *device*"
 msgstr ""
 
-#: ../../userguide/advanceduse/reverse-tethering.rst:16
+#: ../../userguide/advanceduse/reverse-tethering.rst:15
+msgid ""
+"Set your device :doc:`usb in tethering mode </userguide/dailyuse/tethering>`"
+msgstr ""
+
+#: ../../userguide/advanceduse/reverse-tethering.rst:17
 #, fuzzy
 msgid "Run the following commands on your *device*:"
 msgstr "Lancez la commande suivante pour désactiver rsyslogd::"
-
-#: ../../userguide/advanceduse/reverse-tethering.rst:18
-msgid ""
-"Set your device usb in tethering mode: ``gdbus call --system --dest com."
-"meego.usb_moded --object-path /com/meego/usb_moded --method com.meego."
-"usb_moded.set_mode rndis_adb``"
-msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:19
 msgid ""
@@ -17333,6 +17325,7 @@ msgid "You should now have a working internet connection on your *device*!"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:47
+#: ../../userguide/advanceduse/ssh.rst:91
 #: ../../userguide/dailyuse/waydroid.rst:77 ../../userguide/install.rst:25
 msgid "Troubleshooting"
 msgstr "Résolution de problèmes"
@@ -17340,7 +17333,7 @@ msgstr "Résolution de problèmes"
 #: ../../userguide/advanceduse/reverse-tethering.rst:49
 msgid ""
 "If the above steps don't give you working internet connection on your "
-"*device* the try these steps on your *computer*:"
+"*device* then try these steps on your *computer*:"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:51
@@ -17352,7 +17345,7 @@ msgstr ""
 "ip_forward``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:52
-msgid "Apply Forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
+msgid "Apply forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:57
@@ -17660,6 +17653,22 @@ msgid "then add the following text::"
 msgstr "Ajoutez les lignes suivantes :"
 
 #: ../../userguide/advanceduse/ssh.rst:93
+msgid "If connecting fails with the message ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:97
+msgid "check the log on the UBports device ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:101
+msgid "If you see a message about missing hostkeys such as ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:105
+msgid "You need to generate host keys with the following command ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:112
 #, fuzzy
 msgid ""
 "`askubuntu.com: How can I access my Ubuntu phone over SSH? <https://"
@@ -17670,7 +17679,7 @@ msgstr ""
 "ssh ? <https://askubuntu.com/questions/348714/how-can-i-access-my-ubuntu-"
 "phone-over-ssh/599041#599041>`_"
 
-#: ../../userguide/advanceduse/ssh.rst:94
+#: ../../userguide/advanceduse/ssh.rst:113
 #, fuzzy
 msgid ""
 "`gurucubano: BQ Aquaris E 4.5 Ubuntu phone: How to get SSH access to the "
@@ -18707,6 +18716,47 @@ msgstr ""
 "applications ne pourront pas suivre votre position lorsqu'elles ne sont pas "
 "utilisées ou que l'appareil est verrouillé."
 
+#: ../../userguide/dailyuse/tethering.rst:2
+#, fuzzy
+#| msgid "string"
+msgid "Tethering"
+msgstr "chaîne"
+
+#: ../../userguide/dailyuse/tethering.rst:4
+msgid ""
+"This tutorial explains how to enable USB Tethering on your Ubuntu Touch "
+"device to share it's internet connection over a USB cable with a computer."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:6
+msgid "Go to the settings app and look for the usb icon"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:10
+#, fuzzy
+#| msgid "Open location settings in the settings app"
+msgid "The USB Setting in the settings app."
+msgstr ""
+"Ouvrir les paramètres de localisation dans l'application Paramètres du "
+"système"
+
+#: ../../userguide/dailyuse/tethering.rst:12
+msgid "On the USB page you can then choose for the USB tethering option"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:16
+msgid "The USB Setting page."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:18
+#, fuzzy
+msgid ""
+"And that's it, you are now sharing the internet from your Ubuntu Touch "
+"device to your computer"
+msgstr ""
+"Faire une diffusion en temps réel de l'écran de votre appareil UT sur votre "
+"ordinateur"
+
 #: ../../userguide/dailyuse/volte.rst:2
 msgid "Voice over LTE (VoLTE)"
 msgstr ""
@@ -19064,12 +19114,11 @@ msgstr ""
 "utilisatrices les moins techniques. L'installateur d'UBports est un bel "
 "outil graphique qui permet d'installer Ubuntu Touch sur un `appareil "
 "compatible <https://devices.ubuntu-touch.io/>`_ à partir de votre ordinateur "
-"Linux <https://snapcraft.io/ubports-installer>`_, `Mac <https://"
-"devices.ubuntu-touch.io/installer/?package=dmg>` ou `Windows <https://"
-"devices.ubuntu-touch.io/installer/?package=exe>`. Pour les personnes plus "
-"expérimentées, nous avons également des instructions d'installation manuelle "
-"pour chaque appareil `sur la page des appareils <https://"
-"devices.ubuntu-touch.io/>`_."
+"Linux <https://snapcraft.io/ubports-installer>`_, `Mac <https://devices."
+"ubuntu-touch.io/installer/?package=dmg>` ou `Windows <https://devices.ubuntu-"
+"touch.io/installer/?package=exe>`. Pour les personnes plus expérimentées, "
+"nous avons également des instructions d'installation manuelle pour chaque "
+"appareil `sur la page des appareils <https://devices.ubuntu-touch.io/>`_."
 
 #: ../../userguide/install.rst:7
 msgid ""

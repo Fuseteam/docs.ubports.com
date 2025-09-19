@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-16 12:50+0000\n"
+"POT-Creation-Date: 2025-09-19 12:51+0000\n"
 "PO-Revision-Date: 2025-09-19 13:55+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
-"doc-ubports-com/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
+"ubports-com/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,11 +79,11 @@ msgid ""
 "`Documentation contribution document </contribute/documentation>`."
 msgstr ""
 "Зміни у документації здійснюються спільнотою Ubports. Вони записуються у "
-"reStructuredText та конвертуються у таку читабельну форму з "
-"\"Sphinx <https://www.sphinx-doc.org/en/master/>\" _, "
-"\"recommonmark <http://recommonmark.readthedocs.io/en/latest/>\" _, та "
-"\"Read the Docs <https://readthedocs.io>\"_. Почати можна з перевірки :doc: "
-"\"Документа з підтримки документації </contribute/documentation>\"."
+"reStructuredText та конвертуються у таку читабельну форму з \"Sphinx "
+"<https://www.sphinx-doc.org/en/master/>\" _, \"recommonmark <http://"
+"recommonmark.readthedocs.io/en/latest/>\" _, та \"Read the Docs <https://"
+"readthedocs.io>\"_. Почати можна з перевірки :doc: \"Документа з підтримки "
+"документації </contribute/documentation>\"."
 
 #: ../../about/introduction.rst:18
 #, fuzzy
@@ -1672,8 +1672,8 @@ msgid ""
 msgstr ""
 "Clickable встановить вказаний пакет для цільової архітектури автоматично "
 "всередині скомпільованого контейнера. Приклад можна знайти у `Guitar Tools ' "
-"clickable.json <https://github.com/t-mon/guitar-tools/blob/master/"
-"clickable.json#L4>` _."
+"clickable.json <https://github.com/t-mon/guitar-tools/blob/master/clickable."
+"json#L4>` _."
 
 #: ../../appdev/guides/dependencies.rst:64
 msgid ""
@@ -1712,9 +1712,9 @@ msgid ""
 msgstr ""
 "У випадку, якщо бібліотека містить файл налаштувань CMake, можна "
 "використовувати команду `find_package <https://cmake.org/cmake/help/latest/"
-"command/find_package.html>` _, яка надасть цільовий об'єкт для зв'язку (link)"
-" або змінні, які вказуватимуть на двійкові бібліотеки та додаткові (include) "
-"каталоги. Додаткові рядки Вашого CMakeLists.txt можуть виглядати:"
+"command/find_package.html>` _, яка надасть цільовий об'єкт для зв'язку "
+"(link) або змінні, які вказуватимуть на двійкові бібліотеки та додаткові "
+"(include) каталоги. Додаткові рядки Вашого CMakeLists.txt можуть виглядати:"
 
 #: ../../appdev/guides/dependencies.rst:90
 #, fuzzy
@@ -1732,8 +1732,8 @@ msgstr ""
 "``SOMELIBRARY_INCLUDE_DIRS`` та двійкові файли бібліотеки як `` "
 "SOMELIBRARY_LIBS`` (перевірте документацію бібліотеки, що саме надає "
 "конфігурація CMake). Використовуйте їх з командами `` include_directories`` "
-"та ``target_link_libraries``. Реальні приклади можна переглянути тут: `"
-"Camera Scanner ImageProcessing CMakeLists.txt <https://github.com/jonnius/"
+"та ``target_link_libraries``. Реальні приклади можна переглянути тут: "
+"`Camera Scanner ImageProcessing CMakeLists.txt <https://github.com/jonnius/"
 "camera-scanner/blob/master/plugins/ImageProcessing/CMakeLists.txt#L23>`_."
 
 #: ../../appdev/guides/dependencies.rst:92
@@ -1782,12 +1782,13 @@ msgid ""
 msgstr ""
 "Знайдіть шлях до файлів спільних об'єктів. Для бібліотек, побудованих з "
 "clickable, вони розташовуються десь в інсталяційному каталозі бібліотеки, "
-"який типово розташований у каталозі для компільованих бібліотек (напр. ``"
-"build/arm-linux-gnueabihf/opencv/install``). Для бібліотек зібраних наперед "
-"виконайте ``clickable run \"find / -name 'libSomething.so'\"``(замінивши "
-"``libSomething.so`` файлом, який Ви шукаєте). Це повинно надати шлях до "
-"файлу (поряд з деякими повідомленнями про помилки, які можна ігнорувати). "
-"Загалом, для пошуку загальних файлів гарний вибір буде ``/usr/lib``."
+"який типово розташований у каталозі для компільованих бібліотек (напр. "
+"``build/arm-linux-gnueabihf/opencv/install``). Для бібліотек зібраних "
+"наперед виконайте ``clickable run \"find / -name 'libSomething."
+"so'\"``(замінивши ``libSomething.so`` файлом, який Ви шукаєте). Це повинно "
+"надати шлях до файлу (поряд з деякими повідомленнями про помилки, які можна "
+"ігнорувати). Загалом, для пошуку загальних файлів гарний вибір буде ``/usr/"
+"lib``."
 
 #: ../../appdev/guides/dependencies.rst:102
 msgid ""
@@ -2877,7 +2878,7 @@ msgstr "Якщо true — показувати лічильник, false — д�
 #: ../../systemdev/mms-infrastructure.rst:53
 #: ../../userguide/advanceduse/reverse-tethering.rst:55
 #: ../../userguide/advanceduse/screencasting.rst:74
-#: ../../userguide/advanceduse/ssh.rst:91
+#: ../../userguide/advanceduse/ssh.rst:110
 msgid "References"
 msgstr "Джерела"
 
@@ -4494,9 +4495,9 @@ msgid ""
 "launch command, as follows:::"
 msgstr ""
 "Часто хочеться обмежити користувачів самим сайтом. Тобто, якщо вебсайт це "
-"www.ubuntu.com, може бути корисним обмеження користувачів webapp сайтом "
-"www.ubuntu.com. Це можна зробити, додаючи маску посилання URL до команди "
-"запуску за зразком:::"
+"www.ubuntu.com, може бути корисним обмеження користувачів webapp сайтом www."
+"ubuntu.com. Це можна зробити, додаючи маску посилання URL до команди запуску "
+"за зразком:::"
 
 #: ../../appdev/webapp/guide.rst:64
 msgid "``--webappUrlPatterns=`` indicates a pattern is next"
@@ -4568,8 +4569,8 @@ msgid ""
 "ubuntu.com/phone/features:::"
 msgstr ""
 "Можна використовувати декілька шаблонів, розділюючи їх комою. Наприклад, "
-"наступне надасть доступ тільки до www.ubuntu.com/desktop/features та "
-"www.ubuntu.com/phone/features:::"
+"наступне надасть доступ тільки до www.ubuntu.com/desktop/features та www."
+"ubuntu.com/phone/features:::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4603,8 +4604,8 @@ msgid ""
 "ubuntu.com, a second pattern is needed:::"
 msgstr ""
 "Хоча, іноді потрібно, щоби користувач міг переходити назад до початкової "
-"адреси (та її сторінок). Тож, якщо початкова адреса це https://"
-"www.ubuntu.com, потрібен додатковий шаблон:::"
+"адреси (та її сторінок). Тож, якщо початкова адреса це https://www.ubuntu."
+"com, потрібен додатковий шаблон:::"
 
 #: ../../appdev/webapp/guide.rst:102
 #, fuzzy
@@ -4613,8 +4614,8 @@ msgid ""
 "com and allows navigation to https://developer.ubuntu.com and subpages and "
 "back to https://www.ubuntu.com and subpages:::"
 msgstr ""
-"Якщо скласти все разом, отримаємо приклад, який починається з https://"
-"www.ubuntu.com та дозволяє відвідувати https://developer.ubuntu.com та усі "
+"Якщо скласти все разом, отримаємо приклад, який починається з https://www."
+"ubuntu.com та дозволяє відвідувати https://developer.ubuntu.com та усі "
 "сторінки сайту, і повертаємося до https://www.ubuntu.com з усім сторінками:::"
 
 #: ../../appdev/webapp/guide.rst:107
@@ -4628,8 +4629,8 @@ msgid ""
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
-"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є "
-"design.ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
+"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є design."
+"ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
 "піддоменів через маску замість назви піддомена:::"
 
 #: ../../appdev/webapp/guide.rst:113
@@ -4689,12 +4690,14 @@ msgstr "Уся довідка доступна з:::"
 #: ../../appdev/webapp/guide.rst:133
 #, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr "Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
+msgstr ""
+"Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
 
 #: ../../appdev/webapp/guide.rst:147
 #, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
-msgstr "Параметри Chrome (стандартно, якщо порожньо, Chrome не зображується):::"
+msgstr ""
+"Параметри Chrome (стандартно, якщо порожньо, Chrome не зображується):::"
 
 #: ../../appdev/webapp/guide.rst:152
 msgid ""
@@ -4827,8 +4830,8 @@ msgstr ""
 "документування. Webapp+ є простим додатком qml та легко налаштовується. "
 "Створення таке просте, як і класичний контейнер webapp, але результат "
 "потужніший та з чудовими можливостями навігації. Доволі непоганий приклад "
-"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-salta>`"
-" __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
+"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-"
+"salta>` __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
 
 #: ../../appdev/webapp/index.rst:28
 msgid "Guide"
@@ -8893,8 +8896,9 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:85
+#: ../../porting/build_and_boot/H9_build.rst:110
 msgid ""
-"I your particular error is not listed, you will need to do some research of "
+"If your particular error is not listed, you will need to do some research of "
 "your own. If you end up here, know that there is a community of porters, "
 "developers and enthusiasts who might be able to help you. Refer to :ref:"
 "`Getting-community-help`."
@@ -9288,14 +9292,6 @@ msgstr ""
 msgid ""
 "Halium will use the ``mkbootimg`` tool for creating the boot image. In most "
 "cases it is not on the local harddisk, so it can be built by issuing::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:110
-msgid ""
-"If your particular error is not listed, you will need to do some research of "
-"your own. If you end up here, know that there is a community of porters, "
-"developers and enthusiasts who might be able to help you. Refer to :ref:"
-"`Getting-community-help`."
 msgstr ""
 
 #: ../../porting/build_and_boot/H9_build.rst:117
@@ -15936,7 +15932,7 @@ msgid "Steps to Set Up Reverse Tethering"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:10
-msgid "Prepare your device (Ubuntu Touch) and your computer:"
+msgid "Prepare your *device* (Ubuntu Touch) and your *computer* (Linux):"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:12
@@ -15951,15 +15947,13 @@ msgstr ""
 msgid "Turn off Wifi and Data on your *device*"
 msgstr ""
 
-#: ../../userguide/advanceduse/reverse-tethering.rst:16
-msgid "Run the following commands on your *device*:"
+#: ../../userguide/advanceduse/reverse-tethering.rst:15
+msgid ""
+"Set your device :doc:`usb in tethering mode </userguide/dailyuse/tethering>`"
 msgstr ""
 
-#: ../../userguide/advanceduse/reverse-tethering.rst:18
-msgid ""
-"Set your device usb in tethering mode: ``gdbus call --system --dest com."
-"meego.usb_moded --object-path /com/meego/usb_moded --method com.meego."
-"usb_moded.set_mode rndis_adb``"
+#: ../../userguide/advanceduse/reverse-tethering.rst:17
+msgid "Run the following commands on your *device*:"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:19
@@ -16027,6 +16021,7 @@ msgid "You should now have a working internet connection on your *device*!"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:47
+#: ../../userguide/advanceduse/ssh.rst:91
 #: ../../userguide/dailyuse/waydroid.rst:77 ../../userguide/install.rst:25
 msgid "Troubleshooting"
 msgstr ""
@@ -16034,7 +16029,7 @@ msgstr ""
 #: ../../userguide/advanceduse/reverse-tethering.rst:49
 msgid ""
 "If the above steps don't give you working internet connection on your "
-"*device* the try these steps on your *computer*:"
+"*device* then try these steps on your *computer*:"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:51
@@ -16043,7 +16038,7 @@ msgid ""
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:52
-msgid "Apply Forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
+msgid "Apply forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
 msgstr ""
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:57
@@ -16273,13 +16268,29 @@ msgid "then add the following text::"
 msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:93
+msgid "If connecting fails with the message ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:97
+msgid "check the log on the UBports device ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:101
+msgid "If you see a message about missing hostkeys such as ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:105
+msgid "You need to generate host keys with the following command ::"
+msgstr ""
+
+#: ../../userguide/advanceduse/ssh.rst:112
 msgid ""
 "`askubuntu.com: How can I access my Ubuntu phone over SSH? <https://"
 "askubuntu.com/questions/348714/how-can-i-access-my-ubuntu-phone-over-"
 "ssh/599041#599041>`_"
 msgstr ""
 
-#: ../../userguide/advanceduse/ssh.rst:94
+#: ../../userguide/advanceduse/ssh.rst:113
 msgid ""
 "`gurucubano: BQ Aquaris E 4.5 Ubuntu phone: How to get SSH access to the "
 "Ubuntu phone via Wi-Fi <https://gurucubano.gitbooks.io/bq-aquaris-e-4-5-"
@@ -17003,6 +17014,40 @@ msgid ""
 "locked. When an app is suspended, it cannot receive location data. For this "
 "reason, apps will not be able to track your location whenever they are not "
 "in use or the device is locked."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:2
+#, fuzzy
+#| msgid "string"
+msgid "Tethering"
+msgstr "Рядок"
+
+#: ../../userguide/dailyuse/tethering.rst:4
+msgid ""
+"This tutorial explains how to enable USB Tethering on your Ubuntu Touch "
+"device to share it's internet connection over a USB cable with a computer."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:6
+msgid "Go to the settings app and look for the usb icon"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:10
+msgid "The USB Setting in the settings app."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:12
+msgid "On the USB page you can then choose for the USB tethering option"
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:16
+msgid "The USB Setting page."
+msgstr ""
+
+#: ../../userguide/dailyuse/tethering.rst:18
+msgid ""
+"And that's it, you are now sharing the internet from your Ubuntu Touch "
+"device to your computer"
 msgstr ""
 
 #: ../../userguide/dailyuse/volte.rst:2
