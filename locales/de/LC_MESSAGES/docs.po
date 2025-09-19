@@ -51,16 +51,16 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2025-05-22 09:01+0000\n"
-"Last-Translator: doniks <p.putz@yahoo.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/de/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -1068,6 +1068,7 @@ msgstr ""
 "Arbeitskräften nicht zu unterstützen."
 
 #: ../../appdev/code-editor.rst:12
+#, fuzzy
 msgid ""
 "You can still install the SDK IDE in Ubuntu 16.04, but it is not guaranteed "
 "to work correctly. You can use the following commands to install::"
@@ -1359,6 +1360,7 @@ msgid "What about uMatriks? Let’s see its ``content-hub.json``"
 msgstr "Was ist mit uMatriks? Betrachten wir das ``content-hub.json``"
 
 #: ../../appdev/guides/contenthub.rst:166
+#, fuzzy
 msgid ""
 "So, with this example, uMatriks will be able to be the destination, source "
 "and share app for all kinds of ``ContentType``. What about the other hooks "
@@ -1628,6 +1630,7 @@ msgstr ""
 "fehlen."
 
 #: ../../appdev/guides/dependencies.rst:100
+#, fuzzy
 msgid ""
 "Find the path to the shared object files. For libraries built via clickable, "
 "they are located somewhere in the library's install dir, which is located "
@@ -1836,6 +1839,7 @@ msgstr ""
 "Verbindungselement mit ``UriHandler`` als Ziel hinzu."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:117
+#, fuzzy
 msgid ""
 "This code will manage an URI in the form ``linphone://sip:xxx@xxx.xx`` when "
 "the app is opened. But what do we need to do to handle this link when the "
@@ -3849,6 +3853,7 @@ msgstr ""
 "Ziel-Framework-SDK und Version."
 
 #: ../../appdev/platform/click.rst:11
+#, fuzzy
 msgid "Example ``manifest.json`` file::"
 msgstr "Beispiel ``manifest.json`` Datei::"
 
@@ -3879,6 +3884,7 @@ msgstr ""
 "und einige weitere Angaben."
 
 #: ../../appdev/platform/click.rst:34
+#, fuzzy
 msgid "Example of ``app.desktop``::"
 msgstr "Beispiel für ``app.desktop``::"
 
@@ -3950,6 +3956,7 @@ msgstr ""
 "json`` Datei zu funktionieren."
 
 #: ../../appdev/platform/click.rst:64
+#, fuzzy
 msgid "Example ``apparmor.json`` file::"
 msgstr "Beispielhafte ``apparmor.json`` Datei::"
 
@@ -4074,10 +4081,12 @@ msgid "Launching"
 msgstr "Starten"
 
 #: ../../appdev/webapp/guide.rst:17
+#, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
 msgstr "So startest du eine Web-App vom Terminal:::"
 
 #: ../../appdev/webapp/guide.rst:21
+#, fuzzy
 msgid "For example:::"
 msgstr "Beispielsweise:::"
 
@@ -4172,6 +4181,7 @@ msgid "Uncontained by default"
 msgstr "Standartmäßig uneingeschränkt"
 
 #: ../../appdev/webapp/guide.rst:49
+#, fuzzy
 msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
@@ -4203,6 +4213,7 @@ msgid "Simple containment to the site"
 msgstr "Einfache Beschränkungen auf die Seite"
 
 #: ../../appdev/webapp/guide.rst:60
+#, fuzzy
 msgid ""
 "One often wants to contain users to the site itself. That is, if the website "
 "is www.ubuntu.com, it may be useful to contain webapp users only to subpages "
@@ -4262,6 +4273,7 @@ msgid "More complex wildcard patterns"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:76
+#, fuzzy
 msgid ""
 "You might want to limit access to only some subpages of your site from "
 "within the webapp. This is easy with wildcard patterns. (Links to other "
@@ -4272,23 +4284,24 @@ msgstr ""
 "Eventuell möchtest du nur den Zugriff auf einige Unterseiten der Seite "
 "innerhalb der Web-App gestatten. Auch dies entspricht einem Wildcard-Muster. "
 "(Links zu anderen Unterseiten werden im Browser geöffnet.) Zum Beispiel wird "
-"im Folgenden nur der Zugang zu www.ubuntu.com/desktop/features und www."
-"ubuntu.com/phone/features gestattet, jedoch nicht auf www.ubuntu.com/desktop "
-"oder www.ubuntu.com/phone::"
+"im Folgenden nur der Zugang zu www.ubuntu.com/desktop/features und "
+"www.ubuntu.com/phone/features gestattet, jedoch nicht auf www.ubuntu.com/"
+"desktop oder www.ubuntu.com/phone::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
 msgstr "Mehrere Muster"
 
 #: ../../appdev/webapp/guide.rst:84
+#, fuzzy
 msgid ""
 "You can use multiple patterns by separating them with a comma. For example, "
 "the following allows access only to www.ubuntu.com/desktop/features and www."
 "ubuntu.com/phone/features:::"
 msgstr ""
 "Du kannst mehrere Muster in einer komma-separierten Liste eintragen. Im "
-"Beispiel wird nur der Zugriff auf www.ubuntu.com/desktop/features und www."
-"ubuntu.com/phone/features erlaubt:::"
+"Beispiel wird nur der Zugriff auf www.ubuntu.com/desktop/features und "
+"www.ubuntu.com/phone/features erlaubt:::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4342,6 +4355,7 @@ msgid "Adding subdomains with a wildcard"
 msgstr "Subdomains mittels Wildcard hinzufügen"
 
 #: ../../appdev/webapp/guide.rst:109
+#, fuzzy
 msgid ""
 "Some URLs have multiple subdomains. For example, www.ubuntu.com has design."
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
@@ -4404,16 +4418,19 @@ msgstr ""
 "verschiedene Web-Apps startet."
 
 #: ../../appdev/webapp/guide.rst:129
+#, fuzzy
 msgid "See all help with:::"
 msgstr "Sieh dir die Hilfe an:::"
 
 #: ../../appdev/webapp/guide.rst:133
+#, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
 msgstr ""
 "*Anmerkung: Nur die folgenden Optionen funktionieren unter dem konvergierten "
 "Ubuntu*.:::"
 
 #: ../../appdev/webapp/guide.rst:147
+#, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
 msgstr ""
 "Chrome Optionen (Falls nichts davon angegeben, wird Chromes Oberfläche "
@@ -4445,6 +4462,7 @@ msgstr ""
 "Standartinformationen, die vom Web-App-Container gesendet werden, anzupassen."
 
 #: ../../appdev/webapp/guide.rst:159
+#, fuzzy
 msgid "To change the string from the command line, use the following option:::"
 msgstr ""
 "Um den User-Agent von der Kommandozeile aus zu ändern, nutze folgenden "
@@ -4615,6 +4633,7 @@ msgid "Watch the logs"
 msgstr "Log öffnen"
 
 #: ../../appdev/webapp/webdebug.rst:11
+#, fuzzy
 msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
@@ -4651,6 +4670,7 @@ msgstr ""
 "debugger."
 
 #: ../../appdev/webapp/webdebug.rst:26
+#, fuzzy
 msgid "On your phone, start the browser in inspector mode:::"
 msgstr "Auf deinem Gerät, starte den Browser im Inspektormodus:::"
 
@@ -5617,6 +5637,7 @@ msgstr ""
 "(linke Seitenleiste) und oben auf der Seite angezeigt wird."
 
 #: ../../contribute/documentation.rst:19
+#, fuzzy
 msgid ""
 "Titles should be \"sentence cased\" rather than \"Title Cased\". For "
 "example::"
@@ -6171,6 +6192,7 @@ msgstr ""
 "sende uns bitte einen Pull Request, um es zu verbessern!"
 
 #: ../../contribute/documentation.rst:204
+#, fuzzy
 msgid "To create a todo, add this markup to your page::"
 msgstr ""
 "Um ein todo zu erzeugen, fügt man diese Textauszeichnung zur Seite hinzu::"
@@ -6232,6 +6254,7 @@ msgid "Monetary support"
 msgstr "Finanzielle Unterstützung"
 
 #: ../../contribute/monetary.rst:4
+#, fuzzy
 msgid ""
 "You can help us keep the lights on at UBports by becoming a patron on "
 "`Liberapay <https://liberapay.com/UBports/>`_ or `Patreon <https://www."
@@ -6511,6 +6534,7 @@ msgid "Quality Assurance"
 msgstr "Qualitätssicherung"
 
 #: ../../contribute/quality-assurance.rst:4
+#, fuzzy
 msgid ""
 "This page explains how to help the UBports QA team, both as an official "
 "member or a new contributor. Please also read the :doc:`issue tracking </"
@@ -6811,6 +6835,7 @@ msgstr ""
 "unterbrechen."
 
 #: ../../contribute/translations.rst:29
+#, fuzzy
 msgid ""
 "Most apps maintained by individual developers are mainly using *.pot*/*.po* "
 "files for translation. Those generally need to be edited manually and "
@@ -9016,6 +9041,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:49
 #: ../../porting/build_and_boot/H9_build.rst:52
+#, fuzzy
 msgid "Add the following line::"
 msgstr "Fügen Sie folgende Zeile ein::"
 
@@ -9031,6 +9057,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:56
 #: ../../porting/build_and_boot/H9_build.rst:59
+#, fuzzy
 msgid ""
 "The above method, although the preferred one, may not work for some Samsung "
 "devices. The result will be that you cannot get access to the device through "
@@ -9763,6 +9790,7 @@ msgstr ""
 "neu. Führen Sie dann die folgenden Schritte in Ihrem Halium-Tree aus::"
 
 #: ../../porting/build_and_boot/Halium_install.rst:25
+#, fuzzy
 msgid ""
 "If you have trouble accessing your device in fastboot mode, but are able to "
 "access it in TWRP recovery mode using adb, then boot into recovery mode and "
@@ -11553,6 +11581,7 @@ msgstr ""
 "ausführlich erläutert."
 
 #: ../../porting/configure_test_fix/Display.rst:10
+#, fuzzy
 msgid ""
 "All of these settings are guessed by Unity 8 if none are set. There are many "
 "cases, however, where the guess is wrong (for example, very high resolution "
@@ -11565,9 +11594,9 @@ msgstr ""
 "eingestellt sind. Es gibt jedoch viele Fälle, in denen die Erkennung falsch "
 "ist (zum Beispiel werden Telefondisplays mit sehr hoher Auflösung als "
 "Desktop-Computer erkannt). Um manuell einen Wert für diese Variablen zu "
-"setzen, editieren Sie einfach die Datei ``etc/ubuntu-touch-session.d/android."
-"conf`` und geben Sie diese an. Dies ist zum Beispiel die Datei für das Nexus "
-"7 Tablet::"
+"setzen, editieren Sie einfach die Datei ``etc/ubuntu-touch-session.d/"
+"android.conf`` und geben Sie diese an. Dies ist zum Beispiel die Datei für "
+"das Nexus 7 Tablet::"
 
 #: ../../porting/configure_test_fix/Display.rst:18
 msgid ""
@@ -12534,14 +12563,17 @@ msgstr ""
 "kopieren Sie sie in Ihr 'ubuntu'-Verzeichnis."
 
 #: ../../porting/configure_test_fix/Sound.rst:8
+#, fuzzy
 msgid "Locate the line::"
 msgstr "Lokalisieren Sie die Zeile::"
 
 #: ../../porting/configure_test_fix/Sound.rst:12
+#, fuzzy
 msgid "and replace it with this::"
 msgstr "und ersetzen Sie sie durch diese::"
 
 #: ../../porting/configure_test_fix/Sound.rst:16
+#, fuzzy
 msgid "At the end of the file, append this::"
 msgstr "Am Ende der Datei fügen Sie Folgendes an::"
 
@@ -16261,10 +16293,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "Zuerst muss ADB auf dem PC installiert werden."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "Unter Ubuntu::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "Unter Fedora::"
 
@@ -16364,6 +16398,7 @@ msgid "ADB shell commands::"
 msgstr "Adb Shell Komandos::"
 
 #: ../../userguide/advanceduse/adb.rst:64
+#, fuzzy
 msgid "Additional Adb commands::"
 msgstr "Zusätzliche Adb Kommandos::"
 
@@ -16399,6 +16434,7 @@ msgstr ""
 "dann der ursprünglich gewünschte Befehl ausgeführt werden."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
@@ -17011,6 +17047,7 @@ msgid "Connect"
 msgstr "Verbinden"
 
 #: ../../userguide/advanceduse/ssh.rst:46
+#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
 msgstr "Jetzt ist alles eingestellt und und ``ssh`` kann genutzt werden::"
 
@@ -17169,6 +17206,7 @@ msgid "Create a container"
 msgstr "Einen Container anlegen"
 
 #: ../../userguide/dailyuse/libertine.rst:22
+#, fuzzy
 msgid ""
 "The first step is to create a container where applications can be installed:"
 msgstr ""
@@ -17176,11 +17214,12 @@ msgstr ""
 "Anwendungen installiert werden können::"
 
 #: ../../userguide/dailyuse/libertine.rst:24
+#, fuzzy
 msgid ""
 "Open Settings and scroll down to *Libertine* under the *System* sub-heading."
 msgstr ""
-"Öffnen Sie die *Systemeinstellungen* und scrollen Sie herunter zu "
-"*Libertine* unter der *System* Unter-Überschrift."
+"Öffnen Sie die *Systemeinstellungen* und scrollen Sie herunter zu *Libertine*"
+" unter der *System* Unter-Überschrift."
 
 #: ../../userguide/dailyuse/libertine.rst:26
 #, fuzzy
@@ -17472,6 +17511,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:143
 #: ../../userguide/dailyuse/libertine.rst:159
+#, fuzzy
 msgid "To execute a command you can use the following pattern::"
 msgstr "Um einen Befehl auszuführen, können Sie folgendes Schema verwenden::"
 
@@ -18372,6 +18412,7 @@ msgstr ""
 "media/0``."
 
 #: ../../userguide/dailyuse/waydroid.rst:68
+#, fuzzy
 msgid ""
 "Links to android libraries can be made in their respective XDG counterparts::"
 msgstr ""
