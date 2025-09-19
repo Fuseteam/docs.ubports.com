@@ -28,40 +28,22 @@
 # This file is distributed under the same license as the UBports package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2021-06-26 11:43+0000\n"
-"Last-Translator: Carlod <carlod@disroot.org>\n"
-"Language-Team: Polish <https://translate.ubports.com/projects/ubports-docs/"
-"documentation-userguide/pl/>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  about.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  contribute.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  index.po (UBports 1.0)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  porting.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
-"#-#-#-#-#  userguide.po (UBports)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -5007,12 +4989,13 @@ msgstr ""
 "(lewy pasek) i na górze strony."
 
 #: ../../contribute/documentation.rst:19
+#, fuzzy
 msgid ""
 "Titles should be \"sentence cased\" rather than \"Title Cased\". For "
 "example::"
 msgstr ""
-"Tytuły powinny być \"literowane jak zdanie\", zamiast \"Literowane Jak "
-"Tytuł\". Na przykład::"
+"Tytuły powinny być \"literowane jak zdanie\", zamiast "
+"\"Literowane Jak Tytuł\". Na przykład::"
 
 #: ../../contribute/documentation.rst:28
 msgid ""
@@ -5211,6 +5194,7 @@ msgstr ""
 "przekierowanie."
 
 #: ../../contribute/documentation.rst:120
+#, fuzzy
 msgid ""
 "You are moving ``systemdev/calendars.rst`` to ``appdev/calendars.rst``. Add "
 "the following to the ``redirects.txt`` file::"
@@ -5539,6 +5523,7 @@ msgstr ""
 "Pull Request, aby uczynić dokumentacje lepszą!"
 
 #: ../../contribute/documentation.rst:204
+#, fuzzy
 msgid "To create a todo, add this markup to your page::"
 msgstr "Aby stworzyć todo, dodaj taki znacznik do twojej strony::"
 
@@ -5572,6 +5557,7 @@ msgstr ""
 "projektu jak i dla ciebie."
 
 #: ../../contribute/index.rst:6
+#, fuzzy
 msgid ""
 "If you're just getting started, we always need help with :doc:`thorough bug "
 "reporting <bugreporting>`. If you are multilingual, :doc:`translations "
@@ -8161,17 +8147,19 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:47
 #: ../../porting/build_and_boot/H9_build.rst:50
+#, fuzzy
 msgid ""
 "It should be done in the makefile named ``BoardConfig.mk`` (or "
 "``BoardConfigCommon.mk``) located in the root directory of your device tree, "
 "e.g. ``~/halium/device/<vendor>/<model_codename>/BoardConfig.mk``"
 msgstr ""
-"Należy to zrobić w pliku makefile``BoardConfig.mk`` (albo BoardConfigCommon."
-"mk``) znajdującym się w głownym folderze drzewka twojego urządzenia, np. `` "
-"~/halium/device/<vendor>/<nazwa_kodowa>/BoardConfig.mk``"
+"Należy to zrobić w pliku makefile``BoardConfig.mk`` (albo "
+"BoardConfigCommon.mk``) znajdującym się w głownym folderze drzewka twojego "
+"urządzenia, np. `` ~/halium/device/<vendor>/<nazwa_kodowa>/BoardConfig.mk``"
 
 #: ../../porting/build_and_boot/H7_build.rst:49
 #: ../../porting/build_and_boot/H9_build.rst:52
+#, fuzzy
 msgid "Add the following line::"
 msgstr "Dodaj następującą linie::"
 
@@ -8187,6 +8175,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/H7_build.rst:56
 #: ../../porting/build_and_boot/H9_build.rst:59
+#, fuzzy
 msgid ""
 "The above method, although the preferred one, may not work for some Samsung "
 "devices. The result will be that you cannot get access to the device through "
@@ -8912,6 +8901,7 @@ msgstr ""
 "fastboot. Następnie wykonaj następujące komendy z twojego folderu Halium::"
 
 #: ../../porting/build_and_boot/Halium_install.rst:25
+#, fuzzy
 msgid ""
 "If you have trouble accessing your device in fastboot mode, but are able to "
 "access it in TWRP recovery mode using adb, then boot into recovery mode and "
@@ -10687,6 +10677,7 @@ msgstr ""
 "sekcji :ref:`Display-settings`."
 
 #: ../../porting/configure_test_fix/Display.rst:10
+#, fuzzy
 msgid ""
 "All of these settings are guessed by Unity 8 if none are set. There are many "
 "cases, however, where the guess is wrong (for example, very high resolution "
@@ -10696,11 +10687,11 @@ msgid ""
 "the Nexus 7 tablet::"
 msgstr ""
 "Wszystkie te ustawienia są przyjmowane jako domyślne, jeśli nie są "
-"ustawione. Jest dużo przykładów, gdzie domyślne ustawienia są niepoprawne "
-"(np, smartfon z wysoką rozdzielczością będzie indentyfikowany jako komputer "
-"stacjonarny). Aby manualnie ustawić te wartości, zedytuj plik ``etc/ubuntu-"
-"touch-session.d/android.conf``. Na przykład, to jest plik dla tabletu Nexus "
-"7::"
+"ustawione. Jest dużo przykładów, gdzie domyślne ustawienia są niepoprawne ("
+"np, smartfon z wysoką rozdzielczością będzie indentyfikowany jako komputer "
+"stacjonarny). Aby manualnie ustawić te wartości, zedytuj plik ``etc/"
+"ubuntu-touch-session.d/android.conf``. Na przykład, to jest plik dla tabletu "
+"Nexus 7::"
 
 #: ../../porting/configure_test_fix/Display.rst:18
 msgid ""
@@ -10736,6 +10727,7 @@ msgid "Display scaling"
 msgstr "Skalowanie ekranu"
 
 #: ../../porting/configure_test_fix/Display.rst:34
+#, fuzzy
 msgid ""
 "``GRID_UNIT_PX`` (Pixels per Grid Unit or Px/GU) is specific to each device. "
 "Its goal is to make the user interface of the system and its applications "
@@ -11656,14 +11648,17 @@ msgstr ""
 "folderu 'ubuntu'."
 
 #: ../../porting/configure_test_fix/Sound.rst:8
+#, fuzzy
 msgid "Locate the line::"
 msgstr "Znajdź linie::"
 
 #: ../../porting/configure_test_fix/Sound.rst:12
+#, fuzzy
 msgid "and replace it with this::"
 msgstr "i zastąp go tym::"
 
 #: ../../porting/configure_test_fix/Sound.rst:16
+#, fuzzy
 msgid "At the end of the file, append this::"
 msgstr "Na końcu pliku dodaj to::"
 
@@ -15372,10 +15367,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "Pierwsze co musisz zrobić to zainstalować ADB na twoim komputerze."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "Na Ubuntu::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "Na Fedorze::"
 
@@ -15475,6 +15472,7 @@ msgid "ADB shell commands::"
 msgstr "Komendy powłoki adb::"
 
 #: ../../userguide/advanceduse/adb.rst:64
+#, fuzzy
 msgid "Additional Adb commands::"
 msgstr "Dodatkowe komendy adb::"
 
@@ -15510,6 +15508,7 @@ msgstr ""
 "chciałeś wykonać."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
@@ -16117,6 +16116,7 @@ msgid "Connect"
 msgstr "Połączenie się"
 
 #: ../../userguide/advanceduse/ssh.rst:46
+#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
 msgstr "Teraz wszystko jest już ustawione i możesz korzystać z ``ssh``::"
 
@@ -16313,6 +16313,7 @@ msgid "To do this via the command-line::"
 msgstr "Aby to zrobić poprzez wiersz poleceń postępuj wg tych kroków::"
 
 #: ../../userguide/dailyuse/libertine.rst:37
+#, fuzzy
 msgid "You can add extra options such as:"
 msgstr "Możesz dodać dodatkowe opcje jak::"
 
@@ -16561,6 +16562,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:143
 #: ../../userguide/dailyuse/libertine.rst:159
+#, fuzzy
 msgid "To execute a command you can use the following pattern::"
 msgstr "Aby wykonać komende, możesz użyć podanego schematu::"
 
@@ -17434,6 +17436,7 @@ msgstr ""
 "media/0``."
 
 #: ../../userguide/dailyuse/waydroid.rst:68
+#, fuzzy
 msgid ""
 "Links to android libraries can be made in their respective XDG counterparts::"
 msgstr ""
@@ -17599,6 +17602,7 @@ msgid ""
 msgstr ""
 
 #: ../../userguide/install.rst:27
+#, fuzzy
 msgid ""
 "If you need help, you can join UBports' support channels on `telegram "
 "<https://t.me/WelcomePlus>`_ or `matrix <https://matrix.to/#/!"
@@ -17609,12 +17613,12 @@ msgid ""
 "github.com/ubports/ubports-installer/issues/new>`_ to help us solve the "
 "problem."
 msgstr ""
-"Jeśli potrzebujesz pomocy możesz dołączyć do grupy pomocy UBports na "
-"`telegramie <https://t.me/WelcomePlus>`_ albo `matrixie <https://matrix.to/"
-"#/!KwdniMNeTmClpgHkND:matrix.org?via=matrix.org&via=ubports.chat&via=disroot."
-"org>`_ lub zadać pytanie `na forum <https://forums.ubports.com/>`_ . Jeżeli "
-"masz wątpliwości czy Instalator UBports działa poprawnie, możesz równiesz "
-"`rozpocząć nowy problem <https://github.com/ubports/ubports-installer/issues/"
+"Jeśli potrzebujesz pomocy możesz dołączyć do grupy pomocy UBports na `"
+"telegramie <https://t.me/WelcomePlus>`_ albo `matrixie <https://matrix.to/#/"
+"!KwdniMNeTmClpgHkND:matrix.org?via=matrix.org&via=ubports.chat&via=disroot.org>`"
+"_ lub zadać pytanie `na forum <https://forums.ubports.com/>`_ . Jeżeli masz "
+"wątpliwości czy Instalator UBports działa poprawnie, możesz równiesz `"
+"rozpocząć nowy problem <https://github.com/ubports/ubports-installer/issues/"
 "new>`_ aby pomóc nam go rozwiązać."
 
 #: ../../userguide/install.rst:30
