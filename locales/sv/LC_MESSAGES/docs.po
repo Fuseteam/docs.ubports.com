@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
 "PO-Revision-Date: 2025-09-19 13:55+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Rondy Andersson <rondarius@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/sv/>\n"
 "Language: sv\n"
@@ -66,6 +66,7 @@ msgid "About the Documentation"
 msgstr "Om Dokumentationen"
 
 #: ../../about/introduction.rst:16
+#, fuzzy
 msgid ""
 "Changes to the documentation are made by the UBports community. It is "
 "written in reStructuredText and converted into this readable form by `Sphinx "
@@ -77,8 +78,8 @@ msgstr ""
 "Ändringar i dokumentationen görs av Ubports gemenskapen. Den är skriven i "
 "reStructuredText och konverterad i detta läsbara format utav `Sphinx "
 "<https://www.sphinx-doc.org/en/master/>`_, `recommonmark <http://"
-"recommonmark.readthedocs.io/en/latest/>`_, och `Läs Dokumentationen <https://"
-"readthedocs.io>`_."
+"recommonmark.readthedocs.io/en/latest/>`_, och `Läs Dokumentationen "
+"<https://readthedocs.io>`_."
 
 #: ../../about/introduction.rst:18
 msgid ""
