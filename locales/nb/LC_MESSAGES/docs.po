@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-16 12:50+0000\n"
-"PO-Revision-Date: 2025-06-24 13:04+0000\n"
-"Last-Translator: Ida Brenna <ida@larald.no>\n"
+"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/nb_NO/>\n"
 "Language: nb\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -5425,6 +5425,7 @@ msgstr ""
 "bedre!"
 
 #: ../../contribute/documentation.rst:204
+#, fuzzy
 msgid "To create a todo, add this markup to your page::"
 msgstr "For å lage et gjøremål, legg til denne markeringen på siden din ::"
 
@@ -5796,6 +5797,7 @@ msgid "Smoke testing"
 msgstr "Røyktesting"
 
 #: ../../contribute/quality-assurance.rst:9
+#, fuzzy
 msgid ""
 "To test the core functionality of the operating system, we have compiled `a "
 "set of standardized tests <https://gitlab.com/ubports/teams/qa/project-"
@@ -5805,9 +5807,9 @@ msgid ""
 "were introduced."
 msgstr ""
 "For å teste kjernefunksjonaliteten til operativsystemet, har vi samlet `et "
-"sett med standardiserte tester <https://gitlab.com/ubports/teams/qa/project-"
-"management/raw/master/QA-Plan-Template.ots> `_. Kjør disse testene på "
-"enheten din til: doc: `finn og rapporter feil og regresjoner "
+"sett med standardiserte tester <https://gitlab.com/ubports/teams/qa/"
+"project-management/raw/master/QA-Plan-Template.ots> `_. Kjør disse testene "
+"på enheten din til: doc: `finn og rapporter feil og regresjoner "
 "<feilrapportering>`. Det kjøres vanligvis på alle enheter før en ny "
 "utgivelse for å sikre at ingen nye problemer ble introdusert."
 
@@ -5902,6 +5904,7 @@ msgid "Initial triaging of issues"
 msgstr "Innledende prioritering av problemer"
 
 #: ../../contribute/quality-assurance.rst:30
+#, fuzzy
 msgid ""
 "Initial triaging of new issues is done by QA-team members with write-access "
 "to the repository. If a new issue is filed, read the report and add the "
@@ -5911,8 +5914,8 @@ msgid ""
 msgstr ""
 "Innledende prioritering av nye utgaver gjøres av QA-teammedlemmer med "
 "skrivetilgang til arkivet. Hvis en ny utgave er arkivert, kan du lese "
-"rapporten og legge til de riktige etikettene som angitt i: doc: "
-"`retningslinjer for problemsporing </about/process/issue-tracking>`. Du kan "
+"rapporten og legge til de riktige etikettene som angitt i: doc: `"
+"retningslinjer for problemsporing </about/process/issue-tracking>`. Du kan "
 "også umiddelbart bekrefte feilrapporten."
 
 #: ../../contribute/quality-assurance.rst:32
@@ -5972,6 +5975,7 @@ msgstr ""
 "syntaks. Som mal brukes en *.ts* -fil."
 
 #: ../../contribute/translations.rst:14
+#, fuzzy
 msgid ""
 "Within an app strings are marked either this way ``i18n.tr(\"string\")`` "
 "when using gettext or like this ``tr(\"string\")`` when using QtLinguist. "
@@ -6036,16 +6040,18 @@ msgstr ""
 "trekkforespørsel."
 
 #: ../../contribute/translations.rst:25
+#, fuzzy
 msgid ""
 "Team translation: We also have  a `Translation Forum <https://forums.ubports."
 "com/category/39/translations>`_ to discuss translating Ubuntu Touch and its "
 "core apps. Some projects are using Telegram or Matrix groups too, and some "
 "teams are still using the Ubuntu Launchpad framework."
 msgstr ""
-"Teamoversettelse: Vi har også et `Oversettelsesforum <https://forums.ubports."
-"com/category/39/translations>` for å diskutere oversettelse av Ubuntu Touch "
-"og dets kjerneapper. Noen prosjekter bruker også Telegram- eller Matrix-"
-"grupper, og noen team bruker fortsatt Ubuntu Launchpad-rammeverket."
+"Teamoversettelse: Vi har også et `Oversettelsesforum <https://"
+"forums.ubports.com/category/39/translations>` for å diskutere oversettelse "
+"av Ubuntu Touch og dets kjerneapper. Noen prosjekter bruker også Telegram- "
+"eller Matrix-grupper, og noen team bruker fortsatt Ubuntu Launchpad-"
+"rammeverket."
 
 #: ../../contribute/translations.rst:27
 #, fuzzy
@@ -6260,6 +6266,7 @@ msgid "Translation Team Communication"
 msgstr "Kommunikasjon med oversettelsesteamet"
 
 #: ../../contribute/translations.rst:80
+#, fuzzy
 msgid ""
 "You may talk to others regarding translations by using `the forum category "
 "<https://forums.ubports.com/category/39/translations>`_ that UBports "
@@ -6295,6 +6302,7 @@ msgid "License"
 msgstr "Lisens"
 
 #: ../../contribute/translations.rst:89
+#, fuzzy
 msgid ""
 "All the translation projects, and all your contributions to this project, "
 "are under a `Creative Commons Attribution-ShareAlike 4.0 International (CC "
@@ -8167,12 +8175,13 @@ msgstr ""
 "<about/introduction>`."
 
 #: ../../index.rst:12
+#, fuzzy
 msgid ""
 "If you want to help improving this documentation, :doc:`the Documentation "
 "contribute page <contribute/documentation>` will get you started."
 msgstr ""
-"Hvis du vil hjelpe deg med å forbedre denne dokumentasjonen, vil: doc: "
-"`Dokumentasjonsbidragssiden <contribute /documentation>` komme i gang."
+"Hvis du vil hjelpe deg med å forbedre denne dokumentasjonen, vil: doc: `"
+"Dokumentasjonsbidragssiden <contribute /documentation>` komme i gang."
 
 #: ../../index.rst:14
 msgid "You may view this documentation in the following languages:"
@@ -15384,10 +15393,12 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "Først trenger du ADB installert på datamaskinen din."
 
 #: ../../userguide/advanceduse/adb.rst:12
+#, fuzzy
 msgid "On Ubuntu::"
 msgstr "I Ubuntu::"
 
 #: ../../userguide/advanceduse/adb.rst:16
+#, fuzzy
 msgid "On Fedora::"
 msgstr "I Fedora::"
 
@@ -15523,6 +15534,7 @@ msgstr ""
 "forsøkte å kjøre."
 
 #: ../../userguide/advanceduse/adb.rst:78
+#, fuzzy
 msgid "Fairphone 2::"
 msgstr "Fairphone 2::"
 
@@ -16008,6 +16020,7 @@ msgid ""
 msgstr ""
 
 #: ../../userguide/advanceduse/screencasting.rst:71
+#, fuzzy
 msgid "You can download it here: :download:`files/mircast.sh`"
 msgstr "Du kan laste det ned her: download:`files/mircast.sh`"
 
@@ -16123,6 +16136,7 @@ msgid "Connect"
 msgstr "Koble til"
 
 #: ../../userguide/advanceduse/ssh.rst:46
+#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
 msgstr "Nå er alt satt opp, og du kan bruke `` ssh '' ::"
 
@@ -16158,6 +16172,7 @@ msgid "In this case you use the second IP address"
 msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:71
+#, fuzzy
 msgid "Of course you can now also use ``scp`` or ``sshfs`` to transfer files."
 msgstr ""
 "Selvfølgelig kan du nå også bruke `` scp '' eller `` sshfs '' for å overføre "
@@ -16971,6 +16986,7 @@ msgstr ""
 "under ``La enheten oppdage posisjonen din:``:"
 
 #: ../../userguide/dailyuse/location.rst:89
+#, fuzzy
 msgid "``Using GPS`` turns on location services."
 msgstr "`` Using GPS '' slår på lokasjonstjenester."
 
@@ -17738,6 +17754,7 @@ msgstr ""
 "**udev-regler**."
 
 #: ../../userguide/install.rst:62
+#, fuzzy
 msgid ""
 "See if ``/etc/udev/rules.d/51-android.rules`` exists and contains the rules "
 "below. If not, add them to the file and run ``sudo service udev restart`` or "
