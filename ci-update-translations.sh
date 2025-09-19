@@ -27,6 +27,8 @@ DATE=$(date -u -Ins -d @${TIMESTAMP})
 echo "TIMESTAMP:${TIMESTAMP}" | tee status.txt
 echo "DATE:${DATE}" | tee -a status.txt
 
+pwd
+ls -altr
 python -m sphinx -Wa -b gettext . locales/pot
 
 # echo "Fail this job for testing purpuses"
