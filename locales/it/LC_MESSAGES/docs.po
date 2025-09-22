@@ -51,10 +51,10 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-09-19 13:55+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/it/>\n"
+"PO-Revision-Date: 2025-09-23 07:02+0000\n"
+"Last-Translator: Alessandro Marigliano <alemarigliano22@proton.me>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,9 +64,8 @@ msgstr ""
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
-#, fuzzy
 msgid "Introduction"
-msgstr "introduzione al porting"
+msgstr "Introduzione"
 
 #: ../../about/introduction.rst:4
 msgid ""
@@ -81,7 +80,6 @@ msgid "About UBports"
 msgstr "A proposito di UBports"
 
 #: ../../about/introduction.rst:9
-#, fuzzy
 msgid ""
 "The project was founded by Marius Gripsgard in 2015 and in its infancy a "
 "place where developers could share ideas and educate each other in hopes of "
@@ -90,10 +88,9 @@ msgstr ""
 "Il progetto UBports è stato fondato da Marius Gripsgard nel 2015 e nella sua "
 "infanzia è stato un luogo in cui gli sviluppatori potevano condividere idee "
 "ed educarsi a vicenda nella speranza di portare la piattaforma Ubuntu Touch "
-"a sempre più dispositivi."
+"a sempre più dispositivi mobili."
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -103,10 +100,12 @@ msgid ""
 "formalised as a charitable foundation."
 msgstr ""
 "Nell'aprile del 2017, a seguito dell'improvviso annuncio di `porre termine "
-"al supporto di Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-"
-"ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_ , UBports "
-"(assieme ad altri progetti) decise di proseguire il lavoro sui codici "
-"sorgente del progetto, al fine di mantenerlo ed espanderne le potenzialità."
+"al supporto di Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_ , "
+"UBports (assieme ad altri progetti) decise di proseguire il lavoro sui "
+"codici sorgente del progetto, al fine di mantenerlo ed espanderne le "
+"potenzialità. Ad oggi UBports è un gruppo di volontari, formalizzato come "
+"una fondazione benefica."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
