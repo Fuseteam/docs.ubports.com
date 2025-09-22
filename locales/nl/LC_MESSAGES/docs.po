@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-09-19 13:55+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/nl/>\n"
+"PO-Revision-Date: 2025-09-23 07:02+0000\n"
+"Last-Translator: stuiterveer <admin@stuiterveer.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -167,7 +167,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
-msgstr ""
+msgstr "Omschrijving"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
@@ -223,7 +223,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``<major version>.x`` (e.g. ``24.6.x``)"
-msgstr ""
+msgstr "``<hoofdversie>.x`` (bijv. ``24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "Ubuntu LTS at the time of branching."
@@ -231,7 +231,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``ubports/focal``"
-msgstr ""
+msgstr "``ubports/focal``"
 
 #: ../../about/process/branch-naming.rst:38
 msgid ""
@@ -241,12 +241,12 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:38
 msgid "``focal``"
-msgstr ""
+msgstr "``focal``"
 
 #: ../../about/process/branch-naming.rst:38
 #: ../../about/process/branch-naming.rst:43
 msgid "Ubuntu 20.04 LTS."
-msgstr ""
+msgstr "Ubuntu 20.04 LTS."
 
 #: ../../about/process/branch-naming.rst:43
 msgid "``ubports/focal_-_<ext>``"
