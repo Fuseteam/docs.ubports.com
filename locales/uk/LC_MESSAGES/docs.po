@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-09-20 15:02+0000\n"
-"Last-Translator: Libre Fox <libre_fox@ilyamikcoder.com>\n"
+"PO-Revision-Date: 2025-10-07 20:02+0000\n"
+"Last-Translator: Vitalii Babych <osnovna.my@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 5.14-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -69,7 +70,6 @@ msgid "About the Documentation"
 msgstr "Щодо документації"
 
 #: ../../about/introduction.rst:16
-#, fuzzy
 msgid ""
 "Changes to the documentation are made by the UBports community. It is "
 "written in reStructuredText and converted into this readable form by `Sphinx "
@@ -79,22 +79,21 @@ msgid ""
 "`Documentation contribution document </contribute/documentation>`."
 msgstr ""
 "Зміни у документації здійснюються спільнотою Ubports. Вони записуються у "
-"reStructuredText та конвертуються у таку читабельну форму з `Sphinx <https://"
-"www.sphinx-doc.org/en/master/>` _, `recommonmark <http://"
-"recommonmark.readthedocs.io/en/latest/>` _, та `Read the Docs "
-"<https://readthedocs.io>`_. Почати можна з перевірки :doc: `Документа з "
+"reStructuredText та конвертуються у таку читабельну форму з "
+"reStructuredText:`Sphinx <https://www.sphinx-doc.org/en/master/>`_, `"
+"recommonmark <http://recommonmark.readthedocs.io/en/latest/>`_, та `Read the "
+"Docs <https://readthedocs.io>`_. Почати можна з перевірки :doc:`Документа з "
 "підтримки документації </contribute/documentation>`."
 
 #: ../../about/introduction.rst:18
-#, fuzzy
 msgid ""
 "All documents are licensed Creative Commons Attribution ShareAlike 4.0 (`CC-"
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
 "attribution to \"The UBports Community\"."
 msgstr ""
-"Усі документи під ліцензією The Creative Commons Attribution Sharealike 4.0 "
-"(`CC-BY-SA.0 <https://creativecommons.org/license/by-sa/4.0/>` _). Під час "
-"внесення змін, будь ласка, вказуйте автора \"Спільнота Ubports\"."
+"Усі документи під ліцензією The Creative Commons Attribution ShareAlike 4.0 "
+"(`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Під час "
+"внесення змін, будь ласка, вказуйте автора \"Спільнота UBports\"."
 
 #: ../../about/introduction.rst:21
 msgid "Attribution"
@@ -137,7 +136,6 @@ msgid "Click-Packages"
 msgstr "Click-пакунки"
 
 #: ../../about/process/branch-naming.rst:11
-#, fuzzy
 msgid ""
 "Software exclusively distributed as a click-package (and not also as a DEB) "
 "only uses one ``master`` branch that is protected. Separate temporary "
@@ -145,12 +143,12 @@ msgid ""
 "merged into master when the time comes. Ideally Git tags or GitHub releases "
 "should be used to mark and archive milestones in the development history."
 msgstr ""
-"Програмне забезпечення, яке розповсюджене виключно як click-пакунки (а не як "
-"DEB) використовує лише одну захищену гілку `` master``. Окремі тимчасові "
-"відгалуження для розробки з довільними іменами також можна створювати та, "
-"коли настане час, об'єднувати їх у master. Ідеально було б для позначення та "
-"архівних етапів в історії розвитку використовувати теги Git або релізи "
-"GitHub."
+"Програмне забезпечення, яке розповсюджене виключно як click-пакунки "
+"(а не як DEB) використовує лише одну захищену гілку ``master``. Окремі "
+"тимчасові відгалуження для розробки з довільними іменами також можна "
+"створювати та, коли настане час, об'єднувати їх у master. Ідеально було б "
+"для позначення та архівних етапів в історії розвитку використовувати теги "
+"Git або релізи GitHub."
 
 #: ../../about/process/branch-naming.rst:14
 msgid "DEB Packages"
@@ -292,9 +290,8 @@ msgid "``focal_-_<ext>``"
 msgstr "``focal_-_<ext>``"
 
 #: ../../about/process/branch-naming.rst:48
-#, fuzzy
 msgid "``personal/<user>/<name>``, and any other branches."
-msgstr "``особисте/<ім'я>/<користувача>``та будь-які інші гілки."
+msgstr "``особисте/<ім'я>/<користувача>``, та будь-які інші гілки."
 
 #: ../../about/process/branch-naming.rst:48
 msgid ""
@@ -311,7 +308,6 @@ msgid ""
 msgstr "Н/Д доки не запитано злиття для згаданих гілок (див. нижче)."
 
 #: ../../about/process/branch-naming.rst:55
-#, fuzzy
 msgid ""
 "To ensure the ``main`` branch doesn't miss any changes, all changes must be "
 "made against ``main`` branch first before backporting to the major release "
@@ -319,8 +315,8 @@ msgid ""
 "branch anymore due to other changes in that branch."
 msgstr ""
 "Щоб переконатися, що у гілці ``main`` не забуті жодні зміни, всі зміни "
-"повинні бути внесені до головної гілки до повернення до основних гілок "
-"випуску. Виняток - це коли зміна більше не стосується гілки ``main``через "
+"повинні бути внесені до гілки ``main`` перед поверненням до основних гілок "
+"випуску. Виняток — це коли зміна більше не стосується гілки ``main`` через "
 "інші зміни у цій гілці."
 
 #: ../../about/process/branch-naming.rst:58
@@ -823,7 +819,6 @@ msgid "GitLab issue board"
 msgstr "Панель проблем GitLab"
 
 #: ../../about/process/issue-tracking.rst:99
-#, fuzzy
 msgid ""
 "We use GitLab's issue boards to visualize progress of issues in each "
 "milestone. The boards are kanban boards, where each column corresponds to "
@@ -833,10 +828,10 @@ msgid ""
 msgstr ""
 "Ми використовуємо панелі проблем GitLab для візуалізації перебігу "
 "розв'язання проблем в кожній контрольній точці. Панелі — т.з. дошки канбан "
-"(kanban), де кожен стовпчик відповідає мітці статусів (в процесі, "
-"заблоковано, має MR (запит на злиття)) з додатковими стовпчиками для "
-"відкритих проблем без статусних міток (тобто, проблеми ще не розглядалися) "
-"та окремо для закритих."
+"(kanban), де кожен стовпчик відповідає мітці **Статус:** "
+"(в процесі, заблоковано, має MR (запит на злиття)) з додатковими стовпчиками "
+"для відкритих проблем без мітки **Статус:** "
+"(тобто, проблеми ще не розглядалися) та окремо для закритих."
 
 #: ../../about/process/issue-tracking.rst:102
 msgid "GitLab epic"
@@ -1072,12 +1067,11 @@ msgstr ""
 "гілку. Потім додайте (push) цю гілку зі свого локального дерева Git."
 
 #: ../../about/process/security-vulnerabilities.rst:18
-#, fuzzy
 msgid ""
 "This MR will target the ``.secfix`` repo, NOT the main repo [1]_. This "
 "allows reviewing the patch to happen in private."
 msgstr ""
-"Цей запит MR матиме на меті репозиторій``.secfix``, НЕ основний [1]_. Це "
+"Цей запит MR матиме на меті репозиторій ``.secfix``, НЕ основний [1]_. Це "
 "дозволить переглянути цей патч приватно."
 
 #: ../../about/process/security-vulnerabilities.rst:20
@@ -1209,7 +1203,6 @@ msgid "Ubuntu SDK ( Unmaintained )"
 msgstr "Ubuntu SDK ( не обслуговується )"
 
 #: ../../appdev/code-editor.rst:10
-#, fuzzy
 msgid ""
 "Alternatively there is the old `Ubuntu SDK IDE <https://docs.ubuntu.com/"
 "phone/en/platform/sdk>`__. Be aware that it is no longer supported by "
@@ -1217,8 +1210,8 @@ msgid ""
 "manpower."
 msgstr ""
 "Крім того, є стара версія `Ubuntu SDK IDE <https://docs.ubuntu.com/phone/en/"
-"platform/sdk>`. Майте на увазі, що це SDK більше не підтримується Canonical, "
-"а Ubports вирішив не підтримувати його через брак спеціалістів."
+"platform/sdk>`__. Майте на увазі, що це SDK більше не підтримується "
+"Canonical, а Ubports вирішив не підтримувати його через брак спеціалістів."
 
 #: ../../appdev/code-editor.rst:12
 msgid ""
@@ -1659,7 +1652,6 @@ msgstr ""
 "залежностей у такий спосіб:"
 
 #: ../../appdev/guides/dependencies.rst:62
-#, fuzzy
 msgid ""
 "Clickable will install the specified package automatically for the target "
 "architecture inside the build container. An example can be found in `Guitar "
@@ -1667,9 +1659,9 @@ msgid ""
 "clickable.json#L4>`_."
 msgstr ""
 "Clickable встановить вказаний пакет для цільової архітектури автоматично "
-"всередині скомпільованого контейнера. Приклад можна знайти у `Guitar Tools ' "
-"clickable.json <https://github.com/t-mon/guitar-tools/blob/master/clickable."
-"json#L4>` _."
+"всередині скомпільованого контейнера. Приклад можна знайти у `Guitar Tools' "
+"clickable.json <https://github.com/t-mon/guitar-tools/blob/master/"
+"clickable.json#L4>`_."
 
 #: ../../appdev/guides/dependencies.rst:64
 msgid ""
@@ -1698,7 +1690,6 @@ msgstr ""
 "бібліотеку з двійковою програмою."
 
 #: ../../appdev/guides/dependencies.rst:81
-#, fuzzy
 msgid ""
 "In case the library contains a CMake configuration file, you can use the "
 "`find_package <https://cmake.org/cmake/help/latest/command/find_package."
@@ -1708,12 +1699,11 @@ msgid ""
 msgstr ""
 "У випадку, якщо бібліотека містить файл налаштувань CMake, можна "
 "використовувати команду `find_package <https://cmake.org/cmake/help/latest/"
-"command/find_package.html>` _, яка надасть цільовий об'єкт для зв'язку "
-"(link) або змінні, які вказуватимуть на двійкові бібліотеки та додаткові "
-"(include) каталоги. Додаткові рядки Вашого CMakeLists.txt можуть виглядати:"
+"command/find_package.html>`_, яка надасть цільовий об'єкт для зв'язку (link) "
+"або змінні, які вказуватимуть на двійкові бібліотеки та додаткові (include) "
+"каталоги. Додаткові рядки Вашого CMakeLists.txt можуть виглядати:"
 
 #: ../../appdev/guides/dependencies.rst:90
-#, fuzzy
 msgid ""
 "The ``find_package`` command usually defines the path to the include "
 "directory as ``SOMELIBRARY_INCLUDE_DIRS`` and the library's binaries as "
@@ -1724,12 +1714,13 @@ msgid ""
 "camera-scanner/blob/master/plugins/ImageProcessing/CMakeLists.txt#L23>`_ for "
 "a real world example."
 msgstr ""
-"Команда `` find_package`` зазвичай визначає шлях до каталогу включення як "
-"``SOMELIBRARY_INCLUDE_DIRS`` та двійкові файли бібліотеки як `` "
-"SOMELIBRARY_LIBS`` (перевірте документацію бібліотеки, що саме надає "
-"конфігурація CMake). Використовуйте їх з командами `` include_directories`` "
-"та ``target_link_libraries``. Реальні приклади можна переглянути тут: "
-"`Camera Scanner ImageProcessing CMakeLists.txt <https://github.com/jonnius/"
+"Команда ``find_package`` зазвичай визначає шлях до каталогу включення як "
+"``SOMELIBRARY_INCLUDE_DIRS`` та двійкові файли бібліотеки як "
+"``SOMELIBRARY_LIBS`` "
+"(перевірте документацію бібліотеки, що саме надає конфігурація CMake). "
+"Використовуйте їх з командами ``include_directories`` та "
+"``target_link_libraries``. Реальні приклади можна переглянути тут: `Camera "
+"Scanner ImageProcessing CMakeLists.txt <https://github.com/jonnius/"
 "camera-scanner/blob/master/plugins/ImageProcessing/CMakeLists.txt#L23>`_."
 
 #: ../../appdev/guides/dependencies.rst:92
@@ -1765,7 +1756,6 @@ msgstr ""
 "про відсутній файл спільного об'єкта."
 
 #: ../../appdev/guides/dependencies.rst:100
-#, fuzzy
 msgid ""
 "Find the path to the shared object files. For libraries built via clickable, "
 "they are located somewhere in the library's install dir, which is located "
@@ -1776,15 +1766,16 @@ msgid ""
 "error messages you can ignore). In general, ``/usr/lib``  is a good bet when "
 "looking for the shared object files."
 msgstr ""
-"Знайдіть шлях до файлів спільних об'єктів. Для бібліотек, побудованих з "
-"clickable, вони розташовуються десь в інсталяційному каталозі бібліотеки, "
-"який типово розташований у каталозі для компільованих бібліотек (напр. "
-"``build/arm-linux-gnueabihf/opencv/install``). Для бібліотек зібраних "
-"наперед виконайте ``clickable run \"find / -name 'libSomething."
-"so'\"``(замінивши ``libSomething.so`` файлом, який Ви шукаєте). Це повинно "
-"надати шлях до файлу (поряд з деякими повідомленнями про помилки, які можна "
-"ігнорувати). Загалом, для пошуку загальних файлів гарний вибір буде ``/usr/"
-"lib``."
+"Знайдіть шлях до файлів спільних об'єктів. Для бібліотек, створених за "
+"допомогою clickable, вони знаходяться десь в каталозі інсталяції бібліотеки, "
+"який за замовчуванням знаходиться в каталозі збірки бібліотеки "
+"(наприклад, ``build/arm-linux-gnueabihf/opencv/install``). Для попередньо "
+"скомпільованих бібліотек запустіть ``clickable run «find / -name "
+"“libSomething.so”»`` (замінивши ``libSomething.so`` на файл, який ви шукаєте)"
+". Це повинно вивести шлях до файлу "
+"(разом з деякими повідомленнями про помилки, які ви можете проігнорувати). "
+"Як правило, ``/usr/lib`` є хорошим варіантом для пошуку файлів спільних "
+"об'єктів."
 
 #: ../../appdev/guides/dependencies.rst:102
 msgid ""
@@ -1828,15 +1819,14 @@ msgid "Importing from Content Hub and URLdispatcher"
 msgstr "Імпорт з Content Hub та URLdispatcher"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:15
-#, fuzzy
 msgid ""
 "In the previous guide we have seen a little bit about how Content Hub works. "
 "In this guide we will see how ``URLdispatcher`` works and how to handle "
 "imported data from the Content Hub."
 msgstr ""
-"У попередній настанові ми трішки побачили як працює Content Hub. Зараз "
-"поглянемо як працює ``URLdispatcher``та як поводитися з імпортованими даними "
-"з Content Hub."
+"У попередньому посібнику ми трохи ознайомилися з принципом роботи Content "
+"Hub. У цьому посібнику ми розглянемо, як працює ``URLdispatcher`` і як "
+"обробляти імпортовані дані з Content Hub."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:18
 msgid "Handle data from the Content Hub"
@@ -1947,7 +1937,6 @@ msgstr ""
 "потрібно опрацювати URL / URI у цільовій програмі. Подивимося як це зробити:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:100
-#, fuzzy
 msgid ""
 "In the main qml file, we need to add some code to know what to do with the "
 "dispatched URL. Let's check how Linphone app manages this adding a "
@@ -1955,11 +1944,11 @@ msgid ""
 "simple/blob/master/qml/Main.qml#L212>`_ with a Connections element setting "
 "``UriHandler`` as a target."
 msgstr ""
-"В головному файлі qml потрібно додати код, який відповідатиме за обробку "
-"URL. Перевіримо, як це робить програма Linphone, додавши `з'єднання з "
-"обробкою URI <https://gitlab.com/ubports-linphone/linphone-simple/blob/"
-"master/qml/main.qml#l212>` _ з елементом Connections та встановленням "
-"``UriHandler`` як ціль."
+"У головному файлі qml нам потрібно додати код, щоб знати, що робити з "
+"відправленою URL-адресою. Давайте перевіримо, як додаток Linphone це робить, "
+"додавши `з'єднання до обробника URI <https://gitlab.com/ubports-linphone/"
+"linphone-simple/blob/master/qml/Main.qml#L212>`_ з елементом Connections, що "
+"встановлює ``UriHandler`` як ціль."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:117
 msgid ""
@@ -16425,25 +16414,27 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:52
 msgid "List containers"
-msgstr ""
+msgstr "Список контейнерів"
 
 #: ../../userguide/dailyuse/libertine.rst:54
 msgid ""
 "Use the *Settings Manage Libertine Containers* sub-menu to list all the "
 "containers you have created on the device."
 msgstr ""
+"Використовуйте підменю *Налаштування управління контейнерами Libertine*, щоб "
+"переглянути список усіх контейнерів, які ви створили на пристрої."
 
 #: ../../userguide/dailyuse/libertine.rst:56
 msgid "You can also use the command-line. Run::"
-msgstr ""
+msgstr "Ви також можете скористатися командним рядком. Виконайте:"
 
 #: ../../userguide/dailyuse/libertine.rst:61
 msgid "Destroy a container"
-msgstr ""
+msgstr "Знищити контейнер"
 
 #: ../../userguide/dailyuse/libertine.rst:67
 msgid "Manage applications"
-msgstr ""
+msgstr "Керувати додатками"
 
 #: ../../userguide/dailyuse/libertine.rst:69
 msgid ""
@@ -16451,20 +16442,25 @@ msgid ""
 "app drawer. You can also tap the name of the container in the *Manage "
 "Libertine Containers* menu."
 msgstr ""
+"Після налаштування контейнера встановлені програми стають доступними в "
+"панелі програм. Ви також можете натиснути на назву контейнера в меню *"
+"Керування контейнерами Libertine*."
 
 #: ../../userguide/dailyuse/libertine.rst:72
 msgid "You can also list them via the command-line::"
-msgstr ""
+msgstr "Ви також можете перелічити їх за допомогою командного рядка:"
 
 #: ../../userguide/dailyuse/libertine.rst:77
 msgid "Install a package"
-msgstr ""
+msgstr "Встановити пакет"
 
 #: ../../userguide/dailyuse/libertine.rst:79
 msgid ""
 "From the apps list in the *Manage Libertine Containers* menu you can tap the "
 "+ sign to get a dialog box that lets you add a package."
 msgstr ""
+"У списку програм у меню *Керування контейнерами Libertine* можна натиснути "
+"значок +, щоб відкрити діалогове вікно, в якому можна додати пакет."
 
 #: ../../userguide/dailyuse/libertine.rst:81
 msgid ""
@@ -16474,14 +16470,20 @@ msgid ""
 "will need to use the *Libertine Tweak Tool* in the *Open Store* to make the "
 "text large enough to read on a mobile device."
 msgstr ""
+"Введіть назву пакета, якщо вона вам відома. В іншому випадку ви можете "
+"пошукати пакет в архівах. Ви можете спростити цей процес, встановивши в "
+"першу чергу центр програмного забезпечення, наприклад gnome-software. "
+"Оскільки це настільна програма, вам потрібно буде скористатися інструментом *"
+"Libertine Tweak Tool* в *Open Store*, щоб зробити текст достатньо великим "
+"для читання на мобільному пристрої."
 
 #: ../../userguide/dailyuse/libertine.rst:86
 msgid "Packages may also be installed via the command-line::"
-msgstr ""
+msgstr "Пакети також можна встановлювати за допомогою командного рядка:"
 
 #: ../../userguide/dailyuse/libertine.rst:91
 msgid "Remove a package"
-msgstr ""
+msgstr "Видалити пакет"
 
 #: ../../userguide/dailyuse/libertine.rst:93
 msgid ""
@@ -16489,82 +16491,95 @@ msgid ""
 "list (in *System Settings* > *Libertine* > *Manage Libertine Containers* > "
 "*CONTAINER NAME*). An option to remove it will be revealed."
 msgstr ""
+"Видаліть пакет, провівши по ньому пальцем вправо від його запису в списку "
+"пакетів (в *Налаштування системи* > *Libertine* > *Керування контейнерами "
+"Libertine* > *НАЗВА КОНТЕЙНЕРА*). З'явиться опція для його видалення."
 
 #: ../../userguide/dailyuse/libertine.rst:95
 msgid "Or you can remove the package via the command-line::"
-msgstr ""
+msgstr "Або ви можете видалити пакет за допомогою командного рядка:"
 
 #: ../../userguide/dailyuse/libertine.rst:100
 msgid ""
 "If you have more than one container, you can use the option ``-i CONTAINER-"
 "IDENTIFIER`` to specify which container you want to perform an operation on."
 msgstr ""
+"Якщо у вас є більше одного контейнера, ви можете використовувати опцію ``-i "
+"CONTAINER-IDENTIFIER``, щоб вказати, з яким контейнером ви хочете виконати "
+"операцію."
 
 #: ../../userguide/dailyuse/libertine.rst:103
 msgid "Run desktop application"
-msgstr ""
+msgstr "Запустити настільну програму"
 
 #: ../../userguide/dailyuse/libertine.rst:105
 msgid ""
 "Run it from the app menu like any other app. To start a graphical app from "
 "the command-line, for example ``gedit``, run this in a terminal::"
 msgstr ""
+"Запустіть його з меню додатків, як будь-який інший додаток. Щоб запустити "
+"графічний додаток з командного рядка, наприклад ``gedit``, виконайте в "
+"терміналі наступну команду:"
 
 #: ../../userguide/dailyuse/libertine.rst:111
 msgid "Files"
-msgstr ""
+msgstr "Файли"
 
 #: ../../userguide/dailyuse/libertine.rst:113
 msgid "Libertine applications have access to these folders:"
-msgstr ""
+msgstr "Додатки Libertine мають доступ до таких папок:"
 
 #: ../../userguide/dailyuse/libertine.rst:115
 msgid "Documents"
-msgstr ""
+msgstr "Документи"
 
 #: ../../userguide/dailyuse/libertine.rst:117
 msgid "Pictures"
-msgstr ""
+msgstr "Фотографії"
 
 #: ../../userguide/dailyuse/libertine.rst:118
 msgid "Downloads"
-msgstr ""
+msgstr "Завантаження"
 
 #: ../../userguide/dailyuse/libertine.rst:119
 msgid "Videos"
-msgstr ""
+msgstr "Відео"
 
 #: ../../userguide/dailyuse/libertine.rst:122
 msgid "Tips"
-msgstr ""
+msgstr "Поради"
 
 #: ../../userguide/dailyuse/libertine.rst:125
 msgid "Locations"
-msgstr ""
+msgstr "Розташування"
 
 #: ../../userguide/dailyuse/libertine.rst:127
 msgid "For every container you create, two directories will be created:"
-msgstr ""
+msgstr "Для кожного створеного контейнера буде створено два каталоги:"
 
 #: ../../userguide/dailyuse/libertine.rst:129
 msgid ""
 "A root directory ``~/.cache/libertine-container/CONTAINER-IDENTIFIER/rootfs/"
 "`` and"
 msgstr ""
+"Кореневий каталог ``~/.cache/libertine-container/CONTAINER-IDENTIFIER/rootfs/"
+"`` та"
 
 #: ../../userguide/dailyuse/libertine.rst:130
 msgid ""
 "a user directory ``~/.local/share/libertine-container/user-data/CONTAINER-"
 "IDENTIFIER/``"
 msgstr ""
+"каталог користувача ``~/.local/share/libertine-container/user-data/"
+"CONTAINER-IDENTIFIER/``"
 
 #: ../../userguide/dailyuse/libertine.rst:133
 msgid "Shell access"
-msgstr ""
+msgstr "Доступ до оболонки"
 
 #: ../../userguide/dailyuse/libertine.rst:135
 msgid "There are two options for executing commands inside the container."
-msgstr ""
+msgstr "Існує два варіанти виконання команд всередині контейнера."
 
 #: ../../userguide/dailyuse/libertine.rst:137
 msgid ""
@@ -16578,20 +16593,30 @@ msgid ""
 "which may lead to problems with software trying to create temporary files or "
 "directories. You may use this option to installing packages."
 msgstr ""
+"**Перший варіант** базується на ``libertine-container-manager exec``. Він "
+"дозволяє виконувати команди як root. Недоліком є те, що контейнер не "
+"налаштований повністю. Наразі ми знаємо, що `зазначені вище папки "
+"(Документи, Музика, …) не підключені <https://askubuntu.com/questions/831830/"
+"libertine-terminal-applications-how-to-access-to-the-real-home-dir# "
+"comment1273744_833984/>`_, тобто каталог ``/home/phablet/`` порожній. "
+"Аналогічно, каталог, на який посилається ``TMPDIR``, недоступний, що може "
+"призвести до проблем із програмним забезпеченням, яке намагається створити "
+"тимчасові файли або каталоги. Ви можете використовувати цю опцію для "
+"встановлення пакетів."
 
 #: ../../userguide/dailyuse/libertine.rst:143
 #: ../../userguide/dailyuse/libertine.rst:159
 msgid "To execute a command you can use the following pattern::"
-msgstr ""
+msgstr "Для виконання команди можна використовувати наступний паттерн:"
 
 #: ../../userguide/dailyuse/libertine.rst:147
 #: ../../userguide/dailyuse/libertine.rst:163
 msgid "For example, run::"
-msgstr ""
+msgstr "Наприклад, запустіть:"
 
 #: ../../userguide/dailyuse/libertine.rst:151
 msgid "To get a shell into your container as ``root``, run::"
-msgstr ""
+msgstr "Щоб отримати оболонку в контейнері як ``root``, виконайте:"
 
 #: ../../userguide/dailyuse/libertine.rst:155
 msgid ""
@@ -16599,10 +16624,14 @@ msgid ""
 "commands as user phablet in a completely set up container. You may use this "
 "option to modify your files using installed packages."
 msgstr ""
+"**Другий варіант** базується на ``libertine-launch``. Він виконуватиме ваші "
+"команди як користувач phablet у повністю налаштованому контейнері. Ви можете "
+"використовувати цей варіант для модифікації ваших файлів за допомогою "
+"встановлених пакетів."
 
 #: ../../userguide/dailyuse/libertine.rst:167
 msgid "To get a shell as the user ``phablet``, run::"
-msgstr ""
+msgstr "Щоб отримати оболонку як користувач ``phablet``, виконайте:"
 
 #: ../../userguide/dailyuse/libertine.rst:172
 msgid ""
@@ -16611,38 +16640,48 @@ msgid ""
 "yourself you are actually inside the container. The listing of ``ls /`` will "
 "be different inside and outside the container."
 msgstr ""
+"Коли ви запускаєте Bash таким чином, ви не отримаєте жодного конкретного "
+"підтвердження того, що ви перебуваєте *всередині* контейнера. Ви можете "
+"перевірити ``ls /``, щоб переконатися, що ви дійсно перебуваєте всередині "
+"контейнера. Список ``ls /`` буде відрізнятися всередині і зовні контейнера."
 
 #: ../../userguide/dailyuse/libertine.rst:177
 msgid ""
 "When trying to run commands that require superuser privileges, you may "
 "encounter the following error:"
 msgstr ""
+"При спробі виконати команди, які вимагають привілеїв суперкористувача, ви "
+"можете зіткнутися з такою помилкою:"
 
 #: ../../userguide/dailyuse/libertine.rst:179
 msgid "sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set"
 msgstr ""
+"`sudo: /usr/bin/sudo must be owned by uid 0 and have the setuid bit set`"
 
 #: ../../userguide/dailyuse/libertine.rst:181
 msgid "Try replacing ''sudo'' with ''fakeroot'' in your command, for example:"
-msgstr ""
+msgstr "Спробуйте замінити «sudo» на «fakeroot» у вашій команді, наприклад:"
 
 #: ../../userguide/dailyuse/libertine.rst:183
 msgid "fakeroot apt install firefox"
-msgstr ""
+msgstr "`fakeroot apt install firefox`"
 
 #: ../../userguide/dailyuse/libertine.rst:186
 msgid "Accessing SD card"
-msgstr ""
+msgstr "Доступ до SD-карти"
 
 #: ../../userguide/dailyuse/libertine.rst:188
 msgid ""
 "To access your SD-card or any other part of the regular filesystem from "
 "inside your Libertine container you must create a bind mount."
 msgstr ""
+"Щоб отримати доступ до SD-карти або будь-якої іншої частини звичайної "
+"файлової системи зсередини контейнера Libertine, необхідно створити "
+"прив'язку."
 
 #: ../../userguide/dailyuse/libertine.rst:190
 msgid "To add a bind mount, use::"
-msgstr ""
+msgstr "Щоб додати прив'язку, використовуйте:"
 
 #: ../../userguide/dailyuse/libertine.rst:194
 msgid ""
@@ -16650,12 +16689,17 @@ msgid ""
 "available in the container. In this case just add the entire path to the "
 "directory you want to bind mount::"
 msgstr ""
+"Ви також можете створити глибокі посилання, якщо хочете, щоб у контейнері "
+"були доступні лише певні частини вашої SD-карти. У цьому випадку просто "
+"додайте повний шлях до каталогу, який ви хочете прив'язати mount:"
 
 #: ../../userguide/dailyuse/libertine.rst:199
 msgid ""
 "This will not give the container access to any of the directories earlier in "
 "the path for anything other than accessing your mounted directory."
 msgstr ""
+"Це не надасть контейнеру доступ до будь-яких каталогів, розташованих раніше "
+"в шляху, крім доступу до вашого змонтованого каталогу."
 
 #: ../../userguide/dailyuse/libertine.rst:201
 msgid ""
@@ -16668,20 +16712,32 @@ msgid ""
 "rule to control how to mount a card with a given ID, but since the udev "
 "rules are on the read-only port on Ubuntu Touch, this is not possible."
 msgstr ""
+"Щоб використовувати SD-картку як додатковий простір для вашого контейнера, "
+"спочатку переконайтеся, що ви відформатували її за допомогою ext4 або "
+"подібної файлової системи. У UDisks2 є проблемна особливість (mis-feature), "
+"яка монтує SD-картки з опцією showexec, забезпечуючи, що лише файли, які "
+"закінчуються на .bat, .exe або .com, можуть виконуватися з диска, якщо він "
+"відформатований у (V)FAT. Це було виправлено в інших дистрибутивах, "
+"дозволяючи будь-якому файлу мати права на виконання, але не в Ubuntu. "
+"Рекомендований обхідний шлях — додати правило udev для контролю способу "
+"монтування картки з певним ID, але оскільки правила udev знаходяться на "
+"тільки для читання порту в Ubuntu Touch, це неможливо."
 
 #: ../../userguide/dailyuse/libertine.rst:207
 msgid "Shortcuts"
-msgstr ""
+msgstr "Псевдоніми"
 
 #: ../../userguide/dailyuse/libertine.rst:209
 msgid ""
 "If you want, you can add aliases for command-line tools. Add lines like the "
 "following ones to your ``~/.bash_aliases``::"
 msgstr ""
+"Якщо ви хочете, ви можете додати псевдоніми для інструментів командного "
+"рядка. Додайте такі рядки до вашого ``~/.bash_aliases``:"
 
 #: ../../userguide/dailyuse/libertine.rst:216
 msgid "Installing packages manually"
-msgstr ""
+msgstr "Встановлення пакетів вручну"
 
 #: ../../userguide/dailyuse/libertine.rst:218
 msgid ""
@@ -16689,14 +16745,17 @@ msgid ""
 "available to the root user, for example by copying it to the ``/root`` "
 "directory::"
 msgstr ""
+"Якщо ви хочете встановити пакет з файлу, спочатку вам потрібно зробити його "
+"доступним для користувача root, наприклад, скопіювавши його в каталог "
+"``/root``:"
 
 #: ../../userguide/dailyuse/libertine.rst:222
 msgid "Then install it using dpkg::"
-msgstr ""
+msgstr "Потім встановіть його за допомогою `dpkg:`:"
 
 #: ../../userguide/dailyuse/libertine.rst:227
 msgid "Background"
-msgstr ""
+msgstr "Передісторія"
 
 #: ../../userguide/dailyuse/libertine.rst:229
 msgid ""
@@ -16706,6 +16765,11 @@ msgid ""
 "compatibility layer called XMir resolves this. Libertine relies on XMir to "
 "display desktop applications."
 msgstr ""
+"Сервер відображення координує введення та виведення операційної системи. "
+"Ubuntu Touch не використовує X, а новий сервер відображення під назвою Mir. "
+"Це означає, що стандартні програми X несумісні безпосередньо з Ubuntu Touch. "
+"Цю проблему вирішує шар сумісності під назвою XMir. Libertine використовує "
+"XMir для відображення програм робочого столу."
 
 #: ../../userguide/dailyuse/libertine.rst:235
 msgid ""
@@ -16714,10 +16778,15 @@ msgid ""
 "provides a container with a read-write filesystem to allow installation of "
 "regular Linux desktop applications."
 msgstr ""
+"Ще однією проблемою є те, що оновлення системи Ubuntu Touch випускаються у "
+"вигляді образів OTA. Як наслідок, коренева файлова система є доступною "
+"тільки для читання. Libertine надає контейнер із файловою системою для "
+"читання та запису, що дозволяє встановлювати звичайні настільні програми для "
+"Linux."
 
 #: ../../userguide/dailyuse/location.rst:2
 msgid "Using location services"
-msgstr ""
+msgstr "Використання служб визначення місцезнаходження"
 
 #: ../../userguide/dailyuse/location.rst:4
 msgid ""
@@ -16728,6 +16797,13 @@ msgid ""
 "transport near you <https://open-store.io/app/transport.zubozrout>`__, and "
 "more."
 msgstr ""
+"Служби визначення місцезнаходження в Ubuntu Touch дозволяють додаткам "
+"отримувати доступ до вашого поточного місцезнаходження. Використовуючи ці "
+"дані, програми можуть `пропонувати покрокову навігацію <https://open-"
+"store.io/app/navigator.costales>`__, `відстежувати маршрути ваших тренувань "
+"<https://open-store.io/app/activitytracker.cwayne18>`__,`знаходити "
+"громадський транспорт поблизу <https://open-store.io/app/"
+"transport.zubozrout>`__ тощо."
 
 #: ../../userguide/dailyuse/location.rst:7
 msgid ""
@@ -16736,24 +16812,35 @@ msgid ""
 "only access your location data when the device screen is on and the app is "
 "in use."
 msgstr ""
+"Вбудовані в Ubuntu Touch служби визначення місцезнаходження призначені для "
+"захисту вашої конфіденційності — ви самі вирішуєте, чи дозволити додаткам "
+"доступ до цих даних. Додатки можуть отримувати доступ до даних про ваше "
+"місцезнаходження лише тоді, коли екран пристрою увімкнено і додаток "
+"використовується."
 
 #: ../../userguide/dailyuse/location.rst:11
 msgid "Checking if location services are on"
-msgstr ""
+msgstr "Перевірка, чи увімкнені служби визначення місцезнаходження"
 
 #: ../../userguide/dailyuse/location.rst:13
 msgid ""
 "The Location Indicator is displayed whenever location services are on. "
 "Normally, this indicator will appear to be dark."
 msgstr ""
+"Індикатор місцезнаходження відображається, коли служби визначення "
+"місцезнаходження увімкнені. Зазвичай цей індикатор має темний колір."
 
 #: ../../userguide/dailyuse/location.rst:18
 msgid "The Location Indicator, showing location on but not in use."
 msgstr ""
+"Індикатор місцезнаходження, що показує місцезнаходження, але не "
+"використовується."
 
 #: ../../userguide/dailyuse/location.rst:20
 msgid "If an app is accessing location data, the Location Indicator brightens."
 msgstr ""
+"Якщо програма отримує доступ до даних про місцезнаходження, індикатор "
+"місцезнаходження стає яскравішим."
 
 #: ../../userguide/dailyuse/location.rst:24
 msgid "The Location Indicator, showing location on and in use."
@@ -16938,7 +17025,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/location.rst:134
 msgid "Using apps with location services"
-msgstr ""
+msgstr "Використання програм із сервісами визначення місцезнаходження"
 
 #: ../../userguide/dailyuse/location.rst:136
 msgid ""
@@ -16946,10 +17033,14 @@ msgid ""
 "access to location data. However, there are some things to note while using "
 "apps with location services."
 msgstr ""
+"Програми зможуть отримувати доступ до вашого поточного місцезнаходження "
+"після надання їм дозволу на використання даних про розташування. Однак є "
+"кілька моментів, на які варто звернути увагу під час використання програм із "
+"сервісами визначення місцезнаходження."
 
 #: ../../userguide/dailyuse/location.rst:140
 msgid "Time to first fix"
-msgstr ""
+msgstr "Час до першого виправлення"
 
 #: ../../userguide/dailyuse/location.rst:142
 msgid ""
@@ -16959,6 +17050,12 @@ msgid ""
 "device is activated. This rating is called \"`Time To First Fix <https://en."
 "wikipedia.org/wiki/Time_to_first_fix>`_,\" or TTFF."
 msgstr ""
+"«Виправлення» — це точка даних, що генерується апаратним забезпеченням GPS і "
+"містить інформацію про поточне місцезнаходження та очікувану точність цього "
+"місцезнаходження. Апаратне забезпечення GPS оцінюється за часом, необхідним "
+"для повернення однієї з таких точок даних після активації пристрою. Ця "
+"оцінка називається \"`Час до першого виправлення <https://en.wikipedia.org/"
+"wiki/Time_to_first_fix>`_,\" або TTFF."
 
 #: ../../userguide/dailyuse/location.rst:146
 msgid ""
@@ -16968,30 +17065,40 @@ msgid ""
 "can take up to an hour. To prevent this from causing problems for you, "
 "follow these instructions:"
 msgstr ""
+"Пристрій з мобільним підключенням до Інтернету повинен отримати перше "
+"визначення координат протягом однієї-чотирьох хвилин. Якщо служби визначення "
+"місцезнаходження не використовувалися протягом тривалого часу *і* пристрій "
+"не має мобільного підключення до Інтернету, перше визначення координат може "
+"зайняти до години. Щоб уникнути проблем, дотримуйтесь таких інструкцій:"
 
 #: ../../userguide/dailyuse/location.rst:151
 msgid ""
 "Do not leave your device in direct sunlight. (The heat can damage the "
 "device.)"
 msgstr ""
+"Не залишайте пристрій під прямими сонячними променями. "
+"(Тепло може пошкодити пристрій.)"
 
 #: ../../userguide/dailyuse/location.rst:153
 msgid "Turn off ``Lock when idle`` in the Battery settings"
 msgstr ""
+"Вимкніть опцію ``Блокувати при бездіяльності`` в налаштуваннях акумулятора"
 
 #: ../../userguide/dailyuse/location.rst:154
 msgid ""
 "Download an app which uses location services and use it to start accessing "
 "location data."
 msgstr ""
+"Завантажте додаток, який використовує служби визначення місцезнаходження, і "
+"використовуйте його для отримання доступу до даних про місцезнаходження."
 
 #: ../../userguide/dailyuse/location.rst:155
 msgid "Leave your device near a window, but out of direct sunlight."
-msgstr ""
+msgstr "Залиште пристрій біля вікна, але подалі від прямих сонячних променів."
 
 #: ../../userguide/dailyuse/location.rst:157
 msgid "(Turn the screen brightness down to reduce energy consumption.)"
-msgstr ""
+msgstr "(Знизьте яскравість екрану, щоб зменшити споживання енергії.)"
 
 #: ../../userguide/dailyuse/location.rst:159
 msgid ""
@@ -16999,10 +17106,14 @@ msgid ""
 "can now close the app and turn on ``Lock when idle``. Future attempts to "
 "aquire your location should now take 1-4 minutes."
 msgstr ""
+"Через 20-60 хвилин на вашому пристрої має з'явитися ваше поточне "
+"місцезнаходження. Тепер ви можете закрити додаток і увімкнути функцію ``"
+"Блокувати в режимі очікування``. Наступні спроби визначити ваше "
+"місцезнаходження займатимуть 1-4 хвилини."
 
 #: ../../userguide/dailyuse/location.rst:164
 msgid "App suspension"
-msgstr ""
+msgstr "Призупинення роботи програми"
 
 #: ../../userguide/dailyuse/location.rst:166
 msgid ""
@@ -17011,44 +17122,51 @@ msgid ""
 "reason, apps will not be able to track your location whenever they are not "
 "in use or the device is locked."
 msgstr ""
+"Програми призупиняються, коли вони неактивні або коли пристрій заблоковано. "
+"У стані призупинення програма не може отримувати дані про місцезнаходження. "
+"Тому програми не зможуть відстежувати ваше розташування, коли вони не "
+"використовуються або пристрій заблоковано."
 
 #: ../../userguide/dailyuse/tethering.rst:2
-#, fuzzy
-#| msgid "string"
 msgid "Tethering"
-msgstr "Рядок"
+msgstr "Модем"
 
 #: ../../userguide/dailyuse/tethering.rst:4
 msgid ""
 "This tutorial explains how to enable USB Tethering on your Ubuntu Touch "
 "device to share it's internet connection over a USB cable with a computer."
 msgstr ""
+"У цьому посібнику пояснюється, як увімкнути USB-модем на пристрої Ubuntu "
+"Touch, щоб поділитися його підключенням до Інтернету через USB-кабель з "
+"комп'ютером."
 
 #: ../../userguide/dailyuse/tethering.rst:6
 msgid "Go to the settings app and look for the usb icon"
-msgstr ""
+msgstr "Перейдіть до програми налаштувань і знайдіть піктограму USB"
 
 #: ../../userguide/dailyuse/tethering.rst:10
 msgid "The USB Setting in the settings app."
-msgstr ""
+msgstr "Налаштування USB в додатку налаштувань."
 
 #: ../../userguide/dailyuse/tethering.rst:12
 msgid "On the USB page you can then choose for the USB tethering option"
-msgstr ""
+msgstr "На сторінці USB ви можете вибрати опцію USB-модем"
 
 #: ../../userguide/dailyuse/tethering.rst:16
 msgid "The USB Setting page."
-msgstr ""
+msgstr "Сторінка налаштувань USB."
 
 #: ../../userguide/dailyuse/tethering.rst:18
 msgid ""
 "And that's it, you are now sharing the internet from your Ubuntu Touch "
 "device to your computer"
 msgstr ""
+"Ось і все, тепер ви ділитеся інтернетом зі свого пристрою Ubuntu Touch на "
+"свій комп'ютер"
 
 #: ../../userguide/dailyuse/volte.rst:2
 msgid "Voice over LTE (VoLTE)"
-msgstr ""
+msgstr "Voice over LTE (VoLTE)"
 
 #: ../../userguide/dailyuse/volte.rst:4
 msgid ""
@@ -17057,6 +17175,11 @@ msgid ""
 "benefits of VoLTE include quicker call setup, higher quality voice, and "
 "seamless mobile data while on a call."
 msgstr ""
+"Voice over LTE (VoLTE) — це технологія, яка дозволяє телефону приймати "
+"дзвінки та надсилати повідомлення під час підключення до мережі "
+"стільникового зв'язку 4G/LTE. Переваги VoLTE включають швидше встановлення "
+"зв'язку, вищу якість голосу та безперебійну передачу мобільних даних під час "
+"дзвінка."
 
 #: ../../userguide/dailyuse/volte.rst:6
 msgid ""
@@ -17067,6 +17190,12 @@ msgid ""
 "the duration of the call and will switch back to 4G network after the call "
 "ends."
 msgstr ""
+"Оператори в деяких частинах світу почали поступово відмовлятися від мереж "
+"стільникового зв'язку 3G, зробивши VoLTE обов'язковим для здійснення "
+"дзвінків через цього оператора. Якщо VoLTE не підтримується або не ввімкнено "
+"на телефоні, а оператор все ще підтримує мережу 3G, телефон автоматично "
+"переключиться на мережу 3G на час дзвінка і повернеться до мережі 4G після "
+"його закінчення."
 
 #: ../../userguide/dailyuse/volte.rst:8
 msgid ""
@@ -17076,10 +17205,15 @@ msgid ""
 "20.04 OTA-8, VoLTE is enabled on Volla Phone X23 and Volla Phone 22 running "
 "Android 12-based port."
 msgstr ""
+"Ubuntu Touch підтримує VoLTE на деяких пристроях. Підтримка VoLTE в Ubuntu "
+"Touch залежить від чіпсету телефону, версії Android, на якій базується порт, "
+"та від того, чи порт має увімкнену підтримку VoLTE. Станом на Ubuntu Touch "
+"20.04 OTA-8, VoLTE увімкнено на Volla Phone X23 та Volla Phone 22, що "
+"працюють на базі Android 12."
 
 #: ../../userguide/dailyuse/volte.rst:11
 msgid "How do I know if VoLTE is supported on my phone?"
-msgstr ""
+msgstr "Як дізнатися, чи підтримує мій телефон технологію VoLTE?"
 
 #: ../../userguide/dailyuse/volte.rst:13
 msgid ""
@@ -17088,26 +17222,31 @@ msgid ""
 "calling (VoLTE)*. If the toggle does not appear, or the toggle is disabled, "
 "then your phone does not yet support VoLTE on Ubuntu Touch."
 msgstr ""
+"Щоб перевірити, чи підтримує ваш телефон VoLTE, перейдіть до *Налаштування "
+"системи* > *Мобільний зв'язок* > *Оператор та APN*. Якщо VoLTE "
+"підтримується, ви зможете увімкнути *4G-дзвінки (VoLTE)*. Якщо перемикач не "
+"відображається або вимкнений, це означає, що ваш телефон ще не підтримує "
+"VoLTE на Ubuntu Touch."
 
 #: ../../userguide/dailyuse/volte.rst:18
 msgid "How do I know if VoLTE is working?"
-msgstr ""
+msgstr "Як дізнатися, чи працює VoLTE?"
 
 #: ../../userguide/dailyuse/volte.rst:20
 msgid "For VoLTE to work, the following conditions have to be met:"
-msgstr ""
+msgstr "Для роботи VoLTE мають виконуватися такі умови:"
 
 #: ../../userguide/dailyuse/volte.rst:22
 msgid "Your phone supports VoLTE on Ubuntu Touch."
-msgstr ""
+msgstr "Ваш телефон підтримує VoLTE на Ubuntu Touch."
 
 #: ../../userguide/dailyuse/volte.rst:23
 msgid "Your carrier and your SIM card supports VoLTE."
-msgstr ""
+msgstr "Ваш оператор і SIM-картка підтримують технологію VoLTE."
 
 #: ../../userguide/dailyuse/volte.rst:24
 msgid "Ubuntu Touch contains a VoLTE configuration for your carrier."
-msgstr ""
+msgstr "Ubuntu Touch містить конфігурацію VoLTE для вашого оператора."
 
 #: ../../userguide/dailyuse/volte.rst:26
 msgid ""
@@ -17115,10 +17254,12 @@ msgid ""
 "connection, the VoLTE logo will appear after your carrier name in the "
 "Network indicator."
 msgstr ""
+"Якщо умови виконані і телефон успішно встановив з'єднання VoLTE, логотип "
+"VoLTE з'явиться після назви вашого оператора в індикаторі мережі."
 
 #: ../../userguide/dailyuse/waydroid.rst:2
 msgid "Android apps"
-msgstr ""
+msgstr "Додатки для Android"
 
 #: ../../userguide/dailyuse/waydroid.rst:4
 msgid ""
@@ -17241,66 +17382,81 @@ msgstr ""
 
 #: ../../userguide/dailyuse/waydroid.rst:46
 msgid "press the install or update button"
-msgstr ""
+msgstr "натисніть кнопку «Встановити» або «Оновити»"
 
 #: ../../userguide/dailyuse/waydroid.rst:47
 msgid ""
 "wait for the download to finish, there will be a prompt to install the "
 "application/update"
 msgstr ""
+"дочекайтеся завершення завантаження, з'явиться запит на встановлення "
+"програми/оновлення"
 
 #: ../../userguide/dailyuse/waydroid.rst:48
 msgid "press the install button on the above prompt"
-msgstr ""
+msgstr "натисніть кнопку «Встановити» у вищевказаному вікні"
 
 #: ../../userguide/dailyuse/waydroid.rst:50
 msgid ""
 "For more advanced users this could be remedied by building a custom waydroid "
 "image that ships with either appstore."
 msgstr ""
+"Більш досвідчені користувачі можуть вирішити цю проблему, створивши власний "
+"образ Waydroid, який постачається разом з будь-яким магазином додатків."
 
 #: ../../userguide/dailyuse/waydroid.rst:53
 msgid "How to uninstall apps"
-msgstr ""
+msgstr "Як видалити програми"
 
 #: ../../userguide/dailyuse/waydroid.rst:56
 msgid ""
 "To uninstall apps from the Ubuntu Touch device, run ``adb uninstall "
 "[APP_ID]`` in your shell"
 msgstr ""
+"Щоб видалити програми з пристрою Ubuntu Touch, запустіть команду ``adb "
+"uninstall [APP_ID]`` у вашому shell"
 
 #: ../../userguide/dailyuse/waydroid.rst:57
 msgid ""
 "Run the following in your shell ``waydroid app remove [APP_ID]`` (you can "
 "find the APP_ID by using 'waydroid app list')"
 msgstr ""
+"Виконайте в командному рядку наступну команду: ``waydroid app remove [APP_ID]"
+"`` (APP_ID можна знайти за допомогою команди 'waydroid app list')"
 
 #: ../../userguide/dailyuse/waydroid.rst:58
 msgid ""
 "Done! You might have to pull down from the app list for the old Android apps "
 "to go away."
 msgstr ""
+"Готово! Можливо, вам доведеться видалити старі програми Android зі списку "
+"програм, щоб вони зникли."
 
 #: ../../userguide/dailyuse/waydroid.rst:61
 msgid ""
 "If you are using an appstore in waydroid you can also uninstall apps through "
 "said appstore"
 msgstr ""
+"Якщо ви використовуєте магазин додатків у Waydroid, ви також можете видаляти "
+"додатки через цей магазин"
 
 #: ../../userguide/dailyuse/waydroid.rst:64
 msgid "Access Android storage"
-msgstr ""
+msgstr "Доступ до сховища Android"
 
 #: ../../userguide/dailyuse/waydroid.rst:66
 msgid ""
 "The Android storage is located at ``/home/phablet/.local/share/waydroid/data/"
 "media/0``."
 msgstr ""
+"Пам'ять Android розташована за адресою ``/home/phablet/.local/share/waydroid/"
+"data/media/0``."
 
 #: ../../userguide/dailyuse/waydroid.rst:68
 msgid ""
 "Links to android libraries can be made in their respective XDG counterparts::"
 msgstr ""
+"Посилання на бібліотеки Android можна створювати у відповідних XDG-аналогах:"
 
 #: ../../userguide/dailyuse/waydroid.rst:79
 msgid ""
@@ -17308,10 +17464,13 @@ msgid ""
 "APK file``, this could simply mean that it could not find the apk file. Try "
 "the following steps to double check:"
 msgstr ""
+"Якщо під час встановлення APK з'являється помилка ``Неправильний файл APK``, "
+"це може означати, що файл apk не вдалося знайти. Спробуйте виконати такі "
+"кроки, щоб перевірити:"
 
 #: ../../userguide/dailyuse/waydroid.rst:82
 msgid "Check that you typed the filename correctly."
-msgstr ""
+msgstr "Перевірте, чи правильно ви ввели ім'я файлу."
 
 #: ../../userguide/dailyuse/waydroid.rst:83
 msgid ""
@@ -17319,10 +17478,13 @@ msgid ""
 "have to specify the full path, e.g. ``/home/phablet/Downloads/my-app.apk`` "
 "instead of just ``my-app.apk``"
 msgstr ""
+"Якщо APK не знаходиться в папці, в якій ви перебуваєте під час запуску adb, "
+"вам потрібно вказати повний шлях, наприклад, ``/home/phablet/Downloads/my-"
+"app.apk`` замість просто ``my-app.apk``"
 
 #: ../../userguide/dailyuse/waydroid.rst:87
 msgid "Reporting bugs"
-msgstr ""
+msgstr "Повідомлення про помилки"
 
 #: ../../userguide/dailyuse/waydroid.rst:89
 msgid ""
@@ -17333,10 +17495,16 @@ msgid ""
 "gitlab.com/ubports/development/core/packaging/waydroid/-/issues>`_. Thank "
 "you!"
 msgstr ""
+"Будь ласка, :doc:`повідомляйте про всі виявлені помилки</contribute/"
+"bugreporting>`. Про помилки, що стосуються Ubuntu Touch, повідомляйте в `"
+"звичайному трекері Ubuntu Touch <https://gitlab.com/ubports/development/"
+"ubuntu-touch/-/issues>`_ , а про проблеми з Waydroid — в `нашому трекері "
+"проблем Waydroid <https://gitlab.com/ubports/development/core/packaging/"
+"waydroid/-/issues>`_. Дякуємо!"
 
 #: ../../userguide/install.rst:2
 msgid "Install Ubuntu Touch"
-msgstr ""
+msgstr "Встановити Ubuntu Touch"
 
 #: ../../userguide/install.rst:4
 msgid ""
@@ -17350,6 +17518,16 @@ msgid ""
 "have manual installation instructions for every device `on the devices page "
 "<https://devices.ubuntu-touch.io/>`_."
 msgstr ""
+"Встановити Ubuntu Touch дуже просто, і було зроблено багато роботи, щоб "
+"процес встановлення був менш складним для пересічного користувача. UBports "
+"Installer — це зручний графічний інструмент, за допомогою якого ви можете "
+"встановити Ubuntu Touch на `підтримуваний пристрій <https://"
+"devices.ubuntu-touch.io/>`_ зі свого комп'ютера `Linux <https://snapcraft.io/"
+"ubports-installer>`_, `Mac <https://devices.ubuntu-touch.io/installer/? "
+"package=dmg>`_ або `Windows <https://devices.ubuntu-touch.io/installer/"
+"?package=exe>`_. Для більш досвідчених користувачів ми також маємо "
+"інструкції з ручної інсталяції для кожного пристрою `на сторінці пристроїв "
+"<https://devices.ubuntu-touch.io/>`_."
 
 #: ../../userguide/install.rst:7
 msgid ""
@@ -17357,6 +17535,9 @@ msgid ""
 "keep any data that is currently on the device. Create an external backup if "
 "you want to keep it."
 msgstr ""
+"Якщо ви переходите з пристрою на базі Android, ви не зможете зберегти дані, "
+"які зараз знаходяться на цьому пристрої. Створіть зовнішню резервну копію, "
+"якщо хочете зберегти ці дані."
 
 #: ../../userguide/install.rst:9
 msgid ""
