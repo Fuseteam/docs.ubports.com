@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"PO-Revision-Date: 2025-10-11 23:10+0000\n"
 "Last-Translator: Steve <steve.kueffer.ch@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -136,7 +136,6 @@ msgid "Click-Packages"
 msgstr "Paquets Click"
 
 #: ../../about/process/branch-naming.rst:11
-#, fuzzy
 msgid ""
 "Software exclusively distributed as a click-package (and not also as a DEB) "
 "only uses one ``master`` branch that is protected. Separate temporary "
@@ -144,13 +143,13 @@ msgid ""
 "merged into master when the time comes. Ideally Git tags or GitHub releases "
 "should be used to mark and archive milestones in the development history."
 msgstr ""
-"Les logiciels distribués exclusivement sous forme de paquets click (et non "
-"sous forme de DEB) n'utilisent qu'une seule branche « master » qui est "
-"protégée. Des branches de développement temporaires séparées avec des noms "
-"descriptifs arbitraires peuvent être créées et fusionnées dans la branche "
-"master le moment venu. Idéalement, des étiquettes Git ou des versions GitHub "
-"devraient être utilisées pour marquer et archiver les étapes importantes de "
-"l'histoire du développement."
+"Les logiciels distribués exclusivement sous forme de paquets click "
+"(et non sous forme de DEB) n'utilisent qu'une seule branche ``master`` qui "
+"est protégée. Des branches de développement temporaires séparées avec des "
+"noms descriptifs arbitraires peuvent être créées et fusionnées dans la "
+"branche master le moment venu. Idéalement, des étiquettes Git ou des "
+"versions GitHub devraient être utilisées pour marquer et archiver les étapes "
+"importantes de l'histoire du développement."
 
 #: ../../about/process/branch-naming.rst:14
 msgid "DEB Packages"
@@ -229,7 +228,6 @@ msgid "``devel-debian``"
 msgstr "``devel-debian``"
 
 #: ../../about/process/branch-naming.rst:28
-#, fuzzy
 msgid "Debian testing."
 msgstr "Tests de Debian."
 
@@ -349,7 +347,6 @@ msgid "APT archives for Merge Requests"
 msgstr "Archives de l'APT pour les demandes de fusion"
 
 #: ../../about/process/branch-naming.rst:63
-#, fuzzy
 msgid ""
 "In addition to archives mentioned above, we also create APT archives for MRs "
 "made against our Git repositories. This allows us to test the result of the "
@@ -367,7 +364,6 @@ msgstr ""
 "exemple:"
 
 #: ../../about/process/branch-naming.rst:65
-#, fuzzy
 msgid ""
 "An MR numbered 100 made against the ``main`` branch of Git repository "
 "``lomiri`` (when the current Ubuntu LTS is ``noble``) will have APT archives "
@@ -375,10 +371,9 @@ msgid ""
 msgstr ""
 "Un MR numéroté 100 fait sur la branche ``main`` du dépôt Git ``lomiri`` "
 "(quand le LTS Ubuntu actuel est ``noble``) aura des archives APT nommées "
-"``devel-noble_-_PR_lomiri_100` *et* ``devel-debian_-_PR_lomiri_100``."
+"``devel-noble_-_PR_lomiri_100`` *et* ``devel-debian_-_PR_lomiri_100``."
 
 #: ../../about/process/branch-naming.rst:66
-#, fuzzy
 msgid ""
 "An MR numbered 125 made against the ``ubports/24.6.x`` branch of Git "
 "repository ``morph-browser`` will have an APT archive named ``24.6.x_-"
@@ -386,14 +381,13 @@ msgid ""
 msgstr ""
 "Un MR numéroté 125 fait sur la branche ``ubports/24.6.x`` du dépôt Git "
 "``morph-browser`` aura une archive APT nommée ``24.6.x_-_PR_morph-"
-"browser_125`"
+"browser_125``."
 
 #: ../../about/process/branch-naming.rst:68
-#, fuzzy
 msgid ""
 "The word ``PR`` stuck around from the time we hosted our code on GitHub."
 msgstr ""
-"Le mot  ``RP `` est apparu dès que nous avons hébergé notre code sur GitHub."
+"Le mot ``PR`` est apparu dès que nous avons hébergé notre code sur GitHub."
 
 #: ../../about/process/index.rst:2
 msgid "Processes"
@@ -420,19 +414,14 @@ msgid "Issue-Tracking Guidelines"
 msgstr "Recommandations pour le suivi des problèmes"
 
 #: ../../about/process/issue-tracking.rst:4
-#, fuzzy
-#| msgid ""
-#| "This document describes the standard process of dealing with new issues "
-#| "in UBports projects. (Not to be confused with the :doc:`guide on writing "
-#| "a good bugreport </contribute/bugreporting>`.)"
 msgid ""
 "This document describes the standard process of dealing with issues in "
 "UBports projects. (Not to be confused with the :doc:`guide on writing a good "
 "bugreport </contribute/bugreporting>`.)"
 msgstr ""
 "Ce document décrit la méthode standard de gestion des nouveaux problèmes "
-"dans les projets d'UBports. À ne pas confondre avec le :doc:`guide de "
-"rédaction d'un bon rapport de problème </contribute/bugreporting>`."
+"dans les projets d'UBports. (À ne pas confondre avec le :doc:`guide de "
+"rédaction d'un bon rapport de problème </contribute/bugreporting>`.)"
 
 #: ../../about/process/issue-tracking.rst:8
 msgid "Where are bugs tracked?"
@@ -463,11 +452,15 @@ msgid ""
 "Device-specific issues are tracked under each device's project under "
 "`ubports/porting`_ group."
 msgstr ""
+"Les problèmes spécifiques à chaque appareil sont suivis dans le cadre du "
+"projet correspondant, sous le groupe `ubports/porting`_ group."
 
 #: ../../about/process/issue-tracking.rst:15
 msgid ""
 "Core applications under `ubports/development/apps`_ track their own issues."
 msgstr ""
+"Les applications principales sous `ubports/development/apps`_ suivent leurs "
+"propres problèmes."
 
 #: ../../about/process/issue-tracking.rst:16
 msgid ""
@@ -475,6 +468,9 @@ msgid ""
 "development/core`_ directly as well, if it's clear which component is "
 "responsible for an issue."
 msgstr ""
+"Les problèmes système peuvent également être signalés directement pour "
+"chaque composant sous `ubports/development/core`_, s'il est clair quel "
+"composant est responsable d'un problème."
 
 #: ../../about/process/issue-tracking.rst:18
 msgid ""
@@ -484,6 +480,12 @@ msgid ""
 "in ubports/development/ubuntu-touch project, they can be moved to the "
 "appropriate project."
 msgstr ""
+"GitLab permet d'afficher les `problèmes à l'échelle du groupe`_, les "
+"références croisées entre projets et les transferts de problèmes entre "
+"projets, ce qui rend moins important le projet exact dans lequel un problème "
+"est signalé. Si un problème spécifique à un port ou à un site web se "
+"retrouve dans le projet ubports/development/ubuntu-touch, il peut être "
+"déplacé vers le projet approprié."
 
 #: ../../about/process/issue-tracking.rst:27
 msgid "Labels"
@@ -504,13 +506,11 @@ msgid ""
 "ubports/development group`_. Consult the `GitLab help pages`_ to learn more "
 "about searching and filtering."
 msgstr ""
-"Tous les problèmes - même ceux qui sont clos - devraient être étiquetés pour "
-"permettre l'utilisation du filtrage global de GitHub. Par exemple, `voici "
-"tous les problèmes étiquetés « enhancement » (amélioration) dans @ubports "
-"<https://github.com/search?utf8=%E 12%9C 2%93& 3q=is%3A 4open+org%3A "
-"5ubports+label%3A 6%22f 7eature+request%22& 8type=>`_. Consulter `les pages "
-"d'aide de GitHub <https://help.github.com/articles/about-searching-on-github/"
-">`__ pour plus d'informations sur les recherches et le filtrage."
+"Tous les tickets, même ceux qui sont clos, doivent être étiquetés afin de "
+"permettre l'utilisation du filtrage de GitLab. Par exemple, voici les "
+"tickets étiquetés 'Kind: enhancement' (Type: amélioration) dans le groupe "
+"ubports/development. Consultez les pages d'aide GitLab pour en savoir plus "
+"sur la recherche et le filtrage."
 
 #: ../../about/process/issue-tracking.rst:34
 msgid ""
