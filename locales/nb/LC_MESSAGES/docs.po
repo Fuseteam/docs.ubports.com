@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"PO-Revision-Date: 2025-10-20 04:56+0000\n"
 "Last-Translator: Ida Brenna <ida@larald.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/nb_NO/>\n"
@@ -83,14 +83,13 @@ msgstr ""
 "`Dokumentasjonsbidragsdokumentet </contribute/documentation>`."
 
 #: ../../about/introduction.rst:18
-#, fuzzy
 msgid ""
 "All documents are licensed Creative Commons Attribution ShareAlike 4.0 (`CC-"
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
 "attribution to \"The UBports Community\"."
 msgstr ""
 "Alle dokumenter er lisensiert under Creative Commons Attribution ShareAlike "
-"4.0 (`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>` _) "
+"4.0 (`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_) "
 "lisens. Vennligst krediter \"The UBports Community\"."
 
 #: ../../about/introduction.rst:21
