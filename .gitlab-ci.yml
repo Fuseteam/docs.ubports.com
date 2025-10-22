@@ -1,5 +1,18 @@
+workflow:
+  rules:
+    - if: $CI_USE_CUSTOM_RUNNER == "yes"
+      # if this CI variable is defined then we use the private ubports runner
+      variables:
+        RUNNER_TAG: "ubports"
+    - when: always
+      # otherwise we fall back on this gitlab runner (this should be more or less the "default" runner config)
+      variables:
+        RUNNER_TAG: "saas-linux-small-amd64"
+
 default:
   image: python:3.12
+  tags:
+    - $RUNNER_TAG
 
 stages:
   - periodic
@@ -9,6 +22,9 @@ build-job:
   stage: build
   script:
     - echo "Build documentation"
+    - echo "CI_PROJECT_NAMESPACE=$CI_PROJECT_NAMESPACE"
+    - echo "CI_USE_CUSTOM_RUNNER=$CI_USE_CUSTOM_RUNNER"
+    - echo "RUNNER_TAG=$RUNNER_TAG"
     - python --version
     - pip --version
     - pip install --no-cache-dir --user --upgrade -r requirements.txt
@@ -28,6 +44,9 @@ periodic-job:
   stage: periodic
   script:
     - echo "Update translation pot file"
+    - echo "CI_PROJECT_NAMESPACE=$CI_PROJECT_NAMESPACE"
+    - echo "CI_USE_CUSTOM_RUNNER=$CI_USE_CUSTOM_RUNNER"
+    - echo "RUNNER_TAG=$RUNNER_TAG"
     - python --version
     - pip --version
     - pip install --no-cache-dir --user --upgrade -r requirements.txt
