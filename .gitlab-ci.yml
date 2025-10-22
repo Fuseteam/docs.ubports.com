@@ -1,11 +1,11 @@
 workflow:
   rules:
     - if: $CI_USE_CUSTOM_RUNNER == "yes"
-      # if this CI variable is defined then we use the private ubports runner
+      # if this custom CI variable is defined then we use the private ubports runner
       variables:
         RUNNER_TAG: "ubports"
     - when: always
-      # otherwise we fall back on this gitlab runner (this should be more or less the "default" runner config)
+      # otherwise we fall back on gitlab runner
       variables:
         RUNNER_TAG: "saas-linux-small-amd64"
 
@@ -23,6 +23,7 @@ build-job:
   script:
     - echo "Build documentation"
     - echo "CI_PROJECT_NAMESPACE=$CI_PROJECT_NAMESPACE"
+    - echo "CI_BUILD_ON_GITLAB=$CI_BUILD_ON_GITLAB"
     - echo "CI_USE_CUSTOM_RUNNER=$CI_USE_CUSTOM_RUNNER"
     - echo "RUNNER_TAG=$RUNNER_TAG"
     - python --version
@@ -33,7 +34,9 @@ build-job:
     - python3 -m sphinx -Wab rediraffecheckdiff . _build/html # check redirects against the master branch
     - echo "Build succeeded, browse the artifact here:" "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/file/_build/html/index.html"
   rules:
-    - if: '$CI_PIPELINE_SOURCE != "schedule"'
+    - if: '$CI_PIPELINE_SOURCE != "schedule" && $CI_BUILD_ON_GITLAB != "no"'
+      # don't run this job from a pipeline schedule
+      # don't run this job if we explicitly disabled it from the custom CI_BUILD_ON_GITLAB variable (e.g. if you want to use ReadTheDocs for CI builds)
   artifacts:
     untracked: true
     when: on_success
@@ -45,6 +48,7 @@ periodic-job:
   script:
     - echo "Update translation pot file"
     - echo "CI_PROJECT_NAMESPACE=$CI_PROJECT_NAMESPACE"
+    - echo "CI_BUILD_ON_GITLAB=$CI_BUILD_ON_GITLAB"
     - echo "CI_USE_CUSTOM_RUNNER=$CI_USE_CUSTOM_RUNNER"
     - echo "RUNNER_TAG=$RUNNER_TAG"
     - python --version
@@ -54,4 +58,4 @@ periodic-job:
     - echo "Translation pot file update completed"
   rules:
     - if: '$CI_PIPELINE_SOURCE == "schedule"'
-
+      # only run this job from a pipeline schedule
