@@ -51,8 +51,8 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-10-21 16:02+0000\n"
-"Last-Translator: doniks <p.putz@yahoo.de>\n"
+"PO-Revision-Date: 2025-10-23 08:38+0000\n"
+"Last-Translator: Alexander Richards <electrodeyt@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/de/>\n"
 "Language: de\n"
@@ -60,7 +60,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -111,7 +111,6 @@ msgid "About the Documentation"
 msgstr "Über die Dokumentation"
 
 #: ../../about/introduction.rst:16
-#, fuzzy
 msgid ""
 "Changes to the documentation are made by the UBports community. It is "
 "written in reStructuredText and converted into this readable form by `Sphinx "
@@ -121,11 +120,12 @@ msgid ""
 "`Documentation contribution document </contribute/documentation>`."
 msgstr ""
 "Diese Dokumentation wird stetig verbessert, dank vieler Mitglieder der "
-"Gemeinschaft. Sie wird in ReStructuredText geschrieben und durch `Sphinx "
-"<http://www.sphinx-doc.org/en/stable/>`_, `ReCommonMark <http://recommonmark."
-"readthedocs.io/en/latest/>`_ und `Read the Docs <https://readthedocs.io>`_ "
-"in diese lesbare Form konvertiert. Auch Sie können mitwirken und bei der :"
-"doc:`Dokumentationseinführung </contribute/documentation>` beginnen."
+"Gemeinschaft. Sie wird in reStructuredText geschrieben und durch `Sphinx "
+"<http://www.sphinx-doc.org/en/stable/>`_, `recommonmark <http://"
+"recommonmark.readthedocs.io/en/latest/>`_ und `Read the Docs "
+"<https://readthedocs.io>`_ in diese lesbare Form konvertiert. Auch Sie "
+"können mitwirken und bei der :doc:`Dokumentationseinführung </contribute/"
+"documentation>` beginnen."
 
 #: ../../about/introduction.rst:18
 msgid ""
@@ -142,14 +142,13 @@ msgid "Attribution"
 msgstr "Zurechnung"
 
 #: ../../about/introduction.rst:23
-#, fuzzy
 msgid ""
 "This documentation was heavily modeled after the `Godot Engine's "
 "Documentation <https://docs.godotengine.org/en/stable/>`_, by Juan "
 "Linietsky, Ariel Manzur and the Godot community."
 msgstr ""
 "Diese Dokumentation wurde stark an die `Godot Engine-Dokumentation <http://"
-"docs.godotengine.org/en/stable/>`_ angelehnt, welche Juan Linietsky, Ariel "
+"docs.godotengine.org/de/stable/>`_ angelehnt, welche Juan Linietsky, Ariel "
 "Manzur und der Godot-Gemeinschaft zuzurechnen ist."
 
 #: ../../about/process/branch-naming.rst:2
