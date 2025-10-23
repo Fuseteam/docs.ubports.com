@@ -20,20 +20,26 @@ if [ -d "$UBPORTSDOCSENV" ]; then
   source $UBPORTSDOCSENV/bin/activate
 else
   echo -e "${YELLOW}Build environment not found in \"$UBPORTSDOCSENV\" ... creating it.${PLAIN}"
-  echo -e "${YELLOW}Installing pip and virtualenv (using sudo).${PLAIN}"
-  # Check for package manager
-  if command -v apk &> /dev/null; then
-      echo "Detected apk"
-      sudo apk add python3 py3-pip py3-virtualenv
-  elif command -v apt &> /dev/null; then
-      echo "Detected apt"
-      sudo apt install python3-pip python3-virtualenv
-  elif command -v pacman &> /dev/null; then
-      echo "Detected pacman"
-      sudo pacman -S --noconfirm python-pip python-virtualenv
-  else
-      echo "Unsupported package manager. Please install the packages and create the virtualenv manually."
-      exit 1
+  # Check if the `virtualenv` command is available, if not, install it
+  if ! command -v virtualenv &> /dev/null; then
+    echo -e "${YELLOW}Installing pip and virtualenv (using sudo).${PLAIN}"
+    # Check for package manager
+    if command -v apk &> /dev/null; then
+        echo "Detected apk"
+        sudo apk add python3 py3-pip py3-virtualenv
+    elif command -v apt &> /dev/null; then
+        echo "Detected apt"
+        sudo apt install python3-pip python3-virtualenv
+    elif command -v pacman &> /dev/null; then
+        echo "Detected pacman"
+        sudo pacman -S --noconfirm python-pip python-virtualenv
+    elif command -v zypper &> /dev/null; then
+        echo "Detected zypper"
+        sudo zypper install python3-pip python3-virtualenv
+    else
+        echo "Unsupported package manager. Please install the packages and/or create the virtualenv manually."
+        exit 1
+    fi
   fi
   echo -e "${YELLOW}Creating and activating a virtual build environment in \"$UBPORTSDOCSENV\".${PLAIN}"
   virtualenv $UBPORTSDOCSENV
