@@ -20,3 +20,15 @@
 "appdev/guides/cookbook.rst" "appdev/guides/index.rst"
 "userguide/dailyuse/anbox.rst" "userguide/dailyuse/waydroid.rst"
 "about/process/ppa.rst" "about/process/branch-naming.rst"
+
+# H7/H9 specific porting steps
+"porting/build_and_boot/H7_build.rst" "porting/build_and_boot/index.rst"
+"porting/build_and_boot/H9_build.rst" "porting/build_and_boot/index.rst"
+"porting/build_and_boot/H7_setup_sources.rst" "porting/build_and_boot/index.rst"
+"porting/build_and_boot/H9_setup_sources.rst" "porting/build_and_boot/index.rst"
+
+# The halium-boot target was removed in Halium 10.
+"porting/build_and_boot/Halium_install.rst" "porting/build_and_boot/index.rst"
+
+# The bluetooth file contained just H7.1 specific stuff. Redirect it for now.
+"porting/configure_test_fix/Bluetooth.rst" "porting/build_and_boot/index.rst"

@@ -35,11 +35,14 @@ Install TWRP recovery
 
 You need to install a custom recovery image on your device in order to handle formatting and flashing image files onto it. Head over to the `Team Win Recovery Project <https://twrp.me/Devices/>`_  and locate the image file for your device. Follow the installation instructions provided on the website.
 
+.. note::
+    Some devices do not have a TWRP image available. While it is technically possible to port a device without a recovery, it makes the process a lot more complicated, especially when debugging early in the porting process.
+
 .. _Recommendations-for-the-build-PC:
 
 Recommendations for the host/build PC
 -------------------------------------
 
-The remainder of this guide presumes you are using a build PC running Linux. Although high performance always is nice, stability and sufficient RAM and harddisk space are the main concerns here. You do not need the latest and the best hardware, nor do you need the latest distribution release. In fact, it is not uncommon to run into issues when choosing the very newest release, as some of the software needed may not yet have been built for it. For example, as of writing the latest release of Ubuntu Linux is 20.04, but many still recommend using the previous long term support release, 18.04.
+The remainder of this guide presumes you are using a build PC running Linux. Although high performance always is nice, stability and sufficient RAM and harddisk space are the main concerns here. You do not need the latest and the best hardware, nor do you need the latest distribution release. In fact, it is not uncommon to run into issues when choosing the very newest release, as some of the software needed may not yet have been built for it. For example, using a Ubuntu LTS release, or a LTS release of another distribution, is often a good choice.
 
 Having completed the steps above, you are now ready to set up your build environment and start the porting process per se (next section).

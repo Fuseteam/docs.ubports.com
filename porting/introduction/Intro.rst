@@ -18,7 +18,7 @@ To be specific, device vendors tend to keep the code that speaks directly to the
 
 This is why Ubuntu Touch cannot be built completely from source code for most commercial devices. Instead, porting the system to these devices involves integrating the previously mentioned vendor blobs into the rest of the system, which can be built from source.
 
-The next component of Ubuntu Touch is a pre-compiled root filesystem which needs to be installed on the device. This component does not communicate directly with the device hardware. Instead, this communication is mediated by a Hardware Abstraction Layer (HAL) which needs to be built for each specific device, because each device has its specific hardware architecture. This component is called Halium  and is available in different versions (5.1 which is largely obsolete, 7.1, 9, 10 and 11 as of writing) corresponding to different Android versions.
+The next component of Ubuntu Touch is a pre-compiled root filesystem which needs to be installed on the device. This component does not communicate directly with the device hardware. Instead, this communication is mediated by a Hardware Abstraction Layer (HAL) which needs to be built for each specific device, because each device has its specific hardware architecture. This component is called Halium  and is available in different versions corresponding to different Android versions.
 
 The `Halium project <https://halium.org/>`_ enables Linux systems to run on Android hardware. It is a joint effort by multiple mobile operating systems, notably Lune OS and UBports.
 
@@ -31,7 +31,7 @@ Thus an Ubuntu Touch port is composed of the these components:
     * `Halium <https://halium.org/>`_ (contained in the boot and system images)
     * The vendor blobs
 
-You, the porter, need to build Halium (in part or in whole, depending on :ref:`porting method <Porting-methods>`) and install this together with the Ubuntu Touch rootfs in order to create a functioning Ubuntu Touch port.
+You, the porter, need to build a Halium kernel, which is installed together with the Ubuntu Touch rootfs and the Halium GSI, to create a functioning Ubuntu Touch port.
 
 .. _Android-and-Halium-versions:
 
@@ -51,6 +51,8 @@ Android version  Halium version  Lineage OS (LOS)
 13.0             13.0            20.0
 ===============  ==============  ================
 
+Since 20.04, Ubuntu Touch ports are normally based on Halium 9.0 or later. Older versions of Halium are considered deprecated and are no longer supported for new ports.
+
 .. _What-is-a-GSI:
 
 Generic System Image
@@ -68,42 +70,18 @@ What does this mean for the porting process?
 
 Since the GSI is a prebuilt, device-independent component, it effectively simplifies the task of building a viable port by removing much of the meticulous and time consuming task of getting the hardware-specific vendor blobs compiled into the system image and configured to function properly.
 
-.. _Porting-methods:
-
-Porting methods
----------------
-
-This guide documents three different porting methods, which we call: **Full system image method**, **Halium-boot method**, and **Standalone kernel method**.
-When porting based on Halium 7.1 the Full system image method is the only available method to follow. For Halium 9.0 all three methods are possible.
-
-Full system image method
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-This porting method requires building both the boot image (halium-boot.img) and the full device specific system image (system.img) from source and installing these together with the UBports root file system (rootfs). For Halium 7.1 ports this is the only possible method (Consequently, this method is sometimes referred to as *the Halium 7.1 method*).
-For Halium 9.0 it is also possible to use this method, however for Halium 9.0 the other two methods below are probably easier.
-
-Halium-boot method
-^^^^^^^^^^^^^^^^^^
-
-For this porting method it is sufficent to build the halium-boot.img and install this together with the Halium GSI and the UBports rootfs. This method can be used for Halium 9.0 ports.
-
-Standalone kernel method
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-This porting method only requires building the kernel and installing this together with the Halium ramdisk, the Halium GSI and the UBports rootfs. This method can be used for Halium 9.0 ports.
-
-All methods share some common steps. However, there are also significant differences that must not be missed. Therefore, the methods will be treated separately in the subsequent sections where needed.
-
-The remainder of this section gives some words of advice to new porters. If you already have porting experience or ROM building experience, you can likely skip straight to :ref:`Preparations <Preparations>`.
-
 .. _The-challenges-of-the-porting-process:
 
 The challenges of the porting process
 -------------------------------------
 
-Building the necessary components and getting them to work together properly always involves an amount of code modifications, configuring and testing, but considerably moreso when doing full system image builds, compared to builds using the GSI (see :ref:`porting methods <Porting-methods>`).
+Building the necessary components and getting them to work together properly always involves an amount of code modifications, configuring and testing.
 
 Luckily, there is a community of porters out there who are eager to see Ubuntu Touch ported to new devices. When you run into trouble, you should search the sources below (:ref:`Getting-community-help`) to see if others before you have solved the issue. There are online Telegram chat groups you can join to ask for help, but please bear in mind that those participating are doing so in their spare time.
+
+.. note::
+
+    In the past there used to be different methods for porting. Find the historic details linked in the :ref:`deprecated porting section <deprecated-building-methods>`.
 
 .. _Prior-knowledge-and-skills:
 

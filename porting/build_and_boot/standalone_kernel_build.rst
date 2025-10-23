@@ -1,10 +1,9 @@
 .. _Gitlab-CI:
 
-Standalone Kernel Method (Halium 9 and newer)
-=============================================
+Building the kernel
+===================
 
-Starting from Halium 9, it is possible to port a device using only the kernel. This involves a number of scripts that build the kernel, download the generic container image and rootfs, and create flashable images.
-
+This section explains how to set up the device source, configure the deviceinfo and kernel, and build it.
 This guide expects you to have some mandatory git knowledge, like cloning and pushing, and creating repos.
 
 Setting up your build environment
@@ -22,6 +21,10 @@ If you use a RPM based distro such as Mageia, you run::
     sudo urpmi gcc make glibc-devel bc bison \
     rootcerts cpio curl flex git kmod libopenssl-devel libncurses5 python3 \
     unzip wget xz android-tools jq
+
+.. note::
+
+    Some older kernels may require Python 2 to build. If your distribution has deprecated Python 2, you may need to install it manually.
 
 Setting up and configuring a device source
 ------------------------------------------
@@ -83,15 +86,15 @@ In order for Ubuntu Touch to successfully boot, we need to enable some configs r
 Start by browsing into your kernel directory, and into the ``arch/<your device's architecture>/configs``, where you will have to add a new file called ``halium.config``.
 In this file, add the following content:
 
-| CONFIG_DEVTMPFS=y
-| CONFIG_FHANDLE=y
-| CONFIG_SYSVIPC=y
-| CONFIG_IPC_NS=y
-| CONFIG_NET_NS=y
-| CONFIG_PID_NS=y
-| CONFIG_USER_NS=y
-| CONFIG_UTS_NS=y
-| CONFIG_VT=y
+    | CONFIG_DEVTMPFS=y
+    | CONFIG_FHANDLE=y
+    | CONFIG_SYSVIPC=y
+    | CONFIG_IPC_NS=y
+    | CONFIG_NET_NS=y
+    | CONFIG_PID_NS=y
+    | CONFIG_USER_NS=y
+    | CONFIG_UTS_NS=y
+    | CONFIG_VT=y
 
 After this, save and close this file. Commit it into your kernel repo if you wish, because this config name will be added in deviceinfo.
 
@@ -465,28 +468,4 @@ After you've completed your deviceinfo and filled in all needed stuff, its time 
 
 That should download all the needed toolchains and then the kernel, and finally build everything. This process may take about 5 to 50 minutes to build the kernel.
 
-After your kernel is done building, you will have to build the rootfs. For this, just execute this:
-
-``./build/prepare-fake-ota.sh out/device_<your device's codename>_usrmerge.tar.xz ota``
-This will download the rootfs, extract it and pack it into tarballs for our final script to create flashable images.
-
-Next up, run:
-
-``./build/system-image-from-ota.sh ota/ubuntu_command images``
-This will convert the tarballs into flashable images, and your images will be stored in the `images/` directory. There will be a number of files depending on how you configured your deviceinfo.
-But the basic file structure will be as given:
-
-|    images/
-|    ├── boot.img
-|    ├── rootfs.img
-|    └── system.img
-
-
-The ``boot.img`` will be flashed onto the boot partition of the phone.
-The ``system.img`` and ``rootfs.img`` are interchangable. ``rootfs.img`` is pushed to the data partition as ``ubuntu.img`` if you didn't include ``systempart`` in deviceinfo's cmdline.
-Otherwise, ``system.img`` is flashed to your system partition.
-
-Notes
-^^^^^
-
-For a lot of kernel-related commands, you'll need the ARCH variable's value, this is either arm or arm64 depending on where you found your defconfig. A thing to keep in mind for kernel patches.
+After your kernel is done building, you can proceed to install and boot it in the next step.

@@ -10,38 +10,24 @@ Secondly, proceed with the final **Install and boot** section.
 Building
 --------
 
-Full system image method or Halium-boot method
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If you are using either of the **Full system image** method (for Halium 7.1 or 9.0),
-or the **Halium-boot** method (for Halium 9.0),
-then please pick the two steps below matching your Halium version.
-
-.. toctree::
-   :maxdepth: 1
-
-   H7_setup_sources
-   H7_build
-   H9_setup_sources
-   H9_build
-
-Standalone kernel method
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-If you are using the **Standalone kernel** method, then please pick the step below.
-
 .. toctree::
    :maxdepth: 1
 
    standalone_kernel_build
-
-Install and boot
-----------------
-
-Afterwards, proceed with these steps for any porting method.
-
-.. toctree::
-   :maxdepth: 1
-
-   Halium_install
+   standalone_kernel_install
    Boot_debug
+
+
+.. _deprecated-building-methods:
+
+Deprecated building methods
+===========================
+
+In the past there used to be three separate porting methods called:
+
+- Full system image method
+- Halium boot method
+- Standalone kernel method
+
+For modern devices, this is much simplified. Full system was only really applicable on Halium 7.1 and 9.0 and Halium-boot worked on Halium 9.0. Nowadays there is just The One method that's described in this porting guide and what used to be called "Standalone method".
+If you are interested in the historic details feel free to read about the good ol' ways `in the git history. <https://gitlab.com/ubports/docs/docs.ubports.com/-/tree/porting-in-three-methods>`_

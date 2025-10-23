@@ -17,7 +17,7 @@ All of these settings are guessed by Unity 8 if none are set. There are many cas
 
 The method for deriving values for these variables :ref:`is explained below. <Display-settings>` 
 
-Once you have adjusted the ``android.conf`` file to the display settings needed for your device, this file should be incorporated into your build. Follow :ref:`the overlay file method <Overlay-steps>` corresponding to your Halium version. 
+Once you have adjusted the ``android.conf`` file to the display settings needed for your device, this file should be incorporated into your build. See :doc:`the overlay documentation </porting/configure_test_fix/Overlay>`.
 
 .. note::
     This way of configuration is considered legacy and will be replaced by :ref:`DeviceInfo <DeviceInfo>` in the future.
