@@ -3,7 +3,7 @@ Building and booting
 
 Now it's time to download and configure the necessary source code.
 Then we'll build it and get it to boot.
-Firstly follow the **Building** steps for your Halium version and porting method.
+Firstly follow the **Building** steps for your Halium version.
 Secondly, proceed with the final **Install and boot** section.
 
 
