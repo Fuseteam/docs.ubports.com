@@ -51,7 +51,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-10-24 10:05+0000\n"
+"PO-Revision-Date: 2025-10-28 09:04+0000\n"
 "Last-Translator: doniks <p.putz@yahoo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/de/>\n"
@@ -10015,6 +10015,8 @@ msgid ""
 "This guide expects you to have some mandatory git knowledge, like cloning "
 "and pushing, and creating repos."
 msgstr ""
+"Dieser Leitfaden erwartet, dass Sie einige notwendige Git-Kenntnisse haben, "
+"wie Klonen und Pushen und erstellen von Repositories."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:11
 #, fuzzy
