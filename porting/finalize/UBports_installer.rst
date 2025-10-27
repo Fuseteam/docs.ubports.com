@@ -3,4 +3,4 @@
 Configuring the UBports installer
 =================================
 
-The exact steps are not available at this time. Please :ref:`get in touch with the community for help. <Getting-community-help>`
+The exact steps have not yet been documented. Please :ref:`get in touch with the community for help. <Getting-community-help>`
