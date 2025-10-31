@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-10-20 04:56+0000\n"
+"PO-Revision-Date: 2025-10-31 13:03+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural="
 "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -1152,7 +1152,7 @@ msgstr "Рекомендації"
 
 #: ../../about/process/security-vulnerabilities.rst:37
 msgid "Timeline"
-msgstr "Хронологія"
+msgstr "Розклад"
 
 #: ../../about/process/security-vulnerabilities.rst:38
 msgid "Credit"
@@ -4125,7 +4125,7 @@ msgstr ""
 #: ../../appdev/platform/click.rst:11
 #, fuzzy
 msgid "Example ``manifest.json`` file::"
-msgstr "Приклад файлу ``manifest.json``::"
+msgstr "Приклад файлу ``manifest.json`` ::"
 
 #: ../../appdev/platform/click.rst:28
 msgid "AppArmor profile policy file"
@@ -4141,9 +4141,8 @@ msgstr ""
 "`Безпека та ізоляція програми`_."
 
 #: ../../appdev/platform/click.rst:31
-#, fuzzy
 msgid "``.desktop`` file"
-msgstr "файл ``.desktop`"
+msgstr "файл ``.desktop``"
 
 #: ../../appdev/platform/click.rst:32
 msgid ""
@@ -4353,7 +4352,7 @@ msgstr "Запуск"
 #: ../../appdev/webapp/guide.rst:17
 #, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
-msgstr "Ви можете запустити webapp з термінала:::"
+msgstr "Ви можете запустити webapp у терміналі з:::"
 
 #: ../../appdev/webapp/guide.rst:21
 #, fuzzy
@@ -4480,9 +4479,9 @@ msgid ""
 "launch command, as follows:::"
 msgstr ""
 "Часто хочеться обмежити користувачів самим сайтом. Тобто, якщо вебсайт це "
-"www.ubuntu.com, може бути корисним обмеження користувачів webapp сайтом www."
-"ubuntu.com. Це можна зробити, додаючи маску посилання URL до команди запуску "
-"за зразком:::"
+"www.ubuntu.com, може бути корисним обмеження користувачів webapp сайтом "
+"www.ubuntu.com. Це можна зробити, додавши маску посилання URL до команди "
+"запуску за зразком:::"
 
 #: ../../appdev/webapp/guide.rst:64
 msgid "``--webappUrlPatterns=`` indicates a pattern is next"
@@ -4588,9 +4587,9 @@ msgid ""
 "starting URL (and its subpages). So, if the starting URL is https://www."
 "ubuntu.com, a second pattern is needed:::"
 msgstr ""
-"Хоча, іноді потрібно, щоби користувач міг переходити назад до початкової "
-"адреси (та її сторінок). Тож, якщо початкова адреса це https://www.ubuntu."
-"com, потрібен додатковий шаблон:::"
+"Хоча іноді потрібно, щоби користувач міг переходити назад до початкової "
+"адреси (та її сторінок). Тож, якщо початкова адреса це https://"
+"www.ubuntu.com, потрібен додатковий шаблон:::"
 
 #: ../../appdev/webapp/guide.rst:102
 #, fuzzy
@@ -4614,8 +4613,8 @@ msgid ""
 "ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
-"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є design."
-"ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
+"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є "
+"design.ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
 "піддоменів через маску замість назви піддомена:::"
 
 #: ../../appdev/webapp/guide.rst:113
@@ -5503,10 +5502,14 @@ msgid ""
 "complicated than a viewer expects. Provide permanent links to issue reports "
 "or documentation if they give context."
 msgstr ""
+"Завжди вказуйте підставу внесення змін: виправлені помилки, нові функції, та "
+"особливо обмеження, через які вони виглядають складнішими, ніж очікується. "
+"Надайте постійні посилання на звіт щодо проблеми або на документацію, якщо "
+"вони містять відповідний контекст."
 
 #: ../../contribute/code.rst:81
 msgid "Who?"
-msgstr ""
+msgstr "Хто?"
 
 #: ../../contribute/code.rst:82
 msgid ""
@@ -5515,6 +5518,9 @@ msgid ""
 "``Co-Authored-By: Their Name <their-email@example.com>`` line in your commit "
 "message."
 msgstr ""
+"Git вставляє Ваші ім’я та адресу е-пошти як автора змін. Якщо хтось інший "
+"допоміг Вам написати ці зміни, потрібно у Вашому коментарі до коміту додати "
+"співавтора за допомогою рядка ``Co-Authored-By: Ім'я <email@example.com>``."
 
 #: ../../contribute/code.rst:84
 msgid ""
@@ -5524,16 +5530,24 @@ msgid ""
 "quickly become out-of-date compared to the code that they are near. A commit "
 "message is linked only to the code you wrote."
 msgstr ""
+"Частину цього контексту можна надати в коментарях до коду, а не до коміту. "
+"Коментарі можуть допомогти людям, які лише читають код без використання "
+"таких інструментів, як ``git blame``. Пам'ятайте, що коментарі можуть "
+"застаріти швидше за код, до якого вони написані. Коментарі до коміту пов’"
+"язані лише з кодом, який Ви написали."
 
 #: ../../contribute/code.rst:86
 msgid ""
 "In closing, make sure you anticipate any questions you expect yourself or "
 "others to have about your code in the future and answer them."
 msgstr ""
+"На завершення переконайтеся, що Ви подумали про запитання, які можуть "
+"виникнути у Вас чи у когось іншого щодо Вашого коду в майбутньому і надали "
+"на них відповіді."
 
 #: ../../contribute/code.rst:89
 msgid "Make commits as small as possible, but no smaller"
-msgstr ""
+msgstr "Робіть коміти якомога меншими, але не менше"
 
 #: ../../contribute/code.rst:91
 msgid ""
@@ -5542,24 +5556,30 @@ msgid ""
 "entire commit checklist. It should not require any of the commits that come "
 "after it to build or pass tests."
 msgstr ""
+"Деякі зміни потребують виконання кількох логічних кроків. Якщо це так, "
+"розділіть ці кроки на окремі коміти. Кожен коміт має відповідати всьому "
+"контрольному списку. Він не повинен вимагати будь-яких майбутніх комітів для "
+"збірки або проходження тестів."
 
 #: ../../contribute/code.rst:93
 msgid ""
 "Let's say you are implementing a new way to search for phone numbers in the "
 "Dialer app. Your change requires three distinct steps:"
 msgstr ""
+"Скажімо, Ви додаєте новий спосіб пошуку телефонних номерів у програмі для "
+"дзвінків. Ваше виправлення вимагає трьох окремих кроків:"
 
 #: ../../contribute/code.rst:95
 msgid "Fix a bug in the current phone number search"
-msgstr ""
+msgstr "Виправлення помилки чи помилок у поточному пошуку телефонних номерів"
 
 #: ../../contribute/code.rst:96
 msgid "Add a new API to support your new number search"
-msgstr ""
+msgstr "Додавання нового API для підтримки Вашого нового пошуку"
 
 #: ../../contribute/code.rst:97
 msgid "Add the UI elements to use your new search"
-msgstr ""
+msgstr "Додавання елементів інтерфейсу для Вашого нового пошуку"
 
 #: ../../contribute/code.rst:99
 msgid ""
@@ -5568,42 +5588,46 @@ msgid ""
 "separate commits instead, the bug fix and new API could be added to the "
 "mainline software while you work on redesigning your UI."
 msgstr ""
+"Якщо Ви виконаєте усі ці зміни одним комітом, а в третьому кроці, наприклад, "
+"буде помилка, ми скасуємо весь набір змін. Якщо зміни розділити на декілька "
+"комітів, виправлення помилки та новий API можуть бути додані до основного "
+"репозиторію доки Ви продовжите працювати над інтерфейсом."
 
 #: ../../contribute/code.rst:102
 msgid "Rebase your changes during the review, if possible"
-msgstr ""
+msgstr "Якщо можливо, змініть базу змін (rebase) під час перевірки"
 
 #: ../../contribute/code.rst:104
 msgid "It's common for a commit log on GitHub to go something like this:"
-msgstr ""
+msgstr "Зазвичай журнал комітів на GitHub виглядає приблизно так:"
 
 #: ../../contribute/code.rst:106
 msgid "Fix bug in phone number search"
-msgstr ""
+msgstr "Виправлення помилки пошуку телефонного номера"
 
 #: ../../contribute/code.rst:107
 msgid "Add new API call for new phone number search"
-msgstr ""
+msgstr "Додавання нового виклику API для нового пошуку телефонних номерів"
 
 #: ../../contribute/code.rst:108
 msgid "Add UI for new phone number search"
-msgstr ""
+msgstr "Додавання інтерфейсу для нового пошуку телефонних номерів"
 
 #: ../../contribute/code.rst:109
 msgid "Fix UI"
-msgstr ""
+msgstr "Виправлення інтерфейсу"
 
 #: ../../contribute/code.rst:110
 msgid "Fix bug fix"
-msgstr ""
+msgstr "Виправлення попереднього виправлення"
 
 #: ../../contribute/code.rst:111
 msgid "Review changes"
-msgstr ""
+msgstr "Перегляд змін"
 
 #: ../../contribute/code.rst:112
 msgid "Fix API after comments from reviewers"
-msgstr ""
+msgstr "Виправлення API після коментарів від рецензентів"
 
 #: ../../contribute/code.rst:114
 msgid ""
@@ -5611,6 +5635,9 @@ msgid ""
 "confused in no time at all. What did the reviewers say, what was wrong with "
 "the UI and the bug fix?"
 msgstr ""
+"Якщо Вам буде потрібно повернутися до цього журналу змін, Ви можете швидко "
+"заплутатися. Що сказали рецензенти, що не так з користувацьким інтерфейсом "
+"та з виправленням помилок?"
 
 #: ../../contribute/code.rst:116
 msgid ""
@@ -5618,6 +5645,9 @@ msgid ""
 "commit in your series. Instead, edit the first commit. If doing this changes "
 "the information in your commit message, update that too."
 msgstr ""
+"Не додавайте новий коміт, коли Ви отримуєте виправлення, яке впливає на "
+"перший коміт з Вашого набору. Натомість змініть перший коміт. Якщо це "
+"змінить опис у Вашому повідомленні до коміту, оновіть його також."
 
 #: ../../contribute/code.rst:118
 msgid ""
@@ -8378,19 +8408,19 @@ msgstr ""
 
 #: ../../index.rst:23
 msgid "About"
-msgstr ""
+msgstr "Інфо"
 
 #: ../../index.rst:32
 msgid "User Guide"
-msgstr ""
+msgstr "Настанови з використання"
 
 #: ../../index.rst:42
 msgid "Contribute"
-msgstr ""
+msgstr "Додати свій внесок"
 
 #: ../../index.rst:50
 msgid "Development"
-msgstr ""
+msgstr "Розробка"
 
 #: ../../index.rst:59
 msgid "Porting"
