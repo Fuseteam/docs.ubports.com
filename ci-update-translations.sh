@@ -27,8 +27,18 @@ DATE=$(date -u -Ins -d @${TIMESTAMP})
 echo "TIMESTAMP:${TIMESTAMP}" | tee status.txt
 echo "DATE:${DATE}" | tee -a status.txt
 
-pwd
+echo "MOUNT"
+mount
+echo "PWD:[$(pwd)]"
+echo "LS-altr"
 ls -altr
+echo "GIT-status"
+git status
+echo "GIT-remote-v"
+git remote -v
+echo "GIT-branch-avv"
+git branch -avv
+
 python -m sphinx -Wa -b gettext . locales/pot
 
 # echo "Fail this job for testing purpuses"
