@@ -58,6 +58,7 @@ fi
 echo "Commit pot file ($BRANCH)"
 git config user.name "UBports docs repo periodic translation pot updater"
 git config user.email "pot.ci.docs.ubports.com@example.com"
+git branch -D "$BRANCH" || true # delete the branch if it exists, which for reasons apparently can happen on ubports-runner
 git checkout -b "$BRANCH"
 git add locales/pot/docs.pot
 git commit -m "Automated translations .pot update ${DATE}" || { echo "No changes to commit"; exit 0; }
