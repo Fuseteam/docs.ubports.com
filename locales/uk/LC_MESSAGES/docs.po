@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-10-31 13:03+0000\n"
+"PO-Revision-Date: 2025-11-01 22:51+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -5655,6 +5655,10 @@ msgid ""
 "with ``git-rebase``. Push the resulting changes with a force push, or create "
 "a new branch and open a new changeset."
 msgstr ""
+"Для редагування комітів потрібно вивчити нові інструменти Git. Змінюйте "
+"послідовності комітів з ``git-rebase``. Надсилайте результативні зміни з "
+"примусовим push або створюйте нові гілки branch та відкривайте нові набори "
+"змін changeset."
 
 #: ../../contribute/code.rst:120
 msgid ""
@@ -5664,15 +5668,22 @@ msgid ""
 "seasoned Git pros mess up this process sometimes, don't worry. There is "
 "almost always a way back to your old series."
 msgstr ""
+"На щастя, існують графічні інструменти для виконання цієї роботи більш "
+"вправно. Але на жаль, якщо Ви не маєте розуміння що вони роблять з командним "
+"рядком Git, це може Вас збентежити і Вам доведеться починати спочатку зі "
+"старих серій. Навіть досвідчені професіонали Git інколи розгублюються, тож "
+"не хвилюйтеся. Майже завжди є можливість повернутися до попереднього кроку."
 
 #: ../../contribute/code.rst:122
 msgid ""
 "Each commit must continue to build, run, and pass tests after your changes."
 msgstr ""
+"Кожен коміт повинен після Ваших змін збиратися, запускатися та успішно "
+"проходити тести."
 
 #: ../../contribute/code.rst:125
 msgid "Format your commit message correctly"
-msgstr ""
+msgstr "Відформатуйте правильно коментар до коміту"
 
 #: ../../contribute/code.rst:127
 msgid ""
@@ -5681,16 +5692,21 @@ msgid ""
 "less. It's OK if you have to break the rules — some changes can't be "
 "summarized in 50 characters, and some links are longer than 72."
 msgstr ""
+"Збережіть перший рядок коментаря до свого коміту (так званий підсумок) до 50 "
+"або менше знаків. Кожен інший рядок у коментарі повинен мати 72 або менше "
+"знаків. Це нормально, якщо Вам іноді потрібно порушити правила — деякі зміни "
+"неможливо підсумувати у 50 символів, а деякі посилання довше за 72."
 
 #: ../../contribute/code.rst:130
 msgid "Changeset description checklist"
-msgstr ""
+msgstr "Контрольний список опису набору змін"
 
 #: ../../contribute/code.rst:132
 msgid ""
 "Ensure that your changeset answers the following questions in its "
 "description."
 msgstr ""
+"Переконайтеся, що Ваш набір змін відповідає на такі запитання з таким описом."
 
 #: ../../contribute/code.rst:134
 msgid ""
@@ -5700,10 +5716,15 @@ msgid ""
 "A description that says, \"this is complicated to explain; please read the "
 "commit messages,\" is also acceptable. We trust you to strike a balance."
 msgstr ""
+"Якщо Ви дотримувалися настанов щодо повідомлень до комітів, то, ймовірно, "
+"зможете скопіювати відповідну інформацію з них до свого опису набору змін. "
+"GitHub та GitLab зроблять це за Вас однією дією. Опис, у якому написано: "
+"\"складно пояснити, будь ласка, прочитайте повідомлення про коміти\", також "
+"прийнятний. Ми віримо, що Ви втримаєте баланс."
 
 #: ../../contribute/code.rst:137
 msgid "What issue does your changeset resolve?"
-msgstr ""
+msgstr "Яку проблему вирішує Ваш набір змін?"
 
 #: ../../contribute/code.rst:139
 msgid ""
@@ -6490,19 +6511,19 @@ msgstr ""
 #: ../../contribute/preinstalled-apps.rst:31
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:490
 msgid "Notes"
-msgstr ""
+msgstr "Нотатки"
 
 #: ../../contribute/preinstalled-apps.rst:31
 msgid "`Notes on OpenStore`_"
-msgstr ""
+msgstr "`Нотатки в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:31
 msgid "`notes-app on GitLab`_"
-msgstr ""
+msgstr "`notes-app на GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:32
 msgid "OpenStore"
-msgstr ""
+msgstr "OpenStore"
 
 #: ../../contribute/preinstalled-apps.rst:32
 msgid "`OpenStore... on OpenStore`_"
