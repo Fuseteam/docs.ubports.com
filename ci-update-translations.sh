@@ -24,8 +24,8 @@ BRANCH="auto/update-translations-pot"
 
 TIMESTAMP=$(date +%s)
 DATE=$(date -u -Ins -d @${TIMESTAMP})
-echo "TIMESTAMP:${TIMESTAMP}" | tee status.txt
-echo "DATE:${DATE}" | tee -a status.txt
+echo "TIMESTAMP:${TIMESTAMP}"
+echo "DATE:${DATE}"
 
 echo "MOUNT"
 mount
