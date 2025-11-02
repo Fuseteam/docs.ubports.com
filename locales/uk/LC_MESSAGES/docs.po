@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-19 12:51+0000\n"
-"PO-Revision-Date: 2025-11-01 22:51+0000\n"
+"PO-Revision-Date: 2025-11-02 23:51+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -5734,18 +5734,26 @@ msgid ""
 "at it and know how to reproduce the problem or test the feature. Add this "
 "information to the issue report as well if it is missing."
 msgstr ""
+"Прив’яжіть набори змін (чейнджсети) до звітів про помилки, які цими наборами "
+"виправляються, незалежно від того, чи Ви додаєте нову функцію, чи саме "
+"розв'язуєте проблему. Зазначте пристрої, на яких виникає проблема, чи "
+"стосується вона усіх пристроїв. Надайте достатньо інформації, щоб хтось міг "
+"згодом переглянути її та зрозуміти, як можна відтворити проблему чи "
+"протестувати функцію. Також додайте цю інформацію до звіту про проблему, "
+"якщо її там немає."
 
 #: ../../contribute/code.rst:141 ../../contribute/code.rst:150
 msgid "For example:"
-msgstr ""
+msgstr "Наприклад:"
 
 #: ../../contribute/code.rst:143
 msgid "Fixes https://gitlab.com/ubports/development/ubuntu-touch/-/issues/1"
 msgstr ""
+"Виправляє https://gitlab.com/ubports/development/ubuntu-touch/-/issues/1"
 
 #: ../../contribute/code.rst:146
 msgid "How did you test that the change was successful?"
-msgstr ""
+msgstr "Як Ви переконалися, що зміна була успішною?"
 
 #: ../../contribute/code.rst:148
 msgid ""
@@ -5755,6 +5763,11 @@ msgid ""
 "Explain your testing process. If you are not sure how to test a feature "
 "related to your changes, mention it."
 msgstr ""
+"Усі зміни вимагають перевірок, чи дійсно вони виправляють описане у звіті "
+"про помилку. Перелік оточення, в якому виконувалося тестування, включно з "
+"операційною системою, її версією та пристрої на яких проходив тест. Опишіть "
+"свій процес тестування. Якщо Ви не впевнені як перевірити функцію, пов'язану "
+"зі змінами, згадайте про це."
 
 #: ../../contribute/code.rst:152
 msgid ""
@@ -5763,10 +5776,17 @@ msgid ""
 "appreciated. To fix a bug, I had to touch a bit of code in the phone number "
 "search area (#53). I'm not entirely sure how to test that for regressions."
 msgstr ""
+"Я перевірив цю зміну у програмі для здійснення дзвінків на Nexus 5. Вона має "
+"працювати на всіх пристроях, оскільки не змінює нічого, що стосується певної "
+"моделі, але наперед дякую за додаткові тести. Для виправлення помилки, мені "
+"довелося торкнутися фрагмента коду в області пошуку номера телефону (#53). Я "
+"не до кінця розумію, як перевірити це на регресії."
 
 #: ../../contribute/code.rst:155
 msgid "Do any changes need to be merged before or after this changeset?"
 msgstr ""
+"Чи потрібно вбудовувати (merge) будь-які зміни до, чи після цього набору "
+"змін?"
 
 #: ../../contribute/code.rst:157
 msgid ""
@@ -5775,6 +5795,10 @@ msgid ""
 "descriptions. Document all sets that must be merged *before* and *after* the "
 "current one in a series, if needed."
 msgstr ""
+"Деякі зміни залежать від однієї або декількох змін перед тим як усе "
+"працюватиме правильно. Якщо це такий випадок, Вам слід задокументувати ці "
+"залежності в описі до свого набору змін. Якщо це потрібно, опишіть усі "
+"набори, які потрібно долучити *до* та *після* поточного у послідовності."
 
 #: ../../contribute/code.rst:159
 msgid ""
@@ -5783,49 +5807,60 @@ msgid ""
 "They must be merged in that order. In that case, your MR descriptions would "
 "have something similar to this included:"
 msgstr ""
+"До прикладу, скажімо, Ви направили три запити на злиття на GitLab, ``ubports/"
+"core/docs!1``, ``ubports/core/code!2`` та ``ubports/core/infrastructure!3``. "
+"Вони повинні бути опрацьовані у такому порядку. В такому випадку описи Ваших "
+"запитів на злиття (MR) повинні були б містити щось таке:"
 
 #: ../../contribute/code.rst:161
 msgid "In ``ubports/core/docs!1``:"
-msgstr ""
+msgstr "У ``ubports/core/docs!1``:"
 
 #: ../../contribute/code.rst:163
 msgid ""
 "ubports/core/code!2 and ubports/core/infrastructure!3 depend on this MR."
 msgstr ""
+"ubports/core/code!2 та ubports/core/infrastructure!3 залежать від цього MR."
 
 #: ../../contribute/code.rst:164
 msgid "In ``ubports/core/code!2``:"
-msgstr ""
+msgstr "У ``ubports/core/code!2``:"
 
 #: ../../contribute/code.rst:166
 msgid ""
 "ubports/docs!1 must be merged before this MR. ubports/core/infrastructure!3 "
 "depends on this MR."
 msgstr ""
+"ubports/docs!1 повинні бути долучені перед цим запитом (MR). ubports/core/"
+"infrastructure!3 залежить від цього MR."
 
 #: ../../contribute/code.rst:167
 msgid "In ``ubports/core/infrastructure!3``:"
-msgstr ""
+msgstr "У ``ubports/core/infrastructure!3``:"
 
 #: ../../contribute/code.rst:169
 msgid ""
 "ubports/docs!1 and ubports/core/infrastructure!3 must be merged before this "
 "MR."
 msgstr ""
+"ubports/docs!1 та ubports/core/infrastructure!3 потрібно долучити до цього "
+"MR."
 
 #: ../../contribute/code.rst:172
 msgid "What does the interface look like before and after the change?"
-msgstr ""
+msgstr "Як виглядає інтерфейс до та після цієї зміни?"
 
 #: ../../contribute/code.rst:174
 msgid ""
 "If your changes also change the look of the user interface, include "
 "screenshots to illustrate these changes."
 msgstr ""
+"Якщо Ваші зміни змінюють вигляд інтерфейсу, додайте знімки екрана для "
+"ілюстрації цих змін."
 
 #: ../../contribute/code.rst:177
 msgid "Submission and review"
-msgstr ""
+msgstr "Подання та розгляд"
 
 #: ../../contribute/code.rst:179
 msgid ""
@@ -5833,10 +5868,13 @@ msgid ""
 "review! Thank you in advance for contributing to Ubuntu Touch. Here is what "
 "you can expect from us as we review your changes."
 msgstr ""
+"Тепер, коли Ви перевірили свій набір змін, настав час для надсилання його на "
+"перегляд! Дякуємо Вам наперед за участь в Ubuntu Touch. Ось чого Ви можете "
+"очікувати від нас, коли ми переглянемо Ваші зміни."
 
 #: ../../contribute/code.rst:182
 msgid "We respect you"
-msgstr ""
+msgstr "Ми Вас поважаємо"
 
 #: ../../contribute/code.rst:184
 msgid ""
@@ -5844,6 +5882,10 @@ msgid ""
 "never made lightly. A reviewer must treat you with respect and work with you "
 "toward your changeset becoming a part of Ubuntu Touch."
 msgstr ""
+"Ви обрали використати свій час для допомоги Ubuntu Touch. Таке рішення "
+"ніколи не буває легким. Рецензент повинен ставитися до Вас із повагою та "
+"співпрацювати з Вами, щоб довести Ваш набір змін до того, коли він стане "
+"частиною Ubuntu Touch."
 
 #: ../../contribute/code.rst:186
 msgid ""
@@ -5854,10 +5896,16 @@ msgid ""
 "trying to work as quickly as possible, not as an attempt to be rude to you. "
 "We extend the same grace to you."
 msgstr ""
+"Повага — це дорога з двома напрямами. Ubuntu Touch — великий проєкт і рук "
+"для виконання усієї потрібної роботи завжди замало. Час для приділення уваги "
+"Вашому набору змін може затягнутися, та після довгого очікування, Ви можете "
+"повернутися та побачити суворий запит на зміни. Сприймайте таке \"суворе\" "
+"повідомлення, не як образу, а як намір працювати найшвидше. Таку ж благодать "
+"ми розширюємо і на Вас."
 
 #: ../../contribute/code.rst:189
 msgid "We ask many questions"
-msgstr ""
+msgstr "Ми ставимо багато запитань"
 
 #: ../../contribute/code.rst:191
 msgid ""
@@ -5866,6 +5914,10 @@ msgid ""
 "they'll still ask. If you can explain how your code works, it's more likely "
 "that you have done the proper testing to ensure it works."
 msgstr ""
+"Рецензенти краще зрозуміють код, який Ви змінюєте, після запитань про те як "
+"це працює. Вони можуть розуміти, що робить Ваш код, але вони запитають "
+"знову. Якщо Ви можете пояснити як працює Ваш код, найімовірніше Ви виконали "
+"правильне тестування."
 
 #: ../../contribute/code.rst:193
 msgid ""
@@ -5874,10 +5926,14 @@ msgid ""
 "us in the future. Fixing the real bug instead of making workarounds is a "
 "better use of time."
 msgstr ""
+"Якщо Ви не можете пояснити роботу чогось, це червоний прапор. Ймовірно, ця "
+"зміна обходить іншу помилку, яка може знову переслідувати нас у майбутньому. "
+"Виправлення справжньої помилки замість пошуку обхідних шляхів – це найкраще "
+"використання часу."
 
 #: ../../contribute/code.rst:196
 msgid "We ask for changes"
-msgstr ""
+msgstr "Ми просимо про зміни"
 
 #: ../../contribute/code.rst:198
 msgid ""
@@ -5888,10 +5944,17 @@ msgid ""
 "is perfect. Finding and fixing these potential issues leads to a faster and "
 "more stable Ubuntu Touch. It is not an insult to your skills as a developer."
 msgstr ""
+"Хтось інший може побачити у Вашому коді проблеми, які Ви не помітили. "
+"Незалежно від того, чи ці проблеми є неефективністю, помилками стилю чи "
+"новими багами, їх, швидше за все, виявлять Ваші рецензенти, а не Ви. Не "
+"хвилюйтеся, якщо Ви отримаєте від рецензента том запитів на зміни. Ніхто не "
+"ідеальний. Пошук та усунення цих потенційних проблем призводить до швидшої "
+"та стабільнішої роботи Ubuntu Touch. Це не є зневагою до Ваших навичок "
+"розробника."
 
 #: ../../contribute/code.rst:201
 msgid "We may ask for massive changes"
-msgstr ""
+msgstr "Ми можемо просити про значні зміни"
 
 #: ../../contribute/code.rst:203
 msgid ""
@@ -5902,10 +5965,15 @@ msgid ""
 "the reason, your reviewer points out the potential problems with your change "
 "and constructively suggests a new direction for you to take."
 msgstr ""
+"Іноді рецензенти можуть побачити у зміні значно глибшу проблему компонента. "
+"Іноді Ви можете розпочати розробку з помилкового припущення та завершити її "
+"навалою коду спагеті. Так чи інакше, це хибний шлях до мети. Що б там не "
+"було причиною, Ваш рецензент вказує на можливі проблеми, пов’язані з Вашими "
+"змінами, та конструктивно пропонує новий напрямок руху."
 
 #: ../../contribute/code.rst:206
 msgid "You can tell us that we are wrong"
-msgstr ""
+msgstr "Ви можете сказати нам, що ми помиляємося"
 
 #: ../../contribute/code.rst:208
 msgid ""
@@ -5915,10 +5983,15 @@ msgid ""
 "wrong for any reason, let us know. Reviewers try to work with you to reach a "
 "solution that's best for our users."
 msgstr ""
+"Ви можете бути певними, що основну помилку нелегко виправити або що обраний "
+"Вами шлях є найкращим. Вам може бракувати часу на точне виправлення, як "
+"запитано. Якщо Ви думаєте, з будь-якої причини, що відкидання Вашого набору "
+"змін помилкове, сповістіть нам. Рецензенти спробують знайти з Вами спільне "
+"рішення у найкращий для наших користувачів спосіб."
 
 #: ../../contribute/code.rst:211
 msgid "Merge and maintenance"
-msgstr ""
+msgstr "Злиття та обслуговування"
 
 #: ../../contribute/code.rst:213
 msgid ""
@@ -5927,6 +6000,9 @@ msgid ""
 "contributing to a beautiful community. However, this is not the end of the "
 "work."
 msgstr ""
+"Після отримання переконання, що Ваш набір змін відповідає усім вимогам, він "
+"стає частиною Ubuntu Touch. Дякуємо Вам! Ви є частиною невеликої групи "
+"людей, які належать до чудової спільноти. Хоча це не кінець роботи."
 
 #: ../../contribute/code.rst:215
 msgid ""
@@ -5936,6 +6012,11 @@ msgid ""
 "if we find that your change was the direct cause of a bug and we cannot "
 "contact you."
 msgstr ""
+"Буває так, що Ваші зміни порушують роботу якихось функцій Ubuntu Touch, "
+"всупереч усім нашим зусиллям. Якщо це станеться Вас можуть попросити "
+"допомогти у дослідженні джерела проблеми та підготувати виправлення. Вашу "
+"зміну можуть скасувати, якщо ми виявимо, що вона була прямою причиною "
+"помилки, і ми не зможемо з Вами зв’язатися."
 
 #: ../../contribute/code.rst:217
 msgid ""
@@ -5943,6 +6024,9 @@ msgid ""
 "they want to work with. We would be grateful if you helped teach them what "
 "you learned during this process."
 msgstr ""
+"Нові співавтори можуть помітити, що Ви нещодавно працювали над елементом, "
+"над яким хочуть працювати вони. Ми були б Вам вдячні, якби Ви допомогли їм "
+"навчитися тому, що Ви вже про це знаєте."
 
 #: ../../contribute/code.rst:219
 msgid ""
