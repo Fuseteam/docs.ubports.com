@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-03 16:49+0000\n"
-"PO-Revision-Date: 2025-11-02 23:51+0000\n"
+"PO-Revision-Date: 2025-11-03 23:37+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural="
+"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 5.14.1-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -4683,8 +4684,7 @@ msgstr ""
 #: ../../appdev/webapp/guide.rst:147
 #, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
-msgstr ""
-"Параметри Chrome (стандартно, якщо порожньо, Chrome не зображується):::"
+msgstr "Параметри Chrome (стандартно, якщо порожньо, Chrome прихований):::"
 
 #: ../../appdev/webapp/guide.rst:152
 msgid ""
@@ -4714,7 +4714,7 @@ msgstr ""
 #, fuzzy
 msgid "To change the string from the command line, use the following option:::"
 msgstr ""
-"Для зміни цього параметру у командному рядку, використовуйте наступний "
+"Для зміни цього параметру у командному рядку, використовуйте такий "
 "параметр:::"
 
 #: ../../appdev/webapp/guide.rst:164
@@ -5206,7 +5206,6 @@ msgid "Assumptions"
 msgstr "Застереження"
 
 #: ../../contribute/code.rst:9
-#, fuzzy
 msgid ""
 "This page does not include information about how to develop applications or "
 "changes to Ubuntu Touch. To learn how to develop Ubuntu Touch components, "
@@ -5216,7 +5215,7 @@ msgid ""
 msgstr ""
 "Ця сторінка не містить інформації про те як створювати програми або "
 "удосконалювати Ubuntu Touch. Інформацію про те як розробляти компоненти "
-"Ubuntu Touch можна знайти у розділі :doc:`/systemdev/index. Про розробку "
+"Ubuntu Touch можна знайти у розділі :doc:`/systemdev/index`. Про розробку "
 "програм написано у розділах :doc:`/appdev/index` та :doc:`/contribute/"
 "preinstalled-apps`."
 
@@ -6037,10 +6036,13 @@ msgid ""
 "you've made. The Ubuntu Touch community is incredibly supportive and "
 "thankful. It would be a shame for you to miss your share of the good vibes."
 msgstr ""
+"Якщо немає нічого іншого, залишайтеся поруч із тими, хто дякує Вам за "
+"зроблені Вами зміни. Спільнота Ubuntu Touch підтримує один одного та "
+"неймовірно вдячна. Вам було б прикро пропустити свою частку гарного настрою."
 
 #: ../../contribute/documentation.rst:2
 msgid "Documentation"
-msgstr ""
+msgstr "Документація"
 
 #: ../../contribute/documentation.rst:5
 msgid ""
@@ -6048,38 +6050,49 @@ msgid ""
 "Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/"
 "rest.html>`_ if you are not familiar with RST."
 msgstr ""
+"Документація на цьому сайті написана на ReStructuredText, або RST якщо "
+"коротко. Якщо Ви не знайомі з RST, перевірте `RST Primer <http://"
+"www.sphinx-doc.org/en/stable/rest.html>`_."
 
 #: ../../contribute/documentation.rst:7
 msgid ""
 "This page will guide you through writing great documentation for the UBports "
 "project that can be featured on this site."
 msgstr ""
+"Ця сторінка допоможе Вам пройти квест з написанням гарної документації для "
+"проєкта UBports, яку можна буде розмістити на цьому сайті."
 
 #: ../../contribute/documentation.rst:10
 msgid "Documentation guidelines"
-msgstr ""
+msgstr "Настанови для документації"
 
 #: ../../contribute/documentation.rst:12
 msgid ""
 "These rules govern how you should write documentation to avoid problems with "
 "style, format or linking."
 msgstr ""
+"Ці правила описують як повинна бути складена документація та як уникнути "
+"проблем зі стилем, форматуванням, посиланнями та зв'язками."
 
 #: ../../contribute/documentation.rst:15
 msgid "Title"
-msgstr ""
+msgstr "Заголовок"
 
 #: ../../contribute/documentation.rst:17
 msgid ""
 "All pages must have a document title that will be shown in the table of "
 "contents (left sidebar) and at the top of the page."
 msgstr ""
+"Усі сторінки повинні мати назву документа, яка буде у змісті "
+"(бічна панель зліва) та вгорі сторінки."
 
 #: ../../contribute/documentation.rst:19
 msgid ""
 "Titles should be \"sentence cased\" rather than \"Title Cased\". For "
 "example::"
 msgstr ""
+"Назви повинні бути краще \"звичайними реченнями\", а не "
+"\"Капіталізованими Назвами\". Наприклад:"
 
 #: ../../contribute/documentation.rst:28
 msgid ""
@@ -6087,54 +6100,60 @@ msgid ""
 "sentence casing is easy. This helps keep capitalization in the table of "
 "contents consistent."
 msgstr ""
+"Не існує єдиного визначення щодо правил написання назв, але звичайний стиль —"
+" це просто. Це допомагає витримати капіталізацію у змісті."
 
 #: ../../contribute/documentation.rst:30
 msgid ""
 "Page titles are underlined with equals signs. For example, the markup "
 "for :doc:`./bugreporting` includes the following title:"
 msgstr ""
+"Назви сторінок підкреслюються знаками \"=\", Наприклад, для позначення :doc:`"
+"./bugreporting` назва виглядатиме так:"
 
 #: ../../contribute/documentation.rst:37
 msgid "Note that:"
-msgstr ""
+msgstr "Зауважте:"
 
 #: ../../contribute/documentation.rst:39
 msgid "The title is sentence cased"
-msgstr ""
+msgstr "Лише перша літера речення пишеться великою"
 
 #: ../../contribute/documentation.rst:40
 msgid "The title is underlined with equals signs"
-msgstr ""
+msgstr "Назву потрібно підкреслити знаками рівняння"
 
 #: ../../contribute/documentation.rst:41
 msgid "The underline spans the title completely without going over"
-msgstr ""
+msgstr "Підкреслювати назву потрібно повністю та закінчувати останньою літерою"
 
 #: ../../contribute/documentation.rst:43
 msgid "Incorrect examples of titles include:"
-msgstr ""
+msgstr "Неправильні приклади заголовків:"
 
 #: ../../contribute/documentation.rst:45
 msgid "Incorrect casing"
-msgstr ""
+msgstr "Неправильне використання великих/малих літер"
 
 #: ../../contribute/documentation.rst:52
 msgid "Underline too short"
-msgstr ""
+msgstr "Підкреслення закоротке"
 
 #: ../../contribute/documentation.rst:59
 msgid "Underline too long"
-msgstr ""
+msgstr "Підкреслення задовге"
 
 #: ../../contribute/documentation.rst:68
 msgid "Headings"
-msgstr ""
+msgstr "Види заголовків"
 
 #: ../../contribute/documentation.rst:70
 msgid ""
 "There are several levels of headings that you may place on a page. These "
 "levels are shown here in order:"
 msgstr ""
+"Існує декілька рівнів заголовків, які можна розмістити на сторінці. Ці рівні "
+"зображені нижче за порядком:"
 
 #: ../../contribute/documentation.rst:86
 msgid ""
@@ -6143,10 +6162,14 @@ msgid ""
 "pages. Furthermore the web version of the documentation only shows four "
 "levels in it's table of contents."
 msgstr ""
+"Слідкуйте, будь ласка, щоб у Вас виходило не більше ніж чотири рівні. Якщо "
+"Вам здається, що потрібно більше рівнів, це гарний знак, що документ краще "
+"розбити на декілька сторінок. Ба більше, вебверсія цієї документації може у "
+"змісті показати лише чотири рівні."
 
 #: ../../contribute/documentation.rst:89
 msgid "Table of contents"
-msgstr ""
+msgstr "Зміст"
 
 #: ../../contribute/documentation.rst:91
 msgid ""
@@ -6156,6 +6179,10 @@ msgid ""
 "\"newpage.rst\", you would add the line marked with a chevron (>) in the "
 "nearest index:"
 msgstr ""
+"Якщо Ви додаєте нову сторінку, Вам також потрібно додати її до змісту. Це "
+"можна зробити через додавання цієї сторінки до файла ``index.rst`` у тій "
+"самі теці, де її створили. Наприклад, якщо Ви створили файл \"newpage.rst\", "
+"слід додати у найближчому індексі рядок з маркуванням шевроном (>):"
 
 #: ../../contribute/documentation.rst:103
 msgid ""
@@ -6163,10 +6190,13 @@ msgid ""
 "position in the table of contents, place it there. In the previous example, "
 "newpage would be added to the end of this table of contents."
 msgstr ""
+"Порядок важливий. Якщо Ви хочете, щоб Ваша сторінка з'явилася у змісті на "
+"правильному місці, розмістіть її там. У попередньому прикладі нова сторінка "
+"додана в кінці змісту."
 
 #: ../../contribute/documentation.rst:106
 msgid "Moving pages"
-msgstr ""
+msgstr "Переміщення сторінок"
 
 #: ../../contribute/documentation.rst:108
 msgid ""
@@ -6175,6 +6205,10 @@ msgid ""
 "example, it makes more sense for the page to come after a page you've just "
 "added in a different section."
 msgstr ""
+"Іноді виникає необхідність у переміщені сторінки з одного місця у "
+"документації до іншого. Загалом це потрібно для удосконалення "
+"документообігу. Наприклад, доцільніше вставляти сторінку позаду поточної "
+"редагованої сторінки в іншому розділі."
 
 #: ../../contribute/documentation.rst:110
 msgid ""
@@ -6184,6 +6218,12 @@ msgid ""
 "follow a link from a different site and land on a 404 page, being forced to "
 "search manually in our documentation."
 msgstr ""
+"Однак люди посилаються на нашу документацію з різних джерел, які ми не "
+"контролюємо. Блоги, вебсайти та інші сайти документації можуть направляти до "
+"нас користувачів через свої посилання, які можуть ніколи не оновлюватися. "
+"Перейти за посиланням з іншого сайту й потрапити на сторінку 404 – це "
+"халепа, після якої люди змушені ще шукати інформацію в нашій документації "
+"вручну."
 
 #: ../../contribute/documentation.rst:114
 msgid ""
@@ -6196,6 +6236,14 @@ msgid ""
 "`redirects.txt file <https://gitlab.com/ubports/docs/docs.ubports.com/-/blob/"
 "master/redirects.txt>`_."
 msgstr ""
+"Ми користуємося інструментом, який називається Rediraffe, який допомагає нам "
+"уникати таких ситуацій та створює сторінки для перенаправлення, які ведуть "
+"користувачів на нові сторінки. Через це просимо Вас в разі зміни назви "
+"сторінки або її переміщення в ієрархії створювати посилання перенаправлення. "
+"Такі посилання створюються через розміщення назви файлу старого документа та "
+"імені файлу нового відносно кореня документації у файлі `redirects.txt "
+"<https://gitlab.com/ubports/docs/docs.ubports.com/-/blob/master/"
+"redirects.txt>`_."
 
 #: ../../contribute/documentation.rst:116
 msgid ""
@@ -6204,18 +6252,27 @@ msgid ""
 "run as part of the ``build.sh`` script in the repository and as part of our "
 "automated build once you submit a Merge Request (MR)."
 msgstr ""
+"Також ми користуємося ``checkdiff`` від Rediraffe для перевірки, що після "
+"видалення сторінок не забули додати перенаправлення. Цей конструктор "
+"запускається як частина скрипту ``build.sh`` у репозиторії та як частина "
+"нашого автоматизованого конструктора після подання Вами запиту на злиття (MR)"
+"."
 
 #: ../../contribute/documentation.rst:118
 msgid ""
 "What follows are some examples of situations where you should create "
 "redirects."
 msgstr ""
+"Далі надаються декілька прикладів ситуацій, де потрібно створювати "
+"перенаправлення."
 
 #: ../../contribute/documentation.rst:120
 msgid ""
 "You are moving ``systemdev/calendars.rst`` to ``appdev/calendars.rst``. Add "
 "the following to the ``redirects.txt`` file::"
 msgstr ""
+"Ви переміщуєте ``systemdev/calendars.rst`` до ``appdev/calendars.rst``. Тоді "
+"слід додати до файлу ``redirects.txt`` наступне:"
 
 #: ../../contribute/documentation.rst:124
 msgid ""
@@ -6226,10 +6283,15 @@ msgid ""
 "redirect the old page to the new introduction page. This can be done by "
 "adding the following to ``redirects.txt``::"
 msgstr ""
+"Коли Ви перетворюєте ``appdev/clickable.rst`` на декілька сторінок у ``"
+"appdev/clickable/`` додаючи більше інформації про інструмент, ніж було "
+"раніше та якщо Вами була створена вступна сторінка ``appdev/clickable/"
+"introduction.rst``, було б гарною ідеєю перенаправити стару сторінку на нову "
+"зі вступом. Це можна зробити додаванням наступного до ``redirects.txt``:"
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
-msgstr ""
+msgstr "Попередження"
 
 #: ../../contribute/documentation.rst:131
 msgid ""
@@ -6240,10 +6302,17 @@ msgid ""
 "crashing with your error) if you follow :ref:`our build instructions <doc-"
 "contribution-workflow>` below."
 msgstr ""
+"Ваші зміни не повинні додавати жодних попереджень до конструктора "
+"документації. Якщо виникне попередження, конструктор зупиниться з помилкою, "
+"а запит на злиття буде позначений червоним 'X'. Переконайтеся, будь ласка, "
+"що Ваш RST виглядає справним до створення запиту на злиття. Це робиться "
+"автоматично (через зупинку sphinx-build з Вашою помилкою) якщо Ви "
+"притримуєтеся :ref:`наших настанов до конструктора <doc-contribution-"
+"workflow>` нижче."
 
 #: ../../contribute/documentation.rst:135
 msgid "Line length"
-msgstr ""
+msgstr "Довжина рядка"
 
 #: ../../contribute/documentation.rst:137
 msgid ""
@@ -6251,26 +6320,30 @@ msgid ""
 "break lines at an arbitrary line length. Instead, turn on word wrap in your "
 "text editor."
 msgstr ""
+"Немає обмежень на довжину рядка у цьому репозиторію. Не розбивайте рядки, "
+"будь ласка, а краще увімкніть у текстовому редакторі перенесення рядків."
 
 #: ../../contribute/documentation.rst:142
 msgid "Contribution workflow"
-msgstr ""
+msgstr "Процес додавання внесків"
 
 #: ../../contribute/documentation.rst:144
 msgid ""
 "The following steps explain how you can make a contribution to this "
 "documentation."
-msgstr ""
+msgstr "Наступні кроки пояснюють як можна додати внески до цієї документації."
 
 #: ../../contribute/documentation.rst:147
 msgid ""
 "You will need a GitLab account to complete these steps. If you do not have "
 "an account, go to `gitlab.com <https://gitlab.com>`_ to create one."
 msgstr ""
+"Для виконання цих кроків Вам потрібен обліковий запис GitLab. Якщо у Вас "
+"його немає, перейдіть на `gitlab.com <https://gitlab.com>`_ та створіть його."
 
 #: ../../contribute/documentation.rst:150
 msgid "Forking the repository"
-msgstr ""
+msgstr "Форк (копія) репозиторію"
 
 #: ../../contribute/documentation.rst:152
 msgid ""
@@ -6278,16 +6351,21 @@ msgid ""
 "docs.ubports.com <https://gitlab.com/ubports/docs/docs.ubports.com>`_ on "
 "GitLab."
 msgstr ""
+"Можна створити більш професійний внесок до документації через копіювання `"
+"ubports/docs.ubports.com <https://gitlab.com/ubports/docs/docs.ubports.com>`"
+"_ на GitLab."
 
 #: ../../contribute/documentation.rst:155
 msgid "Building the documentation"
-msgstr ""
+msgstr "Оформлення (компіляція) документації"
 
 #: ../../contribute/documentation.rst:157
 msgid ""
 "To build this documentation, follow these instructions on your *local copy* "
 "of your fork of the repository."
 msgstr ""
+"Для компіляції цієї документації виконайте кроки з інструкції на своїй *"
+"локальній копії* форка репозиторію."
 
 #: ../../contribute/documentation.rst:159
 msgid ""
@@ -6295,6 +6373,9 @@ msgid ""
 "repository. The script will also create a virtual build environment in ``~/"
 "ubportsdocsenv`` if none is present."
 msgstr ""
+"Документацію можна створити через запуск ``./build.sh`` у корені "
+"репозиторію. Цей скрипт створить також віртуальне оточення у "
+"``~/ubportsdocsenv`` в разі його відсутності."
 
 #: ../../contribute/documentation.rst:161
 msgid ""
