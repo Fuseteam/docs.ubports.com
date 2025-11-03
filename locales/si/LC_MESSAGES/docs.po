@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-19 12:51+0000\n"
+"POT-Creation-Date: 2025-11-03 16:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -76,8 +76,8 @@ msgid ""
 "written in reStructuredText and converted into this readable form by `Sphinx "
 "<https://www.sphinx-doc.org/en/master/>`_, `recommonmark <http://"
 "recommonmark.readthedocs.io/en/latest/>`_, and `Read the Docs <https://"
-"readthedocs.io>`_. Start contributing by checking out the :doc:"
-"`Documentation contribution document </contribute/documentation>`."
+"readthedocs.io>`_. Start contributing by checking out "
+"the :doc:`Documentation contribution document </contribute/documentation>`."
 msgstr ""
 
 #: ../../about/introduction.rst:18
@@ -914,8 +914,8 @@ msgstr ""
 
 #: ../../about/process/security-vulnerabilities.rst:42
 msgid ""
-"https://docs.gitlab.com/ee/user/project/merge_requests/confidential."
-"html#create-a-confidential-merge-request"
+"https://docs.gitlab.com/ee/user/project/merge_requests/"
+"confidential.html#create-a-confidential-merge-request"
 msgstr ""
 
 #: ../../about/process/security-vulnerabilities.rst:43
@@ -981,8 +981,8 @@ msgstr ""
 
 #: ../../appdev/external-docs.rst:10
 msgid ""
-"`Cordova HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/index."
-"html>`__"
+"`Cordova HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/"
+"index.html>`__"
 msgstr ""
 
 #: ../../appdev/external-docs.rst:12
@@ -1005,8 +1005,8 @@ msgstr ""
 
 #: ../../appdev/external-docs.rst:22
 msgid ""
-"`Qt Quick Controls 2 API <https://doc.qt.io/qt-5/qtquickcontrols-index."
-"html>`__"
+"`Qt Quick Controls 2 API <https://doc.qt.io/qt-5/qtquickcontrols-"
+"index.html>`__"
 msgstr ""
 
 #: ../../appdev/guides/contenthub.rst:4
@@ -1030,9 +1030,9 @@ msgstr "අන්තර්ගතය බෙදා ගැනීමේ විවි
 
 #: ../../appdev/guides/contenthub.rst:16
 msgid ""
-"As we can see in the `Content Hub documentation <https://api-docs.ubports."
-"com/sdk/apps/qml/Ubuntu.Content/ContentHandler.html#detailed-description>`_, "
-"there are several ways of handling the file to be shared:"
+"As we can see in the `Content Hub documentation <https://api-"
+"docs.ubports.com/sdk/apps/qml/Ubuntu.Content/ContentHandler.html#detailed-"
+"description>`_, there are several ways of handling the file to be shared:"
 msgstr ""
 
 #: ../../appdev/guides/contenthub.rst:18
@@ -1077,10 +1077,11 @@ msgstr ""
 #: ../../appdev/guides/contenthub.rst:52
 msgid ""
 "``contentType`` is passed in `Main.qml <https://gitlab.com/cibersheep/webapp-"
-"creator/blob/master/webapp-creator/app/Main.qml#L118>`_ as ContentType."
-"Pictures. So, we will only see apps from which we only can import images. "
-"``handler`` is passed in the same line as ContentHandler.Source. As we want "
-"to import an image from the app selected in the Content Hub."
+"creator/blob/master/webapp-creator/app/Main.qml#L118>`_ as "
+"ContentType.Pictures. So, we will only see apps from which we only can "
+"import images. ``handler`` is passed in the same line as "
+"ContentHandler.Source. As we want to import an image from the app selected "
+"in the Content Hub."
 msgstr ""
 
 #: ../../appdev/guides/contenthub.rst:55
@@ -1114,8 +1115,9 @@ msgstr ""
 #: ../../appdev/guides/contenthub.rst:81
 msgid ""
 "``contentType`` is ``ContentType.All``, so we will only see apps which are "
-"able to receive unmarked file types. ``handler`` is ``ContentHandler."
-"Destination``, so the app selected should store the saved game."
+"able to receive unmarked file types. ``handler`` is "
+"``ContentHandler.Destination``, so the app selected should store the saved "
+"game."
 msgstr ""
 
 #: ../../appdev/guides/contenthub.rst:83
@@ -1243,8 +1245,8 @@ msgstr ""
 #: ../../appdev/guides/dependencies.rst:41
 msgid ""
 "Most build arguments are project specific. Therefore, study the library's "
-"build instructions and also look for ``option`` settings in its ``CMakeLists."
-"txt`` ."
+"build instructions and also look for ``option`` settings in its "
+"``CMakeLists.txt`` ."
 msgstr ""
 
 #: ../../appdev/guides/dependencies.rst:43
@@ -1297,8 +1299,8 @@ msgstr ""
 
 #: ../../appdev/guides/dependencies.rst:64
 msgid ""
-"If the library can be found in a PPA, you can add the PPA to the clickable."
-"yaml, too. For example:"
+"If the library can be found in a PPA, you can add the PPA to the "
+"clickable.yaml, too. For example:"
 msgstr ""
 
 #: ../../appdev/guides/dependencies.rst:75
@@ -1319,10 +1321,10 @@ msgstr ""
 #: ../../appdev/guides/dependencies.rst:81
 msgid ""
 "In case the library contains a CMake configuration file, you can use the "
-"`find_package <https://cmake.org/cmake/help/latest/command/find_package."
-"html>`_ command, which provides you with a target to link against or "
-"variables pointing to the library's binary and include directories. The "
-"additional lines on your CMakeLists.txt then may look like:"
+"`find_package <https://cmake.org/cmake/help/latest/command/"
+"find_package.html>`_ command, which provides you with a target to link "
+"against or variables pointing to the library's binary and include "
+"directories. The additional lines on your CMakeLists.txt then may look like:"
 msgstr ""
 
 #: ../../appdev/guides/dependencies.rst:90
@@ -1366,8 +1368,8 @@ msgid ""
 "Find the path to the shared object files. For libraries built via clickable, "
 "they are located somewhere in the library's install dir, which is located "
 "inside the library's build dir by default (e.g. ``build/arm-linux-gnueabihf/"
-"opencv/install``). For pre-built libraries run ``clickable run \"find / -"
-"name 'libSomething.so'\"`` (replacing ``libSomething.so`` by the file your "
+"opencv/install``). For pre-built libraries run ``clickable run \"find / "
+"-name 'libSomething.so'\"`` (replacing ``libSomething.so`` by the file your "
 "are looking for). This should print the path to the file (along with some "
 "error messages you can ignore). In general, ``/usr/lib``  is a good bet when "
 "looking for the shared object files."
@@ -1456,15 +1458,15 @@ msgstr ""
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:56
 msgid ""
-"The ``URLdispatcher`` selects which app (according to their ``manifest."
-"json``) will open a certain link."
+"The ``URLdispatcher`` selects which app (according to their "
+"``manifest.json``) will open a certain link."
 msgstr ""
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:61
 msgid ""
 "Let’s see how our navigation app looks inside. uNav’s manifest shows special "
-"hooks for the ``URLdispatcher`` in its `manifest.json code <https://bazaar."
-"launchpad.net/~unav-devs/unav/trunk/view/head:/manifest.json#L9>`_:"
+"hooks for the ``URLdispatcher`` in its `manifest.json code <https://"
+"bazaar.launchpad.net/~unav-devs/unav/trunk/view/head:/manifest.json#L9>`_:"
 msgstr ""
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:91
@@ -1522,9 +1524,9 @@ msgstr ""
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:143
 msgid ""
 "Remember to check that %u (to receive 1 URL) or %U (to receive 1 or more "
-"URLs) is present under the ``Exec`` line in the `.desktop <https://gitlab."
-"com/ubports-linphone/linphone-simple/-/blob/master/linphone.desktop.in#L7>`_ "
-"file of the app."
+"URLs) is present under the ``Exec`` line in the `.desktop <https://"
+"gitlab.com/ubports-linphone/linphone-simple/-/blob/master/"
+"linphone.desktop.in#L7>`_ file of the app."
 msgstr ""
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:146
@@ -1581,8 +1583,8 @@ msgstr ""
 
 #: ../../appdev/guides/index.rst:8
 msgid ""
-"`Qt programming course by mimecar for Ubuntu Touch <https://docs.innerzaurus."
-"com>`__"
+"`Qt programming course by mimecar for Ubuntu Touch <https://"
+"docs.innerzaurus.com>`__"
 msgstr ""
 
 #: ../../appdev/guides/index.rst:9
@@ -1609,8 +1611,8 @@ msgstr ""
 
 #: ../../appdev/guides/index.rst:13
 msgid ""
-"`Qt examples and tutorials <https://doc.qt.io/qt-5.12/qtexamplesandtutorials."
-"html>`__."
+"`Qt examples and tutorials <https://doc.qt.io/qt-5.12/"
+"qtexamplesandtutorials.html>`__."
 msgstr ""
 
 #: ../../appdev/guides/index.rst:15
@@ -1646,8 +1648,8 @@ msgstr ""
 
 #: ../../appdev/guides/index.rst:40
 msgid ""
-"`Free Pascal development for Ubuntu Touch <http://kriscode.blogspot."
-"tw/2016/09/freepascal-development-for-ubuntu-phone.html>`__"
+"`Free Pascal development for Ubuntu Touch <http://kriscode.blogspot.tw/"
+"2016/09/freepascal-development-for-ubuntu-phone.html>`__"
 msgstr ""
 
 #: ../../appdev/guides/index.rst:41
@@ -1838,12 +1840,12 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:54
 msgid ""
 "You need to set the correct appId! If the app name in your manifest file is "
-"myapp.yourname and the name of the main hook (the one which handles the ."
-"desktop file) is hookname, then the appId is:  myapp.yourname_hookname. When "
-"we now start the app, it will get a token and print this token in the logs. "
-"With clickable logs we will be able to copy this token out of the terminal. "
-"But the app is not yet ready to receive a push notification. For this we "
-"need something called a pushhelper!"
+"myapp.yourname and the name of the main hook (the one which handles "
+"the .desktop file) is hookname, then the appId is:  myapp.yourname_hookname. "
+"When we now start the app, it will get a token and print this token in the "
+"logs. With clickable logs we will be able to copy this token out of the "
+"terminal. But the app is not yet ready to receive a push notification. For "
+"this we need something called a pushhelper!"
 msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:58
@@ -2512,8 +2514,8 @@ msgstr ""
 
 #: ../../appdev/guides/user-metrics.rst:121
 msgid ""
-"There must be a way for a process to run independently in the background (e."
-"g. cron) to retrieve data from a specific app code. One lead is the "
+"There must be a way for a process to run independently in the background "
+"(e.g. cron) to retrieve data from a specific app code. One lead is the "
 "Indicator Weather app. This runs a process every X minutes to update the "
 "weather indicator automatically without having to open the app."
 msgstr ""
@@ -2540,8 +2542,8 @@ msgid ""
 "Besides the write access to the app directories explained below, the app can "
 "write debug messages into the app log file located at ``/home/phablet/.cache/"
 "upstart/application-click-<fullappname>_<appname>_<version>.log``. To append "
-"messages to the log file, use the `Qt debug <https://doc.qt.io/qt-5/qdebug."
-"html>`_ functions."
+"messages to the log file, use the `Qt debug <https://doc.qt.io/qt-5/"
+"qdebug.html>`_ functions."
 msgstr ""
 
 #: ../../appdev/guides/writeable-dirs.rst:11
@@ -2609,17 +2611,18 @@ msgstr ""
 #: ../../appdev/guides/writeable-dirs.rst:45
 msgid ""
 "Since the value of the QStandardPaths strings are decided by the `Qt "
-"application name <https://doc.qt.io/qt-5/qcoreapplication."
-"html#applicationName-prop>`_, this needs to be the same as the clickable "
-"application name."
+"application name <https://doc.qt.io/qt-5/"
+"qcoreapplication.html#applicationName-prop>`_, this needs to be the same as "
+"the clickable application name."
 msgstr ""
 
 #: ../../appdev/guides/writeable-dirs.rst:48
 msgid ""
-"Setting the `organizationName <https://doc.qt.io/qt-5/qcoreapplication."
-"html#organizationName-prop>`_ will change the paths returned by these "
-"functions too - if you need to do this, set it to the clickable application "
-"name as well, otherwise the paths won't work on the device."
+"Setting the `organizationName <https://doc.qt.io/qt-5/"
+"qcoreapplication.html#organizationName-prop>`_ will change the paths "
+"returned by these functions too - if you need to do this, set it to the "
+"clickable application name as well, otherwise the paths won't work on the "
+"device."
 msgstr ""
 
 #: ../../appdev/guides/writeable-dirs.rst:51
@@ -2785,10 +2788,10 @@ msgstr ""
 #: ../../appdev/nativeapp/index.rst:10
 msgid ""
 "Ubuntu Touch provides a subset of Qt QML components to ease the development "
-"of your app : `QML API <https://api-docs.ubports.com/sdk/apps/qml/index."
-"html>`__ and Icons: `Suru Icons <http://docs.ubports.com/projects/icons/en/"
-"latest/>`__, but you can also ship your cross platform app using standard Qt "
-"QML QtQuick2 components."
+"of your app : `QML API <https://api-docs.ubports.com/sdk/apps/qml/"
+"index.html>`__ and Icons: `Suru Icons <http://docs.ubports.com/projects/"
+"icons/en/latest/>`__, but you can also ship your cross platform app using "
+"standard Qt QML QtQuick2 components."
 msgstr ""
 
 #: ../../appdev/nativeapp/index.rst:13
@@ -2799,8 +2802,8 @@ msgstr ""
 
 #: ../../appdev/nativeapp/index.rst:15
 msgid ""
-"Check out informations about the platform and confinement model in :ref:"
-"`Platform <platform>` section"
+"Check out informations about the platform and confinement model "
+"in :ref:`Platform <platform>` section"
 msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:2
@@ -3556,8 +3559,8 @@ msgstr ""
 #: ../../appdev/webapp/guide.rst:53
 msgid ""
 "The user can navigate to any URL without limitation. For example, if they "
-"click the Developer button at the top, they navigate to developer.ubuntu."
-"com, and it displays in the webapp."
+"click the Developer button at the top, they navigate to "
+"developer.ubuntu.com, and it displays in the webapp."
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:55
@@ -3593,9 +3596,9 @@ msgid ""
 "With this launch command and URL pattern, the user can navigate to and open "
 "in the webapp any URL that starts with https://www.ubuntu.com/. For example, "
 "they can click on the Phone button (https://www.ubuntu.com/phone) in the "
-"banner and it opens in the webapp, or the Tablet button (https://www.ubuntu."
-"com/tablet). But, clicking Developer opens the corresponding URL in the "
-"browser."
+"banner and it opens in the webapp, or the Tablet button (https://"
+"www.ubuntu.com/tablet). But, clicking Developer opens the corresponding URL "
+"in the browser."
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:70
@@ -3625,8 +3628,8 @@ msgstr ""
 #: ../../appdev/webapp/guide.rst:84
 msgid ""
 "You can use multiple patterns by separating them with a comma. For example, "
-"the following allows access only to www.ubuntu.com/desktop/features and www."
-"ubuntu.com/phone/features:::"
+"the following allows access only to www.ubuntu.com/desktop/features and "
+"www.ubuntu.com/phone/features:::"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:88
@@ -3649,15 +3652,15 @@ msgstr ""
 #: ../../appdev/webapp/guide.rst:98
 msgid ""
 "However, one usually wants the user to be able to navigate back to the "
-"starting URL (and its subpages). So, if the starting URL is https://www."
-"ubuntu.com, a second pattern is needed:::"
+"starting URL (and its subpages). So, if the starting URL is https://"
+"www.ubuntu.com, a second pattern is needed:::"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:102
 msgid ""
-"Putting these together, here’s an example that starts on https://www.ubuntu."
-"com and allows navigation to https://developer.ubuntu.com and subpages and "
-"back to https://www.ubuntu.com and subpages:::"
+"Putting these together, here’s an example that starts on https://"
+"www.ubuntu.com and allows navigation to https://developer.ubuntu.com and "
+"subpages and back to https://www.ubuntu.com and subpages:::"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:107
@@ -3666,8 +3669,8 @@ msgstr ""
 
 #: ../../appdev/webapp/guide.rst:109
 msgid ""
-"Some URLs have multiple subdomains. For example, www.ubuntu.com has design."
-"ubuntu.com, developer.ubuntu.com and more. You can add access to all "
+"Some URLs have multiple subdomains. For example, www.ubuntu.com has "
+"design.ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
 
@@ -3675,8 +3678,8 @@ msgstr ""
 msgid ""
 "Note: An asterisk in the subdomain position matches any valid single "
 "subdomain. This single pattern is sufficient to enable browsing to any "
-"subdomain and subpages, including back to the starting URL (https://www."
-"ubuntu.com) and its subpages."
+"subdomain and subpages, including back to the starting URL (https://"
+"www.ubuntu.com) and its subpages."
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:116
@@ -3686,9 +3689,9 @@ msgstr ""
 #: ../../appdev/webapp/guide.rst:118
 msgid ""
 "Sometimes a site uses http for some of its URLs. In general this is unsafe "
-"and should be avoided, but here is an example that allows access to www."
-"launchpad.net on both https and http inside the webapp (and all subpages due "
-"to the wildcard):::"
+"and should be avoided, but here is an example that allows access to "
+"www.launchpad.net on both https and http inside the webapp (and all subpages "
+"due to the wildcard):::"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:122
@@ -4274,11 +4277,11 @@ msgstr ""
 msgid ""
 "For an example of a series of commits that follows these guidelines very "
 "well, see the three commits at the top of the `git log leading to 840777f in "
-"Lomiri <https://github.com/ubports/unity8/"
-"commits/840777f92fb663a525dbe765155dbcf2a6f7541e>`_. Not every change "
-"requires such an in-depth description as these examples. Lean on the side of "
-"more detail; someday, *you* are the one looking back at your commits and "
-"wondering why you made them."
+"Lomiri <https://github.com/ubports/unity8/commits/"
+"840777f92fb663a525dbe765155dbcf2a6f7541e>`_. Not every change requires such "
+"an in-depth description as these examples. Lean on the side of more detail; "
+"someday, *you* are the one looking back at your commits and wondering why "
+"you made them."
 msgstr ""
 
 #: ../../contribute/code.rst:71
@@ -4725,8 +4728,8 @@ msgstr ""
 #: ../../contribute/documentation.rst:5
 msgid ""
 "Documentation on this site is written in ReStructuredText, or RST for short. "
-"Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/rest."
-"html>`_ if you are not familiar with RST."
+"Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/"
+"rest.html>`_ if you are not familiar with RST."
 msgstr ""
 
 #: ../../contribute/documentation.rst:7
@@ -4770,8 +4773,8 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:30
 msgid ""
-"Page titles are underlined with equals signs. For example, the markup for :"
-"doc:`./bugreporting` includes the following title:"
+"Page titles are underlined with equals signs. For example, the markup "
+"for :doc:`./bugreporting` includes the following title:"
 msgstr ""
 
 #: ../../contribute/documentation.rst:37
@@ -5138,8 +5141,8 @@ msgstr ""
 
 #: ../../contribute/index.rst:8
 msgid ""
-"If those aren't enough for you, see `our contribute page <https://ubports."
-"com/community-center>`_ for an introduction of our focus groups."
+"If those aren't enough for you, see `our contribute page <https://"
+"ubports.com/community-center>`_ for an introduction of our focus groups."
 msgstr ""
 
 #: ../../contribute/monetary.rst:2
@@ -5149,8 +5152,8 @@ msgstr ""
 #: ../../contribute/monetary.rst:4
 msgid ""
 "You can help us keep the lights on at UBports by becoming a patron on "
-"`Liberapay <https://liberapay.com/UBports/>`_ or `Patreon <https://www."
-"patreon.com/ubports>`_!"
+"`Liberapay <https://liberapay.com/UBports/>`_ or `Patreon <https://"
+"www.patreon.com/ubports>`_!"
 msgstr ""
 
 #: ../../contribute/monetary.rst:6
@@ -5276,7 +5279,7 @@ msgid "`music-app on GitLab`_"
 msgstr ""
 
 #: ../../contribute/preinstalled-apps.rst:31
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:490
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:31
 msgid "Notes"
 msgstr ""
 
@@ -5516,8 +5519,8 @@ msgid ""
 "software/gettext/>`_ for translations. A *.pot* template file holds an apps "
 "strings. From this template for every language an individual *.po* file is "
 "derived. Those *.po* files do contain the actual translations. To add a new "
-"language a new *.po* file needs to be created. To translate a string the *."
-"po* file needs to be edited. Next to the original string (english in most "
+"language a new *.po* file needs to be created. To translate a string the "
+"*.po* file needs to be edited. Next to the original string (english in most "
 "cases) the appropriate translation needs to be entered following the *.po* "
 "gettext file syntax. Some apps do use `QtLinguist <https://doc.qt.io/qt-5/"
 "qtlinguist-index.html>`_ for translation. It does follow the same priciples "
@@ -5551,8 +5554,8 @@ msgstr ""
 #: ../../contribute/translations.rst:23
 msgid ""
 "Weblate: A web based translation tool. UBports apps using Weblate can be "
-"translated at the `UBports translation projects dashboard <https://hosted."
-"weblate.org/projects/ubports/>`_ and the `Lomiri translation projects "
+"translated at the `UBports translation projects dashboard <https://"
+"hosted.weblate.org/projects/ubports/>`_ and the `Lomiri translation projects "
 "dashboard <https://hosted.weblate.org/projects/lomiri/>`_. There is an "
 "automatic transfer of new strings from an apps repo to weblate. Translated "
 "strings get back as commits to the repo from weblate."
@@ -5570,10 +5573,10 @@ msgstr ""
 
 #: ../../contribute/translations.rst:25
 msgid ""
-"Team translation: We also have  a `Translation Forum <https://forums.ubports."
-"com/category/39/translations>`_ to discuss translating Ubuntu Touch and its "
-"core apps. Some projects are using Telegram or Matrix groups too, and some "
-"teams are still using the Ubuntu Launchpad framework."
+"Team translation: We also have  a `Translation Forum <https://"
+"forums.ubports.com/category/39/translations>`_ to discuss translating Ubuntu "
+"Touch and its core apps. Some projects are using Telegram or Matrix groups "
+"too, and some teams are still using the Ubuntu Launchpad framework."
 msgstr ""
 
 #: ../../contribute/translations.rst:27
@@ -5582,10 +5585,10 @@ msgid ""
 "using weblate for translation. This is the preferred way to translate and it "
 "does not need any programming skills. Please have a look at the `UBports "
 "translation projects dashboard <https://hosted.weblate.org/projects/ubports/"
-">`_ and the `Lomiri translation projects dashboard <https://hosted.weblate."
-"org/projects/lomiri/>`_. When using weblate do not edit *.po* files "
-"manually. Commiting edited *.po* files can break the automated process of "
-"translation."
+">`_ and the `Lomiri translation projects dashboard <https://"
+"hosted.weblate.org/projects/lomiri/>`_. When using weblate do not edit *.po* "
+"files manually. Commiting edited *.po* files can break the automated process "
+"of translation."
 msgstr ""
 
 #: ../../contribute/translations.rst:29
@@ -5605,8 +5608,8 @@ msgstr ""
 
 #: ../../contribute/translations.rst:37
 msgid ""
-"You can go to `UBports translation projects dashboard <https://hosted."
-"weblate.org/projects/ubports/>`_ or the `Lomiri translation projects "
+"You can go to `UBports translation projects dashboard <https://"
+"hosted.weblate.org/projects/ubports/>`_ or the `Lomiri translation projects "
 "dashboard <https://hosted.weblate.org/projects/lomiri/>`_, go to a project, "
 "and start making anonymous suggestions without being registered. If you want "
 "to save your translations, you must be logged in."
@@ -5725,8 +5728,8 @@ msgstr ""
 
 #: ../../contribute/translations.rst:73
 msgid ""
-"Push the translated *.po*/*.ts* file(s) to your forked repo [do NOT commit *."
-"pot*/*.ts* template files]"
+"Push the translated *.po*/*.ts* file(s) to your forked repo [do NOT commit "
+"*.pot*/*.ts* template files]"
 msgstr ""
 
 #: ../../contribute/translations.rst:74
@@ -5844,10 +5847,11 @@ msgstr ""
 
 #: ../../humanguide/app-layout/dialogs.rst:10
 msgid ""
-"The main action should be highlighted using ``theme.palette.normal."
-"negative`` if it is destructive, ``theme.palette.normal.positive`` if it is "
-"positive, or ``theme.palette.normal.focus`` if it is neutral. The remaining "
-"options should be gray, without defining a color theme property."
+"The main action should be highlighted using "
+"``theme.palette.normal.negative`` if it is destructive, "
+"``theme.palette.normal.positive`` if it is positive, or "
+"``theme.palette.normal.focus`` if it is neutral. The remaining options "
+"should be gray, without defining a color theme property."
 msgstr ""
 
 #: ../../humanguide/app-layout/dialogs.rst:14
@@ -6128,10 +6132,10 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:4
 msgid ""
-"The whole system and apps follow the `Suru design principles <http://web."
-"archive.org/web/20191223082720/https://docs.ubuntu.com/phone/en/apps/design/"
-"get-started/design-philosophy>`__ started by Canonical and `Samuel Hewitt "
-"<https://samuelhewitt.com>`__."
+"The whole system and apps follow the `Suru design principles <http://"
+"web.archive.org/web/20191223082720/https://docs.ubuntu.com/phone/en/apps/"
+"design/get-started/design-philosophy>`__ started by Canonical and `Samuel "
+"Hewitt <https://samuelhewitt.com>`__."
 msgstr ""
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:7
@@ -7183,8 +7187,8 @@ msgstr ""
 
 #: ../../humanguide/other-design-considerations/translations.rst:6
 msgid ""
-"Marking a string to be translatable can be achieved like this i18n."
-"tr(string). For example:"
+"Marking a string to be translatable can be achieved like this "
+"i18n.tr(string). For example:"
 msgstr ""
 
 #: ../../humanguide/other-design-considerations/translations.rst:14
@@ -7290,8 +7294,8 @@ msgid ""
 "changes from the porters. This document is intended to serve as an overview "
 "on how to make your port run on Ubuntu Touch 20.04. However, every port is "
 "different, and may require more than what is outlined in this document. "
-"We'll be available in `the UBports porting Telegram group <https://docs."
-"ubports.com/en/latest/porting/introduction/Intro.html#getting-community-"
+"We'll be available in `the UBports porting Telegram group <https://"
+"docs.ubports.com/en/latest/porting/introduction/Intro.html#getting-community-"
 "help>`_ to answer any question that might occur during process."
 msgstr ""
 
@@ -7481,8 +7485,8 @@ msgid ""
 "To confirm that your device has booted correctly, on your host computer, run "
 "dmesg -w and watch for “GNU/Linux device” in the output. This confirms that "
 "you can establish an ssh connection to the device (see below). If you "
-"instead get something similar to “Halium initrd Failed to boot”, skip to :"
-"ref:`telnet`."
+"instead get something similar to “Halium initrd Failed to boot”, skip "
+"to :ref:`telnet`."
 msgstr ""
 
 #: ../../porting/build_and_boot/Boot_debug.rst:27
@@ -7520,924 +7524,8 @@ msgstr ""
 
 #: ../../porting/build_and_boot/Boot_debug.rst:50
 msgid ""
-"From here you can start debugging to find out what went wrong. Please :ref:"
-"`seek help <Getting-community-help>` to find out how to proceed."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:2
-msgid "Halium-7.1 - Building"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:4
-msgid ""
-"For Halium-7.1 porting it is necessary to build both halium-boot.img and "
-"system.img."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:7
-#: ../../porting/build_and_boot/H9_build.rst:10
-msgid "Initializing the build environment"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:9
-msgid ""
-"First you need to initialize the environment using the envsetup.sh tool "
-"included in your source tree. Enter your BUILDDIR and issue the command::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:13
-msgid "The output will look like this::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:21
-msgid ""
-"The ``breakfast`` command is used to set up the build environment for a "
-"specific device. From the root of your BUILDDIR run the following, replacing "
-"[CODENAME] with your device's specific codename::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:25
-#: ../../porting/build_and_boot/H9_build.rst:28
-msgid ""
-"Breakfast will attempt to find your device, set up all of the environment "
-"variables needed for building, and give you a summary at the end."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:30
-#: ../../porting/build_and_boot/H9_build.rst:33
-msgid "Modify the kernel configuration"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:32
-#: ../../porting/build_and_boot/H9_build.rst:35
-msgid ""
-"The default LineageOS/Halium kernel configuration file needs modifications "
-"as Ubuntu Touch requires a slightly different kernel config than Halium, "
-"including enabling Apparmor. A script that does this job is provided in your "
-"Halium source tree: ``BUILDDIR/halium/halium-boot/check-kernel-config``."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:34
-#: ../../porting/build_and_boot/H9_build.rst:37
-msgid ""
-"Locate your configuration file. It should be at ``arch/arm/configs/"
-"<CONFIG>`` or ``arch/arm64/configs/<CONFIG>`` depending on the architecture "
-"of your device. If you have trouble finding it, run ``grep "
-"\"TARGET_KERNEL_CONFIG\" device/<VENDOR>/<CODENAME>/BoardConfig.mk`` to "
-"determine the location."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:36
-msgid "Then, from the root of your BUILDDIR, run::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:40
-#: ../../porting/build_and_boot/H9_build.rst:43
-msgid ""
-"You may have to do this twice. It will likely fix things both times. Then, "
-"run the script without the ``-w`` flag to see if there are any more errors. "
-"If there are, fix them manually. Once finished, run the script without the "
-"``-w`` flag one more time to make sure everything is correct."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:43
-#: ../../porting/build_and_boot/H9_build.rst:46
-msgid "Ubuntu Touch requires setting console=tty0"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:45
-#: ../../porting/build_and_boot/H9_build.rst:48
-msgid ""
-"The halium-boot initramfs expects ``/dev/console`` to be a console device "
-"and will not start init if it is not available. This is commonly the case on "
-"recent devices, because they either have UART disabled or ``console=`` is "
-"not specified (null) by default. This can be fixed by supplying "
-"``console=tty0`` as the last argument in the kernel cmdline. To achieve "
-"this, proceed as follows:"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:47
-#: ../../porting/build_and_boot/H9_build.rst:50
-msgid ""
-"It should be done in the makefile named ``BoardConfig.mk`` (or "
-"``BoardConfigCommon.mk``) located in the root directory of your device tree, "
-"e.g. ``~/halium/device/<vendor>/<model_codename>/BoardConfig.mk``"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:49
-#: ../../porting/build_and_boot/H9_build.rst:52
-msgid "Add the following line::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:53
-#: ../../porting/build_and_boot/H9_build.rst:56
-msgid ""
-"If your makefile already includes a line beginning with "
-"``BOARD_KERNEL_CMDLINE``, you may add it just below that to keep things tidy."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:56
-#: ../../porting/build_and_boot/H9_build.rst:59
-msgid ""
-"The above method, although the preferred one, may not work for some Samsung "
-"devices. The result will be that you cannot get access to the device through "
-"ssh after boot, and Unity 8 will not be able to start. If you run into this "
-"problem, you can specify the setting in your device's kernel config file "
-"instead. Add the following lines::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:62
-#: ../../porting/build_and_boot/H9_build.rst:65
-msgid ""
-"In rare cases the bootloader overwrites the kernel command line argument, "
-"rendering the setting above useless. This is the case for the Google Pixel "
-"3a (sargo). To deal with this issue, replicate `this commit <https://github."
-"com/fredldotme/android_kernel_google_bonito/commit/"
-"d0741dded3907f2cf4ecdc02bfcb74fc252763ff>`_."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:65
-#: ../../porting/build_and_boot/H9_build.rst:90
-msgid "Build"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:67
-msgid ""
-"Halium will use the mkbootimg tool for creating the boot image. In most "
-"cases it is not on the local harddisk, so it can be built by issuing::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:71
-#: ../../porting/build_and_boot/H9_build.rst:96
-msgid "Now build the ``halium-boot.img`` using the commands::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:78
-#: ../../porting/build_and_boot/H9_build.rst:103
-msgid ""
-"If you prefer ``make`` instead of ``mka`` you should set ``-j[num]`` for "
-"parallel building, which reduces build time. Replace ``[num]`` with the "
-"number of threads in your system plus 2."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:81
-#: ../../porting/build_and_boot/H9_build.rst:106
-msgid "Build errors"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:83
-#: ../../porting/build_and_boot/H9_build.rst:108
-msgid ""
-"There are a number of known build errors which you might encounter, "
-"depending first of all upon how rigorous you have been in following the "
-"steps outlined, but you may also run into unforeseen issues. If your build "
-"fails at first, make sure you have done exactly as described, then go "
-"through the list of `known errors in the Halium guide <https://docs.halium."
-"org/en/latest/porting/common-kernel-build-errors.html#common-kernel-build-"
-"errors>`_."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:85
-#: ../../porting/build_and_boot/H9_build.rst:110
-msgid ""
-"If your particular error is not listed, you will need to do some research of "
-"your own. If you end up here, know that there is a community of porters, "
-"developers and enthusiasts who might be able to help you. Refer to :ref:"
-"`Getting-community-help`."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:90
-#: ../../porting/build_and_boot/H9_build.rst:115
-msgid "Building the system image (system.img)"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:92
-msgid ""
-"Once you have successfully built halium-boot.img you can proceed to directly "
-"to building system.img::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_build.rst:96
-msgid ""
-"Likelier than not, you will run into one or more errors along the way when "
-"building the system image. A number of possible errors are documented in "
-"`the Halium guide <https://docs.halium.org/en/latest/porting/common-system-"
-"build-errors.html#common-system-build-errors>`_. If yours is not listed, :"
-"ref:`seek community help <Getting-community-help>`."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:2
-msgid "Halium-7.1 - Setting up the sources"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:4
-msgid ""
-"The sources necessary for the **full system image build** for Halium-7.1. "
-"Halium 7 requires a **full system image build**."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:7
-msgid "Setting up the sources for Halium-7.1 builds"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:9
-#: ../../porting/build_and_boot/H9_setup_sources.rst:7
-msgid "Create a directory for your Halium source tree::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:13
-#: ../../porting/build_and_boot/H9_setup_sources.rst:11
-msgid ""
-"This directory will be referred to as BUILDDIR throughout the remainder of "
-"this guide."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:15
-msgid "First, initialize your source to the correct version of Halium::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:19
-msgid "Then download the code by issuing the command::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:23
-#: ../../porting/build_and_boot/H9_setup_sources.rst:23
-msgid ""
-"The download will take some time as it counts several gigabytes. If you have "
-"a fast internet connection, you may set an extra JOBS=[number] environment "
-"variable at the beginning of the command to open more parallel downloading "
-"jobs. Generally, 12 is recommended, which is the default. When it completes, "
-"your BUILDDIR will contain a copy of the Halium source tree, but important "
-"parts are still missing."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:26
-#: ../../porting/build_and_boot/H9_setup_sources.rst:26
-msgid "Adding your device-specific source"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:28
-#: ../../porting/build_and_boot/H9_setup_sources.rst:28
-msgid ""
-"The next step is to add the device-specific sources that need to be "
-"integrated into the source tree before you can attempt to build. The missing "
-"sources are those required to build the kernel as well as a host of other "
-"hardware-specific components of the port."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:30
-#: ../../porting/build_and_boot/H9_setup_sources.rst:30
-msgid ""
-"The necessary sources need to be located and specified by creating a device "
-"manifest file (or editing an existing one) in the directory ``BUILDDIR/"
-"halium/devices/manifests``."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:33
-#: ../../porting/build_and_boot/H9_setup_sources.rst:33
-msgid "A correct device manifest is crucial to the success of your port."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:36
-#: ../../porting/build_and_boot/H9_setup_sources.rst:36
-msgid "Locating the sources"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:38
-#: ../../porting/build_and_boot/H9_setup_sources.rst:38
-msgid ""
-"Locate your device repository on `LineageOS’s GitHub organization <https://"
-"github.com/LineageOS>`_. This is done by typing your device’s codename into "
-"the search box. The device repository follows the naming convention: "
-"android_device_[manufacturer]_[device]. Make a note of this name."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:40
-#: ../../porting/build_and_boot/H9_setup_sources.rst:40
-msgid ""
-"Open the device repository on Github. It will contain a ``lineage."
-"dependencies`` (or ``cm.dependencies``) file which specifies all other "
-"repositories that your device is reliant upon."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:46
-#: ../../porting/build_and_boot/H9_setup_sources.rst:46
-msgid "Creating the device manifest file"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:48
-#: ../../porting/build_and_boot/H9_setup_sources.rst:48
-msgid ""
-"Now create (or edit) the file ``BUILDDIR/halium/devices/manifests/"
-"[manufacturer]_[device].xml``. (The description below presupposes that you "
-"are creating the file from scratch.)"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:50
-#: ../../porting/build_and_boot/H9_setup_sources.rst:50
-msgid "Paste the following into the file::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:58
-#: ../../porting/build_and_boot/H9_setup_sources.rst:58
-msgid "The device repository"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:60
-msgid ""
-"Your sources must now be entered into the manifest. Start with your device "
-"repository. Between the <manifest> and </manifest> tags, create the line "
-"below, making sure to replace the information inside the square brackets "
-"with your own::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:64
-#: ../../porting/build_and_boot/H9_setup_sources.rst:64
-msgid ""
-"'path' specifies the target path (subdirectory of your BUILDDIR) where the "
-"source code from repository 'name', which is found at 'remote', will be "
-"placed. The repository may contain a number of branches and it is important "
-"to secure the correct branch with 'revision='"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:67
-#: ../../porting/build_and_boot/H9_setup_sources.rst:67
-msgid ""
-"The revision attribute may be omitted if the default revision for this "
-"remote is the one that you wish to use."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:69
-msgid "If you are unsure of your remote, refer to :ref:`H7_remotes`."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:72
-#: ../../porting/build_and_boot/H9_setup_sources.rst:72
-msgid "Dependencies"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:74
-#: ../../porting/build_and_boot/H9_setup_sources.rst:74
-msgid ""
-"Now create more lines like the previous one, using the ``lineage."
-"dependencies`` (or ``cm.dependencies``) file you found earlier in your "
-"device repository. This file lists all the remaining repositories needed to "
-"build for your selected device. Create one line for each entry in this file, "
-"using the following template::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:78
-msgid ""
-"The target path is found in the repository’s name. The preceding “android” "
-"or “proprietary” is omitted and underscores are replaced with slashes. For "
-"example, ``android_device_lge_bullhead`` goes in ``device/lge/bullhead``."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:81
-#: ../../porting/build_and_boot/H9_setup_sources.rst:81
-msgid "Vendor blobs"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:83
-msgid "Vendor blobs go in the ``vendor/`` folder of your ``BUILDDIR``."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:85
-#: ../../porting/build_and_boot/H9_setup_sources.rst:85
-msgid ""
-"The first place to search for your device’s vendor blobs is in `'TheMuppets' "
-"GitHub organization <https://github.com/TheMuppets>`_. Enter your device’s "
-"codename into the search field and see if you get a match. If you are unable "
-"to find your device in TheMuppets, you will need to search elsewhere."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:87
-#: ../../porting/build_and_boot/H9_setup_sources.rst:87
-msgid ""
-"It may also be possible to extract the vendor blobs from the device itself "
-"by following instructions for your device on `the LineageOS wiki <https://"
-"wiki.lineageos.org/>`_ as applicable."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:92
-#: ../../porting/build_and_boot/H9_setup_sources.rst:92
-msgid "Remotes"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:94
-#: ../../porting/build_and_boot/H9_setup_sources.rst:94
-msgid ""
-"A remote entry specifies the name, location (fetch) prefix, code review "
-"server, and default revision (branch/tag) for the source."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:96
-msgid ""
-"You can create a remote by adding a remote tag to your manifest as shown in "
-"the following example::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:103
-#: ../../porting/build_and_boot/H9_setup_sources.rst:105
-msgid ""
-"Only the name, fetch, and revision attributes are required. The review "
-"attribute specifies a Gerrit Code Review server, which probably won’t be "
-"useful for initial porting purposes."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:105
-msgid ""
-"For example, let’s say that you have a bunch of repositories at https://"
-"github.com/SomeUserName/ and your desired branch name is los-14.1 in each. "
-"You would create a remote as follows and place it into your local manifest::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:111
-msgid ""
-"There are also some remotes available to you by default, though they differ "
-"between Halium versions. The following tables will help you identify these. "
-"See more information on these remotes can be found at the top of the file "
-"``BUILDDIR/halium/.repo/manifests/default.xml``."
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:113
-msgid "The following remotes are available by default in Halium 7.1:"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:116
-#: ../../porting/build_and_boot/H9_setup_sources.rst:118
-msgid "Remote Name"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:116
-#: ../../porting/build_and_boot/H9_setup_sources.rst:118
-msgid "Remote Description, URL"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:118
-#: ../../porting/build_and_boot/H9_setup_sources.rst:122
-msgid "aosp"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:118
-#: ../../porting/build_and_boot/H9_setup_sources.rst:122
-msgid "Android Open Source Project, https://android.googlesource.com"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:119
-msgid "los"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:119
-msgid "LineageOS, http://github.com/LineageOS"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:120
-msgid "hal"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:120
-msgid "Halium (link to GitHub root for legacy reasons), http://github.com"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:121
-msgid "them"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:121
-msgid "TheMuppets, http://github.com/TheMuppets"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:122
-msgid "them2"
-msgstr ""
-
-#: ../../porting/build_and_boot/H7_setup_sources.rst:122
-msgid ""
-"TheMuppets (for some xiaomi vendor repos) https://gitlab.com/the-muppets"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:2
-msgid "Halium-9.0 - Building"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:4
-msgid ""
-"When doing a Halium 9.0 port, you first need to build ``halium-boot.img``. "
-"This boot image can then either be combined with the GSI, or you can build "
-"your own, device-specific ``system.img`` as well."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:7
-msgid "Building the boot image (halium-boot.img)"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:12
-msgid ""
-"First you need to initialize the environment using the ``envsetup.sh`` tool "
-"included in your source tree. Enter your ``BUILDDIR`` and issue the command::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:16
-msgid "The output should resemble this::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:24
-msgid ""
-"The ``breakfast`` command is used to set up the build environment for a "
-"specific device. From the root of your ``BUILDDIR`` run the following "
-"command, replacing [CODENAME] with your device's specific codename::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:39
-msgid "Then, from the root of your ``BUILDDIR``, run::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:68
-msgid "Setting system as root"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:70
-msgid ""
-"For Halium 9, we need the system image to be built as system-as-root (for "
-"treble devices it should already be there). Please check your ``boardconfig."
-"mk`` for the following line, if it's there you can skip this step::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:74
-msgid "If the above is not there, we have to add it."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:76
-msgid ""
-"As this change makes the android root read-only, we may have to ship mount "
-"points for some important partitions like ``firmware``, ``persist`` with the "
-"system image, for this we can use the line::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:84
-msgid ""
-"For now this is enough, but you may need to add more mount points depending "
-"on your device. After successful boot do ``ls -la /`` and add folders "
-"corresponding to broken symlinks."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:86
-msgid ""
-"These changes may also bring in some context errors,please refer `this "
-"commit to fix them <https://github.com/gigabyte-1000/"
-"android_device_xiaomi_kenzo/"
-"commit/3e8ea1e3194c19aa52b0b2618df249d4b1076dca#diff-30b9d15aecb84fc004f83370d35234b955cff4d0640892fe60e3c4a422ae3e3d>`_."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:92
-msgid ""
-"Halium will use the ``mkbootimg`` tool for creating the boot image. In most "
-"cases it is not on the local harddisk, so it can be built by issuing::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:117
-msgid ""
-"If you are using the **Halium-boot** method, you can skip this step. If you "
-"are following the **Full system image** method, this step is required."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:120
-msgid ""
-"Halium will use the ``e2fsdroid`` tool for creating the system image. In "
-"most cases it is not on the local harddisk, so it can be built by issuing::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:125
-msgid "To build the system image::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_build.rst:129
-msgid ""
-"It's likely that you will run into one or more errors when building the "
-"system image. A number of possible errors and known solutions are documented "
-"in `the Halium guide <https://docs.halium.org/en/latest/porting/common-"
-"system-build-errors.html#common-system-build-errors>`_. If yours is not "
-"listed, :ref:`seek community help <Getting-community-help>`."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:2
-msgid "Halium-9.0 - Setting up the sources"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:5
-msgid "Initializing and downloading the Halium source"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:13
-msgid ""
-"First, initialize your source to the correct version of Halium, depending on "
-"your device. If in doubt, refer to :ref:`Android-and-Halium-versions`."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:15
-msgid "For Halium 9.0::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:19
-msgid ""
-"With the Halium tree initialized you are ready to download the code by "
-"issuing the command::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:60
-msgid ""
-"Your sources must now be entered into the manifest. Start with your device "
-"repository. Between the ``<manifest>`` and ``</manifest>`` tags, create the "
-"line below, making sure to replace the information inside the square "
-"brackets with your own::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:69
-msgid "If you are unsure of your remote, refer to :ref:`H9_remotes`."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:78
-msgid ""
-"The target path is found in the repository’s name. The preceding “android” "
-"or “proprietary” is omitted and underscores are replaced with slashes. For "
-"example, android_device_lge_bullhead goes in device/lge/bullhead."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:83
-msgid "Vendor blobs go in the vendor/ folder of your BUILDDIR."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:96
-msgid "You can create a remote by adding a remote tag to your manifest::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:103
-msgid ""
-"(Note: The above is merely an example and cannot be used as such for "
-"Halium-9.0)"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:107
-msgid ""
-"For example, let’s say that you have a bunch of repositories at https://"
-"github.com/SomeUserName/ and your desired branch name is los-16.0 in each. "
-"You would create a remote as follows and place it into your local manifest::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:113
-msgid ""
-"There are also some remotes available to you by default, though they differ "
-"between Halium versions. The following tables will help you identify these. "
-"See more information on these remotes can be found at the top of the file "
-"BUILDDIR/halium/.repo/manifests/default.xml."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:115
-msgid "The following remotes are available by default in Halium 9.0:"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:120
-msgid "github"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:120
-msgid "LineageOS, https://github.com/"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:121
-msgid "gitlab"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:121
-msgid "Gitlab, https://about.gitlab.com/"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:125
-msgid "If you do not specify a remote, aosp is assumed."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:128
-msgid "Sync and apply hybris patches"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:130
-msgid ""
-"With your manifest now complete, go to the root of your ``BUILDDIR`` and "
-"issue the following command (replace DEVICE with your device’s codename) to "
-"bring the device-specific source code into your source tree::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:134
-msgid ""
-"This will first link your manifest from Halium devices to ``.repo/"
-"local_manifests/device.xml`` and then sync all repositories."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:136
-msgid ""
-"Once complete you can now run a script to apply hybris patches. These are "
-"mainly used for building the system image and can be omitted if your goal is "
-"to only build ``halium-boot.img``. However, if you run into build errors, it "
-"might be worthwhile to try applying these patches all the same."
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:138
-msgid "From the root of your BUILDDIR, run the following command::"
-msgstr ""
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:143
-#, fuzzy
-msgid "Document"
-msgstr "සංවර්ධනය"
-
-#: ../../porting/build_and_boot/H9_setup_sources.rst:145
-msgid ""
-"After completing the relevant steps above (according to your chosen, create "
-"a pull request containing your device manifest on the Halium devices "
-"repository. Also, create a device page on the UBports page under devices. "
-"You should link the manifest on Halium devices in your UBports device page."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:2
-msgid "Installing Halium-based builds"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:4
-msgid ""
-"With the necessary compontents built, you are now ready to install them on "
-"your device and check whether they function as intended. There are only "
-"minor differences between Halium versions when it comes to the installation "
-"process. In all cases, the system image and rootfs are installed together on "
-"the userdata partition of the device. This is done for practical reasons, as "
-"it makes the installation process simpler to manage during the first phases "
-"of the porting process. Once the port reaches the level of maturity required "
-"for it to be offered through the UBports installer (see :ref:`Finalize`), "
-"this must be changed in order to reserve a maximum of possible space for "
-"userdata."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:6
-msgid "In brief:"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:8
-msgid ""
-"**Halium-7.1** requires installing the boot image and system image you have "
-"built, together with the UBports rootfs, which you need to download."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:9
-msgid ""
-"**Halium-9.0 and newer** require installing the boot image you have built "
-"together with the GSI and the UBports rootfs. Both the GSI and the rootfs "
-"are available for download. Note: If you chose to build your own system.img, "
-"then you must use this instead of the GSI when installing."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:11
-msgid ""
-"In order to install Ubuntu Touch, you need a recovery image with Busybox, "
-"such as TWRP, installed on your phone. If you have not done so yet, refer to "
-"section :ref:`Install-TWRP-recovery` and install it now."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:13
-msgid ""
-"You will also need to ensure the ``/data`` partition is formatted with "
-"``ext4`` and is not encrypted. Boot into recovery, check and adjust as "
-"necessary."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:18
-msgid "Flashing halium-boot.img"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:20
-msgid ""
-"To install halium-boot, reboot your phone into fastboot mode. Then do the "
-"following from the root of your ``BUILDDIR``::"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:25
-msgid ""
-"If you have trouble accessing your device in fastboot mode, but are able to "
-"access it in TWRP recovery mode using adb, then boot into recovery mode and "
-"try the following alternative method::"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:30
-msgid ""
-"On your device, choose *Install* in the TWRP menu, navigate to the ``/tmp`` "
-"directory, choose *Image*, select your image file, select *Boot* and swipe "
-"to flash."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:33
-msgid ""
-"Samsung devices: Flashing halium-boot.img on Samsung devices is done using "
-"the Heimdall flashing utility (on Linux) or the Odin utility (on Windows) "
-"after first bringing the device into 'download mode'. See more information "
-"on these utilities `here <http://docs.halium.org/en/latest/porting/install-"
-"build/reference-rootfs.html#install-hybris-boot-img-on-samsung-devices>`_. "
-"Follow the instructions for the utility you choose, including the specific "
-"flashing command for flashing the boot partition. Install system.img and "
-"rootfs (below) with the device in recovery mode."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:38
-msgid "Installing system image and rootfs"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:40
-msgid ""
-"**Read carefully** and perform only the steps which apply to your Halium "
-"version and the files you will be flashing!"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:43
-msgid "Download the appropriate rootfs"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:45
-msgid ""
-"Start by downloading the appropriate rootfs for your device. You need a "
-"rootfs corresponding to your device's architecture and the Halium version "
-"you have built. At the moment there are two available versions for Halium "
-"7.1, an armhf (32 bit) version and an arm64 (64 bit) version. For Halium 9.0 "
-"there is only an arm64 rootfs available. Follow the appropriate link below "
-"to download the one you need."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:47
-msgid ""
-"Halium 7.1, armhf (32 bit): `ubports-touch.rootfs-xenial-armhf.tar.gz "
-"<https://ci.ubports.com/job/xenial-rootfs-armhf/>`_"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:48
-msgid ""
-"Halium 7.1, arm64 (64 bit): `ubuntu-touch-hybris-xenial-arm64-rootfs.tar.gz "
-"<https://ci.ubports.com/job/xenial-hybris-rootfs-arm64/>`_"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:49
-msgid ""
-"Halium 9.0, armhf (32 bit): `ubuntu-touch-android9-armhf.tar.gz <https://ci."
-"ubports.com/job/xenial-hybris-android9-rootfs-armhf/>`_"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:50
-msgid ""
-"Halium 9.0, arm64 (64 bit): `ubuntu-touch-android9-arm64.tar.gz <https://ci."
-"ubports.com/job/xenial-hybris-android9-rootfs-arm64/>`_"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:53
-msgid "Download the halium-install script"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:55
-msgid ""
-"Clone or download the `halium-install repository <https://gitlab.com/"
-"JBBgameich/halium-install>`_. This repository contains tools that can be "
-"used to install a Halium system image and distribution rootfs. Reboot your "
-"device to recovery (e.g. TWRP), to get adb access again. Now use the "
-"``halium-install`` script to install Ubuntu Touch on your device."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:59
-msgid "Perform the installation"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:61
-msgid "For **Halium 7.1 ports** use the following command::"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:65
-msgid "For **Halium 9.0 ports**, use this command::"
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:69
-msgid ""
-"where [SYSTEM_IMAGE] will be the file ``android-rootfs.img`` you downloaded "
-"and extracted, or alternatively the file ``system.img`` you built yourself."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:71
-msgid ""
-"The script will copy and extract the files to their proper places, then "
-"allow you to set the user password for your device (the *phablet* user's "
-"password)."
-msgstr ""
-
-#: ../../porting/build_and_boot/Halium_install.rst:74
-msgid ""
-"halium-install might fail due to unconfigured bintfmt-support for qemu "
-"throwing errors such as 'chroot: failed to run command ‘passwd’: Exec format "
-"error'.    To fix this, ``/proc/sys/fs/binfmt_misc/register`` should be "
-"updated. `binfmt-manager <https://github.com/mikkeloscar/binfmt-manager>`_ "
-"by `@mikkeloscar <https://github.com/mikkeloscar/>`_ can provide quickfix."
+"From here you can start debugging to find out what went wrong. "
+"Please :ref:`seek help <Getting-community-help>` to find out how to proceed."
 msgstr ""
 
 #: ../../porting/build_and_boot/index.rst:2
@@ -8448,87 +7536,89 @@ msgstr ""
 msgid ""
 "Now it's time to download and configure the necessary source code. Then "
 "we'll build it and get it to boot. Firstly follow the **Building** steps for "
-"your Halium version and porting method. Secondly, proceed with the final "
-"**Install and boot** section."
+"your Halium version. Secondly, proceed with the final **Install and boot** "
+"section."
 msgstr ""
 
-#: ../../porting/build_and_boot/index.rst:14
-msgid "Full system image method or Halium-boot method"
+#: ../../porting/build_and_boot/index.rst:24
+msgid "Deprecated building methods"
 msgstr ""
 
-#: ../../porting/build_and_boot/index.rst:16
-msgid ""
-"If you are using either of the **Full system image** method (for Halium 7.1 "
-"or 9.0), or the **Halium-boot** method (for Halium 9.0), then please pick "
-"the two steps below matching your Halium version."
+#: ../../porting/build_and_boot/index.rst:26
+msgid "In the past there used to be three separate porting methods called:"
+msgstr ""
+
+#: ../../porting/build_and_boot/index.rst:28
+msgid "Full system image method"
 msgstr ""
 
 #: ../../porting/build_and_boot/index.rst:29
-#: ../../porting/introduction/Intro.rst:91
+msgid "Halium boot method"
+msgstr ""
+
+#: ../../porting/build_and_boot/index.rst:30
 msgid "Standalone kernel method"
 msgstr ""
 
-#: ../../porting/build_and_boot/index.rst:31
+#: ../../porting/build_and_boot/index.rst:32
 msgid ""
-"If you are using the **Standalone kernel** method, then please pick the step "
-"below."
-msgstr ""
-
-#: ../../porting/build_and_boot/index.rst:39
-msgid "Install and boot"
-msgstr ""
-
-#: ../../porting/build_and_boot/index.rst:41
-msgid "Afterwards, proceed with these steps for any porting method."
+"For modern devices, this is much simplified. Full system was only really "
+"applicable on Halium 7.1 and 9.0 and Halium-boot worked on Halium 9.0. "
+"Nowadays there is just The One method that's described in this porting guide "
+"and what used to be called \"Standalone method\". If you are interested in "
+"the historic details feel free to read about the good ol' ways `in the git "
+"history. <https://gitlab.com/ubports/docs/docs.ubports.com/-/tree/porting-in-"
+"three-methods>`_"
 msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:4
-msgid "Standalone Kernel Method (Halium 9 and newer)"
+#: ../../systemdev/kernel-pinephone.rst:40
+msgid "Building the kernel"
 msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:6
 msgid ""
-"Starting from Halium 9, it is possible to port a device using only the "
-"kernel. This involves a number of scripts that build the kernel, download "
-"the generic container image and rootfs, and create flashable images."
+"This section explains how to set up the device source, configure the "
+"deviceinfo and kernel, and build it. This guide expects you to have some "
+"mandatory git knowledge, like cloning and pushing, and creating repos."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:8
-msgid ""
-"This guide expects you to have some mandatory git knowledge, like cloning "
-"and pushing, and creating repos."
-msgstr ""
-
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:11
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:10
 msgid "Setting up your build environment"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:14
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:13
 msgid ""
-"Assuming you have already installed the tools specified in the section on :"
-"ref:`Setting-up`, there are just a few more to add before your build "
+"Assuming you have already installed the tools specified in the section "
+"on :ref:`Setting-up`, there are just a few more to add before your build "
 "environment is complete. Run this commmand to add them::"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:20
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:19
 msgid "If you use a RPM based distro such as Mageia, you run::"
 msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:27
-msgid "Setting up and configuring a device source"
+msgid ""
+"Some older kernels may require Python 2 to build. If your distribution has "
+"deprecated Python 2, you may need to install it manually."
 msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:30
+msgid "Setting up and configuring a device source"
+msgstr ""
+
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:33
 msgid "Creating the device source"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:32
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:35
 msgid ""
 "Clone an existing device repository from https://gitlab.com/ubports/porting. "
 "Ideally choose a device with similar SoC/Android version as base."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:34
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:37
 msgid ""
 "Make sure to get the device repository, not the kernel repository (you will "
 "get that in the next step). For example, for the Fairphone 3, the "
@@ -8536,18 +7626,18 @@ msgid ""
 "``android_kernel_fairphone_sdm632.`` The first one is the one you want."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:36
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:39
 msgid ""
 "deviceinfo contains the configuration used during device build process "
 "(kernel, boot, dtb/dtbo if needed + recovery on later porting stages). To "
 "craft your own deviceinfo, follow the guide further."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:39
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:42
 msgid "Getting device kernel source code"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:41
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:44
 msgid ""
 "First thing to check is if  your device has an official or unofficial "
 "LineageOS port, as the porter may have already done the cleaning up bits "
@@ -8555,7 +7645,7 @@ msgid ""
 "kernel modules back into kernel tree, which makes life easier for us."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:43
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:46
 msgid ""
 "If not, check if device manufacturer provides kernel source at all: ASUS, "
 "Lenovo, Samsung, ZTE usually provide kernel source code tarballs at their "
@@ -8563,7 +7653,7 @@ msgid ""
 "their official GitHub account."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:47
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:50
 msgid ""
 "After you have acquired the kernel source, you need to upload it somewhere "
 "else for making modifications and commits for Ubuntu Touch. GitLab is "
@@ -8571,29 +7661,29 @@ msgid ""
 "be easily copied from there."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:49
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:52
 msgid ""
 "You should now be working with two repositories: a cloned device repo, which "
 "holds deviceinfo, and a kernel repo, which holds/will hold your defconfig "
 "(see below)."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:52
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:55
 msgid "Finding your correct kernel config"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:54
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:57
 msgid ""
 "There are two ways to find your correct kernel config, naming some below: 1. "
 "Getting your config on device from /proc/config.gz 2. Getting your defconfig "
 "in kernel source"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:59
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:62
 msgid "Getting your config from device"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:61
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:64
 msgid ""
 "It is possible to pull your current kernel config from device, if the "
 "configuration is present as ``/proc/config.gz`` on device. To pull this "
@@ -8605,35 +7695,35 @@ msgid ""
 "<your device's codename_defconfig``."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:66
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:69
 msgid "Proceed with the guide to patch your config."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:69
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:72
 msgid "Getting your defconfig in kernel source"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:71
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:74
 msgid ""
 "In order to find your defconfig from kernel source, you will have to search "
 "for it in the ``arch/<your device's architecture/configs`` directory. This "
 "defconfig can be named in numerous ways, like ``<your device's "
 "codename>_defconfig``, or something weird like ``k61v64_debug_defconfig``. "
-"If you got your kernel source from an OEM, sometimes it includes a ``build."
-"sh`` script which references the defconfig required. Otherwise if you got "
-"your kernel source from somewhere like LineageOS, their device tree's "
-"reference the defconfig too."
+"If you got your kernel source from an OEM, sometimes it includes a "
+"``build.sh`` script which references the defconfig required. Otherwise if "
+"you got your kernel source from somewhere like LineageOS, their device "
+"tree's reference the defconfig too."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:76
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:79
 msgid "After finding your defconfig, proceed with the guide to patch it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:80
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:83
 msgid "Applying minimal patches to your defconfig"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:82
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:85
 msgid ""
 "In order for Ubuntu Touch to successfully boot, we need to enable some "
 "configs required by the OS. Start by browsing into your kernel directory, "
@@ -8642,61 +7732,61 @@ msgid ""
 "following content:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:86
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_DEVTMPFS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:87
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_FHANDLE=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:88
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_SYSVIPC=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:89
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_IPC_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:90
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_NET_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:91
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_PID_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:92
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_USER_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:93
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_UTS_NS=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:94
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_VT=y"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:96
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:99
 msgid ""
 "After this, save and close this file. Commit it into your kernel repo if you "
 "wish, because this config name will be added in deviceinfo."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:98
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:101
 msgid ""
 "At this point you've almost completed the initial setup for the kernel, move "
 "on to configuring ``deviceinfo`` and building."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:100
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:103
 msgid ""
 "After you have booted the OS successfully, you can move on to patching the "
 "defconfig fully in later stages."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:102
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:105
 msgid ""
 "Note: you may be confused why we are editing a seperate file, halium.config, "
 "instead of <codename>_defconfig. These files will be selected together in "
@@ -8704,39 +7794,39 @@ msgid ""
 "clean and readable."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:105
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:108
 msgid "Filling in your deviceinfo"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:107
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:110
 msgid ""
 "Full device name, like Redmi 9C or Redmi Note 10S. Replace as necessary."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:109
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:112
 msgid "``deviceinfo_name=\"Redmi 9C\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:112
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:115
 msgid "The name of the device's manufacturer. Change as needed."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:114
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:117
 msgid "``deviceinfo_manufacturer=\"Xiaomi\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:117
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:120
 msgid ""
 "The codename of the phone. This can be obtained by googling for it like: "
 "\"<device name> codename\". Replace device name with your phone's full name. "
 "Replace the codename below with your own too."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:119
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:122
 msgid "``deviceinfo_codename=\"angelica\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:122
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:125
 msgid ""
 "The architecture of your kernel. Most devices released after 2015 have an "
 "ARM64 CPU, but some oddities in between can still be armhf. For ARM64 "
@@ -8744,35 +7834,35 @@ msgid ""
 "\"armv7\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:124
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:127
 msgid "``deviceinfo_arch=\"aarch64\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:127
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:130
 msgid ""
 "This defines the git repo where your kernel is located. You already should "
 "have this link at hand if you followed section 1, if not go through it "
 "again. Replace below link with your own."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:129
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:132
 msgid ""
 "``deviceinfo_kernel_source=\"https://github.com/muhammad23012009/"
 "android_kernel_xiaomi_dandelion\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:132
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:135
 msgid ""
 "The branch of the kernel comes next. This can be easily obtained by looking "
 "at the tab under the Code tab on GitHub or the tab on the top left side in "
 "GitLab. Replace as necessary."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:134
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:137
 msgid "``deviceinfo_kernel_source_branch=\"halium10-new\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:137
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:140
 msgid ""
 "Defconfig is a vital part of the kernel compilation process. Most of the "
 "times you can find this defconfig in your kernel source, the path to which "
@@ -8783,11 +7873,11 @@ msgid ""
 "defconfig refer to section \"Finding your defconfig\")"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:141
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:144
 msgid "``deviceinfo_kernel_defconfig=\"angelica_defconfig halium.config\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:144
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:147
 msgid ""
 "The kernel cmdline is one of the key things that is required to make the "
 "kernel boot. It has special parameters that allow the kernel to determine "
@@ -8803,35 +7893,35 @@ msgid ""
 "partition. It is supposed to point to your system partition."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:147
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:150
 msgid ""
 "``deviceinfo_kernel_cmdline=\"console=tty0 bootopt=64S3,32N2,64N2 "
 "systempart=/dev/mapper/system\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:150
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:153
 msgid ""
 "Add this to your deviceinfo if you wish to compile your kernel with clang. "
 "Most devices released with and after Android 10 build their kernels with "
 "clang. If you don't want to build with clang, omit this entry entirely."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:152
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:155
 msgid "``deviceinfo_kernel_clang_compile=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:155
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:158
 msgid ""
 "Only required if you wish to use LLD as your linker and enable LTO. For most "
 "old kernels LTO is broken. If you do want to use it add this entry to your "
 "deviceinfo, else omit it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:158
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:161
 msgid "``deviceinfo_kernel_use_lld=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:161
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:164
 msgid ""
 "This config allows you to compile your kernel with LLVM and LTO, granted "
 "that it's supported by it. This is a neat way of specifying ``clang`` and "
@@ -8839,52 +7929,52 @@ msgid ""
 "not needed to specify ``deviceinfo_kernel_use_lld``)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:166
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:169
 msgid "``deviceinfo_kernel_llvm_compile=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:169
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:172
 msgid ""
 "Use this to enable 'dtc_ext' for compiling your dtb/dtbo's. Use only if you "
 "know what you're doing. The default compiler works most of the times."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:171
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:174
 msgid "``deviceinfo_kernel_use_dtc_ext=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:174
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:177
 msgid ""
 "Use this option to specify the kernel image name after kernel compiles. More "
 "than often this option is simply not required, so you can drop it from your "
 "deviceinfo. If you do need it, adjust image name as necessary."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:176
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:179
 msgid "``deviceinfo_kernel_image_name=\"Image.gz\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:179
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:182
 msgid ""
 "In order to specify your ramdisk compression algorithm, use the below "
 "option. It is set to gzip by default. Mostly useful for GKI devices."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:182
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:185
 msgid "``deviceinfo_ramdisk_compression=\"lz4\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:185
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:188
 msgid ""
 "Add this option to specify your Halium version. Up to Halium 13 is supported "
 "at this moment."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:187
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:190
 msgid "``deviceinfo_halium_version=\"11\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:190
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:193
 msgid ""
 "This option defines the boot image header version. It is important you get "
 "this right, else your device may not boot. Devices launching with Android "
@@ -8894,11 +7984,11 @@ msgid ""
 "4)."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:192
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:195
 msgid "``deviceinfo_bootimg_header_version=\"2\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:195
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:198
 msgid ""
 "Use this option to define a prebuilt dtb that you have sourced. Path is "
 "relative to your directory where you are editing the deviceinfo file. Edit "
@@ -8906,59 +7996,60 @@ msgid ""
 "than or equal to 3 (GKI device), this will include dtb in your vendor_boot."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:198
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:201
 msgid "``deviceinfo_bootimg_prebuilt_dtb=\"mt6765.dtb\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:201
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:204
 msgid ""
 "This option uses the dtb's created by your kernel while compiling, multiple "
-"dtb's can be specified here like: \"mediatek/mt6765.dtb mediatek/angelica."
-"dtb\" The path in which the scripts look for the dtb's with this option "
-"enabled is \"KERNEL_OBJ/arch/<architecture>/boot/dts\" where <architecture> "
-"will either be arm64 or arm depending on what you set in deviceinfo_arch "
-"(aarch64 is arm64 in kernel speak) If your header version is greater than or "
-"equal to 3 (GKI device), this will include dtb in your vendor_boot."
-msgstr ""
-
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:206
-msgid "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
+"dtb's can be specified here like: \"mediatek/mt6765.dtb mediatek/"
+"angelica.dtb\" The path in which the scripts look for the dtb's with this "
+"option enabled is \"KERNEL_OBJ/arch/<architecture>/boot/dts\" where "
+"<architecture> will either be arm64 or arm depending on what you set in "
+"deviceinfo_arch (aarch64 is arm64 in kernel speak) If your header version is "
+"greater than or equal to 3 (GKI device), this will include dtb in your "
+"vendor_boot."
 msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:209
+msgid "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
+msgstr ""
+
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:212
 msgid ""
 "Selecting this will build a DT image that you selected into the boot image. "
 "Path is relative to your current directory in which you're editing "
 "deviceinfo. (Note: This is only really required in Samsung/Exynos devices.)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:211
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:214
 msgid "``deviceinfo_bootimg_prebuilt_dt=\"exynos8890-dt.img\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:214
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:217
 msgid ""
 "Use this to ship a prebuilt dtbo in your OTAs and to build your recovery "
 "with this dtbo if it isn't already being compiled. Path is once again "
 "relative to your build directory. Edit as desired."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:216
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:219
 msgid "``deviceinfo_prebuilt_dtbo=\"angelica-dtbo.img\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:219
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:222
 msgid ""
 "In case you do not want to ship the DTBO image in an OTA, selecting this "
 "will only remove the dtbo from the OTA package but recovery will still be "
 "compiled with this dtbo, if dtbo isn't already being compiled."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:221
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:224
 msgid "``deviceinfo_skip_dtbo_partition=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:224
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:227
 msgid ""
 "If you want to compile your DTBO from kernel, use this option to select the "
 "dtbo files compiled in kernel out directory. The path in which this option "
@@ -8970,11 +8061,11 @@ msgid ""
 "dtbo option."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:227
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:230
 msgid "``deviceinfo_dtbo=\"mediatek/galahad.dtbo mediatek/lancelot.dtbo\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:230
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:233
 msgid ""
 "Using this will define the board name in your boot image, which some "
 "bootloaders require to boot the image successfully. Only use this option if "
@@ -8982,11 +8073,11 @@ msgid ""
 "necessary."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:232
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:235
 msgid "``deviceinfo_bootimg_board=\"EXYNOS4412\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:235
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:238
 msgid ""
 "Use this option to pad your boot image to a specific size. Also required if "
 "you want to append a vbmeta image or append a hash footer to your image. "
@@ -8994,22 +8085,22 @@ msgid ""
 "in bytes)."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:237
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:240
 msgid "``deviceinfo_bootimg_partition_size=\"67713847\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:240
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:243
 msgid ""
 "Pretty self-explanatory. Set it to true if your device requires a vbmeta "
 "image appended (Not the case for most devices with a dedicated vbmeta "
 "partition.)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:242
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:245
 msgid "``deviceinfo_bootimg_append_vbmeta=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:245
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:248
 msgid ""
 "Use this option when you want to create a recovery.img for booting UBports "
 "recovery (Only really required when you're finalizing the port). In most "
@@ -9018,22 +8109,22 @@ msgid ""
 "to false or omitting the entry entirely will cause it to not build at all."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:247
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:250
 msgid "``deviceinfo_has_recovery_partition=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:250
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:253
 msgid ""
 "Use this to pad your recovery image to a specific size. Also a requirement "
 "if you want to add a hash footer to your image. Replace the size from your "
 "stock recovery image. (Will only work if you're building recovery!)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:252
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:255
 msgid "``deviceinfo_recovery_partition_size=\"67713847\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:255
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:258
 msgid ""
 "This is only really required for some old/new Samsung that check for an "
 "\"SEAndroid\" footer on their boot images to check whether or not the boot "
@@ -9043,11 +8134,11 @@ msgid ""
 "devices may cause it to not boot the image!)"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:257
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:260
 msgid "``deviceinfo_bootimg_tailtype=\"SEAndroid\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:260
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:263
 msgid ""
 "This config determines whether modules should be compiled and installed into "
 "rootfs or not. Omitting this config results in the default behaviour, i.e., "
@@ -9056,11 +8147,11 @@ msgid ""
 "compilation. Only really needed in case you're doing something advanced."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:262
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:265
 msgid "``deviceinfo_kernel_disable_modules=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:265
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:268
 msgid ""
 "This option installs all overlay files (in overlay/ directory) into /system/"
 "opt/halium-overlay, therefore overlaying the files onto the files present in "
@@ -9068,54 +8159,55 @@ msgid ""
 "onwards, but not applicable for 16.04."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:267
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:270
 msgid "``deviceinfo_use_overlaystore=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:270
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:273
 msgid ""
 "This option is mostly used on some Qualcomm devices. Adding this to your "
 "deviceinfo will combine all your dtbo's with your dtbs. Only use if you are "
 "sure you need this."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:272
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:275
 msgid "``deviceinfo_kernel_apply_overlay=\"true\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:275
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:278
 msgid ""
 "Add this configuration to your deviceinfo when you need to specify a fixed "
 "size for your rootfs being flashed to system image. Default is 3000M when "
 "option is not set. Only use if you need it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:277
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:280
 msgid "``deviceinfo_system_partition_size=\"4000M\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:280
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:283
 msgid ""
 "This config is only relevant for newer devices launched with UFS storage"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:282
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:285
 msgid "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:285
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:288
 msgid ""
-"Next up are flash offsets. You can ignore these if you're building only boot."
-"img for a GKI device, but are required if you want to build vendor_boot.img. "
-"These offsets will automatically apply for vendor_boot if your header "
-"version is greater than or equal to 3. A guide to extract them is as follows:"
+"Next up are flash offsets. You can ignore these if you're building only "
+"boot.img for a GKI device, but are required if you want to build "
+"vendor_boot.img. These offsets will automatically apply for vendor_boot if "
+"your header version is greater than or equal to 3. A guide to extract them "
+"is as follows:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:289
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:292
 msgid "Extracting values from stock boot.img/vendor_boot.img"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:291
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:294
 msgid ""
 "For any port to boot, some values must be pulled from the stock boot.img. "
 "First and foremost, try to get your stock firmware. Some manufacturers like "
@@ -9123,36 +8215,37 @@ msgid ""
 "to get them. Others like Xiaomi provide the firmware, but you need to use "
 "Google to search it. And then there's the good guy Google, who provide full "
 "firmware binaries easily accessible. Long story short, you need to at least "
-"find your stock firmware, and then get the boot.img. Once you have the boot."
-"img acquired, follow the following steps:"
+"find your stock firmware, and then get the boot.img. Once you have the "
+"boot.img acquired, follow the following steps:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:294
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:297
 msgid ""
 "Make a directory in which you'll store all your unpacked data. It can be "
 "anywhere, and can have any name. For now, we'll call it `temp`."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:296
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:299
 msgid ""
 "Run \"mkdir ~/temp\" to create the directory and \"cd ~/temp\" to go to it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:298
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:301
 msgid ""
 "Now to unpack the boot image there are several utilities to do so. One of "
 "them is the python script provided by Android. For now we'll use this. To "
-"download it into your current working directory run \"wget https://raw."
-"githubusercontent.com/LineageOS/android_system_tools_mkbootimg/lineage-19.1/"
-"unpack_bootimg.py\" This will download the unpack_bootimg.py script, which "
-"you'll now use to pull your kernel offsets and other values alike"
+"download it into your current working directory run \"wget https://"
+"raw.githubusercontent.com/LineageOS/android_system_tools_mkbootimg/"
+"lineage-19.1/unpack_bootimg.py\" This will download the unpack_bootimg.py "
+"script, which you'll now use to pull your kernel offsets and other values "
+"alike"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:300
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:303
 msgid "Bring your boot.img into the temp directory."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:302
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:305
 msgid ""
 "Now run the script. The usual syntax is \"python3 unpack_bootimg.py --"
 "boot_img <boot.img or vendor_boot.img> --out out\" This will unpack the boot "
@@ -9160,356 +8253,366 @@ msgid ""
 "the offsets on screen."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:305
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:308
 msgid "A sample output for boot.img will look like this:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:307
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:310
 msgid "boot magic: ANDROID!"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:309
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:312
 msgid "kernel_size: 11399060"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:311
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:314
 msgid "kernel load address: 0x40080000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:313
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:316
 msgid "ramdisk size: 6576255"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:315
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:318
 msgid "ramdisk load address: 0x51b00000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:317
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:320
 msgid "second bootloader size: 0"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:319
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:322
 msgid "second bootloader load address: 0xc0ff0000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:321
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:324
 msgid "kernel tags load address: 0x47880000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:323
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:326
 msgid "page size: 2048"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:325
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:328
 msgid "os version: 10.0.0"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:327
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:330
 msgid "os patch level: None"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:329
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:332
 msgid "boot image header version: 2"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:331
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:334
 msgid "product name:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:333
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:336
 msgid ""
 "command line args: bootopt=64S3,32N2,64N2 buildvariant=user systempart=/dev/"
 "mapper/system:ro"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:335
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:338
 msgid "additional command line args:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:337
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:340
 msgid "recovery dtbo size: 0"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:339
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:342
 msgid "recovery dtbo offset: 0x0000000000000000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:341
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:344
 msgid "boot header size: 1660"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:343
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:346
 msgid "dtb size: 216417"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:345
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:348
 msgid "dtb address: 0x0000000047880000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:348
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:351
 msgid "whereas for vendor_boot.img, will look like this:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:350
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:353
 msgid "boot magic: VNDRBOOT"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:352
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:355
 msgid "vendor boot image header version: 4"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:354
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:357
 msgid "page size: 0x00001000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:356
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:359
 msgid "kernel load address: 0x10008000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:358
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:361
 msgid "ramdisk load address: 0x10000000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:360
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:363
 msgid "vendor ramdisk total size: 13685168"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:362
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:365
 msgid "vendor command line args: bootconfig loop.max_part=7"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:364
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:367
 msgid "kernel tags load address: 0x10000000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:366
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:369
 msgid "product name: SRPUK23A007"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:368
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:371
 msgid "vendor boot image header size: 2128"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:370
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:373
 msgid "dtb size: 231604"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:372
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:375
 msgid "dtb address: 0x0000000011f00000"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:374
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:377
 msgid "vendor ramdisk table size: 216"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:376
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:379
 msgid "vendor bootconfig size: 28"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:379
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:382
 msgid "Here's where this will get interesting."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:381
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:384
 msgid ""
 "\"kernel load address\" is the kernel offset. The value after the colon is "
 "what you need, for example,   0x40080000. This will be different in your "
 "case."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:383
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:386
 msgid ""
 "\"ramdisk load address\" will be your ramdisk offset. Take the value next to "
 "it. For example, 0x51b00000."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:385
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:388
 msgid ""
 "\"second bootloader load address\" is mostly unnecessary by today's "
 "standards. But if your boot image does spit this value, make sure to take "
 "it. For example, 0xc0ff0000."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:387
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:390
 msgid ""
 "\"kernel tags load address\" is a special one. It's used for both kernel "
 "tags and dtb, but in some cases these values can be different. Take the "
 "value as well. For example, 0x47880000."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:389
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:392
 msgid ""
 "\"dtb address\" is sometimes the same as \"kernel tags load address\". But "
 "if it's different, you should use this for dtb and tags for tags."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:391
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:394
 msgid ""
 "\"page size\" is required for the ramdisk to know what your flash chip uses "
 "for page sizes. Value after colon is what you need. For example, 2048."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:393
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:396
 msgid ""
-"\"os version\" is the value which determines which Android version this boot."
-"img has. Some bootloaders enforce this. For example, 10.0."
+"\"os version\" is the value which determines which Android version this "
+"boot.img has. Some bootloaders enforce this. For example, 10.0."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:395
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:398
 msgid ""
 "\"os patch level\" is a similar story. You'll also want to grab this value, "
 "for example, 2021-11."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:397
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:400
 msgid ""
 "\"command line args\" go straight into deviceinfo_kernel_cmdline. Make sure "
 "to keep \"console=tty0\" in there. No examples here :("
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:399
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:402
 msgid ""
 "If you're building vendor_boot, this command will also output a "
 "``bootconfig`` file in your output directory. Move this to your source "
 "tree's root."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:401
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:404
 msgid "Apart from these mentioned values, you'll want to skip everything else."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:404
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:407
 msgid "Now according to said guide, fill in your offsets:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:407
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:410
 msgid "Put the value from \"page size\" into this config."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:409
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:412
 msgid "``deviceinfo_flash_pagesize=\"2048\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:412
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:415
 msgid "Base offset will always remain 0x00000000."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:414
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:417
 msgid "``deviceinfo_flash_offset_base=\"0x00000000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:417
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:420
 msgid "Fill this in from \"kernel load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:419
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:422
 msgid "``deviceinfo_flash_offset_kernel=\"0x40080000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:422
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:425
 msgid "This gets its value from \"ramdisk load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:424
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:427
 msgid "``deviceinfo_flash_offset_ramdisk=\"0x51b00000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:427
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:430
 msgid ""
 "Although not mission critical, if you did get its value, fill it in from "
 "\"second bootloader load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:429
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:432
 msgid "``deviceinfo_flash_offset_second=\"0xc0ff0000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:432
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:435
 msgid "Tags should be filled in from \"kernel tags load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:434
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:437
 msgid "``deviceinfo_flash_offset_tags=\"0x47880000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:437
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:440
 msgid "DTB offset comes from \"dtb load address\"."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:439
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:442
 msgid "``deviceinfo_flash_offset_dtb=\"0x47880000\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:442
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:445
 msgid ""
 "This comes from \"os version\". Not exactly required but some OEMs enforce "
 "it."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:444
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:447
 msgid "``deviceinfo_bootimg_os_version=\"10.0\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:447
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:450
 msgid "You'll want to put the \"os patch level\" value here."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:449
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:452
 msgid "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:452
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:455
 msgid ""
 "If you're building a vendor_boot and you have moved the ``bootconfig`` file "
 "to your tree's root, add the following:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:454
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:457
 msgid "``deviceinfo_vendor_bootconfig_path=\"bootconfig\"``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:457
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:460
 msgid ""
 "And just like that, you've filled in your deviceinfo properly and can now "
 "get on with the port!"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:461
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:464
 msgid "Building, installing and running"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:463
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:466
 msgid ""
 "After you've completed your deviceinfo and filled in all needed stuff, its "
 "time you get to the main part, the build. For this just run: ``./build.sh -b "
 "workdir``"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:466
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:469
 msgid ""
 "That should download all the needed toolchains and then the kernel, and "
 "finally build everything. This process may take about 5 to 50 minutes to "
 "build the kernel."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:468
+#: ../../porting/build_and_boot/standalone_kernel_build.rst:471
+msgid ""
+"After your kernel is done building, you can proceed to install and boot it "
+"in the next step."
+msgstr ""
+
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:2
+msgid "Installing the kernel"
+msgstr ""
+
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:4
 msgid ""
 "After your kernel is done building, you will have to build the rootfs. For "
 "this, just execute this:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:470
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:6
 msgid ""
-"``./build/prepare-fake-ota.sh out/device_<your device's codename>_usrmerge."
-"tar.xz ota`` This will download the rootfs, extract it and pack it into "
-"tarballs for our final script to create flashable images."
+"``./build/prepare-fake-ota.sh out/device_<your device's "
+"codename>_usrmerge.tar.xz ota`` This will download the rootfs, extract it "
+"and pack it into tarballs for our final script to create flashable images."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:473
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:9
 msgid "Next up, run:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:475
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:11
 msgid ""
 "``./build/system-image-from-ota.sh ota/ubuntu_command images`` This will "
 "convert the tarballs into flashable images, and your images will be stored "
@@ -9518,23 +8621,23 @@ msgid ""
 "given:"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:479
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:15
 msgid "images/"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:480
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:16
 msgid "├── boot.img"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:481
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:17
 msgid "├── rootfs.img"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:482
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:18
 msgid "└── system.img"
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:485
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:21
 msgid ""
 "The ``boot.img`` will be flashed onto the boot partition of the phone. The "
 "``system.img`` and ``rootfs.img`` are interchangable. ``rootfs.img`` is "
@@ -9543,7 +8646,11 @@ msgid ""
 "to your system partition."
 msgstr ""
 
-#: ../../porting/build_and_boot/standalone_kernel_build.rst:492
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:25
+msgid "info::"
+msgstr ""
+
+#: ../../porting/build_and_boot/standalone_kernel_install.rst:33
 msgid ""
 "For a lot of kernel-related commands, you'll need the ARCH variable's value, "
 "this is either arm or arm64 depending on where you found your defconfig. A "
@@ -9564,444 +8671,51 @@ msgstr ""
 #: ../../porting/configure_test_fix/Apparmor.rst:9
 msgid ""
 "AppArmor is added through a combination of integrating the necessary code "
-"into the kernel source tree and setting necessary kernel configuration. The "
-"process is slightly different on Halium-7.1, compared to newer Halium "
-"versions."
+"into the kernel source tree and setting necessary kernel configuration."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Apparmor.rst:12
-msgid "AppArmor for Halium-7.1 ports"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Apparmor.rst:14
+#: ../../porting/configure_test_fix/Apparmor.rst:11
 msgid ""
-"Start by downloading the backported `AppArmor patch <https://github.com/"
-"ubports/AppArmor-backports-ut>`_ corresponding to your device's kernel "
-"version. Your kernel version is specified at the beginning of your kernel "
-"defconfig file, i.e. the one you edited in section :ref:`H7_edit-kernel-"
-"config` above. (For more information on backporting, see the :ref:`bluetooth "
-"<Bluetooth>` section below.)"
+"It is generally sufficient to cherry pick certain commits to the kernel "
+"source rather than replacing the whole ``apparmor`` directory in the kernel "
+"source tree. Follow the link below which corresponds to your device's kernel "
+"version and select the most recent block of commits (i.e. all the commits "
+"that were added on the same and most recent date):"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Apparmor.rst:16
-msgid ""
-"You now need to delete your entire BUILDDIR/kernel/VENDOR/MODEL/security/"
-"apparmor subdirectory and replace it with the one you downloaded. Then "
-"rebuild ``halium-boot.img``."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Apparmor.rst:18
-msgid ""
-"If you get errors when building, resolve them one at a time, modifying your "
-"source code as needed. Note that you should only modify the code in the "
-"AppArmor subdirectory if at all possible. Modifying code elsewhere will more "
-"than likely just compound your problems."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Apparmor.rst:20
-msgid ""
-"Seek help as needed from one of the sources mentioned in the subsection on :"
-"ref:`getting community help <Getting-community-help>`."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Apparmor.rst:22
-msgid ""
-"Once you have successfully rebuilt ``halium-boot.img``, flash it to your "
-"device. If keyboard vibration works, this is a good indication that AppArmor "
-"has been successfully applied. Also, check if apps launch normally."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Apparmor.rst:25
-msgid "AppArmor for Halium-9.0 ports"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Apparmor.rst:27
-msgid ""
-"When doing Halium-9.0 (and later) ports, it is generally sufficient to "
-"cherry pick certain commits to the kernel source rather than replacing the "
-"whole ``apparmor`` directory in the kernel source tree. Follow the link "
-"below which corresponds to your device's kernel version and select the most "
-"recent block of commits (i.e. all the commits that were added on the same "
-"and most recent date):"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Apparmor.rst:29
+#: ../../porting/configure_test_fix/Apparmor.rst:13
 msgid ""
 "`3.18 AppArmor patches <https://github.com/MotoZ-2016/"
 "android_kernel_motorola_msm8996/commits/halium-9.0/security/apparmor>`_"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Apparmor.rst:30
+#: ../../porting/configure_test_fix/Apparmor.rst:14
 msgid ""
 "`4.4 AppArmor patches <https://github.com/moto-SDM660/"
 "android_kernel_motorola_sdm660/commits/halium-9.0/security/apparmor>`_"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Apparmor.rst:31
+#: ../../porting/configure_test_fix/Apparmor.rst:15
 msgid ""
 "`4.9 AppArmor patches <https://github.com/erfanoabdi/"
 "android_kernel_motorola_sdm632/commits/halium-9.0/security/apparmor>`_"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Apparmor.rst:32
+#: ../../porting/configure_test_fix/Apparmor.rst:16
 msgid ""
 "`4.14 AppArmor patches <https://github.com/kdrag0n/proton_zf6/commits/halium/"
 "security/apparmor>`_"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Apparmor.rst:34
+#: ../../porting/configure_test_fix/Apparmor.rst:18
 msgid "Make sure your kernel defconfig has the setting::"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Apparmor.rst:38
+#: ../../porting/configure_test_fix/Apparmor.rst:22
 msgid ""
-"Now rebuild the boot image following your chosen build method, and flash it "
-"onto your device. Check if keyboard vibration works. This is a good "
-"indication that AppArmor has been successfully applied. Also, check if apps "
-"launch normally."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:4
-msgid "Bluetooth"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:6
-msgid ""
-"Halium-7.1 porting to devices with kernels predating 4.2 will or may require "
-"backporting drivers from a newer kernel version, whereas Halium-9.0 based "
-"ports can skip this step."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:9
-msgid "Bluetooth backporting to older kernel versions"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:11
-msgid ""
-"When porting to devices running older kernel versions (mainly version 3.x "
-"found in Android 7/ Halium-7.1 devices), it is necessary to replace the "
-"kernel bluetooth stack with a newer one. This is because the newer bluetooth "
-"hardware in today's bluetooth peripheral devices often has trouble talking "
-"to the older bluetooth drivers. This can be fixed by bringing in driver code "
-"from newer Linux kernel versions. The process is called *backporting*."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:15
-msgid ""
-"Backporting has been greatly facilitated by the `Linux Backports Project "
-"<https://backports.wiki.kernel.org/index.php/Main_Page>`_ which has existed "
-"for some time. This project is aimed at mainline Linux kernels and the tools "
-"(scripts) therein are not specifically tailored to Ubuntu Touch. They will "
-"consequently abort at some point during the process. However, they are the "
-"best option available, and can provide significant help all the same. The "
-"method below is based on the use of a version of these scripts which has "
-"been specially prepared by Canonical."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:19
-msgid ""
-"Although there are `other kernel versions besides v4.2 available <https://"
-"www.kernel.org/>`_, the backports script is specifically tailored to "
-"backporting from version 4.2 and thus effectively limits you to this option."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:22
-msgid "Bluetooth backporting steps"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:24
-msgid "The steps are as follows:"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:26
-#: ../../porting/configure_test_fix/Bluetooth.rst:40
-msgid "Record bluetooth driver and settings"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:27
-#: ../../porting/configure_test_fix/Bluetooth.rst:67
-msgid "Download backports script"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:28
-msgid "Download 4.2 kernel source"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:29
-#: ../../porting/configure_test_fix/Bluetooth.rst:88
-msgid "Run backports script and fix errors"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:30
-#: ../../porting/configure_test_fix/Bluetooth.rst:97
-msgid "Apply security patch"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:31
-#: ../../porting/configure_test_fix/Bluetooth.rst:102
-msgid "Apply new settings"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:32
-#: ../../porting/configure_test_fix/Bluetooth.rst:175
-msgid "Build and flash halium-boot.img"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:33
-#: ../../porting/configure_test_fix/Bluetooth.rst:219
-msgid "Build and flash system.img"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:35
-msgid ""
-"These steps will bring in bluetooth driver source from the mainline 4.2 "
-"kernel and place it in a directory named ``backports`` in your device's "
-"kernel source tree. It will also modify Makefiles and Kconfigs as necessary, "
-"thereby disabling the original ``drivers/bluetooth`` directory of your "
-"kernel source. The mainline kernel may not contain all bluetooth drivers "
-"required for the device being ported. For this reason it is important to "
-"make sure to first record all necessary drivers, as any ones missing in the "
-"mainline kernel will have to be migrated from their original location "
-"(``drivers/bluetooth``) into the ``backports/drivers/bluetooth`` directory "
-"as described :ref:`later in this section <Missing-drivers>` before "
-"rebuilding halium-boot.img."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:42
-msgid ""
-"By the time you reach this point in the porting process, you will have "
-"completed building halium-boot (probably a number of times). Your kernel "
-"defconfig will contain bluetooth settings including one that designates the "
-"driver used by your device. These must be recorded before proceeding."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:44
-msgid ""
-"The experienced developer will likely be able to determine the relevant "
-"settings manually by searching through the defconfig file. Many of them will "
-"appear next to each other in one place in the file. Some may be spread "
-"elsewhere making them difficult to locate. When searching manually, help can "
-"be found by consulting the `Kconfig` files in relevant subdirectories of "
-"your kernel source tree."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:46
-msgid ""
-"If you do not have extensive experience, use the ``menuconfig`` tool "
-"instead, taking care to use it ONLY for reference, *i.e.* without making any "
-"changes."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:50
-msgid ""
-"Modifications done with ``menuconfig`` will not affect your kernel defconfig "
-"file, but may still corrupt your build."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:52
-msgid "After completing a build of halium-boot.img::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:57
-msgid "(If your device is armhf, use ``ARCH=arm`` instead.)"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:59
-msgid ""
-"Navigate to the bluetooth drivers submenu and note down all activated "
-"settings and what they do. Also note which other settings they depend on "
-"(found under Help)."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:62
-msgid "Example:"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:64
-msgid ""
-"For the Samsung Galaxy S7 (herolte) the original defconfig file contains a "
-"number of CONFIG_BT settings, none of which actually designate the bluetooth "
-"driver used by this device. The setting for the driver itself is "
-"CONFIG_BCM4359=y. This was not one of the drivers brought in by the "
-"backporting steps below. It therefore had to be :ref:`added afterwards "
-"<Missing-drivers>`."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:69
-msgid ""
-"Clone the backports scripts into a directory outside your halium source tree "
-"by issuing this command from your home (~) directory::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:73
-msgid ""
-"This downloads the backports scripts prepared by Canonical based on the "
-"`Backports Project <https://backports.wiki.kernel.org/index.php/Main_Page>`_ "
-"mentioned above, and places them in the directory ``~/backport-scripts``. "
-"The scripts are specifically written to backport from kernel version 4.2."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:76
-msgid "Download 4.2 kernel sources"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:78
-msgid ""
-"Create a directory (outside your halium source tree) for the kernel source "
-"from which you will pull the newer drivers::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:82
-msgid "Now clone the kernel source for v4.2::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:90
-msgid ""
-"Navigate to your backports scripts directory and issue the command below "
-"(using Python2 as shown)::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:94
-msgid ""
-"It is to be expected that there are errors during this step. You will then "
-"have to determine the cause, fix it and retry. The last error message "
-"concerns the Makefile and includes info about having generated a file named "
-"``Makefile.rej``, this means you will find information in this file about "
-"changes that did not complete successfully, but which you can apply "
-"yourself. These need to be completed before proceeding with the build."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:99
-msgid ""
-"An additional `generic security patch <https://git.kernel.org/pub/scm/linux/"
-"kernel/git/stable/linux.git/patch/?"
-"id=8a7b081660857a80c3efc463b3da790c4fa0c801>`_ needs to be applied."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:104
-msgid ""
-"Your kernel config file (defconfig) needs to be modified in order for the "
-"backported driver and protocol code to be activated."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:106
-msgid ""
-"Start by locating all lines beginning with ``CONFIG_BT_`` and move these to "
-"the end of the file. Collecting them there makes the subsequent steps "
-"somewhat easier by helping to keep track of the changes you make."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:108
-msgid ""
-"Next, deactivate all that are activated, *i.e.* do not have a leading ``#``, "
-"by inserting this leading ``#``. At the same time, for each one, add a "
-"corresponding one beginning with ``CONFIG_BACKPORT_BT_``, *e.g.*::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:112
-msgid "becomes::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:116
-msgid "and then insert the corresponding line for backports::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:120
-msgid "Now add these settings::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:138
-msgid ""
-"At this point, check for any remaining settings you :ref:`recorded from your "
-"original defconfig <BT-driver>`, which were dependent upon ``CONFIG_BT=y`` "
-"and have not been replaced by a corresponding ``CONFIG_BACKPORT_BT_XXXX=y`` "
-"setting, making sure not to forget your device's bluetooth driver. Such "
-"settings will no longer have any effect and must be pulled into the build in "
-"the following manner:"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:140
-msgid ""
-"The corresponding source file(s) will have to be migrated from their "
-"original location to the corresponding location under ``backports/drivers/"
-"bluetooth/``. The files ``Makefile`` and ``Kconfig`` need to be edited to "
-"include this missing setting or else they will not be built. Check the "
-"corresponding files in the original location for the necessary settings."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:142
-msgid ""
-"Once the above is complete, add the following lines and edit as necessary, "
-"following the directions below::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:170
-msgid ""
-"As an example, the lines above have been edited to conform with backporting "
-"from kernel 4.2 to a device with kernel version 3.18. For devices running "
-"lower kernel versions enable each line specifying a version above the "
-"device's kernel version by removing the leading ``#`` on these lines."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:172
-msgid "You are now ready to build."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:177
-msgid "Return to the root of your BUILDDIR and build::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:181
-msgid ""
-"Build errors may occur and will vary depending on device. Handle them one at "
-"a time, :ref:`seeking help <Getting-community-help>` as necessary."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:183
-msgid ""
-"After building and flashing halium-boot, check the output of ``dmesg`` on "
-"the device to see that bluetooth has been enabled::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:187
-msgid ""
-"Your output should resemble the following (from the Samsung Galaxy S7)::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:214
-msgid ""
-"If you do not get similar output, something has gone wrong. Check that you "
-"completed all steps above as described and seek help as needed."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:216
-msgid ""
-"You have now rebuilt your halium-boot.img to include updated bluetooth "
-"drivers and only one final step remains."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:221
-msgid ""
-"The system image needs to be rebuilt with a configuration script for "
-"bluetooth adapted to your device. On the completed build, this file is "
-"located at::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:225
-msgid ""
-"`An example script can be found here <https://github.com/Flohack74/"
-"android_device_huawei_angler/blob/halium-7.1/ubuntu/bluetooth/bluetooth-"
-"touch-android.conf>`_. Make sure to adapt as necessary."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:227
-msgid ""
-"Place this script in your ``device/[VENDOR]/[DEVICE]/ubuntu`` directory and "
-"inject it using the :ref:`overlay file method <Overlay>`."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Bluetooth.rst:229
-msgid "Rebuild and flash your ``system.img``."
+"Now rebuild the boot image, and flash it onto your device. Check if keyboard "
+"vibration works. This is a good indication that AppArmor has been "
+"successfully applied. Also, check if apps launch normally."
 msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:4
@@ -10041,15 +8755,14 @@ msgstr ""
 msgid ""
 "Once you have adjusted the ``android.conf`` file to the display settings "
 "needed for your device, this file should be incorporated into your build. "
-"Follow :ref:`the overlay file method <Overlay-steps>` corresponding to your "
-"Halium version."
+"See :doc:`the overlay documentation </porting/configure_test_fix/Overlay>`."
 msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:23
 msgid ""
-"This way of configuration is considered legacy and will be replaced by :ref:"
-"`DeviceInfo <DeviceInfo>` in the future. For migration purposes please set "
-"both configurations (``android.conf`` as well as :ref:`DeviceInfo "
+"This way of configuration is considered legacy and will be replaced "
+"by :ref:`DeviceInfo <DeviceInfo>` in the future. For migration purposes "
+"please set both configurations (``android.conf`` as well as :ref:`DeviceInfo "
 "<DeviceInfo>`)."
 msgstr ""
 
@@ -10313,8 +9026,8 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:9
 msgid ""
-"Encryption on Ubuntu Touch 24.04 is solved using `fscrypt. <https://github."
-"com/google/fscrypt>`_"
+"Encryption on Ubuntu Touch 24.04 is solved using `fscrypt. <https://"
+"github.com/google/fscrypt>`_"
 msgstr ""
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:12
@@ -10436,11 +9149,11 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Lomiri.rst:16
 msgid ""
-"The correct way to do this is by storing these settings in overlay files (:"
-"ref:`Overlay`), and not by making the root directory writeable, as described "
-"below. However, in order to quickly set up udev rules which are necessary to "
-"complete subsequent steps, you can use the method detailed here for first "
-"time setup."
+"The correct way to do this is by storing these settings in overlay files "
+"(:ref:`Overlay`), and not by making the root directory writeable, as "
+"described below. However, in order to quickly set up udev rules which are "
+"necessary to complete subsequent steps, you can use the method detailed here "
+"for first time setup."
 msgstr ""
 
 #: ../../porting/configure_test_fix/Lomiri.rst:19
@@ -10466,32 +9179,18 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Lomiri.rst:30
 msgid ""
-"If you are building a Halium-7.1 based port, run the following command, "
-"replacing [CODENAME] with your device's codename::"
+"To do this, you can use the commands below, replacing `[CODENAME]` with your "
+"device's codename::"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Lomiri.rst:35
-msgid ""
-"For a Halium-9.0 based port you should use the commands below, again "
-"replacing [CODENAME] with your device's codename::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Lomiri.rst:42
-msgid ""
-"If you are building a Halium-9.0 based port for a non-treble device, i.e. a "
-"device without a separate vendor partition, the command above will give an "
-"error. Simply edit and remove the following string from the command: ``/"
-"vendor/ueventd*.rc``."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Lomiri.rst:44
+#: ../../porting/configure_test_fix/Lomiri.rst:36
 msgid ""
 "Now, reboot the device. If all has gone well, you will eventually see the "
 "Ubuntu Touch spinner followed by Unity 8. Your lock password is the same as "
 "you set for SSH."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Lomiri.rst:46
+#: ../../porting/configure_test_fix/Lomiri.rst:38
 msgid ""
 "When Unity 8 is first brought up on your device, you will probably notice "
 "that everything is very small. The :ref:`Display` section describes how to "
@@ -10516,177 +9215,21 @@ msgstr ""
 #: ../../porting/configure_test_fix/Overlay.rst:11
 msgid ""
 "The way how overlay files are implemented and their limitations vary across "
-"build methods and different versions of Ubuntu Touch. Use of the halium-"
-"install script to install a build based on the downloaded GSI and root "
-"filesystem image precludes the use of overlay files since it does not "
-"provide a mechanism for that."
+"build methods and different versions of Ubuntu Touch."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:13
-msgid ""
-"In general, there are two methods of implementing overlay files, one is to "
-"directly copy them to the destination path potentially overwriting existing "
-"files, the other is to place them in a designated base directory from where "
-"they are then mounted onto their destination path during the boot process. "
-"The former is only possible when doing builds using the GitLab CI scripts. "
-"In case of Ubuntu Touch 16.04 it is the only available overlay mechanism. "
-"While the ``system.img`` build process allows overwriting files on the built "
-"Android system partition it has no means of doing so on the root filesystem. "
-"Ubuntu Touch 16.04 does however offer limited support of mount-based overlay "
-"files. Starting from Ubuntu Touch 20.04, the implementation of mount-based "
-"overlay files has become more powerful in terms of overlaying both files and "
-"directories in vendor and Android images regardless of the build method. The "
-"use of mount-based overlay files is generally preferable as it allows for "
-"delta OTA updates. Both mechanisms will be discussed in detail below before "
-"describing how overlay files are included into the build process in full "
-"system image builds and builds based on GitLab CI scripts."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:17
-msgid ""
-"Some ports of Ubuntu Touch 16.04 using the GitLab CI-based build method add "
-"custom scripts or configuration files (e.g. in ``/usr/sbin/mount-android."
-"sh``, ``/etc/init/mount-android.conf``, or a file in ``/etc/init/``) in "
-"order to overlay files below ``/android/system`` which would otherwise not "
-"be possible using this build method. This practice is strongly discouraged "
-"for a several reasons:"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:19
-msgid ""
-"overwriting a system script prevents the port from receiving future updates "
-"of that script"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:20
-msgid ""
-"different ports coming up with custom solutions creates confusion among new "
-"porters and contributors"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:22
-msgid ""
-"Porters which are in need of overlaying files inside a GSI-based ``/android/"
-"system.img`` may want to consider using the full ``system.img`` build method "
-"instead."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:24
-msgid "The implementations and limitations can be summarized as follows:"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:27
-msgid "Build method"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:27
-#: ../../porting/configure_test_fix/Overlay.rst:42
-#, fuzzy
-msgid "Ubuntu Touch 16.04"
-msgstr "උබුන්ටු ටච් යනු කුමක්ද?"
-
-#: ../../porting/configure_test_fix/Overlay.rst:27
-#, fuzzy
-msgid "Ubuntu Touch 20.04"
-msgstr "උබුන්ටු ටච් යනු කුමක්ද?"
-
-#: ../../porting/configure_test_fix/Overlay.rst:29
-msgid "full ``system.img`` build"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:29
-msgid "add/overwrite files below ``/android/system``"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:30
-msgid "overlay existing files on the root filesystem"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:31
-msgid "no new files on the root filesystem"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:30
-msgid ""
-"overlay existing files on the root filesystem, android and vendor filesystem"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:31
-#: ../../porting/configure_test_fix/Overlay.rst:35
-msgid "new files and directories via merged or replaced overlay directories"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:33
-msgid "GitLab CI-based build"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:33
-msgid "add/overwrite files on the root file system"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:33
-msgid "add/overwrite files on the root file system (use overlays instead)"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:34
-msgid ""
-"overlay mounts for existing files on the root, android and vendor filesystem"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:39
+#: ../../porting/configure_test_fix/Overlay.rst:14
 msgid "How mount-based overlay files work"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:44
+#: ../../porting/configure_test_fix/Overlay.rst:16
 msgid ""
-"Ubuntu Touch 16.04 only offers mount-based overlay files in case of full "
-"``system.img``-based builds with the limitation that the overlayed files "
-"must actually exist on the root filesystem partition, adding new files is "
-"not possible."
+"You can overlay individual files, but also replace or merge existing "
+"directories without actually modifying the underlying filesystem.  This "
+"works on the Ubuntu Touch root partition as well as Android partitions."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:46
-msgid ""
-"Overlay files need to be placed on the android system partition below the "
-"designated base directory which is mounted at ``/android/system/halium`` on "
-"the device. The directory tree with overlay files below that base directory "
-"mirrors the structure of the root filesystem, that is the destination path "
-"of an overlay file on the root filesystem is derived from its location "
-"relative to the base directory. For example, in order to overlay the udev "
-"rules file ``/lib/udev/rules.d/70-android.rules`` created in the last step "
-"it needs to exist in the directory ``/android/system/halium/lib/udev/rules.d/"
-"``. The specifics on how an overlay file can be placed there by the build "
-"system will be described below."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:49
-msgid "Ubuntu Touch 20.04 and later"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:51
-msgid ""
-"Ubuntu Touch 20.04 and later provide a much more flexible implementation "
-"which is available both to full ``system.img``-based builds as well as "
-"GitLab CI script-based builds. It not only allows overlaying individual "
-"files but also replacing or merging existing directories without actually "
-"modifying the underlying filesystem.  Furthermore, it is not restricted to "
-"the Ubuntu Touch root partition but can also overlay files and directories "
-"in vendor and Android partitions."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:53
-msgid ""
-"Depending on the build method the designated base directory is either ``/opt/"
-"halium-overlay`` or ``/android/system/halium`` on the device. The directory "
-"tree below the base directory mirrors the root filesystem and destination "
-"paths are derived based on the relative location of a directory or file to "
-"the base directory.  Note that the files or directories under the "
-"destination path must neither be writable nor mount points themselves.  The "
-"overlay directory tree will be traversed in depth-first order during boot "
-"according to the following rules:"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:55
+#: ../../porting/configure_test_fix/Overlay.rst:18
 msgid ""
 "If a subdirectory contains a special file named ``.halium-override-dir`` "
 "that directory will replace the destination directory tree, i.e. the "
@@ -10694,7 +9237,7 @@ msgid ""
 "accessible."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:57
+#: ../../porting/configure_test_fix/Overlay.rst:20
 msgid ""
 "If a subdirectory contains a special file named ``.halium-overlay-dir`` it "
 "will be merged with with the destination directory.  Any file in the "
@@ -10702,12 +9245,12 @@ msgid ""
 "with the same destination path exists in the overlaying directory tree.  "
 "Files and whole directories which only exist in the overlay are made "
 "accessible in their respective destination paths.  This is implemented using "
-"the overlayfs filesystem (see the `overlayfs documentation <https://www."
-"kernel.org/doc/html/latest/filesystems/overlayfs.html>`_ for the technical "
-"details)."
+"the overlayfs filesystem (see the `overlayfs documentation <https://"
+"www.kernel.org/doc/html/latest/filesystems/overlayfs.html>`_ for the "
+"technical details)."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:59
+#: ../../porting/configure_test_fix/Overlay.rst:22
 msgid ""
 "Files in directories containing none of the above special files are bind-"
 "mounted over files with an absolute path derived by stripping the above "
@@ -10715,174 +9258,45 @@ msgid ""
 "the outlined rules."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:61
+#: ../../porting/configure_test_fix/Overlay.rst:26
+msgid ""
+"If your kernel version is old, you may need to apply patches for overlayfs "
+"to work. Without these patches, you can still overlay individual files, but "
+"overlaying/merging whole directories may fail with mounting errors."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Overlay.rst:31
+msgid ""
+"You should set the following option in your port's ``deviceinfo`` to enable "
+"mount-based overlay files: ``deviceinfo_use_overlaystore=\"true\"``."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Overlay.rst:33
 msgid ""
 "The specifics on how an overlay file or directory can be placed there "
 "depends on the used build system and will be described below."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:64
-#: ../../porting/configure_test_fix/Overlay.rst:125
-#: ../../porting/configure_test_fix/Overlay.rst:156
+#: ../../porting/configure_test_fix/Overlay.rst:36
 msgid "Example"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:66
+#: ../../porting/configure_test_fix/Overlay.rst:38
 msgid "Contents of ``overlay/system/halium``::"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:83
+#: ../../porting/configure_test_fix/Overlay.rst:55
 msgid "Contents of the underlying filesystem image::"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:97
+#: ../../porting/configure_test_fix/Overlay.rst:69
 msgid "The resulting combined filesystem the looks as follows::"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Overlay.rst:113
+#: ../../porting/configure_test_fix/Overlay.rst:85
 msgid ""
 "The directory ``/etc/foo`` has been merged, whereas the ``/etc/bar`` "
 "directory and the file ``/etc/bazrc`` have been replaced."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:118
-msgid "Overlay files in full system.img builds"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:120
-msgid ""
-"In the case of full ``system.img``-based builds all supported Halium "
-"versions allow for copying overlay files to the Android system filesystem "
-"image during the build process by adding entries to the "
-"``PRODUCT_COPY_FILES`` macro. Each entry consists of the source and "
-"destination path of a file, seperated by a “``:``”. As a matter of "
-"convention, all overlay files should be placed in a directory ``ubuntu`` "
-"below the root path of the repository. This directory can be referred to as "
-"``$(LOCAL_PATH)/ubuntu``. The destination directory should be specified "
-"relative to its default mountpoint ``/android/system`` referred to as "
-"``$(TARGET_COPY_OUT_SYSTEM)``."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:122
-msgid ""
-"It is thus only possible to add or overwrite files below ``/android/"
-"system``. In order to make use of mount-based overlay files they should be "
-"placed below the designated base directory ``/android/system/halium`` as "
-"described above. Due to the limitations in Ubuntu 16.04 it is only possible "
-"to add new files via overlay or override directories available in Ubuntu "
-"20.04 or later."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:127
-msgid ""
-"Typically at least the file ``/lib/udev/rules.d/70-android.rules`` created "
-"when bringing up Lomiri (see :ref:`Lomiri`) and the file ``/etc/ubuntu-touch-"
-"session.d/android.conf`` for configuring display scaling need to be added "
-"via overlay files. The bind mount mechanism of both Ubuntu Touch 16.04 and "
-"20.04 requires that the files are placed below the designated base directory "
-"``/android/system/halium``, that is at ``/android/system/halium/lib/udev/"
-"rules.d/70-android.rules`` and ``/android/system/halium/etc/ubuntu-touch-"
-"session.d/android.conf``"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:129
-msgid ""
-"Both ``70-android.rules`` and ``android.conf`` should be placed in the "
-"subdirectory ``ubuntu`` of the repository and the following lines need to be "
-"added to ``device.mk`` in order to copy them onto the generated image::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:140
-msgid "Rebuilding system.img"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:142
-msgid ""
-"After any changes the ``system.img`` needs to be rebuilt using ``mka clean`` "
-"and ``mka systemimage``. When repeatedly rebuilding the system image after "
-"small changes, it is possible to do incremental builds without issuing a "
-"``mka clean`` first. However, changes to PRODUCT_PROPERTY_OVERRIDES might "
-"not get detected by the build system. In that case the file ``build.prop`` "
-"in the directory ``BUILDDIR/out/target/product/CODENAME/system`` should be "
-"removed manually before rebuilding."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:144
-msgid ""
-"After a successful build, the resulting ``system.img`` must reflashed "
-"together with the UBports root filesystem. On boot files and – in case of "
-"Ubuntu Touch 20.04 or later – marked directories in ``/android/system/"
-"halium`` will be mounted onto their final locations which are derived from "
-"their path relative to the designated base directory."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:147
-msgid "Overlay files in Gitlab CI script-based builds"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:149
-msgid ""
-"When using Gitlab CI script-based builds (see :ref:`Gitlab-CI`) overlay "
-"files and directories have to be placed in in the repository below ``overlay/"
-"system`` in a directory tree mirroring the structure of the root filesystem."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:151
-msgid ""
-"By default, the build system will cause the file to be overwriten directly "
-"in the filesystem. This allows arbitrary files to be added to the rootfs, "
-"but can cause problem when the overlaid file gets updated in the base system "
-"as part of the delta upgrade. Ubuntu Touch 16.04 supports only this mode."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:153
-msgid ""
-"While Ubuntu Touch 16.04 only allows overlaying files by overwriting them, "
-"in case of Ubuntu Touch 20.04 or later versions the mount-based overlay "
-"files should be used instead. This can be done by specifying "
-"``deviceinfo_use_overlaystore=\"true\"`` in the port's ``deviceinfo``. If "
-"the port is not using the shared building script, it'll have to transition "
-"to the shared build script too (see :ref:`UpdatePortsFor2004`). When the "
-"option is being set, the build script ensures that the file ends up inside "
-"``/opt/halium-overlay`` in the system, and gets mounted in the same way as "
-"``system.img`` builds. Thus, the same config and limitations apply."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:158
-msgid ""
-"Following the above example, overlaying files ``/lib/udev/rules.d/70-android."
-"rules`` and ``/etc/ubuntu-touch-session.d/android.conf`` requires placing "
-"the file at ``overlay/system/lib/udev/rules.d/70-android.rules`` and "
-"``overlay/system/etc/ubuntu-touch-session.d/android.conf`` in the repository."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:160
-msgid ""
-"For ports with ``deviceinfo_use_overlaystore=\"true\"`` running Ubuntu Touch "
-"20.04, the files will end up in ``/opt/halium-overlay/``, and will be bind-"
-"mounted into their respective places."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:162
-msgid ""
-"In case of Ubuntu Touch 16.04 or port without "
-"``deviceinfo_use_overlaystore=\"true\"``, the files on the root filesystem "
-"will be overwritten due to the lack of mount-based overlay files."
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:165
-msgid "Building on GitLab CI"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Overlay.rst:167
-msgid ""
-"After adding or modifying overlay files the Gitlab CI scripts need to be run "
-"according to `the instructions included <https://gitlab.com/ubports/"
-"community-ports/android9/xiaomi-redmi-note-7-pro/xiaomi-violet/-/blob/master/"
-"README.md>`_. On boot files and – in case of Ubuntu Touch 20.04 or later – "
-"marked directories in ``/opt/halium-overlay`` will be mounted onto their "
-"final locations which are derived from their path relative to the designated "
-"base directory."
 msgstr ""
 
 #: ../../porting/configure_test_fix/Sound.rst:2
@@ -10921,8 +9335,8 @@ msgstr ""
 #: ../../porting/configure_test_fix/Sound.rst:23
 msgid ""
 "Your modified ``touch.pa`` file now needs to be included in your build. "
-"Follow :ref:`the overlay file method <Overlay-steps>` corresponding to your "
-"Halium version."
+"Follow :doc:`the overlay documentation </porting/configure_test_fix/"
+"Overlay>`."
 msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:4
@@ -10932,8 +9346,8 @@ msgstr ""
 #: ../../porting/configure_test_fix/USBModed.rst:7
 msgid ""
 "Information on this page is applicable for ports supporting Ubuntu Touch "
-"20.04. To make your port support Ubuntu Touch 20.04, see :ref:"
-"`UpdatePortsFor2004`."
+"20.04. To make your port support Ubuntu Touch 20.04, "
+"see :ref:`UpdatePortsFor2004`."
 msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:9
@@ -11065,8 +9479,8 @@ msgstr ""
 msgid ""
 "We're aware that some device use different vendor IDs for different modes. "
 "If your device are one of those, please upvote `this issue on GitLab "
-"<https://gitlab.com/ubports/development/core/packaging/usb-moded/-/"
-"issues/5>`_."
+"<https://gitlab.com/ubports/development/core/packaging/usb-moded/-/issues/"
+"5>`_."
 msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:64
@@ -11140,8 +9554,8 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:88
 msgid ""
-"If using ADB, you may also have to disable ADB authorization prompt. See :"
-"ref:`AdbdAuthz`."
+"If using ADB, you may also have to disable ADB authorization prompt. "
+"See :ref:`AdbdAuthz`."
 msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:91
@@ -11151,12 +9565,12 @@ msgstr ""
 #: ../../porting/configure_test_fix/USBModed.rst:93
 msgid ""
 "Besides tweaking options for the configurator script, porters can also set "
-"usb-moded options directly via ``/etc/usb-moded/90-device-specific-config."
-"ini``. However, this is intended as an escape hatch in case the automatic "
-"detection fails, and if you found yourself need to use this file, consider "
-"filing issue over usb-moded's packaging repository. See `usb-moded's docs "
-"<https://github.com/sailfishos/usb-moded/blob/master/docs/usb_moded-doc."
-"txt>` for the syntax."
+"usb-moded options directly via ``/etc/usb-moded/90-device-specific-"
+"config.ini``. However, this is intended as an escape hatch in case the "
+"automatic detection fails, and if you found yourself need to use this file, "
+"consider filing issue over usb-moded's packaging repository. See `usb-"
+"moded's docs <https://github.com/sailfishos/usb-moded/blob/master/docs/"
+"usb_moded-doc.txt>` for the syntax."
 msgstr ""
 
 #: ../../porting/configure_test_fix/Wifi.rst:2
@@ -11165,8 +9579,8 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Wifi.rst:4
 msgid ""
-"For the time being, refer to `the Halium porting guide. <https://docs.halium."
-"org/en/latest/porting/debug-build/wifi.html>`_"
+"For the time being, refer to `the Halium porting guide. <https://"
+"docs.halium.org/en/latest/porting/debug-build/wifi.html>`_"
 msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:4
@@ -11693,8 +10107,8 @@ msgid ""
 "by when checking what works and what needs debugging and fixing. This list, "
 "along with instructions on how to add your device to the list of devices "
 "that can run Ubuntu Touch, can be found in `the informative README.md file "
-"linked here. <https://gitlab.com/ubports/infrastructure/devices.ubuntu-touch."
-"io/-/blob/main/README.md>`_"
+"linked here. <https://gitlab.com/ubports/infrastructure/devices.ubuntu-"
+"touch.io/-/blob/main/README.md>`_"
 msgstr ""
 
 #: ../../porting/finalize/UBports_installer.rst:4
@@ -11702,28 +10116,14 @@ msgid "Configuring the UBports installer"
 msgstr ""
 
 #: ../../porting/finalize/UBports_installer.rst:6
+#: ../../porting/finalize/UBports_recovery.rst:6
 msgid ""
-"For the time being, Halium-7.1 porters should refer to the UBports porting "
-"notes on `the UBPorts installer and System image <https://github.com/ubports/"
-"porting-notes/wiki/HowTo:-UBports-Installer-&-System-Image-(Halium-7.1)>`_."
-msgstr ""
-
-#: ../../porting/finalize/UBports_installer.rst:8
-#: ../../porting/finalize/UBports_recovery.rst:8
-msgid ""
-"For Halium-9.0, exact steps are not available at this time. Please :ref:`get "
-"in touch with the community for help. <Getting-community-help>`"
+"The exact steps have not yet been documented. Please :ref:`get in touch with "
+"the community for help. <Getting-community-help>`"
 msgstr ""
 
 #: ../../porting/finalize/UBports_recovery.rst:4
 msgid "Building UBports recovery"
-msgstr ""
-
-#: ../../porting/finalize/UBports_recovery.rst:6
-msgid ""
-"For the time being, Halium 7.1 porters should refer to the UBports porting "
-"notes on `the UBPorts installer and System image <https://github.com/ubports/"
-"porting-notes/wiki/HowTo:-UBports-Installer-&-System-Image-(Halium-7.1)>`_."
 msgstr ""
 
 #: ../../porting/finalize/index.rst:4
@@ -11818,24 +10218,22 @@ msgid ""
 "directly with the device hardware. Instead, this communication is mediated "
 "by a Hardware Abstraction Layer (HAL) which needs to be built for each "
 "specific device, because each device has its specific hardware architecture. "
-"This component is called Halium  and is available in different versions (5.1 "
-"which is largely obsolete, 7.1, 9, 10 and 11 as of writing) corresponding to "
-"different Android versions."
+"This component is called Halium  and is available in different versions "
+"corresponding to different Android versions."
 msgstr ""
 
 #: ../../porting/introduction/Intro.rst:23
 msgid ""
 "The `Halium project <https://halium.org/>`_ enables Linux systems to run on "
 "Android hardware. It is a joint effort by multiple mobile operating systems, "
-"notably Lune OS and UBports."
+"notably Lune OS, Droidian and Ubuntu Touch."
 msgstr ""
 
 #: ../../porting/introduction/Intro.rst:25
 msgid ""
-"UBports porting builds on top of Halium porting. Consequently, you will be "
-"using both the Halium porting guide and the UBports porting guide. At times "
-"it may also be helpful to test with one of the other operating systems to "
-"debug a problem from different angles."
+"Ubuntu Touch porting builds on top of the Halium GSI. The Halium GSI is "
+"discussed further below. At times it may also be helpful to test with one of "
+"the other operating systems to debug a problem from different angles."
 msgstr ""
 
 #: ../../porting/introduction/Intro.rst:27
@@ -11867,9 +10265,9 @@ msgstr ""
 
 #: ../../porting/introduction/Intro.rst:34
 msgid ""
-"You, the porter, need to build Halium (in part or in whole, depending on :"
-"ref:`porting method <Porting-methods>`) and install this together with the "
-"Ubuntu Touch rootfs in order to create a functioning Ubuntu Touch port."
+"You, the porter, need to build a Halium kernel, which is installed together "
+"with the Ubuntu Touch rootfs and the Halium GSI, to create a functioning "
+"Ubuntu Touch port."
 msgstr ""
 
 #: ../../porting/introduction/Intro.rst:39
@@ -11946,11 +10344,18 @@ msgstr ""
 msgid "20.0"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:57
-msgid "Generic System Image"
+#: ../../porting/introduction/Intro.rst:54
+msgid ""
+"Since 20.04, Ubuntu Touch ports are normally based on Halium 9.0 or later. "
+"Older versions of Halium are considered deprecated and are no longer "
+"supported for new ports."
 msgstr ""
 
 #: ../../porting/introduction/Intro.rst:59
+msgid "Generic System Image"
+msgstr ""
+
+#: ../../porting/introduction/Intro.rst:61
 msgid ""
 "Starting with Android version 9.0, a significant change of architecture was "
 "introduced. The device-specific vendor blobs now reside on a separate "
@@ -11959,7 +10364,7 @@ msgid ""
 "is known as the **Generic System Image (GSI)**."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:62
+#: ../../porting/introduction/Intro.rst:64
 msgid ""
 "A GSI is a system image that is built to be able to function with a wide "
 "range of devices. Android devices, as of version 9.0, use a GSI. For more "
@@ -11967,7 +10372,7 @@ msgid ""
 "topic/generic-system-image/>`_"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:64
+#: ../../porting/introduction/Intro.rst:66
 msgid ""
 "The development of the Android GSI architecture also cleared the way for the "
 "now available generic Halium 9.0 arm64 system image (hereafter referred to "
@@ -11979,11 +10384,11 @@ msgid ""
 "halium_arm64-(Halium-9)>`_."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:67
+#: ../../porting/introduction/Intro.rst:69
 msgid "What does this mean for the porting process?"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:69
+#: ../../porting/introduction/Intro.rst:71
 msgid ""
 "Since the GSI is a prebuilt, device-independent component, it effectively "
 "simplifies the task of building a viable port by removing much of the "
@@ -11991,79 +10396,17 @@ msgid ""
 "blobs compiled into the system image and configured to function properly."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:74
-msgid "Porting methods"
-msgstr ""
-
 #: ../../porting/introduction/Intro.rst:76
-msgid ""
-"This guide documents three different porting methods, which we call: **Full "
-"system image method**, **Halium-boot method**, and **Standalone kernel "
-"method**. When porting based on Halium 7.1 the Full system image method is "
-"the only available method to follow. For Halium 9.0 all three methods are "
-"possible."
-msgstr ""
-
-#: ../../porting/introduction/Intro.rst:80
-msgid "Full system image method"
-msgstr ""
-
-#: ../../porting/introduction/Intro.rst:82
-msgid ""
-"This porting method requires building both the boot image (halium-boot.img) "
-"and the full device specific system image (system.img) from source and "
-"installing these together with the UBports root file system (rootfs). For "
-"Halium 7.1 ports this is the only possible method (Consequently, this method "
-"is sometimes referred to as *the Halium 7.1 method*). For Halium 9.0 it is "
-"also possible to use this method, however for Halium 9.0 the other two "
-"methods below are probably easier."
-msgstr ""
-
-#: ../../porting/introduction/Intro.rst:86
-msgid "Halium-boot method"
-msgstr ""
-
-#: ../../porting/introduction/Intro.rst:88
-msgid ""
-"For this porting method it is sufficent to build the halium-boot.img and "
-"install this together with the Halium GSI and the UBports rootfs. This "
-"method can be used for Halium 9.0 ports."
-msgstr ""
-
-#: ../../porting/introduction/Intro.rst:93
-msgid ""
-"This porting method only requires building the kernel and installing this "
-"together with the Halium ramdisk, the Halium GSI and the UBports rootfs. "
-"This method can be used for Halium 9.0 ports."
-msgstr ""
-
-#: ../../porting/introduction/Intro.rst:95
-msgid ""
-"All methods share some common steps. However, there are also significant "
-"differences that must not be missed. Therefore, the methods will be treated "
-"separately in the subsequent sections where needed."
-msgstr ""
-
-#: ../../porting/introduction/Intro.rst:97
-msgid ""
-"The remainder of this section gives some words of advice to new porters. If "
-"you already have porting experience or ROM building experience, you can "
-"likely skip straight to :ref:`Preparations <Preparations>`."
-msgstr ""
-
-#: ../../porting/introduction/Intro.rst:102
 msgid "The challenges of the porting process"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:104
+#: ../../porting/introduction/Intro.rst:78
 msgid ""
 "Building the necessary components and getting them to work together properly "
-"always involves an amount of code modifications, configuring and testing, "
-"but considerably moreso when doing full system image builds, compared to "
-"builds using the GSI (see :ref:`porting methods <Porting-methods>`)."
+"always involves an amount of code modifications, configuring and testing."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:106
+#: ../../porting/introduction/Intro.rst:80
 msgid ""
 "Luckily, there is a community of porters out there who are eager to see "
 "Ubuntu Touch ported to new devices. When you run into trouble, you should "
@@ -12073,11 +10416,18 @@ msgid ""
 "are doing so in their spare time."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:111
+#: ../../porting/introduction/Intro.rst:84
+msgid ""
+"In the past there used to be different methods for porting. Find the "
+"historic details linked in the :ref:`deprecated porting section <deprecated-"
+"building-methods>`."
+msgstr ""
+
+#: ../../porting/introduction/Intro.rst:89
 msgid "Prior knowledge and skills"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:113
+#: ../../porting/introduction/Intro.rst:91
 msgid ""
 "Porters come in all sizes and shapes, so to speak. Therefore, this guide "
 "does not presuppose extensive knowledge or skills in any particular field. "
@@ -12090,7 +10440,7 @@ msgid ""
 "changes. It is wise to start documenting your steps from the very beginning."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:115
+#: ../../porting/introduction/Intro.rst:93
 msgid ""
 "We have attempted to give a certain amount of explanation along the way. "
 "However, this guide is not an in-depth reference into the architecture and "
@@ -12098,29 +10448,29 @@ msgid ""
 "consequently require an amount of research on your part."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:120
+#: ../../porting/introduction/Intro.rst:98
 msgid "Getting community help"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:122
+#: ../../porting/introduction/Intro.rst:100
 msgid ""
 "When you run into trouble, and you will, refer to one or more of the sources "
 "below:"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:124
+#: ../../porting/introduction/Intro.rst:102
 msgid "`Telegram: @ubports_porting <https://t.me/ubports_porting>`_"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:125
+#: ../../porting/introduction/Intro.rst:103
 msgid "`The UBports Forum <https://forums.ubports.com/category/33/porting>`_"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:130
+#: ../../porting/introduction/Intro.rst:108
 msgid "General advice"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:132
+#: ../../porting/introduction/Intro.rst:110
 msgid ""
 "The more rigorous you are at making notes and documenting your steps, the "
 "less time you will spend backtracking your steps and guessing your way "
@@ -12131,13 +10481,13 @@ msgid ""
 "later stage."
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:134
+#: ../../porting/introduction/Intro.rst:112
 msgid ""
 "If you are not discouraged after reading this, we welcome your efforts and "
 "wish you the best of luck!"
 msgstr ""
 
-#: ../../porting/introduction/Intro.rst:136
+#: ../../porting/introduction/Intro.rst:114
 msgid "The next section presents a key to the rest of this guide."
 msgstr ""
 
@@ -12154,9 +10504,9 @@ msgstr ""
 #: ../../porting/introduction/Preparations.rst:8
 msgid ""
 "To determine your device's specifications, search for it on `GSM Arena "
-"<https://www.gsmarena.com>`_ and/or `Device Specification <https://www."
-"devicespecifications.com/en>`_. Refer to `Pick an Android target device in "
-"the Halium Porting Guide <http://docs.halium.org/en/latest/porting/first-"
+"<https://www.gsmarena.com>`_ and/or `Device Specification <https://"
+"www.devicespecifications.com/en>`_. Refer to `Pick an Android target device "
+"in the Halium Porting Guide <http://docs.halium.org/en/latest/porting/first-"
 "steps.html#pick-an-android-target-device>`_ for further information on "
 "requirements and how to check if your device qualifies."
 msgstr ""
@@ -12186,8 +10536,8 @@ msgstr ""
 
 #: ../../porting/introduction/Preparations.rst:20
 msgid ""
-"Another rich source of information is the `XDA Developers Forum <https://www."
-"xda-developers.com/>`_."
+"Another rich source of information is the `XDA Developers Forum <https://"
+"www.xda-developers.com/>`_."
 msgstr ""
 
 #: ../../porting/introduction/Preparations.rst:25
@@ -12224,11 +10574,18 @@ msgid ""
 "website."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:41
+#: ../../porting/introduction/Preparations.rst:39
+msgid ""
+"Some devices do not have a TWRP image available. While it is technically "
+"possible to port a device without a recovery, it makes the process a lot "
+"more complicated, especially when debugging early in the porting process."
+msgstr ""
+
+#: ../../porting/introduction/Preparations.rst:44
 msgid "Recommendations for the host/build PC"
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:43
+#: ../../porting/introduction/Preparations.rst:46
 msgid ""
 "The remainder of this guide presumes you are using a build PC running Linux. "
 "Although high performance always is nice, stability and sufficient RAM and "
@@ -12236,11 +10593,11 @@ msgid ""
 "the best hardware, nor do you need the latest distribution release. In fact, "
 "it is not uncommon to run into issues when choosing the very newest release, "
 "as some of the software needed may not yet have been built for it. For "
-"example, as of writing the latest release of Ubuntu Linux is 20.04, but many "
-"still recommend using the previous long term support release, 18.04."
+"example, using a Ubuntu LTS release, or a LTS release of another "
+"distribution, is often a good choice."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:45
+#: ../../porting/introduction/Preparations.rst:48
 msgid ""
 "Having completed the steps above, you are now ready to set up your build "
 "environment and start the porting process per se (next section)."
@@ -12335,6 +10692,13 @@ msgstr ""
 
 #: ../../porting/introduction/Setting_up.rst:84
 msgid "Install the required dependencies from AUR::"
+msgstr ""
+
+#: ../../porting/introduction/Setting_up.rst:88
+msgid ""
+"Please note: as of Autumn 2021 this package is no longer maintained. You "
+"will be unable to clone and build Halium on Arch as all dependencies are not "
+"met."
 msgstr ""
 
 #: ../../porting/introduction/index.rst:4
@@ -12712,8 +11076,8 @@ msgstr ""
 
 #: ../../systemdev/kernel-hal.rst:51
 msgid ""
-"Detailed steps for the three CI enabled devices can be found under  :doc:"
-"`HAL for Nexus 5, OnePlus One, and Fairphone 2 <ubp-5.1>`."
+"Detailed steps for the three CI enabled devices can be found "
+"under  :doc:`HAL for Nexus 5, OnePlus One, and Fairphone 2 <ubp-5.1>`."
 msgstr ""
 
 #: ../../systemdev/kernel-hal.rst:53
@@ -12735,8 +11099,8 @@ msgstr ""
 
 #: ../../systemdev/kernel-hal.rst:66
 msgid ""
-"Newer ports to Android devices are based on `Halium <https://docs.halium."
-"org>`_. In some aspects Halium is similar to the 5.1 based ports:"
+"Newer ports to Android devices are based on `Halium <https://"
+"docs.halium.org>`_. In some aspects Halium is similar to the 5.1 based ports:"
 msgstr ""
 
 #: ../../systemdev/kernel-hal.rst:68
@@ -12861,12 +11225,8 @@ msgid ""
 "To update the kernel you want to mount boot_a. Check which device is the "
 "SDcard in your OS and mount boot_a. In the example above this is sdc4. "
 "Inside that partition you'll see the kernel vmlinuz and related files: "
-"``config-5.6.0-pine64`` ``dtb`` ``initrd.img`` ``modules/`` ``System."
-"map-5.6.0-pine64`` ``vmlinuz``."
-msgstr ""
-
-#: ../../systemdev/kernel-pinephone.rst:40
-msgid "Building the kernel"
+"``config-5.6.0-pine64`` ``dtb`` ``initrd.img`` ``modules/`` "
+"``System.map-5.6.0-pine64`` ``vmlinuz``."
 msgstr ""
 
 #: ../../systemdev/kernel-pinephone.rst:42
@@ -13358,10 +11718,10 @@ msgid ""
 "software for your device. Most of the software preinstalled on your Ubuntu "
 "Touch device is shipped in the device image in the form of a Debian package. "
 "This format is used by several Linux distributions, such as Debian, Ubuntu, "
-"and Linux Mint. Plenty of `documentation on deb packages <https://www.debian."
-"org/doc/manuals/maint-guide/index.en.html>`__ is available, so we won't be "
-"covering it here. Besides, in most cases you'll find yourself in need of "
-"modifying existing software rather than developing new packages from "
+"and Linux Mint. Plenty of `documentation on deb packages <https://"
+"www.debian.org/doc/manuals/maint-guide/index.en.html>`__ is available, so we "
+"won't be covering it here. Besides, in most cases you'll find yourself in "
+"need of modifying existing software rather than developing new packages from "
 "scratch. For this reason, this guide is mostly about recompiling an existing "
 "Ubuntu Touch package."
 msgstr ""
@@ -13443,8 +11803,8 @@ msgid ""
 "resembles the package build process on the UBports CI system by using an "
 "isolated build environment with a minimal set of pre-installed packages. "
 "This detects any missing build dependencies and sbuild will also detect "
-"problems with the resulting packages by running `lintian <https://lintian."
-"debian.org/manual/lintian.html>`__."
+"problems with the resulting packages by running `lintian <https://"
+"lintian.debian.org/manual/lintian.html>`__."
 msgstr ""
 
 #: ../../systemdev/testing-locally.rst:71
@@ -13565,8 +11925,8 @@ msgstr ""
 #: ../../systemdev/testing-locally.rst:134
 msgid ""
 "In order to create a chroot based on Ubuntu 20.04 (Focal Fossa) with the "
-"amd64 architecture under the directory ``/srv/chroot/ubports-"
-"${chroot_distro}-amd64`` (``chroot_base`` can be changed if needed) the "
+"amd64 architecture under the directory ``/srv/chroot/ubports-$"
+"{chroot_distro}-amd64`` (``chroot_base`` can be changed if needed) the "
 "following variables can be defined for later use by the actual commands::"
 msgstr ""
 
@@ -13630,8 +11990,8 @@ msgstr ""
 #: ../../systemdev/testing-locally.rst:178
 msgid ""
 "In order to create a chroot based on Ubuntu 20.04 (Focal Fossa) with the "
-"arm64 architecture under the directory ``/var/lib/schroot/chroots/ubports-"
-"${chroot_distro}-arm64`` (``chroot_base`` can be changed if needed) the "
+"arm64 architecture under the directory ``/var/lib/schroot/chroots/ubports-$"
+"{chroot_distro}-arm64`` (``chroot_base`` can be changed if needed) the "
 "following variables can be defined for later use by the actual commands::"
 msgstr ""
 
@@ -13702,11 +12062,11 @@ msgstr ""
 
 #: ../../systemdev/testing-locally.rst:260
 msgid ""
-"Technical details are available from the `sbuild(1) <https://manpages.debian."
-"org/bullseye/sbuild/sbuild.1.en.html>`__ and `sbuild-createchroot(8) "
-"<https://manpages.debian.org/bullseye/sbuild/sbuild-createchroot.8.en."
-"html>`__ manual pages and the `Debian wiki <https://wiki.debian.org/"
-"sbuild>`__."
+"Technical details are available from the `sbuild(1) <https://"
+"manpages.debian.org/bullseye/sbuild/sbuild.1.en.html>`__ and `sbuild-"
+"createchroot(8) <https://manpages.debian.org/bullseye/sbuild/sbuild-"
+"createchroot.8.en.html>`__ manual pages and the `Debian wiki <https://"
+"wiki.debian.org/sbuild>`__."
 msgstr ""
 
 #: ../../systemdev/testing-locally.rst:263
@@ -14021,9 +12381,9 @@ msgstr ""
 #: ../../systemdev/ubp-5.1.rst:71
 msgid ""
 "To install your new build of the system image, use the `replace-android-"
-"system script <https://github.com/janimo/phablet-porting-scripts/"
-"blob/68734ca07998b8e784397df77d9aca4b968b3815/build/replace-android-"
-"system>`_. It can be run as follows with your device attached::"
+"system script <https://github.com/janimo/phablet-porting-scripts/blob/"
+"68734ca07998b8e784397df77d9aca4b968b3815/build/replace-android-system>`_. It "
+"can be run as follows with your device attached::"
 msgstr ""
 
 #: ../../systemdev/uploading-changes.rst:2
@@ -14046,10 +12406,10 @@ msgstr ""
 
 #: ../../systemdev/uploading-changes.rst:8
 msgid ""
-"To use the `UBports build service`_, make sure you understand our :doc:"
-"`branch naming convention </about/process/branch-naming>`. It is required "
-"that you follow the convention for deb-packages for CI to build your package "
-"correctly."
+"To use the `UBports build service`_, make sure you understand "
+"our :doc:`branch naming convention </about/process/branch-naming>`. It is "
+"required that you follow the convention for deb-packages for CI to build "
+"your package correctly."
 msgstr ""
 
 #: ../../systemdev/uploading-changes.rst:11
@@ -14323,8 +12683,8 @@ msgstr ""
 
 #: ../../systemdev/uploading-changes.rst:135
 msgid ""
-"Get shell access to your device using :doc:`/userguide/advanceduse/adb` or :"
-"doc:`/userguide/advanceduse/ssh`."
+"Get shell access to your device using :doc:`/userguide/advanceduse/adb` "
+"or :doc:`/userguide/advanceduse/ssh`."
 msgstr ""
 
 #: ../../systemdev/uploading-changes.rst:136
@@ -14422,8 +12782,9 @@ msgstr ""
 
 #: ../../userguide/advanceduse/adb.rst:24
 msgid ""
-"For Windows, grab the command-line tools only package from `developer."
-"android.com <https://developer.android.com/studio/index.html#downloads>`_."
+"For Windows, grab the command-line tools only package from "
+"`developer.android.com <https://developer.android.com/studio/"
+"index.html#downloads>`_."
 msgstr ""
 
 #: ../../userguide/advanceduse/adb.rst:27
@@ -14589,9 +12950,9 @@ msgstr ""
 
 #: ../../userguide/advanceduse/dav.rst:24
 msgid ""
-"Download this `script <https://gist.github.com/"
-"vanyasem/379095d25ac350676fc70c42efe17c8c>`_ (let's call it dav.sh) and edit "
-"the following variables:"
+"Download this `script <https://gist.github.com/vanyasem/"
+"379095d25ac350676fc70c42efe17c8c>`_ (let's call it dav.sh) and edit the "
+"following variables:"
 msgstr ""
 
 #: ../../userguide/advanceduse/dav.rst:26
@@ -15090,8 +13451,8 @@ msgstr ""
 #: ../../userguide/advanceduse/ssh.rst:112
 msgid ""
 "`askubuntu.com: How can I access my Ubuntu phone over SSH? <https://"
-"askubuntu.com/questions/348714/how-can-i-access-my-ubuntu-phone-over-"
-"ssh/599041#599041>`_"
+"askubuntu.com/questions/348714/how-can-i-access-my-ubuntu-phone-over-ssh/"
+"599041#599041>`_"
 msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:113
@@ -15379,9 +13740,9 @@ msgid ""
 "**The first option** is based on ``libertine-container-manager exec``. It "
 "lets you run your commands as root. The drawback is that the container is "
 "not completely set up. So far we know that the `folders mentioned above "
-"(Documents, Music, …) are not mounted <https://askubuntu.com/"
-"questions/831830/libertine-terminal-applications-how-to-access-to-the-real-"
-"home-dir#comment1273744_833984/>`_ i.e., the ``/home/phablet/`` directory is "
+"(Documents, Music, …) are not mounted <https://askubuntu.com/questions/"
+"831830/libertine-terminal-applications-how-to-access-to-the-real-home-"
+"dir#comment1273744_833984/>`_ i.e., the ``/home/phablet/`` directory is "
 "empty. Likewise the directory referenced in ``TMPDIR`` is not available, "
 "which may lead to problems with software trying to create temporary files or "
 "directories. You may use this option to installing packages."
@@ -15764,8 +14125,8 @@ msgid ""
 "A \"fix\" is a data point generated by GPS hardware that contains its "
 "current location and the expected accuracy of that location. GPS hardware is "
 "rated by how long it takes to return one of these data points after the "
-"device is activated. This rating is called \"`Time To First Fix <https://en."
-"wikipedia.org/wiki/Time_to_first_fix>`_,\" or TTFF."
+"device is activated. This rating is called \"`Time To First Fix <https://"
+"en.wikipedia.org/wiki/Time_to_first_fix>`_,\" or TTFF."
 msgstr ""
 
 #: ../../userguide/dailyuse/location.rst:146
@@ -16151,10 +14512,10 @@ msgid ""
 "Installer is a nice graphical tool that you can use to install Ubuntu Touch "
 "on a `supported device <https://devices.ubuntu-touch.io/>`_ from your `Linux "
 "<https://snapcraft.io/ubports-installer>`_, `Mac <https://devices.ubuntu-"
-"touch.io/installer/?package=dmg>`_ or `Windows <https://devices.ubuntu-touch."
-"io/installer/?package=exe>`_ computer. For more experienced users, we also "
-"have manual installation instructions for every device `on the devices page "
-"<https://devices.ubuntu-touch.io/>`_."
+"touch.io/installer/?package=dmg>`_ or `Windows <https://devices.ubuntu-"
+"touch.io/installer/?package=exe>`_ computer. For more experienced users, we "
+"also have manual installation instructions for every device `on the devices "
+"page <https://devices.ubuntu-touch.io/>`_."
 msgstr ""
 
 #: ../../userguide/install.rst:7
@@ -16198,8 +14559,8 @@ msgstr ""
 #: ../../userguide/install.rst:15
 msgid ""
 "`Other Linux distributions (AppImage) <https://devices.ubuntu-touch.io/"
-"installer/?package=appimage>`_: ``ubports-installer-<version-number>."
-"AppImage``"
+"installer/?package=appimage>`_: ``ubports-installer-<version-"
+"number>.AppImage``"
 msgstr ""
 
 #: ../../userguide/install.rst:17
@@ -16228,12 +14589,12 @@ msgstr ""
 msgid ""
 "If you need help, you can join UBports' support channels on `telegram "
 "<https://t.me/WelcomePlus>`_ or `matrix <https://matrix.to/#/!"
-"KwdniMNeTmClpgHkND:matrix.org?via=matrix.org&via=ubports.chat&via=disroot."
-"org>`_ or ask a question `in the forum <https://forums.ubports.com/>`_ or on "
-"`askubuntu <https://askubuntu.com>`_. If you believe that the UBports "
-"Installer is not working correctly, you can also `file a new issue <https://"
-"github.com/ubports/ubports-installer/issues/new>`_ to help us solve the "
-"problem."
+"KwdniMNeTmClpgHkND:matrix.org?"
+"via=matrix.org&via=ubports.chat&via=disroot.org>`_ or ask a question `in the "
+"forum <https://forums.ubports.com/>`_ or on `askubuntu <https://"
+"askubuntu.com>`_. If you believe that the UBports Installer is not working "
+"correctly, you can also `file a new issue <https://github.com/ubports/"
+"ubports-installer/issues/new>`_ to help us solve the problem."
 msgstr ""
 
 #: ../../userguide/install.rst:30
@@ -16319,3 +14680,15 @@ msgid ""
 "manual installation instructions for your device `on the devices page "
 "<https://devices.ubuntu-touch.io/>`_."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Document"
+#~ msgstr "සංවර්ධනය"
+
+#, fuzzy
+#~ msgid "Ubuntu Touch 16.04"
+#~ msgstr "උබුන්ටු ටච් යනු කුමක්ද?"
+
+#, fuzzy
+#~ msgid "Ubuntu Touch 20.04"
+#~ msgstr "උබුන්ටු ටච් යනු කුමක්ද?"
