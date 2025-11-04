@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-03 16:49+0000\n"
-"PO-Revision-Date: 2025-11-03 23:37+0000\n"
+"PO-Revision-Date: 2025-11-04 23:51+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -6045,6 +6045,7 @@ msgid "Documentation"
 msgstr "Документація"
 
 #: ../../contribute/documentation.rst:5
+#, fuzzy
 msgid ""
 "Documentation on this site is written in ReStructuredText, or RST for short. "
 "Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/"
@@ -6246,6 +6247,7 @@ msgstr ""
 "redirects.txt>`_."
 
 #: ../../contribute/documentation.rst:116
+#, fuzzy
 msgid ""
 "We use Rediraffe's ``checkdiff`` builder to ensure that pages are not "
 "deleted from the documentation without a redirect in place. This builder is "
@@ -6382,6 +6384,8 @@ msgid ""
 "If all went well, you can enter the ``_build/html`` directory and open "
 "``index.html`` to view the UBports documentation."
 msgstr ""
+"Якщо все піде добре, Ви зможете перейти до теки ``_build/html``, відкрити "
+"файл ``index.html`` та переглянути документацію UBports."
 
 #: ../../contribute/documentation.rst:163
 msgid ""
@@ -6389,10 +6393,13 @@ msgid ""
 "the build environment. Run ``rm -r ~/ubportsdocsenv`` and try the build "
 "again."
 msgstr ""
+"Якщо маєте складнощі з компіляцією документів, перша річ, яку слід "
+"спробувати — це видалення оточення конструктора. Виконайте ``rm -r "
+"~/ubportsdocsenv`` та спробуйте ще раз."
 
 #: ../../contribute/documentation.rst:166
 msgid "Final check of your contribution"
-msgstr ""
+msgstr "Остання перевірка Вашого внеску"
 
 #: ../../contribute/documentation.rst:168
 msgid ""
@@ -6401,73 +6408,91 @@ msgid ""
 "\"pipeline\"). Please double check whether this builds successfully and "
 "whether the result looks as you intended it to:"
 msgstr ""
+"Після того як Ви створили на GitLab запит на злиття, система постійної "
+"інтеграції (Continuous Integration, CI) зробить тестову збірку Вашого внеску "
+"(\"pipeline\"). Перевірте, будь ласка, двічі, що результат успішний та, що "
+"він виглядає так, як Ви очікували:"
 
 #: ../../contribute/documentation.rst:171
 msgid ""
 "at the top of the \"Overview\" tab of your MR on gitlab you will see the "
 "status of the pipeline"
 msgstr ""
+"зверху вкладки \"Огляд\" Вашого запиту на злиття Ви побачите стан цього "
+"конвеєра (pipeline)"
 
 #: ../../contribute/documentation.rst:172
 msgid ""
 "if it says \"Checking pipeline status\" or \"Pipeline running\" then please "
 "wait another minute."
 msgstr ""
+"якщо там написано \"Перевірка стану конвеєра\" або \"Запуск конвеєра\" "
+"зачекайте ще хвилинку."
 
 #: ../../contribute/documentation.rst:173
 msgid ""
 "if it says \"Pipeline failed\" with a red X and, then something went wrong, "
 "please click on the link to find the details"
 msgstr ""
+"якщо \"Помилка конвеєра\" з червоним Х, та ще щось пішло не так, дізнайтеся "
+"про деталі за наданим посиланням"
 
 #: ../../contribute/documentation.rst:174
 msgid ""
 "if it says \"Pipeline passed\" with green check mark, it means the MR could "
 "be built successfully and you can proceed to look at the results"
 msgstr ""
+"якщо \"Конвеєр перевірений\" з зеленою позначкою, це говорить про успішне "
+"опрацювання запиту на злиття і Ви можете продовжити з оглядом результатів"
 
 #: ../../contribute/documentation.rst:175
 msgid "now please click on link of that pipeline"
-msgstr ""
+msgstr "тепер, будь ласка, перейдіть за посиланням конвеєра"
 
 #: ../../contribute/documentation.rst:176
 msgid "click on \"build\" job"
-msgstr ""
+msgstr "клацніть на завдання \"зібрати\""
 
 #: ../../contribute/documentation.rst:177
 msgid ""
 "this brings you to the end of the build log, where you'll see a message: "
 "\"Build succeeded, browse the artifact here\""
 msgstr ""
+"це перенесе Вас до кінця журналу компіляції, де Ви побачите повідомлення: "
+"\"Збірка успішна, перегляньте артефакти\""
 
 #: ../../contribute/documentation.rst:178
 msgid ""
 "click the link next to it to see the full version of the UBports "
 "documentation site with your changes"
 msgstr ""
+"клацніть на посилання поруч та подивіться на повну версію документації "
+"UBports з Вашими змінами"
 
 #: ../../contribute/documentation.rst:179
 msgid "double check whether your changes look ok"
-msgstr ""
+msgstr "перевірте двічі як виглядаються Ваші зміни"
 
 #: ../../contribute/documentation.rst:182
 msgid "Alternative methods to contribute"
-msgstr ""
+msgstr "Альтернативні варіанти для участі"
 
 #: ../../contribute/documentation.rst:185 ../../contribute/translations.rst:2
 #: ../../humanguide/other-design-considerations/translations.rst:2
 msgid "Translations"
-msgstr ""
+msgstr "Переклади"
 
 #: ../../contribute/documentation.rst:187
 msgid ""
 "You may find the components of this document to translate at `its project in "
 "UBports Weblate`_."
 msgstr ""
+"Можливо Ви захочете перекласти частини цього документа у `проєкті UBports "
+"Weblate`_."
 
 #: ../../contribute/documentation.rst:190
 msgid "Writing documents not in RST format"
-msgstr ""
+msgstr "Написання документів не у форматі RST"
 
 #: ../../contribute/documentation.rst:192
 msgid ""
@@ -6477,10 +6502,15 @@ msgid ""
 "be able to help you revise your draft and write the required "
 "ReStructuredText."
 msgstr ""
+"Якщо Ви хочете скласти документи для UBports, але Вам не зручно писати у "
+"форматі ReStructuredText, напишіть текст без форматування та розмістіть його "
+"у `форумі UBports`_ у відповідному розділі (можливо у Загальному). Хтось "
+"зможе допомогти Вам перевірити Вашу чернетку та написати потрібний текст у "
+"форматі ReStructuredText."
 
 #: ../../contribute/documentation.rst:195
 msgid "Uncomfortable with Git"
-msgstr ""
+msgstr "Незручності з Git"
 
 #: ../../contribute/documentation.rst:197
 msgid ""
@@ -6489,24 +6519,31 @@ msgid ""
 "the relevant section (likely General). Someone will be able to help you "
 "revise your draft and submit it to this documentation."
 msgstr ""
+"Якщо Ви склали повний документ у форматі ReStructuredText, але не почуваєте "
+"себе впевнено з Git чи GitLab, розмістіть його, будь ласка, у `форумі "
+"UBports`_ у відповідному розділі (ймовірно у Загальному). Хтось зможе "
+"допомогти Вам перевірити Вашу чернетку та пропустити її далі для долучення "
+"до цієї документації."
 
 #: ../../contribute/documentation.rst:200
 msgid "Current TODOs"
-msgstr ""
+msgstr "Поточні завдання"
 
 #: ../../contribute/documentation.rst:202
 msgid ""
 "This section lists the TODOs that have been included in this documentation. "
 "If you know how to fix one, please send us a merge request to make it better!"
 msgstr ""
+"Цей розділ містить завдання, долучені до цієї документації. Якщо знаєте як "
+"щось виправити, надішліть, будь ласка, нам для удосконалення запит на злиття!"
 
 #: ../../contribute/documentation.rst:204
 msgid "To create a todo, add this markup to your page::"
-msgstr ""
+msgstr "Для створення завдання, додайте такий блок до сторінки:"
 
 #: ../../contribute/documentation.rst:213
 msgid "ReadTheDocs hosting"
-msgstr ""
+msgstr "Хостінг ReadTheDocs"
 
 #: ../../contribute/documentation.rst:215
 msgid ""
@@ -6518,10 +6555,17 @@ msgid ""
 "with manual import and set the language appropriately. Afterwards add this "
 "as a translation in the Admin page of the main project."
 msgstr ""
+"На справді `вебсайт документації <https://docs.ubports.com>`_  зібраний та "
+"розміщений для нас проєктом `Read The Docs <https://readthedocs.org>`_. Наша "
+"інсталяція RTD містить один головний проєкт для англійської та один "
+"додатковий проєкт на кожну мову, додану як переклад головного проєкту. Якщо "
+"Ви супроводжуєте проєкт та хочете додати мову, створіть для початку новий "
+"проєкт ручним імпортуванням та встановіть відповідну мову. На завершення "
+"додайте цей переклад на адмінській сторінці головного проєкту."
 
 #: ../../contribute/index.rst:2
 msgid "Contributing to UBports"
-msgstr ""
+msgstr "Додавання внесків до UBports"
 
 #: ../../contribute/index.rst:4
 msgid ""
@@ -6529,6 +6573,9 @@ msgid ""
 "pages you'll find below here will help you do this in a way that's helpful "
 "to both the project and yourself."
 msgstr ""
+"Ласкаво просимо! Можливо Ви тут для того, щоб удосконалити UBports. Нижче Ви "
+"знайдете сторінки, які Вам допоможуть це зробити у найкращий спосіб як для "
+"проєкту, так і для Вас."
 
 #: ../../contribute/index.rst:6
 msgid ""
@@ -6536,16 +6583,21 @@ msgid ""
 "reporting <bugreporting>`. If you are multilingual, :doc:`translations "
 "<translations>` are also a great place to start."
 msgstr ""
+"Якщо Ви лише починаєте, нам завжди потрібна допомога з :doc:`thorough bug "
+"reporting <bugreporting>`. Якщо Ви знаєте декілька мов, :doc:`translations "
+"<translations>` буде також гарним місцем для старту."
 
 #: ../../contribute/index.rst:8
 msgid ""
 "If those aren't enough for you, see `our contribute page <https://"
 "ubports.com/community-center>`_ for an introduction of our focus groups."
 msgstr ""
+"Якщо Вам цього буде мало, ознайомтеся з фокус-групами на `нашій сторінці "
+"співпраці <https://ubports.com/community-center>`_."
 
 #: ../../contribute/monetary.rst:2
 msgid "Monetary support"
-msgstr ""
+msgstr "Фінансова підтримка"
 
 #: ../../contribute/monetary.rst:4
 msgid ""
@@ -6553,26 +6605,33 @@ msgid ""
 "`Liberapay <https://liberapay.com/UBports/>`_ or `Patreon <https://"
 "www.patreon.com/ubports>`_!"
 msgstr ""
+"Ви можете нам допомогти тримати світло над UBports ставши спонсором через `"
+"Liberapay <https://liberapay.com/UBports/>`_ або `Patreon <https://"
+"www.patreon.com/ubports>`_!"
 
 #: ../../contribute/monetary.rst:6
 msgid ""
 "Your contribution finances our server infrastructure and debug services, and "
 "helps covering additional costs."
 msgstr ""
+"Ваша фінансова участь буде направлена на підтримку нашої серверної "
+"інфраструктури, служби підтримки та допоможе покрити додаткові витрати."
 
 #: ../../contribute/preinstalled-apps.rst:4
 msgid "Preinstalled apps"
-msgstr ""
+msgstr "Попередньо встановлені програми"
 
 #: ../../contribute/preinstalled-apps.rst:6
 msgid ""
 "This page will help you get started with developing the apps which are "
 "included with Ubuntu Touch."
 msgstr ""
+"Ця сторінка допоможе Вам почати розробку програм, які включені до Ubuntu "
+"Touch."
 
 #: ../../contribute/preinstalled-apps.rst:9
 msgid "Core apps"
-msgstr ""
+msgstr "Ключові програми"
 
 #: ../../contribute/preinstalled-apps.rst:11
 msgid ""
