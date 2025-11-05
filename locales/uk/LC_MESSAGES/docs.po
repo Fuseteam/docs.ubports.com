@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-03 16:49+0000\n"
-"PO-Revision-Date: 2025-11-04 23:51+0000\n"
+"PO-Revision-Date: 2025-11-06 00:51+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/uk/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural="
 "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -6641,99 +6641,105 @@ msgid ""
 "`Clickable`_, an easy to use build and test system for Ubuntu Touch apps. "
 "Most core apps can even be built and run without an Ubuntu Touch device!"
 msgstr ""
+"Ключові чи основні програми, включені до дистрибутивів UBports від Ubuntu "
+"Touch **та** розміщені для оновлення в OpenStore. Ці програми є гарним "
+"досвідом \"першої розробки\" в UBports. Багато з них зроблені за допомогою "
+"`Clickable`_, легкою у користуванні системою для створення та тестування "
+"програм Ubuntu Touch. Більшість основних програм можуть бути створені та "
+"запущені навіть без пристрою Ubuntu Touch!"
 
 #: ../../contribute/preinstalled-apps.rst:14
 msgid "Which core apps currently exist?"
-msgstr ""
+msgstr "Які ключові програми вже існують?"
 
 #: ../../contribute/preinstalled-apps.rst:16
 msgid "A full list of the Ubuntu Touch core apps follows."
-msgstr ""
+msgstr "Нижче повний список головних програм Ubuntu Touch."
 
 #: ../../contribute/preinstalled-apps.rst:23
 msgid "Application Name"
-msgstr ""
+msgstr "Назва програми"
 
 #: ../../contribute/preinstalled-apps.rst:23
 msgid "Store page"
-msgstr ""
+msgstr "Сторінка в OpenStore"
 
 #: ../../contribute/preinstalled-apps.rst:23
 msgid "Code repository"
-msgstr ""
+msgstr "Репозиторій з кодом"
 
 #: ../../contribute/preinstalled-apps.rst:25
 msgid "Calculator"
-msgstr ""
+msgstr "Калькулятор"
 
 #: ../../contribute/preinstalled-apps.rst:25
 msgid "`Calculator on OpenStore`_"
-msgstr ""
+msgstr "`Калькулятор в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:25
 msgid "`calculator-app on GitLab`_"
-msgstr ""
+msgstr "`calculator-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:26
 msgid "Calendar"
-msgstr ""
+msgstr "Календар"
 
 #: ../../contribute/preinstalled-apps.rst:26
 msgid "`Calendar on OpenStore`_"
-msgstr ""
+msgstr "`Календар в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:26
 msgid "`calendar-app on GitLab`_"
-msgstr ""
+msgstr "`calendar-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:27
 msgid "Clock"
-msgstr ""
+msgstr "Годинник"
 
 #: ../../contribute/preinstalled-apps.rst:27
 msgid "`Clock on OpenStore`_"
-msgstr ""
+msgstr "`Годинник в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:27
 msgid "`clock-app on GitLab`_"
-msgstr ""
+msgstr "`clock-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:28
 msgid "File Manager"
-msgstr ""
+msgstr "Файловий менеджер"
 
 #: ../../contribute/preinstalled-apps.rst:28
 msgid "`File Manager on OpenStore`_"
-msgstr ""
+msgstr "`Файловий менеджер в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:28
 msgid "`filemanager-app on GitLab`_"
-msgstr ""
+msgstr "`filemanager-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:29
 msgid "Gallery"
-msgstr ""
+msgstr "Галерея"
 
 #: ../../contribute/preinstalled-apps.rst:29
 msgid "`Gallery on OpenStore`_"
-msgstr ""
+msgstr "`Галерея в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:29
 msgid "`gallery-app on GitLab`_"
-msgstr ""
+msgstr "`gallery-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:30
 #: ../../userguide/dailyuse/libertine.rst:116
 msgid "Music"
-msgstr ""
+msgstr "Музика"
 
 #: ../../contribute/preinstalled-apps.rst:30
 msgid "`Music on OpenStore`_"
-msgstr ""
+msgstr "`Музика в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:30
 msgid "`music-app on GitLab`_"
-msgstr ""
+msgstr "`music-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:31
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:31
@@ -6754,51 +6760,51 @@ msgstr "OpenStore"
 
 #: ../../contribute/preinstalled-apps.rst:32
 msgid "`OpenStore... on OpenStore`_"
-msgstr ""
+msgstr "`OpenStore... в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:32
 msgid "`openstore-app on GitLab`_"
-msgstr ""
+msgstr "`openstore-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:33
 msgid "Terminal"
-msgstr ""
+msgstr "Термінал"
 
 #: ../../contribute/preinstalled-apps.rst:33
 msgid "`Terminal on OpenStore`_"
-msgstr ""
+msgstr "`Термінал в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:33
 msgid "`terminal-app on GitLab`_"
-msgstr ""
+msgstr "`terminal-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:34
 msgid "UBports Welcome"
-msgstr ""
+msgstr "Вітання UBports"
 
 #: ../../contribute/preinstalled-apps.rst:34
 msgid "`UBports Welcome on OpenStore`_"
-msgstr ""
+msgstr "`Вітання UBports в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:34
 msgid "`ubports-app on GitLab`_"
-msgstr ""
+msgstr "`ubports-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:35
 msgid "Weather"
-msgstr ""
+msgstr "Погода"
 
 #: ../../contribute/preinstalled-apps.rst:35
 msgid "`Weather on OpenStore`_"
-msgstr ""
+msgstr "`Погода в OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:35
 msgid "`weather-app on GitLab`_"
-msgstr ""
+msgstr "`weather-app у GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:39
 msgid "Other preinstalled apps"
-msgstr ""
+msgstr "Інші встановлені наперед програми"
 
 #: ../../contribute/preinstalled-apps.rst:41
 msgid ""
@@ -6807,54 +6813,62 @@ msgid ""
 "the system because they use many system services which do not necessarily "
 "have a stable API."
 msgstr ""
+"Наступні програми попередньо встановлені в Ubuntu Touch, але не вважаються "
+"основними. У більшості випадків ці проєкти потрібно оновлювати разом із "
+"системою, оскільки вони використовують різні системні служби, які можуть не "
+"мати стабільний API."
 
 #: ../../contribute/preinstalled-apps.rst:43
 msgid ""
 "These apps may be more difficult to work with, but their repository should "
 "contain a document stating how to build and run them on a device."
 msgstr ""
+"З цими програмами може бути складно працювати, але їх репозиторії повинні "
+"мати документ з описом як збирати та запускати їх на пристрої."
 
 #: ../../contribute/preinstalled-apps.rst:47
 msgid "Browser (`morph-browser on GitLab`_)"
-msgstr ""
+msgstr "Браузер (`morph-browser у GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:48
 msgid "Contacts (`address-book-app on GitLab`_)"
-msgstr ""
+msgstr "Контакти (`address-book-app у GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:49
 msgid "Camera (`camera-app on GitLab`_)"
-msgstr ""
+msgstr "Камера (`camera-app у GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:50
 msgid "External Drives (`ciborium on GitLab`_)"
-msgstr ""
+msgstr "Зовнішні диски (`ciborium у GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:51
 msgid "Media Player (`mediaplayer-app on GitLab`_)"
-msgstr ""
+msgstr "Медіаплеєр (`mediaplayer-app у GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:52
 msgid "Messaging (`messaging-app on GitLab`_)"
-msgstr ""
+msgstr "Повідомлення (`messaging-app у GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:53
 msgid "Phone (`dialer-app on GitLab`_)"
-msgstr ""
+msgstr "Телефон (`dialer-app у GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:54
 msgid "System Settings (`system-settings on GitLab`_)"
-msgstr ""
+msgstr "Системні налаштування (`system-settings у GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:56
 msgid ""
 "Instructions for contributing to these applications can be found in their "
 "respective repositories."
 msgstr ""
+"Настанови щодо участі у цих програмах можна знайти у відповідних для них "
+"репозиторіях."
 
 #: ../../contribute/quality-assurance.rst:2
 msgid "Quality Assurance"
-msgstr ""
+msgstr "Перевірка якості (QA)"
 
 #: ../../contribute/quality-assurance.rst:4
 msgid ""
@@ -6864,10 +6878,16 @@ msgid ""
 "to better understand the workflow. For real-time communication, you can join "
 "our `telegram group <http://t.me/ubports_qa_team>`_."
 msgstr ""
+"Ця сторінка пояснює як можна допомогти команді UBports QA як офіційний "
+"учасник чи як новий співрозробник. Ознайомтеся, будь ласка, для кращого "
+"розуміння з настановами щодо :doc:`журналу недоліків </about/process/issue-"
+"tracking>` та :doc:`звітів про помилки <bugreporting>`. Для спілкування у "
+"реальному часі Ви можете долучитися до нашої `групи в Телеграм <http://t.me/"
+"ubports_qa_team>`_."
 
 #: ../../contribute/quality-assurance.rst:7
 msgid "Smoke testing"
-msgstr ""
+msgstr "Димове тестування (smoke testing)"
 
 #: ../../contribute/quality-assurance.rst:9
 msgid ""
@@ -6878,10 +6898,16 @@ msgid ""
 "usually run on all devices before a new release to make sure no new issues "
 "were introduced."
 msgstr ""
+"Для перевірки ключового функціоналу операційної системи ми створили `набір "
+"стандартизованих тестів <https://gitlab.com/ubports/teams/qa/"
+"project-management/raw/master/QA-Plan-Template.ots>`_. Виконайте ці тести на "
+"своїх пристроях для :doc:`пошуку та звітування про помилки та регресію "
+"<bugreporting>`. Зазвичай це запускається на усіх пристроях до нового "
+"випуску для переконання, що відсутні нові проблеми."
 
 #: ../../contribute/quality-assurance.rst:12
 msgid "Confirming bug reports"
-msgstr ""
+msgstr "Підтвердження повідомлень про помилки"
 
 #: ../../contribute/quality-assurance.rst:14
 msgid ""
@@ -6894,6 +6920,14 @@ msgid ""
 "comment stating your device, channel, build number and whether or not you "
 "were able to reproduce the issue."
 msgstr ""
+"Непідтверджені багрепорти позначаються міткою **вимагає підтвердження** для "
+"активації `глобальної фільтрації <https://gitlab.com/groups/ubports/-/issues/"
+"?sort=created_date&state=opened&or%5Blabel_name%5D%5B%5D=need%20confirmation&or%5Blabel_name%5D%5B%5D=needs%20confirmation&first_page_size=20>`"
+"__. Перегляньте список, прочитайте звіти про помилки та спробуйте відтворити "
+"описані проблеми. Якщо необхідно, додайте :doc:`відсутню інформацію або "
+"журнали, або удоскональте якість звіту іншими деталями <bugreporting>`. "
+"Залиште коментар з назвою пристрою на початку, каналом, номером збірки та чи "
+"вийшло у Вас відтворити описану проблему."
 
 #: ../../contribute/quality-assurance.rst:16
 msgid ""
