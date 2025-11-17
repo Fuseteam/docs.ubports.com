@@ -38,22 +38,21 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-03 16:49+0000\n"
-"PO-Revision-Date: 2025-09-19 13:55+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/ca/>\n"
+"PO-Revision-Date: 2025-11-18 18:51+0000\n"
+"Last-Translator: Bernat <correu@bernatespinas.com>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
-#, fuzzy
 msgid "Introduction"
-msgstr "Atribució"
+msgstr "Introducció"
 
 #: ../../about/introduction.rst:4
 msgid ""
@@ -66,19 +65,17 @@ msgid "About UBports"
 msgstr "Quant al UBports"
 
 #: ../../about/introduction.rst:9
-#, fuzzy
 msgid ""
 "The project was founded by Marius Gripsgard in 2015 and in its infancy a "
 "place where developers could share ideas and educate each other in hopes of "
 "bringing the Ubuntu Touch platform to more mobile devices."
 msgstr ""
-"El projecte UBports va ser creat pel Marius Gripsgard en 2015 i, durant la "
-"seva primera fase, era un lloc on els desenvolupadors podien compartir idees "
-"i formació amb la il·lusió de portar la plataforma Ubuntu Touch a cada cop "
-"més dispositius."
+"El projecte UBports va ser creat per en Marius Gripsgard el 2015 i, durant "
+"la seva primera fase, era un lloc on els desenvolupadors podien compartir "
+"idees i formar-se mútuament amb l'objectiu de portar la plataforma Ubuntu "
+"Touch a més dispositius mòbils."
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -87,11 +84,13 @@ msgid ""
 "possibilities for the future. Today, UBports is a volunteer group, "
 "formalised as a charitable foundation."
 msgstr ""
-"Després que Canonical va anunciar de sobte `el seu plan d'acabar el suport a "
-"l'Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-"
-"cloud-and-iot-rather-than-phone-and-convergence/>`_ a l'abril de 2017, "
-"l'UBports i els seus projectes germans van començar a treballar sobre el "
-"codi obert, a mantenir-lo i a ampliar les seves possibilitats per al futur."
+"Després que Canonical anunciés sobtadament `el seu pla de finalitzar el "
+"suport a Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/"
+"growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/>`_ "
+"l'abril del 2017, UBports i els seus projectes germans van començar a "
+"treballar en el codi font, mantenint i ampliant les seves possibilitats per "
+"al futur. Avui, UBports és un grup de voluntaris, formalitzat com a fundació "
+"benèfica."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
@@ -115,15 +114,15 @@ msgstr ""
 "llegint la :doc:`Introducció a la documentació </contribute/documentation>`."
 
 #: ../../about/introduction.rst:18
-#, fuzzy
 msgid ""
 "All documents are licensed Creative Commons Attribution ShareAlike 4.0 (`CC-"
 "BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Please give "
 "attribution to \"The UBports Community\"."
 msgstr ""
 "Tots els documents tenen la llicència Creative Commons Attribution "
-"ShareAlike 4.0 (`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/"
-"4.0/>`). Si us plau feu l'atribució de crèdit a «The UBports Community»."
+"ShareAlike 4.0 "
+"(`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_). Si us "
+"plau, atribuïu-ho a \"The UBports Community\"."
 
 #: ../../about/introduction.rst:21
 msgid "Attribution"
