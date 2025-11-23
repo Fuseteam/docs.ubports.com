@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-09-19 13:55+0000\n"
-"Last-Translator: Rondy Andersson <rondarius@gmail.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/doc-"
-"ubports-com/sv/>\n"
+"PO-Revision-Date: 2025-11-24 15:51+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
+"doc-ubports-com/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -1939,7 +1939,7 @@ msgstr "Typ"
 
 #: ../../appdev/guides/pushnotifications.rst:172
 msgid "appid"
-msgstr ""
+msgstr "app-ID"
 
 #: ../../appdev/guides/pushnotifications.rst:172
 #: ../../appdev/guides/pushnotifications.rst:175
@@ -2170,7 +2170,7 @@ msgstr "åtgärder"
 #: ../../appdev/guides/pushnotifications.rst:237
 #: ../../appdev/guides/pushnotifications.rst:263
 msgid "array"
-msgstr ""
+msgstr "matriser"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If empty (the default), a bubble notification is"
@@ -2293,7 +2293,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "visible"
-msgstr ""
+msgstr "synligt"
 
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "Set to true to show the counter, or false to hide it."
@@ -3078,7 +3078,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:153
 msgid "keep-display-on"
-msgstr ""
+msgstr "behåll skärmen på"
 
 #: ../../appdev/platform/apparmor.rst:155
 msgid "Description: Can request keeping the screen on"
@@ -3106,7 +3106,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:179
 msgid "music_files"
-msgstr ""
+msgstr "musik_filer"
 
 #: ../../appdev/platform/apparmor.rst:181
 msgid ""
@@ -3169,7 +3169,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:219
 msgid "picture_files"
-msgstr ""
+msgstr "bild_filer"
 
 #: ../../appdev/platform/apparmor.rst:221
 msgid ""
@@ -3248,7 +3248,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:275
 msgid "video_files"
-msgstr ""
+msgstr "video_filer"
 
 #: ../../appdev/platform/apparmor.rst:277
 msgid ""
@@ -6676,15 +6676,15 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "Desktop"
-msgstr ""
+msgstr "Skrivbord"
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "Tablet"
-msgstr ""
+msgstr "Surfplatta"
 
 #: ../../humanguide/design-concepts/typography.rst:20
 msgid "4\" HD Screen"
@@ -6696,11 +6696,11 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/typography.rst:23
 msgid "x-small"
-msgstr ""
+msgstr "x-liten"
 
 #: ../../humanguide/design-concepts/typography.rst:23
 msgid "1.25"
-msgstr ""
+msgstr "1.25"
 
 #: ../../humanguide/design-concepts/typography.rst:23
 msgid "10 px"
@@ -6717,12 +6717,12 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/typography.rst:25
 msgid "small"
-msgstr ""
+msgstr "liten"
 
 #: ../../humanguide/design-concepts/typography.rst:25
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: ../../humanguide/design-concepts/typography.rst:25
 msgid "27 px"
@@ -6734,11 +6734,11 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/typography.rst:27
 msgid "medium"
-msgstr ""
+msgstr "medium"
 
 #: ../../humanguide/design-concepts/typography.rst:27
 msgid "1.75"
-msgstr ""
+msgstr "1.75"
 
 #: ../../humanguide/design-concepts/typography.rst:27
 msgid "14 px"
@@ -6754,13 +6754,13 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/typography.rst:29
 msgid "large"
-msgstr ""
+msgstr "stor"
 
 #: ../../humanguide/design-concepts/typography.rst:29
 #: ../../porting/configure_test_fix/Display.rst:49
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: ../../humanguide/design-concepts/typography.rst:29
 msgid "20 px"
@@ -6776,11 +6776,11 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/typography.rst:31
 msgid "x-large"
-msgstr ""
+msgstr "x-stor"
 
 #: ../../humanguide/design-concepts/typography.rst:31
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: ../../humanguide/design-concepts/typography.rst:31
 msgid "28 px"
@@ -6796,7 +6796,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/units.rst:2
 msgid "Units"
-msgstr ""
+msgstr "Enheter"
 
 #: ../../humanguide/design-concepts/units.rst:5
 msgid "Resolution Independence Approach"
@@ -6886,7 +6886,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/units.rst:39
 msgid "Use"
-msgstr ""
+msgstr "Använd"
 
 #: ../../humanguide/design-concepts/units.rst:49
 msgid "Device Sizes"
@@ -6898,11 +6898,11 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/units.rst:52
 msgid "width"
-msgstr ""
+msgstr "bredd"
 
 #: ../../humanguide/design-concepts/units.rst:52
 msgid "height"
-msgstr ""
+msgstr "höjd"
 
 #: ../../humanguide/design-concepts/units.rst:54
 msgid "E5 (portrait)"
@@ -6910,11 +6910,11 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/units.rst:54
 msgid "42"
-msgstr ""
+msgstr "42"
 
 #: ../../humanguide/design-concepts/units.rst:54
 msgid "72"
-msgstr ""
+msgstr "72"
 
 #: ../../humanguide/design-concepts/units.rst:56
 msgid "M10 HD (landscape)"
@@ -6922,11 +6922,11 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/units.rst:56
 msgid "160"
-msgstr ""
+msgstr "160"
 
 #: ../../humanguide/design-concepts/units.rst:56
 msgid "97"
-msgstr ""
+msgstr "97"
 
 #: ../../humanguide/design-concepts/units.rst:58
 msgid "M10 FHD (landscape)"
@@ -6934,11 +6934,11 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/units.rst:58
 msgid "148"
-msgstr ""
+msgstr "148"
 
 #: ../../humanguide/design-concepts/units.rst:58
 msgid "89"
-msgstr ""
+msgstr "89"
 
 #: ../../humanguide/design-concepts/units.rst:60
 msgid "N5 (portrait)"
@@ -6946,11 +6946,11 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/units.rst:60
 msgid "47"
-msgstr ""
+msgstr "47"
 
 #: ../../humanguide/design-concepts/units.rst:60
 msgid "80"
-msgstr ""
+msgstr "80"
 
 #: ../../humanguide/index.rst:2
 msgid "Human interface guidelines"
@@ -7054,7 +7054,7 @@ msgstr ""
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:2
 msgid "Accessibility"
-msgstr ""
+msgstr "Tillgänglighet"
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:4
 msgid ""
@@ -7774,39 +7774,39 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_DEVTMPFS=y"
-msgstr ""
+msgstr "CONFIG_DEVTMPFS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_FHANDLE=y"
-msgstr ""
+msgstr "CONFIG_FHANDLE=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_SYSVIPC=y"
-msgstr ""
+msgstr "CONFIG_SYSVIPC=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_IPC_NS=y"
-msgstr ""
+msgstr "CONFIG_IPC_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_NET_NS=y"
-msgstr ""
+msgstr "CONFIG_NET_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_PID_NS=y"
-msgstr ""
+msgstr "CONFIG_PID_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_USER_NS=y"
-msgstr ""
+msgstr "CONFIG_USER_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_UTS_NS=y"
-msgstr ""
+msgstr "CONFIG_UTS_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_VT=y"
-msgstr ""
+msgstr "CONFIG_VT=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:99
 msgid ""
@@ -8571,7 +8571,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:442
 msgid "``deviceinfo_flash_offset_dtb=\"0x47880000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_dtb=\"0x47880000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:445
 msgid ""
@@ -8581,7 +8581,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:447
 msgid "``deviceinfo_bootimg_os_version=\"10.0\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_os_version=\"10.0\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:450
 msgid "You'll want to put the \"os patch level\" value here."
@@ -8589,7 +8589,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:452
 msgid "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:455
 msgid ""
@@ -8599,7 +8599,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:457
 msgid "``deviceinfo_vendor_bootconfig_path=\"bootconfig\"``"
-msgstr ""
+msgstr "``deviceinfo_vendor_bootconfig_path=\"bootconfig\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:460
 msgid ""
@@ -8699,7 +8699,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Apparmor.rst:5
 msgid "AppArmor"
-msgstr ""
+msgstr "AppArmor"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:7
 msgid ""
@@ -8843,7 +8843,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Resolution"
-msgstr ""
+msgstr "Upplösning"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Display Size"
