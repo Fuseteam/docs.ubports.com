@@ -25,12 +25,14 @@ Part of the translation workflow is the update of the `.pot` file. This is the i
 
 ### Project status
 
+Build and translation status for all subprojects (languages) configured in ReadTheDocs.
+
 |Language              |Build status |Translation status |
 |----------------------|-------------|-------------------|
-|English               |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab/badge/?version=latest          )](https://docs.ubports.com/en   ) | |
 |Catalan               |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ca/badge/?version=latest       )](https://docs.ubports.com/ca   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/ca/svg-badge.svg   )](https://hosted.weblate.org/projects/ubports/doc-ubports-com/ca    ) |
 |Chinese - Simplified  |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-zh-cn/badge/?version=latest    )](https://docs.ubports.com/zh_CN) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/zh_CN/svg-badge.svg)](https://hosted.weblate.org/projects/ubports/doc-ubports-com/zh_CN ) |
 |Chinese - Traditional |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-zh-hant/badge/?version=latest  )](https://docs.ubports.com/zh_TW) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/zh_TW/svg-badge.svg)](https://hosted.weblate.org/projects/ubports/doc-ubports-com/zh_TW ) |
+|English               |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab/badge/?version=latest          )](https://docs.ubports.com/en   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/en/svg-badge.svg   )](https://hosted.weblate.org/projects/ubports/doc-ubports-com/en    ) |
 |French                |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-fr/badge/?version=latest       )](https://docs.ubports.com/fr   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/fr/svg-badge.svg   )](https://hosted.weblate.org/projects/ubports/doc-ubports-com/fr    ) |
 |Galician              |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-gl/badge/?version=latest       )](https://docs.ubports.com/gl   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/gl/svg-badge.svg   )](https://hosted.weblate.org/projects/ubports/doc-ubports-com/gl    ) |
 |German                |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-de/badge/?version=latest       )](https://docs.ubports.com/de   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/de/svg-badge.svg   )](https://hosted.weblate.org/projects/ubports/doc-ubports-com/de    ) |
@@ -39,6 +41,13 @@ Part of the translation workflow is the update of the `.pot` file. This is the i
 |Spanish               |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-es/badge/?version=latest       )](https://docs.ubports.com/es   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/es/svg-badge.svg   )](https://hosted.weblate.org/projects/ubports/doc-ubports-com/es    ) |
 |Tamil                 |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-ta/badge/?version=latest       )](https://docs.ubports.com/ta   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/ta/svg-badge.svg   )](https://hosted.weblate.org/projects/ubports/doc-ubports-com/ta    ) |
 |Ukrainian             |[![Documentation Status](https://readthedocs.org/projects/docsubportscom-gitlab-uk/badge/?version=latest       )](https://docs.ubports.com/uk   ) | [![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/uk/svg-badge.svg   )](https://hosted.weblate.org/projects/ubports/doc-ubports-com/uk    ) |
+
+#### Weblate status
+
+Translation status for all languages enabled in Weblate.
+
+[![Translation status](https://hosted.weblate.org/widget/ubports/doc-ubports-com/multi-auto.svg)](https://hosted.weblate.org/engage/ubports/)
+
 
 ### Update libraries
 
