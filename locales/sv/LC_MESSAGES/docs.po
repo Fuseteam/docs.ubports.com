@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-11-24 15:51+0000\n"
+"PO-Revision-Date: 2025-11-27 16:00+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/sv/>\n"
@@ -1359,9 +1359,8 @@ msgid ""
 msgstr ""
 
 #: ../../appdev/guides/dependencies.rst:95
-#, fuzzy
 msgid "Deployment"
-msgstr "Utveckling"
+msgstr "Utplacering"
 
 #: ../../appdev/guides/dependencies.rst:96
 msgid ""
@@ -2120,7 +2119,7 @@ msgstr "emblem-räknare"
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "Emblem-counter"
-msgstr ""
+msgstr "Emblem-räknare"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object, which defines how to display the emblem"
@@ -2228,7 +2227,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:250
 msgid "persist"
-msgstr ""
+msgstr "motstå"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Whether to show in notification centre; defaults to false."
@@ -2236,7 +2235,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:252
 msgid "popup"
-msgstr ""
+msgstr "popup"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Whether to show in a bubble. Users can disable this, and can"
@@ -2281,7 +2280,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:272
 msgid "Emblem-Counter"
-msgstr ""
+msgstr "Emblem-räknare"
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "count"
