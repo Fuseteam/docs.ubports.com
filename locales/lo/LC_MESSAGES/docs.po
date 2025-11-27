@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-11-27 16:01+0000\n"
+"PO-Revision-Date: 2025-11-28 17:00+0000\n"
 "Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/lo/>\n"
@@ -2994,6 +2994,7 @@ msgid "Description: Can access the network"
 msgstr "ຄຳອະທິບາຍ: ສາມາດເຂົ້າເຖິງເຄືອຂ່າຍ"
 
 #: ../../appdev/platform/apparmor.rst:205
+#, fuzzy
 msgid "The networking policy group allows an app to contact network devices and use the `download manager`_."
 msgstr ""
 "ກຸ່ມນະໂຍບາຍ networking ອະນຸຍາດໃຫ້ແອັບຕິດຕໍ່ກັບອຸປະກອນເຄືອຂ່າຍ ແລະ ໃຊ້ `download manager`_ "
@@ -3065,6 +3066,7 @@ msgid "Description: Can access the sensors"
 msgstr "ຄຳອະທິບາຍ: ສາມາດເຂົ້າເຖິງເຊັນເຊີ"
 
 #: ../../appdev/platform/apparmor.rst:253
+#, fuzzy
 msgid "Allows apps to access `device sensors`_"
 msgstr "ອະນຸຍາດໃຫ້ແອັບເຂົ້າເຖິງ `device sensors`_ (ເຊັນເຊີອຸປະກອນ)"
 
@@ -3132,6 +3134,7 @@ msgid "Description: Can use the UbuntuWebview"
 msgstr "ຄຳອະທິບາຍ: ສາມາດໃຊ້ UbuntuWebview"
 
 #: ../../appdev/platform/apparmor.rst:301
+#, fuzzy
 msgid "The webview policy group allows apps to embed a `web browser view`_."
 msgstr ""
 "ກຸ່ມນະໂຍບາຍ webview ອະນຸຍາດໃຫ້ແອັບຝັງ `web browser view`_ (ມຸມມອງເວັບບຣາວເຊີ)."
