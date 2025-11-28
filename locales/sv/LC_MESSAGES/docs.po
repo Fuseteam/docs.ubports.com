@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-11-27 16:00+0000\n"
+"PO-Revision-Date: 2025-11-28 17:00+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/sv/>\n"
@@ -4830,7 +4830,7 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:68
 msgid "Headings"
-msgstr ""
+msgstr "Rubriker"
 
 #: ../../contribute/documentation.rst:70
 msgid ""
@@ -5813,7 +5813,7 @@ msgstr ""
 
 #: ../../humanguide/app-layout/app-main-view.rst:11
 msgid "Header"
-msgstr ""
+msgstr "Rubrik"
 
 #: ../../humanguide/app-layout/app-main-view.rst:13
 msgid "Display app name, leading area and trailing area icons."
