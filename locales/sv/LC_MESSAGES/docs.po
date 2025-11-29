@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-11-28 17:00+0000\n"
+"PO-Revision-Date: 2025-11-30 20:00+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
 "doc-ubports-com/sv/>\n"
@@ -2989,7 +2989,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:98
 msgid "content_exchange"
-msgstr ""
+msgstr "content_exchange"
 
 #: ../../appdev/platform/apparmor.rst:100
 msgid "Description: Can request/import data from other applications"
@@ -3003,7 +3003,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:108
 msgid "content_exchange_source"
-msgstr ""
+msgstr "content_exchange_source"
 
 #: ../../appdev/platform/apparmor.rst:110
 msgid "Description: Can provide/export data to other applications"
@@ -3030,7 +3030,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:126
 msgid "document_files"
-msgstr ""
+msgstr "document_files"
 
 #: ../../appdev/platform/apparmor.rst:128
 msgid ""
@@ -3048,7 +3048,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:135
 msgid "document_files_read"
-msgstr ""
+msgstr "document_files_read"
 
 #: ../../appdev/platform/apparmor.rst:137
 msgid ""
@@ -3123,7 +3123,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:189
 msgid "music_files_read"
-msgstr ""
+msgstr "music_files_read"
 
 #: ../../appdev/platform/apparmor.rst:191
 msgid ""
@@ -3140,7 +3140,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:199
 msgid "networking"
-msgstr ""
+msgstr "nätverk"
 
 #: ../../appdev/platform/apparmor.rst:201
 msgid "Description: Can access the network"
@@ -3186,7 +3186,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:229
 msgid "picture_files_read"
-msgstr ""
+msgstr "picture_files_read"
 
 #: ../../appdev/platform/apparmor.rst:231
 msgid ""
@@ -3204,7 +3204,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:239
 msgid "push-notification-client"
-msgstr ""
+msgstr "push-notification-client"
 
 #: ../../appdev/platform/apparmor.rst:241
 msgid "Description: Can use push notifications as a client"
@@ -3265,7 +3265,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:285
 msgid "video_files_read"
-msgstr ""
+msgstr "video_files_read"
 
 #: ../../appdev/platform/apparmor.rst:287
 msgid ""
@@ -6646,11 +6646,11 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/typography.rst:2
 msgid "Typography"
-msgstr ""
+msgstr "Typografi"
 
 #: ../../humanguide/design-concepts/typography.rst:5
 msgid "Fonts"
-msgstr ""
+msgstr "Typsnitt"
 
 #: ../../humanguide/design-concepts/typography.rst:7
 msgid ""
@@ -6833,11 +6833,11 @@ msgstr ""
 #: ../../humanguide/design-concepts/units.rst:18
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Device"
-msgstr ""
+msgstr "Enhet"
 
 #: ../../humanguide/design-concepts/units.rst:18
 msgid "Conversion"
-msgstr ""
+msgstr "Konvertering"
 
 #: ../../humanguide/design-concepts/units.rst:20
 msgid "Most laptops"
@@ -7012,7 +7012,7 @@ msgstr ""
 
 #: ../../humanguide/index.rst:29
 msgid "Origami"
-msgstr ""
+msgstr "Origami"
 
 #: ../../humanguide/index.rst:33
 msgid ""
@@ -8053,7 +8053,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:209
 msgid "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
-msgstr ""
+msgstr "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:212
 msgid ""
@@ -8064,7 +8064,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:214
 msgid "``deviceinfo_bootimg_prebuilt_dt=\"exynos8890-dt.img\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_prebuilt_dt=\"exynos8890-dt.img\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:217
 msgid ""
@@ -8075,7 +8075,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:219
 msgid "``deviceinfo_prebuilt_dtbo=\"angelica-dtbo.img\"``"
-msgstr ""
+msgstr "``deviceinfo_prebuilt_dtbo=\"angelica-dtbo.img\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:222
 msgid ""
@@ -8086,7 +8086,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:224
 msgid "``deviceinfo_skip_dtbo_partition=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_skip_dtbo_partition=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:227
 msgid ""
@@ -8114,7 +8114,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:235
 msgid "``deviceinfo_bootimg_board=\"EXYNOS4412\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_board=\"EXYNOS4412\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:238
 msgid ""
@@ -8126,7 +8126,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:240
 msgid "``deviceinfo_bootimg_partition_size=\"67713847\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_partition_size=\"67713847\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:243
 msgid ""
@@ -8137,7 +8137,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:245
 msgid "``deviceinfo_bootimg_append_vbmeta=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_append_vbmeta=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:248
 msgid ""
@@ -8150,7 +8150,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:250
 msgid "``deviceinfo_has_recovery_partition=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_has_recovery_partition=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:253
 msgid ""
@@ -8161,7 +8161,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:255
 msgid "``deviceinfo_recovery_partition_size=\"67713847\"``"
-msgstr ""
+msgstr "``deviceinfo_recovery_partition_size=\"67713847\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:258
 msgid ""
@@ -8175,7 +8175,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:260
 msgid "``deviceinfo_bootimg_tailtype=\"SEAndroid\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_tailtype=\"SEAndroid\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:263
 msgid ""
@@ -8188,7 +8188,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:265
 msgid "``deviceinfo_kernel_disable_modules=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_disable_modules=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:268
 msgid ""
@@ -8200,7 +8200,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:270
 msgid "``deviceinfo_use_overlaystore=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_use_overlaystore=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:273
 msgid ""
@@ -8211,7 +8211,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:275
 msgid "``deviceinfo_kernel_apply_overlay=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_apply_overlay=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:278
 msgid ""
@@ -8222,7 +8222,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:280
 msgid "``deviceinfo_system_partition_size=\"4000M\"``"
-msgstr ""
+msgstr "``deviceinfo_system_partition_size=\"4000M\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:283
 msgid ""
@@ -8231,7 +8231,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:285
 msgid "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
-msgstr ""
+msgstr "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:288
 msgid ""
@@ -8520,7 +8520,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:412
 msgid "``deviceinfo_flash_pagesize=\"2048\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_pagesize=\"2048\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:415
 msgid "Base offset will always remain 0x00000000."
@@ -8528,7 +8528,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:417
 msgid "``deviceinfo_flash_offset_base=\"0x00000000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_base=\"0x00000000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:420
 msgid "Fill this in from \"kernel load address\"."
@@ -8536,7 +8536,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:422
 msgid "``deviceinfo_flash_offset_kernel=\"0x40080000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_kernel=\"0x40080000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:425
 msgid "This gets its value from \"ramdisk load address\"."
@@ -8544,7 +8544,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:427
 msgid "``deviceinfo_flash_offset_ramdisk=\"0x51b00000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_ramdisk=\"0x51b00000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:430
 msgid ""
@@ -8554,7 +8554,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:432
 msgid "``deviceinfo_flash_offset_second=\"0xc0ff0000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_second=\"0xc0ff0000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:435
 msgid "Tags should be filled in from \"kernel tags load address\"."
@@ -8562,7 +8562,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:437
 msgid "``deviceinfo_flash_offset_tags=\"0x47880000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_tags=\"0x47880000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:440
 msgid "DTB offset comes from \"dtb load address\"."
@@ -8662,7 +8662,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:15
 msgid "images/"
-msgstr ""
+msgstr "images/"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:16
 msgid "├── boot.img"
@@ -8850,11 +8850,11 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "PPI"
-msgstr ""
+msgstr "PPI"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Px/GU"
-msgstr ""
+msgstr "Px/GU"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "QtWebKit DPR"
@@ -8867,19 +8867,19 @@ msgstr ""
 #: ../../porting/configure_test_fix/Display.rst:43
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: ../../porting/configure_test_fix/Display.rst:43
 msgid "96-150"
-msgstr ""
+msgstr "96-150"
 
 #: ../../porting/configure_test_fix/Display.rst:43
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../porting/configure_test_fix/Display.rst:43
 msgid "1.0"
-msgstr ""
+msgstr "1.0"
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "ASUS Nexus 7"
@@ -8887,26 +8887,26 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "1280x800"
-msgstr ""
+msgstr "1280x800"
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "7\""
-msgstr ""
+msgstr "7\""
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "216"
-msgstr ""
+msgstr "216"
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../porting/configure_test_fix/Display.rst:44
 #: ../../porting/configure_test_fix/Display.rst:46
 #: ../../porting/configure_test_fix/Display.rst:47
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "2.0"
-msgstr ""
+msgstr "2.0"
 
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "'High' density laptop"
@@ -8914,11 +8914,11 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "150-250"
-msgstr ""
+msgstr "150-250"
 
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: ../../porting/configure_test_fix/Display.rst:46
 msgid "Samsung Galaxy Nexus"
@@ -8926,20 +8926,20 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:46
 msgid "1280x720"
-msgstr ""
+msgstr "1280x720"
 
 #: ../../porting/configure_test_fix/Display.rst:46
 msgid "4.65\""
-msgstr ""
+msgstr "4.65\""
 
 #: ../../porting/configure_test_fix/Display.rst:46
 msgid "316"
-msgstr ""
+msgstr "316"
 
 #: ../../porting/configure_test_fix/Display.rst:46
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "LG Nexus 4"
@@ -8947,15 +8947,15 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "1280x768"
-msgstr ""
+msgstr "1280x768"
 
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "4.7\""
-msgstr ""
+msgstr "4.7\""
 
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "320"
-msgstr ""
+msgstr "320"
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "Samsung Nexus 10"
@@ -8963,19 +8963,19 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "2560x1600"
-msgstr ""
+msgstr "2560x1600"
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "10.1\""
-msgstr ""
+msgstr "10.1\""
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "299"
-msgstr ""
+msgstr "299"
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: ../../porting/configure_test_fix/Display.rst:49
 msgid "Fairphone 2"
@@ -8984,20 +8984,20 @@ msgstr ""
 #: ../../porting/configure_test_fix/Display.rst:49
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "1080x1920"
-msgstr ""
+msgstr "1080x1920"
 
 #: ../../porting/configure_test_fix/Display.rst:49
 msgid "5\""
-msgstr ""
+msgstr "5\""
 
 #: ../../porting/configure_test_fix/Display.rst:49
 msgid "440"
-msgstr ""
+msgstr "440"
 
 #: ../../porting/configure_test_fix/Display.rst:49
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "23"
-msgstr ""
+msgstr "23"
 
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "LG Nexus 5"
@@ -9005,11 +9005,11 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "4.95\""
-msgstr ""
+msgstr "4.95\""
 
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "445"
-msgstr ""
+msgstr "445"
 
 #: ../../porting/configure_test_fix/Display.rst:53
 msgid ""
@@ -9379,7 +9379,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Overlay.rst:36
 msgid "Example"
-msgstr ""
+msgstr "Exempel"
 
 #: ../../porting/configure_test_fix/Overlay.rst:38
 msgid "Contents of ``overlay/system/halium``::"
@@ -9401,7 +9401,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Sound.rst:2
 msgid "Sound"
-msgstr ""
+msgstr "Ljud"
 
 #: ../../porting/configure_test_fix/Sound.rst:4
 msgid ""
@@ -9601,7 +9601,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:69
 msgid "PRODUCT"
-msgstr ""
+msgstr "PRODUKT"
 
 #: ../../porting/configure_test_fix/USBModed.rst:72
 msgid "usb-moded's arguments"
@@ -9675,7 +9675,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Wifi.rst:2
 msgid "Wifi"
-msgstr ""
+msgstr "Trådlöst"
 
 #: ../../porting/configure_test_fix/Wifi.rst:4
 msgid ""
@@ -9711,7 +9711,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Value(s)"
-msgstr ""
+msgstr "Värde(n)"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:18
 msgid "FlashlightSysfsPath"
@@ -9773,7 +9773,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:4
 msgid "hfd-service"
-msgstr ""
+msgstr "hfd-tjänst"
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:6
 msgid "Overview of all hfd-service keys::"
@@ -9818,7 +9818,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:4
 msgid "Mir"
-msgstr ""
+msgstr "Mir"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:6
 msgid "Overview of all Mir keys::"
@@ -9854,7 +9854,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Mir.rst:22
 #: ../../porting/configure_test_fix/device_info/Mir.rst:23
 msgid "Empty"
-msgstr ""
+msgstr "Tom"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:23
 #: ../../porting/configure_test_fix/device_info/Mir.rst:36
@@ -9871,7 +9871,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Mir.rst:26
 #: ../../porting/configure_test_fix/device_info/Mir.rst:27
 msgid "Boolean"
-msgstr ""
+msgstr "Booleanskt"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:24
 #: ../../porting/configure_test_fix/device_info/Mir.rst:25
