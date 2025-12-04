@@ -8,17 +8,16 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-11-22 14:51+0000\n"
+"PO-Revision-Date: 2025-12-05 15:00+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/"
-"doc-ubports-com/uk/>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
+"ubports-com/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural="
-"(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? "
-"1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.15-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -4129,7 +4128,7 @@ msgstr ""
 #: ../../appdev/platform/click.rst:11
 #, fuzzy
 msgid "Example ``manifest.json`` file::"
-msgstr "Приклад файлу ``manifest.json`` ::"
+msgstr "Приклад файлу ``manifest.json``::"
 
 #: ../../appdev/platform/click.rst:28
 msgid "AppArmor profile policy file"
@@ -4450,7 +4449,7 @@ msgid ""
 "any patters and only a starting URL like this:::"
 msgstr ""
 "Типово обмеження за посиланнями відсутні. Припустимо, Ви запускаєте webapp "
-"без будь-яких шаблонів та зі стартовою URL-адресою:::"
+"без будь-яких шаблонів лише зі стартовою URL-адресою:::"
 
 #: ../../appdev/webapp/guide.rst:53
 msgid ""
@@ -4556,7 +4555,7 @@ msgid ""
 "the following allows access only to www.ubuntu.com/desktop/features and "
 "www.ubuntu.com/phone/features:::"
 msgstr ""
-"Можна використовувати декілька шаблонів, розділюючи їх комою. Наприклад, "
+"Можна використовувати декілька шаблонів, розділюючи їх комами. Наприклад, "
 "наступне надасть доступ тільки до www.ubuntu.com/desktop/features та "
 "www.ubuntu.com/phone/features:::"
 
@@ -4591,7 +4590,7 @@ msgid ""
 "starting URL (and its subpages). So, if the starting URL is https://"
 "www.ubuntu.com, a second pattern is needed:::"
 msgstr ""
-"Хоча іноді потрібно, щоби користувач міг переходити назад до початкової "
+"Хоча іноді буває потрібно, щоб користувач міг переходити назад до початкової "
 "адреси (та її сторінок). Тож, якщо початкова адреса це https://"
 "www.ubuntu.com, потрібен додатковий шаблон:::"
 
@@ -4604,7 +4603,8 @@ msgid ""
 msgstr ""
 "Якщо скласти все разом, отримаємо приклад, який починається з https://"
 "www.ubuntu.com та дозволяє відвідувати https://developer.ubuntu.com та усі "
-"сторінки сайту, і повертаємося до https://www.ubuntu.com з усім сторінками:::"
+"сторінки сайту, і повертаємося до https://www.ubuntu.com з усіма "
+"сторінками:::"
 
 #: ../../appdev/webapp/guide.rst:107
 msgid "Adding subdomains with a wildcard"
@@ -4617,7 +4617,7 @@ msgid ""
 "design.ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
-"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com є "
+"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com має "
 "design.ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
 "піддоменів через маску замість назви піддомена:::"
 
@@ -4678,8 +4678,7 @@ msgstr "Уся довідка доступна з:::"
 #: ../../appdev/webapp/guide.rst:133
 #, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr ""
-"Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
+msgstr "Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
 
 #: ../../appdev/webapp/guide.rst:147
 #, fuzzy
@@ -4713,9 +4712,7 @@ msgstr ""
 #: ../../appdev/webapp/guide.rst:159
 #, fuzzy
 msgid "To change the string from the command line, use the following option:::"
-msgstr ""
-"Для зміни цього параметру у командному рядку, використовуйте такий "
-"параметр:::"
+msgstr "Для зміни цього рядку через команду, використовуйте такий параметр:::"
 
 #: ../../appdev/webapp/guide.rst:164
 msgid "Browser data containment"
@@ -4812,13 +4809,13 @@ msgid ""
 "salta>`__ from Mateo Salta which has quite some modifications on top of the "
 "template."
 msgstr ""
-"Є також інший спосіб створити дещо ефективніше за контейнери webapp, що "
+"Є також інший спосіб створити щось ефективніше за контейнери webapp, що "
 "іноді називають webapp+ або альтернативним контейнером. Це вимагає належного "
 "документування. Webapp+ є простим додатком qml та легко налаштовується. "
 "Створення таке просте, як і класичний контейнер webapp, але результат "
 "потужніший та з чудовими можливостями навігації. Доволі непоганий приклад "
-"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-"
-"salta>` __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
+"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-salta>"
+"` __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
 
 #: ../../appdev/webapp/index.rst:28
 msgid "Guide"
@@ -4927,7 +4924,7 @@ msgstr ""
 #: ../../appdev/webapp/webdebug.rst:26
 #, fuzzy
 msgid "On your phone, start the browser in inspector mode:::"
-msgstr "Запустіть браузер на своєму телефоні у режимі інспектора:::"
+msgstr "Запустіть на своєму телефоні браузер у режимі інспектора:::"
 
 #: ../../appdev/webapp/webdebug.rst:31
 msgid ""
@@ -6045,7 +6042,6 @@ msgid "Documentation"
 msgstr "Документація"
 
 #: ../../contribute/documentation.rst:5
-#, fuzzy
 msgid ""
 "Documentation on this site is written in ReStructuredText, or RST for short. "
 "Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/"
@@ -6247,7 +6243,6 @@ msgstr ""
 "redirects.txt>`_."
 
 #: ../../contribute/documentation.rst:116
-#, fuzzy
 msgid ""
 "We use Rediraffe's ``checkdiff`` builder to ensure that pages are not "
 "deleted from the documentation without a redirect in place. This builder is "
@@ -6257,7 +6252,7 @@ msgstr ""
 "Також ми користуємося ``checkdiff`` від Rediraffe для перевірки, що після "
 "видалення сторінок не забули додати перенаправлення. Цей конструктор "
 "запускається як частина скрипту ``build.sh`` у репозиторії та як частина "
-"нашого автоматизованого конструктора після подання Вами запиту на злиття "
+"нашого автоматизованого конструктора після створення Вами запиту на злиття "
 "(MR)."
 
 #: ../../contribute/documentation.rst:118
@@ -7039,7 +7034,6 @@ msgid "How does a text get translated (technical background)"
 msgstr "Як перекладається текст (технічний фон)"
 
 #: ../../contribute/translations.rst:10
-#, fuzzy
 msgid ""
 "Most apps running on Ubuntu Touch use `GNU gettext <https://www.gnu.org/"
 "software/gettext/>`_ for translations. A *.pot* template file holds an apps "
@@ -7053,18 +7047,18 @@ msgid ""
 "only using *.ts* files for translations with another syntax. As template one "
 "*.ts* file is used."
 msgstr ""
-"Більшість програм для Ubuntu Touch використовуються для перекладу `GNU "
-"gettext <https://www.gnu.org/software/gettext/>`_. Файл-шаблон *.pot* "
-"містить усі мовні рядки програми. З цього шаблону створюються окремі файли "
-"*.po* для кожної мови. Ці файли *.po* містять актуальні переклади. Для "
-"додавання нової мови потрібно створити новий файл *.po*. Для перекладу "
-"потрібно у файлах *.po* редагувати рядки. Поруч з оригінальним текстом на "
-"окремому рядку (переважно англійською) потрібно додати переклад відповідною "
-"мовою, використовуючи синтаксис файлів *.po*, так званий gettext. Деякі "
-"програми використовують для перекладу `QtLinguist <https://doc.qt.io/qt-5/"
-"qtlinguist-index.html>`_. Цей інструмент дотримується тих самих правил, "
-"тільки використовує для перекладів файли *.ts* з іншим синтаксисом. За "
-"шаблон використовується один файл *.ts*."
+"Більшість програм для Ubuntu Touch використовують для перекладу `GNU gettext "
+"<https://www.gnu.org/software/gettext/>`_. Файл-шаблон *.pot* містить усі "
+"мовні рядки програми. З цього шаблону створюються окремі файли *.po* для "
+"кожної мови. Ці файли *.po* містять актуальні переклади. Для додавання нової "
+"мови потрібно створити новий файл *.po*. Для перекладу на нову мову у файлах "
+"*.po* потрібно редагувати рядки. Поруч з оригінальним текстом на окремому "
+"рядку (переважно англійською) потрібно додати переклад відповідною мовою, "
+"використовуючи синтаксис файлів *.po*, так званий gettext. Деякі програми "
+"використовують для перекладу `QtLinguist <https://doc.qt.io/qt-5/qtlinguist-"
+"index.html>`_. Цей інструмент дотримується тих самих правил, тільки "
+"використовує для перекладів файли *.ts* з іншим синтаксисом. Шаблоном "
+"служить у такому разі один файл *.ts*."
 
 #: ../../contribute/translations.rst:14
 msgid ""
