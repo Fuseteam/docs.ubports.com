@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-12-05 15:00+0000\n"
+"PO-Revision-Date: 2025-12-09 16:00+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -7079,14 +7079,16 @@ msgid ""
 "Once strings have been translated, they are made available for users with a "
 "new release of an app."
 msgstr ""
+"Коли рядки будуть перекладені, вони стануть доступними користувачам з "
+"випуском нової версії програми."
 
 #: ../../contribute/translations.rst:19
 msgid "Methods of Translation"
-msgstr ""
+msgstr "Методи перекладу"
 
 #: ../../contribute/translations.rst:21
 msgid "There are three commonly used ways to translate an app:"
-msgstr ""
+msgstr "Існують три відомих способи перекладу програм:"
 
 #: ../../contribute/translations.rst:23
 msgid ""
