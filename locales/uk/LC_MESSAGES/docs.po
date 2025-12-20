@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-12-09 16:00+0000\n"
+"PO-Revision-Date: 2025-12-20 02:35+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -4449,7 +4449,7 @@ msgid ""
 "any patters and only a starting URL like this:::"
 msgstr ""
 "Типово обмеження за посиланнями відсутні. Припустимо, Ви запускаєте webapp "
-"без будь-яких шаблонів лише зі стартовою URL-адресою:::"
+"без будь-яких шаблонів та лише зі стартовою URL-адресою:::"
 
 #: ../../appdev/webapp/guide.rst:53
 msgid ""
@@ -4556,7 +4556,7 @@ msgid ""
 "www.ubuntu.com/phone/features:::"
 msgstr ""
 "Можна використовувати декілька шаблонів, розділюючи їх комами. Наприклад, "
-"наступне надасть доступ тільки до www.ubuntu.com/desktop/features та "
+"наступний набір надасть доступ тільки до www.ubuntu.com/desktop/features та "
 "www.ubuntu.com/phone/features:::"
 
 #: ../../appdev/webapp/guide.rst:88
@@ -4798,7 +4798,6 @@ msgstr ""
 "webber.timsueberkrueb>`__."
 
 #: ../../appdev/webapp/index.rst:21
-#, fuzzy
 msgid ""
 "There is also another way to create somewhat more featureful webapps, "
 "sometimes referred to as webapp+ or alternative container. This needst to be "
@@ -4814,8 +4813,8 @@ msgstr ""
 "документування. Webapp+ є простим додатком qml та легко налаштовується. "
 "Створення таке просте, як і класичний контейнер webapp, але результат "
 "потужніший та з чудовими можливостями навігації. Доволі непоганий приклад "
-"цього є додаток `YouTube <https://open-store.io/app/youtube-web.mateo-salta>"
-"` __ від Mateo Salta, яка має деякі модифікації на початку шаблону."
+"цього є `додаток YouTube <https://open-store.io/app/youtube-web.mateo-salta>"
+"`__ від Mateo Salta, який має деякі модифікації на початку шаблону."
 
 #: ../../appdev/webapp/index.rst:28
 msgid "Guide"
@@ -7099,6 +7098,12 @@ msgid ""
 "automatic transfer of new strings from an apps repo to weblate. Translated "
 "strings get back as commits to the repo from weblate."
 msgstr ""
+"Weblate: Веб-інструмент для перекладу. З використанням Weblate додатки "
+"UBports можна перекласти на сторінках `Проєкту перекладу UBports <https://"
+"hosted.weblate.org/projects/ubports/>`_ та `Проєкту перекладу Lomiri "
+"<https://hosted.weblate.org/projects/lomiri/>`_. Нові рядки для перекладу "
+"передаються з репозиторіїв додатків до weblate. Перекладені рядки "
+"повертаються назад у вигляді комітів до репозиторіїв."
 
 #: ../../contribute/translations.rst:24
 msgid ""
@@ -7109,6 +7114,12 @@ msgid ""
 "After translating the translator commits new translations to an apps repo "
 "generally by opening a merge request/pull request."
 msgstr ""
+"Редактор: Для перекладу необхідні відредаговані файли *.po* будь-яким "
+"текстовим редактором та обліковий запис GitHub/GitLab. Файли *.po*/*.ts* для "
+"кожного проєкту у їх власному репозиторії на `GitLab <https://gitlab.com/"
+"ubports>`_ або на `GitHub <https://github.com/ubports>`_. Після перекладу "
+"перекладач надсилає перекладені файли до репозиторіїв програм через "
+"створення запиту на злиття (merge request)."
 
 #: ../../contribute/translations.rst:25
 msgid ""
@@ -7117,6 +7128,11 @@ msgid ""
 "Touch and its core apps. Some projects are using Telegram or Matrix groups "
 "too, and some teams are still using the Ubuntu Launchpad framework."
 msgstr ""
+"Команда перекладачів: У нас також є `Форум перекладу <https://"
+"forums.ubports.com/category/39/translations>`_, де обговорюється переклад "
+"Ubuntu Touch та його ключові додатки. Деякі проєкти використовують також "
+"групи Telegram або Matrix, а ще деякі команди продовжують користуватися "
+"фреймворком Ubuntu Launchpad."
 
 #: ../../contribute/translations.rst:27
 msgid ""
@@ -7129,6 +7145,14 @@ msgid ""
 "files manually. Commiting edited *.po* files can break the automated process "
 "of translation."
 msgstr ""
+"Ключові додатки та деякі додатки спільноти, як dekko або TELEports "
+"використовують зазвичай для перекладу weblate. Це найкращий шлях для "
+"перекладу та не вимагає жодних навичок програмування. Ознайомтеся, будь "
+"ласка, з `Проєктом перекладу UBports <https://hosted.weblate.org/projects/"
+"ubports/>`_ та з `Проєктом перекладу Lomiri <https://hosted.weblate.org/"
+"projects/lomiri/>`_. З використанням weblate не редагуйте файли *.po* "
+"вручну. Надсилання файлів *.po* через коміти може зруйнувати автоматичний "
+"процес перекладу."
 
 #: ../../contribute/translations.rst:29
 msgid ""
@@ -7136,14 +7160,17 @@ msgid ""
 "files for translation. Those generally need to be edited manually and "
 "commited to the apps repo."
 msgstr ""
+"Більшість додатків, які обслуговується окремими розробниками використовують "
+"для перекладу файли *.pot*/*.po*. Їх потрібно редагувати вручну та долучати "
+"до репозиторіїв через коміти."
 
 #: ../../contribute/translations.rst:32
 msgid "How-To"
-msgstr ""
+msgstr "Що та як"
 
 #: ../../contribute/translations.rst:35
 msgid "Hosted Weblate"
-msgstr ""
+msgstr "Хмарний Weblate"
 
 #: ../../contribute/translations.rst:37
 msgid ""
@@ -7153,30 +7180,43 @@ msgid ""
 "and start making anonymous suggestions without being registered. If you want "
 "to save your translations, you must be logged in."
 msgstr ""
+"Ви можете перейти до `Проєкту перекладу UBports <https://hosted.weblate.org/"
+"projects/ubports/>`_ або до `Проєкту перекладу Lomiri <https://"
+"hosted.weblate.org/projects/lomiri/>`_ та після переходу можете одразу "
+"почати додавати анонімні пропозиції без реєстрації. Якщо буде бажання "
+"зберегти переклади, потрібно зареєструватися."
 
 #: ../../contribute/translations.rst:39
 msgid ""
 "For that, go to UBports Weblate and click on the \"Register\" button. Once "
 "in the \"Registration\" page, you'll find two options:"
 msgstr ""
+"Для цього перейдіть до UBports Weblate та клацніть на кнопку \"Реєстрація\". "
+"На сторінці \"Реєстрація\" знайдете дві опції:"
 
 #: ../../contribute/translations.rst:41
 msgid ""
 "Register using a valid email address, a username, and your full name. You'll "
 "need to resolve an easy control question too."
 msgstr ""
+"Зареєструйтеся з дійсною е-поштою, іменем користувача та своїм повним "
+"іменем. Також буде потрібно відповісти на декілька простих запитань."
 
 #: ../../contribute/translations.rst:42
 msgid ""
 "Register using a third party registration. Currently the system supports "
 "accounts from openSUSE, GitHub, Fedora, and Ubuntu."
 msgstr ""
+"Зареєструйтеся через сторонній ресурс. Зараз підтримуються облікові записи "
+"від openSUSE, GitHub, Fedora та Ubuntu."
 
 #: ../../contribute/translations.rst:44
 msgid ""
 "Once you're logged in, the site is self-explanatory and there you'll find "
 "all the options and customization you can do."
 msgstr ""
+"Коли Ви увійдете з обліковим записом, сайт буде для Вас зрозумілий і Ви "
+"знайдете там усі необхідні опції та налаштування."
 
 #: ../../contribute/translations.rst:46
 msgid ""
@@ -7184,16 +7224,22 @@ msgid ""
 "exists in the project of your choice. If your language is not available for "
 "a specific project, you can add it yourself."
 msgstr ""
+"Тепер Ви там. Перший крок — це знайти чи Ваша мова вже є у необхідному "
+"проєкті. Якщо у якомусь проєкті Ваша мова відсутня, Ви можете її додати "
+"самостійно."
 
 #: ../../contribute/translations.rst:49
 msgid ".po/.ts File Editor"
-msgstr ""
+msgstr "Редактор файлів .po/.ts"
 
 #: ../../contribute/translations.rst:51
 msgid ""
 "If you want to work with *.po*/*.ts* files directly you need to know what "
 "you're doing for sure. The first thing you should always remember is:"
 msgstr ""
+"Якщо Ви бажаєте безпосередньо працювати з файлами *.po*/*.ts*, Ви повинні "
+"знати напевно що саме Ви робите. Перша річ, про яку Вам слід завжди "
+"пам'ятати:"
 
 #: ../../contribute/translations.rst:54
 msgid ""
@@ -7201,6 +7247,9 @@ msgid ""
 "weblate. This could break the whole translation exchange process with "
 "weblate."
 msgstr ""
+"**Ніколи** не додавайте через коміт файли *.po* до проєктів, які "
+"перекладаються через weblate. Це може зруйнувати весь процес обміну "
+"перекладом з weblate."
 
 #: ../../contribute/translations.rst:56
 msgid ""
@@ -7209,6 +7258,10 @@ msgid ""
 "`clickable <http://clickable.bhdouglass.com/en/latest/>`_ set up and know "
 "how to build an app."
 msgstr ""
+"Як вже сказано раніше, для безпосереднього перекладу файлів *.po*/*.ts* Вам "
+"потрібен будь-який текстовий редактор та обліковий запис GitHub/GitLab. В "
+"ідеалі, у Вас є налаштований `Clickable <http://clickable.bhdouglass.com/en/"
+"latest/>`_ та Ви знаєте як збирати додатки."
 
 #: ../../contribute/translations.rst:58
 msgid ""
@@ -7217,6 +7270,11 @@ msgid ""
 "with free software only. There are too many plain text editors and tools to "
 "help you translate *.po*/*.ts* files to list here."
 msgstr ""
+"Існують онлайн-редактори gettext .po та редактори, які можна встановити на "
+"комп'ютер. Можете для себе обрати редактор до вподоби, але нам подобається "
+"працювати лише з безплатними програмами. З безлічі таких звичайних "
+"редакторів та спеціалізованих для файлів *.po*/*.ts* можна скласти довгий "
+"список."
 
 #: ../../contribute/translations.rst:61
 msgid ""
@@ -7226,58 +7284,69 @@ msgid ""
 "translate the latest strings and you will not know if the strings fit into "
 "the apps layout."
 msgstr ""
+"Для більш продуктивного та якісного перекладу рекомендовано пройти через усі "
+"кроки, описані нижче. Все ж, якщо у Вас бракує досвіду зі збиранням додатків "
+"з clickable, можна пропустити кроки з 4 по 6. Та навіть якщо Ви не зможете "
+"перекласти останні рядки, та якщо не знаєте чи пасуватимуть перекладені "
+"рядки до шаблону програми."
 
 #: ../../contribute/translations.rst:63
 msgid "How to proceed:"
-msgstr ""
+msgstr "Наступні кроки:"
 
 #: ../../contribute/translations.rst:65
 msgid "Fork the apps repo into your GitHub or GitLab account"
-msgstr ""
+msgstr "Клонуйте репозиторій додатка до свого акаунту GitHub чи GitLab"
 
 #: ../../contribute/translations.rst:66
 msgid "Clone the repo locally or use GitLab's online editor"
-msgstr ""
+msgstr "Клонуйте репозиторій локально або користуйтеся онлайн-редактором GitLab"
 
 #: ../../contribute/translations.rst:67
 msgid "(optional) Create a new branch for the translation"
-msgstr ""
+msgstr "(опційно) Створіть нову гілку (branch) для перекладу"
 
 #: ../../contribute/translations.rst:68
 msgid ""
 "Build the app using clickable to get up-to-date *.pot*/*.ts* template files"
 msgstr ""
+"Зберіть додаток з використанням clickable та отримайте оновлені файли "
+"шаблонів *.pot*/*.ts*"
 
 #: ../../contribute/translations.rst:69
 msgid "Update the desired *.po*/*.ts* language file(s) from the template"
-msgstr ""
+msgstr "Оновіть бажані мовні файли *.po*/*.ts* з шаблону"
 
 #: ../../contribute/translations.rst:70
 msgid "Translate all strings"
-msgstr ""
+msgstr "Перекладіть усі рядки"
 
 #: ../../contribute/translations.rst:71
 msgid "Build and install the app on your device and test the translations"
-msgstr ""
+msgstr "Зберіть та встановіть додаток на свій пристрій, та перевірте переклади"
 
 #: ../../contribute/translations.rst:72
 msgid ""
 "(optional) Repeat steps 6. and 7. until you are satisfied with your work"
 msgstr ""
+"(опційно) Повторіть кроки 6. та 7. поки не будете задоволені своєю роботою"
 
 #: ../../contribute/translations.rst:73
 msgid ""
 "Push the translated *.po*/*.ts* file(s) to your forked repo [do NOT commit "
 "*.pot*/*.ts* template files]"
 msgstr ""
+"Додайте перекладені файли *.po*/*.ts* до свого клонованого репозиторію [НЕ "
+"РОБІТЬ commit шаблонів *.pot*/*.ts*]"
 
 #: ../../contribute/translations.rst:74
 msgid "Open a merge/pull request from your fork to the apps repo"
 msgstr ""
+"Відкрийте (створіть) запит на злиття зі свого форка до репозиторію додатка"
 
 #: ../../contribute/translations.rst:78
 msgid "Translation Team Communication"
-msgstr ""
+msgstr "Спілкування з командою перекладу"
 
 #: ../../contribute/translations.rst:80
 msgid ""
@@ -15508,15 +15577,15 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:207
 msgid "Shortcuts"
-msgstr "Псевдоніми"
+msgstr "Ярлики"
 
 #: ../../userguide/dailyuse/libertine.rst:209
 msgid ""
 "If you want, you can add aliases for command-line tools. Add lines like the "
 "following ones to your ``~/.bash_aliases``::"
 msgstr ""
-"Якщо ви хочете, ви можете додати псевдоніми для інструментів командного "
-"рядка. Додайте такі рядки до вашого ``~/.bash_aliases``:"
+"Якщо Ви хочете, можете додати псевдоніми для інструментів командного рядка. "
+"Додайте такі рядки до свого ``~/.bash_aliases``:"
 
 #: ../../userguide/dailyuse/libertine.rst:216
 msgid "Installing packages manually"
@@ -15528,7 +15597,7 @@ msgid ""
 "available to the root user, for example by copying it to the ``/root`` "
 "directory::"
 msgstr ""
-"Якщо ви хочете встановити пакет з файлу, спочатку вам потрібно зробити його "
+"Якщо Ви хочете встановити пакет з файлу, спочатку потрібно зробити його "
 "доступним для користувача root, наприклад, скопіювавши його в каталог ``/"
 "root``:"
 
@@ -15538,7 +15607,7 @@ msgstr "Потім встановіть його за допомогою `dpkg:`
 
 #: ../../userguide/dailyuse/libertine.rst:227
 msgid "Background"
-msgstr "Передісторія"
+msgstr "Тло"
 
 #: ../../userguide/dailyuse/libertine.rst:229
 msgid ""
@@ -15548,11 +15617,11 @@ msgid ""
 "compatibility layer called XMir resolves this. Libertine relies on XMir to "
 "display desktop applications."
 msgstr ""
-"Сервер відображення координує введення та виведення операційної системи. "
-"Ubuntu Touch не використовує X, а новий сервер відображення під назвою Mir. "
-"Це означає, що стандартні програми X несумісні безпосередньо з Ubuntu Touch. "
-"Цю проблему вирішує шар сумісності під назвою XMir. Libertine використовує "
-"XMir для відображення програм робочого столу."
+"Сервер відтворення координує введення та виведення операційної системи. "
+"Ubuntu Touch використовує не X, а новий сервер відтворення під назвою Mir. "
+"Це означає, що стандартні програми X несумісні напряму з Ubuntu Touch. Цю "
+"проблему вирішує шар сумісності під назвою XMir. Libertine використовує XMir "
+"для відтворення програм робочого столу."
 
 #: ../../userguide/dailyuse/libertine.rst:235
 msgid ""
@@ -15569,7 +15638,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/location.rst:2
 msgid "Using location services"
-msgstr "Використання служб визначення місцезнаходження"
+msgstr "Використання служб геопозиції"
 
 #: ../../userguide/dailyuse/location.rst:4
 msgid ""
@@ -15580,13 +15649,12 @@ msgid ""
 "transport near you <https://open-store.io/app/transport.zubozrout>`__, and "
 "more."
 msgstr ""
-"Служби визначення місцезнаходження в Ubuntu Touch дозволяють додаткам "
-"отримувати доступ до вашого поточного місцезнаходження. Використовуючи ці "
-"дані, програми можуть `пропонувати покрокову навігацію <https://open-"
-"store.io/app/navigator.costales>`__, `відстежувати маршрути ваших тренувань "
-"<https://open-store.io/app/activitytracker.cwayne18>`__,`знаходити "
-"громадський транспорт поблизу <https://open-store.io/app/"
-"transport.zubozrout>`__ тощо."
+"Служби геопозиції в Ubuntu Touch дозволяють додаткам отримувати доступ до "
+"Вашого поточного розташування. Використовуючи ці дані, програми можуть "
+"`пропонувати покрокову навігацію <https://open-store.io/app/"
+"navigator.costales>`__, `відстежувати маршрути Ваших тренувань <https://open-"
+"store.io/app/activitytracker.cwayne18>`__,`знаходити громадський транспорт "
+"поблизу <https://open-store.io/app/transport.zubozrout>`__ тощо."
 
 #: ../../userguide/dailyuse/location.rst:7
 msgid ""
@@ -15595,43 +15663,43 @@ msgid ""
 "only access your location data when the device screen is on and the app is "
 "in use."
 msgstr ""
-"Вбудовані в Ubuntu Touch служби визначення місцезнаходження призначені для "
-"захисту вашої конфіденційності — ви самі вирішуєте, чи дозволити додаткам "
-"доступ до цих даних. Додатки можуть отримувати доступ до даних про ваше "
-"місцезнаходження лише тоді, коли екран пристрою увімкнено і додаток "
-"використовується."
+"Вбудовані в Ubuntu Touch служби геопозиції призначені для захисту Вашої "
+"конфіденційності — Ви самі вирішуєте, чи дозволити додаткам доступ до цих "
+"даних. Додатки можуть отримувати доступ до даних про Ваше розташування лише "
+"тоді, коли екран пристрою увімкнено і додаток використовується."
 
 #: ../../userguide/dailyuse/location.rst:11
 msgid "Checking if location services are on"
-msgstr "Перевірка, чи увімкнені служби визначення місцезнаходження"
+msgstr "Перевірка, чи увімкнені служби геопозиції"
 
 #: ../../userguide/dailyuse/location.rst:13
 msgid ""
 "The Location Indicator is displayed whenever location services are on. "
 "Normally, this indicator will appear to be dark."
 msgstr ""
-"Індикатор місцезнаходження відображається, коли служби визначення "
-"місцезнаходження увімкнені. Зазвичай цей індикатор має темний колір."
+"Індикатор геопозиції відтворюється, коли служби геопозиції працюють. "
+"Зазвичай цей індикатор темний."
 
 #: ../../userguide/dailyuse/location.rst:18
 msgid "The Location Indicator, showing location on but not in use."
 msgstr ""
-"Індикатор місцезнаходження, що показує місцезнаходження, але не "
+"Індикатор геопозиції, який показує, що служба працює, але не "
 "використовується."
 
 #: ../../userguide/dailyuse/location.rst:20
 msgid "If an app is accessing location data, the Location Indicator brightens."
 msgstr ""
-"Якщо програма отримує доступ до даних про місцезнаходження, індикатор "
-"місцезнаходження стає яскравішим."
+"Якщо програма отримує доступ до даних про розташування, індикатор геопозиції "
+"стає яскравішим."
 
 #: ../../userguide/dailyuse/location.rst:24
 msgid "The Location Indicator, showing location on and in use."
 msgstr ""
+"Індикатор геопозиції, який показує, що служба працює та використовується."
 
 #: ../../userguide/dailyuse/location.rst:29
 msgid "Accessing location services settings"
-msgstr ""
+msgstr "Доступ до налаштувань служби геопозиції"
 
 #: ../../userguide/dailyuse/location.rst:31
 msgid ""
