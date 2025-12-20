@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-12-20 02:35+0000\n"
+"PO-Revision-Date: 2025-12-21 03:00+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -827,8 +827,8 @@ msgid ""
 "issue has not been started yet) and closed issues."
 msgstr ""
 "Ми використовуємо панелі проблем GitLab для візуалізації перебігу "
-"розв'язання проблем в кожній контрольній точці. Панелі — т.з. дошки канбан "
-"(kanban), де кожен стовпчик відповідає мітці **Статус:** (в процесі, "
+"розв'язування проблем в кожній контрольній точці. Панелі — т.з. дошки канбан "
+"(kanban), де кожний стовпчик відповідає мітці **Статус:** (в процесі, "
 "заблоковано, має MR (запит на злиття)) з додатковими стовпчиками для "
 "відкритих проблем без мітки **Статус:** (тобто, проблеми ще не розглядалися) "
 "та окремо для закритих."
@@ -1526,7 +1526,7 @@ msgid ""
 "can be done with Clickable."
 msgstr ""
 "Якщо програма залежна від бібліотеки, яка стандартно не встановлена в Ubuntu "
-"Touch, її потрібно додати до click-пакунку програми. Ця настанова демонструє "
+"Touch, її потрібно додати до click-пакунку програми. У цій настанові описано "
 "як це робиться з Clickable."
 
 #: ../../appdev/guides/dependencies.rst:7
@@ -1704,7 +1704,7 @@ msgstr ""
 "використовувати команду `find_package <https://cmake.org/cmake/help/latest/"
 "command/find_package.html>`_, яка надасть цільовий об'єкт для зв'язку (link) "
 "або змінні, які вказуватимуть на двійкові бібліотеки та додаткові (include) "
-"каталоги. Додаткові рядки Вашого CMakeLists.txt можуть виглядати:"
+"каталоги. Додаткові рядки Вашого CMakeLists.txt можуть виглядати таким чином:"
 
 #: ../../appdev/guides/dependencies.rst:90
 msgid ""
@@ -1946,7 +1946,7 @@ msgid ""
 "``UriHandler`` as a target."
 msgstr ""
 "У головному файлі qml нам потрібно додати код, щоб знати, що робити з "
-"відправленою URL-адресою. Давайте перевіримо, як додаток Linphone це робить, "
+"відправленою URL-адресою. Розглянемо як це робиться у програмі Linphone, "
 "додавши `з'єднання до обробника URI <https://gitlab.com/ubports-linphone/"
 "linphone-simple/blob/master/qml/Main.qml#L212>`_ з елементом Connections, що "
 "встановлює ``UriHandler`` як ціль."
@@ -1967,10 +1967,9 @@ msgid ""
 "linphone-simple/blob/master/qml/Main.qml#L76>`_ that will cover two cases: "
 "1) We receive one URL 2) We receive more than one URL"
 msgstr ""
-"Потрібно додати трішки `додаткового коду <https://gitlab.com/ubports-"
-"linphone/linphone-simple/blob/master/qml/Main.qml#L76>`_, який закриє два "
-"моменти: 1) Ми отримуємо одне посилання URL, 2) Ми отримуємо декілька "
-"посилань URL"
+"Потрібно лише трішки `додаткового коду <https://gitlab.com/ubports-linphone/"
+"linphone-simple/blob/master/qml/Main.qml#L76>`_, який закриє два моменти: 1) "
+"Ми отримуємо одне посилання URL, 2) Ми отримуємо декілька посилань URL"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:123
 msgid ""
@@ -2013,7 +2012,7 @@ msgstr ""
 "Інший корисний інструмент, але не встановлений типово на пристроях — це "
 "``lomiri-url-dispatcher-tools``, який може симулювати виклик від сторонньої "
 "програми, напр., ``lomiri-url-dispatcher https://youtu.be/CIX-a-i6B1w`` "
-"запустить вебдодаток youtube."
+"запустить веб-програму youtube."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:152
 msgid ""
@@ -3189,11 +3188,10 @@ msgid ""
 "qdebug.html>`_ functions."
 msgstr ""
 "Крім доступу на запис до каталогів програми, описаних нижче, програма може "
-"також записувати повідомлення налагодження до журналу у файл ``/home/"
-"phablet/.cache/upstart/application-click-"
-"<fullappname>_<appname>_<version>.log``. Для того, щоби додати повідомлення "
-"до журналу, використовуйте функцію `Qt debug <https://doc.qt.io/qt-5/"
-"qdebug.html>`_."
+"також записувати повідомлення налагодження до журналу ``/home/phablet/.cache/"
+"upstart/application-click-<fullappname>_<appname>_<version>.log``. Щоб "
+"додати повідомлення до журналу, використовуйте функцію `Qt debug <https://"
+"doc.qt.io/qt-5/qdebug.html>`_."
 
 #: ../../appdev/guides/writeable-dirs.rst:11
 msgid "Config"
@@ -3319,7 +3317,7 @@ msgid ""
 msgstr ""
 "Зауважте, що ``QStandardPaths`` повертає шляхи (``'/phablet/home/...'``) та "
 "QML ``StandardPaths`` повертає посилання (``'file:///phablet/home/...'``). "
-"На це потрібно особливо звертати увагу, якщо додаток обмінюється рядками з "
+"На це потрібно особливо звертати увагу, якщо програма обмінюється рядками з "
 "розташуваннями між QML та C ++."
 
 #: ../../appdev/index.rst:2
@@ -4268,7 +4266,7 @@ msgid ""
 "the latest information from their network and apps."
 msgstr ""
 "Використання сервера сповіщень та відповідного клієнта надає користувачеві "
-"можливість негайно отримувати останню інформацію з Вашої мережі та додатків."
+"можливість негайно отримувати останню інформацію з Вашої мережі та програм."
 
 #: ../../appdev/platform/index.rst:14
 msgid "URL dispatcher"
@@ -4294,7 +4292,7 @@ msgid ""
 msgstr ""
 "Спростіть користувачам доступ до інтернет-служб, інтегруючись з онлайн-"
 "обліковками API. Облікові записи, додані користувачем на пристрої, "
-"зареєстровані в централізованому центрі (хабі), що дозволяє іншим додаткам "
+"зареєстровані в централізованому хабі, що дозволяє іншим програмам "
 "використовувати їх повторно."
 
 #: ../../appdev/platform/index.rst:21
@@ -4327,7 +4325,7 @@ msgid ""
 "A web app displays in a webview inside a webapp-container that runs as an "
 "Ubuntu app in the Ubuntu/Unity shell."
 msgstr ""
-"Вебдодаток відтворюється всередині контейнера webapp, який виконується як "
+"Веб-програма відтворюється всередині контейнера webapp, який виконується як "
 "програма Ubuntu в оболонці Ubuntu/Unity."
 
 #: ../../appdev/webapp/guide.rst:9
@@ -4426,7 +4424,7 @@ msgid ""
 "However, many web apps use pages that are hosted over multiple sites or that "
 "use external resources and pages."
 msgstr ""
-"Але різні веб-додатки використовують сторінки, які розміщені на різних "
+"Але різні веб-програми використовують сторінки, які розміщені на різних "
 "сайтах або які використовують зовнішні ресурси та сторінки."
 
 #: ../../appdev/webapp/guide.rst:44
@@ -4590,9 +4588,9 @@ msgid ""
 "starting URL (and its subpages). So, if the starting URL is https://"
 "www.ubuntu.com, a second pattern is needed:::"
 msgstr ""
-"Хоча іноді буває потрібно, щоб користувач міг переходити назад до початкової "
-"адреси (та її сторінок). Тож, якщо початкова адреса це https://"
-"www.ubuntu.com, потрібен додатковий шаблон:::"
+"Хоча іноді користувачу потрібно переходити назад до початкової адреси (та її "
+"сторінок). Тож, якщо початкова адреса це https://www.ubuntu.com, потрібен "
+"другий шаблон:::"
 
 #: ../../appdev/webapp/guide.rst:102
 #, fuzzy
@@ -4668,7 +4666,7 @@ msgid ""
 "web applications."
 msgstr ""
 "Контейнер webapp приймає різні параметри для точного налаштування, як "
-"запускати різні веб-додатки."
+"запускати різні веб-програми."
 
 #: ../../appdev/webapp/guide.rst:129
 #, fuzzy
@@ -4742,18 +4740,18 @@ msgid ""
 msgstr ""
 "Підтримують наступні параметри сховища: Local/Session Storage, IndexedDB та "
 "застарілий WebSQL. До того ж API файлової системи не підтримується, оскільки "
-"додатки не мають прямого доступу до файлової системи."
+"програми не мають прямого доступу до файлової системи."
 
 #: ../../appdev/webapp/index.rst:4
 msgid "Web apps"
-msgstr "Веб-додатки"
+msgstr "Веб-програми"
 
 #: ../../appdev/webapp/index.rst:6
 msgid ""
 "Ubuntu Webapps can be a nice way to deliver online web applications into "
 "Ubuntu."
 msgstr ""
-"Веб-додатки Ubuntu можуть бути гарним шляхом створення онлайн-додатків в "
+"Веб-програми Ubuntu можуть бути гарним шляхом додавання онлайн-програм до "
 "Ubuntu."
 
 #: ../../appdev/webapp/index.rst:8
@@ -4771,9 +4769,10 @@ msgid ""
 "also have a rich user interface or use the WebGL extension to deliver games "
 "online."
 msgstr ""
-"Вебдодатки розміщуються онлайн. Вони можуть бути просто вебсайтами, сайтами "
-"з новинами, відеокаталогами. Вони також можуть мати вишуканий інтерфейс або "
-"використовувати доповнення WebGL для забезпечення доступу до онлайн-ігор."
+"Веб-програми розміщуються онлайн. Вони можуть бути просто вебсайтами, "
+"сайтами з новинами, відеокаталогами. Вони також можуть мати вишуканий "
+"інтерфейс або користуватися доповненням WebGL для забезпечення доступу до "
+"онлайн-ігор."
 
 #: ../../appdev/webapp/index.rst:13
 msgid ""
@@ -4783,8 +4782,8 @@ msgid ""
 "HTML5 GUI). Webapps also have restricted access to platform APIs."
 msgstr ""
 "Контейнери Ubuntu та вебпрограми HTML5 схожі, але різні. Основна відмінність "
-"полягає в тому, що зміст webapp передається через посилання, а додатки HTML5 "
-"користуються своїм змістом (та зазвичай працюють з Ubuntu HTML5 GUI). "
+"полягає в тому, що зміст webapp передається через посилання, а програми "
+"HTML5 користуються своїм змістом (та зазвичай працюють з Ubuntu HTML5 GUI). "
 "Контейнери webapp, крім того, мають обмежений доступ до API платформи."
 
 #: ../../appdev/webapp/index.rst:17
@@ -4810,11 +4809,12 @@ msgid ""
 msgstr ""
 "Є також інший спосіб створити щось ефективніше за контейнери webapp, що "
 "іноді називають webapp+ або альтернативним контейнером. Це вимагає належного "
-"документування. Webapp+ є простим додатком qml та легко налаштовується. "
-"Створення таке просте, як і класичний контейнер webapp, але результат "
-"потужніший та з чудовими можливостями навігації. Доволі непоганий приклад "
-"цього є `додаток YouTube <https://open-store.io/app/youtube-web.mateo-salta>"
-"`__ від Mateo Salta, який має деякі модифікації на початку шаблону."
+"документування. Webapp+ — проста програма qml та легко налаштовується. Її "
+"створення таке ж просте, як і створення класичного контейнера webapp, але "
+"результат потужніший та з чудовими можливостями навігації. Доволі непоганий "
+"приклад цього є `програма YouTube <https://open-store.io/app/youtube-"
+"web.mateo-salta>`__ від Mateo Salta, який має деякі модифікації на початку "
+"шаблону."
 
 #: ../../appdev/webapp/index.rst:28
 msgid "Guide"
@@ -4861,9 +4861,9 @@ msgid ""
 "modern web standards, and most webapps will just work without further "
 "changes."
 msgstr ""
-"Більшість веброзробників, ймовірно, захочуть зробити більшу частину свого "
-"кодування та налагодження у звичайному середовищі браузера. Браузер Ubuntu "
-"Touch відповідає сучасним вебстандартам і більшість контейнерів webapp "
+"Більшість веб-розробників, ймовірно, захочуть зробити більшу частину свого "
+"коду та налагодження у звичайному середовищі браузера. Браузер Ubuntu Touch "
+"відповідає сучасним вебстандартам і більшість контейнерів webapp "
 "працюватимуть без додаткових змін."
 
 #: ../../appdev/webapp/webdebug.rst:6
@@ -5011,7 +5011,7 @@ msgid ""
 msgstr ""
 "Якщо Ви знайшли наявний звіт про помилку, виберіть кнопку \"Додати реакцію\" "
 "(вона виглядає як смайл) та оберіть реакцію +1 (великий палець вгору). Це "
-"буде знаком, що Ви також зіткнулися з такою самою проблемою."
+"буде знаком, що Ви зіткнулися з такою самою проблемою."
 
 #: ../../contribute/bugreporting.rst:23
 msgid ""
@@ -5109,8 +5109,8 @@ msgid ""
 msgstr ""
 "Коли Ви закінчите з цим, відправляйте звіт. Самостійно мітки додати не "
 "можна, тож, будь ласка, не забудьте зазначити в описі назву пристрою, з яким "
-"у Вас виникла проблема, щоби модератор міг без клопоту додати правильну "
-"мітку."
+"у Вас виникла проблема, щоб модератор міг додати правильну мітку без "
+"додаткового клопоту."
 
 #: ../../contribute/bugreporting.rst:48
 msgid ""
@@ -5341,7 +5341,7 @@ msgid ""
 "item would be better."
 msgstr ""
 "Як усі розробники, ми часто залишаємо у своєму коді коментарі, які "
-"допомагають в розумінні коду (напр., вивід у консолі повідомлень журналу). "
+"допомагають розуміти код (напр., вивід у консолі повідомлень журналу). "
 "Переконайтеся, що Ви не залишили **жодних** коментарів у своїх запитах на "
 "зміни (комітах). Якщо відчуваєте, що є стійка необхідність відступити від "
 "правила, переконайтеся, що є пояснення чому цей коментар залишений в коді. "
@@ -7102,7 +7102,7 @@ msgstr ""
 "UBports можна перекласти на сторінках `Проєкту перекладу UBports <https://"
 "hosted.weblate.org/projects/ubports/>`_ та `Проєкту перекладу Lomiri "
 "<https://hosted.weblate.org/projects/lomiri/>`_. Нові рядки для перекладу "
-"передаються з репозиторіїв додатків до weblate. Перекладені рядки "
+"передаються з репозиторіїв програм до weblate. Перекладені рядки "
 "повертаються назад у вигляді комітів до репозиторіїв."
 
 #: ../../contribute/translations.rst:24
@@ -7130,7 +7130,7 @@ msgid ""
 msgstr ""
 "Команда перекладачів: У нас також є `Форум перекладу <https://"
 "forums.ubports.com/category/39/translations>`_, де обговорюється переклад "
-"Ubuntu Touch та його ключові додатки. Деякі проєкти використовують також "
+"Ubuntu Touch та його ключові програми. Деякі проєкти використовують також "
 "групи Telegram або Matrix, а ще деякі команди продовжують користуватися "
 "фреймворком Ubuntu Launchpad."
 
@@ -7145,13 +7145,13 @@ msgid ""
 "files manually. Commiting edited *.po* files can break the automated process "
 "of translation."
 msgstr ""
-"Ключові додатки та деякі додатки спільноти, як dekko або TELEports "
+"Ключові програми та деякі програми спільноти, такі як dekko або TELEports "
 "використовують зазвичай для перекладу weblate. Це найкращий шлях для "
 "перекладу та не вимагає жодних навичок програмування. Ознайомтеся, будь "
 "ласка, з `Проєктом перекладу UBports <https://hosted.weblate.org/projects/"
 "ubports/>`_ та з `Проєктом перекладу Lomiri <https://hosted.weblate.org/"
 "projects/lomiri/>`_. З використанням weblate не редагуйте файли *.po* "
-"вручну. Надсилання файлів *.po* через коміти може зруйнувати автоматичний "
+"вручну. Надсилання файлів *.po* через коміти може зламати автоматичний "
 "процес перекладу."
 
 #: ../../contribute/translations.rst:29
@@ -7160,7 +7160,7 @@ msgid ""
 "files for translation. Those generally need to be edited manually and "
 "commited to the apps repo."
 msgstr ""
-"Більшість додатків, які обслуговується окремими розробниками використовують "
+"Більшість програм, які обслуговується окремими розробниками використовують "
 "для перекладу файли *.pot*/*.po*. Їх потрібно редагувати вручну та долучати "
 "до репозиторіїв через коміти."
 
@@ -7261,7 +7261,7 @@ msgstr ""
 "Як вже сказано раніше, для безпосереднього перекладу файлів *.po*/*.ts* Вам "
 "потрібен будь-який текстовий редактор та обліковий запис GitHub/GitLab. В "
 "ідеалі, у Вас є налаштований `Clickable <http://clickable.bhdouglass.com/en/"
-"latest/>`_ та Ви знаєте як збирати додатки."
+"latest/>`_ та Ви знаєте як збирати (компілювати) програми."
 
 #: ../../contribute/translations.rst:58
 msgid ""
@@ -7285,8 +7285,8 @@ msgid ""
 "the apps layout."
 msgstr ""
 "Для більш продуктивного та якісного перекладу рекомендовано пройти через усі "
-"кроки, описані нижче. Все ж, якщо у Вас бракує досвіду зі збиранням додатків "
-"з clickable, можна пропустити кроки з 4 по 6. Та навіть якщо Ви не зможете "
+"кроки, описані нижче. Все ж, якщо у Вас мало досвіду зі збиранням програм з "
+"clickable, можна пропустити кроки з 4 по 6. Та навіть якщо Ви не зможете "
 "перекласти останні рядки, та якщо не знаєте чи пасуватимуть перекладені "
 "рядки до шаблону програми."
 
@@ -7296,7 +7296,7 @@ msgstr "Наступні кроки:"
 
 #: ../../contribute/translations.rst:65
 msgid "Fork the apps repo into your GitHub or GitLab account"
-msgstr "Клонуйте репозиторій додатка до свого акаунту GitHub чи GitLab"
+msgstr "Клонуйте репозиторій програми до свого акаунту GitHub чи GitLab"
 
 #: ../../contribute/translations.rst:66
 msgid "Clone the repo locally or use GitLab's online editor"
@@ -7310,7 +7310,7 @@ msgstr "(опційно) Створіть нову гілку (branch) для п
 msgid ""
 "Build the app using clickable to get up-to-date *.pot*/*.ts* template files"
 msgstr ""
-"Зберіть додаток з використанням clickable та отримайте оновлені файли "
+"Зберіть програму з використанням clickable та отримайте оновлені файли "
 "шаблонів *.pot*/*.ts*"
 
 #: ../../contribute/translations.rst:69
@@ -7323,7 +7323,7 @@ msgstr "Перекладіть усі рядки"
 
 #: ../../contribute/translations.rst:71
 msgid "Build and install the app on your device and test the translations"
-msgstr "Зберіть та встановіть додаток на свій пристрій, та перевірте переклади"
+msgstr "Зберіть та встановіть програму на свій пристрій, та перевірте переклади"
 
 #: ../../contribute/translations.rst:72
 msgid ""
@@ -7342,7 +7342,7 @@ msgstr ""
 #: ../../contribute/translations.rst:74
 msgid "Open a merge/pull request from your fork to the apps repo"
 msgstr ""
-"Відкрийте (створіть) запит на злиття зі свого форка до репозиторію додатка"
+"Відкрийте (створіть) запит на злиття зі свого форка до репозиторію програми"
 
 #: ../../contribute/translations.rst:78
 msgid "Translation Team Communication"
@@ -7355,6 +7355,10 @@ msgid ""
 "provides for this task. To use it you need to register, or login if you're "
 "registered already."
 msgstr ""
+"Ви можете щодо перекладу розмовляти з іншими через створену для цього "
+"UBports `тему на форумі <https://forums.ubports.com/category/39/translations>"
+"`_. Для цього буде потрібно зареєструватися або увійти з наявним обліковим "
+"записом."
 
 #: ../../contribute/translations.rst:82
 msgid ""
@@ -7362,16 +7366,20 @@ msgid ""
 "brackets in the \"Enter your topic title here\" field. For example, "
 "``[Spanish] How to translate whatever?``"
 msgstr ""
+"Єдина умова для створення нової теми — це вказати свою мову у квадратних "
+"дужках. Наприклад, ``[Ukrainian] Як взагалі хоч щось перекласти?``"
 
 #: ../../contribute/translations.rst:84
 msgid ""
 "In your interactions with your team you'll find the best way to coordinate "
 "your translations."
 msgstr ""
+"У спілкуванні зі своєю командою Ви зможете знайти кращі варіанти керування "
+"перекладом."
 
 #: ../../contribute/translations.rst:87
 msgid "License"
-msgstr ""
+msgstr "Ліцензія"
 
 #: ../../contribute/translations.rst:89
 msgid ""
@@ -7380,62 +7388,71 @@ msgid ""
 "BY-SA 4.0) <https://creativecommons.org/licenses/by-sa/4.0/>`_ license that "
 "you explicitly accept by contributing to the project."
 msgstr ""
+"Усі проєкти перекладу та усі Ваші внески до цього проєкту ліцензовані під "
+"`Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) "
+"<https://creativecommons.org/licenses/by-sa/4.0/>`_, з чим Ви погоджуєтеся, "
+"якщо продовжуєте брати участь у проєкті."
 
 #: ../../contribute/translations.rst:91
 msgid "Go to that link to learn what this exactly means."
-msgstr ""
+msgstr "Більш докладно, що це значить, можете дізнатися за посиланням."
 
 #: ../../humanguide/app-layout/app-main-view.rst:2
 msgid "App main view"
-msgstr ""
+msgstr "Основний вигляд програми"
 
 #: ../../humanguide/app-layout/app-main-view.rst:4
 msgid ""
 "When an app starts, shows a generic splash screen (as in the image) or a "
 "custom one, then the main view."
 msgstr ""
+"Коли програма запускається, відтворюється звичайна заставка (як на малюнку) "
+"або власний екран, а потім основне вікно."
 
 #: ../../humanguide/app-layout/app-main-view.rst:8
 msgid "The standard parts of a main view or any other page may be:"
 msgstr ""
+"Стандартні елементи основного вікна або будь-якої іншої сторінки можуть бути:"
 
 #: ../../humanguide/app-layout/app-main-view.rst:11
 msgid "Header"
-msgstr ""
+msgstr "Заголовок"
 
 #: ../../humanguide/app-layout/app-main-view.rst:13
 msgid "Display app name, leading area and trailing area icons."
-msgstr ""
+msgstr "Відтворювана назва, значки головної частини та наступної."
 
 #: ../../humanguide/app-layout/app-main-view.rst:17
 msgid "In this case, showing title and trailing actions."
-msgstr ""
+msgstr "У такому випадку відтворюються назва та наступні дії."
 
 #: ../../humanguide/app-layout/app-main-view.rst:20
 msgid "Tabbed content"
-msgstr ""
+msgstr "Контент із вкладками"
 
 #: ../../humanguide/app-layout/app-main-view.rst:22
 msgid "To organize information under tabs."
-msgstr ""
+msgstr "Для організації інформації через вкладки."
 
 #: ../../humanguide/app-layout/app-main-view.rst:27
 msgid "Bottom edge menu"
-msgstr ""
+msgstr "Меню нижнього краю"
 
 #: ../../humanguide/app-layout/app-main-view.rst:29
 msgid "For quick actions. See `Quick actions`_."
-msgstr ""
+msgstr "Для швидких дій. Див. `Швидкі дії`_."
 
 #: ../../humanguide/app-layout/dialogs.rst:2
 msgid "Dialogs"
-msgstr ""
+msgstr "Діалоги"
 
 #: ../../humanguide/app-layout/dialogs.rst:4
 msgid ""
 "A dialog is a way of informing the user about important notices or letting "
 "them complete a single action."
 msgstr ""
+"Діалог — це можливість інформувати користувача про важливі моменти або "
+"надати можливість виконати одну дію."
 
 #: ../../humanguide/app-layout/dialogs.rst:6
 msgid ""
@@ -7444,6 +7461,9 @@ msgid ""
 "should be placed topmost in vertical dialogs or rightmost in horizontal "
 "dialogs."
 msgstr ""
+"Діалоги повинні бути однозначними та точними. Кольором слід виділяти лише "
+"найпоширенішу або основну дію. У вертикальних діалогах основну дію слід "
+"розміщати вгорі, а в горизонтальних — справа."
 
 #: ../../humanguide/app-layout/dialogs.rst:8
 msgid ""
@@ -7452,6 +7472,10 @@ msgid ""
 "make changes that can't be easily undone. Neutral actions do not add or "
 "remove from the subject, but still make a change."
 msgstr ""
+"Основні дії можуть бути позитивними, негативними або нейтральними. Позитивні "
+"щось додають предмету. Негативні дії вилучають, видаляють або вносять зміни, "
+"які буде складно скасувати. Нейтральні дії не додають та не видаляють нічого "
+"з предмета, але вносять зміни."
 
 #: ../../humanguide/app-layout/dialogs.rst:10
 msgid ""
@@ -7461,6 +7485,10 @@ msgid ""
 "``theme.palette.normal.focus`` if it is neutral. The remaining options "
 "should be gray, without defining a color theme property."
 msgstr ""
+"Основна дія повинна бути виділена через ``theme.palette.normal.negative`` "
+"якщо вона деструктивна, через ``theme.palette.normal.positive`` — якщо "
+"позитивна або через ``theme.palette.normal.focus`` якщо вона нейтральна. "
+"Решта параметрів мають бути сірими, без визначеного кольору."
 
 #: ../../humanguide/app-layout/dialogs.rst:14
 msgid ""
@@ -7470,16 +7498,22 @@ msgid ""
 "then be \"Delete\", a negative action colored in red, and \"Cancel\", "
 "colored in gray."
 msgstr ""
+"Діалоги мають відновлювати дії, а не ставити запитання на \"так\" чи \"ні\". "
+"Наприклад, користувач обирає опцію видалити контакт. Ваш діалог повинен "
+"спитати: \"Ви дійсно бажаєте видалити цей контакт?\" та мати негативну опцію "
+"\"Видалити\" з позначенням червоним, та \"Скасувати\" сірим кольором."
 
 #: ../../humanguide/app-layout/dialogs.rst:17
 msgid "Examples of designs to avoid"
-msgstr ""
+msgstr "Зразки дизайнів, які слід уникати"
 
 #: ../../humanguide/app-layout/dialogs.rst:21
 msgid ""
 "Left: Download button uses old focus color, Cancel button (secondary action) "
 "uses old grey color."
 msgstr ""
+"Зліва: кнопка Завантажити використовує старий колір фокусування, а кнопка "
+"Скасувати (другорядна дія) використовує старий сірий колір."
 
 #: ../../humanguide/app-layout/dialogs.rst:23
 msgid ""
@@ -7487,21 +7521,28 @@ msgid ""
 "with confusing color meaning: \"Will 'No' cause an irreversible action, and "
 "'Yes' cause an additive action?\""
 msgstr ""
+"Праворуч: Діалог використовує загальні відповіді з двома кнопками, "
+"пофарбованими у кольори основної дії, які можуть заплутати: \"Чи призведе "
+"'Ні' до незворотної дії, а 'Так' до корисних змін?\""
 
 #: ../../humanguide/app-layout/header-uses.rst:2
 msgid "Header uses"
-msgstr ""
+msgstr "Використання заголовків"
 
 #: ../../humanguide/app-layout/header-uses.rst:4
 msgid ""
 "App headers can be used to show app name, app section or page, search box, "
 "or other globally accessible functions."
 msgstr ""
+"Заголовки програм можна використовувати для відтворення назви програми, "
+"розділу чи сторінки, пошукового поля або інших глобально доступних функцій."
 
 #: ../../humanguide/app-layout/header-uses.rst:12
 msgid ""
 "Some special apps doesn't show any header, like the Camera app or some games."
 msgstr ""
+"Деякі окремі програми не мають заголовків, як, наприклад, у Камери чи деяких "
+"ігор."
 
 #: ../../humanguide/app-layout/header-uses.rst:14
 msgid ""
@@ -7509,53 +7550,66 @@ msgid ""
 "api-docs.ubports.com/sdk/apps/qml/Ubuntu.Components/PageStack.html>`__ is "
 "used."
 msgstr ""
+"Заголовки служать для відтворення кнопки \"Назад\", коли використовується "
+"`page stack <https://api-docs.ubports.com/sdk/apps/qml/Ubuntu.Components/"
+"PageStack.html>`__."
 
 #: ../../humanguide/app-layout/importing-data.rst:2
 msgid "Importing Data"
-msgstr ""
+msgstr "Імпорт даних"
 
 #: ../../humanguide/app-layout/importing-data.rst:4
 msgid ""
 "Interchange of data between apps is done through Content Hub. This improves "
 "isolation between apps."
 msgstr ""
+"Обмін даними між програмами здійснюється через Content Hub. Це поліпшує "
+"ізоляцію між програмами."
 
 #: ../../humanguide/app-layout/importing-data.rst:8
 msgid ""
 "Apps with the appropriate apparmor permissions can import, export or share "
 "data between them."
 msgstr ""
+"Програми з відповідними дозволами apparmor можуть імпортувати, експортувати "
+"дані або обмінюватися ними між собою."
 
 #: ../../humanguide/app-layout/importing-data.rst:10
 msgid ""
 "For more information see `Importing from Content Hub and URLdispatcher`_."
 msgstr ""
+"Більш докладно можете ознайомитися у розділі `Імпорт з Content Hub та "
+"URLdispatcher`_."
 
 #: ../../humanguide/app-layout/index.rst:2
 msgid "App layout"
-msgstr ""
+msgstr "Макет програми"
 
 #: ../../humanguide/app-layout/main-actions.rst:2
 msgid "Main actions"
-msgstr ""
+msgstr "Головні дії"
 
 #: ../../humanguide/app-layout/main-actions.rst:4
 msgid ""
 "Main actions are displayed in the corresponding header of the Page. The "
 "header should show only relevant actions to the current page."
 msgstr ""
+"Головні дії відтворюються у відповідному заголовку сторінки. Він повинен "
+"містити лише відповідні до цієї сторінки дії."
 
 #: ../../humanguide/app-layout/main-actions.rst:6
 msgid "Main page of Contacts app shows:"
-msgstr ""
+msgstr "Головна сторінка програми Контакти:"
 
 #: ../../humanguide/app-layout/main-actions.rst:10
 msgid "When viewing a single contact, only relevant actions are shown:"
 msgstr ""
+"Під час перегляду окремого контакту, повинні відтворюватися тільки "
+"відповідні дії:"
 
 #: ../../humanguide/app-layout/main-actions.rst:15
 msgid "Slots"
-msgstr ""
+msgstr "Слоти"
 
 #: ../../humanguide/app-layout/main-actions.rst:17
 msgid ""
@@ -7563,10 +7617,13 @@ msgid ""
 "options. Depending on the surface or window size, additional slots can be "
 "added to show the actions otherwise hidden in drawers."
 msgstr ""
+"Заголовок містить різні слоти, де можна розташувати дії чи навігаційні "
+"елементи. Залежно від розмірів вікна можна збільшити кількість слотів та "
+"використати їх для відтворення дій, які в іншому разі приховані."
 
 #: ../../humanguide/app-layout/main-actions.rst:22
 msgid "Action Drawer"
-msgstr ""
+msgstr "Шухляда з діями"
 
 #: ../../humanguide/app-layout/main-actions.rst:24
 msgid ""
@@ -7574,36 +7631,41 @@ msgid ""
 "slots to house them. However, when your app is on a larger surface, like on "
 "a desktop, then actions will appear in the slots."
 msgstr ""
+"Якщо для дій не вистачає місця у слотах, вони будуть розташовані у так "
+"званій шухляді з діями (action drawer). Хоча, якщо Ваша програма "
+"запускається на великому екрані, дії з'являться у слотах."
 
 #: ../../humanguide/app-layout/main-actions.rst:29
 msgid "Responsive layout"
-msgstr ""
+msgstr "Адаптивний макет"
 
 #: ../../humanguide/app-layout/main-actions.rst:31
 msgid ""
 "As the header gains width across screen sizes, additional slots become "
 "visible and actions in the drawer will appear automatically."
 msgstr ""
+"Коли заголовок отримує більше місця на екрані, додаткові слоти стають "
+"видимими, а дії у шухляді з’являються автоматично."
 
 #: ../../humanguide/app-layout/main-actions.rst:34
 msgid "3 slot layout"
-msgstr ""
+msgstr "Макет на 3 слоти"
 
 #: ../../humanguide/app-layout/main-actions.rst:41
 msgid "4 slot layout"
-msgstr ""
+msgstr "Макет на 4 слоти"
 
 #: ../../humanguide/app-layout/main-actions.rst:48
 msgid "5 slot layout"
-msgstr ""
+msgstr "Макет на 5 слотів"
 
 #: ../../humanguide/app-layout/main-actions.rst:55
 msgid "6 slot layout"
-msgstr ""
+msgstr "Макет на 6 слотів"
 
 #: ../../humanguide/app-layout/main-actions.rst:62
 msgid "Medium to large screens"
-msgstr ""
+msgstr "Середній та великий екрани"
 
 #: ../../humanguide/app-layout/main-actions.rst:64
 msgid ""
@@ -7611,28 +7673,32 @@ msgid ""
 "If this is exceeded then additional actions will migrate to the action "
 "drawer."
 msgstr ""
+"Максимальна кількість видимих слотів з діями у звичайному середовищі — 6. "
+"Якщо це число досягнуте, додаткові дії будуть перенесені до шухляди з діями."
 
 #: ../../humanguide/app-layout/main-actions.rst:67
 msgid "Simple"
-msgstr ""
+msgstr "Простота"
 
 #: ../../humanguide/app-layout/main-actions.rst:69
 msgid "Keep in mind to keep a clean design. The simpler, the better."
-msgstr ""
+msgstr "Пам'ятайте, що краще тримати дизайн акуратним. Чим простіше, тим краще."
 
 #: ../../humanguide/app-layout/presenting-data.rst:2
 msgid "Presenting data"
-msgstr ""
+msgstr "Презентація даних"
 
 #: ../../humanguide/app-layout/presenting-data.rst:5
 msgid "List Items"
-msgstr ""
+msgstr "Список елементів"
 
 #: ../../humanguide/app-layout/presenting-data.rst:7
 msgid ""
 "List items can be used to make up a list of ordered scrollable items that "
 "are related to each other."
 msgstr ""
+"Список елементів можна використовувати для створення списків із "
+"впорядкованими елементами, поєднаними один з одним."
 
 #: ../../humanguide/app-layout/presenting-data.rst:11
 msgid ""
@@ -7640,6 +7706,8 @@ msgid ""
 "more sense to show them inside a grid rather than a list; like in a photo "
 "gallery."
 msgstr ""
+"Коли малюнки чи іконки додані без тексту, або без дій, можливо має більше "
+"сенсу показати їх не списком, а як у фотогалереї — плиткою."
 
 #: ../../humanguide/app-layout/presenting-data.rst:15
 msgid ""
@@ -7647,33 +7715,40 @@ msgid ""
 "context menu can be accessed in two ways: by swiping or right-clicking the "
 "list item."
 msgstr ""
+"Елементи списку можуть мати дії, які можна розташувати у контекстному меню. "
+"Доступ до контекстного меню можливий у два способи: свайпом або правим "
+"клацанням на елементі списку."
 
 #: ../../humanguide/app-layout/presenting-data.rst:17
 msgid ""
 "The actions are placed within two categories: leading for negative actions "
 "and trailing for positive actions."
 msgstr ""
+"Дії розбиті на дві категорії: ті, що ведуть до негативних дій та ті, що "
+"ведуть до позитивних дій."
 
 #: ../../humanguide/app-layout/presenting-data.rst:20
 msgid "Touch swiping"
-msgstr ""
+msgstr "Перетягування"
 
 #: ../../humanguide/app-layout/presenting-data.rst:27
 msgid "Mouse right click"
-msgstr ""
+msgstr "Клацання правою клавішею миші"
 
 #: ../../humanguide/app-layout/presenting-data.rst:32
 msgid "Keyboard navigation"
-msgstr ""
+msgstr "Навігація клавіатурою"
 
 #: ../../humanguide/app-layout/presenting-data.rst:37
 msgid "Lists in edit mode"
-msgstr ""
+msgstr "Списки у режимі редагування"
 
 #: ../../humanguide/app-layout/presenting-data.rst:39
 msgid ""
 "Edit mode allows users to modify a particular item or multiple items at once."
 msgstr ""
+"Режим редагування дозволяє користувачам змінювати окремі елементи або "
+"декілька одночасно."
 
 #: ../../humanguide/app-layout/presenting-data.rst:41
 msgid ""
@@ -7683,26 +7758,31 @@ msgid ""
 "content. Alternatively, if the user long presses an item a context menu will "
 "show the associated editing actions too."
 msgstr ""
+"Ви можете користуватися режимом редагування, щоб дозволити користувачам "
+"упорядковувати чи видаляти елементи. З перемиканням у режим редагування весь "
+"екран переходить у цей режим, заголовок показує пов'язані зі змістом дії. "
+"Інакше, якщо користувач натискає та утримує елемент, також з'являється "
+"контекстне меню з асоційованими діями редагування."
 
 #: ../../humanguide/app-layout/presenting-data.rst:48
 msgid "Layout of detailed list items"
-msgstr ""
+msgstr "Макет детального списку елементів"
 
 #: ../../humanguide/app-layout/presenting-data.rst:52
 msgid "1 line – Title"
-msgstr ""
+msgstr "Один рядок — Назва"
 
 #: ../../humanguide/app-layout/presenting-data.rst:54
 msgid "1 line – Subtitle"
-msgstr ""
+msgstr "Один рядок — Підзаголовок"
 
 #: ../../humanguide/app-layout/presenting-data.rst:56
 msgid "2 lines – Summary"
-msgstr ""
+msgstr "Два рядки — Резюме"
 
 #: ../../humanguide/app-layout/quick-actions.rst:2
 msgid "Quick actions"
-msgstr ""
+msgstr "Швидкі дії"
 
 #: ../../humanguide/app-layout/quick-actions.rst:4
 msgid ""
@@ -15286,7 +15366,7 @@ msgstr "Знищити контейнер"
 
 #: ../../userguide/dailyuse/libertine.rst:67
 msgid "Manage applications"
-msgstr "Керувати додатками"
+msgstr "Керувати програмами"
 
 #: ../../userguide/dailyuse/libertine.rst:69
 msgid ""
@@ -15369,8 +15449,8 @@ msgid ""
 "Run it from the app menu like any other app. To start a graphical app from "
 "the command-line, for example ``gedit``, run this in a terminal::"
 msgstr ""
-"Запустіть його з меню додатків, як будь-який інший додаток. Щоб запустити "
-"графічний додаток з командного рядка, наприклад ``gedit``, виконайте в "
+"Запустіть його з меню програм, як будь-яку іншу програму. Для запуску "
+"графічної програми з командного рядка, наприклад ``gedit``, виконайте в "
 "терміналі наступну команду:"
 
 #: ../../userguide/dailyuse/libertine.rst:111
@@ -15379,7 +15459,7 @@ msgstr "Файли"
 
 #: ../../userguide/dailyuse/libertine.rst:113
 msgid "Libertine applications have access to these folders:"
-msgstr "Додатки Libertine мають доступ до таких папок:"
+msgstr "Програми Libertine мають доступ до таких тек:"
 
 #: ../../userguide/dailyuse/libertine.rst:115
 msgid "Documents"
@@ -15564,16 +15644,16 @@ msgid ""
 "rule to control how to mount a card with a given ID, but since the udev "
 "rules are on the read-only port on Ubuntu Touch, this is not possible."
 msgstr ""
-"Щоб використовувати SD-картку як додатковий простір для вашого контейнера, "
-"спочатку переконайтеся, що ви відформатували її за допомогою ext4 або "
-"подібної файлової системи. У UDisks2 є проблемна особливість (mis-feature), "
-"яка монтує SD-картки з опцією showexec, забезпечуючи, що лише файли, які "
-"закінчуються на .bat, .exe або .com, можуть виконуватися з диска, якщо він "
-"відформатований у (V)FAT. Це було виправлено в інших дистрибутивах, "
-"дозволяючи будь-якому файлу мати права на виконання, але не в Ubuntu. "
-"Рекомендований обхідний шлях — додати правило udev для контролю способу "
-"монтування картки з певним ID, але оскільки правила udev знаходяться на "
-"тільки для читання порту в Ubuntu Touch, це неможливо."
+"Щоб використовувати SD-картку як додатковий простір для Вашого контейнера, "
+"спочатку переконайтеся, що Ви відформатували її за допомогою ext4 або "
+"подібної файлової системи. У UDisks2, якщо він відформатований у (V)FAT, є "
+"проблемна особливість (mis-feature), яка монтує SD-картки з опцією showexec, "
+"через що можуть виконуватися з диска лише файли, які закінчуються на .bat, "
+".exe або .com. Це було виправлено в інших дистрибутивах, дозволяючи будь-"
+"якому файлу мати права на виконання, але не в Ubuntu. Рекомендований "
+"обхідний шлях — додати правило udev для контролю способу монтування картки з "
+"певним ID, але оскільки правила udev знаходяться на порту, який в Ubuntu "
+"Touch тільки для читання, це неможливо."
 
 #: ../../userguide/dailyuse/libertine.rst:207
 msgid "Shortcuts"
@@ -15649,7 +15729,7 @@ msgid ""
 "transport near you <https://open-store.io/app/transport.zubozrout>`__, and "
 "more."
 msgstr ""
-"Служби геопозиції в Ubuntu Touch дозволяють додаткам отримувати доступ до "
+"Служби геопозиції в Ubuntu Touch дозволяють програмам отримувати доступ до "
 "Вашого поточного розташування. Використовуючи ці дані, програми можуть "
 "`пропонувати покрокову навігацію <https://open-store.io/app/"
 "navigator.costales>`__, `відстежувати маршрути Ваших тренувань <https://open-"
@@ -15664,9 +15744,9 @@ msgid ""
 "in use."
 msgstr ""
 "Вбудовані в Ubuntu Touch служби геопозиції призначені для захисту Вашої "
-"конфіденційності — Ви самі вирішуєте, чи дозволити додаткам доступ до цих "
-"даних. Додатки можуть отримувати доступ до даних про Ваше розташування лише "
-"тоді, коли екран пристрою увімкнено і додаток використовується."
+"конфіденційності — Ви самі вирішуєте, чи дозволити програмам доступ до цих "
+"даних. Програми можуть отримувати доступ до Ваших даних про розташування "
+"лише тоді, коли екран пристрою увімкнено і додаток використовується."
 
 #: ../../userguide/dailyuse/location.rst:11
 msgid "Checking if location services are on"
@@ -15940,8 +16020,8 @@ msgid ""
 "Download an app which uses location services and use it to start accessing "
 "location data."
 msgstr ""
-"Завантажте додаток, який використовує служби визначення місцезнаходження, і "
-"використовуйте його для отримання доступу до даних про місцезнаходження."
+"Завантажте програму, яка використовує служби визначення місцезнаходження, і "
+"користуйтеся нею для отримання доступу до даних про місцезнаходження."
 
 #: ../../userguide/dailyuse/location.rst:155
 msgid "Leave your device near a window, but out of direct sunlight."
@@ -15957,9 +16037,9 @@ msgid ""
 "can now close the app and turn on ``Lock when idle``. Future attempts to "
 "aquire your location should now take 1-4 minutes."
 msgstr ""
-"Через 20-60 хвилин на вашому пристрої має з'явитися ваше поточне "
-"місцезнаходження. Тепер ви можете закрити додаток і увімкнути функцію "
-"``Блокувати в режимі очікування``. Наступні спроби визначити ваше "
+"Через 20-60 хвилин на Вашому пристрої має з'явитися Ваше поточне "
+"розташування. Тепер Ви можете закрити програму і увімкнути функцію "
+"``Блокувати в режимі очікування``. Наступні спроби визначити Ваше "
 "місцезнаходження займатимуть 1-4 хвилини."
 
 #: ../../userguide/dailyuse/location.rst:164
@@ -15997,7 +16077,7 @@ msgstr "Перейдіть до програми налаштувань і зн�
 
 #: ../../userguide/dailyuse/tethering.rst:10
 msgid "The USB Setting in the settings app."
-msgstr "Налаштування USB в додатку налаштувань."
+msgstr "Налаштування USB в програмі налаштувань."
 
 #: ../../userguide/dailyuse/tethering.rst:12
 msgid "On the USB page you can then choose for the USB tethering option"
@@ -16110,7 +16190,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/waydroid.rst:2
 msgid "Android apps"
-msgstr "Додатки для Android"
+msgstr "Програми для Android"
 
 #: ../../userguide/dailyuse/waydroid.rst:4
 msgid ""
@@ -16253,7 +16333,7 @@ msgid ""
 "image that ships with either appstore."
 msgstr ""
 "Більш досвідчені користувачі можуть вирішити цю проблему, створивши власний "
-"образ Waydroid, який постачається разом з будь-яким магазином додатків."
+"образ Waydroid, який постачається разом з будь-яким магазином програм."
 
 #: ../../userguide/dailyuse/waydroid.rst:53
 msgid "How to uninstall apps"
@@ -16288,8 +16368,8 @@ msgid ""
 "If you are using an appstore in waydroid you can also uninstall apps through "
 "said appstore"
 msgstr ""
-"Якщо ви використовуєте магазин додатків у Waydroid, ви також можете видаляти "
-"додатки через цей магазин"
+"Якщо Ви користуєтеся магазином програм у Waydroid, Ви також можете через "
+"нього видаляти програми"
 
 #: ../../userguide/dailyuse/waydroid.rst:64
 msgid "Access Android storage"
