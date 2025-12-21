@@ -51,8 +51,9 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-10-28 09:04+0000\n"
-"Last-Translator: doniks <p.putz@yahoo.de>\n"
+"PO-Revision-Date: 2025-12-22 16:00+0000\n"
+"Last-Translator: Julian Noel Streitberger <juliannoelstreitberger@gmail.com>"
+"\n"
 "Language-Team: German <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/de/>\n"
 "Language: de\n"
@@ -60,7 +61,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -202,10 +203,14 @@ msgid ""
 "our CI automatically build our Git repositories into a number of APT "
 "archives hosted at http://repo.ubports.com/, according to the branch name."
 msgstr ""
+"Um eine möglichst reibungslose Bereitstellung unseres Codes für Ubuntu Touch "
+"zu gewährleisten, baut unsere CI unsere Git-Repositorys automatisch in "
+"verschiedene APT-Archive um. Diese werden je nach Branch-Namen unter http://"
+"repo.ubports.com/ bereitgestellt."
 
 #: ../../about/process/branch-naming.rst:18
 msgid "We maintain the following branches across Git repositories:"
-msgstr ""
+msgstr "Wir pflegen die folgenden Branches in unseren Git-Repositorys:"
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
@@ -228,7 +233,7 @@ msgstr "Beschreibung"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "Zugehörige APT-Archive"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
