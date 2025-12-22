@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-12-21 03:00+0000\n"
+"PO-Revision-Date: 2025-12-22 16:00+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -7498,10 +7498,11 @@ msgid ""
 "then be \"Delete\", a negative action colored in red, and \"Cancel\", "
 "colored in gray."
 msgstr ""
-"Діалоги мають відновлювати дії, а не ставити запитання на \"так\" чи \"ні\". "
-"Наприклад, користувач обирає опцію видалити контакт. Ваш діалог повинен "
-"спитати: \"Ви дійсно бажаєте видалити цей контакт?\" та мати негативну опцію "
-"\"Видалити\" з позначенням червоним, та \"Скасувати\" сірим кольором."
+"Діалоги мають продовжити виконання дії, а не ставити запитання на \"так\" чи "
+"\"ні\". Наприклад, користувач обирає опцію видалити контакт. Ваш діалог "
+"повинен спитати: \"Ви дійсно бажаєте видалити цей контакт?\" та мати "
+"негативну опцію \"Видалити\" з позначенням червоним, та \"Скасувати\" сірим "
+"кольором."
 
 #: ../../humanguide/app-layout/dialogs.rst:17
 msgid "Examples of designs to avoid"
@@ -7791,32 +7792,38 @@ msgid ""
 "Ubuntu.Components/BottomEdge.html>`__ action, accessed with a swipe from "
 "outside of the screen upwards."
 msgstr ""
+"Найбільш популярні дії для програми, до яких потрібен швидкий доступ, можна "
+"додати як дію `нижнього краю <https://api-docs.ubports.com/sdk/apps/qml/"
+"Ubuntu.Components/BottomEdge.html>`__, доступ до якої можливий через свайп "
+"вгору."
 
 #: ../../humanguide/app-layout/quick-actions.rst:6
 msgid "You can add a new contact in the Contacts app swiping up:"
-msgstr ""
+msgstr "Можете свайпом вгору додати до програми Контакти новий контакт:"
 
 #: ../../humanguide/app-layout/quick-actions.rst:11
 msgid "Hint"
-msgstr ""
+msgstr "Підказка"
 
 #: ../../humanguide/app-layout/quick-actions.rst:13
 msgid ""
 "The hint is used to let the user know that there is something worth trying "
 "at the bottom of the screen."
 msgstr ""
+"Підказка використовується, щоб повідомити користувачеві, що внизу екрана є "
+"щось корисне, що варто спробувати."
 
 #: ../../humanguide/app-layout/quick-actions.rst:15
 msgid "After opening an app, a hint with a text and/or an icon is shown:"
-msgstr ""
+msgstr "Після запуску програми, з'являється підказка з текстом та/чи іконка:"
 
 #: ../../humanguide/app-layout/quick-actions.rst:19
 msgid "After after a few seconds it hides and a floating icon is shown"
-msgstr ""
+msgstr "Через декілька секунд вона зникає та з'являється плавучий значок"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:2
 msgid "App icon design"
-msgstr ""
+msgstr "Дизайн програмних значків"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:4
 msgid ""
@@ -7825,24 +7832,30 @@ msgid ""
 "design/get-started/design-philosophy>`__ started by Canonical and `Samuel "
 "Hewitt <https://samuelhewitt.com>`__."
 msgstr ""
+"Уся система та програми дотримуються `принципів дизайну Suru <http://"
+"web.archive.org/web/20191223082720/https://docs.ubuntu.com/phone/en/apps/"
+"design/get-started/design-philosophy>`__ заснованого Canonical та `Samuel "
+"Hewitt <https://samuelhewitt.com>`__."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:7
 msgid "Design Philosophy and Suru Meaning"
-msgstr ""
+msgstr "Філософія дизайну та значення Suru"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:9
 msgid "Suru alludes to Japanese culture."
-msgstr ""
+msgstr "Suru натякає на японську культуру."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:10
 msgid "The design of Suru is inspired by origami."
-msgstr ""
+msgstr "Дизайн Suru натхненний оригамі."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:11
 msgid ""
 "Paper can be used in two and three dimensional forms, because it is "
 "transferable and diverse."
 msgstr ""
+"Папір завдяки гнучкості та різноманіттю можна використовувати у двох- та "
+"тривимірних формах."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:14
 msgid ""
@@ -7850,24 +7863,28 @@ msgid ""
 "The sharp lines and varying levels of transparency evoke the edges and "
 "texture of paper."
 msgstr ""
+"Suru надає точну та органічну структуру для інтерфейсу Ubuntu Touch. Чіткі "
+"лінії та різний рівень прозорості нагадують краї та текстуру паперу."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:17
 msgid "Design Tips for an App Icon"
-msgstr ""
+msgstr "Дизайнерські поради для програмних значків"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:20
 msgid "Descriptive design"
-msgstr ""
+msgstr "Зрозумілий дизайн"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:22
 msgid ""
 "The icon you choose for your app should describe what your app is about, "
 "what it does, or what service it is there for in a recognizable way."
 msgstr ""
+"Значок, який Ви обираєте для своєї програми повинен допомогти зрозуміти її "
+"призначення, що вона робить, або для яких вона сервісів."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:27
 msgid "Distinctive shapes"
-msgstr ""
+msgstr "Характерні форми"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:29
 msgid ""
@@ -7876,10 +7893,14 @@ msgid ""
 "trying to depict. A TV might look like a box, or a computer screen, a remote "
 "control like a phone, etc."
 msgstr ""
+"Залежно від об'єкта, обраного Вами для значка, перспективи, його освітлення "
+"та інших факторів, може бути складно визначити, що саме Ви хочете показати. "
+"Телевізор може виглядати як коробка, або як екран комп'ютера, а дистанційний "
+"пульт як телефон, та ін."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:34
 msgid "Details"
-msgstr ""
+msgstr "Деталі"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:36
 msgid ""
@@ -7888,20 +7909,26 @@ msgid ""
 "or for people who have impaired eyesight. Show what's necessary, pay "
 "attention to detail, but don't overload the icon."
 msgstr ""
+"Значок з багатьма деталями може мати чудовий та якісний вигляд, але це може "
+"дещо заплутати, особливо багатьма деталями на малих розмірах або якщо "
+"користувач має зорові проблеми. Покажіть необхідне, зверніть увагу на "
+"деталі, але не перевантажуйте ними."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:41
 msgid "Colours"
-msgstr ""
+msgstr "Кольори"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:43
 msgid ""
 "Use distinctive colours, make your icon stand out a bit and give the shapes "
 "enough contrast to be visible."
 msgstr ""
+"Використовуйте характерні кольори, зробіть значок дещо помітним, надайте "
+"виразності та якщо потрібно — контрасту."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:48
 msgid "Gradients"
-msgstr ""
+msgstr "Градієнти"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:50
 msgid ""
@@ -7909,10 +7936,12 @@ msgid ""
 "slightly different from each other so that the change is not too dramatic. "
 "For example:"
 msgstr ""
+"Якщо плануєте додати до значка градієнт, користуйтеся лише кольорами, які "
+"відрізняються один від одного не занадто сильно. Наприклад:"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:55
 msgid "Composition"
-msgstr ""
+msgstr "Композиція"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:57
 msgid ""
@@ -7920,10 +7949,13 @@ msgid ""
 "usually a coloured surface with the pictogram, also composed of flat shapes, "
 "“floating” above it."
 msgstr ""
+"Значки Suru складаються з простих геометричних фігур. Тло зазвичай виглядає, "
+"як кольорова поверхня з піктограмою з пласких фігур, яка \"плаває\" над "
+"поверхнею."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:64
 msgid "The Fold Effect"
-msgstr ""
+msgstr "Ефект згинання"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:66
 msgid ""
@@ -7931,16 +7963,21 @@ msgid ""
 "many icons this is a single horizontal or vertical line but sometimes the "
 "fold line(s) correspond or align with elements of the pictogram."
 msgstr ""
+"Зберігаючи мотив оригамі, деякі значки Suru мають вигляд згину. У багатьох "
+"значків є одна горизонтальна або вертикальна лінія, але іноді лінія/лінії "
+"згину відповідає елементам піктограми."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:68
 msgid ""
 "The fold is drawn by creating an overlay of a white or black polygon of very "
 "low opacity (usually between 1%~10%)."
 msgstr ""
+"Згин створюється накладанням фігури білого або чорного кольору з низькою "
+"щільністю (зазвичай між 1%~10%)."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:75
 msgid "Grids"
-msgstr ""
+msgstr "Сітки"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:77
 msgid ""
@@ -7948,6 +7985,8 @@ msgid ""
 "to reserve area for the icon background for even padding around the "
 "pictogram."
 msgstr ""
+"Сітки/напрямні у макетах значків допоможуть Вам правильно розподілити тло "
+"значків та рівномірно використати місце навколо піктограми."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:81
 msgid ""
@@ -7956,10 +7995,13 @@ msgid ""
 "illusion where circular objects appear smaller than rectangular objects of "
 "the same dimensions."
 msgstr ""
+"Зверніть увагу, що круглі елементи дещо більші за прямокутні елементи сітки, "
+"це перевищення необхідне для компенсації оптичної ілюзії, коли круглі "
+"об’єкти виглядають меншими за прямокутні об’єкти тих самих розмірів."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:84
 msgid "Unit Grid"
-msgstr ""
+msgstr "Розмір сітки"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:86
 msgid ""
@@ -7968,10 +8010,14 @@ msgid ""
 "four (16x16, 24x24, 32x32, 48x48, 256x256) using a pixel grid with lines "
 "every 4 pixels and drawing to that grid is the best practice."
 msgstr ""
+"Створення дизайну з сіткою напрямних має вирішальне значення для отримання "
+"чітких та чистих значків. Оскільки більшість значків мають кратний чотирьом "
+"розмір (16x16, 24x24, 32x32, 48x48, 256x256), використання у дизайні "
+"піксельної сітки кожні 4 пікселі — це кращий досвід (best practice)."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:89
 msgid "Shadows"
-msgstr ""
+msgstr "Тіні"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:91
 msgid ""
@@ -7979,24 +8025,30 @@ msgid ""
 "pictogram to create a drop shadow effect, and a second below the overall "
 "icon shape."
 msgstr ""
+"Часто значок Suru малюється з двома різними наборами тіней: один для "
+"створення ефекту тіні у піктограмі, а другий — під загальною формою значка."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:93
 msgid ""
 "The drop shadow effect on the central pictogram is a combination of two "
 "shadow that are identical in shape to the pictogram:"
 msgstr ""
+"Ефект тіні на центральній піктограмі є комбінацією двох тіней однакової з "
+"піктограмою форми:"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:95
 msgid ""
 "a shape that is rgba(0,0,0,0.1) with vertical offset of 2 pixels and a blur "
 "of 1%"
 msgstr ""
+"форма rgba(0,0,0,0.1) з вертикальним зсувом у 2 пікселі та розмиттям на 1%"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:96
 msgid ""
 "a shape that is rgba(0,0,0,0.4) with vertical offset of 4 pixels and a blur "
 "of 10%"
 msgstr ""
+"форма rgba(0,0,0,0.4) з вертикальним зсувом у 4 пікселі та розмиттям на 10%"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:100
 msgid ""
@@ -8004,10 +8056,12 @@ msgid ""
 "gradient with three stops whose positions correspond to the location of the "
 "background fold."
 msgstr ""
+"Якщо є ефект згину, друга тінь малюється лінійним градієнтом з трьома "
+"точками, які відповідають місцям згину."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:103
 msgid "Highlights"
-msgstr ""
+msgstr "Підсвічування"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:105
 msgid ""
@@ -8017,6 +8071,11 @@ msgid ""
 "is an 'edge' that you can align to the top of the pictogram. Repeat as "
 "needed."
 msgstr ""
+"Піктограми повинні мати дуже легке біле підсвічування вздовж верхнього краю "
+"шириною 1 піксель. Для цього зробіть 2 повноцінні білі копії основної фігури "
+"піктограми та перемістіть одну копію на 1 піксель вниз і складіть обидві "
+"так, щоб залишився \"край\", який можна вирівняти з верхнім краєм "
+"піктограми. Повторіть за потреби."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:109
 msgid ""
@@ -8024,20 +8083,25 @@ msgid ""
 "of your highlight. For instance, if it is using bright, primary colours, "
 "there isn't any need for a highlight."
 msgstr ""
+"Залежно від кольорів елементів Вашої піктограми, рівень прозорості може "
+"варіюватися. Наприклад, якщо вони світлі або яскраві, можливо немає потреби "
+"у підсвітлені."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:111
 msgid ""
 "Grids and other resources can be found in this `gitlab repository <https://"
 "gitlab.com/cibersheep/ubuntu-icon-resource-kit>`__."
 msgstr ""
+"Сітки та інші ресурси можна знайти у цьому `репозиторії gitlab <https://"
+"gitlab.com/cibersheep/ubuntu-icon-resource-kit>`__."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:2
 msgid "In-app icons design"
-msgstr ""
+msgstr "Дизайн вбудованих значків"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:5
 msgid "Interface Icons"
-msgstr ""
+msgstr "Інтерфейсні значки"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:7
 msgid ""
@@ -8047,52 +8111,61 @@ msgid ""
 "icons are located in the top bar or in-app icons, such as in the Header or "
 "the menus."
 msgstr ""
+"Інтерфейсні значки повідомляють про статус або дії, такі як рівень заряду "
+"акумулятора чи будильник, і дозволяють користувачеві виконувати такі дії, як "
+"відкриття меню, обмін контентом або друк документів. Ці значки знаходяться "
+"на верхній панелі або у вбудованих значках, таких як заголовок або меню."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:9
 msgid ""
 "|stock_message.svg| |share.svg| |stock_alarm-clock.svg| |security-alert.svg| "
 "|settings.svg|"
 msgstr ""
+"|stock_message.svg| |share.svg| |stock_alarm-clock.svg| |security-alert.svg| "
+"|settings.svg|"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:82
 msgid "stock_message.svg"
-msgstr ""
+msgstr "stock_message.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:83
 msgid "share.svg"
-msgstr ""
+msgstr "share.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:84
 msgid "stock_alarm-clock.svg"
-msgstr ""
+msgstr "stock_alarm-clock.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:85
 msgid "security-alert.svg"
-msgstr ""
+msgstr "security-alert.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:86
 msgid "settings.svg"
-msgstr ""
+msgstr "settings.svg"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:12
 msgid ""
 "See a `list of the icons <http://docs.ubports.com/projects/icons/>`__. "
 "available in the system."
 msgstr ""
+"Перегляньте доступний у системі `список значків <http://docs.ubports.com/"
+"projects/icons/>`__."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:15
 msgid "Color"
-msgstr ""
+msgstr "Колір"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:17
 msgid ""
 "Interface icons can be colourized in qml therefore are designed in #808080 "
 "color."
 msgstr ""
+"Інтерфейсні значки можна розфарбувати у qml, тому вони мають колір #808080."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:20
 msgid "Font"
-msgstr ""
+msgstr "Шрифт"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:22
 msgid ""
@@ -8100,30 +8173,36 @@ msgid ""
 "distinctive, the design is based on the same patterns as the Ubuntu font. "
 "The font patterns can applied to the symbol to define its contours."
 msgstr ""
+"Для надання цілісного вигляду інтерфейсу та створення розпізнавальних "
+"значків Suru, дизайн заснований на тих самих шаблонах, що і шрифт Ubuntu. "
+"Шаблони шрифтів можна використати для визначення контурів символів."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:29
 msgid "Strokes"
-msgstr ""
+msgstr "Штрихи"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:31
 msgid ""
 "Stroke ends are squared but the upper end of vertical strokes is slightly "
 "oblique with a +10º angle."
 msgstr ""
+"Кінці штрихів прямокутні, але верхній край вертикальних штрихів трохи "
+"скошений під кутом +10º."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:38
 msgid "Rotation"
-msgstr ""
+msgstr "Поворот"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:40
 msgid ""
 "When they are not horizontal or vertical, objects are oriented along a +45º "
 "axis."
 msgstr ""
+"Якщо об'єкт не горизонтальний та не вертикальний, вони повернуті на +45º."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:47
 msgid "Corners"
-msgstr ""
+msgstr "Кути"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:49
 msgid ""
@@ -8131,10 +8210,14 @@ msgid ""
 "on the default outer and inner curvatures, with nodes and Bezier handle. The "
 "default curvature can be scaled down when the shape is smaller."
 msgstr ""
+"Краще використовувати закруглені кути. На наступному малюнку показано "
+"збільшене зображення типових зовнішнього та внутрішнього закруглень разом з "
+"вузлами та кривими Безьє. Якщо форма менша, типові закруглення можна "
+"зменшити."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:56
 msgid "Arrows"
-msgstr ""
+msgstr "Стрілки"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:58
 msgid ""
@@ -8142,10 +8225,13 @@ msgid ""
 "isosceles triangle where the two equal sides are slightly curved (following "
 "the pattern of the Y character)."
 msgstr ""
+"Для навігаційних стрілок використовується символ шеврона. Сама стрілка є "
+"рівнобедреним трикутником, у якого дві рівні сторони трохи зігнуті (як у "
+"символу Y)."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:65
 msgid "Opacity"
-msgstr ""
+msgstr "Щільність та прозорість"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:67
 msgid ""
@@ -8154,20 +8240,26 @@ msgid ""
 "icon changes. When the status allows a range of values, the opacity of a "
 "single portion of icon can be altered."
 msgstr ""
+"Щільність 50% використовують для відтворення статусу індикаторів. У випадку "
+"з подвійним пробілом (наприклад, активного та вимкненого), змінюється "
+"щільність всього значка. Коли стан дозволяє декілька значень у діапазоні, "
+"можна змінювати щільність окремої частини значка."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:74
 msgid "Grid"
-msgstr ""
+msgstr "Сітка"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:76
 msgid ""
 "Interface icons are designed for 96x96 pixels, with at least 4 pixels of "
 "margin on every side."
 msgstr ""
+"Інтерфейсні іконки створені розміром 96x96 пікселів та мають відступ з "
+"кожного боку мінімум на 4 пікселі."
 
 #: ../../humanguide/design-concepts/index.rst:2
 msgid "Design concepts"
-msgstr ""
+msgstr "Концепції дизайну"
 
 #: ../../humanguide/design-concepts/system-palette.rst:1
 msgid ""
@@ -8176,155 +8268,173 @@ msgid ""
 ">`__ and `Ubuntu documentation <https://docs.ubuntu.com/phone/en/apps/api-"
 "qml-development/Ubuntu.Components.UbuntuColors>`__):"
 msgstr ""
+"За розробкою `Canonical <https://www.canonical.com/>`__ ми використовуємо "
+"наступну системну палітру (від `Michał Prędotka <http://colors.mivoligo.com/>"
+"`__ та `документації Ubuntu <https://docs.ubuntu.com/phone/en/apps/api-qml-"
+"development/Ubuntu.Components.UbuntuColors>`__):"
 
 #: ../../humanguide/design-concepts/system-palette.rst:4
 msgid "Operating system and app palette"
-msgstr ""
+msgstr "Палітра програм та операційної системи"
 
 #: ../../humanguide/design-concepts/system-palette.rst:8
 msgid "#FFFFFF White"
-msgstr ""
+msgstr "#FFFFFF Білий"
 
 #: ../../humanguide/design-concepts/system-palette.rst:10
 msgid ""
 "Recommended for background on Ambiance theme (light theme) or regular text "
 "on Suru Dark theme."
 msgstr ""
+"Рекомендовано для фону у темі Ambiance (світла тема) або звичайного тексту у "
+"темі Suru Dark."
 
 #: ../../humanguide/design-concepts/system-palette.rst:14
 msgid "#111111 Jet"
-msgstr ""
+msgstr "#111111 Темно-сірий (Jet)"
 
 #: ../../humanguide/design-concepts/system-palette.rst:16
 msgid ""
 "Recommended for regular text on Ambiance theme or background in Suru Dark."
 msgstr ""
+"Рекомендовано для звичайного тексту у темі Ambiance або для фону у Suru Dark."
 
 #: ../../humanguide/design-concepts/system-palette.rst:20
 msgid "#3B3B3B Inkstone"
-msgstr ""
+msgstr "#3B3B3B Чорнильний камінь (Inkstone)"
 
 #: ../../humanguide/design-concepts/system-palette.rst:22
 msgid "Recommended for foreground colours in dark themes."
-msgstr ""
+msgstr "Рекомендовано для основних кольорів у темних темах."
 
 #: ../../humanguide/design-concepts/system-palette.rst:26
 msgid "#5D5D5D Slate"
-msgstr ""
+msgstr "#5D5D5D Сланець (Slate)"
 
 #: ../../humanguide/design-concepts/system-palette.rst:28
 msgid "Recommended for text and action icons."
-msgstr ""
+msgstr "Рекомендовано для тексту та значків дій."
 
 #: ../../humanguide/design-concepts/system-palette.rst:32
 msgid "#666666 Graphite"
-msgstr ""
+msgstr "#666666 Графіт"
 
 #: ../../humanguide/design-concepts/system-palette.rst:34
 msgid "Recommended for coloring dark themes' background."
-msgstr ""
+msgstr "Рекомендовано для фону в темних темах."
 
 #: ../../humanguide/design-concepts/system-palette.rst:38
 msgid "#888888 Ash"
-msgstr ""
+msgstr "#888888 Попіл"
 
 #: ../../humanguide/design-concepts/system-palette.rst:40
 msgid "Recommended for subtitles and other tertiary content."
-msgstr ""
+msgstr "Рекомендовано для субтитрів та контенту третіх сторін."
 
 #: ../../humanguide/design-concepts/system-palette.rst:44
 msgid "#CDCDCD Silk"
-msgstr ""
+msgstr "#CDCDCD Шовк"
 
 #: ../../humanguide/design-concepts/system-palette.rst:46
 msgid "Recommended for neutral action buttons and secondary text."
-msgstr ""
+msgstr "Рекомендовано для кнопок з нейтральними діями та додаткового тексту."
 
 #: ../../humanguide/design-concepts/system-palette.rst:50
 msgid "#F7F7F7 Porcelain"
-msgstr ""
+msgstr "#F7F7F7 Фарфор"
 
 #: ../../humanguide/design-concepts/system-palette.rst:52
 msgid "Recommended for foregrounds."
-msgstr ""
+msgstr "Рекомендовано для переднього плану."
 
 #: ../../humanguide/design-concepts/system-palette.rst:56
 msgid "#335280 Blue"
-msgstr ""
+msgstr "#335280 Синій"
 
 #: ../../humanguide/design-concepts/system-palette.rst:58
 msgid ""
 "Recommended for progress bars, selected areas, text selection and text "
 "cursor. Also neutral actions (Ambiance)."
 msgstr ""
+"Рекомендовано для індикаторів прогресу, виділених областей, виділення тексту "
+"та текстового курсора. Також нейтральні дії (Ambiance)."
 
 #: ../../humanguide/design-concepts/system-palette.rst:62
 msgid "#19B6EE Light Blue"
-msgstr ""
+msgstr "#19B6EE Блакитний"
 
 #: ../../humanguide/design-concepts/system-palette.rst:64
 msgid ""
 "Recommended for progress bars, selected areas, text selection and text "
 "cursor. Also neutral actions (SuruDark)."
 msgstr ""
+"Рекомендовано для індикаторів прогресу, виділених областей, виділення тексту "
+"та текстового курсора. Також нейтральні дії (SuruDark)."
 
 #: ../../humanguide/design-concepts/system-palette.rst:68
 msgid "#0E8420 Green"
-msgstr ""
+msgstr "#0E8420 Зелений"
 
 #: ../../humanguide/design-concepts/system-palette.rst:70
 msgid "Recommended for positive action buttons (Ambiance)."
-msgstr ""
+msgstr "Рекомендовано для кнопок позитивної дії (Ambiance)."
 
 #: ../../humanguide/design-concepts/system-palette.rst:74
 msgid "#3EB34F Light Green"
-msgstr ""
+msgstr "#3EB34F Світло-зелений"
 
 #: ../../humanguide/design-concepts/system-palette.rst:76
 msgid "Recommended for positive action buttons (SuruDark)."
-msgstr ""
+msgstr "Рекомендовано для кнопок позитивної дії (SuruDark)."
 
 #: ../../humanguide/design-concepts/system-palette.rst:80
 msgid "#C7162B Red"
-msgstr ""
+msgstr "#C7162B Червоний"
 
 #: ../../humanguide/design-concepts/system-palette.rst:82
 msgid ""
 "Recommended for negative and irreversible action buttons, errors and alerts "
 "(Ambiance)."
 msgstr ""
+"Рекомендовано для кнопок негативних і незворотних дій, помилок та сповіщень "
+"(Ambiance)."
 
 #: ../../humanguide/design-concepts/system-palette.rst:86
 msgid "#ED3146 Light Red"
-msgstr ""
+msgstr "#ED3146 Світло-червоний"
 
 #: ../../humanguide/design-concepts/system-palette.rst:88
 msgid ""
 "Recommended for negative and irreversible action buttons, errors and alerts "
 "(SuruDark)."
 msgstr ""
+"Рекомендовано для кнопок негативних і незворотних дій, помилок та сповіщень "
+"(SuruDark)."
 
 #: ../../humanguide/design-concepts/system-palette.rst:92
 msgid "#E95420 Orange"
-msgstr ""
+msgstr "#E95420 Помаранчевий"
 
 #: ../../humanguide/design-concepts/system-palette.rst:94
 msgid "Orange is recommended for branded elements, focus and intensity."
 msgstr ""
+"Помаранчевий рекомендується для фірмових елементів, фокусу та інтенсивності."
 
 #: ../../humanguide/design-concepts/typography.rst:2
 msgid "Typography"
-msgstr ""
+msgstr "Шрифтове оформлення"
 
 #: ../../humanguide/design-concepts/typography.rst:5
 msgid "Fonts"
-msgstr ""
+msgstr "Шрифти"
 
 #: ../../humanguide/design-concepts/typography.rst:7
 msgid ""
 "Our default font is `Ubuntu <https://design.ubuntu.com/font/>`__ `[2] "
 "<https://en.wikipedia.org/wiki/Ubuntu_(typeface)>`__ installed in the system."
 msgstr ""
+"Наш типовий шрифт `Ubuntu <https://design.ubuntu.com/font/>`__ `[2] <https://"
+"en.wikipedia.org/wiki/Ubuntu_(typeface)>`__ встановлений у системі."
 
 #: ../../humanguide/design-concepts/typography.rst:13
 msgid ""
@@ -8332,142 +8442,144 @@ msgid ""
 "font size as a number of pixels or points, it is imperative to define the "
 "font size in terms of size names:"
 msgstr ""
+"Для узгодження розміру шрифтів на різних пристроях, потрібно замість "
+"кількості пікселів або точок використовувати назви розмірів:"
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "Font Size Name"
-msgstr ""
+msgstr "Назва розміру"
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "gu"
-msgstr ""
+msgstr "gu"
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "Desktop"
-msgstr ""
+msgstr "ПК"
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "Phone"
-msgstr ""
+msgstr "Телефон"
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "Tablet"
-msgstr ""
+msgstr "Планшет"
 
 #: ../../humanguide/design-concepts/typography.rst:20
 msgid "4\" HD Screen"
-msgstr ""
+msgstr "Екран 4\" HD"
 
 #: ../../humanguide/design-concepts/typography.rst:20
 msgid "10\" HD screen"
-msgstr ""
+msgstr "Екран 10\" HD"
 
 #: ../../humanguide/design-concepts/typography.rst:23
 msgid "x-small"
-msgstr ""
+msgstr "x-small"
 
 #: ../../humanguide/design-concepts/typography.rst:23
 msgid "1.25"
-msgstr ""
+msgstr "1.25"
 
 #: ../../humanguide/design-concepts/typography.rst:23
 msgid "10 px"
-msgstr ""
+msgstr "10 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:23
 msgid "22 px"
-msgstr ""
+msgstr "22 пікселі"
 
 #: ../../humanguide/design-concepts/typography.rst:23
 #: ../../humanguide/design-concepts/typography.rst:25
 msgid "12 px"
-msgstr ""
+msgstr "12 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:25
 msgid "small"
-msgstr ""
+msgstr "small"
 
 #: ../../humanguide/design-concepts/typography.rst:25
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: ../../humanguide/design-concepts/typography.rst:25
 msgid "27 px"
-msgstr ""
+msgstr "27 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:25
 msgid "15 px"
-msgstr ""
+msgstr "15 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:27
 msgid "medium"
-msgstr ""
+msgstr "medium"
 
 #: ../../humanguide/design-concepts/typography.rst:27
 msgid "1.75"
-msgstr ""
+msgstr "1.75"
 
 #: ../../humanguide/design-concepts/typography.rst:27
 msgid "14 px"
-msgstr ""
+msgstr "14 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:27
 msgid "31 px"
-msgstr ""
+msgstr "31 піксель"
 
 #: ../../humanguide/design-concepts/typography.rst:27
 msgid "18 px"
-msgstr ""
+msgstr "18 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:29
 msgid "large"
-msgstr ""
+msgstr "large"
 
 #: ../../humanguide/design-concepts/typography.rst:29
 #: ../../porting/configure_test_fix/Display.rst:49
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: ../../humanguide/design-concepts/typography.rst:29
 msgid "20 px"
-msgstr ""
+msgstr "20 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:29
 msgid "45 px"
-msgstr ""
+msgstr "45 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:29
 msgid "25 px"
-msgstr ""
+msgstr "25 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:31
 msgid "x-large"
-msgstr ""
+msgstr "x-large"
 
 #: ../../humanguide/design-concepts/typography.rst:31
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: ../../humanguide/design-concepts/typography.rst:31
 msgid "28 px"
-msgstr ""
+msgstr "28 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:31
 msgid "76 px"
-msgstr ""
+msgstr "76 пікселів"
 
 #: ../../humanguide/design-concepts/typography.rst:31
 msgid "42 px"
-msgstr ""
+msgstr "42 пікселі"
 
 #: ../../humanguide/design-concepts/units.rst:2
 msgid "Units"
-msgstr ""
+msgstr "Одиниці"
 
 #: ../../humanguide/design-concepts/units.rst:5
 msgid "Resolution Independence Approach"
-msgstr ""
+msgstr "Підхід незалежного рішення"
 
 #: ../../humanguide/design-concepts/units.rst:7
 msgid ""
@@ -8477,14 +8589,19 @@ msgid ""
 "combines simplicity for the designers and developers with visual fidelity, "
 "quality and usability."
 msgstr ""
+"Мета мати незалежність від роздільної здатності полягає у спрощенні "
+"масштабування графічного інтерфейсу в Ubuntu Touch для усіх цільових "
+"пристроїв Ubuntu Touch: телефонів, планшетів, ноутбуків та звичайних ПК. "
+"Такий підхід поєднує простоту для дизайнерів та розробників із візуальною "
+"точністю, якістю та зручністю використання."
 
 #: ../../humanguide/design-concepts/units.rst:10
 msgid "Measurement Units"
-msgstr ""
+msgstr "Одиниці виміру"
 
 #: ../../humanguide/design-concepts/units.rst:13
 msgid "Grid Unit"
-msgstr ""
+msgstr "Одиниця сітки"
 
 #: ../../humanguide/design-concepts/units.rst:15
 msgid ""
@@ -8497,51 +8614,63 @@ msgid ""
 "the distance the user is to the screen. We also ensure that 1 grid unit is "
 "always an integer number of pixel."
 msgstr ""
+"Одиниця вимірювання, яка називається *одиниця сітки*, називається скорочено "
+"*gu.* 1 одиниця сітки перетворюється на певну кількість пікселів залежно від "
+"типу екрана, на якому відтворюється інтерфейс користувача. Наприклад, на "
+"ноутбуці 1 одиниця сітки зазвичай перетворюється на 8 пікселів. Кількість "
+"пікселів на одиницю сітки вибирається для збереження прийнятого візуального "
+"розміру елементів інтерфейсу та відповідно залежить від щільності пікселів "
+"екрана та відстані до нього від користувача. Ми також гарантуємо, що 1 "
+"одиниця сітки завжди дорівнює цілій кількості пікселів."
 
 #: ../../humanguide/design-concepts/units.rst:18
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Device"
-msgstr ""
+msgstr "Пристрій"
 
 #: ../../humanguide/design-concepts/units.rst:18
 msgid "Conversion"
-msgstr ""
+msgstr "Пропорція"
 
 #: ../../humanguide/design-concepts/units.rst:20
 msgid "Most laptops"
-msgstr ""
+msgstr "Більшість ноутбуків"
 
 #: ../../humanguide/design-concepts/units.rst:20
 msgid "1 gu = 8 px"
-msgstr ""
+msgstr "1 gu = 8 пікселів"
 
 #: ../../humanguide/design-concepts/units.rst:23
 msgid "High DPI laptops"
-msgstr ""
+msgstr "Ноутбуки з високою роздільною здатністю"
 
 #: ../../humanguide/design-concepts/units.rst:23
 msgid "1 gu = 16 px"
-msgstr ""
+msgstr "1 gu = 16 пікселів"
 
 #: ../../humanguide/design-concepts/units.rst:26
 msgid "Phone with 4 inch screen at HD resolution (around 720x1,280 pixels)"
 msgstr ""
+"Телефон з 4-дюймовим екраном з роздільною здатністю HD (приблизно 720x1280 "
+"пікселів)"
 
 #: ../../humanguide/design-concepts/units.rst:26
 msgid "1 gu = 18 px"
-msgstr ""
+msgstr "1 gu = 18 пікселів"
 
 #: ../../humanguide/design-concepts/units.rst:29
 msgid "Tablet with 10 inch screen at HD resolution (around 720x1,280 pixels)"
 msgstr ""
+"Планшет з 10-дюймовим екраном та роздільною здатністю HD (приблизно 720x1280 "
+"пікселів)"
 
 #: ../../humanguide/design-concepts/units.rst:29
 msgid "1 gu = 10 px"
-msgstr ""
+msgstr "1 gu = 10 пікселів"
 
 #: ../../humanguide/design-concepts/units.rst:34
 msgid "Density Unit"
-msgstr ""
+msgstr "Одиниця щільності"
 
 #: ../../humanguide/design-concepts/units.rst:36
 msgid ""
@@ -8550,88 +8679,94 @@ msgid ""
 "independent pixel,* abbreviated dp. 1 dp typically translates to 1 pixel on "
 "laptops and low density mobile phones and tablets."
 msgstr ""
+"Як виняток, для рідкісних випадків, коли потрібні вимірювання менше 1 gu, "
+"доступна інша одиниця: *незалежна щільність пікселів*, скорочено dp. 1 dp "
+"зазвичай перетворюється на 1 піксель на ноутбуках, мобільних телефонах та "
+"планшетах із низькою щільністю екрана."
 
 #: ../../humanguide/design-concepts/units.rst:39
 msgid "Use"
-msgstr ""
+msgstr "Використання"
 
 #: ../../humanguide/design-concepts/units.rst:49
 msgid "Device Sizes"
-msgstr ""
+msgstr "Розміри пристроїв"
 
 #: ../../humanguide/design-concepts/units.rst:52
 msgid "Device Grid Units"
-msgstr ""
+msgstr "Одиниці сітки для пристроїв"
 
 #: ../../humanguide/design-concepts/units.rst:52
 msgid "width"
-msgstr ""
+msgstr "ширина"
 
 #: ../../humanguide/design-concepts/units.rst:52
 msgid "height"
-msgstr ""
+msgstr "висота"
 
 #: ../../humanguide/design-concepts/units.rst:54
 msgid "E5 (portrait)"
-msgstr ""
+msgstr "E5 (вертикальний)"
 
 #: ../../humanguide/design-concepts/units.rst:54
 msgid "42"
-msgstr ""
+msgstr "42"
 
 #: ../../humanguide/design-concepts/units.rst:54
 msgid "72"
-msgstr ""
+msgstr "72"
 
 #: ../../humanguide/design-concepts/units.rst:56
 msgid "M10 HD (landscape)"
-msgstr ""
+msgstr "M10 HD (горизонтальний)"
 
 #: ../../humanguide/design-concepts/units.rst:56
 msgid "160"
-msgstr ""
+msgstr "160"
 
 #: ../../humanguide/design-concepts/units.rst:56
 msgid "97"
-msgstr ""
+msgstr "97"
 
 #: ../../humanguide/design-concepts/units.rst:58
 msgid "M10 FHD (landscape)"
-msgstr ""
+msgstr "M10 FHD (горизонтальний)"
 
 #: ../../humanguide/design-concepts/units.rst:58
 msgid "148"
-msgstr ""
+msgstr "148"
 
 #: ../../humanguide/design-concepts/units.rst:58
 msgid "89"
-msgstr ""
+msgstr "89"
 
 #: ../../humanguide/design-concepts/units.rst:60
 msgid "N5 (portrait)"
-msgstr ""
+msgstr "N5 (вертикальний)"
 
 #: ../../humanguide/design-concepts/units.rst:60
 msgid "47"
-msgstr ""
+msgstr "47"
 
 #: ../../humanguide/design-concepts/units.rst:60
 msgid "80"
-msgstr ""
+msgstr "80"
 
 #: ../../humanguide/index.rst:2
 msgid "Human interface guidelines"
-msgstr ""
+msgstr "Правила людського інтерфейсу"
 
 #: ../../humanguide/index.rst:4
 msgid ""
 "Ubuntu Touch follows a modern and convergent design philosophy called Suru. "
 "We aim to keep developing the design started by Canonical."
 msgstr ""
+"Ubuntu Touch дотримується сучасної конвергентної філософії дизайну під "
+"назвою Suru. Ми хочемо продовжувати розвивати дизайн, розпочатий Canonical."
 
 #: ../../humanguide/index.rst:11
 msgid "Suru meaning"
-msgstr ""
+msgstr "Значення Suru"
 
 #: ../../humanguide/index.rst:13
 msgid ""
@@ -8641,6 +8776,11 @@ msgid ""
 "freedom trust and collaboration. This integral belief has been translated "
 "into the design philosophy called Suru."
 msgstr ""
+"Тут, у UBports, ми віримо, що кожен повинен мати доступ до безкоштовного, "
+"надійного та безпечного програмного забезпечення, яким може ділитися та яке "
+"може розробляти кожен. Це проклало шлях до зростання та процвітання "
+"спільноти зі свободою довіри та співпраці. Це цілісне переконання було "
+"втілено у філософію дизайну під назвою Suru."
 
 #: ../../humanguide/index.rst:15
 msgid "Suru items from the Ubuntu values alluding to Japanese culture."
@@ -15733,7 +15873,7 @@ msgstr ""
 "Вашого поточного розташування. Використовуючи ці дані, програми можуть "
 "`пропонувати покрокову навігацію <https://open-store.io/app/"
 "navigator.costales>`__, `відстежувати маршрути Ваших тренувань <https://open-"
-"store.io/app/activitytracker.cwayne18>`__,`знаходити громадський транспорт "
+"store.io/app/activitytracker.cwayne18>`__, `знаходити громадський транспорт "
 "поблизу <https://open-store.io/app/transport.zubozrout>`__ тощо."
 
 #: ../../userguide/dailyuse/location.rst:7
@@ -16092,8 +16232,8 @@ msgid ""
 "And that's it, you are now sharing the internet from your Ubuntu Touch "
 "device to your computer"
 msgstr ""
-"Ось і все, тепер ви ділитеся інтернетом зі свого пристрою Ubuntu Touch на "
-"свій комп'ютер"
+"От і все, тепер Ви ділитеся інтернетом свого пристрою з Ubuntu Touch на свій "
+"комп'ютер"
 
 #: ../../userguide/dailyuse/volte.rst:2
 msgid "Voice over LTE (VoLTE)"
@@ -16401,7 +16541,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/waydroid.rst:82
 msgid "Check that you typed the filename correctly."
-msgstr "Перевірте, чи правильно ви ввели ім'я файлу."
+msgstr "Перевірте, чи ім'я файлу Ви ввели правильно."
 
 #: ../../userguide/dailyuse/waydroid.rst:83
 msgid ""
@@ -16409,9 +16549,9 @@ msgid ""
 "have to specify the full path, e.g. ``/home/phablet/Downloads/my-app.apk`` "
 "instead of just ``my-app.apk``"
 msgstr ""
-"Якщо APK не знаходиться в папці, в якій ви перебуваєте під час запуску adb, "
-"вам потрібно вказати повний шлях, наприклад, ``/home/phablet/Downloads/my-"
-"app.apk`` замість просто ``my-app.apk``"
+"Якщо APK знаходиться не у тій теці, де Ви запустили adb, Вам потрібно "
+"вказати повний шлях, наприклад, замість просто ``my-app.apk`` вказати ``/"
+"home/phablet/Downloads/my-app.apk``"
 
 #: ../../userguide/dailyuse/waydroid.rst:87
 msgid "Reporting bugs"
@@ -16466,9 +16606,9 @@ msgid ""
 "keep any data that is currently on the device. Create an external backup if "
 "you want to keep it."
 msgstr ""
-"Якщо ви переходите з пристрою на базі Android, ви не зможете зберегти дані, "
-"які зараз знаходяться на цьому пристрої. Створіть зовнішню резервну копію, "
-"якщо хочете зберегти ці дані."
+"Якщо Ви переходите з пристрою на базі Android, Ви не зможете зберегти дані, "
+"які зараз є на цьому пристрої. Якщо бажаєте їх зберегти, створіть зовнішню "
+"резервну копію."
 
 #: ../../userguide/install.rst:9
 msgid ""
