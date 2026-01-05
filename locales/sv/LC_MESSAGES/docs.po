@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2025-11-30 20:00+0000\n"
+"PO-Revision-Date: 2026-01-06 07:01+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/"
-"doc-ubports-com/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/doc-"
+"ubports-com/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -6339,7 +6339,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:103
 msgid "Highlights"
-msgstr ""
+msgstr "Höjdpunkter"
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:105
 msgid ""
@@ -6435,7 +6435,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:29
 msgid "Strokes"
-msgstr ""
+msgstr "Slag"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:31
 msgid ""
@@ -7096,7 +7096,7 @@ msgstr ""
 
 #: ../../humanguide/other-design-considerations/convergence.rst:2
 msgid "Convergence"
-msgstr ""
+msgstr "Konvergens"
 
 #: ../../humanguide/other-design-considerations/convergence.rst:6
 msgid ""
@@ -7980,7 +7980,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:174
 msgid "``deviceinfo_kernel_use_dtc_ext=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_use_dtc_ext=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:177
 msgid ""
@@ -7991,7 +7991,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:179
 msgid "``deviceinfo_kernel_image_name=\"Image.gz\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_image_name=\"Image.gz\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:182
 msgid ""
@@ -8001,7 +8001,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:185
 msgid "``deviceinfo_ramdisk_compression=\"lz4\"``"
-msgstr ""
+msgstr "``deviceinfo_ramdisk_compression=\"lz4\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:188
 msgid ""
@@ -8025,7 +8025,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:195
 msgid "``deviceinfo_bootimg_header_version=\"2\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_header_version=\"2\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:198
 msgid ""
@@ -9597,7 +9597,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:68
 msgid "MANUFACTURER"
-msgstr ""
+msgstr "TILLVERKARE"
 
 #: ../../porting/configure_test_fix/USBModed.rst:69
 msgid "PRODUCT"
@@ -9703,7 +9703,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Key"
-msgstr ""
+msgstr "Nyckel"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
@@ -9877,7 +9877,7 @@ msgstr "Booleanskt"
 #: ../../porting/configure_test_fix/device_info/Mir.rst:25
 #: ../../porting/configure_test_fix/device_info/Mir.rst:27
 msgid "False"
-msgstr ""
+msgstr "Falsk"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:25
 #: ../../porting/configure_test_fix/device_info/Mir.rst:46
@@ -10001,7 +10001,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/index.rst:4
 msgid "DeviceInfo"
-msgstr ""
+msgstr "DeviceInfo"
 
 #: ../../porting/configure_test_fix/device_info/index.rst:6
 msgid ""
@@ -10073,7 +10073,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/index.rst:44
 msgid "PrettyName"
-msgstr ""
+msgstr "PrettyName"
 
 #: ../../porting/configure_test_fix/device_info/index.rst:44
 msgid "Pretty name of the device"
@@ -10081,7 +10081,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/index.rst:45
 msgid "DeviceType"
-msgstr ""
+msgstr "DeviceType"
 
 #: ../../porting/configure_test_fix/device_info/index.rst:45
 msgid "Sets device type"
@@ -10093,7 +10093,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/index.rst:46
 msgid "GridUnit"
-msgstr ""
+msgstr "GridUnit"
 
 #: ../../porting/configure_test_fix/device_info/index.rst:46
 msgid "Sets scale units"
@@ -10105,7 +10105,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/index.rst:47
 msgid "SupportedOrientations"
-msgstr ""
+msgstr "SupportedOrientations"
 
 #: ../../porting/configure_test_fix/device_info/index.rst:47
 msgid "Orientations supported by the device"
