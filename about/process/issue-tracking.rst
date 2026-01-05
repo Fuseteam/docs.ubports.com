@@ -58,10 +58,6 @@ The following labels are used inside UBports projects. Since merge requests (MRs
     - **Resolution: not our bug**: the issue is not an issue in Ubuntu Touch, but rather is an issue in a third-party software installed by the user.
     - **Resolution: won't fix**: A bug it does not make sense to fix, since it will probably resolve itself, be too much work, isn't fixable, or an underlying component will soon change.
     - **Resolution: work as intended**: The behavior described in the issue is the intended behavior of the software.
-- **Status:** indicates the progress of the issue. This is primarily used to update GitLab's issue boards (see below).
-    - **Status: in progress**: a developer is actively working on the issue.
-    - **Status: blocked**: something else has to be solved outside of this issue before this issue can progress.
-    - **Status: has MR**: a non-draft MR exists that will fix this issue.
 - **Backport to: <branch name>**: used by the automation to automatically backport an MR to a stable release branches.
 - Miscellaneous labels
     - **Good first issue**: the report contains instructions or hints required to fix it. It is an excellent place for someone new to learn about the project by fixing a real issue.
@@ -72,6 +68,24 @@ The following labels are used inside UBports projects. Since merge requests (MRs
     should be documented in the README.md.
 
 .. _an accronym from Debian: https://wiki.debian.org/FTBFS
+
+Status
+------
+
+Status field is used to indicate the progress of the issue. We've defined the following statuses:
+
+- **New**: This is the status for a newly-opened issue. This indicates that this issue is untriaged; Developers and triagers are encouraged to triage issues, assigns kind and other labels, decide whether this issue warrants a milestone, etc. Alternatively, if an issue is a work item, a tracking issue, or something similar filed by developers, this status can be skipped.
+- **Ready to be worked on**: Indicates that this issue is triaged and can be worked on.
+
+.. note::
+    This status replaces default "To do" status.
+
+- **Blocked**: Indicates that something else has to be solved outside of this issue before this issue can progress.
+- **In progress**: Indicates that a developer is actively working on the issue. The issue should be assigned to that developer.
+- **Has MR**: A non-draft MR exists that will fix this issue.
+- **Done**: The issue has been fixed in the ``main`` branch.
+- **Duplicate**: The issue is a duplicate. GitLab sets this status automatically when the issue is marked as a duplicate.
+- **Won't do**: The issue is closed for other reason than the issue being fixed. It should have "Resolution: \*" labels to explain the reason (see above).
 
 Milestones
 ----------
@@ -96,7 +110,7 @@ Developers are encouraged to keep their list short and update the status of thei
 GitLab issue board
 ------------------
 
-We use GitLab's issue boards to visualize progress of issues in each milestone. The boards are kanban boards, where each column corresponds to each **Status:** label (in-progress, blocked, has MR), with additional columns for opened issues without **Status:** label (which indicate that the issue has not been started yet) and closed issues.
+We use GitLab's issue boards to visualize progress of issues in each milestone. The boards are kanban boards, where each column corresponds to each defined status (new, ready to be worked on, blocked, in progress, has MR, done, duplicate, won't do).
 
 GitLab epic
 -----------
