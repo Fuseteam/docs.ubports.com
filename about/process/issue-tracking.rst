@@ -88,7 +88,7 @@ Assignees
 ---------
 
 To make it transparent who's working on an issue, the developer should
-be assigned. This also allows the use of GitHub's global filtering as a
+be assigned. This also allows the use of GitLab's global filtering as a
 type of TODO list.
 
 Developers are encouraged to keep their list short and update the status of their issues.
