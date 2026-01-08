@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-21 04:07+0000\n"
-"PO-Revision-Date: 2026-01-06 07:01+0000\n"
+"PO-Revision-Date: 2026-01-09 20:01+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/sv/>\n"
@@ -154,7 +154,7 @@ msgstr ""
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
-msgstr ""
+msgstr "Git-grenar"
 
 #: ../../about/process/branch-naming.rst:22
 #: ../../appdev/guides/pushnotifications.rst:170
@@ -183,11 +183,11 @@ msgstr "Namn"
 
 #: ../../about/process/branch-naming.rst:23
 msgid "Base distro"
-msgstr ""
+msgstr "Bas-distro"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``main``, ``ubports/latest``"
-msgstr ""
+msgstr "``main``, ``ubports/latest``"
 
 #: ../../about/process/branch-naming.rst:25
 msgid ""
@@ -209,7 +209,7 @@ msgstr "``devel-debian``"
 
 #: ../../about/process/branch-naming.rst:28
 msgid "Debian testing."
-msgstr ""
+msgstr "Debian testing."
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
@@ -729,7 +729,7 @@ msgstr ""
 
 #: ../../about/process/release-schedule.rst:2
 msgid "Release Schedule"
-msgstr ""
+msgstr "Utgivningsschema"
 
 #: ../../about/process/release-schedule.rst:3
 msgid ""
@@ -739,7 +739,7 @@ msgstr ""
 
 #: ../../about/process/release-schedule.rst:6
 msgid "Stable Channel"
-msgstr ""
+msgstr "Stabil kanal"
 
 #: ../../about/process/release-schedule.rst:7
 msgid ""
@@ -765,7 +765,7 @@ msgstr ""
 
 #: ../../about/process/release-schedule.rst:22
 msgid "Devel Channel"
-msgstr ""
+msgstr "Utvecklingskanal"
 
 #: ../../about/process/release-schedule.rst:23
 msgid ""
@@ -777,7 +777,7 @@ msgstr ""
 
 #: ../../about/process/release-schedule.rst:29
 msgid "Edge Channel"
-msgstr ""
+msgstr "Edge-kanal"
 
 #: ../../about/process/release-schedule.rst:30
 msgid ""
@@ -791,7 +791,7 @@ msgstr ""
 
 #: ../../about/process/security-vulnerabilities.rst:2
 msgid "Security vulnerabilities"
-msgstr ""
+msgstr "Säkerhetsbrister"
 
 #: ../../about/process/security-vulnerabilities.rst:4
 msgid ""
@@ -897,7 +897,7 @@ msgstr ""
 
 #: ../../about/process/security-vulnerabilities.rst:34
 msgid "Affected versions"
-msgstr ""
+msgstr "Drabbade versioner"
 
 #: ../../about/process/security-vulnerabilities.rst:35
 msgid "Solution"
@@ -969,7 +969,7 @@ msgstr ""
 
 #: ../../appdev/external-docs.rst:2
 msgid "API docs"
-msgstr ""
+msgstr "API-dokumentation"
 
 #: ../../appdev/external-docs.rst:4
 msgid ""
@@ -1587,7 +1587,7 @@ msgstr ""
 
 #: ../../appdev/guides/index.rst:4
 msgid "Developer guides"
-msgstr ""
+msgstr "Guider för utvecklare"
 
 #: ../../appdev/guides/index.rst:6
 msgid ""
@@ -1736,7 +1736,7 @@ msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:29
 msgid "Configuration Files"
-msgstr ""
+msgstr "Konfigurationsfiler"
 
 #: ../../appdev/guides/port-to-focal.rst:32
 msgid "clickable.yaml"
@@ -1751,7 +1751,7 @@ msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:42
 msgid "AppArmor file"
-msgstr ""
+msgstr "AppArmor-fil"
 
 #: ../../appdev/guides/port-to-focal.rst:43
 msgid "Update the policy version in the AppArmor file:"
@@ -1759,7 +1759,7 @@ msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:57
 msgid "Desktop File"
-msgstr ""
+msgstr "Skrivbordsfil"
 
 #: ../../appdev/guides/port-to-focal.rst:59
 msgid "Change `X-Ubuntu-Touch` to `X-Lomiri-Touch`:"
@@ -1790,7 +1790,7 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:2
 #: ../../appdev/platform/index.rst:11
 msgid "Push notifications"
-msgstr ""
+msgstr "Push-aviseringar"
 
 #: ../../appdev/guides/pushnotifications.rst:4
 msgid ""
@@ -2305,7 +2305,7 @@ msgstr ""
 #: ../../userguide/advanceduse/screencasting.rst:74
 #: ../../userguide/advanceduse/ssh.rst:110
 msgid "References"
-msgstr ""
+msgstr "Referenser"
 
 #: ../../appdev/guides/pushnotifications.rst:285
 msgid ""
@@ -2536,7 +2536,7 @@ msgstr ""
 
 #: ../../appdev/guides/writeable-dirs.rst:2
 msgid "Writable directories"
-msgstr ""
+msgstr "Skrivbara kataloger"
 
 #: ../../appdev/guides/writeable-dirs.rst:4
 msgid ""
@@ -2549,7 +2549,7 @@ msgstr ""
 
 #: ../../appdev/guides/writeable-dirs.rst:7
 msgid "Standard Paths"
-msgstr ""
+msgstr "Standard-genvägar"
 
 #: ../../appdev/guides/writeable-dirs.rst:8
 msgid ""
@@ -2600,11 +2600,11 @@ msgstr ""
 
 #: ../../appdev/guides/writeable-dirs.rst:26
 msgid "App data"
-msgstr ""
+msgstr "Appens data"
 
 #: ../../appdev/guides/writeable-dirs.rst:27
 msgid "Path: ``/home/phablet/.local/share/<fullappname>/``"
-msgstr ""
+msgstr "Genväg: ``/home/phablet/.local/share/<fullständigtnamnpåappen>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:29
 msgid ""
@@ -2669,7 +2669,7 @@ msgstr ""
 
 #: ../../appdev/index.rst:9 ../../appdev/webapp/index.rst:37
 msgid "Quick start"
-msgstr ""
+msgstr "Snabbstart"
 
 #: ../../appdev/index.rst:11
 msgid "Building your first app should be as simple as:"
@@ -2770,7 +2770,7 @@ msgstr ""
 
 #: ../../appdev/index.rst:64
 msgid "Maintainers wanted"
-msgstr ""
+msgstr "Underhållare sökes"
 
 #: ../../appdev/index.rst:66
 msgid ""
@@ -2790,7 +2790,7 @@ msgstr ""
 
 #: ../../appdev/nativeapp/index.rst:4
 msgid "Native apps"
-msgstr ""
+msgstr "Inbyggda appar"
 
 #: ../../appdev/nativeapp/index.rst:6
 msgid ""
@@ -3304,7 +3304,7 @@ msgstr ""
 
 #: ../../appdev/platform/click.rst:8
 msgid "``manifest.json`` file"
-msgstr ""
+msgstr "``manifest.json``-fil"
 
 #: ../../appdev/platform/click.rst:9
 msgid ""
@@ -3328,7 +3328,7 @@ msgstr ""
 
 #: ../../appdev/platform/click.rst:31
 msgid "``.desktop`` file"
-msgstr ""
+msgstr "``.desktop``-fil"
 
 #: ../../appdev/platform/click.rst:32
 msgid ""
@@ -3415,7 +3415,7 @@ msgstr ""
 
 #: ../../appdev/platform/index.rst:8
 msgid "Content Hub"
-msgstr ""
+msgstr "Innehållshubb"
 
 #: ../../appdev/platform/index.rst:9
 msgid ""
@@ -3442,7 +3442,7 @@ msgstr ""
 
 #: ../../appdev/platform/index.rst:17
 msgid "Online accounts"
-msgstr ""
+msgstr "Onlinekonton"
 
 #: ../../appdev/platform/index.rst:18
 msgid ""
@@ -3502,8 +3502,9 @@ msgid "You can launch a webapp from the terminal with:::"
 msgstr ""
 
 #: ../../appdev/webapp/guide.rst:21
+#, fuzzy
 msgid "For example:::"
-msgstr ""
+msgstr "Till exempel:::"
 
 #: ../../appdev/webapp/guide.rst:25
 msgid ""
@@ -3513,7 +3514,7 @@ msgstr ""
 
 #: ../../appdev/webapp/guide.rst:28
 msgid "User interface"
-msgstr ""
+msgstr "Användargränssnitt"
 
 #: ../../appdev/webapp/guide.rst:30
 msgid ""
@@ -3542,7 +3543,7 @@ msgstr ""
 
 #: ../../appdev/webapp/guide.rst:38
 msgid "URL patterns"
-msgstr ""
+msgstr "URL-mönster"
 
 #: ../../appdev/webapp/guide.rst:40
 msgid ""
@@ -3641,7 +3642,7 @@ msgstr ""
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
-msgstr ""
+msgstr "Flera mönster"
 
 #: ../../appdev/webapp/guide.rst:84
 msgid ""
@@ -3702,7 +3703,7 @@ msgstr ""
 
 #: ../../appdev/webapp/guide.rst:116
 msgid "Adding http"
-msgstr ""
+msgstr "Lägger till http"
 
 #: ../../appdev/webapp/guide.rst:118
 msgid ""
@@ -3787,7 +3788,7 @@ msgstr ""
 
 #: ../../appdev/webapp/index.rst:4
 msgid "Web apps"
-msgstr ""
+msgstr "Web-appar"
 
 #: ../../appdev/webapp/index.rst:6
 msgid ""
@@ -3867,7 +3868,7 @@ msgstr ""
 
 #: ../../appdev/webapp/webdebug.rst:2
 msgid "Debug webapps"
-msgstr ""
+msgstr "Avlusa web-appar"
 
 #: ../../appdev/webapp/webdebug.rst:4
 msgid ""
@@ -4068,7 +4069,7 @@ msgstr ""
 
 #: ../../contribute/bugreporting.rst:51
 msgid "Getting Logs"
-msgstr ""
+msgstr "Tar emot loggar"
 
 #: ../../contribute/bugreporting.rst:53
 msgid ""
@@ -4110,7 +4111,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:2
 msgid "Code changes"
-msgstr ""
+msgstr "Kodändringar"
 
 #: ../../contribute/code.rst:4
 msgid ""
@@ -4431,7 +4432,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:109
 msgid "Fix UI"
-msgstr ""
+msgstr "Fixa UI"
 
 #: ../../contribute/code.rst:110
 msgid "Fix bug fix"
@@ -4439,7 +4440,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:111
 msgid "Review changes"
-msgstr ""
+msgstr "Förhandsgranska ändringarna"
 
 #: ../../contribute/code.rst:112
 msgid "Fix API after comments from reviewers"
@@ -4526,7 +4527,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:141 ../../contribute/code.rst:150
 msgid "For example:"
-msgstr ""
+msgstr "Till exempel:"
 
 #: ../../contribute/code.rst:143
 msgid "Fixes https://gitlab.com/ubports/development/ubuntu-touch/-/issues/1"
@@ -4575,7 +4576,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:161
 msgid "In ``ubports/core/docs!1``:"
-msgstr ""
+msgstr "I ``ubports/core/docs!1``:"
 
 #: ../../contribute/code.rst:163
 msgid ""
@@ -4584,7 +4585,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:164
 msgid "In ``ubports/core/code!2``:"
-msgstr ""
+msgstr "I ``ubports/core/code!2``:"
 
 #: ../../contribute/code.rst:166
 msgid ""
@@ -4594,7 +4595,7 @@ msgstr ""
 
 #: ../../contribute/code.rst:167
 msgid "In ``ubports/core/infrastructure!3``:"
-msgstr ""
+msgstr "I ``ubports/core/infrastructure!3``:"
 
 #: ../../contribute/code.rst:169
 msgid ""
@@ -4798,7 +4799,7 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:37
 msgid "Note that:"
-msgstr ""
+msgstr "Notera att:"
 
 #: ../../contribute/documentation.rst:39
 msgid "The title is sentence cased"
@@ -7852,7 +7853,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:117
 msgid "``deviceinfo_manufacturer=\"Xiaomi\"``"
-msgstr ""
+msgstr "``deviceinfo_manufacturer=\"Xiaomi\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:120
 msgid ""
@@ -7863,7 +7864,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:122
 msgid "``deviceinfo_codename=\"angelica\"``"
-msgstr ""
+msgstr "``deviceinfo_codename=\"angelica\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:125
 msgid ""
@@ -7875,7 +7876,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:127
 msgid "``deviceinfo_arch=\"aarch64\"``"
-msgstr ""
+msgstr "``deviceinfo_arch=\"aarch64\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:130
 msgid ""
@@ -7889,6 +7890,8 @@ msgid ""
 "``deviceinfo_kernel_source=\"https://github.com/muhammad23012009/"
 "android_kernel_xiaomi_dandelion\"``"
 msgstr ""
+"``deviceinfo_kernel_source=\"https://github.com/muhammad23012009/"
+"android_kernel_xiaomi_dandelion\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:135
 msgid ""
@@ -7899,7 +7902,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:137
 msgid "``deviceinfo_kernel_source_branch=\"halium10-new\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_source_branch=\"halium10-new\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:140
 msgid ""
@@ -7947,7 +7950,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:155
 msgid "``deviceinfo_kernel_clang_compile=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_clang_compile=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:158
 msgid ""
@@ -7958,7 +7961,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:161
 msgid "``deviceinfo_kernel_use_lld=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_use_lld=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:164
 msgid ""
@@ -7970,7 +7973,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:169
 msgid "``deviceinfo_kernel_llvm_compile=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_llvm_compile=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:172
 msgid ""
@@ -8011,7 +8014,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:190
 msgid "``deviceinfo_halium_version=\"11\"``"
-msgstr ""
+msgstr "``deviceinfo_halium_version=\"11\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:193
 msgid ""
@@ -8037,7 +8040,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:201
 msgid "``deviceinfo_bootimg_prebuilt_dtb=\"mt6765.dtb\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_prebuilt_dtb=\"mt6765.dtb\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:204
 msgid ""
@@ -8686,8 +8689,9 @@ msgid ""
 msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:25
+#, fuzzy
 msgid "info::"
-msgstr ""
+msgstr "info::"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:33
 msgid ""
@@ -9826,7 +9830,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:17
 msgid "mir-platform-android"
-msgstr ""
+msgstr "mir-platform-android"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
 msgid "Default value"
@@ -10399,51 +10403,51 @@ msgstr ""
 
 #: ../../porting/introduction/Intro.rst:46
 msgid "7.1"
-msgstr ""
+msgstr "7.1"
 
 #: ../../porting/introduction/Intro.rst:46
 msgid "14.1"
-msgstr ""
+msgstr "14.1"
 
 #: ../../porting/introduction/Intro.rst:47
 msgid "9.0"
-msgstr ""
+msgstr "9.0"
 
 #: ../../porting/introduction/Intro.rst:47
 msgid "16.0"
-msgstr ""
+msgstr "16.0"
 
 #: ../../porting/introduction/Intro.rst:48
 msgid "10.0"
-msgstr ""
+msgstr "10.0"
 
 #: ../../porting/introduction/Intro.rst:48
 msgid "17.1"
-msgstr ""
+msgstr "17.1"
 
 #: ../../porting/introduction/Intro.rst:49
 msgid "11.0"
-msgstr ""
+msgstr "11.0"
 
 #: ../../porting/introduction/Intro.rst:49
 msgid "18.1"
-msgstr ""
+msgstr "18.1"
 
 #: ../../porting/introduction/Intro.rst:50
 msgid "12.0"
-msgstr ""
+msgstr "12.0"
 
 #: ../../porting/introduction/Intro.rst:50
 msgid "19.1"
-msgstr ""
+msgstr "19.1"
 
 #: ../../porting/introduction/Intro.rst:51
 msgid "13.0"
-msgstr ""
+msgstr "13.0"
 
 #: ../../porting/introduction/Intro.rst:51
 msgid "20.0"
-msgstr ""
+msgstr "20.0"
 
 #: ../../porting/introduction/Intro.rst:54
 msgid ""
@@ -10595,7 +10599,7 @@ msgstr ""
 
 #: ../../porting/introduction/Preparations.rst:4
 msgid "Preparations"
-msgstr ""
+msgstr "Förberedelser"
 
 #: ../../porting/introduction/Preparations.rst:6
 msgid ""
@@ -10718,7 +10722,7 @@ msgstr ""
 #: ../../porting/introduction/Setting_up.rst:9
 #: ../../systemdev/testing-locally.rst:78
 msgid "Prerequisites"
-msgstr ""
+msgstr "Förutsättningar"
 
 #: ../../porting/introduction/Setting_up.rst:11
 msgid ""
@@ -10778,7 +10782,7 @@ msgstr ""
 
 #: ../../porting/introduction/Setting_up.rst:78
 msgid "Arch"
-msgstr ""
+msgstr "Arkitektur"
 
 #: ../../porting/introduction/Setting_up.rst:80
 msgid ""
@@ -10867,7 +10871,7 @@ msgstr ""
 
 #: ../../systemdev/calendars.rst:13 ../../systemdev/online-accounts.rst:30
 msgid "Debugging"
-msgstr ""
+msgstr "Felsökning"
 
 #: ../../systemdev/calendars.rst:15
 msgid ""
@@ -11289,7 +11293,7 @@ msgstr ""
 
 #: ../../systemdev/kernel-pinephone.rst:7
 msgid "Recovery"
-msgstr ""
+msgstr "Återställningsläge"
 
 #: ../../systemdev/kernel-pinephone.rst:9
 msgid ""
@@ -11528,7 +11532,7 @@ msgstr ""
 
 #: ../../systemdev/mms-infrastructure.rst:42
 msgid "incoming-MMS.png"
-msgstr ""
+msgstr "incoming-MMS.png"
 
 #: ../../systemdev/mms-infrastructure.rst:46
 msgid "Outgoing MMS diagram"
@@ -11536,7 +11540,7 @@ msgstr ""
 
 #: ../../systemdev/mms-infrastructure.rst:49
 msgid "outgoing-MMS.png"
-msgstr ""
+msgstr "outgoing-MMS.png"
 
 #: ../../systemdev/mms-infrastructure.rst:55
 msgid "initial source: https://wiki.ubuntu.com/Touch/Specs/MMSInfrastructure"
@@ -11707,7 +11711,7 @@ msgstr ""
 
 #: ../../systemdev/qtmir-qtubuntu.rst:7
 msgid "QtMir"
-msgstr ""
+msgstr "QtMir"
 
 #: ../../systemdev/qtmir-qtubuntu.rst:9
 msgid ""
@@ -11737,7 +11741,7 @@ msgstr ""
 
 #: ../../systemdev/qtmir-qtubuntu.rst:26
 msgid "QtUbuntu"
-msgstr ""
+msgstr "QtUbuntu"
 
 #: ../../systemdev/qtmir-qtubuntu.rst:28
 msgid ""
@@ -11761,7 +11765,7 @@ msgstr ""
 
 #: ../../systemdev/qtmir-qtubuntu.rst:39
 msgid "Components"
-msgstr ""
+msgstr "Komponenter"
 
 #: ../../systemdev/qtmir-qtubuntu.rst:41
 msgid ""
@@ -12117,7 +12121,7 @@ msgstr ""
 
 #: ../../systemdev/testing-locally.rst:217
 msgid "Optimizations"
-msgstr ""
+msgstr "Optimeringar"
 
 #: ../../systemdev/testing-locally.rst:220
 msgid "Caching package downloads"
@@ -12840,7 +12844,7 @@ msgstr ""
 
 #: ../../systemdev/uploading-changes.rst:149
 msgid "Celebrate!"
-msgstr ""
+msgstr "Fira!"
 
 #: ../../systemdev/uploading-changes.rst:151
 msgid ""
@@ -13060,39 +13064,39 @@ msgstr ""
 
 #: ../../userguide/advanceduse/dav.rst:26
 msgid "``CAL_URL``"
-msgstr ""
+msgstr "``CAL_URL``"
 
 #: ../../userguide/advanceduse/dav.rst:27
 msgid "``CONTACTS_URL``"
-msgstr ""
+msgstr "``CONTACTS_URL``"
 
 #: ../../userguide/advanceduse/dav.rst:28
 msgid "``USERNAME``"
-msgstr ""
+msgstr "``ANVÄNDARNAMN``"
 
 #: ../../userguide/advanceduse/dav.rst:29
 msgid "``PASSWORD``"
-msgstr ""
+msgstr "``LÖSENORD``"
 
 #: ../../userguide/advanceduse/dav.rst:30
 msgid "``CONTACT_NAME``"
-msgstr ""
+msgstr "``CONTACT_NAME``"
 
 #: ../../userguide/advanceduse/dav.rst:31
 msgid "``CALENDAR_NAME``"
-msgstr ""
+msgstr "``CALENDAR_NAME``"
 
 #: ../../userguide/advanceduse/dav.rst:32
 msgid "``VISUAL_NAME``"
-msgstr ""
+msgstr "``VISUAL_NAME``"
 
 #: ../../userguide/advanceduse/dav.rst:33
 msgid "``CONFIG_NAME``"
-msgstr ""
+msgstr "``CONFIG_NAME``"
 
 #: ../../userguide/advanceduse/dav.rst:34
 msgid "``CRON_FREQUENCY``"
-msgstr ""
+msgstr "``CRON_FREQUENCY``"
 
 #: ../../userguide/advanceduse/dav.rst:36
 msgid ""
@@ -13142,29 +13146,31 @@ msgstr ""
 
 #: ../../userguide/advanceduse/dav.rst:74
 msgid "Sources:"
-msgstr ""
+msgstr "Källor:"
 
 #: ../../userguide/advanceduse/dav.rst:76
 msgid ""
 "https://askubuntu.com/questions/616081/ubuntu-touch-add-contact-list-and-"
 "calendars/664834#664834"
 msgstr ""
+"https://askubuntu.com/questions/616081/ubuntu-touch-add-contact-list-and-"
+"calendars/664834#664834"
 
 #: ../../userguide/advanceduse/dav.rst:77
 msgid "https://gist.github.com/boTux/069b53d8e06bdb9b9c97"
-msgstr ""
+msgstr "https://gist.github.com/boTux/069b53d8e06bdb9b9c97"
 
 #: ../../userguide/advanceduse/dav.rst:78
 msgid "https://gist.github.com/tcarrondo"
-msgstr ""
+msgstr "https://gist.github.com/tcarrondo"
 
 #: ../../userguide/advanceduse/dav.rst:79
 msgid "https://gist.github.com/bastos77"
-msgstr ""
+msgstr "https://gist.github.com/bastos77"
 
 #: ../../userguide/advanceduse/dav.rst:80
 msgid "https://askubuntu.com/questions/601910/ssh-ubuntu-touch"
-msgstr ""
+msgstr "https://askubuntu.com/questions/601910/ssh-ubuntu-touch"
 
 #: ../../userguide/advanceduse/index.rst:2
 msgid "Advanced use"
@@ -13292,7 +13298,7 @@ msgstr ""
 #: ../../userguide/advanceduse/ssh.rst:91
 #: ../../userguide/dailyuse/waydroid.rst:77 ../../userguide/install.rst:25
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Felsökning"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:49
 msgid ""
@@ -13485,7 +13491,7 @@ msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:44
 msgid "Connect"
-msgstr ""
+msgstr "Anslut"
 
 #: ../../userguide/advanceduse/ssh.rst:46
 msgid "Now everything is set up and you can use ``ssh`` ::"
@@ -13521,7 +13527,7 @@ msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:74
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguration"
 
 #: ../../userguide/advanceduse/ssh.rst:76
 msgid "you can enable ssh on boot by running the following command::"
@@ -13605,7 +13611,7 @@ msgstr ""
 #: ../../userguide/dailyuse/libertine.rst:9
 #: ../../userguide/dailyuse/waydroid.rst:10
 msgid "Limitations"
-msgstr ""
+msgstr "Begränsningar"
 
 #: ../../userguide/dailyuse/libertine.rst:11
 msgid ""
@@ -13784,7 +13790,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:111
 msgid "Files"
-msgstr ""
+msgstr "Filer"
 
 #: ../../userguide/dailyuse/libertine.rst:113
 msgid "Libertine applications have access to these folders:"
@@ -13797,23 +13803,23 @@ msgstr "Utveckling"
 
 #: ../../userguide/dailyuse/libertine.rst:117
 msgid "Pictures"
-msgstr ""
+msgstr "Bilder"
 
 #: ../../userguide/dailyuse/libertine.rst:118
 msgid "Downloads"
-msgstr ""
+msgstr "Hämtningar"
 
 #: ../../userguide/dailyuse/libertine.rst:119
 msgid "Videos"
-msgstr ""
+msgstr "Videor"
 
 #: ../../userguide/dailyuse/libertine.rst:122
 msgid "Tips"
-msgstr ""
+msgstr "Tips"
 
 #: ../../userguide/dailyuse/libertine.rst:125
 msgid "Locations"
-msgstr ""
+msgstr "Platser"
 
 #: ../../userguide/dailyuse/libertine.rst:127
 msgid "For every container you create, two directories will be created:"
@@ -13944,7 +13950,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:207
 msgid "Shortcuts"
-msgstr ""
+msgstr "Genvägar"
 
 #: ../../userguide/dailyuse/libertine.rst:209
 msgid ""
@@ -13969,7 +13975,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:227
 msgid "Background"
-msgstr ""
+msgstr "Bakgrund"
 
 #: ../../userguide/dailyuse/libertine.rst:229
 msgid ""
