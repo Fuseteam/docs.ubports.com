@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-21 04:07+0000\n"
+"POT-Creation-Date: 2026-01-09 04:07+0000\n"
 "PO-Revision-Date: 2025-12-22 16:00+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
@@ -797,9 +797,14 @@ msgid "Assignees"
 msgstr "Призначені"
 
 #: ../../about/process/issue-tracking.rst:90
+#, fuzzy
+#| msgid ""
+#| "To make it transparent who's working on an issue, the developer should be "
+#| "assigned. This also allows the use of GitHub's global filtering as a type "
+#| "of TODO list."
 msgid ""
 "To make it transparent who's working on an issue, the developer should be "
-"assigned. This also allows the use of GitHub's global filtering as a type of "
+"assigned. This also allows the use of GitLab's global filtering as a type of "
 "TODO list."
 msgstr ""
 "Для прозорості розуміння, хто працює над проблемою, розробник повинен бути "
@@ -4676,7 +4681,8 @@ msgstr "Уся довідка доступна з:::"
 #: ../../appdev/webapp/guide.rst:133
 #, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr "Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
+msgstr ""
+"Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
 
 #: ../../appdev/webapp/guide.rst:147
 #, fuzzy
@@ -7300,7 +7306,8 @@ msgstr "Клонуйте репозиторій програми до свого
 
 #: ../../contribute/translations.rst:66
 msgid "Clone the repo locally or use GitLab's online editor"
-msgstr "Клонуйте репозиторій локально або користуйтеся онлайн-редактором GitLab"
+msgstr ""
+"Клонуйте репозиторій локально або користуйтеся онлайн-редактором GitLab"
 
 #: ../../contribute/translations.rst:67
 msgid "(optional) Create a new branch for the translation"
@@ -7323,7 +7330,8 @@ msgstr "Перекладіть усі рядки"
 
 #: ../../contribute/translations.rst:71
 msgid "Build and install the app on your device and test the translations"
-msgstr "Зберіть та встановіть програму на свій пристрій, та перевірте переклади"
+msgstr ""
+"Зберіть та встановіть програму на свій пристрій, та перевірте переклади"
 
 #: ../../contribute/translations.rst:72
 msgid ""
@@ -7356,9 +7364,9 @@ msgid ""
 "registered already."
 msgstr ""
 "Ви можете щодо перекладу розмовляти з іншими через створену для цього "
-"UBports `тему на форумі <https://forums.ubports.com/category/39/translations>"
-"`_. Для цього буде потрібно зареєструватися або увійти з наявним обліковим "
-"записом."
+"UBports `тему на форумі <https://forums.ubports.com/category/39/"
+"translations>`_. Для цього буде потрібно зареєструватися або увійти з "
+"наявним обліковим записом."
 
 #: ../../contribute/translations.rst:82
 msgid ""
@@ -7683,7 +7691,8 @@ msgstr "Простота"
 
 #: ../../humanguide/app-layout/main-actions.rst:69
 msgid "Keep in mind to keep a clean design. The simpler, the better."
-msgstr "Пам'ятайте, що краще тримати дизайн акуратним. Чим простіше, тим краще."
+msgstr ""
+"Пам'ятайте, що краще тримати дизайн акуратним. Чим простіше, тим краще."
 
 #: ../../humanguide/app-layout/presenting-data.rst:2
 msgid "Presenting data"
@@ -8269,8 +8278,8 @@ msgid ""
 "qml-development/Ubuntu.Components.UbuntuColors>`__):"
 msgstr ""
 "За розробкою `Canonical <https://www.canonical.com/>`__ ми використовуємо "
-"наступну системну палітру (від `Michał Prędotka <http://colors.mivoligo.com/>"
-"`__ та `документації Ubuntu <https://docs.ubuntu.com/phone/en/apps/api-qml-"
+"наступну системну палітру (від `Michał Prędotka <http://colors.mivoligo.com/"
+">`__ та `документації Ubuntu <https://docs.ubuntu.com/phone/en/apps/api-qml-"
 "development/Ubuntu.Components.UbuntuColors>`__):"
 
 #: ../../humanguide/design-concepts/system-palette.rst:4
@@ -15788,9 +15797,9 @@ msgstr ""
 "спочатку переконайтеся, що Ви відформатували її за допомогою ext4 або "
 "подібної файлової системи. У UDisks2, якщо він відформатований у (V)FAT, є "
 "проблемна особливість (mis-feature), яка монтує SD-картки з опцією showexec, "
-"через що можуть виконуватися з диска лише файли, які закінчуються на .bat, "
-".exe або .com. Це було виправлено в інших дистрибутивах, дозволяючи будь-"
-"якому файлу мати права на виконання, але не в Ubuntu. Рекомендований "
+"через що можуть виконуватися з диска лише файли, які закінчуються "
+"на .bat, .exe або .com. Це було виправлено в інших дистрибутивах, дозволяючи "
+"будь-якому файлу мати права на виконання, але не в Ubuntu. Рекомендований "
 "обхідний шлях — додати правило udev для контролю способу монтування картки з "
 "певним ID, але оскільки правила udev знаходяться на порту, який в Ubuntu "
 "Touch тільки для читання, це неможливо."
