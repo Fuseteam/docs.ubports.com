@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
 "PO-Revision-Date: 2026-01-12 14:01+0000\n"
-"Last-Translator: Daniel Wiik <d.wiik@outlook.com>\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/sv/>\n"
 "Language: sv\n"
@@ -3236,7 +3236,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:257
 msgid "usermetrics"
-msgstr ""
+msgstr "användarstatistik"
 
 #: ../../appdev/platform/apparmor.rst:259
 msgid "Description: Can use UserMetrics to update the InfoGraphic"
@@ -6684,7 +6684,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "gu"
-msgstr ""
+msgstr "gu"
 
 #: ../../humanguide/design-concepts/typography.rst:16
 msgid "Desktop"
@@ -9549,23 +9549,23 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:46
 msgid "IDVENDOR"
-msgstr ""
+msgstr "IDVENDOR"
 
 #: ../../porting/configure_test_fix/USBModed.rst:47
 msgid "IDPRODUCT_MTP"
-msgstr ""
+msgstr "IDPRODUCT_MTP"
 
 #: ../../porting/configure_test_fix/USBModed.rst:48
 msgid "IDPRODUCT_MTP_ADB"
-msgstr ""
+msgstr "IDPRODUCT_MTP_ADB"
 
 #: ../../porting/configure_test_fix/USBModed.rst:49
 msgid "IDPRODUCT_RNDIS"
-msgstr ""
+msgstr "IDPRODUCT_RNDIS"
 
 #: ../../porting/configure_test_fix/USBModed.rst:50
 msgid "IDPRODUCT_RNDIS_ADB"
-msgstr ""
+msgstr "IDPRODUCT_RNDIS_ADB"
 
 #: ../../porting/configure_test_fix/USBModed.rst:52
 msgid ""
@@ -9635,7 +9635,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:76
 msgid "USB_MODED_ARGS"
-msgstr ""
+msgstr "USB_MODED_ARGS"
 
 #: ../../porting/configure_test_fix/USBModed.rst:79
 msgid "About usb-moded's rescue mode"
@@ -9701,7 +9701,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:4
 msgid "Ayatana-indicator-power"
-msgstr ""
+msgstr "Ayatana-indicator-power"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:6
 msgid "All deviceinfo keys used by ayatana-indicator-power are given below::"
@@ -9731,7 +9731,7 @@ msgstr "Värde(n)"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:18
 msgid "FlashlightSysfsPath"
-msgstr ""
+msgstr "FlashlightSysfsPath"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:18
 msgid ""
@@ -9744,7 +9744,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:19
 msgid "FlashlightSwitchPath"
-msgstr ""
+msgstr "FlashlightSwitchPath"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:19
 msgid ""
@@ -9810,7 +9810,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:19
 msgid "VibrateDurationExtraMs"
-msgstr ""
+msgstr "VibrateDurationExtraMs"
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:19
 msgid "Milliseconds to extend all vibration calls by"
@@ -9851,7 +9851,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Mir.rst:22
 #: ../../porting/configure_test_fix/device_info/Mir.rst:31
 msgid "MirAndroidPlatformClientEglFlush"
-msgstr ""
+msgstr "MirAndroidPlatformClientEglFlush"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:22
 #: ../../porting/configure_test_fix/device_info/Mir.rst:23
@@ -9875,12 +9875,12 @@ msgstr "Tom"
 #: ../../porting/configure_test_fix/device_info/Mir.rst:23
 #: ../../porting/configure_test_fix/device_info/Mir.rst:36
 msgid "MirAndroidPlatformClientFenceSync"
-msgstr ""
+msgstr "MirAndroidPlatformClientFenceSync"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:24
 #: ../../porting/configure_test_fix/device_info/Mir.rst:41
 msgid "MirAndroidPlatformServerBackpressure"
-msgstr ""
+msgstr "MirAndroidPlatformServerBackpressure"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:24
 #: ../../porting/configure_test_fix/device_info/Mir.rst:25
@@ -9898,12 +9898,12 @@ msgstr "Falsk"
 #: ../../porting/configure_test_fix/device_info/Mir.rst:25
 #: ../../porting/configure_test_fix/device_info/Mir.rst:46
 msgid "MirAndroidPlatformServerClearFbFence"
-msgstr ""
+msgstr "MirAndroidPlatformServerClearFbFence"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:26
 #: ../../porting/configure_test_fix/device_info/Mir.rst:51
 msgid "MirAndroidPlatformServerEglSync"
-msgstr ""
+msgstr "MirAndroidPlatformServerEglSync"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:26
 msgid "Launcher argument (``default``)"
@@ -9912,7 +9912,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Mir.rst:27
 #: ../../porting/configure_test_fix/device_info/Mir.rst:58
 msgid "MirAndroidPlatformServerPartialUpdates"
-msgstr ""
+msgstr "MirAndroidPlatformServerPartialUpdates"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:33
 msgid ""
@@ -9971,7 +9971,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:4
 msgid "Repowerd"
-msgstr ""
+msgstr "Repowerd"
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:6
 msgid "Overview of all repowerd keys::"
@@ -9979,7 +9979,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:20
 msgid "BacklightSysfsPath"
-msgstr ""
+msgstr "BacklightSysfsPath"
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:20
 msgid "File path to backlight device"
