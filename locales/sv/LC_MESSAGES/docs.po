@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-09 20:01+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2026-01-12 14:01+0000\n"
+"Last-Translator: Daniel Wiik <d.wiik@outlook.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/sv/>\n"
 "Language: sv\n"
@@ -66,7 +66,6 @@ msgid "About the Documentation"
 msgstr "Om Dokumentationen"
 
 #: ../../about/introduction.rst:16
-#, fuzzy
 msgid ""
 "Changes to the documentation are made by the UBports community. It is "
 "written in reStructuredText and converted into this readable form by `Sphinx "
@@ -75,11 +74,12 @@ msgid ""
 "readthedocs.io>`_. Start contributing by checking out "
 "the :doc:`Documentation contribution document </contribute/documentation>`."
 msgstr ""
-"Ändringar i dokumentationen görs av Ubports gemenskapen. Den är skriven i "
+"Ändringar i dokumentationen görs av Ubportsgemenskapen. Den är skriven i "
 "reStructuredText och konverterad i detta läsbara format utav `Sphinx "
 "<https://www.sphinx-doc.org/en/master/>`_, `recommonmark <http://"
 "recommonmark.readthedocs.io/en/latest/>`_, och `Läs Dokumentationen <https://"
-"readthedocs.io>`_."
+"readthedocs.io>`_. Börja bidra igenom att kika på  :doc:`Documentation "
+"contribution document </contribute/documentation>`."
 
 #: ../../about/introduction.rst:18
 msgid ""
@@ -122,6 +122,8 @@ msgid ""
 "Every Git repository's README file should state which branch-naming "
 "convention is used and any deviations from the norm."
 msgstr ""
+"Varje Git-förråds README-fil bör ange vilken förgreningsnamnskonvention som "
+"används och eventuella avvikelser från normen."
 
 #: ../../about/process/branch-naming.rst:9
 msgid "Click-Packages"
@@ -135,11 +137,16 @@ msgid ""
 "merged into master when the time comes. Ideally Git tags or GitHub releases "
 "should be used to mark and archive milestones in the development history."
 msgstr ""
+"Programvara som uteslutande distribueras som ett klickpaket (och inte som en "
+"DEB) använder bara en ``master``-gren som är skyddad. Separata tillfälliga "
+"utvecklingsgrenar med godtyckliga beskrivande namn kan skapas och slås "
+"samman till master när tiden kommer. Helst skall Git-taggar eller GitHub-"
+"releaser användas för att markera och arkivera milstolpar i "
+"utvecklingshistorien."
 
 #: ../../about/process/branch-naming.rst:14
-#, fuzzy
 msgid "DEB Packages"
-msgstr "Klick-paket"
+msgstr "DEB-paket"
 
 #: ../../about/process/branch-naming.rst:16
 msgid ""
@@ -147,10 +154,13 @@ msgid ""
 "our CI automatically build our Git repositories into a number of APT "
 "archives hosted at http://repo.ubports.com/, according to the branch name."
 msgstr ""
+"För att hjälpa oss att leverera vår kod till Ubuntu Touch så enkelt som "
+"möjligt, bygger vår CI automatiskt våra Git-förråd i ett antal APT-arkiv som "
+"hostas på http://repo.ubports.com/, enligt förgreningsnamnet."
 
 #: ../../about/process/branch-naming.rst:18
 msgid "We maintain the following branches across Git repositories:"
-msgstr ""
+msgstr "Vi underhåller följande förgreningar över Git-förråd:"
 
 #: ../../about/process/branch-naming.rst:22
 msgid "Git branches"
@@ -173,7 +183,7 @@ msgstr "Beskrivning"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "Korresponderande APT-arkiv"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
@@ -194,14 +204,16 @@ msgid ""
 "Represents the latest development of Ubuntu Touch. All kinds of changes are "
 "allowed in this branch."
 msgstr ""
+"Representerar den senaste utvecklingen av Ubuntu Touch. Alla typer av "
+"förändringar är tillåtna i denna gren."
 
 #: ../../about/process/branch-naming.rst:25
 msgid "``devel-<Ubuntu LTS>`` (e.g. ``devel-noble``)"
-msgstr ""
+msgstr "``devel-<Ubuntu LTS>`` (Till exempel ``devel-noble``)"
 
 #: ../../about/process/branch-naming.rst:25
 msgid "Latest or upcoming Ubuntu LTS."
-msgstr ""
+msgstr "Senaste eller kommande Ubuntu LTS."
 
 #: ../../about/process/branch-naming.rst:28
 msgid "``devel-debian``"
@@ -213,7 +225,7 @@ msgstr "Debian testing."
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
-msgstr ""
+msgstr "``ubports/<större version>.x`` (till exempel ``ubports/24.6.x``)"
 
 #: ../../about/process/branch-naming.rst:30
 msgid ""
