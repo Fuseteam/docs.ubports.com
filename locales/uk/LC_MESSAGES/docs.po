@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-22 20:17+0000\n"
+"PO-Revision-Date: 2026-01-22 20:51+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -8930,10 +8930,12 @@ msgid ""
 "Apps should be accessible using any combination of mouse, touch, and "
 "keyboard."
 msgstr ""
+"Програми мають бути доступними за допомогою будь-якої комбінації миші, "
+"дотиків та клавіатури."
 
 #: ../../humanguide/other-design-considerations/convergence.rst:2
 msgid "Convergence"
-msgstr ""
+msgstr "Конвергенція"
 
 #: ../../humanguide/other-design-considerations/convergence.rst:6
 msgid ""
@@ -8941,6 +8943,9 @@ msgid ""
 "available across all screen sizes and input methods, such as mobile "
 "handsets, tablets, and laptops."
 msgstr ""
+"Конвергенція є одним з контрольних пунктів, яких хоче досягти Ubuntu Touch — "
+"це коли кожна програма доступна для усіх розмірів екранів та методів "
+"введення, наприклад, мобільних телефонів, планшетів та ноутбуків."
 
 #: ../../humanguide/other-design-considerations/convergence.rst:8
 msgid ""
@@ -8951,14 +8956,21 @@ msgid ""
 "a consistent experience, whether you are using it on a big screen with mouse "
 "and keyboard or on a small touchscreen."
 msgstr ""
+"Конвергенція означає можливість використовувати одну й ту саму кодову базу "
+"на різноманітних апаратних форм-факторах. Кілька пристроїв, які "
+"використовують однакову кодову базу, дозволяють розробити функції один раз, "
+"а потім розмістити їх на різних типах пристроїв. Це скорочує час і вартість "
+"розробки. Мета полягає в тому, щоб досвід роботи з Ubuntu Touch був "
+"стабільний, незалежно від того, чи це буде на великому екрані з мишею та "
+"клавіатурою чи на маленькому сенсорному екрані."
 
 #: ../../humanguide/other-design-considerations/convergence.rst:11
 msgid "Screen size"
-msgstr ""
+msgstr "Розмір екрана"
 
 #: ../../humanguide/other-design-considerations/convergence.rst:15
 msgid "Ubuntu Touch Tweak Tool app"
-msgstr ""
+msgstr "Програма Ubuntu Touch Tweak Tool"
 
 #: ../../humanguide/other-design-considerations/convergence.rst:17
 msgid ""
@@ -8966,10 +8978,13 @@ msgid ""
 "devices. Additional pages on the phone, can be displayed at variable sizes "
 "on the right on bigger screens."
 msgstr ""
+"Головна сторінка залишається головною на телефонах або ліворуч на пристроях "
+"із великим екраном. Додаткові сторінки на телефоні можуть відтворюватися на "
+"великих екранах різними розмірами праворуч."
 
 #: ../../humanguide/other-design-considerations/convergence.rst:20
 msgid "Input method"
-msgstr ""
+msgstr "Метод введення"
 
 #: ../../humanguide/other-design-considerations/convergence.rst:22
 msgid ""
