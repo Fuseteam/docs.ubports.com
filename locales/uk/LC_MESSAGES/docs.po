@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-22 09:23+0000\n"
+"PO-Revision-Date: 2026-01-22 14:37+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -15287,7 +15287,7 @@ msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:44
 msgid "Connect"
-msgstr ""
+msgstr "З'єднати"
 
 #: ../../userguide/advanceduse/ssh.rst:46
 msgid "Now everything is set up and you can use ``ssh`` ::"
