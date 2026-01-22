@@ -8923,7 +8923,7 @@ msgstr "Тема з адаптивним розміром тексту."
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:16
 msgid "Input methods"
-msgstr ""
+msgstr "Методи введення"
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:18
 msgid ""
