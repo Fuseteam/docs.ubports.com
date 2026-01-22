@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-22 14:37+0000\n"
+"PO-Revision-Date: 2026-01-22 20:17+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -797,18 +797,13 @@ msgid "Assignees"
 msgstr "Призначені"
 
 #: ../../about/process/issue-tracking.rst:90
-#, fuzzy
-#| msgid ""
-#| "To make it transparent who's working on an issue, the developer should be "
-#| "assigned. This also allows the use of GitHub's global filtering as a type "
-#| "of TODO list."
 msgid ""
 "To make it transparent who's working on an issue, the developer should be "
 "assigned. This also allows the use of GitLab's global filtering as a type of "
 "TODO list."
 msgstr ""
-"Для прозорості розуміння, хто працює над проблемою, розробник повинен бути "
-"призначений. Це також дозволяє використовувати глобальний фільтр Github за "
+"Для прозорості розуміння, хто працює над проблемою, повинен бути призначений "
+"розробник. Це також дозволяє використовувати глобальний фільтр GitLab за "
 "списком завдань (TODO list)."
 
 #: ../../about/process/issue-tracking.rst:94
@@ -4131,7 +4126,7 @@ msgstr ""
 #: ../../appdev/platform/click.rst:11
 #, fuzzy
 msgid "Example ``manifest.json`` file::"
-msgstr "Приклад файлу ``manifest.json``::"
+msgstr "Зразок файлу ``manifest.json``::"
 
 #: ../../appdev/platform/click.rst:28
 msgid "AppArmor profile policy file"
@@ -4161,7 +4156,7 @@ msgstr ""
 #: ../../appdev/platform/click.rst:34
 #, fuzzy
 msgid "Example of ``app.desktop``::"
-msgstr "Приклад файлу ``app.desktop``::"
+msgstr "Зразок файлу ``app.desktop``::"
 
 #: ../../appdev/platform/click.rst:44
 msgid "Non exhaustive list of properties:"
@@ -4233,7 +4228,7 @@ msgstr ""
 #: ../../appdev/platform/click.rst:64
 #, fuzzy
 msgid "Example ``apparmor.json`` file::"
-msgstr "Приклад файлу ``apparmor.json``::"
+msgstr "Зразок файлу ``apparmor.json``::"
 
 #: ../../appdev/platform/click.rst:76
 msgid "For a full list of available policy groups, see :doc:`apparmor`."
@@ -8793,23 +8788,26 @@ msgstr ""
 
 #: ../../humanguide/index.rst:15
 msgid "Suru items from the Ubuntu values alluding to Japanese culture."
-msgstr ""
+msgstr "Елементи Suru з цінностей Ubuntu, які натякають на японську культуру."
 
 #: ../../humanguide/index.rst:17
 msgid ""
 "The design of Suru is inspired by origami, because it gives us a solid and "
 "tangible foundation."
 msgstr ""
+"Дизайн Suru натхненний оригамі, оскільки це дає нам міцну та реальну основу."
 
 #: ../../humanguide/index.rst:19
 msgid ""
 "Paper can be used in all areas of the design in two and three dimensional "
 "forms, because it is transferable and diverse."
 msgstr ""
+"Оскільки папір гнучкий та різноманітний, його можна використовувати у всіх "
+"сферах дизайну у дво- та тривимірних формах."
 
 #: ../../humanguide/index.rst:22
 msgid "Translated in design"
-msgstr ""
+msgstr "Перенесено у дизайн"
 
 #: ../../humanguide/index.rst:24
 msgid ""
@@ -8818,6 +8816,10 @@ msgid ""
 "texture of paper. All elements are placed deliberately, with the express aim "
 "of being easy for the user to identify and use."
 msgstr ""
+"Suru додає точну, але органічну структуру до інтерфейсу Ubuntu Touch. Чіткі "
+"лінії та різні рівні прозорості нагадують контури та текстуру паперу. Усі "
+"елементи розміщено навмисно таким чином, щоб користувачеві було зручно їх "
+"знаходити та використовувати."
 
 #: ../../humanguide/index.rst:26
 msgid ""
@@ -8826,20 +8828,26 @@ msgid ""
 "layout size increases, the object can become progressively larger, allowing "
 "more of the information and functionality to be exposed at any one time."
 msgstr ""
+"Коли використовуються маленькі макети, інформація та функції складаються у "
+"компактний об’єкт, який можна перегорнути чи повернути, щоб побачити різні "
+"області. Зі збільшенням розміру макета об’єкт може також збільшуватися, "
+"дозволяючи таким чином одночасно відображати більше інформації та функцій."
 
 #: ../../humanguide/index.rst:29
 msgid "Origami"
-msgstr ""
+msgstr "Оригамі"
 
 #: ../../humanguide/index.rst:33
 msgid ""
 "Origami has long been associated with good fortune and represents the visual "
 "style for Ubuntu Touch. Origami folds are used to define the design."
 msgstr ""
+"Оригамі вже давно асоціюється з доброю вдачею та представляє візуальний "
+"стиль Ubuntu Touch. Складки оригамі використовуються для визначення дизайну."
 
 #: ../../humanguide/index.rst:36
 msgid "Simple details"
-msgstr ""
+msgstr "Прості деталі"
 
 #: ../../humanguide/index.rst:40
 msgid ""
@@ -8847,10 +8855,13 @@ msgid ""
 "quality, and a neatness and clarity that helps the user find things quickly "
 "and use them intuitively."
 msgstr ""
+"Що найбільш важливо, це те, що макет екрана відтворює природну та ритмічну "
+"якість, а також охайність та ясність, які допомагають користувачеві швидко "
+"знаходити речі та використовувати їх інтуїтивно."
 
 #: ../../humanguide/index.rst:43
 msgid "Using subtle grids for accuracy"
-msgstr ""
+msgstr "Використання тонких сіток для точності"
 
 #: ../../humanguide/index.rst:45
 msgid ""
@@ -8859,47 +8870,56 @@ msgid ""
 "as logos, icons or copylines. This helps maintain focus on the main image or "
 "graphic element."
 msgstr ""
+"Складки з оригамі створюють прості графічні деталі, які дозволяють "
+"дизайнерам створювати тонку сітку для позиціювання елементів та таких "
+"компонентів бренду, як логотипи, значки чи текст. Це допомагає зберегти "
+"фокус на головному зображенні чи елементі."
 
 #: ../../humanguide/index.rst:50
 msgid "Suru mood board"
-msgstr ""
+msgstr "Настрій Suru"
 
 #: ../../humanguide/index.rst:53
 msgid "Influences and inspiration"
-msgstr ""
+msgstr "Вплив та натхнення"
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:2
 msgid "Accessibility"
-msgstr ""
+msgstr "Доступність"
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:4
 msgid ""
 "Accessibility is important to make all users to be able to use the operating "
 "system."
 msgstr ""
+"Доступність важлива для надання можливості використовувати цю операційну "
+"систему усім користувачам."
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:7
 msgid "Inclusive palette and theme"
-msgstr ""
+msgstr "Прийнятні палітра та оформлення"
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:9
 msgid ""
 "We would like to create and implement color palettes helpful to people who "
 "have sight impairment:"
 msgstr ""
+"Нам би хотілося створити та використовувати колірну палітру, яка була б "
+"зручною для людей з вадами зору:"
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:11
 msgid ""
 "Additional `palette proposal <http://colors.mivoligo.com/#color-blind>`__."
 msgstr ""
+"Додаткова `пропозиція палітри <http://colors.mivoligo.com/#color-blind>`__."
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:12
 msgid "A high contrast theme."
-msgstr ""
+msgstr "Тема з високим контрастом."
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:13
 msgid "Adaptable font size theme."
-msgstr ""
+msgstr "Тема з адаптивним розміром тексту."
 
 #: ../../humanguide/other-design-considerations/accessibility.rst:16
 msgid "Input methods"
