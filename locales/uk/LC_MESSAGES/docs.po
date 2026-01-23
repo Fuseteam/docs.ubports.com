@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-23 10:45+0000\n"
+"PO-Revision-Date: 2026-01-23 12:16+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -8780,8 +8780,8 @@ msgid ""
 "freedom trust and collaboration. This integral belief has been translated "
 "into the design philosophy called Suru."
 msgstr ""
-"Тут, у UBports, ми віримо, що кожен повинен мати доступ до безкоштовного, "
-"надійного та безпечного програмного забезпечення, яким може ділитися та яке "
+"Тут, в UBports, ми віримо, що кожен повинен мати доступ до безплатного, "
+"надійного та безпечного програмного забезпечення, яким можна ділитися та яке "
 "може розробляти кожен. Це проклало шлях до зростання та процвітання "
 "спільноти зі свободою довіри та співпраці. Це цілісне переконання було "
 "втілено у філософію дизайну під назвою Suru."
@@ -9183,10 +9183,12 @@ msgid ""
 "If you want to help improving this documentation, :doc:`the Documentation "
 "contribute page <contribute/documentation>` will get you started."
 msgstr ""
+"Якщо маєте бажання покращити цю документацію, почніть зі :doc:`сторінки "
+"внеску до Документації <contribute/documentation>`."
 
 #: ../../index.rst:14
 msgid "You may view this documentation in the following languages:"
-msgstr ""
+msgstr "Цю документацію можна переглянути наступними мовами:"
 
 #: ../../index.rst:18
 #, fuzzy
@@ -9204,10 +9206,12 @@ msgid ""
 "In the small navigation box at the bottom, you can select a few more "
 "languages with partial translations."
 msgstr ""
+"В маленькому навігаційному віконечку внизу екрану можна вибрати ще декілька "
+"мов з частковим перекладом."
 
 #: ../../porting/UpdatePortsFor2004.rst:4
 msgid "Update ports for Ubuntu Touch 20.04"
-msgstr ""
+msgstr "Оновлення портів Ubuntu Touch 20.04"
 
 #: ../../porting/UpdatePortsFor2004.rst:6
 msgid ""
@@ -9219,12 +9223,21 @@ msgid ""
 "docs.ubports.com/en/latest/porting/introduction/Intro.html#getting-community-"
 "help>`_ to answer any question that might occur during process."
 msgstr ""
+"Ubuntu Touch 20.04 додає багато прихованих змін, відповідно до яких потрібно "
+"виконати зміни розробниками. Цей документ повинен допомогти зрозуміти, як "
+"змусити Ваш порт працювати на Ubuntu Touch 20.04. Хоча кожен порт має свої "
+"особливості та вимагає дещо більшого, ніж тут описано. Ми залишаємося "
+"доступними у `групі Telegram UBports porting <https://docs.ubports.com/en/"
+"latest/porting/introduction/Intro.html#getting-community-help>`_ та "
+"спробуємо відповісти на усі запитання, які можуть виникнути у цьому процесі."
 
 #: ../../porting/UpdatePortsFor2004.rst:9
 msgid ""
 "For GitLab CI-based ports: switch to shared building script & GitLab CI "
 "configuration"
 msgstr ""
+"Для портів на базі GitLab CI: перехід до загального скрипту компіляції та "
+"конфігурація GitLab CI"
 
 #: ../../porting/UpdatePortsFor2004.rst:11
 msgid ""
@@ -16670,7 +16683,7 @@ msgstr ""
 
 #: ../../userguide/install.rst:2
 msgid "Install Ubuntu Touch"
-msgstr "Встановити Ubuntu Touch"
+msgstr "Установка Ubuntu Touch"
 
 #: ../../userguide/install.rst:4
 msgid ""
@@ -16686,13 +16699,13 @@ msgid ""
 msgstr ""
 "Встановити Ubuntu Touch дуже просто, і було зроблено багато роботи, щоб "
 "процес встановлення був менш складним для пересічного користувача. UBports "
-"Installer — це зручний графічний інструмент, за допомогою якого ви можете "
+"Installer — це зручний графічний інструмент, за допомогою якого можна "
 "встановити Ubuntu Touch на `підтримуваний пристрій <https://devices.ubuntu-"
 "touch.io/>`_ зі свого комп'ютера `Linux <https://snapcraft.io/ubports-"
-"installer>`_, `Mac <https://devices.ubuntu-touch.io/installer/? "
-"package=dmg>`_ або `Windows <https://devices.ubuntu-touch.io/installer/?"
-"package=exe>`_. Для більш досвідчених користувачів ми також маємо інструкції "
-"з ручної інсталяції для кожного пристрою `на сторінці пристроїв <https://"
+"installer>`_, `Mac <https://devices.ubuntu-touch.io/installer/? package=dmg>"
+"`_ або `Windows <https://devices.ubuntu-touch.io/installer/?package=exe>`_. "
+"Для більш досвідчених користувачів ми також маємо інструкції з ручної "
+"інсталяції для кожного пристрою `на сторінці пристроїв <https://"
 "devices.ubuntu-touch.io/>`_."
 
 #: ../../userguide/install.rst:7
