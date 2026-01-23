@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-23 02:55+0000\n"
+"PO-Revision-Date: 2026-01-23 10:45+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -9005,17 +9005,20 @@ msgstr "Інші думки щодо дизайну"
 
 #: ../../humanguide/other-design-considerations/index.rst:13
 msgid "`Suru Icons <http://docs.ubports.com/projects/icons/en/latest/>`__"
-msgstr ""
+msgstr "`Значки Suru <http://docs.ubports.com/projects/icons/en/latest/>`__"
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:2
 msgid "Scaling images"
-msgstr ""
+msgstr "Масштабування зображень"
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:4
 msgid ""
 "Scaling images is important in a convergent app. App icons and images can be "
 "created in scalable formats to improve their ability to scale."
 msgstr ""
+"Масштабування зображень — важлива частина конвергентних програм. Значки "
+"програм та малюнки (зображення) можна створити у форматі, зручному для "
+"масштабування."
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:9
 msgid ""
@@ -9023,6 +9026,9 @@ msgid ""
 "wiki/Scalable_Vector_Graphics>`__. SVG files can be created using software "
 "like `Inkscape <https://inkscape.org/>`__."
 msgstr ""
+"Один з найбільш популярних масштабованих форматів це `SVG <https://"
+"en.wikipedia.org/wiki/Scalable_Vector_Graphics>`__. Файли SVG можна створити "
+"за допомогою програми на кшталт `Inkscape <https://inkscape.org/>`__."
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:11
 msgid ""
@@ -9033,10 +9039,17 @@ msgid ""
 "width and height of 252 pixels, will be rendered as if the scalable image "
 "would be a png of 252 per 252 pixels."
 msgstr ""
+"Хоча одна особливість qml полягає в тому, що SVG відтворюються з "
+"використовуванням меншого обсягу пам’яті, втрачаючи переваги "
+"масштабованості. Використовуючи файл SVG в елементі ``Image``, можна "
+"використовувати властивість ``sourceSize``. Це визначатиме розмір "
+"відтвореного зображення SVG. Зображення SVG із шириною та висотою "
+"``sourceSize`` 252 пікселі відтворюватиметься так, ніби масштабоване "
+"зображення буде png 252 на 252 пікселі."
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:16
 msgid "Different rendered sizes of the same svg image"
-msgstr ""
+msgstr "Різні розміри готового SVG-зображення"
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:18
 msgid ""
@@ -9047,12 +9060,22 @@ msgid ""
 "image of 40 per 40 grid units in the other cases. By defining these "
 "thresholds, we get scalable images without a huge performance cost."
 msgstr ""
+"Для уникнення проблем із продуктивністю, не рекомендується визначати "
+"``sourceSize`` як відносний розмір. Гарною практикою є визначення "
+"``sourceSize`` на основі встановленого списку порогових значень. У "
+"наведеному нижче прикладі image.svg буде відтворено розміром 60 на 60 "
+"одиниць сітки, якщо розмір головного перегляду перевищує 70 одиниць сітки, "
+"та розміром 40 на 40 одиниць сітки в інших випадках. З визначенням цих "
+"порогових значень ми отримуємо масштабовані зображення без значних втрат "
+"продуктивності."
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:28
 msgid ""
 "Read more about image performance in the `Qt wiki <https://wiki.qt.io/"
 "Performance_tip_Images>`__."
 msgstr ""
+"Більш докладно про ефективність роботи з зображеннями дізнайтеся з `Qt wiki "
+"<https://wiki.qt.io/Performance_tip_Images>`__."
 
 #: ../../humanguide/other-design-considerations/translations.rst:4
 msgid ""
@@ -9061,12 +9084,18 @@ msgid ""
 "process automatically, extracting new translatable strings into a pot file "
 "(the source strings of your app, to be translated)."
 msgstr ""
+"Додаткові переклади Вашої програми іншими мовами додає гнучкості "
+"користувачам з інших країн. `Clickable <http://clickable.bhdouglass.com/>`__ "
+"опікується цим процесом автоматично та експортує рядки для перекладу "
+"(джерельні рядки програми, які потрібно перекласти) до pot-файлу."
 
 #: ../../humanguide/other-design-considerations/translations.rst:6
 msgid ""
 "Marking a string to be translatable can be achieved like this "
 "i18n.tr(string). For example:"
 msgstr ""
+"Позначення рядків для перекладу можна досягти через i18n.tr(string). "
+"Наприклад:"
 
 #: ../../humanguide/other-design-considerations/translations.rst:14
 msgid ""
@@ -9074,6 +9103,9 @@ msgid ""
 "on localization <http://web.archive.org/web/https://docs.ubuntu.com/phone/en/"
 "apps/qml/tutorials-internationalizing-your-app>`__ an app."
 msgstr ""
+"Більш докладно про це та параметри можна дізнатися з дещо застарілих "
+"`настанов з локалізації <http://web.archive.org/web/https://docs.ubuntu.com/"
+"phone/en/apps/qml/tutorials-internationalizing-your-app>`__ програм."
 
 #: ../../index.rst:23
 msgid "About"
@@ -9093,31 +9125,31 @@ msgstr "Розробка"
 
 #: ../../index.rst:59
 msgid "Porting"
-msgstr ""
+msgstr "Портування"
 
 #: ../../index.rst:70
 msgid "Click Packages"
-msgstr ""
+msgstr "Пакети Click"
 
 #: ../../index.rst:70
 msgid "Ubuntu UI-Toolkit"
-msgstr ""
+msgstr "UI-інструменти Ubuntu"
 
 #: ../../index.rst:70
 msgid "Clickable"
-msgstr ""
+msgstr "Clickable"
 
 #: ../../index.rst:70
 msgid "Halium"
-msgstr ""
+msgstr "Halium"
 
 #: ../../index.rst:4
 msgid "Welcome to the UBports documentation!"
-msgstr ""
+msgstr "Ласкаво просимо до документації UBports!"
 
 #: ../../index.rst:6
 msgid "Welcome to the official documentation of the UBports project!"
-msgstr ""
+msgstr "Ласкаво просимо до офіційної документації проєкту UBports!"
 
 #: ../../index.rst:8
 msgid ""
@@ -9125,6 +9157,9 @@ msgid ""
 "Touch is a mobile operating system focused on ease of use, privacy, and "
 "convergence."
 msgstr ""
+"UBports розробляє операційну систему для мобільних телефонів Ubuntu Touch, "
+"яка сфокусована на зручному та простому користуванні, захисті приватності та "
+"конвергенції/гнучкості."
 
 #: ../../index.rst:10
 msgid ""
@@ -9135,6 +9170,13 @@ msgid ""
 "more about system components <systemdev/index>`. If this is your first time "
 "here, please consider reading our :doc:`introduction <about/introduction>`."
 msgstr ""
+"На цьому вебсайті можна знайти настанови щодо :doc:`установки Ubuntu Touch "
+"на свій мобільний телефон <userguide/install>`, :doc:`використання Ubuntu "
+"Touch <userguide/dailyuse/index>`, :doc:`розробки програм Ubuntu Touch "
+"<appdev/index>`, :doc:`портування Ubuntu Touch на пристроях Android <porting/"
+"introduction/index>` та додатково :doc:`спробуйте розібратися з системними "
+"компонентами <systemdev/index>`. Якщо Ви тут вперше, ознайомтеся з нашою "
+":doc:`передмовою <about/introduction>`."
 
 #: ../../index.rst:12
 msgid ""
