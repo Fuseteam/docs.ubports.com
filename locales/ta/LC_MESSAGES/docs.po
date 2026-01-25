@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-16 09:01+0000\n"
+"PO-Revision-Date: 2026-01-25 22:23+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ta/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -15161,7 +15161,7 @@ msgid ""
 "The build user can configure ``sbuild`` by creating a file ``~/.sbuildrc`` "
 "as follows::"
 msgstr ""
-"உருவாக்கப் பயனர் பின்வருமாறு ``~/.sbuildrc`` கோப்பை உருவாக்குவதன் மூலம் ``sbuild`` ஐ "
+"பில்ட் பயனர் பின்வருமாறு ``~/.sbuildrc`` கோப்பை உருவாக்குவதன் மூலம் ``sbuild`` ஐ "
 "கட்டமைக்க முடியும்::"
 
 #: ../../systemdev/testing-locally.rst:110
@@ -15218,10 +15218,9 @@ msgid ""
 "{chroot_distro}-amd64`` (``chroot_base`` can be changed if needed) the "
 "following variables can be defined for later use by the actual commands::"
 msgstr ""
-"``/srv/chroot/ubports-${chroot_distro}-amd64`` (``chroot_base`` என்பதை மாற்றலாம் "
-"தேவைப்பட்டால்) என்ற கோப்பகத்தின் கீழ் amd64 கட்டமைப்புடன் உபுண்டு 20.04 (Focal Fossa) ஐ "
-"அடிப்படையாகக் கொண்ட ஒரு chroot ஐ உருவாக்க, பின்வரும் மாறிகளை உண்மையான கட்டளைகளால் பின்னர் "
-"பயன்படுத்த வரையறுக்கலாம்::"
+"``/srv/chroot/ubports-${chroot_distro}-amd64`` (``chroot_base`` என்ற "
+"கோப்பகத்தின் கீழ் amd64 கட்டமைப்பைக் கொண்டு Ubuntu 20.04 (Focal Fossa) அடிப்படையிலான "
+"chroot ஐ உருவாக்குவதற்கு (``chroot_base`` கட்டளையை பின்னர் மாற்றியமைக்கலாம்."
 
 #: ../../systemdev/testing-locally.rst:140
 #, fuzzy
@@ -16805,7 +16804,7 @@ msgstr "உங்கள் *கருவியில்* வைஃபை மற�
 msgid ""
 "Set your device :doc:`usb in tethering mode </userguide/dailyuse/tethering>`"
 msgstr ""
-"உங்கள் சாதனத்தை :dock:`usbஐ டெதரிங் பயன்முறையில் அமைக்கவும் </user guide/dayy use/"
+"உங்கள் சாதனத்தை :does:`usbஐ டெதரிங் பயன்முறையில் அமைக்கவும் </user guide/dayy use/"
 "tethering>`"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:17
@@ -17416,7 +17415,7 @@ msgstr ""
 #: ../../userguide/dailyuse/libertine.rst:56
 #, fuzzy
 msgid "You can also use the command-line. Run::"
-msgstr "நீங்கள் கட்டளை வரியையும் பயன்படுத்தலாம். இயக்கு::"
+msgstr "நீங்கள் கட்டளை வரியையும் பயன்படுத்தலாம். இயக்கவும்::"
 
 #: ../../userguide/dailyuse/libertine.rst:61
 msgid "Destroy a container"
