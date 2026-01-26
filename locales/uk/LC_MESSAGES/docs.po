@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-23 14:40+0000\n"
+"PO-Revision-Date: 2026-01-27 06:39+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -1071,8 +1071,8 @@ msgid ""
 "This MR will target the ``.secfix`` repo, NOT the main repo [1]_. This "
 "allows reviewing the patch to happen in private."
 msgstr ""
-"Цей запит MR матиме на меті репозиторій ``.secfix``, НЕ основний [1]_. Це "
-"дозволить переглянути цей патч приватно."
+"Цей запит на злиття MR стосується ``.secfix`` у репозиторії, НЕ в основному "
+"[1]_. Це дозволить переглянути цю латку приватно."
 
 #: ../../about/process/security-vulnerabilities.rst:20
 msgid ""
@@ -9366,17 +9366,19 @@ msgstr ""
 
 #: ../../porting/UpdatePortsFor2004.rst:55
 msgid "For everyone: configure usb-moded"
-msgstr ""
+msgstr "Для усіх: налаштуйте usb-moded"
 
 #: ../../porting/UpdatePortsFor2004.rst:57
 msgid ""
 "usb-moded replaces ``setupusb`` script in setting and managing USB modes. "
 "We've written a specific page for that. See :ref:`USBModed`."
 msgstr ""
+"usb-moded замінює скрипт ``setupusb`` для налаштування та керування режимами "
+"USB. Для цього ми створили окрему сторінку. Див. :ref:`USBModed`."
 
 #: ../../porting/UpdatePortsFor2004.rst:60
 msgid "For everyone: check custom Upstart jobs"
-msgstr ""
+msgstr "Для усіх: перевірте користувацькі завдання Upstart"
 
 #: ../../porting/UpdatePortsFor2004.rst:62
 msgid ""
@@ -9385,6 +9387,11 @@ msgid ""
 "20.04. One may find `Ubuntu's guide on this topic <https://wiki.ubuntu.com/"
 "SystemdForUpstartUsers#Job_vs._unit_keywords>` useful."
 msgstr ""
+"Деякі порти для виконання на етапі завантаження певних команд мають "
+"користувацькі завдання Upstart. Ці завдання для сумісності з Ubuntu Touch "
+"20.04 конвертуються у модулі Systemd. Комусь буде корисним ознайомитися з "
+"`настановами Ubuntu щодо цього <https://wiki.ubuntu.com/"
+"SystemdForUpstartUsers#Job_vs._unit_keywords>`."
 
 #: ../../porting/UpdatePortsFor2004.rst:64
 msgid ""
@@ -9393,10 +9400,14 @@ msgid ""
 "path is ``/usr/libexec/lxc-android-config/device-hacks``, and the script "
 "will be run with ``/bin/sh``."
 msgstr ""
+"Крім того, замість написання власних модулів Systemd, користуйтеся скриптом "
+"``devicehack``, який запускається з кожним завантаженням після запуску "
+"контейнера Android. Шлях до нього ``/usr/libexec/lxc-android-config/device-"
+"hacks``, і він запускається з ``/bin/sh``."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:4
 msgid "Booting"
-msgstr ""
+msgstr "Завантаження"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:6
 msgid ""
@@ -9404,10 +9415,13 @@ msgid ""
 "on your device. The next step is to boot the device, gain remote access and "
 "debug as necessary."
 msgstr ""
+"У попередніх розділах Ви створили Ubuntu Touch та встановили його на свій "
+"пристрій. Наступним кроком буде завантаження пристрою, отримання віддаленого "
+"доступу та за необхідності налагодження."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:9
 msgid "What is a successful boot?"
-msgstr ""
+msgstr "Що таке вдале завантаження?"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:11
 msgid ""
@@ -9416,6 +9430,9 @@ msgid ""
 "gone wrong. Your system may well have booted successfully and this can be "
 "ascertained by gaining remote access."
 msgstr ""
+"Коли Ви завантажуєте власну збірку вперше, можливо на екрані нічого не "
+"відтвориться. Немає потреби щось показувати, якщо щось не так. Ваша система "
+"може запуститися вдало і тоді Ви матимете до неї віддалений доступ."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:13
 msgid ""
@@ -9423,6 +9440,8 @@ msgid ""
 "device from your host using ssh and continue debugging and configuring from "
 "there."
 msgstr ""
+"Якщо система завантажилася, Ви зможете з'єднатися зі своїм пристроєм через "
+"ssh та продовжити налагодження вже звідти."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:15
 msgid ""
@@ -9431,10 +9450,14 @@ msgid ""
 "these, the problem might be more difficult to determine. If you get stuck "
 "don't hesitate to seek help."
 msgstr ""
+"Якщо щось пішло не так, Вам зазвичай запропонується доступ через telnet, "
+"через який можна продовжити налагодження. Якщо з доступом нічого не вийшло, "
+"проблема скоріше за все глибше і знайти її складніше. Якщо Ви десь "
+"застрягли, не соромтеся звернутися по допомогу."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:18
 msgid "Gaining remote access"
-msgstr ""
+msgstr "Отримання віддаленого доступу"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:20
 msgid ""
@@ -9443,10 +9466,14 @@ msgid ""
 "have it plugged in to. To determine if this is the case, and what type of "
 "connection you have been offered, proceed as described below."
 msgstr ""
+"Коли Ваш пристрій завантажується, можливо він зупиниться на стартовому "
+"логотипі. Проте, на ПК, до якого під'єднаний пристрій, Ви повинні мати нове "
+"мережеве з'єднання. Перевірити чи це такий випадок та яке мережеве з'єднання "
+"буде Вам запропоновано, виконайте описані нижче дії."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:23
 msgid "ssh connection"
-msgstr ""
+msgstr "з'єднання ssh"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:25
 msgid ""
@@ -9456,49 +9483,69 @@ msgid ""
 "instead get something similar to “Halium initrd Failed to boot”, skip "
 "to :ref:`telnet`."
 msgstr ""
+"Для перевірки, чи Ваш пристрій завантажився правильно, виконайте на "
+"комп'ютері команду dmesg -w та знайдіть рядок \"GNU/Linux device\". Це "
+"підтвердить, що з'єднання ssh з Вашим пристроєм встановлене (див. нижче). "
+"Якщо замість цього отримаєте щось на кшталт \"Halium initrd Failed to "
+"boot\", перейдіть до :ref:`telnet`."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:27
 msgid "Establish an ssh connection to your device as follows:"
-msgstr ""
+msgstr "Встановіть з'єднання ssh зі своїм пристроєм в такий спосіб:"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:29
+#, fuzzy
 msgid ""
 "Your computer should now have a newly connected RNDIS interface. Check the "
 "output of ``ip link show`` for the device name. The device name will most "
 "likely resemble ``enp0s29u1u1``. Assign this device a fake MAC address (if "
 "the default one is all 00s) and an IP of 10.15.19.100::"
 msgstr ""
+"У Вашого комп'ютера повинен з'явитися новий активний інтерфейс RNDIS. "
+"Перевірте результат виконання команди ``ip link show``. Назва пристрою "
+"зазвичай нагадує ``enp0s29u1u1`` чи щось таке. Додайте цьому пристрою "
+"підробну MAC-адресу (типово це усі нулі) та IP-адресу 10.15.19.100::"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:35
 msgid "Once finished, you should be able to login with the following::"
-msgstr ""
+msgstr "Після завершення, Ви повинні мати можливість увійти, як написано нижче:"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:39
 msgid ""
 "The password will be the one you set when you ran the halium-install script."
 msgstr ""
+"Пароль буде той самий, який Ви встановили під час виконання скрипту halium-"
+"install."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:44
 msgid "telnet connection"
-msgstr ""
+msgstr "з'єднання telnet"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:46
+#, fuzzy
 msgid ""
 "If you have been offered a telnet connection the rootfs and system image "
 "have likely not been found and mounted at boot time. This may indicate that "
 "one or more partitions have not been mounted as they should. Connect to your "
 "device with the following command::"
 msgstr ""
+"Якщо Вам запропонується з'єднання telnet, коренева файлова система та "
+"системний образ ймовірно не були знайдені та змонтовані під час "
+"завантаження. Це може вказувати на те, що один чи декілька розділів не були "
+"правильно під'єднані. Під'єднайтеся до свого пристрою як описано нижче::"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:50
 msgid ""
 "From here you can start debugging to find out what went wrong. "
 "Please :ref:`seek help <Getting-community-help>` to find out how to proceed."
 msgstr ""
+"Починаючи звідси можна розпочати налагодження та пошук помилок. Щоб "
+"дізнатися як це робити скористайтеся :ref:`пошуком у довіднику <Getting-"
+"community-help>`."
 
 #: ../../porting/build_and_boot/index.rst:2
 msgid "Building and booting"
-msgstr ""
+msgstr "Компіляція та запуск"
 
 #: ../../porting/build_and_boot/index.rst:4
 msgid ""
@@ -9507,26 +9554,30 @@ msgid ""
 "your Halium version. Secondly, proceed with the final **Install and boot** "
 "section."
 msgstr ""
+"Тепер настав час для отримання та налаштування необхідного початкового коду. "
+"Потім Ви скомпілюйте його та підготуйте до завантаження. По-перше, виконайте "
+"кроки з розділу **Компіляція** для своєї версії Halium. По-друге, виконайте "
+"останній розділ **Встановлення та завантаження**."
 
 #: ../../porting/build_and_boot/index.rst:24
 msgid "Deprecated building methods"
-msgstr ""
+msgstr "Застарілі методи компіляції"
 
 #: ../../porting/build_and_boot/index.rst:26
 msgid "In the past there used to be three separate porting methods called:"
-msgstr ""
+msgstr "Раніше існували три окремих методи створення портів:"
 
 #: ../../porting/build_and_boot/index.rst:28
 msgid "Full system image method"
-msgstr ""
+msgstr "Метод повного системного образу"
 
 #: ../../porting/build_and_boot/index.rst:29
 msgid "Halium boot method"
-msgstr ""
+msgstr "Метод завантаження Halium"
 
 #: ../../porting/build_and_boot/index.rst:30
 msgid "Standalone kernel method"
-msgstr ""
+msgstr "Метод автономного ядра"
 
 #: ../../porting/build_and_boot/index.rst:32
 msgid ""
@@ -9538,11 +9589,17 @@ msgid ""
 "history. <https://gitlab.com/ubports/docs/docs.ubports.com/-/tree/porting-in-"
 "three-methods>`_"
 msgstr ""
+"Для сучасних пристроїв це найпростіше. Повна система була прийнятна лише на "
+"Halium 7.1 та 9.0, а Halium-boot працював на Halium 9.0. Зараз існує лише "
+"один метод, який описаний у настановах з міграції (створення портів) та "
+"названий \"Автономним методом\". Якщо Вам цікаві історичні деталі, можете "
+"ознайомитися з ними в `історії git <https://gitlab.com/ubports/docs/"
+"docs.ubports.com/-/tree/porting-in-three-methods>`_."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:4
 #: ../../systemdev/kernel-pinephone.rst:40
 msgid "Building the kernel"
-msgstr ""
+msgstr "Компіляція ядра"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:6
 msgid ""
@@ -9550,41 +9607,57 @@ msgid ""
 "deviceinfo and kernel, and build it. This guide expects you to have some "
 "mandatory git knowledge, like cloning and pushing, and creating repos."
 msgstr ""
+"Цей розділ пояснює як налаштувати для компіляції джерельний код пристрою, "
+"інформацію про пристрій та ядро. У цих настановах очікується, що Ви маєте "
+"необхідні знання для роботи з git, такі як клонування, пуш та створення "
+"репозиторію."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:10
 msgid "Setting up your build environment"
-msgstr ""
+msgstr "Налаштування власного середовища для компіляції"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:13
+#, fuzzy
 msgid ""
 "Assuming you have already installed the tools specified in the section "
 "on :ref:`Setting-up`, there are just a few more to add before your build "
 "environment is complete. Run this commmand to add them::"
 msgstr ""
+"Припускаємо, що Ви вже встановили описані у розділі :ref:`Setting-up` "
+"інструменти, тож залишилося лише декілька. Додайте їх для завершення "
+"налаштування середовища для компіляції::"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:19
+#, fuzzy
 msgid "If you use a RPM based distro such as Mageia, you run::"
 msgstr ""
+"Якщо Ви користуєтеся дистрибутивом з пакунками RPM, наприклад, Mageia, "
+"виконайте::"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:27
 msgid ""
 "Some older kernels may require Python 2 to build. If your distribution has "
 "deprecated Python 2, you may need to install it manually."
 msgstr ""
+"Для деяких старих ядер для компіляції можливо потрібний Python 2. Якщо Ваш "
+"дистрибутив не підтримує Python 2, можливо, його буде потрібно встановити "
+"вручну."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:30
 msgid "Setting up and configuring a device source"
-msgstr ""
+msgstr "Установка та налаштування джерела пристрою"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:33
 msgid "Creating the device source"
-msgstr ""
+msgstr "Створення джерела пристрою"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:35
 msgid ""
 "Clone an existing device repository from https://gitlab.com/ubports/porting. "
 "Ideally choose a device with similar SoC/Android version as base."
 msgstr ""
+"Склонуйте наявний репозиторій пристрою з https://gitlab.com/ubports/porting. "
+"Найкраще буде вибрати за основу пристрій з такою самою версією SoC/Android."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:37
 msgid ""
@@ -9593,6 +9666,10 @@ msgid ""
 "repositories are called ``fairphone-fp3`` and "
 "``android_kernel_fairphone_sdm632.`` The first one is the one you want."
 msgstr ""
+"Переконайтеся, що Ви отримали репозиторій пристрою, а не ядра (Ви отримаєте "
+"його на наступному кроці). Наприклад, для Fairphone 3, репозиторії "
+"називаються ``fairphone-fp3`` та ``android_kernel_fairphone_sdm632.`` Перше "
+"— це те, що потрібно."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:39
 msgid ""
@@ -9600,10 +9677,13 @@ msgid ""
 "(kernel, boot, dtb/dtbo if needed + recovery on later porting stages). To "
 "craft your own deviceinfo, follow the guide further."
 msgstr ""
+"Файл deviceinfo містить налаштування, потрібні для створення ядра (kernel, "
+"boot, в разі необхідності dtb/dtbo + recovery на останніх етапах). Для "
+"створення власного deviceinfo, тримайтеся наступних настанов."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:42
 msgid "Getting device kernel source code"
-msgstr ""
+msgstr "Отримання початкового коду ядра пристрою"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:44
 msgid ""
@@ -9612,6 +9692,11 @@ msgid ""
 "needed for the device vendor kernel sources or incorporated out-of-tree "
 "kernel modules back into kernel tree, which makes life easier for us."
 msgstr ""
+"Перша річ, яку потрібно перевірити — це наявність офіційного чи неофіційного "
+"порту LineageOS для Вашого пристрою, оскільки можливо його автор вже виконав "
+"очищення бітів, необхідне для первісного коду ядра від постачальника "
+"пристрою чи вбудував зовнішні модулі до дерева ядра, що значно полегшує "
+"життя."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:46
 msgid ""
@@ -9620,6 +9705,10 @@ msgid ""
 "website. Motorola, Realme, OnePlus, Xiaomi usually upload kernel source to "
 "their official GitHub account."
 msgstr ""
+"Якщо ні, перевірте чи взагалі виробник пристрою надає джерельний код: ASUS, "
+"Lenovo, Samsung, ZTE зазвичай надають код у тарболах на своїх сайтах. "
+"Motorola, Realme, OnePlus, Xiaomi зазвичай завантажують код ядра до власних "
+"офіційних сторінок на GitHub."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:50
 msgid ""
@@ -9628,6 +9717,10 @@ msgid ""
 "preferred since when you'll get the port pulled into the UBports org, it can "
 "be easily copied from there."
 msgstr ""
+"Після того як Ви отримали джерело ядра, Вам потрібно завантажити його в інше "
+"місце, щоб можна було вносити зміни та коміти для Ubuntu Touch. Кращим буде "
+"GitLab, оскільки після завантаження (pull) порту до UBports org, його можна "
+"буде просто звідти скопіювати."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:52
 msgid ""
@@ -9635,10 +9728,13 @@ msgid ""
 "holds deviceinfo, and a kernel repo, which holds/will hold your defconfig "
 "(see below)."
 msgstr ""
+"Тепер Вам буде потрібно працювати з двома репозиторіями: клонований "
+"репозиторій пристрою, який містить deviceinfo та репозиторій ядра, у якому "
+"міститься чи буде міститися Ваш defconfig (див. нижче)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:55
 msgid "Finding your correct kernel config"
-msgstr ""
+msgstr "Пошук Вашої правильної конфігурації ядра"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:57
 msgid ""
@@ -9646,10 +9742,13 @@ msgid ""
 "Getting your config on device from /proc/config.gz 2. Getting your defconfig "
 "in kernel source"
 msgstr ""
+"Існує два шляхи як знайти правильну конфігурацію ядра, власне: 1. Отримання "
+"своєї конфігурації на пристрої з /proc/config.gz 2. Отримання свого "
+"defconfig з коду ядра"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:62
 msgid "Getting your config from device"
-msgstr ""
+msgstr "Отримання файлу налаштувань з пристрою"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:64
 msgid ""
@@ -9662,14 +9761,22 @@ msgid ""
 "defconfig. Copy ``defconfig`` to ``arch/<your device's architecture>/configs/"
 "<your device's codename_defconfig``."
 msgstr ""
+"Можна отримати поточний конфіг з пристрою, якщо конфігурація наявна на "
+"пристрої у ``/proc/config.gz``. Для отримання цього конфігу, скопіюйте файл "
+"``/proc/config.gz`` з Вашого пристрою на комп'ютер. Потім запустіть ``zcat`` "
+"для отримання вмісту цього файлу. Збережіть результат як ``.config`` у коді "
+"ядра. Після цього виконайте ``ARCH=<архітектура Вашого пристрою> make "
+"savedefconfig``, що перетворить Вашу повну конфігурацію на defconfig. "
+"Скопіюйте ``defconfig`` до ``arch/<архітектура Вашого пристрою>/configs/"
+"<кодова назва Вашого пристрою_defconfig>``."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:69
 msgid "Proceed with the guide to patch your config."
-msgstr ""
+msgstr "Виконайте настанови для внесення змін/латок до конфігурації."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:72
 msgid "Getting your defconfig in kernel source"
-msgstr ""
+msgstr "Отримання свого defconfig з коду ядра"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:74
 msgid ""
@@ -9682,14 +9789,22 @@ msgid ""
 "you got your kernel source from somewhere like LineageOS, their device "
 "tree's reference the defconfig too."
 msgstr ""
+"Щоб знайти свій defconfig з коду ядра, Вам потрібно шукати його у директорії "
+"``arch/<your device's architecture/configs``. Цей defconfig може мати будь-"
+"яку назву, щось схоже на ``<кодова назва Вашого пристрою>_defconfig`` чи "
+"щось складне типу ``k61v64_debug_defconfig``. Якщо Ви отримали код ядра з "
+"OEM, іноді він може містити скрипт ``build.sh``, необхідний для defconfig. В "
+"іншому разі, якщо Ваш код ядра з чогось типу LineageOS, їх дерево також "
+"посилається на defconfig."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:79
 msgid "After finding your defconfig, proceed with the guide to patch it."
 msgstr ""
+"Після знахідки свого defconfig, виконайте настанови для додавання латок."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:83
 msgid "Applying minimal patches to your defconfig"
-msgstr ""
+msgstr "Виконання мінімальних латок для defconfig"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:85
 msgid ""
@@ -9699,54 +9814,63 @@ msgid ""
 "have to add a new file called ``halium.config``. In this file, add the "
 "following content:"
 msgstr ""
+"Для вдалого завантаження Ubuntu Touch, потрібно увімкнути деякі "
+"налаштування, необхідні для ОС. Почніть з перегляду каталогу ядра та ``arch/"
+"<архітектура Вашого пристрою>/configs``, куди потрібно додати новий файл "
+"``halium.config``. Додайте такий вміст до цього файлу:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_DEVTMPFS=y"
-msgstr ""
+msgstr "CONFIG_DEVTMPFS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_FHANDLE=y"
-msgstr ""
+msgstr "CONFIG_FHANDLE=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_SYSVIPC=y"
-msgstr ""
+msgstr "CONFIG_SYSVIPC=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_IPC_NS=y"
-msgstr ""
+msgstr "CONFIG_IPC_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_NET_NS=y"
-msgstr ""
+msgstr "CONFIG_NET_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_PID_NS=y"
-msgstr ""
+msgstr "CONFIG_PID_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_USER_NS=y"
-msgstr ""
+msgstr "CONFIG_USER_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_UTS_NS=y"
-msgstr ""
+msgstr "CONFIG_UTS_NS=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_VT=y"
-msgstr ""
+msgstr "CONFIG_VT=y"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:99
 msgid ""
 "After this, save and close this file. Commit it into your kernel repo if you "
 "wish, because this config name will be added in deviceinfo."
 msgstr ""
+"Після цього збережіть та закрийте цей файл. Якщо хочете, можете виконати "
+"коміт до репозиторію свого ядра, оскільки назва цього файлу буде додана до "
+"deviceinfo."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:101
 msgid ""
 "At this point you've almost completed the initial setup for the kernel, move "
 "on to configuring ``deviceinfo`` and building."
 msgstr ""
+"На цьому місці Ви майже завершили початкові налаштування для ядра, перейдіть "
+"до ``deviceinfo`` та до компіляції."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:103
 msgid ""
