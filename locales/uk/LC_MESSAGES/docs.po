@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-27 21:32+0000\n"
+"PO-Revision-Date: 2026-01-28 00:06+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -10196,7 +10196,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:209
 msgid "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
-msgstr ""
+msgstr "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:212
 msgid ""
@@ -10204,10 +10204,13 @@ msgid ""
 "Path is relative to your current directory in which you're editing "
 "deviceinfo. (Note: This is only really required in Samsung/Exynos devices.)"
 msgstr ""
+"Цей вибір створить образ DT, який Ви обрали в завантажувальному образі. Шлях "
+"відносний до Вашого поточного каталогу, у якому Ви змінюєте deviceinfo. "
+"(Підказка: Це насправді потрібно лише для пристроїв Samsung/Exynos.)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:214
 msgid "``deviceinfo_bootimg_prebuilt_dt=\"exynos8890-dt.img\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_prebuilt_dt=\"exynos8890-dt.img\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:217
 msgid ""
@@ -10215,10 +10218,14 @@ msgid ""
 "with this dtbo if it isn't already being compiled. Path is once again "
 "relative to your build directory. Edit as desired."
 msgstr ""
+"Користуйтеся цим для направлення скомпільованих наперед dtbo до Ваших OTA та "
+"для компіляції recovery (образу відновлення) з цим dtbo, якщо він ще не був "
+"скомпільований. Шлях знову відносний до каталогу компіляції. В разі потреби "
+"внесіть зміни."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:219
 msgid "``deviceinfo_prebuilt_dtbo=\"angelica-dtbo.img\"``"
-msgstr ""
+msgstr "``deviceinfo_prebuilt_dtbo=\"angelica-dtbo.img\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:222
 msgid ""
@@ -10226,10 +10233,13 @@ msgid ""
 "will only remove the dtbo from the OTA package but recovery will still be "
 "compiled with this dtbo, if dtbo isn't already being compiled."
 msgstr ""
+"В разі, якщо Ви не бажаєте спрямовувати образ DTBO до OTA, цей вибір лише "
+"вилучить dtbo з пакунка OTA, але образ для відновлення (recovery) буде "
+"зібраний з цим dtbo, якщо dtbo досі не скомпільовано."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:224
 msgid "``deviceinfo_skip_dtbo_partition=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_skip_dtbo_partition=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:227
 msgid ""
@@ -10242,10 +10252,17 @@ msgid ""
 "also be built with this dtbo. This option is incompatible with the prebuilt "
 "dtbo option."
 msgstr ""
+"Якщо хочете скомпілювати свій DTBO з ядра, скористайтеся цією опцією для "
+"вибору скомпільованих у вихідному каталозі ядра файлів dtbo. Шлях, за яким "
+"цей параметр здійснюватиме пошук, це KERNEL_OBJ/arch/<архітектура>/boot/dts. "
+"Можна створити декілька dtbo, як у прикладі. Налаштуйте назви за власним "
+"бажанням. Якщо параметр skip_dtbo_partition не вибрано, отриманий образ dtbo "
+"буде надіслано до OTA, та у будь-якому випадку recovery також буде зібрано з "
+"цим dtbo. Цей параметр несумісний із попередньо зібраним параметром dtbo."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:230
 msgid "``deviceinfo_dtbo=\"mediatek/galahad.dtbo mediatek/lancelot.dtbo\"``"
-msgstr ""
+msgstr "``deviceinfo_dtbo=\"mediatek/galahad.dtbo mediatek/lancelot.dtbo\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:233
 msgid ""
@@ -10254,10 +10271,15 @@ msgid ""
 "your stock boot image has this flag set in its header. Edit as you wish if "
 "necessary."
 msgstr ""
+"Використання цього параметру визначає назву плати у Вашому завантажувальному "
+"(boot) образі, яка необхідна деяким завантажувачам (bootloaders) для вдалого "
+"завантаження образу. Користуйтеся цією опцією лише якщо Ваш рідний "
+"завантажувальний образ має цей флаг та має це значення заголовка. Внесіть "
+"необхідні зміни, якщо це потрібно."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:235
 msgid "``deviceinfo_bootimg_board=\"EXYNOS4412\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_board=\"EXYNOS4412\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:238
 msgid ""
@@ -10266,10 +10288,14 @@ msgid ""
 "Change the size to your stock boot image size. (Note: The size is declared "
 "in bytes)."
 msgstr ""
+"Через цю опцію можна встановити розмір boot-образу. Також це стане "
+"необхідним, коли забажаєте додати до свого образу образ vbmeta чи хеш-футер. "
+"Припасуйте цей розмір до стокового розміру boot-образу. (Підказка: Розмір у "
+"байтах)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:240
 msgid "``deviceinfo_bootimg_partition_size=\"67713847\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_partition_size=\"67713847\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:243
 msgid ""
@@ -10277,10 +10303,13 @@ msgid ""
 "image appended (Not the case for most devices with a dedicated vbmeta "
 "partition.)"
 msgstr ""
+"Досить зрозуміло. Встановіть значення true, якщо для Вашого пристрою "
+"потрібно додати образ vbmeta (це не стосується більшості пристроїв з окремим "
+"розділом vbmeta)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:245
 msgid "``deviceinfo_bootimg_append_vbmeta=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_append_vbmeta=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:248
 msgid ""
