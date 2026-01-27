@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2025-11-28 17:00+0000\n"
+"PO-Revision-Date: 2026-01-27 06:39+0000\n"
 "Last-Translator: BoneNI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://hosted.weblate.org/projects/ubports/doc-ubports-"
 "com/lo/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -756,18 +756,13 @@ msgid "Assignees"
 msgstr "ຜູ້ໄດ້ຮັບມອບໝາຍ"
 
 #: ../../about/process/issue-tracking.rst:90
-#, fuzzy
-#| msgid ""
-#| "To make it transparent who's working on an issue, the developer should be "
-#| "assigned. This also allows the use of GitHub's global filtering as a type "
-#| "of TODO list."
 msgid ""
 "To make it transparent who's working on an issue, the developer should be "
 "assigned. This also allows the use of GitLab's global filtering as a type of "
 "TODO list."
 msgstr ""
-"ເພື່ອໃຫ້ມີຄວາມໂປ່ງໃສວ່າໃຜກຳລັງເຮັດວຽກກັບບັນຫາໃດໜຶ່ງ, ນັກພັດທະນາຄວນຖືກມອບໝາຍໃຫ້. "
-"ສິ່ງນີ້ຍັງອະນຸຍາດໃຫ້ໃຊ້ການກັ່ນຕອງທົ່ວໂລກຂອງ GitHub ເປັນປະເພດຂອງລາຍການ TODO ໄດ້."
+"ເພື່ອໃຫ້ມີຄວາມໂປ່ງໃສວ່າໃຜກຳລັງເຮັດວຽກກັບບັນຫາໃດໜຶ່ງ, ນັກພັດທະນາຄວນຖືກມອບໝາຍໃຫ້. ສິ່ງນີ້ຍັງອະນຸຍາດໃຫ້"
+"ໃຊ້ການກັ່ນຕອງທົ່ວໂລກຂອງ GitHub ເປັນປະເພດຂອງລາຍການ TODO ໄດ້."
 
 #: ../../about/process/issue-tracking.rst:94
 msgid ""
@@ -906,11 +901,10 @@ msgid ""
 "does not depend on your phone, and you can live with some downtime - RC is "
 "for you. It does get updates generally every week."
 msgstr ""
-"**ມັນຂ້ອນຂ້າງສະຖຽນແຕ່ອາດຈະມີບັກບາງຄັ້ງຄາວ.** "
-"ຊ່ອງທາງນີ້ແມ່ນສຳລັບການທົດສອບຄັ້ງສຸດທ້າຍກ່ອນທີ່ຈະປ່ອຍຟີເຈີໄປຍັງຊ່ອງທາງ Stable. "
-"ຖ້າທ່ານຕ້ອງການຟີເຈີໄວຂຶ້ນ, ແລະ ທ່ານຕ້ອງການຊ່ວຍທົດສອບ, ແຕ່ຊີວິດຂອງທ່ານບໍ່ໄດ້ຂຶ້ນກັບໂທລະສັບຂອງທ່ານ, "
-"ແລະ ທ່ານສາມາດຍອມຮັບການຢຸດເຮັດວຽກບາງຄັ້ງໄດ້ - RC ແມ່ນສຳລັບທ່ານ. "
-"ໂດຍທົ່ວໄປມັນຈະໄດ້ຮັບການອັບເດດທຸກໆອາທິດ."
+"**ມັນຂ້ອນຂ້າງສະຖຽນແຕ່ອາດຈະມີບັກບາງຄັ້ງຄາວ.** ຊ່ອງທາງນີ້ແມ່ນສຳລັບການທົດສອບຄັ້ງທຳອິດກ່ອນທີ່ຈະປ່ອຍຟີເຈີ"
+"ໄປຍັງຊ່ອງທາງ Stable. ຖ້າທ່ານຕ້ອງການຟີເຈີໄວຂຶ້ນ, ແລະ ທ່ານຕ້ອງການຊ່ວຍທົດສອບ, ແຕ່ຊີວິດຂອງທ່ານບໍ່ໄດ້ຂຶ້"
+"ນກັບໂທລະສັບຂອງທ່ານ, ແລະ ທ່ານສາມາດຍອມຮັບການຢຸດເຮັດວຽກບາງຄັ້ງໄດ້ - RC ແມ່ນສຳລັບທ່ານ. ໂດຍທົ່ວໄປ"
+"ມັນຈະໄດ້ຮັບການອັບເດດທຸກໆອາທິດ."
 
 #: ../../about/process/release-schedule.rst:22
 msgid "Devel Channel"
@@ -1163,8 +1157,8 @@ msgid ""
 "You can still install the SDK IDE in Ubuntu 16.04, but it is not guaranteed "
 "to work correctly. You can use the following commands to install::"
 msgstr ""
-"ທ່ານຍັງສາມາດຕິດຕັ້ງ SDK IDE ໃນ Ubuntu 16.04 ໄດ້, ແຕ່ບໍ່ຮັບປະກັນວ່າມັນຈະເຮັດວຽກຢ່າງຖືກຕ້ອງ. "
-"ທ່ານສາມາດໃຊ້ຄຳສັ່ງຕໍ່ໄປນີ້ເພື່ອຕິດຕັ້ງ::"
+"ທ່ານຍັງສາມາດຕິດຕັ້ງ SDK IDE ໃນ Ubuntu 16.04 ໄດ້, ແຕ່ບໍ່ຮັບປະກັນວ່າມັນຈະເຮັດວຽກຢ່າງຖືກຕ້ອງ. ທ່ານ"
+"ສາມາດໃຊ້ຄຳສັ່ງຕໍ່ໄປນີ້ເພື່ອຕິດຕັ້ງ ::"
 
 #: ../../appdev/external-docs.rst:2
 msgid "API docs"
@@ -2182,7 +2176,7 @@ msgstr "ໄຟລ໌ Build"
 
 #: ../../appdev/guides/port-to-focal.rst:76
 msgid "CMakeLists.txt"
-msgstr ""
+msgstr "CMakeLists.txt"
 
 #: ../../appdev/guides/port-to-focal.rst:77
 msgid ""
@@ -2194,7 +2188,7 @@ msgstr ""
 
 #: ../../appdev/guides/port-to-focal.rst:91
 msgid ".gitlab-ci.yml"
-msgstr ""
+msgstr ".gitlab-ci.yml"
 
 #: ../../appdev/guides/port-to-focal.rst:92
 msgid "If you have a Gitlab CI file, you need to update it:"
@@ -2339,7 +2333,8 @@ msgid ""
 "We also need to add this new files to the **CMakeLists.txt** and make the "
 "pushexec executable::"
 msgstr ""
-"ພວກເຮົາຍັງຕ້ອງເພີ່ມໄຟລ໌ໃໝ່ນີ້ໃສ່ **CMakeLists.txt** ແລະ ເຮັດໃຫ້ pushexec ສາມາດ run ໄດ້::"
+"ພວກເຮົາຍັງຕ້ອງເພີ່ມໄຟລ໌ໃໝ່ເຫຼົ່ານີ້ໃສ່ **CMakeLists.txt** ແລະ ເຮັດໃຫ້ pushexec ສາມາດປະມວນຜົນໄ"
+"ດ້ ::"
 
 #: ../../appdev/guides/pushnotifications.rst:125
 msgid "Now the app is ready to receive and process push notifications!"
@@ -2364,7 +2359,7 @@ msgstr ""
 
 #: ../../appdev/guides/pushnotifications.rst:167
 msgid "Push Notification Object"
-msgstr "ວັດຖຸການແຈ້ງເຕືອນແບບ (Push Notification Object)"
+msgstr "ວັດຖຸການແຈ້ງເຕືອນແບບ Push (Push Notification Object)"
 
 #: ../../appdev/guides/pushnotifications.rst:170
 #: ../../appdev/guides/pushnotifications.rst:195
@@ -2386,7 +2381,7 @@ msgstr "ປະເພດ"
 
 #: ../../appdev/guides/pushnotifications.rst:172
 msgid "appid"
-msgstr ""
+msgstr "appid"
 
 #: ../../appdev/guides/pushnotifications.rst:172
 #: ../../appdev/guides/pushnotifications.rst:175
@@ -2397,11 +2392,11 @@ msgstr ""
 #: ../../appdev/guides/pushnotifications.rst:235
 #: ../../appdev/guides/pushnotifications.rst:243
 msgid "string"
-msgstr ""
+msgstr "string"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. ID of the application that will receive the notification,"
-msgstr "ຈຳເປັນ. ID ຂອງແອັບພລິເຄຊັນທີ່ຈະຮັບການແຈ້ງເຕືອນ,"
+msgstr "ຈຳເປັນ. ລະຫັດ (ID) ຂອງແອັບພລິເຄຊັນທີ່ຈະຮັບການແຈ້ງເຕືອນ,"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "as described in the client side documentation."
@@ -2409,7 +2404,7 @@ msgstr "ຕາມທີ່ອະທິບາຍໄວ້ໃນເອກະສາ
 
 #: ../../appdev/guides/pushnotifications.rst:175
 msgid "expire_on"
-msgstr ""
+msgstr "expire_on"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. Expiration date/time for this message, in"
@@ -2421,7 +2416,7 @@ msgstr "`ຮູບແບບ ISO8601 Extendend <https://www.w3.org/TR/NOTE-dateti
 
 #: ../../appdev/guides/pushnotifications.rst:178
 msgid "token"
-msgstr ""
+msgstr "token"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. The token identifying the user+device to which the message is"
@@ -2433,14 +2428,14 @@ msgstr "ຕາມທີ່ອະທິບາຍໄວ້ໃນເອກະສາ
 
 #: ../../appdev/guides/pushnotifications.rst:181
 msgid "clear_pending"
-msgstr ""
+msgstr "clear_pending"
 
 #: ../../appdev/guides/pushnotifications.rst:181
 #: ../../appdev/guides/pushnotifications.rst:250
 #: ../../appdev/guides/pushnotifications.rst:252
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Discards all previous pending notifications. Usually in response to"
@@ -2452,7 +2447,7 @@ msgstr "ການໄດ້ຮັບຂໍ້ຜິດພາດ \"too-many-pendin
 
 #: ../../appdev/guides/pushnotifications.rst:184
 msgid "replace_tag"
-msgstr ""
+msgstr "replace_tag"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If there's a pending notification with the same tag, delete it before"
@@ -2464,12 +2459,12 @@ msgstr "ທີ່ຈະຈັດຄິວອັນໃໝ່ນີ້."
 
 #: ../../appdev/guides/pushnotifications.rst:187
 msgid "data"
-msgstr ""
+msgstr "data"
 
 #: ../../appdev/guides/pushnotifications.rst:187
 #: ../../appdev/guides/pushnotifications.rst:192
 msgid "Data"
-msgstr ""
+msgstr "Data"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object. The contents of the data field are arbitrary. We can use"
@@ -2481,12 +2476,12 @@ msgstr "ມັນເພື່ອສົ່ງຂໍ້ມູນໃດໆໄປຍ
 
 #: ../../appdev/guides/pushnotifications.rst:197
 msgid "notification"
-msgstr ""
+msgstr "notification"
 
 #: ../../appdev/guides/pushnotifications.rst:197
 #: ../../appdev/guides/pushnotifications.rst:203
 msgid "Notification"
-msgstr ""
+msgstr "Notification"
 
 #: ../../appdev/guides/pushnotifications.rst:197
 msgid "A JSON object which defines how this notification will be presented."
@@ -2494,11 +2489,11 @@ msgstr "ວັດຖຸ JSON ທີ່ກຳນົດວ່າການແຈ້
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "message"
-msgstr ""
+msgstr "message"
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "object"
-msgstr ""
+msgstr "object"
 
 #: ../../appdev/guides/pushnotifications.rst:199
 msgid "A JSON object that is passed as-is to the application via PopAll."
@@ -2506,7 +2501,7 @@ msgstr "ວັດຖຸ JSON ທີ່ຖືກສົ່ງໄປຍັງແອ
 
 #: ../../appdev/guides/pushnotifications.rst:208
 msgid "tag"
-msgstr ""
+msgstr "tag"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "The tag of the push notification."
@@ -2514,11 +2509,11 @@ msgstr "Tag ຂອງການແຈ້ງເຕືອນແບບ push."
 
 #: ../../appdev/guides/pushnotifications.rst:210
 msgid "sound"
-msgstr ""
+msgstr "sound"
 
 #: ../../appdev/guides/pushnotifications.rst:210
 msgid "bool or string"
-msgstr ""
+msgstr "bool ຫຼື string"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "This is either a boolean (play a predetermined sound) or the"
@@ -2542,11 +2537,11 @@ msgstr "``.local/share/<pkgname>``, ແລະ (b) standard xdg dirs."
 
 #: ../../appdev/guides/pushnotifications.rst:216
 msgid "vibrate"
-msgstr ""
+msgstr "vibrate"
 
 #: ../../appdev/guides/pushnotifications.rst:216
 msgid "bool or Vibrate"
-msgstr ""
+msgstr "bool ຫຼື Vibrate"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "The notification can contain a vibrate field, causing haptic"
@@ -2562,11 +2557,11 @@ msgstr "ຕາມແບບທີ່ກຳນົດໄວ້ລ່ວງໜ້າ
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "emblem-counter"
-msgstr ""
+msgstr "emblem-counter"
 
 #: ../../appdev/guides/pushnotifications.rst:220
 msgid "Emblem-counter"
-msgstr ""
+msgstr "Emblem-counter"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object, which defines how to display the emblem"
@@ -2578,12 +2573,12 @@ msgstr "counter (ຕົວນັບ)."
 
 #: ../../appdev/guides/pushnotifications.rst:223
 msgid "card"
-msgstr ""
+msgstr "card"
 
 #: ../../appdev/guides/pushnotifications.rst:223
 #: ../../appdev/guides/pushnotifications.rst:227
 msgid "Card"
-msgstr ""
+msgstr "Card"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "A JSON object with information about the notification card."
@@ -2591,7 +2586,7 @@ msgstr "ວັດຖຸ JSON ທີ່ມີຂໍ້ມູນກ່ຽວກັ
 
 #: ../../appdev/guides/pushnotifications.rst:232
 msgid "summary"
-msgstr ""
+msgstr "summary"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Required. A title. The card will not be presented if this is"
@@ -2603,7 +2598,7 @@ msgstr "ສິ່ງນີ້."
 
 #: ../../appdev/guides/pushnotifications.rst:235
 msgid "body"
-msgstr ""
+msgstr "body"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Longer text, defaults to empty."
@@ -2611,12 +2606,12 @@ msgstr "ຂໍ້ຄວາມທີ່ຍາວກວ່າ, ຄ່າເລີ�
 
 #: ../../appdev/guides/pushnotifications.rst:237
 msgid "actions"
-msgstr ""
+msgstr "actions"
 
 #: ../../appdev/guides/pushnotifications.rst:237
 #: ../../appdev/guides/pushnotifications.rst:263
 msgid "array"
-msgstr ""
+msgstr "array"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "If empty (the default), a bubble notification is"
@@ -2640,7 +2635,7 @@ msgstr "ເຊິ່ງຈະສະຫຼັບໄປຫາແອັບ ຫຼ�
 
 #: ../../appdev/guides/pushnotifications.rst:243
 msgid "icon"
-msgstr ""
+msgstr "icon"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "An icon relating to the event being notified. Defaults to"
@@ -2656,13 +2651,13 @@ msgstr "ຈະຖືກສະແດງເຊັ່ນກັນ, ໂດຍບໍ�
 
 #: ../../appdev/guides/pushnotifications.rst:247
 msgid "timestamp"
-msgstr ""
+msgstr "timestamp"
 
 #: ../../appdev/guides/pushnotifications.rst:247
 #: ../../appdev/guides/pushnotifications.rst:266
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "integer"
-msgstr ""
+msgstr "ຈຳນວນຖ້ວນ (integer)"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Seconds since the unix epoch, only used for persist for now."
@@ -2674,7 +2669,7 @@ msgstr "ຖ້າເປັນສູນ ຫຼື ບໍ່ໄດ້ຕັ້ງ�
 
 #: ../../appdev/guides/pushnotifications.rst:250
 msgid "persist"
-msgstr ""
+msgstr "persist"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Whether to show in notification centre; defaults to false."
@@ -2682,7 +2677,7 @@ msgstr "ຈະສະແດງໃນສູນການແຈ້ງເຕືອນ
 
 #: ../../appdev/guides/pushnotifications.rst:252
 msgid "popup"
-msgstr ""
+msgstr "popup"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Whether to show in a bubble. Users can disable this, and can"
@@ -2698,16 +2693,16 @@ msgstr "ແມ່ນ false."
 
 #: ../../appdev/guides/pushnotifications.rst:258
 msgid "Vibrate"
-msgstr ""
+msgstr "Vibrate"
 
 #: ../../appdev/guides/pushnotifications.rst:263
 msgid "pattern"
-msgstr ""
+msgstr "pattern"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid ""
 "A list of integers describing a vibration pattern (duration of alternating"
-msgstr "ລາຍຊື່ຂອງຕົວເລກຈຳນວນຖ້ວນທີ່ອະທິບາຍຮູບແບບການສັ່ນ (ໄລຍະເວລາຂອງການສັ່ນສະຫຼັບກັນ"
+msgstr "ລາຍຊື່ຂອງຈຳນວນຖ້ວນທີ່ອະທິບາຍຮູບແບບການສັ່ນ (ໄລຍະເວລາຂອງການສັ່ນສະຫຼັບກັນ"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "vibration/no vibration times, in milliseconds)."
@@ -2715,7 +2710,7 @@ msgstr "/ເວລາບໍ່ສັ່ນ, ເປັນ milliseconds)."
 
 #: ../../appdev/guides/pushnotifications.rst:266
 msgid "repeat"
-msgstr ""
+msgstr "repeat"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "Number of times the pattern has to be repeated (defaults to 1, 0 is the"
@@ -2727,11 +2722,11 @@ msgstr "ຄືກັນກັບ 1)."
 
 #: ../../appdev/guides/pushnotifications.rst:272
 msgid "Emblem-Counter"
-msgstr ""
+msgstr "Emblem-Counter"
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "count"
-msgstr ""
+msgstr "count"
 
 #: ../../appdev/guides/pushnotifications.rst:277
 msgid "A number to be displayed over the application's icon in the launcher."
@@ -2739,7 +2734,7 @@ msgstr "ຕົວເລກທີ່ຈະສະແດງຢູ່ເທິງໄ
 
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "visible"
-msgstr ""
+msgstr "visible"
 
 #: ../../appdev/guides/pushnotifications.rst:279
 msgid "Set to true to show the counter, or false to hide it."
@@ -3758,7 +3753,6 @@ msgid "Description: Can access the network"
 msgstr "ຄຳອະທິບາຍ: ສາມາດເຂົ້າເຖິງເຄືອຂ່າຍ"
 
 #: ../../appdev/platform/apparmor.rst:205
-#, fuzzy
 msgid ""
 "The networking policy group allows an app to contact network devices and use "
 "the `download manager`_."
@@ -3845,7 +3839,6 @@ msgid "Description: Can access the sensors"
 msgstr "ຄຳອະທິບາຍ: ສາມາດເຂົ້າເຖິງເຊັນເຊີ"
 
 #: ../../appdev/platform/apparmor.rst:253
-#, fuzzy
 msgid "Allows apps to access `device sensors`_"
 msgstr "ອະນຸຍາດໃຫ້ແອັບເຂົ້າເຖິງ `device sensors`_ (ເຊັນເຊີອຸປະກອນ)"
 
@@ -3928,9 +3921,9 @@ msgid "Description: Can use the UbuntuWebview"
 msgstr "ຄຳອະທິບາຍ: ສາມາດໃຊ້ UbuntuWebview"
 
 #: ../../appdev/platform/apparmor.rst:301
-#, fuzzy
 msgid "The webview policy group allows apps to embed a `web browser view`_."
-msgstr "ກຸ່ມນະໂຍບາຍ webview ອະນຸຍາດໃຫ້ແອັບຝັງ `web browser view`_ (ມຸມມອງເວັບບຣາວເຊີ)."
+msgstr ""
+"ກຸ່ມນະໂຍບາຍ webview ອະນຸຍາດໃຫ້ແອັບຝັງ `web browser view`_ (ມຸມມອງເວັບບຣາວເຊີ)."
 
 #: ../../appdev/platform/click.rst:4
 msgid "Click package"
@@ -3955,20 +3948,19 @@ msgstr ""
 #: ../../appdev/platform/click.rst:11
 #, fuzzy
 msgid "Example ``manifest.json`` file::"
-msgstr "ຕົວຢ່າງ``manifest.json``ໄຟລ໌ ::"
+msgstr "ຕົວຢ່າງໄຟລ໌ ``manifest.json`` ::"
 
 #: ../../appdev/platform/click.rst:28
 msgid "AppArmor profile policy file"
 msgstr "ໄຟລ໌ນະໂຍບາຍໂປຣໄຟລ໌ AppArmor"
 
 #: ../../appdev/platform/click.rst:29
-#, fuzzy
 msgid ""
 "Contains which policy the app needs to work properly. See `Security and app "
 "isolation`_ below for more information on this file."
 msgstr ""
-"ປະກອບດ້ວຍນະໂຍບາຍໃດທີ່ແອັບຕ້ອງການເພື່ອເຮັດວຽກຢ່າງຖືກຕ້ອງ. ເບິ່ງ `Security and app "
-"isolation` (ຄວາມປອດໄພ ແລະ ການແຍກແອັບ) ດ້ານລຸ່ມສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໄຟລ໌ນີ້."
+"ປະກອບດ້ວຍນະໂຍບາຍທີ່ແອັບຕ້ອງການເພື່ອໃຫ້ເຮັດວຽກໄດ້ຢ່າງຖືກຕ້ອງ. ເບິ່ງ `Security and app "
+"isolation`_ ດ້ານລຸ່ມສຳລັບຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບໄຟລ໌ນີ້."
 
 #: ../../appdev/platform/click.rst:31
 msgid "``.desktop`` file"
@@ -3984,7 +3976,7 @@ msgstr ""
 #: ../../appdev/platform/click.rst:34
 #, fuzzy
 msgid "Example of ``app.desktop``::"
-msgstr "ຕົວຢ່າງຂອງ ``app.desktop``::"
+msgstr "ຕົວຢ່າງຂອງ ``app.desktop`` ::"
 
 #: ../../appdev/platform/click.rst:44
 msgid "Non exhaustive list of properties:"
@@ -4054,7 +4046,7 @@ msgstr ""
 #: ../../appdev/platform/click.rst:64
 #, fuzzy
 msgid "Example ``apparmor.json`` file::"
-msgstr "ຕົວຢ່າງໄຟລ໌ ``apparmor.json``::"
+msgstr "ຕົວຢ່າງໄຟລ໌ ``apparmor.json`` ::"
 
 #: ../../appdev/platform/click.rst:76
 msgid "For a full list of available policy groups, see :doc:`apparmor`."
@@ -4171,12 +4163,12 @@ msgstr "ການເປີດໃຊ້ງານ"
 #: ../../appdev/webapp/guide.rst:17
 #, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
-msgstr "ທ່ານສາມາດເປີດ webapp ຈາກ terminal ດ້ວຍ:::"
+msgstr "ທ່ານສາມາດເປີດ webapp ຈາກ terminal ດ້ວຍ :::"
 
 #: ../../appdev/webapp/guide.rst:21
 #, fuzzy
 msgid "For example:::"
-msgstr "ຕົວຢ່າງ:::"
+msgstr "ຕົວຢ່າງ :::"
 
 #: ../../appdev/webapp/guide.rst:25
 msgid ""
@@ -4261,8 +4253,8 @@ msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
 msgstr ""
-"ໂດຍຄ່າເລີ່ມຕົ້ນ, ບໍ່ມີການຈຳກັດ URL. ສົມມຸດວ່າທ່ານເປີດ webapp ໂດຍບໍ່ມີຮູບແບບໃດໆ ແລະ ມີພຽງແຕ່ URL "
-"ເລີ່ມຕົ້ນແບບນີ້:::"
+"ໂດຍຄ່າເລີ່ມຕົ້ນ, ບໍ່ມີການຈຳກັດ URL. ສົມມຸດວ່າທ່ານເປີດ webapp ໂດຍບໍ່ມີຮູບແບບໃດໆ ແລະ ມີພຽງແຕ່ URL ເ"
+"ລີ່ມຕົ້ນແບບນີ້ :::"
 
 #: ../../appdev/webapp/guide.rst:53
 msgid ""
@@ -4293,9 +4285,9 @@ msgid ""
 "of www.ubuntu.com. This is done by adding a wildcard URL pattern to the "
 "launch command, as follows:::"
 msgstr ""
-"ຄົນເຮົາມັກຈະຕ້ອງການຈຳກັດຜູ້ໃຊ້ໃຫ້ຢູ່ພາຍໃນເວັບໄຊທ໌ນັ້ນໆ. ນັ້ນຄື, ຖ້າເວັບໄຊທ໌ແມ່ນ www.ubuntu.com, "
-"ມັນອາດຈະເປັນປະໂຫຍດທີ່ຈະຈຳກັດຜູ້ໃຊ້ webapp ໃຫ້ຢູ່ໃນໜ້າຍ່ອຍຂອງ www.ubuntu.com ເທົ່ານັ້ນ. "
-"ສິ່ງນີ້ເຮັດໄດ້ໂດຍການເພີ່ມຮູບແບບ URL wildcard ໃສ່ຄຳສັ່ງເປີດ, ດັ່ງນີ້:::"
+"ຄົນເຮົາມັກຈະຕ້ອງການຈຳກັດຜູ້ໃຊ້ໃຫ້ຢູ່ພາຍໃນເວັບໄຊທ໌ນັ້ນໆ. ນັ້ນຄື, ຖ້າເວັບໄຊທ໌ແມ່ນ www.ubuntu.com, ມັນອ"
+"າດຈະເປັນປະໂຫຍດທີ່ຈະຈຳກັດຜູ້ໃຊ້ webapp ໃຫ້ຢູ່ໃນໜ້າຍ່ອຍຂອງ www.ubuntu.com ເທົ່ານັ້ນ. ສິ່ງນີ້ເຮັດໄດ້ໂດ"
+"ຍການເພີ່ມຮູບແບບ URL wildcard ໃສ່ຄຳສັ່ງເປີດ, ດັ່ງນີ້ :::"
 
 #: ../../appdev/webapp/guide.rst:64
 msgid "``--webappUrlPatterns=`` indicates a pattern is next"
@@ -4346,11 +4338,10 @@ msgid ""
 "access to www.ubuntu.com/desktop/features and www.ubuntu.com/phone/features "
 "while not allowing access to www.ubuntu.com/desktop or www.ubuntu.com/phone::"
 msgstr ""
-"ທ່ານອາດຈະຕ້ອງການຈຳກັດການເຂົ້າເຖິງພຽງແຕ່ບາງໜ້າຍ່ອຍຂອງເວັບໄຊທ໌ຂອງທ່ານຈາກພາຍໃນ webapp. "
-"ນີ້ແມ່ນງ່າຍດ້ວຍຮູບແບບ wildcard. (ລິ້ງໄປຫາໜ້າຍ່ອຍອື່ນໆຈະຖືກເປີດໃນ browser). ຕົວຢ່າງ: "
-"ຕໍ່ໄປນີ້ອະນຸຍາດໃຫ້ເຂົ້າເຖິງ www.ubuntu.com/desktop/features ແລະ www.ubuntu.com/phone/"
-"features ໃນຂະນະທີ່ບໍ່ອະນຸຍາດໃຫ້ເຂົ້າເຖິງ www.ubuntu.com/desktop ຫຼື www.ubuntu.com/"
-"phone::"
+"ທ່ານອາດຈະຕ້ອງການຈຳກັດການເຂົ້າເຖິງພຽງແຕ່ບາງໜ້າຍ່ອຍຂອງເວັບໄຊທ໌ຂອງທ່ານຈາກພາຍໃນ webapp. ນີ້ແມ່ນງ່"
+"າຍດ້ວຍຮູບແບບ wildcard. (ລິ້ງໄປຫາໜ້າຍ່ອຍອື່ນໆຈະຖືກເປີດໃນ browser). ຕົວຢ່າງ: ຕໍ່ໄປນີ້ອະນຸຍາດໃຫ້ເຂົ້"
+"າເຖິງ www.ubuntu.com/desktop/features ແລະ www.ubuntu.com/phone/features ໃນຂະນະ"
+"ທີ່ບໍ່ອະນຸຍາດໃຫ້ເຂົ້າເຖິງ www.ubuntu.com/desktop ຫຼື www.ubuntu.com/phone ::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
@@ -4363,9 +4354,8 @@ msgid ""
 "the following allows access only to www.ubuntu.com/desktop/features and "
 "www.ubuntu.com/phone/features:::"
 msgstr ""
-"ທ່ານສາມາດໃຊ້ຫຼາຍຮູບແບບໂດຍການແຍກພວກມັນດ້ວຍເຄື່ອງໝາຍຈຸດ (comma). ຕົວຢ່າງ: "
-"ຕໍ່ໄປນີ້ອະນຸຍາດໃຫ້ເຂົ້າເຖິງພຽງແຕ່ www.ubuntu.com/desktop/features ແລະ www.ubuntu.com/"
-"phone/features:::"
+"ທ່ານສາມາດໃຊ້ຫຼາຍຮູບແບບໂດຍການແຍກພວກມັນດ້ວຍເຄື່ອງໝາຍຈຸດ (comma). ຕົວຢ່າງ: ຕໍ່ໄປນີ້ອະນຸຍາດໃຫ້ເຂົ້າເ"
+"ຖິງພຽງແຕ່ www.ubuntu.com/desktop/features ແລະ www.ubuntu.com/phone/features :::"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4385,8 +4375,8 @@ msgid ""
 "to a single subdomain (and all of its subpages) with a pattern like this:::"
 msgstr ""
 "ຫຼາຍ URL ມີໜຶ່ງ ຫຼື ຫຼາຍ subdomains. (ຕົວຢ່າງ: ໃນຕໍ່ໄປນີ້, \"developer\" ແມ່ນ subdomain: "
-"developer.ubuntu.com). ທ່ານສາມາດອະນຸຍາດໃຫ້ເຂົ້າເຖິງ subdomain ດຽວ (ແລະ "
-"ໜ້າຍ່ອຍທັງໝົດຂອງມັນ) ດ້ວຍຮູບແບບເຊັ່ນນີ້:::"
+"developer.ubuntu.com). ທ່ານສາມາດອະນຸຍາດໃຫ້ເຂົ້າເຖິງ subdomain ດຽວ (ແລະ ໜ້າຍ່ອຍທັງໝົດຂອງ"
+"ມັນ) ດ້ວຍຮູບແບບເຊັ່ນນີ້ :::"
 
 #: ../../appdev/webapp/guide.rst:98
 #, fuzzy
@@ -4395,9 +4385,8 @@ msgid ""
 "starting URL (and its subpages). So, if the starting URL is https://"
 "www.ubuntu.com, a second pattern is needed:::"
 msgstr ""
-"ແນວໃດກໍ່ຕາມ, ປົກກະຕິແລ້ວຄົນເຮົາຕ້ອງການໃຫ້ຜູ້ໃຊ້ສາມາດທ່ອງກັບຄືນໄປຫາ URL ເລີ່ມຕົ້ນ (ແລະ "
-"ໜ້າຍ່ອຍຂອງມັນ). ດັ່ງນັ້ນ, ຖ້າ URL ເລີ່ມຕົ້ນແມ່ນ https://www.ubuntu.com, "
-"ຈຳເປັນຕ້ອງມີຮູບແບບທີສອງ:::"
+"ແນວໃດກໍ່ຕາມ, ປົກກະຕິແລ້ວຄົນເຮົາຕ້ອງການໃຫ້ຜູ້ໃຊ້ສາມາດທ່ອງກັບຄືນໄປຫາ URL ເລີ່ມຕົ້ນ (ແລະ ໜ້າຍ່ອຍຂອງມັ"
+"ນ). ດັ່ງນັ້ນ, ຖ້າ URL ເລີ່ມຕົ້ນແມ່ນ https://www.ubuntu.com, ຈຳເປັນຕ້ອງມີຮູບແບບທີສອງ :::"
 
 #: ../../appdev/webapp/guide.rst:102
 #, fuzzy
@@ -4406,9 +4395,9 @@ msgid ""
 "www.ubuntu.com and allows navigation to https://developer.ubuntu.com and "
 "subpages and back to https://www.ubuntu.com and subpages:::"
 msgstr ""
-"ເມື່ອເອົາສິ່ງເຫຼົ່ານີ້ມາລວມກັນ, ນີ້ແມ່ນຕົວຢ່າງທີ່ເລີ່ມຕົ້ນຢູ່ https://www.ubuntu.com ແລະ "
-"ອະນຸຍາດໃຫ້ທ່ອງໄປຫາ https://developer.ubuntu.com ແລະ ໜ້າຍ່ອຍ ແລະ ກັບຄືນໄປຫາ https://"
-"www.ubuntu.com ແລະ ໜ້າຍ່ອຍ:::"
+"ເມື່ອເອົາສິ່ງເຫຼົ່ານີ້ມາລວມກັນ, ນີ້ແມ່ນຕົວຢ່າງທີ່ເລີ່ມຕົ້ນຢູ່ https://www.ubuntu.com ແລະ ອະນຸຍາດໃຫ້ທ່ອງໄ"
+"ປຫາ https://developer.ubuntu.com ແລະ ໜ້າຍ່ອຍ ແລະ ກັບຄືນໄປຫາ https://"
+"www.ubuntu.com ແລະ ໜ້າຍ່ອຍ :::"
 
 #: ../../appdev/webapp/guide.rst:107
 msgid "Adding subdomains with a wildcard"
@@ -4423,7 +4412,7 @@ msgid ""
 msgstr ""
 "ບາງ URL ມີຫຼາຍ subdomains. ຕົວຢ່າງ: www.ubuntu.com ມີ design.ubuntu.com, "
 "developer.ubuntu.com ແລະ ອື່ນໆ. ທ່ານສາມາດເພີ່ມການເຂົ້າເຖິງທຸກ subdomains ດ້ວຍ wildcard "
-"ໃນຕຳແໜ່ງ subdomain:::"
+"ໃນຕຳແໜ່ງ subdomain :::"
 
 #: ../../appdev/webapp/guide.rst:113
 msgid ""
@@ -4448,9 +4437,9 @@ msgid ""
 "www.launchpad.net on both https and http inside the webapp (and all subpages "
 "due to the wildcard):::"
 msgstr ""
-"ບາງຄັ້ງເວັບໄຊທ໌ໃຊ້ http ສໍາລັບບາງ URL ຂອງມັນ. ໂດຍທົ່ວໄປແລ້ວສິ່ງນີ້ບໍ່ປອດໄພ ແລະ ຄວນຫຼີກເວັ້ນ, "
-"ແຕ່ນີ້ແມ່ນຕົວຢ່າງທີ່ອະນຸຍາດໃຫ້ເຂົ້າເຖິງ www.launchpad.net ໄດ້ທັງ https ແລະ http ພາຍໃນ "
-"webapp (ແລະ ທຸກໜ້າຍ່ອຍເນື່ອງຈາກ wildcard):::"
+"ບາງຄັ້ງເວັບໄຊທ໌ໃຊ້ http ສໍາລັບບາງ URL ຂອງມັນ. ໂດຍທົ່ວໄປແລ້ວສິ່ງນີ້ບໍ່ປອດໄພ ແລະ ຄວນຫຼີກເວັ້ນ, ແຕ່ນີ້ແມ່"
+"ນຕົວຢ່າງທີ່ອະນຸຍາດໃຫ້ເຂົ້າເຖິງ www.launchpad.net ໄດ້ທັງ https ແລະ http ພາຍໃນ webapp (ແລ"
+"ະ ທຸກໜ້າຍ່ອຍເນື່ອງຈາກ wildcard) :::"
 
 #: ../../appdev/webapp/guide.rst:122
 msgid ""
@@ -4474,17 +4463,18 @@ msgstr ""
 #: ../../appdev/webapp/guide.rst:129
 #, fuzzy
 msgid "See all help with:::"
-msgstr "ເບິ່ງການຊ່ວຍເຫຼືອທັງໝົດດ້ວຍ:::"
+msgstr "ເບິ່ງການຊ່ວຍເຫຼືອທັງໝົດດ້ວຍ :::"
 
 #: ../../appdev/webapp/guide.rst:133
 #, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr "ໝາຍເຫດ: ມີພຽງ options ຕໍ່ໄປນີ້ເທົ່ານັ້ນທີ່ໃຊ້ໄດ້ກັບ converged Ubuntu.::"
+msgstr ""
+"ໝາຍເຫດ: ມີພຽງ options ຕໍ່ໄປນີ້ເທົ່ານັ້ນທີ່ໃຊ້ໄດ້ກັບ converged Ubuntu. ::"
 
 #: ../../appdev/webapp/guide.rst:147
 #, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
-msgstr "Chrome options (ຖ້າບໍ່ໄດ້ລະບຸ, ຈະບໍ່ມີ chrome ສະແດງໂດຍຄ່າເລີ່ມຕົ້ນ):::"
+msgstr "Chrome options (ຖ້າບໍ່ໄດ້ລະບຸ, ຈະບໍ່ມີ chrome ສະແດງໂດຍຄ່າເລີ່ມຕົ້ນ) :::"
 
 #: ../../appdev/webapp/guide.rst:152
 msgid ""
@@ -4673,8 +4663,8 @@ msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
 msgstr ""
-"ຖ້າທ່ານສະດວກໃນສະພາບແວດລ້ອມ CLI, ຂໍ້ຜິດພາດ Javascript ສ່ວນໃຫຍ່ຈະປ່ອຍລາຍການໄວ້ໃນໄຟລ໌ log "
-"ຂອງແອັບ::"
+"ຖ້າທ່ານສະດວກໃນສະພາບແວດລ້ອມ CLI, ຂໍ້ຜິດພາດ Javascript ສ່ວນໃຫຍ່ຈະປ່ອຍລາຍການໄວ້ໃນໄຟລ໌ log ຂ"
+"ອງແອັບ::"
 
 #: ../../appdev/webapp/webdebug.rst:15
 msgid ""
@@ -4725,7 +4715,6 @@ msgid "Bug reporting"
 msgstr "ການລາຍງານບັກ"
 
 #: ../../contribute/bugreporting.rst:4
-#, fuzzy
 msgid ""
 "This page contains information to help you help us by reporting an "
 "actionable bug for Ubuntu Touch. It does NOT contain information on "
@@ -4733,7 +4722,7 @@ msgid ""
 "specify where and how to do that."
 msgstr ""
 "ໜ້ານີ້ປະກອບດ້ວຍຂໍ້ມູນເພື່ອຊ່ວຍໃຫ້ທ່ານຊ່ວຍພວກເຮົາໂດຍການລາຍງານບັກທີ່ສາມາດປະຕິບັດໄດ້ສຳລັບ Ubuntu "
-"Touch. ມັນ **ບໍ່** ໄດ້ລວມເອົາຂໍ້ມູນກ່ຽວກັບການລາຍງານບັກໃນແອັບ, ສ່ວນຫຼາຍແລ້ວລາຍການຂອງພວກມັນໃນ "
+"Touch. ມັນບໍ່ໄດ້ລວມເອົາຂໍ້ມູນກ່ຽວກັບການລາຍງານບັກໃນແອັບ, ສ່ວນຫຼາຍແລ້ວລາຍການຂອງພວກມັນໃນ "
 "OpenStore ຈະລະບຸບ່ອນ ແລະ ວິທີການເຮັດແນວນັ້ນ."
 
 #: ../../contribute/bugreporting.rst:7
@@ -8510,7 +8499,7 @@ msgstr "ແອັບຄວນສາມາດເຂົ້າເຖິງໄດ້
 
 #: ../../humanguide/other-design-considerations/convergence.rst:2
 msgid "Convergence"
-msgstr "ການປະສານອຸປະກອນ (Convergence)"
+msgstr "Convergence"
 
 #: ../../humanguide/other-design-considerations/convergence.rst:6
 msgid ""
@@ -10556,9 +10545,9 @@ msgid ""
 "the Nexus 7 tablet::"
 msgstr ""
 "ການຕັ້ງຄ່າທັງໝົດນີ້ຖືກຄາດເດົາໂດຍ Unity 8 ຖ້າບໍ່ມີການຕັ້ງຄ່າ. ແນວໃດກໍ່ຕາມ, ມີຫຼາຍກໍລະນີທີ່ການຄາດເດົາຜິດ "
-"(ຕົວຢ່າງ, ໜ້າຈໍໂທລະສັບທີ່ມີຄວາມລະອຽດສູງຫຼາຍ ຈະຖືກລະບຸວ່າເປັນຄອມພິວເຕີ desktop). "
-"ເພື່ອກຳນົດຄ່າສຳລັບຕົວປ່ຽນເຫຼົ່ານີ້ດ້ວຍຕົນເອງ, ພຽງແຕ່ແກ້ໄຂໄຟລ໌ທີ່ ``etc/ubuntu-touch-session.d/"
-"android.conf`` ໂດຍລະບຸພວກມັນ. ຕົວຢ່າງ, ນີ້ແມ່ນໄຟລ໌ສຳລັບແທັບເລັດ Nexus 7::"
+"(ຕົວຢ່າງ, ໜ້າຈໍໂທລະສັບທີ່ມີຄວາມລະອຽດສູງຫຼາຍ ຈະຖືກລະບຸວ່າເປັນຄອມພິວເຕີ desktop). ເພື່ອກຳນົດຄ່າສຳລັບ"
+"ຕົວປ່ຽນເຫຼົ່ານີ້ດ້ວຍຕົນເອງ, ພຽງແຕ່ແກ້ໄຂໄຟລ໌ທີ່ ``etc/ubuntu-touch-session.d/android.conf`` "
+"ໂດຍລະບຸພວກມັນ. ຕົວຢ່າງ, ນີ້ແມ່ນໄຟລ໌ສຳລັບແທັບເລັດ Nexus 7::"
 
 #: ../../porting/configure_test_fix/Display.rst:18
 msgid ""
@@ -10637,11 +10626,11 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Resolution"
-msgstr ""
+msgstr "ຄວາມລະອຽດ"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Display Size"
-msgstr ""
+msgstr "ຂະໜາດໜ້າຈໍ"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "PPI"
@@ -11035,8 +11024,8 @@ msgstr ""
 "ຕົວຢ່າງ, ຖ້າເຄີເນີນຂອງອຸປະກອນກຳລັງໃຊ້ 4.19.81, ອີງຕາມປະຫວັດ Git ຂອງ Common Kernel ຖານ "
 "source ທີ່ເໝາະສົມຈະເປັນ `commit c2ad33f0296a2528fd0bf4e96af0802dad0b1b27 "
 "<https://android.googlesource.com/kernel/common/+/"
-"c2ad33f0296a2528fd0bf4e96af0802dad0b1b27>`_, ເຊິ່ງອີງໃສ່ເວີຊັນ 4.19.78 ແລະ "
-"ໃກ້ຄຽງກັບສ່ວນທີ່ເຫຼືອຂອງ source tree. ດຶງເອົາ source ເຫຼົ່ານັ້ນໂດຍໃຊ້::"
+"c2ad33f0296a2528fd0bf4e96af0802dad0b1b27>`_, ເຊິ່ງອີງໃສ່ເວີຊັນ 4.19.78 ແລະ ໃກ້ຄຽງກັບສ່"
+"ວນທີ່ເຫຼືອຂອງ source tree. ດຶງເອົາ source ເຫຼົ່ານັ້ນໂດຍໃຊ້::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:87
 #, fuzzy
@@ -11045,9 +11034,8 @@ msgid ""
 "supporting filesystems at that commit (replace the commit hash in the "
 "example with your determined match)::"
 msgstr ""
-"ຫຼັງຈາກກຳນົດ commit ທີ່ຖືກຕ້ອງແລ້ວ, ໃຫ້ checkout `fs/crypto` ແລະ "
-"ລະບົບໄຟລ໌ທີ່ຮອງຮັບການເຂົ້າລະຫັດໃນ commit ນັ້ນ (ແທນທີ່ commit hash "
-"ໃນຕົວຢ່າງດ້ວຍອັນທີ່ທ່ານກຳນົດໄດ້)::"
+"ຫຼັງຈາກກຳນົດ commit ທີ່ຖືກຕ້ອງແລ້ວ, ໃຫ້ checkout `fs/crypto` ແລະ ລະບົບໄຟລ໌ທີ່ຮອງຮັບການເຂົ້າລະ"
+"ຫັດໃນ commit ນັ້ນ (ແທນທີ່ commit hash ໃນຕົວຢ່າງດ້ວຍອັນທີ່ທ່ານກຳນົດໄດ້)::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:99
 #, fuzzy
@@ -11057,8 +11045,8 @@ msgid ""
 "Kernel and check out missing changes and dependencies individually::"
 msgstr ""
 "ຫາກການ compile ເຄີເນີນຂອງທ່ານລົ້ມເຫຼວໃນຕອນທຳອິດດ້ວຍຂໍ້ຜິດພາດ missing identifier, "
-"undefined references ຫຼື ໄຟລ໌ບໍ່ຄົບ, ໃຫ້ປຽບທຽບກັບ Common Kernel ແລະ checkout "
-"ການປ່ຽນແປງທີ່ຂາດໄປ ແລະ dependency ແຕ່ລະອັນ::"
+"undefined references ຫຼື ໄຟລ໌ບໍ່ຄົບ, ໃຫ້ປຽບທຽບກັບ Common Kernel ແລະ checkout ການປ່ຽນແປ"
+"ງທີ່ຂາດໄປ ແລະ dependency ແຕ່ລະອັນ::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:112
 msgid ""
@@ -13639,8 +13627,8 @@ msgid ""
 "telnet server. When you connect the PinePhone to your desktop via USB, you "
 "will see the rndis device show up in your desktop's ``dmesg``::"
 msgstr ""
-"Recovery ຈະສະແດງ PinePhone ເປັນອຸປະກອນເຄືອຂ່າຍຜ່ານ USB ແລະ run telnet server. "
-"ເມື່ອທ່ານເຊື່ອມຕໍ່ PinePhone ກັບເດັສທັອບຂອງທ່ານຜ່ານ USB, ທ່ານຈະເຫັນອຸປະກອນ rndis ປະກົດຂຶ້ນໃນ "
+"Recovery ຈະສະແດງ PinePhone ເປັນອຸປະກອນເຄືອຂ່າຍຜ່ານ USB ແລະ run telnet server. ເມື່ອທ່"
+"ານເຊື່ອມຕໍ່ PinePhone ກັບເດັສທັອບຂອງທ່ານຜ່ານ USB, ທ່ານຈະເຫັນອຸປະກອນ rndis ປະກົດຂຶ້ນໃນ "
 "``dmesg`` ຂອງເດັສທັອບຂອງທ່ານ::"
 
 #: ../../systemdev/kernel-pinephone.rst:19
@@ -13654,8 +13642,8 @@ msgid ""
 "you have already installed Ubuntu Touch on your microSD card you will see "
 "something like this in your desktop's ``dmesg``::"
 msgstr ""
-"Recovery ຍັງເປີດເຜີຍ eMMC ແລະ ບັດ microSD ຜ່ານ USB. ສົມມຸດວ່າທ່ານໄດ້ຕິດຕັ້ງ Ubuntu Touch "
-"ໃນບັດ microSD ຂອງທ່ານແລ້ວ ທ່ານຈະເຫັນບາງຢ່າງຄືແນວນີ້ໃນ ``dmesg`` ຂອງເດັສທັອບຂອງທ່ານ::"
+"Recovery ຍັງເປີດເຜີຍ eMMC ແລະ ບັດ microSD ຜ່ານ USB. ສົມມຸດວ່າທ່ານໄດ້ຕິດຕັ້ງ Ubuntu Touch ໃ"
+"ນບັດ microSD ຂອງທ່ານແລ້ວ ທ່ານຈະເຫັນບາງຢ່າງຄືແນວນີ້ໃນ ``dmesg`` ຂອງເດັສທັອບຂອງທ່ານ::"
 
 #: ../../systemdev/kernel-pinephone.rst:35
 msgid ""
@@ -13699,8 +13687,8 @@ msgid ""
 "Boot into recovery and mount boot_a. Make a backup if needed. Then copy over "
 "your newly built kernel and if needed modules::"
 msgstr ""
-"ບູດເຂົ້າໄປໃນ recovery ແລະ mount boot_a. ສຳຮອງຂໍ້ມູນຖ້າຈຳເປັນ. ຈາກນັ້ນສຳເນົາ kernel "
-"ທີ່ສ້າງໃໝ່ຂອງທ່ານ ແລະ modules ຖ້າຈຳເປັນ::"
+"ບູດເຂົ້າໄປໃນ recovery ແລະ mount boot_a. ສຳຮອງຂໍ້ມູນຖ້າຈຳເປັນ. ຈາກນັ້ນສຳເນົາ kernel ທີ່ສ້າງໃ"
+"ໝ່ຂອງທ່ານ ແລະ modules ຖ້າຈຳເປັນ::"
 
 #: ../../systemdev/kernel-pinephone.rst:61
 msgid ""
@@ -14414,11 +14402,11 @@ msgid ""
 "following script can be used in order to prepare a non-native package for a "
 "build::"
 msgstr ""
-"``sbuild`` ຫຼື ``crossbuilder`` ຕ້ອງຖືກເອີ້ນໃຊ້ຈາກ debianized package source tree "
-"(ເຊັ່ນ: ຊອດໂຄດຂອງແພັກເກັດທີ່ມີ sub directory ``debian``), ແພັກເກັດ UBports "
-"ສ່ວນໃຫຍ່ປະກອບດ້ວຍ git repositories ທີ່ມີ native ຫຼື non-native packages. Native "
-"packages ສາມາດສ້າງໄດ້ໂດຍກົງ ແລະ ສະຄຣິບຕໍ່ໄປນີ້ສາມາດໃຊ້ເພື່ອກະກຽມແພັກເກັດທີ່ບໍ່ແມ່ນ native (non-"
-"native) ສຳລັບການສ້າງ::"
+"``sbuild`` ຫຼື ``crossbuilder`` ຕ້ອງຖືກເອີ້ນໃຊ້ຈາກ debianized package source tree (ເ"
+"ຊັ່ນ: ຊອດໂຄດຂອງແພັກເກັດທີ່ມີ sub directory ``debian``), ແພັກເກັດ UBports ສ່ວນໃຫຍ່ປະກອບດ້ວ"
+"ຍ git repositories ທີ່ມີ native ຫຼື non-native packages. Native packages ສາມາດສ້າງໄ"
+"ດ້ໂດຍກົງ ແລະ ສະຄຣິບຕໍ່ໄປນີ້ສາມາດໃຊ້ເພື່ອກະກຽມແພັກເກັດທີ່ບໍ່ແມ່ນ native (non-native) ສຳລັບການສ້າ"
+"ງ::"
 
 #: ../../systemdev/testing-locally.rst:67
 msgid "Building packages in a chroot using sbuild"
@@ -14540,8 +14528,8 @@ msgid ""
 "An unprivileged user needs to be added to the sbuild group in order to gain "
 "the necessary privilege to build packages::"
 msgstr ""
-"ຜູ້ໃຊ້ທົ່ວໄປ (unprivileged user) ຕ້ອງຖືກເພີ່ມເຂົ້າໃນກຸ່ມ sbuild "
-"ເພື່ອໃຫ້ໄດ້ຮັບສິດທິທີ່ຈຳເປັນໃນການສ້າງແພັກເກັດ::"
+"ຜູ້ໃຊ້ທົ່ວໄປ (unprivileged user) ຕ້ອງຖືກເພີ່ມເຂົ້າໃນກຸ່ມ sbuild ເພື່ອໃຫ້ໄດ້ຮັບສິດທິທີ່ຈຳເປັນໃນການສ້າງ"
+"ແພັກເກັດ::"
 
 #: ../../systemdev/testing-locally.rst:102
 #, fuzzy
@@ -14549,8 +14537,8 @@ msgid ""
 "The build user can configure ``sbuild`` by creating a file ``~/.sbuildrc`` "
 "as follows::"
 msgstr ""
-"ຜູ້ໃຊ້ທີ່ສ້າງ (build user) ສາມາດກຳນົດຄ່າ ``sbuild`` ໂດຍການສ້າງໄຟລ໌ ``~/.sbuildrc`` "
-"ດັ່ງນີ້::"
+"ຜູ້ໃຊ້ທີ່ສ້າງ (build user) ສາມາດກຳນົດຄ່າ ``sbuild`` ໂດຍການສ້າງໄຟລ໌ ``~/.sbuildrc`` ດັ່ງ"
+"ນີ້::"
 
 #: ../../systemdev/testing-locally.rst:110
 msgid ""
@@ -14585,9 +14573,9 @@ msgid ""
 "variables as show in the `Native build`_ section and then add the repository "
 "by using::"
 msgstr ""
-"ໃນກໍລະນີນັ້ນ UBports package repository ຈຳເປັນຕ້ອງຖືກເພີ່ມໃສ່ເຄື່ອງ Host. "
-"ກ່ອນອື່ນໝົດໃຫ້ກຳນົດຕົວປ່ຽນ ``chroot_repo`` ແລະ ``chroot_distro`` ຕາມທີ່ສະແດງໃນພາກ "
-"`Native build`_ ແລະ ຈາກນັ້ນເພີ່ມ repository ໂດຍການໃຊ້::"
+"ໃນກໍລະນີນັ້ນ UBports package repository ຈຳເປັນຕ້ອງຖືກເພີ່ມໃສ່ເຄື່ອງ Host. ກ່ອນອື່ນໝົດໃຫ້ກຳນົດຕົວ"
+"ປ່ຽນ ``chroot_repo`` ແລະ ``chroot_distro`` ຕາມທີ່ສະແດງໃນພາກ `Native build`_ ແລະ "
+"ຈາກນັ້ນເພີ່ມ repository ໂດຍການໃຊ້::"
 
 #: ../../systemdev/testing-locally.rst:127
 #, fuzzy
@@ -14607,8 +14595,8 @@ msgid ""
 "following variables can be defined for later use by the actual commands::"
 msgstr ""
 "ເພື່ອສ້າງ chroot ໂດຍອີງໃສ່ Ubuntu 20.04 (Focal Fossa) ກັບສະຖາປັດຕະຍະກຳ amd64 ພາຍໃຕ້ "
-"directory ``/srv/chroot/ubports-${chroot_distro}-amd64`` (``chroot_base`` "
-"ສາມາດປ່ຽນໄດ້ຖ້າຕ້ອງການ) ຕົວປ່ຽນຕໍ່ໄປນີ້ສາມາດກຳນົດໄດ້ເພື່ອໃຊ້ໃນພາຍຫຼັງໂດຍຄຳສັ່ງຕົວຈິງ::"
+"directory ``/srv/chroot/ubports-${chroot_distro}-amd64`` (``chroot_base`` ສາມ"
+"າດປ່ຽນໄດ້ຖ້າຕ້ອງການ) ຕົວປ່ຽນຕໍ່ໄປນີ້ສາມາດກຳນົດໄດ້ເພື່ອໃຊ້ໃນພາຍຫຼັງໂດຍຄຳສັ່ງຕົວຈິງ::"
 
 #: ../../systemdev/testing-locally.rst:140
 #, fuzzy
@@ -14616,8 +14604,8 @@ msgid ""
 "For creating a chroot based on Ubuntu 16.04 (Xenial Xerus) with the amd64 "
 "architecture define the following variables instead::"
 msgstr ""
-"ສຳລັບການສ້າງ chroot ໂດຍອີງໃສ່ Ubuntu 16.04 (Xenial Xerus) ກັບສະຖາປັດຕະຍະກຳ amd64 "
-"ໃຫ້ກຳນົດຕົວປ່ຽນຕໍ່ໄປນີ້ແທນ::"
+"ສຳລັບການສ້າງ chroot ໂດຍອີງໃສ່ Ubuntu 16.04 (Xenial Xerus) ກັບສະຖາປັດຕະຍະກຳ amd64 ໃຫ້"
+"ກຳນົດຕົວປ່ຽນຕໍ່ໄປນີ້ແທນ::"
 
 #: ../../systemdev/testing-locally.rst:146
 #: ../../systemdev/testing-locally.rst:192
@@ -14639,8 +14627,8 @@ msgid ""
 "Synchronizing package index files and subsequent package upgrades can be "
 "performed using::"
 msgstr ""
-"ການ Synchronize ໄຟລ໌ດັດສະນີແພັກເກັດ ແລະ ການອັບເກຣດແພັກເກັດທີ່ຕາມມາ "
-"ສາມາດດຳເນີນການໄດ້ໂດຍໃຊ້::"
+"ການ Synchronize ໄຟລ໌ດັດສະນີແພັກເກັດ ແລະ ການອັບເກຣດແພັກເກັດທີ່ຕາມມາ ສາມາດດຳເນີນການໄດ້ໂດຍໃ"
+"ຊ້::"
 
 #: ../../systemdev/testing-locally.rst:159
 #: ../../systemdev/testing-locally.rst:205
@@ -14648,7 +14636,8 @@ msgstr ""
 msgid ""
 "A build can be started from inside the debianized package source directory "
 "using::"
-msgstr "ການສ້າງສາມາດເລີ່ມຕົ້ນໄດ້ຈາກພາຍໃນ directory ຊອດໂຄດແພັກເກັດ debianized ໂດຍໃຊ້::"
+msgstr ""
+"ການສ້າງສາມາດເລີ່ມຕົ້ນໄດ້ຈາກພາຍໃນ directory ຊອດໂຄດແພັກເກັດ debianized ໂດຍໃຊ້::"
 
 #: ../../systemdev/testing-locally.rst:164
 msgid "Cross compile build"
@@ -14693,8 +14682,8 @@ msgid ""
 msgstr ""
 "ເພື່ອສ້າງ chroot ໂດຍອີງໃສ່ Ubuntu 20.04 (Focal Fossa) ກັບສະຖາປັດຕະຍະກຳ arm64 ພາຍໃຕ້ "
 "directory ``/var/lib/schroot/chroots/ubports-${chroot_distro}-arm64`` "
-"(``chroot_base`` ສາມາດປ່ຽນໄດ້ຖ້າຕ້ອງການ) "
-"ຕົວປ່ຽນຕໍ່ໄປນີ້ສາມາດກຳນົດໄດ້ເພື່ອໃຊ້ໃນພາຍຫຼັງໂດຍຄຳສັ່ງຕົວຈິງ::"
+"(``chroot_base`` ສາມາດປ່ຽນໄດ້ຖ້າຕ້ອງການ) ຕົວປ່ຽນຕໍ່ໄປນີ້ສາມາດກຳນົດໄດ້ເພື່ອໃຊ້ໃນພາຍຫຼັງໂດຍຄຳສັ່ງຕົ"
+"ວຈິງ::"
 
 #: ../../systemdev/testing-locally.rst:185
 #, fuzzy
@@ -14702,8 +14691,8 @@ msgid ""
 "For creating a chroot based on Ubuntu 16.04 (Xenial Xerus) with the arm64 "
 "architecture define the following variables instead::"
 msgstr ""
-"ສຳລັບການສ້າງ chroot ໂດຍອີງໃສ່ Ubuntu 16.04 (Xenial Xerus) ກັບສະຖາປັດຕະຍະກຳ arm64 "
-"ໃຫ້ກຳນົດຕົວປ່ຽນຕໍ່ໄປນີ້ແທນ::"
+"ສຳລັບການສ້າງ chroot ໂດຍອີງໃສ່ Ubuntu 16.04 (Xenial Xerus) ກັບສະຖາປັດຕະຍະກຳ arm64 ໃຫ້"
+"ກຳນົດຕົວປ່ຽນຕໍ່ໄປນີ້ແທນ::"
 
 #: ../../systemdev/testing-locally.rst:210
 msgid "Building completion"
@@ -14758,8 +14747,8 @@ msgid ""
 "``schroot`` hook::"
 msgstr ""
 "``ccache`` ແມ່ນ compiler cache ເຊິ່ງເລັ່ງການ compile ຊ້ຳຂອງຊອດໂຄດດຽວກັນ ໂດຍການ "
-"cache ໄຟລ໌ object ທີ່ໄດ້ມາ. cache ຕົວຈິງຈະຖືກເກັບໄວ້ໃນລະບົບ Host ແລະ bind-mounted "
-"ເຂົ້າໄປໃນ ``sbuild`` chroots ດ້ວຍ ``schroot`` hook::"
+"cache ໄຟລ໌ object ທີ່ໄດ້ມາ. cache ຕົວຈິງຈະຖືກເກັບໄວ້ໃນລະບົບ Host ແລະ bind-mounted ເຂົ້າໄປ"
+"ໃນ ``sbuild`` chroots ດ້ວຍ ``schroot`` hook::"
 
 #: ../../systemdev/testing-locally.rst:240
 #, fuzzy
@@ -14836,14 +14825,15 @@ msgid ""
 "will need to add its directory to your ``PATH`` environment variable, so "
 "that you can execute it from any directory::"
 msgstr ""
-"Crossbuilder ແມ່ນ shell script, ດັ່ງນັ້ນທ່ານບໍ່ຈຳເປັນຕ້ອງສ້າງ (build) ມັນ. "
-"ແທນທີ່ຈະເປັນແບບນັ້ນ, ທ່ານຈຳເປັນຕ້ອງເພີ່ມ directory ຂອງມັນໃສ່ ``PATH`` environment "
-"variable ຂອງທ່ານ, ເພື່ອໃຫ້ທ່ານສາມາດປະຕິບັດການມັນໄດ້ຈາກທຸກ directory::"
+"Crossbuilder ແມ່ນ shell script, ດັ່ງນັ້ນທ່ານບໍ່ຈຳເປັນຕ້ອງສ້າງ (build) ມັນ. ແທນທີ່ຈະເປັນແບບນັ້"
+"ນ, ທ່ານຈຳເປັນຕ້ອງເພີ່ມ directory ຂອງມັນໃສ່ ``PATH`` environment variable ຂອງທ່ານ, ເພື່ອ"
+"ໃຫ້ທ່ານສາມາດປະຕິບັດການມັນໄດ້ຈາກທຸກ directory::"
 
 #: ../../systemdev/testing-locally.rst:282
 #, fuzzy
 msgid "Now that Crossbuilder is installed, we can use it to set up LXD::"
-msgstr "ຕອນນີ້ Crossbuilder ໄດ້ຕິດຕັ້ງແລ້ວ, ພວກເຮົາສາມາດໃຊ້ມັນເພື່ອຕັ້ງຄ່າ LXD::"
+msgstr ""
+"ຕອນນີ້ Crossbuilder ໄດ້ຕິດຕັ້ງແລ້ວ, ພວກເຮົາສາມາດໃຊ້ມັນເພື່ອຕັ້ງຄ່າ LXD::"
 
 #: ../../systemdev/testing-locally.rst:286
 msgid ""
@@ -14859,9 +14849,9 @@ msgid ""
 "Fossa) using the arm64 architecture can be started from inside the "
 "debianized package source directory using::"
 msgstr ""
-"ຫຼັງຈາກ LXD ຖືກຕັ້ງຄ່າແລ້ວ, ການສ້າງສຳລັບ UBports ໂດຍອີງໃສ່ Ubuntu 20.04 (Focal Fossa) "
-"ໂດຍໃຊ້ສະຖາປັດຕະຍະກຳ arm64 ສາມາດເລີ່ມຕົ້ນໄດ້ຈາກພາຍໃນ directory ຊອດໂຄດແພັກເກັດ "
-"debianized ໂດຍໃຊ້::"
+"ຫຼັງຈາກ LXD ຖືກຕັ້ງຄ່າແລ້ວ, ການສ້າງສຳລັບ UBports ໂດຍອີງໃສ່ Ubuntu 20.04 (Focal Fossa) ໂດ"
+"ຍໃຊ້ສະຖາປັດຕະຍະກຳ arm64 ສາມາດເລີ່ມຕົ້ນໄດ້ຈາກພາຍໃນ directory ຊອດໂຄດແພັກເກັດ debianized "
+"ໂດຍໃຊ້::"
 
 #: ../../systemdev/testing-locally.rst:294
 msgid ""
@@ -14891,8 +14881,8 @@ msgid ""
 "userguide/advanceduse/adb` to learn more about connecting your device), you "
 "can use::"
 msgstr ""
-"ເພື່ອ deploy ແພັກເກັດທີ່ສ້າງໃໝ່ໃນອຸປະກອນພາຍໃນ (ເບິ່ງ :doc:`/userguide/advanceduse/adb` "
-"ເພື່ອຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບການເຊື່ອມຕໍ່ອຸປະກອນຂອງທ່ານ), ທ່ານສາມາດໃຊ້::"
+"ເພື່ອ deploy ແພັກເກັດທີ່ສ້າງໃໝ່ໃນອຸປະກອນພາຍໃນ (ເບິ່ງ :doc:`/userguide/advanceduse/adb` ເ"
+"ພື່ອຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບການເຊື່ອມຕໍ່ອຸປະກອນຂອງທ່ານ), ທ່ານສາມາດໃຊ້::"
 
 #: ../../systemdev/testing-locally.rst:302
 msgid ""
@@ -14920,8 +14910,8 @@ msgid ""
 "While ``crossbuilder`` does not create log files for the build process, the "
 "``script`` utility may be used for that purpose::"
 msgstr ""
-"ໃນຂະນະທີ່ ``crossbuilder`` ບໍ່ສ້າງໄຟລ໌ log ສຳລັບຂະບວນການສ້າງ, ຢູທິລິດຕີ້ ``script`` "
-"ສາມາດໃຊ້ເພື່ອຈຸດປະສົງນັ້ນໄດ້::"
+"ໃນຂະນະທີ່ ``crossbuilder`` ບໍ່ສ້າງໄຟລ໌ log ສຳລັບຂະບວນການສ້າງ, ຢູທິລິດຕີ້ ``script`` ສາມາດໃ"
+"ຊ້ເພື່ອຈຸດປະສົງນັ້ນໄດ້::"
 
 #: ../../systemdev/testing-locally.rst:312
 #, fuzzy
@@ -14944,9 +14934,9 @@ msgid ""
 "getting a shell inside the container::"
 msgstr ""
 "ໂດຍຄ່າເລີ່ມຕົ້ນ crossbuilder ບໍ່ແລ່ນ unit tests; ນັ້ນແມ່ນຍ້ອນເຫດຜົນດ້ານຄວາມໄວ ແລະ ເນື່ອງຈາກ "
-"container ທີ່ສ້າງໂດຍ crossbuilder ບໍ່ໄດ້ມີໄວ້ເພື່ອແລ່ນ native (target) executables: "
-"ເຄື່ອງມືພັດທະນາ (qmake/cmake, make, gcc, ແລະອື່ນໆ) ທັງໝົດແມ່ນແລ່ນໃນ host architecture, "
-"ໂດຍບໍ່ມີການ emulation (ເພື່ອເຫດຜົນດ້ານຄວາມໄວ). ແນວໃດກໍ່ຕາມ, qemu emulation ມີໃຫ້ໃຊ້ພາຍໃນ "
+"container ທີ່ສ້າງໂດຍ crossbuilder ບໍ່ໄດ້ມີໄວ້ເພື່ອແລ່ນ native (target) executables: ເຄື່ອງ"
+"ມືພັດທະນາ (qmake/cmake, make, gcc, ແລະອື່ນໆ) ທັງໝົດແມ່ນແລ່ນໃນ host architecture, ໂດຍບໍ່"
+"ມີການ emulation (ເພື່ອເຫດຜົນດ້ານຄວາມໄວ). ແນວໃດກໍ່ຕາມ, qemu emulation ມີໃຫ້ໃຊ້ພາຍໃນ "
 "container, ດັ່ງນັ້ນມັນໜ້າຈະເປັນໄປໄດ້ທີ່ຈະແລ່ນ unit tests. ທ່ານສາມາດເຮັດສິ່ງນັ້ນໄດ້ໂດຍການເອົາ "
 "shell ພາຍໃນ container::"
 
@@ -16274,7 +16264,6 @@ msgid ""
 msgstr "ທ່ານສາມາດຈັບ output ໂດຍກົງຈາກຄຳສັ່ງ ``adb exec-out`` ແລະ ສົ່ງຕໍ່ໄປຍັງ MPlayer::"
 
 #: ../../userguide/advanceduse/screencasting.rst:14
-#, fuzzy
 msgid ""
 "``timeout`` above is used to kill the process in a proper manner on the "
 "Ubuntu Touch device (120 seconds here). (Otherwise the process continues "
@@ -16283,11 +16272,12 @@ msgid ""
 "``384 640`` means a width of 384 px and a height of 640 px. If red and blue "
 "colors look reversed you can use format=bgra instead of format=rbga"
 msgstr ""
-"``timeout`` ຂ້າງເທິງແມ່ນໃຊ້ເພື່ອ kill process ຢ່າງຖືກວິທີໃນອຸປະກອນ Ubuntu Touch (120 "
-"ວິນາທີ ຢູ່ບ່ອນນີ້). (ຖ້າບໍ່ດັ່ງນັ້ນ process ຈະສືບຕໍ່ ເຖິງແມ່ນວ່າຈະຖືກ killed ໃນຄອມພິວເຕີກໍ່ຕາມ.) ຫຼຸດ ຫຼື "
-"ເພີ່ມຈຳນວນ frames ຕໍ່ວິນາທີດ້ວຍ ``--cap-interval`` (1 = 60fps, 2=30fps, …) ແລະ "
-"ຂະໜາດຂອງ frames ``384 640`` ໝາຍເຖິງຄວາມກວ້າງ 384 px ແລະ ຄວາມສູງ 640 px. ຖ້າສີແດງ "
-"ແລະ ສີຟ້າເບິ່ງຄືວ່າກັບກັນ ທ່ານສາມາດໃຊ້ format=bgra ແທນ format=rbga"
+"``timeout`` above is used to kill the process in a proper manner on the "
+"Ubuntu Touch device (120 seconds here). (Otherwise the process continues "
+"even if killed on the computer.) Reduce or increase the number of frames per "
+"second with``--cap-interval`` (1 = 60fps, 2=30fps, …) and the size of frames "
+"``384 640`` means a width of 384 px and a height of 640 px. If red and blue "
+"colors look reversed you can use format=bgra instead of format=rbga"
 
 #: ../../userguide/advanceduse/screencasting.rst:21
 msgid "Via the network"
