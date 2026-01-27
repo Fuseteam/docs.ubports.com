@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-27 06:39+0000\n"
+"PO-Revision-Date: 2026-01-27 21:32+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -9356,6 +9356,11 @@ msgid ""
 "have to overlay ``/usr/share/bluetooth-touch/android.sh``. Note that the "
 "script will be run by ``/bin/sh``, so avoid Bash-ism here."
 msgstr ""
+"Те, як раніше працював скрипт bluetooth-touch, пов’язано з Upstart. В Ubuntu "
+"Touch 20.04 bluetooth-touch потрапив для використання Systemd. Отже, замість "
+"переписування завдання ``bluetooth-touch-android.conf`` для Upstart Вам слід "
+"переписати ``/usr/share/bluetooth-touch/android.sh``. Зауважте, що цей "
+"скрипт виконуватиметься ``/bin/sh``, тож уникайте тут Bash-измів."
 
 #: ../../porting/UpdatePortsFor2004.rst:52
 msgid ""
@@ -9363,6 +9368,9 @@ msgid ""
 "touch`` by directly talking to HIDL service to provide Bluetooth host "
 "interface."
 msgstr ""
+"Для портів Halium 9 це необхідно, оскільки Bluebinder для створення "
+"інтерфейсу замінює ``bluetooth-touch`` безпосередньо спілкуючись зі службою "
+"HIDL."
 
 #: ../../porting/UpdatePortsFor2004.rst:55
 msgid "For everyone: configure usb-moded"
@@ -9555,7 +9563,7 @@ msgid ""
 "section."
 msgstr ""
 "Тепер настав час для отримання та налаштування необхідного початкового коду. "
-"Потім Ви скомпілюйте його та підготуйте до завантаження. По-перше, виконайте "
+"Потім Ви скомпілюєте його та підготуєте до завантаження. По-перше, виконайте "
 "кроки з розділу **Компіляція** для своєї версії Halium. По-друге, виконайте "
 "останній розділ **Встановлення та завантаження**."
 
@@ -9877,6 +9885,8 @@ msgid ""
 "After you have booted the OS successfully, you can move on to patching the "
 "defconfig fully in later stages."
 msgstr ""
+"Після вдалого завантаження ОС, можна перейти до повного латання defconfig на "
+"наступних етапах."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:105
 msgid ""
@@ -9885,27 +9895,32 @@ msgid ""
 "the deviceinfo, \"merging\" them together. This way, we keep the changes "
 "clean and readable."
 msgstr ""
+"Підказка: можливо Вас здивує чому ми змінюємо окремий файл halium.config "
+"замість <кодова назва>_defconfig. Ці файли будуть обрані разом у deviceinfo, "
+"\"поєднуючи\" їх. Таким чином, ми зберігаємо ці зміни ясними та зрозумілими."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:108
 msgid "Filling in your deviceinfo"
-msgstr ""
+msgstr "Заповнення інформації про deviceinfo"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:110
 msgid ""
 "Full device name, like Redmi 9C or Redmi Note 10S. Replace as necessary."
 msgstr ""
+"Повна назва пристрою, напр. Redmi 9C чи Redmi Note 10S. Замініть за "
+"необхідності."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:112
 msgid "``deviceinfo_name=\"Redmi 9C\"``"
-msgstr ""
+msgstr "``deviceinfo_name=\"Redmi 9C\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:115
 msgid "The name of the device's manufacturer. Change as needed."
-msgstr ""
+msgstr "Назва виробника пристрою. За потреби замініть."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:117
 msgid "``deviceinfo_manufacturer=\"Xiaomi\"``"
-msgstr ""
+msgstr "``deviceinfo_manufacturer=\"Xiaomi\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:120
 msgid ""
@@ -9913,10 +9928,13 @@ msgid ""
 "\"<device name> codename\". Replace device name with your phone's full name. "
 "Replace the codename below with your own too."
 msgstr ""
+"Кодова назва телефону. Можна отримати через пошуковий запит, щось типу "
+"\"<назва пристрою> codename\". Замініть назву нижче на назву свого пристрою. "
+"Замініть також кодову назву на свою."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:122
 msgid "``deviceinfo_codename=\"angelica\"``"
-msgstr ""
+msgstr "``deviceinfo_codename=\"angelica\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:125
 msgid ""
@@ -9925,10 +9943,13 @@ msgid ""
 "devices, set the config to \"aarch64\". For armhf devices, set the config to "
 "\"armv7\"."
 msgstr ""
+"Архітектура необхідного Вам ядра. Більшість пристроїв, створених після 2015 "
+"року побудовані на процесорі ARM64, але якісь дивні можуть бути armhf. Для "
+"пристроїв ARM64 встановіть значення \"aarch64\". Для armhf — \"armv7\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:127
 msgid "``deviceinfo_arch=\"aarch64\"``"
-msgstr ""
+msgstr "``deviceinfo_arch=\"aarch64\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:130
 msgid ""
@@ -9936,12 +9957,17 @@ msgid ""
 "have this link at hand if you followed section 1, if not go through it "
 "again. Replace below link with your own."
 msgstr ""
+"Цей пункт визначає репозиторій git, де зберігається Ваше ядро. Коли Ви "
+"переходите до розділу 1, Ви вже повинні мати це посилання під рукою, але "
+"якщо його немає, пройдіть цей шлях знову. Замініть посилання нижче своїм."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:132
 msgid ""
 "``deviceinfo_kernel_source=\"https://github.com/muhammad23012009/"
 "android_kernel_xiaomi_dandelion\"``"
 msgstr ""
+"``deviceinfo_kernel_source=\"https://github.com/muhammad23012009/"
+"android_kernel_xiaomi_dandelion\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:135
 msgid ""
@@ -9949,10 +9975,13 @@ msgid ""
 "at the tab under the Code tab on GitHub or the tab on the top left side in "
 "GitLab. Replace as necessary."
 msgstr ""
+"Далі йде гілка (branch) цього ядра. ЇЇ можна отримати, переглянувши на "
+"GitHub вкладку під вкладкою Код (Code) або вкладку у верхньому лівому куті. "
+"За потреби замініть на свою."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:137
 msgid "``deviceinfo_kernel_source_branch=\"halium10-new\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_source_branch=\"halium10-new\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:140
 msgid ""
@@ -9964,10 +9993,18 @@ msgid ""
 "to adding the kernel config patches above. (If you still can't find the "
 "defconfig refer to section \"Finding your defconfig\")"
 msgstr ""
+"Defconfig — життєво важлива частина для компіляції ядра. У більшості "
+"випадків знайти цей defconfig можна у коді ядра, зі шляхом до нього \"arch/"
+"<Ваша архітектура>/configs\". Ця назва defconfig часто компілюється як "
+"\"<Ваша кодова назва>_defconfig\". Коли знайдете свій defconfig, замініть "
+"його за необхідності. Вам також буде потрібно додати у цьому полі "
+"``halium.config``, через додавання вище латок для конфігурації ядра. (Якщо "
+"Ви досі не можете знайти defconfig, зверніться до розділу \"Пошук "
+"defconfig\")"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:144
 msgid "``deviceinfo_kernel_defconfig=\"angelica_defconfig halium.config\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_defconfig=\"angelica_defconfig halium.config\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:147
 msgid ""
@@ -9984,12 +10021,27 @@ msgid ""
 "``systempart`` is added if you want to boot your rootfs from your system "
 "partition. It is supposed to point to your system partition."
 msgstr ""
+"Командний рядок для ядра — одна з ключових частин, необхідних для "
+"завантаження ядра. Він має особливі параметри, які допомагають ядру "
+"визначити які функції чи модулі потрібно активувати, а які вимкнути. "
+"Кореневий каталог Ubuntu Touch також використовує деякі опції командного "
+"рядку, необхідні для завантаження, зокрема \"console=tty0\". Щоб адаптувати "
+"це до свого пристрою, спробуйте розпакувати завантажувальний образ (розділ "
+"8.3) та скопіювати звідти командний рядок або, якщо це доступно, "
+"скористайтеся допомогою з дерева пристроїв LineageOS. Команда "
+"\"console=tty0\" є обов’язковою і повинна бути присутньою у будь-якому разі. "
+"Решту можна видалити та потім налаштувати все під свій пристрій. Параметр "
+"``console=tty0`` є необхідним для правильного завантаження кореневої системи "
+"rootfs. Рядок ``systempart`` додається, якщо потрібно завантажити rootfs зі "
+"свого системного розділу. Він має вказувати на Ваш системний розділ."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:150
 msgid ""
 "``deviceinfo_kernel_cmdline=\"console=tty0 bootopt=64S3,32N2,64N2 "
 "systempart=/dev/mapper/system\"``"
 msgstr ""
+"``deviceinfo_kernel_cmdline=\"console=tty0 bootopt=64S3,32N2,64N2 "
+"systempart=/dev/mapper/system\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:153
 msgid ""
@@ -9997,10 +10049,14 @@ msgid ""
 "Most devices released with and after Android 10 build their kernels with "
 "clang. If you don't want to build with clang, omit this entry entirely."
 msgstr ""
+"Якщо бажаєте скомпілювати своє ядро з clang додайте до deviceinfo цю опцію. "
+"Більшість пристроїв, створених з Android 10 чи пізніше, компілюють свої ядра "
+"з clang. Якщо не бажаєте використовувати clang, пропустіть цей запис "
+"повністю."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:155
 msgid "``deviceinfo_kernel_clang_compile=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_clang_compile=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:158
 msgid ""
@@ -10008,10 +10064,13 @@ msgid ""
 "old kernels LTO is broken. If you do want to use it add this entry to your "
 "deviceinfo, else omit it."
 msgstr ""
+"Потрібне лише якщо Ви бажаєте користуватися для лінкування LLD та активувати "
+"LTO. Для більшості тарих ядер LTO не працює. Якщо все ж таки бажаєте мати "
+"таку опцію, додайте її до свого deviceinfo, в іншому разі пропустіть це."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:161
 msgid "``deviceinfo_kernel_use_lld=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_use_lld=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:164
 msgid ""
@@ -10020,20 +10079,27 @@ msgid ""
 "``ld.lld`` together. Usually needed by GKI devices. (Once enabled, you do "
 "not needed to specify ``deviceinfo_kernel_use_lld``)"
 msgstr ""
+"Це налаштування допоможе Вам скомпілювати своє ядро з LLVM та LTO, якщо це "
+"підтримується. Це елегантний шлях поєднання ``clang`` та ``ld.lld``. "
+"Зазвичай це потрібно пристроям GKI. (Увімкнувши тут, не потрібно зазначати "
+"``deviceinfo_kernel_use_lld``)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:169
 msgid "``deviceinfo_kernel_llvm_compile=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_llvm_compile=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:172
 msgid ""
 "Use this to enable 'dtc_ext' for compiling your dtb/dtbo's. Use only if you "
 "know what you're doing. The default compiler works most of the times."
 msgstr ""
+"Цією опцією користуйтеся для увімкнення 'dtc_ext' під час компіляції dtb/"
+"dtbo. Але робіть це лише якщо розумієте, що робите. Типовий компілятор "
+"працює у більшості випадків."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:174
 msgid "``deviceinfo_kernel_use_dtc_ext=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_use_dtc_ext=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:177
 msgid ""
@@ -10041,30 +10107,38 @@ msgid ""
 "than often this option is simply not required, so you can drop it from your "
 "deviceinfo. If you do need it, adjust image name as necessary."
 msgstr ""
+"Використовуйте цей параметр, якщо хочете вказати назву образу ядра після "
+"компіляції ядра. Найчастіше це не потрібно, тому це можна видалити зі свого "
+"опису пристрою deviceinfo. Якщо Вам це потрібно, змініть назву образу."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:179
 msgid "``deviceinfo_kernel_image_name=\"Image.gz\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_image_name=\"Image.gz\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:182
 msgid ""
 "In order to specify your ramdisk compression algorithm, use the below "
 "option. It is set to gzip by default. Mostly useful for GKI devices."
 msgstr ""
+"Щоб указати алгоритм стиснення оперативного диска, скористайтеся наведеною "
+"нижче опцією. Стандартно використовується gzip. У більшості випадків корисно "
+"для пристроїв GKI (зі стандартним ядром)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:185
 msgid "``deviceinfo_ramdisk_compression=\"lz4\"``"
-msgstr ""
+msgstr "``deviceinfo_ramdisk_compression=\"lz4\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:188
 msgid ""
 "Add this option to specify your Halium version. Up to Halium 13 is supported "
 "at this moment."
 msgstr ""
+"Використовуйте це для уточнення версії Halium. Наразі підтримується до "
+"Halium 13."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:190
 msgid "``deviceinfo_halium_version=\"11\"``"
-msgstr ""
+msgstr "``deviceinfo_halium_version=\"11\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:193
 msgid ""
@@ -10075,10 +10149,15 @@ msgid ""
 "Android version which they were released, Android 12 with GKI uses version "
 "4)."
 msgstr ""
+"Ця опція визначає версію заголовка завантажувального образу. Це важливо "
+"вказати правильно, інакше пристрій може не завантажитися. Для пристроїв з "
+"версією Android до 8 (Oreo) вказуйте 0, для 9 (Pie) — версія 1, для Android "
+"10 — версія 2, а для пристроїв GKI — версія 3/4 (залежно від версії Android, "
+"наприклад, Android 12 з GKI використовує версію 4)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:195
 msgid "``deviceinfo_bootimg_header_version=\"2\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_header_version=\"2\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:198
 msgid ""
@@ -10087,10 +10166,14 @@ msgid ""
 "the dtb name according to what you have. If your header version is greater "
 "than or equal to 3 (GKI device), this will include dtb in your vendor_boot."
 msgstr ""
+"Ця опція потрібна для визначення попередньо скомпільованого dtb, отриманого "
+"з джерел. Шлях відносний до Вашого каталогу з файлом deviceinfo. Виправте "
+"назву dtb відповідно до того, що вже маєте. Якщо версія заголовка дорівнює 3 "
+"або більша (пристрій GKI), це включатиме dtb у vendor_boot."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:201
 msgid "``deviceinfo_bootimg_prebuilt_dtb=\"mt6765.dtb\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_prebuilt_dtb=\"mt6765.dtb\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:204
 msgid ""
@@ -10103,6 +10186,13 @@ msgid ""
 "greater than or equal to 3 (GKI device), this will include dtb in your "
 "vendor_boot."
 msgstr ""
+"Ця опція використовує файли dtb, які створюються під час компіляції ядра, та "
+"які можна вказати як \"mediatek/mt6765.dtb mediatek/angelica.dtb\". Шлях, в "
+"якому скрипт шукає файли dtb з увімкненою опцією \"KERNEL_OBJ/arch/"
+"<архітектура>/boot/dts\", де <архітектура> це arm64 чи arm, залежно від "
+"того, що Ви встановили у deviceinfo_arch (aarch64 — це arm64 мовою ядра). "
+"Якщо версія Вашого заголовка 3 чи більше (пристрій GKI), це буде включати "
+"dtb у Вашому vendor_boot."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:209
 msgid "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
@@ -11207,7 +11297,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Examples"
 msgid "Example::"
-msgstr "Приклади"
+msgstr "Зразок::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:72
 msgid "Only after this will you be able to set up encryption on your device."
