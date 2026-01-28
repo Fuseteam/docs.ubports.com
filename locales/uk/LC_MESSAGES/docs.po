@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-28 00:06+0000\n"
+"PO-Revision-Date: 2026-01-28 20:34+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -10319,10 +10319,16 @@ msgid ""
 "try to get it in installer. Setting to true builds the recovery and setting "
 "to false or omitting the entry entirely will cause it to not build at all."
 msgstr ""
+"Користуйтеся цією опцією, якщо хочете створити recovery.img для завантаження "
+"відновлення UBports (Насправді це буває потрібно лише на етапі завершення "
+"створення порту). У більшості випадків, мабуть, Ви захочете на ранніх етапах "
+"цього уникнути та додати лише при спробі його отримати в інсталяторі. "
+"Значення true створить образ відновлення, а значення false або пропуск "
+"запису скаже, що його збирати взагалі не потрібно."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:250
 msgid "``deviceinfo_has_recovery_partition=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_has_recovery_partition=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:253
 msgid ""
@@ -10330,10 +10336,13 @@ msgid ""
 "if you want to add a hash footer to your image. Replace the size from your "
 "stock recovery image. (Will only work if you're building recovery!)"
 msgstr ""
+"Використовуйте цей пункт для припасування розміру образу відновлення. Також "
+"необхідно, якщо бажаєте додати хеш-футер до образу. Поставте розмір зі свого "
+"заводського образу відновлення. (Працює лише з компіляцією recovery!)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:255
 msgid "``deviceinfo_recovery_partition_size=\"67713847\"``"
-msgstr ""
+msgstr "``deviceinfo_recovery_partition_size=\"67713847\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:258
 msgid ""
@@ -10344,10 +10353,16 @@ msgid ""
 "will append this string to the boot image. (Beware! Using this on other "
 "devices may cause it to not boot the image!)"
 msgstr ""
+"Це потрібно насправді лише для деяких старих/нових Samsung, де через футер "
+"\"SEAndroid\" у цих завантажувальних образах виконується перевірка чи образ "
+"офіційний. Якщо bootloader його не знайде у зверху екрана з’явиться потворна "
+"червона смужка. Додавши цей пункт до свого deviceinfo, він буде також "
+"доданий до образу boot. (Обережно! Використання цієї опції на інших "
+"пристроях може зламати образ!)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:260
 msgid "``deviceinfo_bootimg_tailtype=\"SEAndroid\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_tailtype=\"SEAndroid\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:263
 msgid ""
@@ -10357,10 +10372,16 @@ msgid ""
 "deviceinfo and setting it to true (like shown) will disable modules "
 "compilation. Only really needed in case you're doing something advanced."
 msgstr ""
+"Це налаштування визначає які модулі повинні (чи ні) бути скомпільованими та "
+"встановлені до кореневого каталогу rootfs. Пропуск цього пункту визначить "
+"стандартну поведінку, тобто модулі скомпілюються та будуть встановлені до "
+"rootfs. Додавання цієї опції до Вашого deviceinfo зі значенням true (як у "
+"зразку) вимкне компіляцію модулів. Насправді це потрібно лише якщо Ви робите "
+"щось дійсно серйозне."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:265
 msgid "``deviceinfo_kernel_disable_modules=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_disable_modules=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:268
 msgid ""
@@ -10369,10 +10390,14 @@ msgid ""
 "rootfs instead of completely replacing them. This is necessary for 20.04 and "
 "onwards, but not applicable for 16.04."
 msgstr ""
+"Ця опція встановлює усі оверлейні файли (у каталозі overlay/) до /system/opt/"
+"halium-overlay, таким чином перекриваючи файли у rootfs цими файлами, "
+"замість того, щоб повністю їх замінювати. Це необхідно починаючи з версії "
+"20.04 та не підходить для 16.04."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:270
 msgid "``deviceinfo_use_overlaystore=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_use_overlaystore=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:273
 msgid ""
@@ -10380,10 +10405,13 @@ msgid ""
 "deviceinfo will combine all your dtbo's with your dtbs. Only use if you are "
 "sure you need this."
 msgstr ""
+"Ця опція найчастіше використовується у деяких пристроях Qualcomm. Додавання "
+"її до Вашого deviceinfo пов'яже усі Ваші файли dtbo з Вашими dtbs. "
+"Використовуйте це лише якщо Ви впевненні, що Вам це потрібно."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:275
 msgid "``deviceinfo_kernel_apply_overlay=\"true\"``"
-msgstr ""
+msgstr "``deviceinfo_kernel_apply_overlay=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:278
 msgid ""
@@ -10391,19 +10419,22 @@ msgid ""
 "size for your rootfs being flashed to system image. Default is 3000M when "
 "option is not set. Only use if you need it."
 msgstr ""
+"Додайте це налаштування до свого deviceinfo для визначення фіксованого "
+"розміру rootfs, який потрібно прошити до системного образу. Типово, якщо "
+"опцію не встановлено, це 3000M. Користуйтеся цим лише за потреби."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:280
 msgid "``deviceinfo_system_partition_size=\"4000M\"``"
-msgstr ""
+msgstr "``deviceinfo_system_partition_size=\"4000M\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:283
 msgid ""
 "This config is only relevant for newer devices launched with UFS storage"
-msgstr ""
+msgstr "Це налаштування релевантне лише для нових пристроїв з флешсховищами UFS"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:285
 msgid "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
-msgstr ""
+msgstr "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:288
 msgid ""
@@ -10413,6 +10444,11 @@ msgid ""
 "your header version is greater than or equal to 3. A guide to extract them "
 "is as follows:"
 msgstr ""
+"Далі йдуть адреси для прошивки. Якщо Ви робите тільки boot.img для пристроїв "
+"GKI, це можна пропустити, але для складання vendor_boot.img це необхідне. "
+"Якщо версія Вашого заголовка більша чи дорівнює 3, ці адреси застосовуються "
+"для vendor_boot автоматично. Отримати ці значення можна за наведеними нижче "
+"настановами."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:292
 msgid "Extracting values from stock boot.img/vendor_boot.img"
