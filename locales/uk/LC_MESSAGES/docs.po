@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-28 20:34+0000\n"
+"PO-Revision-Date: 2026-01-28 21:23+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -10445,14 +10445,14 @@ msgid ""
 "is as follows:"
 msgstr ""
 "Далі йдуть адреси для прошивки. Якщо Ви робите тільки boot.img для пристроїв "
-"GKI, це можна пропустити, але для складання vendor_boot.img це необхідне. "
-"Якщо версія Вашого заголовка більша чи дорівнює 3, ці адреси застосовуються "
-"для vendor_boot автоматично. Отримати ці значення можна за наведеними нижче "
-"настановами."
+"GKI, це можна пропустити, але для складання vendor_boot.img це необхідні "
+"дані. Якщо версія Вашого заголовка більша чи дорівнює 3, ці адреси "
+"застосовуються для vendor_boot автоматично. Отримати ці значення можна за "
+"наведеними нижче настановами."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:292
 msgid "Extracting values from stock boot.img/vendor_boot.img"
-msgstr ""
+msgstr "Отримання значень з заводських образів boot.img/vendor_boot.img"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:294
 msgid ""
@@ -10465,17 +10465,30 @@ msgid ""
 "find your stock firmware, and then get the boot.img. Once you have the "
 "boot.img acquired, follow the following steps:"
 msgstr ""
+"Для завантаження будь-якого порту деякі значення повинні бути отримані з "
+"рідного boot.img. Перше та найважливіше, спробуйте отримати свою заводську "
+"прошивку. Деякі виробники, такі як Samsung, люблять шифрувати свої прошивки, "
+"але все ж існують деякі інструменти, які можуть допомогти з цим. Інші, "
+"наприклад, Xiaomi надають прошивки, але потрібен Google, щоб їх знайти. І "
+"так, цей спритний хлопець Google може допомогти отримати повні прошивки. "
+"Одним словом, Вам потрібно принаймні знайти свою заводську прошивку, і "
+"отримати з неї boot.img. Коли у Вас буде boot.img, виконайте наступні кроки:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:297
 msgid ""
 "Make a directory in which you'll store all your unpacked data. It can be "
 "anywhere, and can have any name. For now, we'll call it `temp`."
 msgstr ""
+"Створіть каталог, де Ви будете зберігати усі свої розпаковані дані. Це може "
+"бути будь-де, та можете називати цей каталог на власний розсуд. А поки ми "
+"назвемо його `temp`."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:299
 msgid ""
 "Run \"mkdir ~/temp\" to create the directory and \"cd ~/temp\" to go to it."
 msgstr ""
+"Для створення каталогу виконайте \"mkdir ~/temp\" та \"cd ~/temp\", щоб туди "
+"перейти."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:301
 msgid ""
@@ -10487,10 +10500,16 @@ msgid ""
 "script, which you'll now use to pull your kernel offsets and other values "
 "alike"
 msgstr ""
+"Для розпакування образу boot є декілька утиліт. Одна з них — це скрипт на "
+"python від Android. Скористаємося зараз ним. Для завантаження його до свого "
+"поточного каталогу виконайте \"wget https://raw.githubusercontent.com/"
+"LineageOS/android_system_tools_mkbootimg/lineage-19.1/unpack_bootimg.py\". "
+"Так Ви отримаєте скрипт unpack_bootimg.py, який Ви тепер використаєте для "
+"отримання адреси ядра та інших подібних значень"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:303
 msgid "Bring your boot.img into the temp directory."
-msgstr ""
+msgstr "Скопіюйте свій boot.img до каталогу temp."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:305
 msgid ""
@@ -10499,14 +10518,18 @@ msgid ""
 "image, store the output files in the out directory, and it will also print "
 "the offsets on screen."
 msgstr ""
+"Тепер виконайте скрипт. Звичайний синтаксис: \"python3 unpack_bootimg.py --"
+"boot_img <boot.img or vendor_boot.img> --out out\". Ця команда розпакує "
+"образ boot, збереже файли з результатом до вихідного каталогу та виведе на "
+"екран адреси/зміщення для прошивки."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:308
 msgid "A sample output for boot.img will look like this:"
-msgstr ""
+msgstr "Приклад результату обробки boot.img виглядає приблизно так:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:310
 msgid "boot magic: ANDROID!"
-msgstr ""
+msgstr "boot magic: ANDROID!"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:312
 msgid "kernel_size: 11399060"
