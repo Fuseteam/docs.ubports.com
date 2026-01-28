@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-28 21:23+0000\n"
+"PO-Revision-Date: 2026-01-28 23:12+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -10533,141 +10533,143 @@ msgstr "boot magic: ANDROID!"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:312
 msgid "kernel_size: 11399060"
-msgstr ""
+msgstr "kernel_size: 11399060"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:314
 msgid "kernel load address: 0x40080000"
-msgstr ""
+msgstr "kernel load address: 0x40080000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:316
 msgid "ramdisk size: 6576255"
-msgstr ""
+msgstr "ramdisk size: 6576255"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:318
 msgid "ramdisk load address: 0x51b00000"
-msgstr ""
+msgstr "ramdisk load address: 0x51b00000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:320
 msgid "second bootloader size: 0"
-msgstr ""
+msgstr "second bootloader size: 0"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:322
 msgid "second bootloader load address: 0xc0ff0000"
-msgstr ""
+msgstr "second bootloader load address: 0xc0ff0000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:324
 msgid "kernel tags load address: 0x47880000"
-msgstr ""
+msgstr "kernel tags load address: 0x47880000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:326
 msgid "page size: 2048"
-msgstr ""
+msgstr "page size: 2048"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:328
 msgid "os version: 10.0.0"
-msgstr ""
+msgstr "os version: 10.0.0"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:330
 msgid "os patch level: None"
-msgstr ""
+msgstr "os patch level: None"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:332
 msgid "boot image header version: 2"
-msgstr ""
+msgstr "boot image header version: 2"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:334
 msgid "product name:"
-msgstr ""
+msgstr "product name:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:336
 msgid ""
 "command line args: bootopt=64S3,32N2,64N2 buildvariant=user systempart=/dev/"
 "mapper/system:ro"
 msgstr ""
+"command line args: bootopt=64S3,32N2,64N2 buildvariant=user systempart=/dev/"
+"mapper/system:ro"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:338
 msgid "additional command line args:"
-msgstr ""
+msgstr "additional command line args:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:340
 msgid "recovery dtbo size: 0"
-msgstr ""
+msgstr "recovery dtbo size: 0"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:342
 msgid "recovery dtbo offset: 0x0000000000000000"
-msgstr ""
+msgstr "recovery dtbo offset: 0x0000000000000000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:344
 msgid "boot header size: 1660"
-msgstr ""
+msgstr "boot header size: 1660"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:346
 msgid "dtb size: 216417"
-msgstr ""
+msgstr "dtb size: 216417"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:348
 msgid "dtb address: 0x0000000047880000"
-msgstr ""
+msgstr "dtb address: 0x0000000047880000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:351
 msgid "whereas for vendor_boot.img, will look like this:"
-msgstr ""
+msgstr "тоді як для vendor_boot.img це виглядатиме так:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:353
 msgid "boot magic: VNDRBOOT"
-msgstr ""
+msgstr "boot magic: VNDRBOOT"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:355
 msgid "vendor boot image header version: 4"
-msgstr ""
+msgstr "vendor boot image header version: 4"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:357
 msgid "page size: 0x00001000"
-msgstr ""
+msgstr "page size: 0x00001000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:359
 msgid "kernel load address: 0x10008000"
-msgstr ""
+msgstr "kernel load address: 0x10008000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:361
 msgid "ramdisk load address: 0x10000000"
-msgstr ""
+msgstr "ramdisk load address: 0x10000000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:363
 msgid "vendor ramdisk total size: 13685168"
-msgstr ""
+msgstr "vendor ramdisk total size: 13685168"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:365
 msgid "vendor command line args: bootconfig loop.max_part=7"
-msgstr ""
+msgstr "vendor command line args: bootconfig loop.max_part=7"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:367
 msgid "kernel tags load address: 0x10000000"
-msgstr ""
+msgstr "kernel tags load address: 0x10000000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:369
 msgid "product name: SRPUK23A007"
-msgstr ""
+msgstr "product name: SRPUK23A007"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:371
 msgid "vendor boot image header size: 2128"
-msgstr ""
+msgstr "vendor boot image header size: 2128"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:373
 msgid "dtb size: 231604"
-msgstr ""
+msgstr "dtb size: 231604"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:375
 msgid "dtb address: 0x0000000011f00000"
-msgstr ""
+msgstr "dtb address: 0x0000000011f00000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:377
 msgid "vendor ramdisk table size: 216"
-msgstr ""
+msgstr "vendor ramdisk table size: 216"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:379
 msgid "vendor bootconfig size: 28"
-msgstr ""
+msgstr "vendor bootconfig size: 28"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:382
 msgid "Here's where this will get interesting."
