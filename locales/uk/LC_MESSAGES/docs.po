@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-31 15:57+0000\n"
+"PO-Revision-Date: 2026-02-01 17:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -10918,10 +10918,13 @@ msgid ""
 "codename>_usrmerge.tar.xz ota`` This will download the rootfs, extract it "
 "and pack it into tarballs for our final script to create flashable images."
 msgstr ""
+"``./build/prepare-fake-ota.sh out/device_<your device's codename>"
+"_usrmerge.tar.xz ota`` Це завантажить rootfs, все розпакує та запакує до "
+"тарболів для нашого фінального скрипту, який збиратиме образи для прошивання."
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:9
 msgid "Next up, run:"
-msgstr ""
+msgstr "Тепер виконайте:"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:11
 msgid ""
@@ -10931,22 +10934,26 @@ msgid ""
 "you configured your deviceinfo. But the basic file structure will be as "
 "given:"
 msgstr ""
+"``./build/system-image-from-ota.sh ota/ubuntu_command images`` Це конвертує "
+"тарболи в образи для прошивання та збереже образи до каталогу `images/`. "
+"Кількість файлів залежить від налаштувань Вашого deviceinfo. Але основна "
+"структура виглядатиме так:"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:15
 msgid "images/"
-msgstr ""
+msgstr "images/"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:16
 msgid "├── boot.img"
-msgstr ""
+msgstr "├── boot.img"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:17
 msgid "├── rootfs.img"
-msgstr ""
+msgstr "├── rootfs.img"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:18
 msgid "└── system.img"
-msgstr ""
+msgstr "└── system.img"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:21
 msgid ""
@@ -10956,10 +10963,15 @@ msgid ""
 "``systempart`` in deviceinfo's cmdline. Otherwise, ``system.img`` is flashed "
 "to your system partition."
 msgstr ""
+"Образ ``boot.img`` буде прошитий на телефоні до розділу boot. Образи "
+"``system.img`` та ``rootfs.img`` взаємозамінні. ``rootfs.img`` потрібен для "
+"розділу data як ``ubuntu.img`` коли ``systempart`` не включено до команди "
+"deviceinfo. В іншому разі ``system.img`` прошиється до розділу system."
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:25
+#, fuzzy
 msgid "info::"
-msgstr ""
+msgstr "для інфо::"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:33
 msgid ""
@@ -10967,10 +10979,13 @@ msgid ""
 "this is either arm or arm64 depending on where you found your defconfig. A "
 "thing to keep in mind for kernel patches."
 msgstr ""
+"Для багатьох команд ядра потрібне значення змінної ARCH, і це буде або arm, "
+"або arm64 — залежно від того, де Ви знайшли свій defconfig. Це треба знати "
+"для латок ядра."
 
 #: ../../porting/configure_test_fix/Apparmor.rst:5
 msgid "AppArmor"
-msgstr ""
+msgstr "AppArmor"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:7
 msgid ""
@@ -10978,12 +10993,17 @@ msgid ""
 "most apps will crash when launched. For more information on AppArmor, refer "
 "to the `Ubuntu Wiki. <https://wiki.ubuntu.com/AppArmor>`_"
 msgstr ""
+"Без AppArmor багато чого не буде правильно працювати та більшість програм "
+"будуть закриватися з помилкою. За детальною інформацією щодо AppArmor "
+"зверніться до `Ubuntu Wiki. <https://wiki.ubuntu.com/AppArmor>`_"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:9
 msgid ""
 "AppArmor is added through a combination of integrating the necessary code "
 "into the kernel source tree and setting necessary kernel configuration."
 msgstr ""
+"AppArmor додається за допомогою комбінації інтеграцій необхідного коду до "
+"дерева початкового коду ядра та необхідного налаштування конфігурації ядра."
 
 #: ../../porting/configure_test_fix/Apparmor.rst:11
 msgid ""
@@ -10993,34 +11013,47 @@ msgid ""
 "version and select the most recent block of commits (i.e. all the commits "
 "that were added on the same and most recent date):"
 msgstr ""
+"Зазвичай достатньо вибрати певні коміти до коду ядра, а не замінювати весь "
+"каталог ``apparmor`` у дереві коду. Перейдіть нижче за посиланням, яке "
+"відповідає версії ядра Вашого пристрою, та виберіть найновіший блок комітів "
+"(тобто усі коміти, додані в ту саму й останню дату):"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:13
 msgid ""
 "`3.18 AppArmor patches <https://github.com/MotoZ-2016/"
 "android_kernel_motorola_msm8996/commits/halium-9.0/security/apparmor>`_"
 msgstr ""
+"`Латки для 3.18 AppArmor <https://github.com/MotoZ-2016/"
+"android_kernel_motorola_msm8996/commits/halium-9.0/security/apparmor>`_"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:14
 msgid ""
 "`4.4 AppArmor patches <https://github.com/moto-SDM660/"
 "android_kernel_motorola_sdm660/commits/halium-9.0/security/apparmor>`_"
 msgstr ""
+"`Латки для 4.4 AppArmor <https://github.com/moto-SDM660/"
+"android_kernel_motorola_sdm660/commits/halium-9.0/security/apparmor>`_"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:15
 msgid ""
 "`4.9 AppArmor patches <https://github.com/erfanoabdi/"
 "android_kernel_motorola_sdm632/commits/halium-9.0/security/apparmor>`_"
 msgstr ""
+"`Латки для 4.9 AppArmor <https://github.com/erfanoabdi/"
+"android_kernel_motorola_sdm632/commits/halium-9.0/security/apparmor>`_"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:16
 msgid ""
 "`4.14 AppArmor patches <https://github.com/kdrag0n/proton_zf6/commits/halium/"
 "security/apparmor>`_"
 msgstr ""
+"`Латки для 4.14 AppArmor <https://github.com/kdrag0n/proton_zf6/commits/"
+"halium/security/apparmor>`_"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:18
+#, fuzzy
 msgid "Make sure your kernel defconfig has the setting::"
-msgstr ""
+msgstr "Переконайтеся, що defconfig Вашого ядра має ці налаштування::"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:22
 msgid ""
@@ -11028,16 +11061,21 @@ msgid ""
 "vibration works. This is a good indication that AppArmor has been "
 "successfully applied. Also, check if apps launch normally."
 msgstr ""
+"Тепер перебудуйте образ boot та прошийте його до свого пристрою. "
+"Переконайтеся, що працює вібрація клавіатури. Це гарний знак, що AppArmor "
+"був доданий правильно. Також перевірте, що програма нормально запускається."
 
 #: ../../porting/configure_test_fix/Display.rst:4
 msgid "Display settings"
-msgstr ""
+msgstr "Налаштування екрана"
 
 #: ../../porting/configure_test_fix/Display.rst:6
 msgid ""
 "There are two variables that set the content scaling for Lomiri and Ubuntu "
 "Touch applications: ``GRID_UNIT_PX`` and ``QTWEBKIT_DPR``."
 msgstr ""
+"Існує дві змінних, через які налаштовуються масштабування вмісту програм "
+"Lomiri та Ubuntu Touch: ``GRID_UNIT_PX`` та ``QTWEBKIT_DPR``."
 
 #: ../../porting/configure_test_fix/Display.rst:8
 msgid ""
@@ -11045,8 +11083,12 @@ msgid ""
 "on your device's form factor. These are mentioned below and explained in "
 "depth :ref:`in the section on display settings<Display-settings>`."
 msgstr ""
+"Існують також інші корисні опції, залежно від формфактора Вашого пристрою. "
+"Вони зазначені нижче та описані у :ref:`частині про налаштування "
+"екрана<Display-settings>`."
 
 #: ../../porting/configure_test_fix/Display.rst:10
+#, fuzzy
 msgid ""
 "All of these settings are guessed by Unity 8 if none are set. There are many "
 "cases, however, where the guess is wrong (for example, very high resolution "
@@ -11055,12 +11097,19 @@ msgid ""
 "session.d/android.conf`` specifying them. For example, this is the file for "
 "the Nexus 7 tablet::"
 msgstr ""
+"Усі ці налаштування стосуються Unity 8, якщо не вказано іншого. Хоча, у "
+"багатьох випадках це може бути помилковим (наприклад, екрани телефонів з "
+"надвисокою роздільною здатністю можуть визначатися як екрани ПК). Для "
+"ручного внесення значень до цих змінних, просто виправте файл ``etc/ubuntu-"
+"touch-session.d/android.conf``. Наприклад, це файл для планшета Nexus 7::"
 
 #: ../../porting/configure_test_fix/Display.rst:18
 msgid ""
 "The method for deriving values for these variables :ref:`is explained below. "
 "<Display-settings>`"
 msgstr ""
+"Методика визначення значення для цих змінних :ref:`описана нижче. <Display-"
+"settings>`"
 
 #: ../../porting/configure_test_fix/Display.rst:20
 msgid ""
@@ -11068,6 +11117,9 @@ msgid ""
 "needed for your device, this file should be incorporated into your build. "
 "See :doc:`the overlay documentation </porting/configure_test_fix/Overlay>`."
 msgstr ""
+"Коли налаштуєте файл ``android.conf`` з правильними значеннями для свого "
+"пристрою, додайте цей файл до своєї збірки. Перегляньте :doc:`документацію "
+"щодо перекриття </porting/configure_test_fix/Overlay>`."
 
 #: ../../porting/configure_test_fix/Display.rst:23
 msgid ""
@@ -11076,14 +11128,17 @@ msgid ""
 "please set both configurations (``android.conf`` as well as :ref:`DeviceInfo "
 "<DeviceInfo>`)."
 msgstr ""
+"Цей спосіб налаштування застарілий та буде замінений у майбутньому на "
+":ref:`DeviceInfo <DeviceInfo>`. Для підтримання міграції використайте обидві "
+"конфігурації (``android.conf`` та :ref:`DeviceInfo <DeviceInfo>`)."
 
 #: ../../porting/configure_test_fix/Display.rst:29
 msgid "Determining the correct display settings"
-msgstr ""
+msgstr "Визначення правильних налаштувань екрана"
 
 #: ../../porting/configure_test_fix/Display.rst:32
 msgid "Display scaling"
-msgstr ""
+msgstr "Масштабування екрана"
 
 #: ../../porting/configure_test_fix/Display.rst:34
 msgid ""
@@ -11096,12 +11151,22 @@ msgid ""
 "and laptops are the same distance and that they are held at 1.235 times the "
 "distance phones tend to be held at."
 msgstr ""
+"Значення ``GRID_UNIT_PX`` (Пікселі на одиницю сітки чи Px/GU) для кожного "
+"пристрою своє. Мета у тому, щоб користувацький інтерфейс системи та програм "
+"*сприймали* однакові значення на пристрої однаково. Це переважно залежить "
+"від щільності пікселів екрана та відстані від екрана до користувача. Останнє "
+"значення визначити автоматично неможливо, тому визначається евристично. Ми "
+"припускаємо, що планшети та ноутбуки розташовуються на однаковій відстані "
+"від користувача у 1,235 рази далі від користувача за відстань до телефону."
 
 #: ../../porting/configure_test_fix/Display.rst:36
 msgid ""
 "``QTWEBKIT_DPR`` sets the display scaling for the Oxide web engine, so "
 "changes to this value will affect the scale of the browser and webapps."
 msgstr ""
+"Значення ``QTWEBKIT_DPR`` встановлює масштабування зображення для вебдвигуна "
+"Oxide та зміни цього значення впливають на масштабування браузера та "
+"вебпрограм."
 
 #: ../../porting/configure_test_fix/Display.rst:38
 msgid ""
@@ -11111,177 +11176,182 @@ msgid ""
 "*perceived* size rather than *physical* size. Here are some values for other "
 "devices so you may derive the correct one for yours:"
 msgstr ""
+"Було вибрано еталонний пристрій, з якого ми отримуємо значення для усіх "
+"інших пристроїв. Еталоном є ноутбук з екраном 120ppi. Тут не існує певної "
+"формули, ці параметри встановлюються для *уявного* розміру, а не для "
+"*фізичного*. Нижче представлені деякі значення для інших пристроїв, щоб Ви "
+"могли отримати правильний для свого:"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Resolution"
-msgstr ""
+msgstr "Роздільна здатність"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Display Size"
-msgstr ""
+msgstr "Розмір екрана"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "PPI"
-msgstr ""
+msgstr "PPI"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "Px/GU"
-msgstr ""
+msgstr "Px/GU"
 
 #: ../../porting/configure_test_fix/Display.rst:41
 msgid "QtWebKit DPR"
-msgstr ""
+msgstr "QtWebKit DPR"
 
 #: ../../porting/configure_test_fix/Display.rst:43
 msgid "'Normal' density laptop"
-msgstr ""
+msgstr "Ноутбук зі \"звичайною\" щільністю"
 
 #: ../../porting/configure_test_fix/Display.rst:43
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "N/A"
-msgstr ""
+msgstr "Н.Д."
 
 #: ../../porting/configure_test_fix/Display.rst:43
 msgid "96-150"
-msgstr ""
+msgstr "96-150"
 
 #: ../../porting/configure_test_fix/Display.rst:43
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: ../../porting/configure_test_fix/Display.rst:43
 msgid "1.0"
-msgstr ""
+msgstr "1.0"
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "ASUS Nexus 7"
-msgstr ""
+msgstr "ASUS Nexus 7"
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "1280x800"
-msgstr ""
+msgstr "1280x800"
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "7\""
-msgstr ""
+msgstr "7\""
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "216"
-msgstr ""
+msgstr "216"
 
 #: ../../porting/configure_test_fix/Display.rst:44
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../porting/configure_test_fix/Display.rst:44
 #: ../../porting/configure_test_fix/Display.rst:46
 #: ../../porting/configure_test_fix/Display.rst:47
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "2.0"
-msgstr ""
+msgstr "2.0"
 
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "'High' density laptop"
-msgstr ""
+msgstr "Ноутбук з \"високою\" щільністю"
 
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "150-250"
-msgstr ""
+msgstr "150-250"
 
 #: ../../porting/configure_test_fix/Display.rst:45
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: ../../porting/configure_test_fix/Display.rst:46
 msgid "Samsung Galaxy Nexus"
-msgstr ""
+msgstr "Samsung Galaxy Nexus"
 
 #: ../../porting/configure_test_fix/Display.rst:46
 msgid "1280x720"
-msgstr ""
+msgstr "1280x720"
 
 #: ../../porting/configure_test_fix/Display.rst:46
 msgid "4.65\""
-msgstr ""
+msgstr "4.65\""
 
 #: ../../porting/configure_test_fix/Display.rst:46
 msgid "316"
-msgstr ""
+msgstr "316"
 
 #: ../../porting/configure_test_fix/Display.rst:46
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "LG Nexus 4"
-msgstr ""
+msgstr "LG Nexus 4"
 
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "1280x768"
-msgstr ""
+msgstr "1280x768"
 
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "4.7\""
-msgstr ""
+msgstr "4.7\""
 
 #: ../../porting/configure_test_fix/Display.rst:47
 msgid "320"
-msgstr ""
+msgstr "320"
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "Samsung Nexus 10"
-msgstr ""
+msgstr "Samsung Nexus 10"
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "2560x1600"
-msgstr ""
+msgstr "2560x1600"
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "10.1\""
-msgstr ""
+msgstr "10.1\""
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "299"
-msgstr ""
+msgstr "299"
 
 #: ../../porting/configure_test_fix/Display.rst:48
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #: ../../porting/configure_test_fix/Display.rst:49
 msgid "Fairphone 2"
-msgstr ""
+msgstr "Fairphone 2"
 
 #: ../../porting/configure_test_fix/Display.rst:49
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "1080x1920"
-msgstr ""
+msgstr "1080x1920"
 
 #: ../../porting/configure_test_fix/Display.rst:49
 msgid "5\""
-msgstr ""
+msgstr "5\""
 
 #: ../../porting/configure_test_fix/Display.rst:49
 msgid "440"
-msgstr ""
+msgstr "440"
 
 #: ../../porting/configure_test_fix/Display.rst:49
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "23"
-msgstr ""
+msgstr "23"
 
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "LG Nexus 5"
-msgstr ""
+msgstr "LG Nexus 5"
 
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "4.95\""
-msgstr ""
+msgstr "4.95\""
 
 #: ../../porting/configure_test_fix/Display.rst:50
 msgid "445"
-msgstr ""
+msgstr "445"
 
 #: ../../porting/configure_test_fix/Display.rst:53
 msgid ""
@@ -11290,14 +11360,18 @@ msgid ""
 "the best, share some pictures (including some object for scale) along with "
 "the device specs with us."
 msgstr ""
+"Експериментуйте з різними значеннями й можливо Ви знайдете, що пасуватиме до "
+"Ubuntu Touch найкраще. Якщо Ви невпевнені, що краще, поділіться деякими "
+"знімками (включно з масштабованими об'єктами) та технічними даними пристрою "
+"з нами."
 
 #: ../../porting/configure_test_fix/Display.rst:55
 msgid "There are two other settings that may be of interest to you:"
-msgstr ""
+msgstr "Є ще два налаштування, які можуть Вас зацікавити:"
 
 #: ../../porting/configure_test_fix/Display.rst:58
 msgid "Form factor"
-msgstr ""
+msgstr "Формфактор"
 
 #: ../../porting/configure_test_fix/Display.rst:60
 msgid ""
