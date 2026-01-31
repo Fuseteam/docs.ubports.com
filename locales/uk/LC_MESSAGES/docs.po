@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-28 23:12+0000\n"
+"PO-Revision-Date: 2026-01-31 15:57+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -4615,7 +4615,7 @@ msgid ""
 "design.ubuntu.com, developer.ubuntu.com and more. You can add access to all "
 "subdomains with a wildcard in the subdomain position:::"
 msgstr ""
-"Деякі посилання мають різні піддомени. Наприклад, у www.ubuntu.com має "
+"Деякі посилання мають різні піддомени. Наприклад, www.ubuntu.com має "
 "design.ubuntu.com, developer.ubuntu.com та інші. Можна надати доступ до усіх "
 "піддоменів через маску замість назви піддомена:::"
 
@@ -4676,8 +4676,7 @@ msgstr "Уся довідка доступна з:::"
 #: ../../appdev/webapp/guide.rst:133
 #, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr ""
-"Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
+msgstr "Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
 
 #: ../../appdev/webapp/guide.rst:147
 #, fuzzy
@@ -9540,7 +9539,7 @@ msgstr ""
 "Якщо Вам запропонується з'єднання telnet, коренева файлова система та "
 "системний образ ймовірно не були знайдені та змонтовані під час "
 "завантаження. Це може вказувати на те, що один чи декілька розділів не були "
-"правильно під'єднані. Під'єднайтеся до свого пристрою як описано нижче::"
+"правильно змонтовані. Під'єднайтеся до свого пристрою як описано нижче::"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:50
 msgid ""
@@ -9632,15 +9631,15 @@ msgid ""
 "environment is complete. Run this commmand to add them::"
 msgstr ""
 "Припускаємо, що Ви вже встановили описані у розділі :ref:`Setting-up` "
-"інструменти, тож залишилося лише декілька. Додайте їх для завершення "
-"налаштування середовища для компіляції::"
+"інструменти, тож для завершення налаштування середовища компіляції "
+"залишилося додати лише декілька. Додайте їх::"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:19
 #, fuzzy
 msgid "If you use a RPM based distro such as Mageia, you run::"
 msgstr ""
 "Якщо Ви користуєтеся дистрибутивом з пакунками RPM, наприклад, Mageia, "
-"виконайте::"
+"виконайте це::"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:27
 msgid ""
@@ -10673,7 +10672,7 @@ msgstr "vendor bootconfig size: 28"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:382
 msgid "Here's where this will get interesting."
-msgstr ""
+msgstr "Тепер починається найцікавіше."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:384
 msgid ""
@@ -10681,12 +10680,16 @@ msgid ""
 "what you need, for example,   0x40080000. This will be different in your "
 "case."
 msgstr ""
+"\"kernel load address\" — це зміщення ядра. Вам потрібне значення після "
+"двокрапки, наприклад,   0x40080000. У Вашому випадку може бути щось інше."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:386
 msgid ""
 "\"ramdisk load address\" will be your ramdisk offset. Take the value next to "
 "it. For example, 0x51b00000."
 msgstr ""
+"\"ramdisk load address\" — буде зміщенням Вашого ramdisk. Візміть значення з "
+"цього рядка. Наприклад, 0x51b00000."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:388
 msgid ""
@@ -10694,6 +10697,9 @@ msgid ""
 "standards. But if your boot image does spit this value, make sure to take "
 "it. For example, 0xc0ff0000."
 msgstr ""
+"\"second bootloader load address\" у більшості непотрібне за теперішніми "
+"стандартами. Але якщо Ваш образ boot має це значення, візьміть його. "
+"Наприклад, 0xc0ff0000."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:390
 msgid ""
@@ -10701,36 +10707,50 @@ msgid ""
 "tags and dtb, but in some cases these values can be different. Take the "
 "value as well. For example, 0x47880000."
 msgstr ""
+"\"kernel tags load address\" — це особливе й використовується для kernel "
+"tags та dtb, але у деяких випадках ці значення різні. Також візьміть це. "
+"Наприклад, 0x47880000."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:392
 msgid ""
 "\"dtb address\" is sometimes the same as \"kernel tags load address\". But "
 "if it's different, you should use this for dtb and tags for tags."
 msgstr ""
+"Адреса \"dtb address\" іноді така сама, як і \"kernel tags load address\", "
+"але якщо вони різні, для dtb та tags for tags краще взяти цю."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:394
 msgid ""
 "\"page size\" is required for the ramdisk to know what your flash chip uses "
 "for page sizes. Value after colon is what you need. For example, 2048."
 msgstr ""
+"\"page size\" потрібно для ramdisk для розуміння які розміри сторінок "
+"використовує ваш чіп. Вам потрібно значення після двокрапки. Наприклад, 2048."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:396
 msgid ""
 "\"os version\" is the value which determines which Android version this "
 "boot.img has. Some bootloaders enforce this. For example, 10.0."
 msgstr ""
+"\"os version\" — це значення, де визначена версія Android, яку використовує "
+"boot.img. Деякі завантажувачі (bootloader) це використовують. Наприклад, "
+"10.0."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:398
 msgid ""
 "\"os patch level\" is a similar story. You'll also want to grab this value, "
 "for example, 2021-11."
 msgstr ""
+"\"os patch level\" має схожу історію. Вам буде потрібно також взяти це "
+"значення, наприклад, 2021-11."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:400
 msgid ""
 "\"command line args\" go straight into deviceinfo_kernel_cmdline. Make sure "
 "to keep \"console=tty0\" in there. No examples here :("
 msgstr ""
+"Аргументи \"command line args\" йдуть прямо до deviceinfo_kernel_cmdline. "
+"Переконайтеся, що там є \"console=tty0\". Тут без прикладів :("
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:402
 msgid ""
@@ -10738,110 +10758,121 @@ msgid ""
 "``bootconfig`` file in your output directory. Move this to your source "
 "tree's root."
 msgstr ""
+"Якщо Ви створюєте vendor_boot, ця команда збереже файл ``bootconfig`` до "
+"Вашого вихідного каталогу. Перенесіть його до кореневого каталогу свого "
+"джерельного дерева."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:404
 msgid "Apart from these mentioned values, you'll want to skip everything else."
-msgstr ""
+msgstr "Окрім цих згаданих значень, Ви захочете мабуть все інше пропустити."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:407
 msgid "Now according to said guide, fill in your offsets:"
 msgstr ""
+"Тепер, відповідно до згаданих настанов, заповніть свої адреси (offsets):"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:410
 msgid "Put the value from \"page size\" into this config."
-msgstr ""
+msgstr "Додайте до цих налаштувань значення \"page size\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:412
 msgid "``deviceinfo_flash_pagesize=\"2048\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_pagesize=\"2048\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:415
 msgid "Base offset will always remain 0x00000000."
-msgstr ""
+msgstr "Базовий зсув завжди буде 0x00000000."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:417
 msgid "``deviceinfo_flash_offset_base=\"0x00000000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_base=\"0x00000000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:420
 msgid "Fill this in from \"kernel load address\"."
-msgstr ""
+msgstr "Візьміть це з рядка \"kernel load address\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:422
 msgid "``deviceinfo_flash_offset_kernel=\"0x40080000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_kernel=\"0x40080000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:425
 msgid "This gets its value from \"ramdisk load address\"."
-msgstr ""
+msgstr "Це бере своє значення з \"ramdisk load address\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:427
 msgid "``deviceinfo_flash_offset_ramdisk=\"0x51b00000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_ramdisk=\"0x51b00000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:430
 msgid ""
 "Although not mission critical, if you did get its value, fill it in from "
 "\"second bootloader load address\"."
 msgstr ""
+"Хоча це не критично, але якщо у Вас є це значення, додайте його з \"second "
+"bootloader load address\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:432
 msgid "``deviceinfo_flash_offset_second=\"0xc0ff0000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_second=\"0xc0ff0000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:435
 msgid "Tags should be filled in from \"kernel tags load address\"."
-msgstr ""
+msgstr "Теги потрібно взяти з \"kernel tags load address\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:437
 msgid "``deviceinfo_flash_offset_tags=\"0x47880000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_tags=\"0x47880000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:440
 msgid "DTB offset comes from \"dtb load address\"."
-msgstr ""
+msgstr "Адреса DTB береться з \"dtb load address\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:442
 msgid "``deviceinfo_flash_offset_dtb=\"0x47880000\"``"
-msgstr ""
+msgstr "``deviceinfo_flash_offset_dtb=\"0x47880000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:445
 msgid ""
 "This comes from \"os version\". Not exactly required but some OEMs enforce "
 "it."
 msgstr ""
+"Це — з \"os version\". Не обов'язково потрібно, але деякі виробники це "
+"використовують."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:447
 msgid "``deviceinfo_bootimg_os_version=\"10.0\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_os_version=\"10.0\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:450
 msgid "You'll want to put the \"os patch level\" value here."
-msgstr ""
+msgstr "Тут скоріше за все Ви захочете додати значення os patch level\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:452
 msgid "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
-msgstr ""
+msgstr "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:455
 msgid ""
 "If you're building a vendor_boot and you have moved the ``bootconfig`` file "
 "to your tree's root, add the following:"
 msgstr ""
+"Якщо Ви створюєте vendor_boot та перенесли файл ``bootconfig`` до кореня "
+"свого дерева, додайте наступне:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:457
 msgid "``deviceinfo_vendor_bootconfig_path=\"bootconfig\"``"
-msgstr ""
+msgstr "``deviceinfo_vendor_bootconfig_path=\"bootconfig\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:460
 msgid ""
 "And just like that, you've filled in your deviceinfo properly and can now "
 "get on with the port!"
 msgstr ""
+"Й як тільки Ви правильно заповните deviceinfo, можна продовжити портування!"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:464
 msgid "Building, installing and running"
-msgstr ""
+msgstr "Створення, встановлення та запуск"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:466
 msgid ""
@@ -10849,6 +10880,8 @@ msgid ""
 "time you get to the main part, the build. For this just run: ``./build.sh -b "
 "workdir``"
 msgstr ""
+"Коли закінчите зі своїм deviceinfo та заповните усе потрібне, час перейти до "
+"головної частини — збирання. Для цього виконайте: ``./build.sh -b workdir``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:469
 msgid ""
@@ -10856,24 +10889,28 @@ msgid ""
 "finally build everything. This process may take about 5 to 50 minutes to "
 "build the kernel."
 msgstr ""
+"Після цього на ПК завантажаться усі необхідні інструменти, ядро, й почнеться "
+"магія. Процес компіляції ядра може тривати від 5 до 50 хвилин."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:471
 msgid ""
 "After your kernel is done building, you can proceed to install and boot it "
 "in the next step."
 msgstr ""
+"Після завершення компіляції ядра можна перейти до наступного кроку — "
+"встановлення та завантаження."
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:2
-#, fuzzy
-#| msgid "Installing packages manually"
 msgid "Installing the kernel"
-msgstr "Встановлення пакетів вручну"
+msgstr "Встановлення ядра"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:4
 msgid ""
 "After your kernel is done building, you will have to build the rootfs. For "
 "this, just execute this:"
 msgstr ""
+"Після завершення компіляції ядра можна перейти до створення rootfs. Для "
+"цього виконайте:"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:6
 msgid ""
