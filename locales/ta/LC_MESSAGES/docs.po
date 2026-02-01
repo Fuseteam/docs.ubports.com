@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-09 04:07+0000\n"
-"PO-Revision-Date: 2026-01-26 00:37+0000\n"
+"PO-Revision-Date: 2026-02-02 18:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <tamilneram247@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ta/>\n"
@@ -488,7 +488,7 @@ msgstr ""
 "GitLab இன் வடிகட்டலைப் பயன்படுத்த அனுமதிக்க அனைத்து சிக்கல்களும் - மூடப்பட்டவை கூட - "
 "லேபிளிடப்பட வேண்டும். எடுத்துக்காட்டாக, இவை ubports/development group'_க்குள் 'வகை: "
 "மேம்பாடு' என்று லேபிளிடப்பட்ட சிக்கல்கள். தேடுதல் மற்றும் வடிகட்டுதல் பற்றி மேலும் அறிய "
-"`GitLab உதவிப் பக்கங்கள்`_ ஐப் பார்க்கவும்."
+"`GitLab உதவிப் பக்கங்கள்`_ ஐப் பார்."
 
 #: ../../about/process/issue-tracking.rst:34
 msgid ""
@@ -3712,7 +3712,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:98
 msgid "content_exchange"
-msgstr "content_exchange"
+msgstr "உள்ளடக்கம்_பரிமாற்றம்"
 
 #: ../../appdev/platform/apparmor.rst:100
 msgid "Description: Can request/import data from other applications"
@@ -3728,7 +3728,7 @@ msgstr ""
 
 #: ../../appdev/platform/apparmor.rst:108
 msgid "content_exchange_source"
-msgstr "content_exchange_source"
+msgstr "உள்ளடக்கம்_பரிமாற்றம்_மூலம்"
 
 #: ../../appdev/platform/apparmor.rst:110
 msgid "Description: Can provide/export data to other applications"
@@ -9844,7 +9844,7 @@ msgstr "கருவியின் உற்பத்தியாளரின�
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:117
 msgid "``deviceinfo_manufacturer=\"Xiaomi\"``"
-msgstr "``deviceinfo_manufacturer=\"Xiaomi\"``"
+msgstr "``சாதனத் செய்தி உற்பத்தியாளர்=\"Xiaomi\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:120
 msgid ""
@@ -17166,7 +17166,7 @@ msgid ""
 "that matches your subnet. On your PC or laptop: ::"
 msgstr ""
 "வெளியீடு என்பது இடைவெளிகளால் பிரிக்கப்பட்ட IP முகவரிகளின் பட்டியல். உங்கள் சப்நெட்டுடன் "
-"பொருந்தக்கூடிய ஐபி முகவரியைப் பயன்படுத்தவும். உங்கள் கணினி அல்லது மடிக்கணினியில்: ::"
+"பொருந்தக்கூடிய ஐபி முகவரியைப் பயன்படுத்தவும். உங்கள் பிசி அல்லது லேப்டாப்பில்: ::"
 
 #: ../../userguide/advanceduse/ssh.rst:64
 #, fuzzy
@@ -17415,7 +17415,7 @@ msgstr ""
 #: ../../userguide/dailyuse/libertine.rst:56
 #, fuzzy
 msgid "You can also use the command-line. Run::"
-msgstr "நீங்கள் கட்டளை வரியையும் பயன்படுத்தலாம். இயக்கவும்::"
+msgstr "நீங்கள் கட்டளை வரியையும் பயன்படுத்தலாம். இயக்கு::"
 
 #: ../../userguide/dailyuse/libertine.rst:61
 msgid "Destroy a container"
