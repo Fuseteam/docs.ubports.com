@@ -24,7 +24,7 @@ source .venv/bin/activate
 git clone 'https://gitlab.com/ubports/docs/docs.ubports.com'
 cd docs.ubports.com
 # you will need LaTeX installed and available in your `PATH`
-make latexpdfja
+
 # For any errors (a few Unicode characters and `.svg` files you can press enter to continue generating the PDF anyway): note sometimes it may be necessary to clone the repo again (or somehow revert any changes made) to get the PDF to generate again
 ```
 
@@ -38,6 +38,8 @@ cd _static/
 for i in $(fg \.svg$); do rsvg-convert $i > ${i%.*}.png; rm -rf $i; done
 cd ..
 ```
+
+Invisibile font in codeblocks can be fixed by replacing all instances of `\PYG{n}` with `\PYG{b}` inside `_build/latex/UBportsdocs.tex`: if you decide to make this fix, you'll need to run only `make latex` instead of the full `make latexpdfja`. You then replace the file to correct it before running `make` in the same directory.
 
 ### Translations
 
