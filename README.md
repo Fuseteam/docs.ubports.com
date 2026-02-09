@@ -15,6 +15,17 @@ You can find ways to contribute [here](https://docs.ubports.com/en/latest/contri
 
 The documentation can be built by running `./build.sh` in the root of this repository. The script will also create a virtual build environment in `~/ubportsdocsenv` if none is present. After the build is complete, you can view the documentation by opening the html files in your favorite browser (eg. `firefox _build/html/index.html`).
 
+#### Creating a PDF
+
+```
+uv venv
+source .venv/bin/activate
+
+git clone 'https://gitlab.com/ubports/docs/docs.ubports.com'
+cd docs.ubports.com
+make pdflatexja
+```
+
 ### Translations
 
 The documentation can be [translated via weblate](https://docs.ubports.com/en/latest/contribute/translations.html).
