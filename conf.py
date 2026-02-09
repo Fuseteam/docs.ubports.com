@@ -75,7 +75,8 @@ gettext_compact = 'docs'  # Ensure that only one .pot file is generated instead 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md', '.local']
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'monokai'
+# pygments_style = 'monokai'
+pygments_style = 'default'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
