@@ -23,7 +23,9 @@ source .venv/bin/activate
 
 git clone 'https://gitlab.com/ubports/docs/docs.ubports.com'
 cd docs.ubports.com
-make pdflatexja
+# you will need LaTeX installed and available in your `PATH`
+make latexpdfja
+# For any errors (a few Unicode characters and `.svg` files you can press enter to continue generating the PDF anyway): note sometimes it may be necessary to clone the repo again (or somehow revert any changes made) to get the PDF to generate again
 ```
 
 ### Translations
