@@ -28,6 +28,17 @@ make latexpdfja
 # For any errors (a few Unicode characters and `.svg` files you can press enter to continue generating the PDF anyway): note sometimes it may be necessary to clone the repo again (or somehow revert any changes made) to get the PDF to generate again
 ```
 
+Errors related to `.svg` files can be bypassed by converting to `.png` with some basic scripting:
+
+```
+for i in $(find); do
+sed -i 's/\.svg/\.png/g' $i
+done
+cd _static/
+for i in $(fg \.svg$); do rsvg-convert $i > ${i%.*}.png; rm -rf $i; done
+cd ..
+```
+
 ### Translations
 
 The documentation can be [translated via weblate](https://docs.ubports.com/en/latest/contribute/translations.html).
