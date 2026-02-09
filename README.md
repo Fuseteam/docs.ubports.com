@@ -39,7 +39,7 @@ for i in $(fg \.svg$); do rsvg-convert $i > ${i%.*}.png; rm -rf $i; done
 cd ..
 ```
 
-Invisibile font in codeblocks can be fixed by replacing all instances of `\PYG{n}` with `\PYG{b}` inside `_build/latex/UBportsdocs.tex`: if you decide to make this fix, you'll need to run only `make latex` instead of the full `make latexpdfja`. You then replace the file to correct it before running `make` in the same directory.
+Invisibile font in codeblocks can be fixed by replacing all instances of `\PYG{n}` with `\PYG{b}` (and `\PYG{n+nb}` with `\PYG{b+nb}`, `\PYG{n+nd}` with `\PYG{b+nd}`) inside `_build/latex/UBportsdocs.tex`: if you decide to make this fix, you'll need to run only `make latex` instead of the full `make latexpdfja`. You then replace the file to correct it before running `make` in the same directory.
 
 ### Translations
 
