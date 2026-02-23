@@ -62,3 +62,4 @@ Other keys are documented in the component specific subpages.
    Repowerd
    HfdService
    Ayatana-indicator-power
+   Pulseaudio-module-droid-discover
