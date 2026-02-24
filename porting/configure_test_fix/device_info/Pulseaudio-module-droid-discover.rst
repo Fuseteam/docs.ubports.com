@@ -19,6 +19,9 @@ Due to how different device vendors implement Android Audio HAL differently,
 there's a need to pass arguments to those modules. These Deviceinfo keys allow
 you to do so.
 
+For information about what kinds of arguments are needed, see
+:doc:`the section "Sound" </porting/configure_test_fix/Sound>`.
+
 Available keys
 --------------
 
