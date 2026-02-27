@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-06 04:07+0000\n"
+"POT-Creation-Date: 2026-02-27 04:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,6 +103,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
@@ -7143,6 +7144,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Key"
@@ -7151,6 +7153,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Value(s)"
@@ -7183,6 +7186,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:23
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:23
 #: ../../porting/configure_test_fix/device_info/Mir.rst:63
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:34
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
 msgid "Examples"
 msgstr ""
@@ -7205,6 +7209,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:30
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:30
 #: ../../porting/configure_test_fix/device_info/Mir.rst:72
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:39
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:33
 msgid "Config file::"
 msgstr ""
@@ -7374,6 +7379,60 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:70
 msgid "Enabling partial updates for the server"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:4
+msgid "pulseaudio-module-droid-discover"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:6
+msgid "Overview of all pulseaudio-module-droid-discover keys::"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:14
+msgid "About pulseaudio-module-droid-discover"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:16
+msgid "pulseaudio-module-droid-discover is a module which loads the correct version of pulseaudio-module-droid and the related modules, depending on Android version. Due to how different device vendors implement Android Audio HAL differently, there's a need to pass arguments to those modules. These Deviceinfo keys allow you to do so."
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:23
+msgid "Available keys"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+msgid "PulseaudioModulesDroid_ExtraCardArgs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+msgid "Arguments to pass to pulseaudio-module-droid"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+msgid "Whitespace-separated list of arguments in the form of <key>=<value>"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+msgid "PulseaudioModulesDroid_ExtraGlueArgs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+msgid "Arguments to pass to pulseaudio-module-droid-glue"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+msgid "PulseaudioModulesDroid_ExtraHidlArgs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+msgid "Arguments to pass to pulseaudio-module-droid-hidl"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:36
+msgid "Device ``sample``'s Audio HAL requires the audio sampling rate of 48000 and needs to have ``hw_volume`` disabled."
 msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:4
