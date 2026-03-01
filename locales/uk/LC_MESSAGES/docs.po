@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-09 04:07+0000\n"
+"POT-Creation-Date: 2026-02-27 04:07+0000\n"
 "PO-Revision-Date: 2026-02-01 17:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
@@ -182,6 +182,7 @@ msgstr "Гілки Git"
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
@@ -685,42 +686,17 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:61
 msgid ""
-"**Status:** indicates the progress of the issue. This is primarily used to "
-"update GitLab's issue boards (see below)."
-msgstr ""
-"**Status:** показує хід розв'язання проблеми. В першу чергу використовується "
-"для оновлення панелі проблем GitLab (див. нижче)."
-
-#: ../../about/process/issue-tracking.rst:62
-msgid "**Status: in progress**: a developer is actively working on the issue."
-msgstr "**Status: in progress**: розробник активно працює над проблемою."
-
-#: ../../about/process/issue-tracking.rst:63
-msgid ""
-"**Status: blocked**: something else has to be solved outside of this issue "
-"before this issue can progress."
-msgstr ""
-"**Status: blocked**: перед продовженням потрібно розв'язати деякі питання "
-"зовні цієї проблеми."
-
-#: ../../about/process/issue-tracking.rst:64
-msgid "**Status: has MR**: a non-draft MR exists that will fix this issue."
-msgstr ""
-"**Status: has MR**: існує запит на злиття (MR), який розв'язує цю проблему."
-
-#: ../../about/process/issue-tracking.rst:65
-msgid ""
 "**Backport to: <branch name>**: used by the automation to automatically "
 "backport an MR to a stable release branches."
 msgstr ""
 "**Backport to: <branch name>**: використовується автоматизацією для "
 "автоматичних звітів щодо MR до гілок стабільного релізу."
 
-#: ../../about/process/issue-tracking.rst:66
+#: ../../about/process/issue-tracking.rst:62
 msgid "Miscellaneous labels"
 msgstr "Різні мітки"
 
-#: ../../about/process/issue-tracking.rst:67
+#: ../../about/process/issue-tracking.rst:63
 msgid ""
 "**Good first issue**: the report contains instructions or hints required to "
 "fix it. It is an excellent place for someone new to learn about the project "
@@ -730,7 +706,7 @@ msgstr ""
 "її виправлення. Це найкраще місце для новачків для ознайомлення з проєктом "
 "через виправлення справжніх проблем."
 
-#: ../../about/process/issue-tracking.rst:68
+#: ../../about/process/issue-tracking.rst:64
 msgid ""
 "**Hotfix**: This MR/issue classifies for being included/resolved as part of "
 "a point release of Ubuntu Touch"
@@ -738,7 +714,7 @@ msgstr ""
 "**Hotfix**: цей запит на злиття чи проблема розглядаються як можлива частина "
 "латки для релізу Ubuntu Touch"
 
-#: ../../about/process/issue-tracking.rst:71
+#: ../../about/process/issue-tracking.rst:67
 msgid ""
 "If a repository tracking issues locally defines it's own labels, they should "
 "be documented in the README.md."
@@ -746,11 +722,85 @@ msgstr ""
 "Якщо проблеми в трекері репозиторію позначені локально власними мітками, "
 "вони повинні бути задокументовані у README.md."
 
+#: ../../about/process/issue-tracking.rst:73
+msgid "Status"
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:75
+msgid ""
+"Status field is used to indicate the progress of the issue. We've defined "
+"the following statuses:"
+msgstr ""
+
 #: ../../about/process/issue-tracking.rst:77
+msgid ""
+"**New**: This is the status for a newly-opened issue. This indicates that "
+"this issue is untriaged; Developers and triagers are encouraged to triage "
+"issues, assigns kind and other labels, decide whether this issue warrants a "
+"milestone, etc. Alternatively, if an issue is a work item, a tracking issue, "
+"or something similar filed by developers, this status can be skipped."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:78
+msgid ""
+"**Ready to be worked on**: Indicates that this issue is triaged and can be "
+"worked on."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:81
+msgid "This status replaces default \"To do\" status."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:83
+#, fuzzy
+#| msgid ""
+#| "**Status: blocked**: something else has to be solved outside of this "
+#| "issue before this issue can progress."
+msgid ""
+"**Blocked**: Indicates that something else has to be solved outside of this "
+"issue before this issue can progress."
+msgstr ""
+"**Status: blocked**: перед продовженням потрібно розв'язати деякі питання "
+"зовні цієї проблеми."
+
+#: ../../about/process/issue-tracking.rst:84
+#, fuzzy
+#| msgid ""
+#| "**Status: in progress**: a developer is actively working on the issue."
+msgid ""
+"**In progress**: Indicates that a developer is actively working on the "
+"issue. The issue should be assigned to that developer."
+msgstr "**Status: in progress**: розробник активно працює над проблемою."
+
+#: ../../about/process/issue-tracking.rst:85
+#, fuzzy
+#| msgid "**Status: has MR**: a non-draft MR exists that will fix this issue."
+msgid "**Has MR**: A non-draft MR exists that will fix this issue."
+msgstr ""
+"**Status: has MR**: існує запит на злиття (MR), який розв'язує цю проблему."
+
+#: ../../about/process/issue-tracking.rst:86
+msgid "**Done**: The issue has been fixed in the ``main`` branch."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:87
+msgid ""
+"**Duplicate**: The issue is a duplicate. GitLab sets this status "
+"automatically when the issue is marked as a duplicate."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:88
+msgid ""
+"**Won't do**: The issue is closed for other reason than the issue being "
+"fixed. It should have \"Resolution: \\*\" labels to explain the reason (see "
+"above)."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:91
 msgid "Milestones"
 msgstr "Контрольні точки"
 
-#: ../../about/process/issue-tracking.rst:79
+#: ../../about/process/issue-tracking.rst:93
 msgid ""
 "Milestones are used to define which release an issue targets. At a given "
 "time, up to 3 milestones are open:"
@@ -758,14 +808,14 @@ msgstr ""
 "Контрольні точки використовуються для розуміння який реліз має проблему. "
 "Одночасно відкрито до трьох контрольних точок:"
 
-#: ../../about/process/issue-tracking.rst:81
+#: ../../about/process/issue-tracking.rst:95
 msgid ""
 "A milestone for the upcoming stable release e.g. 'Ubuntu Touch 24.04-1.1'."
 msgstr ""
 "Контрольна точка для найближчого стабільного релізу, напр., \"Ubuntu Touch "
 "24.04-1.1\"."
 
-#: ../../about/process/issue-tracking.rst:82
+#: ../../about/process/issue-tracking.rst:96
 msgid ""
 "A milestone for the in development major release e.g. 'Ubuntu Touch "
 "24.04-2.0'."
@@ -773,7 +823,7 @@ msgstr ""
 "Контрольна точка для старшої версії релізу у розробці, напр., \"Ubuntu Touch "
 "24.04-2.0\"."
 
-#: ../../about/process/issue-tracking.rst:83
+#: ../../about/process/issue-tracking.rst:97
 msgid ""
 "Once the in development release enters a stabilization phase, a milestone "
 "for the next major release (e.g. 'Ubuntu Touch 24.04-3.0') can be created."
@@ -782,7 +832,7 @@ msgstr ""
 "контрольну точку для наступної старшої версії випуску (напр., \"Ubuntu Touch "
 "24.04-3.0\")."
 
-#: ../../about/process/issue-tracking.rst:85
+#: ../../about/process/issue-tracking.rst:99
 msgid ""
 "Developers are encouraged to avoid assigning too many issues to a milestone; "
 "an overflowing milestone makes the milestone not as useful as it could be in "
@@ -792,11 +842,11 @@ msgstr ""
 "контрольних точок, оскільки перевантаження контрольних точок призводить до "
 "втрачання сенсу використання їх у відстеженні прогресу щодо випуску."
 
-#: ../../about/process/issue-tracking.rst:88
+#: ../../about/process/issue-tracking.rst:102
 msgid "Assignees"
 msgstr "Призначені"
 
-#: ../../about/process/issue-tracking.rst:90
+#: ../../about/process/issue-tracking.rst:104
 msgid ""
 "To make it transparent who's working on an issue, the developer should be "
 "assigned. This also allows the use of GitLab's global filtering as a type of "
@@ -806,7 +856,7 @@ msgstr ""
 "розробник. Це також дозволяє використовувати глобальний фільтр GitLab за "
 "списком завдань (TODO list)."
 
-#: ../../about/process/issue-tracking.rst:94
+#: ../../about/process/issue-tracking.rst:108
 msgid ""
 "Developers are encouraged to keep their list short and update the status of "
 "their issues."
@@ -814,17 +864,23 @@ msgstr ""
 "Розробникам варто тримати свої списки короткими, а статуси завдань "
 "актуальними."
 
-#: ../../about/process/issue-tracking.rst:97
+#: ../../about/process/issue-tracking.rst:111
 msgid "GitLab issue board"
 msgstr "Панель проблем GitLab"
 
-#: ../../about/process/issue-tracking.rst:99
+#: ../../about/process/issue-tracking.rst:113
+#, fuzzy
+#| msgid ""
+#| "We use GitLab's issue boards to visualize progress of issues in each "
+#| "milestone. The boards are kanban boards, where each column corresponds to "
+#| "each **Status:** label (in-progress, blocked, has MR), with additional "
+#| "columns for opened issues without **Status:** label (which indicate that "
+#| "the issue has not been started yet) and closed issues."
 msgid ""
 "We use GitLab's issue boards to visualize progress of issues in each "
 "milestone. The boards are kanban boards, where each column corresponds to "
-"each **Status:** label (in-progress, blocked, has MR), with additional "
-"columns for opened issues without **Status:** label (which indicate that the "
-"issue has not been started yet) and closed issues."
+"each defined status (new, ready to be worked on, blocked, in progress, has "
+"MR, done, duplicate, won't do)."
 msgstr ""
 "Ми використовуємо панелі проблем GitLab для візуалізації перебігу "
 "розв'язування проблем в кожній контрольній точці. Панелі — т.з. дошки канбан "
@@ -833,11 +889,11 @@ msgstr ""
 "відкритих проблем без мітки **Статус:** (тобто, проблеми ще не розглядалися) "
 "та окремо для закритих."
 
-#: ../../about/process/issue-tracking.rst:102
+#: ../../about/process/issue-tracking.rst:116
 msgid "GitLab epic"
 msgstr "Епос GitLab"
 
-#: ../../about/process/issue-tracking.rst:104
+#: ../../about/process/issue-tracking.rst:118
 msgid ""
 "We use GitLab's epics to denote a topic which might span single or multiple "
 "milestones/releases. This helps organizing some long-term goals which are "
@@ -847,11 +903,11 @@ msgstr ""
 "окремі або сукупні контрольні точки/випуски. Це допомагає організувати деякі "
 "довгострокові цілі, які занадто великі, щоб охопити все одразу."
 
-#: ../../about/process/issue-tracking.rst:107
+#: ../../about/process/issue-tracking.rst:121
 msgid "How labels, milestone etc. are being used?"
 msgstr "Як використовуються мітки, контрольні точки та інше?"
 
-#: ../../about/process/issue-tracking.rst:109
+#: ../../about/process/issue-tracking.rst:123
 msgid ""
 "Think of labels, milestone, and other fields as tools a person can use to "
 "efficiently communicate with the reporter, other developers, and interested "
@@ -861,7 +917,7 @@ msgstr ""
 "якими можна ефективно комунікувати із заявниками, іншими розробниками, "
 "іншими зацікавленими. Це можна використовувати у різний спосіб:"
 
-#: ../../about/process/issue-tracking.rst:111
+#: ../../about/process/issue-tracking.rst:125
 msgid ""
 "Because those fields show up in the issue list, it can give an at-a-glance "
 "info about the issue, helping developers to quickly understand the issue. "
@@ -874,7 +930,7 @@ msgstr ""
 "Наприклад, розробник може побачити проблему у списку, та якщо там буде мітка "
 "\"потребує обговорення\", він зможе вставити свої п'ять копійок."
 
-#: ../../about/process/issue-tracking.rst:112
+#: ../../about/process/issue-tracking.rst:126
 msgid ""
 "A field could be used to filter only interested issues. For example, a "
 "community member wanting to contribute into confirming issues can filter "
@@ -885,7 +941,7 @@ msgstr ""
 "відібрати їх з фільтром за міткою \"вимагає підтвердження\" (needs "
 "confirmation)."
 
-#: ../../about/process/issue-tracking.rst:113
+#: ../../about/process/issue-tracking.rst:127
 msgid ""
 "A field could also be used to filter out uninteresting issues. For example, "
 "when a developer want to look for an issue to work on, one would want to "
@@ -897,7 +953,7 @@ msgstr ""
 "можна скористатися фільтром з міткою \"Вид: процес\" (Kind: process) "
 "(використовується, напр., для проблем реєстрації процесів)."
 
-#: ../../about/process/issue-tracking.rst:115
+#: ../../about/process/issue-tracking.rst:129
 msgid ""
 "Since we don't always have someone to specifically triage issues and set "
 "those labels, developers are encouraged to set all those fields as they work "
@@ -4676,7 +4732,8 @@ msgstr "Уся довідка доступна з:::"
 #: ../../appdev/webapp/guide.rst:133
 #, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr "Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
+msgstr ""
+"Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
 
 #: ../../appdev/webapp/guide.rst:147
 #, fuzzy
@@ -9174,8 +9231,8 @@ msgstr ""
 "Touch <userguide/dailyuse/index>`, :doc:`розробки програм Ubuntu Touch "
 "<appdev/index>`, :doc:`портування Ubuntu Touch на пристроях Android <porting/"
 "introduction/index>` та додатково :doc:`спробуйте розібратися з системними "
-"компонентами <systemdev/index>`. Якщо Ви тут вперше, ознайомтеся з нашою "
-":doc:`передмовою <about/introduction>`."
+"компонентами <systemdev/index>`. Якщо Ви тут вперше, ознайомтеся з "
+"нашою :doc:`передмовою <about/introduction>`."
 
 #: ../../index.rst:12
 msgid ""
@@ -9309,7 +9366,8 @@ msgstr ""
 
 #: ../../porting/UpdatePortsFor2004.rst:41
 msgid "For GitLab CI-based ports: inspect your overlay in Android partitions"
-msgstr "Для портів, основаних на GitLab CI: перевірте зміни на розділах Android"
+msgstr ""
+"Для портів, основаних на GitLab CI: перевірте зміни на розділах Android"
 
 #: ../../porting/UpdatePortsFor2004.rst:43
 msgid ""
@@ -9515,7 +9573,8 @@ msgstr ""
 
 #: ../../porting/build_and_boot/Boot_debug.rst:35
 msgid "Once finished, you should be able to login with the following::"
-msgstr "Після завершення, Ви повинні мати можливість увійти, як написано нижче:"
+msgstr ""
+"Після завершення, Ви повинні мати можливість увійти, як написано нижче:"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:39
 msgid ""
@@ -10429,7 +10488,8 @@ msgstr "``deviceinfo_system_partition_size=\"4000M\"``"
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:283
 msgid ""
 "This config is only relevant for newer devices launched with UFS storage"
-msgstr "Це налаштування релевантне лише для нових пристроїв з флешсховищами UFS"
+msgstr ""
+"Це налаштування релевантне лише для нових пристроїв з флешсховищами UFS"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:285
 msgid "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
@@ -10918,9 +10978,10 @@ msgid ""
 "codename>_usrmerge.tar.xz ota`` This will download the rootfs, extract it "
 "and pack it into tarballs for our final script to create flashable images."
 msgstr ""
-"``./build/prepare-fake-ota.sh out/device_<your device's codename>"
-"_usrmerge.tar.xz ota`` Це завантажить rootfs, все розпакує та запакує до "
-"тарболів для нашого фінального скрипту, який збиратиме образи для прошивання."
+"``./build/prepare-fake-ota.sh out/device_<your device's "
+"codename>_usrmerge.tar.xz ota`` Це завантажить rootfs, все розпакує та "
+"запакує до тарболів для нашого фінального скрипту, який збиратиме образи для "
+"прошивання."
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:9
 msgid "Next up, run:"
@@ -11128,9 +11189,9 @@ msgid ""
 "please set both configurations (``android.conf`` as well as :ref:`DeviceInfo "
 "<DeviceInfo>`)."
 msgstr ""
-"Цей спосіб налаштування застарілий та буде замінений у майбутньому на "
-":ref:`DeviceInfo <DeviceInfo>`. Для підтримання міграції використайте обидві "
-"конфігурації (``android.conf`` та :ref:`DeviceInfo <DeviceInfo>`)."
+"Цей спосіб налаштування застарілий та буде замінений у майбутньому "
+"на :ref:`DeviceInfo <DeviceInfo>`. Для підтримання міграції використайте "
+"обидві конфігурації (``android.conf`` та :ref:`DeviceInfo <DeviceInfo>`)."
 
 #: ../../porting/configure_test_fix/Display.rst:29
 msgid "Determining the correct display settings"
@@ -12046,6 +12107,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Key"
@@ -12054,6 +12116,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Value(s)"
@@ -12089,6 +12152,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:23
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:23
 #: ../../porting/configure_test_fix/device_info/Mir.rst:63
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:34
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
 msgid "Examples"
 msgstr "Приклади"
@@ -12113,6 +12177,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:30
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:30
 #: ../../porting/configure_test_fix/device_info/Mir.rst:72
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:39
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:33
 msgid "Config file::"
 msgstr ""
@@ -12297,6 +12362,67 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:70
 msgid "Enabling partial updates for the server"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:4
+msgid "pulseaudio-module-droid-discover"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:6
+msgid "Overview of all pulseaudio-module-droid-discover keys::"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:14
+msgid "About pulseaudio-module-droid-discover"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:16
+msgid ""
+"pulseaudio-module-droid-discover is a module which loads the correct version "
+"of pulseaudio-module-droid and the related modules, depending on Android "
+"version. Due to how different device vendors implement Android Audio HAL "
+"differently, there's a need to pass arguments to those modules. These "
+"Deviceinfo keys allow you to do so."
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:23
+msgid "Available keys"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+msgid "PulseaudioModulesDroid_ExtraCardArgs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+msgid "Arguments to pass to pulseaudio-module-droid"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+msgid "Whitespace-separated list of arguments in the form of <key>=<value>"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+msgid "PulseaudioModulesDroid_ExtraGlueArgs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+msgid "Arguments to pass to pulseaudio-module-droid-glue"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+msgid "PulseaudioModulesDroid_ExtraHidlArgs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+msgid "Arguments to pass to pulseaudio-module-droid-hidl"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:36
+msgid ""
+"Device ``sample``'s Audio HAL requires the audio sampling rate of 48000 and "
+"needs to have ``hw_volume`` disabled."
 msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:4
@@ -17152,10 +17278,10 @@ msgstr ""
 "Installer — це зручний графічний інструмент, за допомогою якого можна "
 "встановити Ubuntu Touch на `підтримуваний пристрій <https://devices.ubuntu-"
 "touch.io/>`_ зі свого комп'ютера `Linux <https://snapcraft.io/ubports-"
-"installer>`_, `Mac <https://devices.ubuntu-touch.io/installer/? package=dmg>"
-"`_ або `Windows <https://devices.ubuntu-touch.io/installer/?package=exe>`_. "
-"Для більш досвідчених користувачів ми також маємо інструкції з ручної "
-"інсталяції для кожного пристрою `на сторінці пристроїв <https://"
+"installer>`_, `Mac <https://devices.ubuntu-touch.io/installer/? "
+"package=dmg>`_ або `Windows <https://devices.ubuntu-touch.io/installer/?"
+"package=exe>`_. Для більш досвідчених користувачів ми також маємо інструкції "
+"з ручної інсталяції для кожного пристрою `на сторінці пристроїв <https://"
 "devices.ubuntu-touch.io/>`_."
 
 #: ../../userguide/install.rst:7
@@ -17323,6 +17449,13 @@ msgid ""
 "manual installation instructions for your device `on the devices page "
 "<https://devices.ubuntu-touch.io/>`_."
 msgstr ""
+
+#~ msgid ""
+#~ "**Status:** indicates the progress of the issue. This is primarily used "
+#~ "to update GitLab's issue boards (see below)."
+#~ msgstr ""
+#~ "**Status:** показує хід розв'язання проблеми. В першу чергу "
+#~ "використовується для оновлення панелі проблем GitLab (див. нижче)."
 
 #~ msgid ""
 #~ "Since quality assurance depends heavily on community effort, issues are "

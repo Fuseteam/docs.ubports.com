@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-09 04:07+0000\n"
+"POT-Creation-Date: 2026-02-27 04:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -187,6 +187,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
@@ -611,48 +612,28 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:61
 msgid ""
-"**Status:** indicates the progress of the issue. This is primarily used to "
-"update GitLab's issue boards (see below)."
-msgstr ""
-
-#: ../../about/process/issue-tracking.rst:62
-msgid "**Status: in progress**: a developer is actively working on the issue."
-msgstr ""
-
-#: ../../about/process/issue-tracking.rst:63
-msgid ""
-"**Status: blocked**: something else has to be solved outside of this issue "
-"before this issue can progress."
-msgstr ""
-
-#: ../../about/process/issue-tracking.rst:64
-msgid "**Status: has MR**: a non-draft MR exists that will fix this issue."
-msgstr ""
-
-#: ../../about/process/issue-tracking.rst:65
-msgid ""
 "**Backport to: <branch name>**: used by the automation to automatically "
 "backport an MR to a stable release branches."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:66
+#: ../../about/process/issue-tracking.rst:62
 msgid "Miscellaneous labels"
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:67
+#: ../../about/process/issue-tracking.rst:63
 msgid ""
 "**Good first issue**: the report contains instructions or hints required to "
 "fix it. It is an excellent place for someone new to learn about the project "
 "by fixing a real issue."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:68
+#: ../../about/process/issue-tracking.rst:64
 msgid ""
 "**Hotfix**: This MR/issue classifies for being included/resolved as part of "
 "a point release of Ubuntu Touch"
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:71
+#: ../../about/process/issue-tracking.rst:67
 #, fuzzy
 msgid ""
 "If a repository tracking issues locally defines it's own labels, they should "
@@ -661,45 +642,107 @@ msgstr ""
 "Sorunları yerel olarak izleyen bir depo kendi etiketlerini tanımlıyorsa, "
 "README.md'de belgelenmelidir."
 
+#: ../../about/process/issue-tracking.rst:73
+msgid "Status"
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:75
+msgid ""
+"Status field is used to indicate the progress of the issue. We've defined "
+"the following statuses:"
+msgstr ""
+
 #: ../../about/process/issue-tracking.rst:77
+msgid ""
+"**New**: This is the status for a newly-opened issue. This indicates that "
+"this issue is untriaged; Developers and triagers are encouraged to triage "
+"issues, assigns kind and other labels, decide whether this issue warrants a "
+"milestone, etc. Alternatively, if an issue is a work item, a tracking issue, "
+"or something similar filed by developers, this status can be skipped."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:78
+msgid ""
+"**Ready to be worked on**: Indicates that this issue is triaged and can be "
+"worked on."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:81
+msgid "This status replaces default \"To do\" status."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:83
+msgid ""
+"**Blocked**: Indicates that something else has to be solved outside of this "
+"issue before this issue can progress."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:84
+msgid ""
+"**In progress**: Indicates that a developer is actively working on the "
+"issue. The issue should be assigned to that developer."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:85
+msgid "**Has MR**: A non-draft MR exists that will fix this issue."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:86
+msgid "**Done**: The issue has been fixed in the ``main`` branch."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:87
+msgid ""
+"**Duplicate**: The issue is a duplicate. GitLab sets this status "
+"automatically when the issue is marked as a duplicate."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:88
+msgid ""
+"**Won't do**: The issue is closed for other reason than the issue being "
+"fixed. It should have \"Resolution: \\*\" labels to explain the reason (see "
+"above)."
+msgstr ""
+
+#: ../../about/process/issue-tracking.rst:91
 msgid "Milestones"
 msgstr "Dönüm Noktaları"
 
-#: ../../about/process/issue-tracking.rst:79
+#: ../../about/process/issue-tracking.rst:93
 msgid ""
 "Milestones are used to define which release an issue targets. At a given "
 "time, up to 3 milestones are open:"
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:81
+#: ../../about/process/issue-tracking.rst:95
 msgid ""
 "A milestone for the upcoming stable release e.g. 'Ubuntu Touch 24.04-1.1'."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:82
+#: ../../about/process/issue-tracking.rst:96
 msgid ""
 "A milestone for the in development major release e.g. 'Ubuntu Touch "
 "24.04-2.0'."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:83
+#: ../../about/process/issue-tracking.rst:97
 msgid ""
 "Once the in development release enters a stabilization phase, a milestone "
 "for the next major release (e.g. 'Ubuntu Touch 24.04-3.0') can be created."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:85
+#: ../../about/process/issue-tracking.rst:99
 msgid ""
 "Developers are encouraged to avoid assigning too many issues to a milestone; "
 "an overflowing milestone makes the milestone not as useful as it could be in "
 "tracking progress of a release."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:88
+#: ../../about/process/issue-tracking.rst:102
 msgid "Assignees"
 msgstr "Atanılanlar"
 
-#: ../../about/process/issue-tracking.rst:90
+#: ../../about/process/issue-tracking.rst:104
 #, fuzzy
 #| msgid ""
 #| "To make it transparent who's working on an issue, the developer should be "
@@ -718,7 +761,7 @@ msgstr ""
 "mariogrip'e atanan her şey @ubports <https://github.com/search?"
 "utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>`_."
 
-#: ../../about/process/issue-tracking.rst:94
+#: ../../about/process/issue-tracking.rst:108
 msgid ""
 "Developers are encouraged to keep their list short and update the status of "
 "their issues."
@@ -726,42 +769,41 @@ msgstr ""
 "Geliştiricilerin listelerini kısa tutmaları ve durumlarının güncelliğini "
 "güncel tutmaları istenir."
 
-#: ../../about/process/issue-tracking.rst:97
+#: ../../about/process/issue-tracking.rst:111
 msgid "GitLab issue board"
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:99
+#: ../../about/process/issue-tracking.rst:113
 msgid ""
 "We use GitLab's issue boards to visualize progress of issues in each "
 "milestone. The boards are kanban boards, where each column corresponds to "
-"each **Status:** label (in-progress, blocked, has MR), with additional "
-"columns for opened issues without **Status:** label (which indicate that the "
-"issue has not been started yet) and closed issues."
+"each defined status (new, ready to be worked on, blocked, in progress, has "
+"MR, done, duplicate, won't do)."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:102
+#: ../../about/process/issue-tracking.rst:116
 msgid "GitLab epic"
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:104
+#: ../../about/process/issue-tracking.rst:118
 msgid ""
 "We use GitLab's epics to denote a topic which might span single or multiple "
 "milestones/releases. This helps organizing some long-term goals which are "
 "too large to implement at once."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:107
+#: ../../about/process/issue-tracking.rst:121
 msgid "How labels, milestone etc. are being used?"
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:109
+#: ../../about/process/issue-tracking.rst:123
 msgid ""
 "Think of labels, milestone, and other fields as tools a person can use to "
 "efficiently communicate with the reporter, other developers, and interested "
 "parties. They could be use in a few ways:"
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:111
+#: ../../about/process/issue-tracking.rst:125
 msgid ""
 "Because those fields show up in the issue list, it can give an at-a-glance "
 "info about the issue, helping developers to quickly understand the issue. "
@@ -770,14 +812,14 @@ msgid ""
 "cents."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:112
+#: ../../about/process/issue-tracking.rst:126
 msgid ""
 "A field could be used to filter only interested issues. For example, a "
 "community member wanting to contribute into confirming issues can filter "
 "only issues with \"needs confirmation\" label and start jumping in."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:113
+#: ../../about/process/issue-tracking.rst:127
 msgid ""
 "A field could also be used to filter out uninteresting issues. For example, "
 "when a developer want to look for an issue to work on, one would want to "
@@ -785,7 +827,7 @@ msgid ""
 "release)."
 msgstr ""
 
-#: ../../about/process/issue-tracking.rst:115
+#: ../../about/process/issue-tracking.rst:129
 msgid ""
 "Since we don't always have someone to specifically triage issues and set "
 "those labels, developers are encouraged to set all those fields as they work "
@@ -9819,6 +9861,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Key"
@@ -9827,6 +9870,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Value(s)"
@@ -9862,6 +9906,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:23
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:23
 #: ../../porting/configure_test_fix/device_info/Mir.rst:63
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:34
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
 msgid "Examples"
 msgstr "Örnekler"
@@ -9886,6 +9931,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:30
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:30
 #: ../../porting/configure_test_fix/device_info/Mir.rst:72
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:39
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:33
 msgid "Config file::"
 msgstr ""
@@ -10070,6 +10116,67 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:70
 msgid "Enabling partial updates for the server"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:4
+msgid "pulseaudio-module-droid-discover"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:6
+msgid "Overview of all pulseaudio-module-droid-discover keys::"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:14
+msgid "About pulseaudio-module-droid-discover"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:16
+msgid ""
+"pulseaudio-module-droid-discover is a module which loads the correct version "
+"of pulseaudio-module-droid and the related modules, depending on Android "
+"version. Due to how different device vendors implement Android Audio HAL "
+"differently, there's a need to pass arguments to those modules. These "
+"Deviceinfo keys allow you to do so."
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:23
+msgid "Available keys"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+msgid "PulseaudioModulesDroid_ExtraCardArgs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+msgid "Arguments to pass to pulseaudio-module-droid"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+msgid "Whitespace-separated list of arguments in the form of <key>=<value>"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+msgid "PulseaudioModulesDroid_ExtraGlueArgs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+msgid "Arguments to pass to pulseaudio-module-droid-glue"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+msgid "PulseaudioModulesDroid_ExtraHidlArgs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+msgid "Arguments to pass to pulseaudio-module-droid-hidl"
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:36
+msgid ""
+"Device ``sample``'s Audio HAL requires the audio sampling rate of 48000 and "
+"needs to have ``hw_volume`` disabled."
 msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:4
