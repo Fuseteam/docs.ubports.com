@@ -75,4 +75,4 @@ In the small navigation box at the bottom, you can select a few more languages w
    Click Packages <https://click.readthedocs.io/en/latest/index.html>
    Ubuntu UI-Toolkit <https://api-docs.ubports.com/>
    Clickable <https://clickable-ut.dev/en/latest/index.html>
-   Halium <https://docs.halium.org/en/latest/index.html>
+   Halium <https://docs.halium.org/en/latest/project/Scope.html>
