@@ -6,7 +6,16 @@ Preparations
 Not all devices can be made to run Ubuntu Touch. Research your target device before you start.
 
 To determine your device's specifications, search for it on `GSM Arena <https://www.gsmarena.com>`_ and/or `Device Specification <https://www.devicespecifications.com/en>`_.
-Refer to `Pick an Android target device in the Halium Porting Guide <http://docs.halium.org/en/latest/porting/first-steps.html#pick-an-android-target-device>`_ for further information on requirements and how to check if your device qualifies.
+
+We encourage the following specifications:
+
+Kernel
+    Ubuntu Touch currently requires a device with a Linux kernel version greater than or equal to 3.15. According to the `systemd v255 README <https://github.com/systemd/systemd/blob/v255/README#L32>`_, older device kernels are not compatible with systemd v255 or newer. You may learn your device's kernel version by finding "Kernel Version" in the About page of your Android settings. The kernel version can also be found in the ``Makefile`` at the top level of any Linux kernel source tree.
+
+RAM
+    At least 1GB is required for Operating System to work. 3GB or higher is recommended for a better end-user experience.
+Storage
+    At least 16GB of storage is required. Devices with less storage will likely not have enough space for a full Ubuntu Touch installation.
 
 .. _Locate-relevant-guides-and-other-information:
 
