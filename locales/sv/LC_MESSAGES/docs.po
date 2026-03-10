@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-27 04:07+0000\n"
-"PO-Revision-Date: 2026-03-01 13:09+0000\n"
+"PO-Revision-Date: 2026-03-11 01:09+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -608,7 +608,7 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:73
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: ../../about/process/issue-tracking.rst:75
 msgid ""
@@ -2974,7 +2974,7 @@ msgstr ""
 #: ../../appdev/platform/apparmor.rst:279
 #: ../../appdev/platform/apparmor.rst:289
 msgid "Usage: reserved"
-msgstr ""
+msgstr "Användningsområde: reserverat"
 
 #: ../../appdev/platform/apparmor.rst:52
 msgid ""
@@ -3562,7 +3562,7 @@ msgstr ""
 #: ../../appdev/webapp/guide.rst:21
 #, fuzzy
 msgid "For example:::"
-msgstr "Till exempel:::"
+msgstr "Exempelvis:::"
 
 #: ../../appdev/webapp/guide.rst:25
 msgid ""
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:10
 msgid "Documentation guidelines"
-msgstr ""
+msgstr "Guidelinjer för dokumentation"
 
 #: ../../contribute/documentation.rst:12
 msgid ""
@@ -10019,7 +10019,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:4
 msgid "pulseaudio-module-droid-discover"
-msgstr ""
+msgstr "pulseaudio-module-droid-discover"
 
 #: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:6
 msgid "Overview of all pulseaudio-module-droid-discover keys::"
