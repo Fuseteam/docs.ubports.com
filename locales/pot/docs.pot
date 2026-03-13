@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-27 04:07+0000\n"
+"POT-Creation-Date: 2026-03-13 04:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,7 +103,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
@@ -6936,27 +6936,91 @@ msgid "Sound"
 msgstr ""
 
 #: ../../porting/configure_test_fix/Sound.rst:4
-msgid "Ubuntu Touch uses Pulseaudio as sound server. Documentation can be found at `freedesktop.org <https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/>`_ and in the `Ubuntu manpages <https://manpages.ubuntu.com/manpages/focal/man1/pulseaudio.1.html>`_"
+msgid "Ubuntu Touch uses Pulseaudio as the sound server, sitting between the device's Audio HAL and applications and other system components. It's also responsible for controlling Audio HAL for voice calls and Bluetooth headset support."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Sound.rst:6
-msgid "The default configuration file used on Ubuntu Touch is ``touch.pa``. This file is located in the ``/etc/pulse`` directory on your device and it will need adjustment in order for sound to function properly. Extract the file and copy it to the ``ubuntu`` directory you created in your device repo (see :ref:`Overlay`)."
+#: ../../porting/configure_test_fix/Sound.rst:9
+msgid "Ubuntu Touch utilizes pulseaudio-modules-droid_ from SailfishOS to talk to Audio HAL. The module is responsible for:"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Sound.rst:8
-msgid "Locate the line::"
+#: ../../porting/configure_test_fix/Sound.rst:11
+msgid "Loading appropriate Audio HAL from vendor partition."
 msgstr ""
 
 #: ../../porting/configure_test_fix/Sound.rst:12
-msgid "and replace it with this::"
+msgid "Presenting audio output (sink) and input (source) to Pulseaudio."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Sound.rst:16
-msgid "At the end of the file, append this::"
+#: ../../porting/configure_test_fix/Sound.rst:13
+msgid "Configuring Audio HAL correctly for voice call, routing the voice to earpiece, speaker, or Bluetooth headset."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Sound.rst:23
-msgid "Your modified ``touch.pa`` file now needs to be included in your build. Follow :doc:`the overlay documentation </porting/configure_test_fix/Overlay>`."
+#: ../../porting/configure_test_fix/Sound.rst:18
+msgid "Configuring pulseaudio-modules-droid quirks"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:20
+msgid "Due to how different device vendors implement Android Audio HAL differently, sometimes you'll have to pass arguments to pulseaudio-modules-droid. On Ubuntu Touch, this is done by providing a `Deviceinfo </porting/configure_test_fix/device_info>`_ key ``PulseaudioModulesDroid_ExtraCardArgs``."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:22
+msgid "The full list of options can be found on the `pulseaudio-modules-droid's GitHub page`_. However, the following are a few options that might have to be added:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:24
+msgid "pulseaudio-modules-droid seems to incorrectly detect audio sampling rate on some devices. If the audio output sounds pitched and sped up/down, try adding ``rate=48000`` or ``rate=44100``."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:25
+msgid "``hw_volume=false`` can be used if changing volume seems to do nothing."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:26
+msgid "``use_legacy_stream_set_parameters=true`` can be tried if PulseAudio crashes on starting voicecall and/or voicecall doesn't produce sound."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:31
+msgid "Configure pulseaudio-modules-droid to communicate with Binder-based HALs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:33
+msgid "On a small number of devices, pulseaudio-modules-droid might not be able to load the Audio HAL directly but has to communicate to it over Binder. As pulseaudio-modules-droid has not been designed to communicate with Audio HAL over Binder, a workaround is needed."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:35
+msgid "To check if your device needs this workaround or not, run:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:41
+msgid "If ``audio.primary.default.so`` is the only output, this usually means the workaround is needed. Follow the following steps to implement the workaround:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:43
+msgid "\"Overlay\" ``audio.primary.default.so`` with a compatibility module by placing the symlink in the overlay. From the device source repository, run the command:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:51
+msgid "``audio.hidl_compat.default.so`` is a wrapper module which implements Audio HAL interface by connecting to the actual Audio HAL over Binder, thus allowing pulseaudio-modules-droid to connect to it."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:53
+msgid "Overlay ``init.disabled.rc`` so that Audio HAL process does not get disabled. Audio HAL process is disabled by default as it's expected that pulseaudio-modules-droid will be able to use Audio HAL directly. This is done by the following:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:54
+msgid "Get a copy of ``init.disabled.rc`` from the booted system. This can be done on booted system using ADB or SSH. For example:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:60
+msgid "Modify the file by commenting the sections which mentions ``audio-hal``. The entire section can be commented by placing ``#`` in front. For example:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:69
+msgid "Place the modified file into the overlay directory in the device source repository, at ``overlay/system/etc/init/init.disabled.rc``."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:72
+msgid "If your port has not migrated to \"overlaystore\" overlay method, you'll need the overlays in a different location. Contact `UBports porting group <https://t.me/ubports_porting>`_ for help."
 msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:4
@@ -7144,7 +7208,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Key"
@@ -7153,7 +7217,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Value(s)"
@@ -7186,7 +7250,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:23
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:23
 #: ../../porting/configure_test_fix/device_info/Mir.rst:63
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:34
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:37
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
 msgid "Examples"
 msgstr ""
@@ -7209,7 +7273,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:30
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:30
 #: ../../porting/configure_test_fix/device_info/Mir.rst:72
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:39
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:42
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:33
 msgid "Config file::"
 msgstr ""
@@ -7397,41 +7461,45 @@ msgstr ""
 msgid "pulseaudio-module-droid-discover is a module which loads the correct version of pulseaudio-module-droid and the related modules, depending on Android version. Due to how different device vendors implement Android Audio HAL differently, there's a need to pass arguments to those modules. These Deviceinfo keys allow you to do so."
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:23
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:22
+msgid "For information about what kinds of arguments are needed, see :doc:`the section \"Sound\" </porting/configure_test_fix/Sound>`."
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 msgid "Available keys"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:31
 msgid "PulseaudioModulesDroid_ExtraCardArgs"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:31
 msgid "Arguments to pass to pulseaudio-module-droid"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:31
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:32
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:33
 msgid "Whitespace-separated list of arguments in the form of <key>=<value>"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:32
 msgid "PulseaudioModulesDroid_ExtraGlueArgs"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:32
 msgid "Arguments to pass to pulseaudio-module-droid-glue"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:33
 msgid "PulseaudioModulesDroid_ExtraHidlArgs"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:33
 msgid "Arguments to pass to pulseaudio-module-droid-hidl"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:36
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:39
 msgid "Device ``sample``'s Audio HAL requires the audio sampling rate of 48000 and needs to have ``hw_volume`` disabled."
 msgstr ""
 
