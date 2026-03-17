@@ -13,6 +13,8 @@ The main action should be highlighted using ``theme.palette.normal.negative`` if
 
 Dialogs should resume actions, not ask a yes or no question. For example, the user has selected an option to delete a contact. Your dialog should ask, "Are you sure you would like to delete this contact?" The options should then be "Delete", a negative action colored in red, and "Cancel", colored in gray.
 
+The title should contain useful information. Continuing the contact deletion example, using the contact's name as the title makes it clear and easy to see what is being deleted. A good rule of thumb is to look at your dialog with and without the title - the latter should clearly be missing some data about what is happening.
+
 Examples of designs to avoid
 ----------------------------
 
