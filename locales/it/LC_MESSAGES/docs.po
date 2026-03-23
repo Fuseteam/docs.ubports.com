@@ -50,7 +50,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-27 04:07+0000\n"
+"POT-Creation-Date: 2026-03-20 04:09+0000\n"
 "PO-Revision-Date: 2026-02-01 17:01+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/ubports/doc-"
@@ -220,7 +220,7 @@ msgstr "Branch di Git"
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
@@ -4503,6 +4503,7 @@ msgstr ""
 "dati delle web app. Memoria locale"
 
 #: ../../appdev/webapp/guide.rst:169
+#: ../../porting/introduction/Preparations.rst:17
 msgid "Storage"
 msgstr ""
 
@@ -7215,11 +7216,20 @@ msgstr ""
 "eliminare questo contatto?\" Le opzioni dovrebbero quindi essere \"Delete\", "
 "un'azione negativa colorata in rosso, e \"Cancel\", colorata in grigio."
 
-#: ../../humanguide/app-layout/dialogs.rst:17
+#: ../../humanguide/app-layout/dialogs.rst:16
+msgid ""
+"The title should contain useful information. Continuing the contact deletion "
+"example, using the contact's name as the title makes it clear and easy to "
+"see what is being deleted. A good rule of thumb is to look at your dialog "
+"with and without the title - the latter should clearly be missing some data "
+"about what is happening."
+msgstr ""
+
+#: ../../humanguide/app-layout/dialogs.rst:19
 msgid "Examples of designs to avoid"
 msgstr "Esempi di design da evitare"
 
-#: ../../humanguide/app-layout/dialogs.rst:21
+#: ../../humanguide/app-layout/dialogs.rst:23
 msgid ""
 "Left: Download button uses old focus color, Cancel button (secondary action) "
 "uses old grey color."
@@ -7227,7 +7237,7 @@ msgstr ""
 "Sinistra: bottone di download usa il vecchio colore di focus, il bottone di "
 "cancellazione (azione secondaria) usa il vecchio colore grigio."
 
-#: ../../humanguide/app-layout/dialogs.rst:23
+#: ../../humanguide/app-layout/dialogs.rst:25
 msgid ""
 "Right: Dialog uses generic answers, both buttons colored as main actions "
 "with confusing color meaning: \"Will 'No' cause an irreversible action, and "
@@ -11150,38 +11160,138 @@ msgstr "suono"
 
 #: ../../porting/configure_test_fix/Sound.rst:4
 msgid ""
-"Ubuntu Touch uses Pulseaudio as sound server. Documentation can be found at "
-"`freedesktop.org <https://www.freedesktop.org/wiki/Software/PulseAudio/"
-"Documentation/>`_ and in the `Ubuntu manpages <https://manpages.ubuntu.com/"
-"manpages/focal/man1/pulseaudio.1.html>`_"
+"Ubuntu Touch uses Pulseaudio as the sound server, sitting between the "
+"device's Audio HAL and applications and other system components. It's also "
+"responsible for controlling Audio HAL for voice calls and Bluetooth headset "
+"support."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Sound.rst:6
+#: ../../porting/configure_test_fix/Sound.rst:9
 msgid ""
-"The default configuration file used on Ubuntu Touch is ``touch.pa``. This "
-"file is located in the ``/etc/pulse`` directory on your device and it will "
-"need adjustment in order for sound to function properly. Extract the file "
-"and copy it to the ``ubuntu`` directory you created in your device repo "
-"(see :ref:`Overlay`)."
+"Ubuntu Touch utilizes pulseaudio-modules-droid_ from SailfishOS to talk to "
+"Audio HAL. The module is responsible for:"
 msgstr ""
 
-#: ../../porting/configure_test_fix/Sound.rst:8
-msgid "Locate the line::"
+#: ../../porting/configure_test_fix/Sound.rst:11
+msgid "Loading appropriate Audio HAL from vendor partition."
 msgstr ""
 
 #: ../../porting/configure_test_fix/Sound.rst:12
-msgid "and replace it with this::"
+msgid "Presenting audio output (sink) and input (source) to Pulseaudio."
 msgstr ""
 
-#: ../../porting/configure_test_fix/Sound.rst:16
-msgid "At the end of the file, append this::"
-msgstr ""
-
-#: ../../porting/configure_test_fix/Sound.rst:23
+#: ../../porting/configure_test_fix/Sound.rst:13
 msgid ""
-"Your modified ``touch.pa`` file now needs to be included in your build. "
-"Follow :doc:`the overlay documentation </porting/configure_test_fix/"
-"Overlay>`."
+"Configuring Audio HAL correctly for voice call, routing the voice to "
+"earpiece, speaker, or Bluetooth headset."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:18
+#, fuzzy
+msgid "Configuring pulseaudio-modules-droid quirks"
+msgstr "Esecuzione di Ubuntu Touch"
+
+#: ../../porting/configure_test_fix/Sound.rst:20
+msgid ""
+"Due to how different device vendors implement Android Audio HAL differently, "
+"sometimes you'll have to pass arguments to pulseaudio-modules-droid. On "
+"Ubuntu Touch, this is done by providing a `Deviceinfo </porting/"
+"configure_test_fix/device_info>`_ key "
+"``PulseaudioModulesDroid_ExtraCardArgs``."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:22
+msgid ""
+"The full list of options can be found on the `pulseaudio-modules-droid's "
+"GitHub page`_. However, the following are a few options that might have to "
+"be added:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:24
+msgid ""
+"pulseaudio-modules-droid seems to incorrectly detect audio sampling rate on "
+"some devices. If the audio output sounds pitched and sped up/down, try "
+"adding ``rate=48000`` or ``rate=44100``."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:25
+msgid "``hw_volume=false`` can be used if changing volume seems to do nothing."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:26
+msgid ""
+"``use_legacy_stream_set_parameters=true`` can be tried if PulseAudio crashes "
+"on starting voicecall and/or voicecall doesn't produce sound."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:31
+msgid ""
+"Configure pulseaudio-modules-droid to communicate with Binder-based HALs"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:33
+msgid ""
+"On a small number of devices, pulseaudio-modules-droid might not be able to "
+"load the Audio HAL directly but has to communicate to it over Binder. As "
+"pulseaudio-modules-droid has not been designed to communicate with Audio HAL "
+"over Binder, a workaround is needed."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:35
+msgid "To check if your device needs this workaround or not, run:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:41
+msgid ""
+"If ``audio.primary.default.so`` is the only output, this usually means the "
+"workaround is needed. Follow the following steps to implement the workaround:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:43
+msgid ""
+"\"Overlay\" ``audio.primary.default.so`` with a compatibility module by "
+"placing the symlink in the overlay. From the device source repository, run "
+"the command:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:51
+msgid ""
+"``audio.hidl_compat.default.so`` is a wrapper module which implements Audio "
+"HAL interface by connecting to the actual Audio HAL over Binder, thus "
+"allowing pulseaudio-modules-droid to connect to it."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:53
+msgid ""
+"Overlay ``init.disabled.rc`` so that Audio HAL process does not get "
+"disabled. Audio HAL process is disabled by default as it's expected that "
+"pulseaudio-modules-droid will be able to use Audio HAL directly. This is "
+"done by the following:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:54
+msgid ""
+"Get a copy of ``init.disabled.rc`` from the booted system. This can be done "
+"on booted system using ADB or SSH. For example:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:60
+msgid ""
+"Modify the file by commenting the sections which mentions ``audio-hal``. The "
+"entire section can be commented by placing ``#`` in front. For example:"
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:69
+msgid ""
+"Place the modified file into the overlay directory in the device source "
+"repository, at ``overlay/system/etc/init/init.disabled.rc``."
+msgstr ""
+
+#: ../../porting/configure_test_fix/Sound.rst:72
+msgid ""
+"If your port has not migrated to \"overlaystore\" overlay method, you'll "
+"need the overlays in a different location. Contact `UBports porting group "
+"<https://t.me/ubports_porting>`_ for help."
 msgstr ""
 
 #: ../../porting/configure_test_fix/USBModed.rst:4
@@ -11450,7 +11560,7 @@ msgstr "Dimensioni del dispositivo"
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Key"
@@ -11459,7 +11569,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:16
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:16
 #: ../../porting/configure_test_fix/device_info/Mir.rst:20
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Value(s)"
@@ -11495,7 +11605,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:23
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:23
 #: ../../porting/configure_test_fix/device_info/Mir.rst:63
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:34
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:37
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:25
 msgid "Examples"
 msgstr "Esempi"
@@ -11520,7 +11630,7 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:30
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:30
 #: ../../porting/configure_test_fix/device_info/Mir.rst:72
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:39
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:42
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:33
 #, fuzzy
 msgid "Config file::"
@@ -11731,41 +11841,47 @@ msgid ""
 "Deviceinfo keys allow you to do so."
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:23
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:22
+msgid ""
+"For information about what kinds of arguments are needed, see :doc:`the "
+"section \"Sound\" </porting/configure_test_fix/Sound>`."
+msgstr ""
+
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 msgid "Available keys"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:31
 msgid "PulseaudioModulesDroid_ExtraCardArgs"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:31
 msgid "Arguments to pass to pulseaudio-module-droid"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:28
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:31
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:32
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:33
 msgid "Whitespace-separated list of arguments in the form of <key>=<value>"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:32
 msgid "PulseaudioModulesDroid_ExtraGlueArgs"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:29
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:32
 msgid "Arguments to pass to pulseaudio-module-droid-glue"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:33
 msgid "PulseaudioModulesDroid_ExtraHidlArgs"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:30
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:33
 msgid "Arguments to pass to pulseaudio-module-droid-hidl"
 msgstr ""
 
-#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:36
+#: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:39
 msgid ""
 "Device ``sample``'s Audio HAL requires the audio sampling rate of 48000 and "
 "needs to have ``hw_volume`` disabled."
@@ -12501,17 +12617,49 @@ msgstr ""
 msgid ""
 "To determine your device's specifications, search for it on `GSM Arena "
 "<https://www.gsmarena.com>`_ and/or `Device Specification <https://"
-"www.devicespecifications.com/en>`_. Refer to `Pick an Android target device "
-"in the Halium Porting Guide <http://docs.halium.org/en/latest/porting/first-"
-"steps.html#pick-an-android-target-device>`_ for further information on "
-"requirements and how to check if your device qualifies."
+"www.devicespecifications.com/en>`_."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:14
-msgid "Locate relevant guides and other information"
+#: ../../porting/introduction/Preparations.rst:10
+msgid "We encourage the following specifications:"
+msgstr ""
+
+#: ../../porting/introduction/Preparations.rst:12
+msgid "Kernel"
+msgstr ""
+
+#: ../../porting/introduction/Preparations.rst:13
+msgid ""
+"Ubuntu Touch currently requires a device with a Linux kernel version greater "
+"than or equal to 3.15. According to the `systemd v255 README <https://"
+"github.com/systemd/systemd/blob/v255/README#L32>`_, older device kernels are "
+"not compatible with systemd v255 or newer. You may learn your device's "
+"kernel version by finding \"Kernel Version\" in the About page of your "
+"Android settings. The kernel version can also be found in the ``Makefile`` "
+"at the top level of any Linux kernel source tree."
+msgstr ""
+
+#: ../../porting/introduction/Preparations.rst:15
+msgid "RAM"
 msgstr ""
 
 #: ../../porting/introduction/Preparations.rst:16
+msgid ""
+"At least 1GB is required for Operating System to work. 3GB or higher is "
+"recommended for a better end-user experience."
+msgstr ""
+
+#: ../../porting/introduction/Preparations.rst:18
+msgid ""
+"At least 16GB of storage is required. Devices with less storage will likely "
+"not have enough space for a full Ubuntu Touch installation."
+msgstr ""
+
+#: ../../porting/introduction/Preparations.rst:23
+msgid "Locate relevant guides and other information"
+msgstr ""
+
+#: ../../porting/introduction/Preparations.rst:25
 msgid ""
 "If your desired target device complies to the above, the next thing to do is "
 "locate the available guides and other documentation. This step will help you "
@@ -12519,7 +12667,7 @@ msgid ""
 "thing to look for is how to unlock your bootloader. (See below)."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:18
+#: ../../porting/introduction/Preparations.rst:27
 msgid ""
 "Head over to the `LineageOS Wiki <https://wiki.lineageos.org/>`_. Look up "
 "your device and read and bookmark the guides that are listed there. Try a "
@@ -12530,17 +12678,17 @@ msgid ""
 "hardware specifications."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:20
+#: ../../porting/introduction/Preparations.rst:29
 msgid ""
 "Another rich source of information is the `XDA Developers Forum <https://"
 "www.xda-developers.com/>`_."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:25
+#: ../../porting/introduction/Preparations.rst:34
 msgid "Unlock the bootloader"
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:27
+#: ../../porting/introduction/Preparations.rst:36
 msgid ""
 "Vendors usually provide their devices in a locked bootloader state. This is "
 "a kind of software \"seal\" intended to prevent modifications directly to "
@@ -12550,18 +12698,18 @@ msgid ""
 "you wish to install Ubuntu Touch on the device."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:29
+#: ../../porting/introduction/Preparations.rst:38
 msgid ""
 "Devices differ and there is no general method that covers all makes and "
 "models. Therefore, you need to check the aforementioned guides for "
 "instructions on how to unlock the bootloader of your particular device."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:34
+#: ../../porting/introduction/Preparations.rst:43
 msgid "Install TWRP recovery"
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:36
+#: ../../porting/introduction/Preparations.rst:45
 msgid ""
 "You need to install a custom recovery image on your device in order to "
 "handle formatting and flashing image files onto it. Head over to the `Team "
@@ -12570,18 +12718,18 @@ msgid ""
 "website."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:39
+#: ../../porting/introduction/Preparations.rst:48
 msgid ""
 "Some devices do not have a TWRP image available. While it is technically "
 "possible to port a device without a recovery, it makes the process a lot "
 "more complicated, especially when debugging early in the porting process."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:44
+#: ../../porting/introduction/Preparations.rst:53
 msgid "Recommendations for the host/build PC"
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:46
+#: ../../porting/introduction/Preparations.rst:55
 msgid ""
 "The remainder of this guide presumes you are using a build PC running Linux. "
 "Although high performance always is nice, stability and sufficient RAM and "
@@ -12593,7 +12741,7 @@ msgid ""
 "distribution, is often a good choice."
 msgstr ""
 
-#: ../../porting/introduction/Preparations.rst:48
+#: ../../porting/introduction/Preparations.rst:57
 msgid ""
 "Having completed the steps above, you are now ready to set up your build "
 "environment and start the porting process per se (next section)."
