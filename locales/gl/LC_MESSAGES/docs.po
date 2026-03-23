@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2025-09-19 13:55+0000\n"
+"PO-Revision-Date: 2026-03-23 12:40+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/gl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -12589,6 +12589,7 @@ msgstr ""
 "o dispositivo de destino antes de comezar."
 
 #: ../../porting/introduction/Preparations.rst:8
+#, fuzzy
 msgid ""
 "To determine your device's specifications, search for it on `GSM Arena "
 "<https://www.gsmarena.com>`_ and/or `Device Specification <https://"
