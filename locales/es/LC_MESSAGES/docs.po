@@ -45,7 +45,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-03-29 14:38+0000\n"
+"PO-Revision-Date: 2026-04-01 07:09+0000\n"
 "Last-Translator: Jarlaxle Baenre <drow@gmx.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/es/>\n"
@@ -87,7 +87,6 @@ msgstr ""
 "dispositivos."
 
 #: ../../about/introduction.rst:11
-#, fuzzy
 msgid ""
 "After Canonical suddenly announced `plans to terminate support for Ubuntu "
 "Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-"
@@ -100,7 +99,8 @@ msgstr ""
 "a Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-"
 "cloud-and-iot-rather-than-phone-and-convergence/>`_ en Abril de 2017, "
 "UBports y sus proyectos hermanos empezaron a trabajar el código abierto, a "
-"mantenerlo y a ampliar sus posibilidades para el futuro."
+"mantenerlo y a ampliar sus posibilidades para el futuro. Hoy, UBPorts es un "
+"grupo de voluntarios, formalizado como fundación sin ánimo de lucro."
 
 #: ../../about/introduction.rst:14
 msgid "About the Documentation"
@@ -181,9 +181,8 @@ msgid ""
 msgstr ""
 
 #: ../../about/process/branch-naming.rst:14
-#, fuzzy
 msgid "DEB Packages"
-msgstr "Paquetes Click"
+msgstr "Paquetes DEB"
 
 #: ../../about/process/branch-naming.rst:16
 msgid ""
@@ -214,11 +213,11 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:18
 #: ../../porting/configure_test_fix/device_info/index.rst:41
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ../../about/process/branch-naming.rst:21
 msgid "Corresponding APT archives"
-msgstr ""
+msgstr "Archivos APT correspondientes"
 
 #: ../../about/process/branch-naming.rst:23
 #: ../../about/process/security-vulnerabilities.rst:31
