@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-03-25 13:09+0000\n"
+"PO-Revision-Date: 2026-04-10 18:09+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -16141,7 +16141,7 @@ msgstr ""
 
 #: ../../userguide/advanceduse/ssh.rst:74
 msgid "Configuration"
-msgstr ""
+msgstr "Конфігурація"
 
 #: ../../userguide/advanceduse/ssh.rst:76
 msgid "you can enable ssh on boot by running the following command::"
