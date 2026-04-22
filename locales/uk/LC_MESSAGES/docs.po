@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-04-17 04:38+0000\n"
+"PO-Revision-Date: 2026-04-23 14:09+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -724,13 +724,15 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:73
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #: ../../about/process/issue-tracking.rst:75
 msgid ""
 "Status field is used to indicate the progress of the issue. We've defined "
 "the following statuses:"
 msgstr ""
+"Поле статусу потрібне для індикації перебігу опрацювання проблеми. Ми "
+"визначили наступні статуси:"
 
 #: ../../about/process/issue-tracking.rst:77
 msgid ""
@@ -740,54 +742,56 @@ msgid ""
 "milestone, etc. Alternatively, if an issue is a work item, a tracking issue, "
 "or something similar filed by developers, this status can be skipped."
 msgstr ""
+"**Нова**: Цей статус для щойно створених заявок з описом проблем. Він "
+"говорить про те, що проблема ще не оброблена; Розробники та інші, хто сортує "
+"звернення можуть їх залюбки розподіляти, призначати тип та інші мітки, "
+"вирішувати чи потрібні віхи з контрольними точками тощо. Крім того, якщо "
+"проблема є робочим елементом, проблемою відстеження чи чимось таким, поданим "
+"розробниками, цей статус можна пропустити."
 
 #: ../../about/process/issue-tracking.rst:78
 msgid ""
 "**Ready to be worked on**: Indicates that this issue is triaged and can be "
 "worked on."
 msgstr ""
+"**Готова до опрацювання**: Говорить про те, що проблема відсортована і з нею "
+"можна працювати."
 
 #: ../../about/process/issue-tracking.rst:81
 msgid "This status replaces default \"To do\" status."
-msgstr ""
+msgstr "Цей статус замінює стандартний \"To do\"."
 
 #: ../../about/process/issue-tracking.rst:83
-#, fuzzy
-#| msgid ""
-#| "**Status: blocked**: something else has to be solved outside of this "
-#| "issue before this issue can progress."
 msgid ""
 "**Blocked**: Indicates that something else has to be solved outside of this "
 "issue before this issue can progress."
 msgstr ""
-"**Status: blocked**: перед продовженням потрібно розв'язати деякі питання "
-"зовні цієї проблеми."
+"**Заблокована**: Говорить про те, що перед продовженням потрібно розв'язати "
+"деякі питання зовні цієї проблеми."
 
 #: ../../about/process/issue-tracking.rst:84
-#, fuzzy
-#| msgid ""
-#| "**Status: in progress**: a developer is actively working on the issue."
 msgid ""
 "**In progress**: Indicates that a developer is actively working on the "
 "issue. The issue should be assigned to that developer."
-msgstr "**Status: in progress**: розробник активно працює над проблемою."
+msgstr ""
+"**В роботі**: Говорить про те, що розробник активно працює над проблемою. "
+"Проблема повинна бути передана розробнику."
 
 #: ../../about/process/issue-tracking.rst:85
-#, fuzzy
-#| msgid "**Status: has MR**: a non-draft MR exists that will fix this issue."
 msgid "**Has MR**: A non-draft MR exists that will fix this issue."
-msgstr ""
-"**Status: has MR**: існує запит на злиття (MR), який розв'язує цю проблему."
+msgstr "**Має MR**: існує запит на злиття (MR), який розв'язує цю проблему."
 
 #: ../../about/process/issue-tracking.rst:86
 msgid "**Done**: The issue has been fixed in the ``main`` branch."
-msgstr ""
+msgstr "**Завершена**: Проблему розв'язано у гілці ``main``."
 
 #: ../../about/process/issue-tracking.rst:87
 msgid ""
 "**Duplicate**: The issue is a duplicate. GitLab sets this status "
 "automatically when the issue is marked as a duplicate."
 msgstr ""
+"**Дубль**: Проблема є дублікатом. GitLab призначає цей статус автоматично, "
+"коли проблема позначена як дублікат."
 
 #: ../../about/process/issue-tracking.rst:88
 msgid ""
@@ -795,6 +799,8 @@ msgid ""
 "fixed. It should have \"Resolution: \\*\" labels to explain the reason (see "
 "above)."
 msgstr ""
+"**Відкинута**: Проблема закрита з іншої причини, окрім вирішення. Повинна "
+"мати для пояснення позначку \"Розв'язання: \\*\" (див. вище)."
 
 #: ../../about/process/issue-tracking.rst:91
 msgid "Milestones"
@@ -869,13 +875,6 @@ msgid "GitLab issue board"
 msgstr "Панель проблем GitLab"
 
 #: ../../about/process/issue-tracking.rst:113
-#, fuzzy
-#| msgid ""
-#| "We use GitLab's issue boards to visualize progress of issues in each "
-#| "milestone. The boards are kanban boards, where each column corresponds to "
-#| "each **Status:** label (in-progress, blocked, has MR), with additional "
-#| "columns for opened issues without **Status:** label (which indicate that "
-#| "the issue has not been started yet) and closed issues."
 msgid ""
 "We use GitLab's issue boards to visualize progress of issues in each "
 "milestone. The boards are kanban boards, where each column corresponds to "
@@ -884,10 +883,8 @@ msgid ""
 msgstr ""
 "Ми використовуємо панелі проблем GitLab для візуалізації перебігу "
 "розв'язування проблем в кожній контрольній точці. Панелі — т.з. дошки канбан "
-"(kanban), де кожний стовпчик відповідає мітці **Статус:** (в процесі, "
-"заблоковано, має MR (запит на злиття)) з додатковими стовпчиками для "
-"відкритих проблем без мітки **Статус:** (тобто, проблеми ще не розглядалися) "
-"та окремо для закритих."
+"(kanban), де кожний стовпчик відповідає визначеному статусу (нова, готова до "
+"опрацювання, заблокована, має MR (запит на злиття)), завершена, відкинута)."
 
 #: ../../about/process/issue-tracking.rst:116
 msgid "GitLab epic"
@@ -4535,7 +4532,7 @@ msgid ""
 "launch command, as follows:::"
 msgstr ""
 "Часто хочеться обмежити користувачів самим сайтом. Тобто, якщо вебсайт це "
-"www.ubuntu.com, може бути корисним обмеження користувачів webapp сайтом "
+"www.ubuntu.com, може бути корисним обмежити користувачів webapp сайтом "
 "www.ubuntu.com. Це можна зробити, додавши маску посилання URL до команди "
 "запуску за зразком:::"
 
@@ -4593,9 +4590,9 @@ msgid ""
 msgstr ""
 "Всередині webapp можна обмежити доступ лише до деяких сторінок Вашого сайту. "
 "Це нескладно зробити за допомогою шаблонів. (Посилання на інші сторінки "
-"відкриються у браузері). Наприклад, наступне надає доступ до www.ubuntu.com/"
-"desktop/features та www.ubuntu.com/phone/features, але не дозволяє відкрити "
-"www.ubuntu.com/desktop та www.ubuntu.com/phone::"
+"відкриються у браузері). Наприклад, наступні налаштування надають доступ до "
+"www.ubuntu.com/desktop/features та www.ubuntu.com/phone/features, але не "
+"дозволяють відкрити www.ubuntu.com/desktop та www.ubuntu.com/phone::"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
@@ -4631,9 +4628,9 @@ msgid ""
 "\"developer\" is the subdomain: developer.ubuntu.com.) You can allow access "
 "to a single subdomain (and all of its subpages) with a pattern like this:::"
 msgstr ""
-"Декілька посилань мають один або декілька піддоменів. (Наприклад, у "
+"Різні посилання можуть мати один або декілька піддоменів. (Наприклад, у "
 "наступному прикладі \"developer\" є піддоменом у developer.ubuntu.com.) "
-"Можна дозволити доступ до окремого піддомена (та усіх його сторінок) з таким "
+"Можна дозволити доступ до окремого піддомена (та усіх його сторінок) таким "
 "шаблоном:::"
 
 #: ../../appdev/webapp/guide.rst:98
@@ -4656,7 +4653,7 @@ msgid ""
 msgstr ""
 "Якщо скласти все разом, отримаємо приклад, який починається з https://"
 "www.ubuntu.com та дозволяє відвідувати https://developer.ubuntu.com та усі "
-"сторінки сайту, і повертаємося до https://www.ubuntu.com з усіма "
+"сторінки сайту, а повертаємося до https://www.ubuntu.com з усіма "
 "сторінками:::"
 
 #: ../../appdev/webapp/guide.rst:107
@@ -4731,8 +4728,7 @@ msgstr "Уся довідка доступна з:::"
 #: ../../appdev/webapp/guide.rst:133
 #, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr ""
-"Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
+msgstr "Підказка: Для сумісності з Ubuntu працюють тільки наступні параметри.::"
 
 #: ../../appdev/webapp/guide.rst:147
 #, fuzzy
@@ -7571,6 +7567,11 @@ msgid ""
 "with and without the title - the latter should clearly be missing some data "
 "about what is happening."
 msgstr ""
+"Назва чи заголовок повинні містити корисну інформацію. Продовжуючи приклад "
+"видалення контакту, з використанням імені контакту як назви, можна чітко та "
+"просто побачити, що видаляється. Хорошим перевіреним правилом є дивитися на "
+"свій діалог із заголовком та без нього — в останньому випадку повинні бути "
+"явно відсутні деякі дані про те, що відбувається."
 
 #: ../../humanguide/app-layout/dialogs.rst:19
 msgid "Examples of designs to avoid"
@@ -11452,10 +11453,16 @@ msgid ""
 "For more information on the Chassis, see the freedesktop.org hostnamed "
 "specification."
 msgstr ""
+"``FORM_FACTOR`` описує форм-фактор пристрою. Це значення встановлюється в "
+"описі пристрою Chassis, який можна побачити з командою ``hostnamectl``. "
+"Можливі значення: ``handset``, ``tablet``, ``laptop`` та ``desktop``. "
+"Програми на кшалт галереї користуються цією інформацією для зміни свого "
+"функціоналу. Детальніше щодо Chassis, перегляньте специфікації hostnamed на "
+"freedesktop.org."
 
 #: ../../porting/configure_test_fix/Display.rst:63
 msgid "Native orientation"
-msgstr ""
+msgstr "Рідна орієнтація"
 
 #: ../../porting/configure_test_fix/Display.rst:65
 msgid ""
@@ -11466,10 +11473,16 @@ msgid ""
 "laptops, and desktops; and ``portrait``, which is usually used for phone "
 "handsets."
 msgstr ""
+"``NATIVE_ORIENTATION`` встановлює орієнтацію відповідно до вбудованого "
+"екрана пристрою. Це значення використовується, коли не працює або працює "
+"неправильно автоматична орієнтація або ж коли програма захоче зафіксувати "
+"рідну орієнтацію пристрою. Допутимі значення: ``landscape``, що зазвичай "
+"використовуються у планшетах, ноутбуках та ПК; та ``portrait``, яке зазвичай "
+"використовується для телефонів."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:5
 msgid "Filesystem encryption for Ubuntu Touch 24.04"
-msgstr ""
+msgstr "Шифрування файлової системи в Ubuntu Touch 24.04"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:7
 msgid ""
@@ -11477,16 +11490,22 @@ msgid ""
 "file basis using \"File Based Encryption\", in comparison to \"Full Disk "
 "Encryption\"."
 msgstr ""
+"Шифрування файлової системи у цьому документі стосується шифрування файлів "
+"\"кожного окремо\" з використанням \"Шифрування окремих файлів\" (\"File "
+"Based Encryption\") на противагу до \"Повного шифрування диска\" (\"Full "
+"Disk Encryption\")."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:9
 msgid ""
 "Encryption on Ubuntu Touch 24.04 is solved using `fscrypt. <https://"
 "github.com/google/fscrypt>`_"
 msgstr ""
+"Шифрування в Ubuntu Touch 24.04 реалізоване з `fscrypt. <https://github.com/"
+"google/fscrypt>`_"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:12
 msgid "Technical details"
-msgstr ""
+msgstr "Технічні подробиці"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:14
 msgid ""
@@ -11497,6 +11516,11 @@ msgid ""
 "needed. This is especially important with the Ubuntu Touch partitioning "
 "scheme."
 msgstr ""
+"Замість повного шифрування диска, наприклад, з LUKS, fscrypt активує "
+"шифрування для файлових систем ext4 та f2fs для окремих тек та ієрархій. "
+"Таким чином система може завантажитися до незашифрованої кореневої файлової "
+"системи, відкладаючи введення PIN-коду, поки це не буде потрібно. Це "
+"особливо важливо для схеми розділення Ubuntu Touch."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:16
 msgid ""
@@ -11507,6 +11531,13 @@ msgid ""
 "With filesystem keyring in use, things like Docker with access to the home "
 "directory work properly."
 msgstr ""
+"Це досягається шляхом завантаження користувацького ключа або в область "
+"(keyring) користувача (політика v1), або в область файлової системи "
+"(політика v2), за допомогою чого файлова система зможе потім шифрувати дані. "
+"Завантаження ключа в область користувача призводить до заборони дешифрування "
+"файлів для інших користувачів, навіть для root. Коли використовується "
+"область файлової системи, такі речі, як Docker з доступом до домашнього "
+"каталогу, працюють правильно."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:18
 msgid ""
