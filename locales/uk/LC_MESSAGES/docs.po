@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-04-23 14:09+0000\n"
+"PO-Revision-Date: 2026-04-24 16:09+0000\n"
 "Last-Translator: Serhii Horichenko <serhii@horichenko.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/uk/>\n"
@@ -11546,10 +11546,14 @@ msgid ""
 "means that the user might have potentially added multiple additional "
 "directories to encrypt."
 msgstr ""
+"Усі теки налаштовані користувачем з використанням захисту облікового запису "
+"(пінкодом чи паролем) будуть розблоковані під час завантаження, коли "
+"користувач розблокує свій пристрій. Це значить, що користувач потенційно міг "
+"би додати кілька додаткових каталогів для шифрування."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:21
 msgid "Creating an fscrypt.conf file"
-msgstr ""
+msgstr "Створення файлу fscrypt.conf"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:23
 msgid ""
@@ -11557,18 +11561,22 @@ msgid ""
 "be present. In order to support encryption on the device this is a must to "
 "overlay."
 msgstr ""
+"Для нового портованого пристрою необхідний попередньо налаштований файл `/"
+"etc/fscrypt.conf`. Для підтримки шифрування на пристрої це потрібно "
+"перекрити."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:25
 msgid "Run `sudo fscrypt setup` to generate a new file."
-msgstr ""
+msgstr "Для генерації нового файлу виконайте `sudo fscrypt setup`."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:27
+#, fuzzy
 msgid "The resulting configuration file might look like::"
-msgstr ""
+msgstr "В результаті новий файл повинен бути схожий на це::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:47
 msgid "use_fs_keyring_for_v1_policies configuration switch"
-msgstr ""
+msgstr "Перемикач конфігурації use_fs_keyring_for_v1_policies"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:49
 msgid ""
@@ -11577,16 +11585,22 @@ msgid ""
 "switch to `true` in order to have login unlock the home directory and store "
 "the key in the filesystem's keyring."
 msgstr ""
+"Адаптації пристрою, які постачаються з версією політики `\"2\"`, але хочуть "
+"зберегти підтримку версії шифрування `\"1\"` та мати можливість на вході "
+"розблокувати домашній каталог і зберегти ключ у наборі ключів файлової "
+"системи, накопичувач повинен мати для цього перемикача значення `true`."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:51
 msgid ""
 "Devices shipping with newer kernels (5.4 and above) don't require this to be "
 "changed, and can solely rely on version 2 of the encryption policies."
 msgstr ""
+"Пристрої, які постачаються з новими ядрами (5.4 та вище) працюють без таких "
+"змін та можуть залишатися виключно на політиці шифрування версії 2."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:54
 msgid "Device info configuration"
-msgstr ""
+msgstr "Налаштування інформації про пристрій"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:56
 msgid ""
@@ -11594,6 +11608,10 @@ msgid ""
 "within lomiri-system-settings, the DeviceInfo config switch "
 "`FilesystemEncryption` needs to be set to `true`."
 msgstr ""
+"Щоб переконання про завершену конфігурацію та розблокування інтерфейсу "
+"шифрування у lomiri-system-settings, потрібно встановити параметр "
+"`FilesystemEncryption` у налаштуванні інформації про пристрій у значення "
+"`true`."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:59
 #, fuzzy
@@ -11603,19 +11621,24 @@ msgstr "Зразок::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:72
 msgid "Only after this will you be able to set up encryption on your device."
-msgstr ""
+msgstr "Лише після цього Ви зможете на цьому пристрої налаштувати шифрування."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:75
 msgid "Kernel backports"
-msgstr ""
+msgstr "Зворотне портування (backports) ядер"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:77
+#, fuzzy
 msgid ""
 "If your device uses kernel version 4.14 or 4.19, then you can backport "
 "policy version 2 support from the `Android Common Kernel <https://"
 "android.googlesource.com/kernel/common/>`_ repository. To fetch sources from "
 "there, add the remote to your Git tree::"
 msgstr ""
+"Якщо у Вашого пристрою ядро версій 4.14 чи 4.19. Ви можете зробити зворотне "
+"портування версії 2 політики з репозиторію `Android Common Kernel <https://"
+"android.googlesource.com/kernel/common/>`_ Для отримання джерел звідти "
+"додайте їх до свого дерева Git::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:81
 msgid ""
@@ -11626,8 +11649,15 @@ msgid ""
 "which merges the commit `\"fscrypt: v2 encryption policy support\"` and "
 "related commits into the Common Kernel."
 msgstr ""
+"Простий спосіб для \"трансплантації\" політики версії 2 — це пошук "
+"найближчої загальної версії ядра з підтримкою версії 2 до версії ядра Вашого "
+"пристрою, перевірка окремих файлів у файловій структурі ядра, пов’язаних із "
+"fscrypt та підтримкою файлової системи. Для початку знайдіть коміт з "
+"коментарем `\"fscrypt: v2 encryption policy support\"` та відповідні коміти "
+"до загального ядра."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:83
+#, fuzzy
 msgid ""
 "For example, if the device kernel is using 4.19.81, according to the Common "
 "Kernel's Git history an appropriate source base would be `commit "
@@ -11636,20 +11666,34 @@ msgid ""
 "on version 4.19.78 and a close match to the rest of the source tree. Fetch "
 "those sources using::"
 msgstr ""
+"Наприклад, якщо пристрій з ядром 4.19.81, відповідно до історії Git "
+"загального ядра, відповідна основа джерела (source base) буде `commit "
+"c2ad33f0296a2528fd0bf4e96af0802dad0b1b27 <https://android.googlesource.com/"
+"kernel/common/+/c2ad33f0296a2528fd0bf4e96af0802dad0b1b27>`_, основана на "
+"версії 4.19.78 та близько збігається з іншим кодом у дереві. Отримайте цей "
+"джерельний код командою::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:87
+#, fuzzy
 msgid ""
 "After determining the right commit, check out `fs/crypto` and encryption-"
 "supporting filesystems at that commit (replace the commit hash in the "
 "example with your determined match)::"
 msgstr ""
+"Після визначення правильного коміту перевірте `fs/crypto` та файлові системи "
+"з підтримкою шифрування у цьому коміті (замініть цей хеш коміту у прикладі "
+"на свій, який Ви знайшли)::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:99
+#, fuzzy
 msgid ""
 "Should the compilation of your kernel fail at first with missing identifier "
 "errors, undefined references or missing files, compare with the Common "
 "Kernel and check out missing changes and dependencies individually::"
 msgstr ""
+"Якщо компіляція Вашого ядра за першим разом буде невдалою з помилками про "
+"відсутні ідентифікатори, невизначені посилання чи відсутні файли, порівняйте "
+"все із загальним ядром та перевірте відсутні зміни та залежності окремо::"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:112
 msgid ""
@@ -11663,6 +11707,14 @@ msgid ""
 "the new fscrypt, either by forward-porting missing functions or by simply "
 "removing them."
 msgstr ""
+"Якщо ядро Вашого пристрою має перехресні залежності між кодом шифрування, "
+"кодом файлових систем та іншими драйверами, Вам потрібно для розміщення "
+"нового fscrypt розірвати ці залежності ручними змінами коду. Наприклад, на "
+"пристроях Qualcomm драйвер `\"qseecom\"` може викликати функції, переписані "
+"ручними змінами (checkout), і Вам доведеться доповнити ті відсутні функції у "
+"своїй адаптації. У ядрі з активованим `\"sdcardfs\"` для роботи з новим "
+"fscrypt потрібно адаптувати драйвер sdcardfs або через портування відсутніх "
+"функцій або просто через видалення їх."
 
 #: ../../porting/configure_test_fix/Lomiri.rst:4
 msgid "Lomiri - the graphical UI"
