@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-04-20 16:09+0000\n"
+"PO-Revision-Date: 2026-04-26 17:09+0000\n"
 "Last-Translator: libermax <libremax@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/fr/>\n"
@@ -230,7 +230,7 @@ msgstr "``devel-debian``"
 
 #: ../../about/process/branch-naming.rst:28
 msgid "Debian testing."
-msgstr "Tests de Debian."
+msgstr "Debian testing"
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
@@ -578,37 +578,33 @@ msgid ""
 msgstr ""
 
 #: ../../about/process/issue-tracking.rst:45
-#, fuzzy
-#| msgid "**question**: This issue is a support request or general question."
 msgid ""
 "**Kind: question**: This issue is a support request or general question. It "
 "should be directed to forums instead."
 msgstr ""
-"**question** : ce problème est une demande de soutien ou une question "
+"**Kind:question** : ce problème est une demande de soutien ou une question "
 "d’ordre général."
 
 #: ../../about/process/issue-tracking.rst:46
 msgid "**Needs:** describe some action that can/has to be done"
-msgstr ""
+msgstr "**Needs:** décrit une action qui peut/doit être effectuée"
 
 #: ../../about/process/issue-tracking.rst:47
 msgid ""
 "**Needs: help from community**: the maintainers currently don't have "
 "capacity to solve this issue and would like help from the community."
 msgstr ""
+"**Needs: help from community** : les responsables du projet n'ont "
+"actuellement pas les moyens de résoudre ce problème et sollicitent l'aide de "
+"la communauté."
 
 #: ../../about/process/issue-tracking.rst:48
-#, fuzzy
-#| msgid ""
-#| "**needs confirmation**: The bug needs confirmation and / or further "
-#| "detailing by affected users."
 msgid ""
 "**Needs: confirmation/more info**: the bug needs confirmation and / or "
 "further detailing by affected users."
 msgstr ""
-"**needs confirmation** (confirmation nécessaire) : le problème demande une "
-"confirmation et / ou un complément d'information par les utilisateurs "
-"concernés."
+"**needs: confirmation/more info** : le bogue demande une confirmation et / "
+"ou un complément d'information par les utilisateurs concernés."
 
 #: ../../about/process/issue-tracking.rst:49
 msgid ""
