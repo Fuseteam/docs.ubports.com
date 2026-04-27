@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-04-26 17:09+0000\n"
+"PO-Revision-Date: 2026-04-28 19:09+0000\n"
 "Last-Translator: libermax <libremax@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/fr/>\n"
@@ -572,10 +572,13 @@ msgstr ""
 "accronyme de Debian`_)."
 
 #: ../../about/process/issue-tracking.rst:44
+#, fuzzy
 msgid ""
 "**Kind: process**: this issue is a tracking issue for some process. For "
 "example, a process on releasing an Ubuntu Touch release."
 msgstr ""
+"**Kind: process** : ce type sert à suivre l'avancement d'un projet. Par "
+"exemple, un projet lié à la publication d'une version d'Ubuntu Touch."
 
 #: ../../about/process/issue-tracking.rst:45
 msgid ""
@@ -612,12 +615,19 @@ msgid ""
 "a feedback from author after a review. This is different from **Needs: "
 "confirmation/more info** which is intended to be used on an issue."
 msgstr ""
+"**Needs: feedback from author**: (Besoin : avis de l'auteur) utilisé pour "
+"signaler une demande de fusion qui nécessite l'avis de l'auteur après "
+"révision. Cela diffère de **Needs: confirmation/more info** (Besoin : "
+"confirmation/plus d'informations), qui est destiné à être utilisé sur un "
+"ticket."
 
 #: ../../about/process/issue-tracking.rst:50
 msgid ""
 "**Needs: discussion**: it is not clear how to solve this issue and further "
 "discussion is required."
 msgstr ""
+"**Needs: discussion**:(À discuter) la manière de résoudre ce problème n'est "
+"pas claire et une discussion plus approfondie s'impose."
 
 #: ../../about/process/issue-tracking.rst:51
 msgid ""
@@ -627,7 +637,7 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:52
 msgid "**Severity:** how severe is the issue."
-msgstr ""
+msgstr "**Severity:** (Gravité) quel est le degré de gravité du problème ?"
 
 #: ../../about/process/issue-tracking.rst:53
 msgid ""
@@ -756,7 +766,7 @@ msgstr ""
 
 #: ../../about/process/issue-tracking.rst:81
 msgid "This status replaces default \"To do\" status."
-msgstr ""
+msgstr "Ce statut remplace le statut par défaut « To Do » (À Faire)."
 
 #: ../../about/process/issue-tracking.rst:83
 msgid ""
@@ -17438,6 +17448,8 @@ msgid ""
 "Open a shell on your Ubuntu Touch device (remotely with ADB/SSH or locally "
 "with the terminal app)."
 msgstr ""
+"Ouvrez un terminal sur votre appareil Ubuntu Touch (à distance via ADB/SSH "
+"ou localement via l'application Terminal)."
 
 #: ../../userguide/dailyuse/waydroid.rst:24
 #, fuzzy
@@ -17471,10 +17483,12 @@ msgid ""
 "Run the following in your shell ``waydroid app install /home/phablet/"
 "Downloads/my-app.apk``"
 msgstr ""
+"Exécutez la commande suivante dans votre terminal ``waydroid app install /"
+"home/phablet/Downloads/my-app.apk``"
 
 #: ../../userguide/dailyuse/waydroid.rst:36
 msgid "Using an appstore in Waydroid"
-msgstr ""
+msgstr "Utilisation d'une boutique d'applications dans Waydroid"
 
 #: ../../userguide/dailyuse/waydroid.rst:38
 #, fuzzy
@@ -17494,6 +17508,8 @@ msgstr "F-Droid : https://f-droid.org/"
 #: ../../userguide/dailyuse/waydroid.rst:41
 msgid "Amazon Appstore: https://www.amazon.com/gp/mas/get-appstore/android"
 msgstr ""
+"Magasin d'applications Amazon : https://www.amazon.com/gp/mas/get-appstore/"
+"android"
 
 #: ../../userguide/dailyuse/waydroid.rst:43
 msgid ""
@@ -17502,30 +17518,40 @@ msgid ""
 "appstore and check for updates. Additionally you will have to authorize each "
 "app install or update as follows:"
 msgstr ""
+"Veuillez noter qu'en raison de la nature même de Waydroid, aucune de ces "
+"deux méthodes ne mettra automatiquement vos applications à jour. Vous devrez "
+"ouvrir manuellement la boutique d'applications et vérifier si des mises à "
+"jour sont disponibles. De plus, vous devrez autoriser chaque installation ou "
+"mise à jour d'application comme suit :"
 
 #: ../../userguide/dailyuse/waydroid.rst:45
 msgid "search for the app to install or update"
-msgstr ""
+msgstr "recherchez l'application à installer ou à mettre à jour"
 
 #: ../../userguide/dailyuse/waydroid.rst:46
 msgid "press the install or update button"
-msgstr ""
+msgstr "cliquez sur le bouton « Installer » ou « Mettre à jour »"
 
 #: ../../userguide/dailyuse/waydroid.rst:47
 msgid ""
 "wait for the download to finish, there will be a prompt to install the "
 "application/update"
 msgstr ""
+"attendez que le téléchargement soit terminé ; un message vous invitant à "
+"installer l'application ou la mise à jour s'affichera"
 
 #: ../../userguide/dailyuse/waydroid.rst:48
 msgid "press the install button on the above prompt"
-msgstr ""
+msgstr "appuyez sur le bouton « Installer » dans la fenêtre qui s'affiche"
 
 #: ../../userguide/dailyuse/waydroid.rst:50
 msgid ""
 "For more advanced users this could be remedied by building a custom waydroid "
 "image that ships with either appstore."
 msgstr ""
+"Pour les utilisateurs plus expérimentés, il est possible de résoudre ce "
+"problème en créant une image Waydroid personnalisée intégrant l'une ou "
+"l'autre de ces boutiques d'applications."
 
 #: ../../userguide/dailyuse/waydroid.rst:53
 msgid "How to uninstall apps"
@@ -17632,7 +17658,6 @@ msgid "Install Ubuntu Touch"
 msgstr "Installer Ubuntu Touch"
 
 #: ../../userguide/install.rst:4
-#, fuzzy
 msgid ""
 "Installing Ubuntu Touch is easy, and a lot of work has gone in to making the "
 "installation process less intimidating to the average user. The UBports "
@@ -17647,11 +17672,11 @@ msgstr ""
 "Installer Ubuntu Touch est facile, de gros efforts ont été faits pour rendre "
 "le processus d'installation moins intimidant pour les utilisateurs et les "
 "utilisatrices les moins techniques. L'installateur d'UBports est un bel "
-"outil graphique qui permet d'installer Ubuntu Touch sur un `appareil "
+"outil graphique qui permet d'installer Ubuntu Touch sur un`appareil "
 "compatible <https://devices.ubuntu-touch.io/>`_ à partir de votre ordinateur "
-"Linux <https://snapcraft.io/ubports-installer>`_, `Mac <https://"
-"devices.ubuntu-touch.io/installer/?package=dmg>` ou `Windows <https://"
-"devices.ubuntu-touch.io/installer/?package=exe>`. Pour les personnes plus "
+"`Linux <https://snapcraft.io/ubports-installer>`_, `Mac <https://"
+"devices.ubuntu-touch.io/installer/?package=dmg>`_ ou `Windows <https://"
+"devices.ubuntu-touch.io/installer/?package=exe>`_. Pour les personnes plus "
 "expérimentées, nous avons également des instructions d'installation manuelle "
 "pour chaque appareil `sur la page des appareils <https://devices.ubuntu-"
 "touch.io/>`_."
@@ -17728,7 +17753,6 @@ msgstr ""
 "en explorant Ubuntu Touch !"
 
 #: ../../userguide/install.rst:19
-#, fuzzy
 msgid ""
 "If you're an experienced android developer and want to help us bring Ubuntu "
 "Touch to more devices, visit the :doc:`porting section </porting/"
@@ -17736,7 +17760,7 @@ msgid ""
 msgstr ""
 "Si vous êtes un développeur ou une développeuse Android expérimenté(e) et "
 "que vous souhaitez nous aider à porter Ubuntu Touch sur d'autres appareils, "
-"visitez la :doc:` section de portage </porting/introduction>`."
+"visitez la :doc:`porting section </porting/introduction/index>`."
 
 #: ../../userguide/install.rst:22
 msgid ""
@@ -17746,6 +17770,13 @@ msgid ""
 "road. If the installer does not recognize your device, check the "
 "troubleshooting information below."
 msgstr ""
+"Veuillez **ne pas** lancer le programme d'installation avec ``sudo``. Il est "
+"prévu pour être exécuté en tant qu'utilisateur standard, et non en tant "
+"qu'administrateur. L'utilisation du programme d'installation avec sudo "
+"perturbera les droits d'accès dans les fichiers mis en cache par le "
+"programme et entraînera des problèmes par la suite. Si le programme "
+"d'installation ne reconnaît pas votre appareil, consultez les informations "
+"de dépannage ci-dessous."
 
 #: ../../userguide/install.rst:27
 msgid ""
@@ -17842,7 +17873,6 @@ msgid "Missing udev-rules"
 msgstr "Règles Udev manquantes"
 
 #: ../../userguide/install.rst:60
-#, fuzzy
 msgid ""
 "If the device is not detected on Linux and you are not using the snap "
 "package, then you might be missing some **udev-rules**."
