@@ -38,7 +38,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-04-28 19:10+0000\n"
+"PO-Revision-Date: 2026-04-29 13:45+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ca/>\n"
@@ -389,15 +389,15 @@ msgstr ""
 "MR>`` [1]_. Per exemple:"
 
 #: ../../about/process/branch-naming.rst:65
-#, fuzzy
 msgid ""
 "An MR numbered 100 made against the ``main`` branch of Git repository "
 "``lomiri`` (when the current Ubuntu LTS is ``noble``) will have APT archives "
 "named ``devel-noble_-_PR_lomiri_100`` *and* ``devel-debian_-_PR_lomiri_100``."
 msgstr ""
-"Un MR numerat 100 fet contra la branca  themain the del repositori Git  "
-"thelomiri. (quan l'actual Ubuntu LTS és  thenoble.) tindrà arxius APT "
-"anomenats .devel-noble-PRlomiri100. *and* .devel-debian-PRlomiri100.."
+"Un MR numerat 100 fet contra la branca ``main`` del repositori Git "
+"``lomiri`` (quan l'actual Ubuntu LTS és ``noble``) tindrà arxius APT "
+"anomenats ``devel-noble_-_PR_lomiri_100`` *i* ``devel-debian_-"
+"_PR_lomiri_100``."
 
 #: ../../about/process/branch-naming.rst:66
 #, fuzzy
@@ -411,11 +411,10 @@ msgstr ""
 "browser125.."
 
 #: ../../about/process/branch-naming.rst:68
-#, fuzzy
 msgid ""
 "The word ``PR`` stuck around from the time we hosted our code on GitHub."
 msgstr ""
-"La paraula  ThePR. es va mantenir des del moment en què vam allotjar el "
+"La paraula ``PR`` es va mantenir des del moment en què vam allotjar el "
 "nostre codi a GitHub."
 
 #: ../../about/process/index.rst:2
@@ -457,18 +456,16 @@ msgid "Where are bugs tracked?"
 msgstr "On se segueixen els errors?"
 
 #: ../../about/process/issue-tracking.rst:10
-#, fuzzy
 msgid ""
 "The primary issue tracker for Ubuntu Touch is the `ubports/development/"
 "ubuntu-touch GitLab project`_. This project tracks all system-level Ubuntu "
 "Touch issues, and serves as an entry point for users to report issues "
 "they've encountered."
 msgstr ""
-"El rastrejador principal de problemes d'Ubuntu Touch és el projecte  "
-"theubports/development/ubuntu-touch GitLab project. Aquest projecte fa un "
-"seguiment de tots els problemes d'Ubuntu Touch a nivell de sistema, i "
-"serveix com a punt d'entrada perquè els usuaris informin dels problemes que "
-"han trobat."
+"El rastrejador principal de problemes d'Ubuntu Touch és el projecte `ubports/"
+"development/ubuntu-touch GitLab project`_. Aquest projecte fa un seguiment "
+"de tots els problemes d'Ubuntu Touch a nivell de sistema, i serveix com a "
+"punt d'entrada perquè els usuaris informin dels problemes que han trobat."
 
 #: ../../about/process/issue-tracking.rst:12
 msgid ""
@@ -479,31 +476,28 @@ msgstr ""
 "d'incidències activats:"
 
 #: ../../about/process/issue-tracking.rst:14
-#, fuzzy
 msgid ""
 "Device-specific issues are tracked under each device's project under "
 "`ubports/porting`_ group."
 msgstr ""
 "Els problemes específics del dispositiu es rastregen sota el projecte de "
-"cada dispositiu sota el grup subports/porting.."
+"cada dispositiu sota el grup `ubports/porting`_ ."
 
 #: ../../about/process/issue-tracking.rst:15
-#, fuzzy
 msgid ""
 "Core applications under `ubports/development/apps`_ track their own issues."
 msgstr ""
-"Les aplicacions principals a .ubports/development/apps. fan un seguiment "
+"Les aplicacions principals a `ubports/development/apps`_ fan un seguiment "
 "dels seus propis problemes."
 
 #: ../../about/process/issue-tracking.rst:16
-#, fuzzy
 msgid ""
 "System issues can also be filed against each component under `ubports/"
 "development/core`_ directly as well, if it's clear which component is "
 "responsible for an issue."
 msgstr ""
 "Els problemes del sistema també es poden presentar contra cada component a "
-".ubports/development/core. directament, si està clar quin component és "
+"`ubports/development/core`_ directament, si està clar quin component és "
 "responsable d'un problema."
 
 #: ../../about/process/issue-tracking.rst:18
@@ -1156,23 +1150,21 @@ msgstr ""
 "solució estigui llesta:"
 
 #: ../../about/process/security-vulnerabilities.rst:11
-#, fuzzy
 msgid ""
 "Given a main repo, ensure that the ``<project>.secfix`` repo exists. If not, "
 "fork from the main project to the same namespace, but set the visibility to "
 "private."
 msgstr ""
-"Donat un dipòsit principal, assegureu-vos que el dipòsit  the<project>"
-".secfix. existeix. Si no, bifurca des del projecte principal al mateix espai "
-"de noms, però estableix la visibilitat a privat."
+"Donat un dipòsit principal, assegureu-vos que el dipòsit ``<project>"
+".secfix`` existeix. Si no, bifurca des del projecte principal al mateix "
+"espai de noms, però estableix la visibilitat a privat."
 
 #: ../../about/process/security-vulnerabilities.rst:13
-#, fuzzy
 msgid ""
 "The ``.secfix`` suffix will prevent CI from touching this repo, preventing "
 "the repo from leaking."
 msgstr ""
-"El sufix  The.secfix. evitarà que CI toqui aquest dipòsit, evitant que el "
+"El sufix ``.secfix`` evitarà que CI toqui aquest dipòsit, evitant que el "
 "dipòsit es filtri."
 
 #: ../../about/process/security-vulnerabilities.rst:15
@@ -1194,12 +1186,11 @@ msgstr ""
 "Després, empenyeu a aquesta branca des del vostre arbre local de Git."
 
 #: ../../about/process/security-vulnerabilities.rst:18
-#, fuzzy
 msgid ""
 "This MR will target the ``.secfix`` repo, NOT the main repo [1]_. This "
 "allows reviewing the patch to happen in private."
 msgstr ""
-"Aquest MR es dirigirà al dipòsit  the.secfix., NO al principal [1]. Això "
+"Aquest MR es dirigirà al dipòsit ``.secfix``, NO al principal [1]_. Això "
 "permet revisar el pegat en privat."
 
 #: ../../about/process/security-vulnerabilities.rst:20
@@ -2088,7 +2079,6 @@ msgstr ""
 "hem de gestionar aquest URL o URI a l'aplicació dirigida. Vegem com fer-ho:"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:100
-#, fuzzy
 msgid ""
 "In the main qml file, we need to add some code to know what to do with the "
 "dispatched URL. Let's check how Linphone app manages this adding a "
@@ -2097,19 +2087,18 @@ msgid ""
 "``UriHandler`` as a target."
 msgstr ""
 "En el fitxer qml principal, hem d'afegir algun codi per saber què fer amb "
-"l'URL enviat. Vegem com l'aplicació Linphone gestiona aquesta addició d'una  "
-"theconnexió al gestor URI <https://gitlab.com/ubports-linphone/linphone-"
-"simple/blob/master/qml/Main.qml#L212>. amb un paràmetre d'element Connexions "
-".UriHandler. com a objectiu."
+"l'URL enviat. Vegem com l'aplicació Linphone gestiona aquesta addició d'una "
+"`connexió al gestor URI <https://gitlab.com/ubports-linphone/linphone-simple/"
+"blob/master/qml/Main.qml#L212>`_ amb un paràmetre d'element Connexions "
+"``UriHandler`` com a objectiu."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:117
-#, fuzzy
 msgid ""
 "This code will manage an URI in the form ``linphone://sip:xxx@xxx.xx`` when "
 "the app is opened. But what do we need to do to handle this link when the "
 "app is closed?"
 msgstr ""
-"Aquest codi gestionarà un URI en el formulari  thelinphone://sip:xxx.xxx.xx. "
+"Aquest codi gestionarà un URI en el formulari ``linphone://sip:xxx@xxx.xx`` "
 "quan s'obri l'aplicació. Però, què hem de fer per gestionar aquest enllaç "
 "quan l'app està tancada?"
 
@@ -2124,13 +2113,12 @@ msgstr ""
 "Rebem una URL 2) Rebem més d'una URL"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:123
-#, fuzzy
 msgid ""
 "Let's check if ``Qt.application.arguments`` is not empty and if not, if any "
 "argument matches our URI format."
 msgstr ""
-"Comprovarem si .Qt.application.arguments. no està buit i si no, si qualsevol "
-"argument coincideix amb el nostre format URI."
+"Comprovarem si ``Qt.application.arguments`` no està buit i si no, si "
+"qualsevol argument coincideix amb el nostre format URI."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:143
 #, fuzzy
