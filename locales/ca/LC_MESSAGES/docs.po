@@ -38,7 +38,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-04-29 13:45+0000\n"
+"PO-Revision-Date: 2026-04-30 16:10+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ca/>\n"
@@ -47,7 +47,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 5.17.1\n"
 "Generated-By: Babel 2.5.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
@@ -239,7 +239,7 @@ msgid ""
 "Represents the latest development of Ubuntu Touch. All kinds of changes are "
 "allowed in this branch."
 msgstr ""
-"Representa l'últim desenvolupament d'Ubuntu Touch. En aquesta oficina es "
+"Representa l'últim desenvolupament d'Ubuntu Touch. En aquesta branca es "
 "permeten tot tipus de canvis."
 
 #: ../../about/process/branch-naming.rst:25
@@ -400,15 +400,13 @@ msgstr ""
 "_PR_lomiri_100``."
 
 #: ../../about/process/branch-naming.rst:66
-#, fuzzy
 msgid ""
 "An MR numbered 125 made against the ``ubports/24.6.x`` branch of Git "
 "repository ``morph-browser`` will have an APT archive named ``24.6.x_-"
 "_PR_morph-browser_125``."
 msgstr ""
-"Un MR numerat 125 fet contra la branca  theubports/24.6.x. del repositori "
-"Git .morph-browser. tindrà un arxiu APT anomenat  an24.6.x-PRmorph-"
-"browser125.."
+"Un MR numerat 125 fet contra la branca ``ubports/24.6.x`` del repositori Git "
+"``morph-browser`` tindrà un arxiu APT anomenat ``24.6.x-PRmorph-browser125``."
 
 #: ../../about/process/branch-naming.rst:68
 msgid ""
@@ -501,7 +499,6 @@ msgstr ""
 "responsable d'un problema."
 
 #: ../../about/process/issue-tracking.rst:18
-#, fuzzy
 msgid ""
 "GitLab allows showing `issues across the group`_, cross-project issue "
 "reference, and issue transfer between projects, making the exact project an "
@@ -509,7 +506,7 @@ msgid ""
 "in ubports/development/ubuntu-touch project, they can be moved to the "
 "appropriate project."
 msgstr ""
-"GitLab permet mostrar  theemesos a través del grup., referència d'emissió "
+"GitLab permet mostrar `issues across the group`_, referència d'emissió "
 "creuada i transferència d'emissió entre projectes, fent que el projecte "
 "exacte sigui menys important. Si un problema específic del port o del lloc "
 "web va acabar en un projecte d'ubports/desenvolupament/ubuntu-touch, es "
@@ -520,7 +517,6 @@ msgid "Labels"
 msgstr "Etiquetes"
 
 #: ../../about/process/issue-tracking.rst:29
-#, fuzzy
 msgid ""
 "All issues — even closed ones — should be labeled to allow use of GitLab's "
 "filtering. For example, these are `issues labeled 'Kind: enhancement' inside "
@@ -528,12 +524,10 @@ msgid ""
 "about searching and filtering."
 msgstr ""
 "Tots els problemes - fins i tot els tancats - s'haurien d'etiquetar per "
-"permetre l'ús del filtratge global del GitHub. Per exemple «aquests són tots "
-"els problemes etiquetats amb «enhancement» dins de  `@ubports <https://"
-"github.com/"
-"search?utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+label%3A%22feature+request%22&type=>"
-"`_. Consulteu les `Pàgines d'ajuda <https://help.github.com/articles/about-"
-"searching-on-github/>`__ per a més informació sobre la cerca i el filtratge."
+"permetre l'ús del filtratge global del GitHub. Per exemple aquests són tots "
+"els `problemes etiquetats amb «kind=enhancement» dins del grup ubports/"
+"developement`_ . Consulteu les `Pàgines d'ajuda del Gitlab`_ per a més "
+"informació sobre la cerca i el filtratge."
 
 #: ../../about/process/issue-tracking.rst:34
 msgid ""
@@ -586,13 +580,12 @@ msgstr ""
 "hem de netejar."
 
 #: ../../about/process/issue-tracking.rst:43
-#, fuzzy
 msgid ""
 "**Kind: FTBFS**: this issue describes a \"Fails To Build From Source\" issue "
 "(`an accronym from Debian`_)."
 msgstr ""
 "**Kind: FTBFS**: aquest problema descriu un problema de «Fails to Build From "
-"Source» ().un accrònim de Debian).)."
+"Source» (`un accrònim de Debian`_)."
 
 #: ../../about/process/issue-tracking.rst:44
 msgid ""
@@ -831,9 +824,8 @@ msgstr ""
 "**Ha MR**: Hi ha un MR que no és un projecte que solucionarà aquest problema."
 
 #: ../../about/process/issue-tracking.rst:86
-#, fuzzy
 msgid "**Done**: The issue has been fixed in the ``main`` branch."
-msgstr "**Fet**: El problema s'ha solucionat a la branca  themain.."
+msgstr "**Fet**: El problema s'ha solucionat a la branca ``main``."
 
 #: ../../about/process/issue-tracking.rst:87
 msgid ""
@@ -903,13 +895,6 @@ msgid "Assignees"
 msgstr "Assignats"
 
 #: ../../about/process/issue-tracking.rst:104
-#, fuzzy
-#| msgid ""
-#| "To make it transparent who's working on an issue, the developer should be "
-#| "assigned. This also allows the use of GitHub's global filtering as a type "
-#| "of TODO list. For example, `this is everything assigned to mariogrip in "
-#| "@ubports <https://github.com/search?"
-#| "utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>`_."
 msgid ""
 "To make it transparent who's working on an issue, the developer should be "
 "assigned. This also allows the use of GitLab's global filtering as a type of "
@@ -917,10 +902,7 @@ msgid ""
 msgstr ""
 "Per fer transparent qui està treballant en un problema, s'hauria d'assignar "
 "el desenvolupador. Això permet també usar el filtratge global de GItHub com "
-"una mena de llista de tasques pendents. Per exemple, `això és tot el que "
-"està assignat a mariogrip a @ubports <https://github.com/"
-"search?utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports+assignee%3Amariogrip&type=>"
-"`_."
+"una mena de llista de tasques pendents."
 
 #: ../../about/process/issue-tracking.rst:108
 msgid ""
@@ -2121,7 +2103,6 @@ msgstr ""
 "qualsevol argument coincideix amb el nostre format URI."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:143
-#, fuzzy
 msgid ""
 "Remember to check that %u (to receive 1 URL) or %U (to receive 1 or more "
 "URLs) is present under the ``Exec`` line in the `.desktop <https://"
@@ -2129,26 +2110,24 @@ msgid ""
 "linphone.desktop.in#L7>`_ file of the app."
 msgstr ""
 "Recordeu comprovar que %u (per rebre 1 URL) o %U (per rebre 1 o més URL) "
-"està present sota la línia  theExec. al fitxer  the.desktop <https://"
-"gitlab.com/ubports-linphone/linphone-simple/-/blob/master/"
-"linphone.desktop.in#L7>. de l'aplicació."
+"està present sota la línia ``Exec`` al fitxer `desktop <https://gitlab.com/"
+"ubports-linphone/linphone-simple/-/blob/master/linphone.desktop.in#L7>`_ de "
+"l'aplicació."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:146
 msgid "Tools"
 msgstr "Eines"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:148
-#, fuzzy
 msgid ""
 "From command line, ``lomiri-url-dispatcher-dump`` command will give you the "
 "full list of registered protocol schemes and their corresponding app."
 msgstr ""
-"Des de la línia de comandes, l'ordre ,lomiri-url-dispatcher-dump. us donarà "
-"la llista completa dels esquemes de protocol registrats i la seva aplicació "
-"corresponent."
+"Des de la línia de comandes, l'ordre ``lomiri-url-dispatcher-dump`` us "
+"donarà la llista completa dels esquemes de protocol registrats i la seva "
+"aplicació corresponent."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:150
-#, fuzzy
 msgid ""
 "Another usefull tool, but not installed by default on devices is ``lomiri-"
 "url-dispatcher-tools``, it allows you to simulate a call from a third party "
@@ -2156,18 +2135,17 @@ msgid ""
 "youtube webapp."
 msgstr ""
 "Una altra eina útil, però no instal·lada per defecte en dispositius és "
-".lomiri-url-dispatcher-tools., que permet simular una trucada des d'una "
-"aplicació de tercers. P. ex: .lomiri-url-dispatcher https://youtu.be/CIX-a-"
-"i6B1w. llançarà webapp youtube."
+"``lomiri-url-dispatcher-tools``, que permet simular una trucada des d'una "
+"aplicació de tercers. P. ex: ``lomiri-url-dispatcher https://youtu.be/CIX-a-"
+"i6B1w`` llançarà la webapp youtube."
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:152
-#, fuzzy
 msgid ""
 "To install, it make your partition writable (``sudo mount -o rw,remount /``) "
 "and install it via ``sudo apt install lomiri-url-dispatcher-tools``"
 msgstr ""
-"Per instal·lar, fa que la vostra partició es pugui escriure (,sudo mount -o "
-"rw,remount /)) i instal·lar-la a través de  andsudo apt install lomiri-url-"
+"Per instal·lar, fa que la vostra partició es pugui escriure (``sudo mount -o "
+"rw,remount /``) i instal·lar-la a través de ``sudo apt install lomiri-url-"
 "dispatcher-tools``"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:157
@@ -2175,15 +2153,14 @@ msgid "What happens if more than one app has the same URL type defined?"
 msgstr "Què passa si més d'una app té el mateix tipus d'URL definit?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:159
-#, fuzzy
 msgid ""
 "A very good question. What happens if we tap on a Twitter link? How is such "
 "a URL handled by the ``URLdispatcher`` as protocol ``http`` or the protocol "
 "``http://twitter``?"
 msgstr ""
 "Una molt bona pregunta. Què passa si toquem en un enllaç de Twitter? Com es "
-"gestiona aquesta URL pel  theURLdispatcher? com a protocol  thehttp? o el "
-"protocol  thehttp://twitter??"
+"gestiona aquesta URL pel ``URLdispatcher`` com a protocol ``http`` o el "
+"protocol ``http://twitter``?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:161
 msgid "What happens if two apps have the same defined protocol?"
@@ -2260,12 +2237,11 @@ msgstr ""
 "resources>.."
 
 #: ../../appdev/guides/index.rst:18
-#, fuzzy
 msgid ""
 "To get familiar with some more advanced concepts see the following sections:"
 msgstr ""
 "Per canviar la cadena de caràcters des de la línia d'ordres, useu l'opció "
-"següent:::"
+"següent:"
 
 #: ../../appdev/guides/index.rst:33
 msgid "Playground"
@@ -2422,14 +2398,12 @@ msgid "Update the policy version in the AppArmor file:"
 msgstr "Actualitza la versió de la política al fitxer AppArmor:"
 
 #: ../../appdev/guides/port-to-focal.rst:57
-#, fuzzy
 msgid "Desktop File"
-msgstr "fitxer ``.desktop``"
+msgstr "Fitxer desktop"
 
 #: ../../appdev/guides/port-to-focal.rst:59
-#, fuzzy
 msgid "Change `X-Ubuntu-Touch` to `X-Lomiri-Touch`:"
-msgstr "Canvia :X-Ubuntu-Touch: a :X-Lomiri-Touch::"
+msgstr "Canvia `X-Ubuntu-Touch` a `X-Lomiri-Touch`:"
 
 #: ../../appdev/guides/port-to-focal.rst:73
 msgid "Build Files"
@@ -2597,13 +2571,12 @@ msgstr ""
 "**pushexec** que reenviarà la notificació sense canviar res:"
 
 #: ../../appdev/guides/pushnotifications.rst:115
-#, fuzzy
 msgid ""
 "We also need to add this new files to the **CMakeLists.txt** and make the "
 "pushexec executable::"
 msgstr ""
-"També hem d'afegir aquests fitxers nous als **CMakeLists.txt** i fer que el "
-"pushexec sigui executable::"
+"També hem d'afegir aquests nous fitxers al **CMakeLists.txt** i fer que el "
+"pushexec sigui executable:"
 
 #: ../../appdev/guides/pushnotifications.rst:125
 msgid "Now the app is ready to receive and process push notifications!"
@@ -2809,9 +2782,8 @@ msgid "relative, and will be looked up in (a) the application's"
 msgstr "relatiu, i se cercarà a (a) les"
 
 #: ../../appdev/guides/pushnotifications.rst:0
-#, fuzzy
 msgid "``.local/share/<pkgname>``, and (b) standard xdg dirs."
-msgstr ",.local/share/<pkgname>,, i (b) directoris xdg estàndard."
+msgstr "``.local/share/<pkgname>``, i (b) directoris xdg estàndard."
 
 #: ../../appdev/guides/pushnotifications.rst:216
 msgid "vibrate"
@@ -2905,9 +2877,8 @@ msgid "are clickable and launch that URL. One use for this is using"
 msgstr "es pot fer clic i llançar aquest URL. Un ús per a això és l'ús"
 
 #: ../../appdev/guides/pushnotifications.rst:0
-#, fuzzy
 msgid "a URL like ``appid://com.ubuntu.developer.ralsina.hello``"
-msgstr "un URL com  aappid://com.ubuntu.developer.ralsina.hello``"
+msgstr "un URL com ``appid://com.ubuntu.developer.ralsina.hello``"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "which will switch to the app or launch it."
@@ -3090,16 +3061,14 @@ msgid "How can I use User Metrics in my application?"
 msgstr "Com puc utilitzar la Mètrica d'Usuari en la meva aplicació?"
 
 #: ../../appdev/guides/user-metrics.rst:22
-#, fuzzy
 msgid ""
 "All of the following information will be based on the code for `nCounter`_."
-msgstr "Tota la informació següent es basarà en el codi de  thenCounter.."
+msgstr "Tota la informació següent es basarà en el codi de `nCounter`_."
 
 #: ../../appdev/guides/user-metrics.rst:24
-#, fuzzy
 msgid "Your app's apparmor file must include ``usermetrics`` in the policy:"
 msgstr ""
-"El fitxer apparmor de la teva app ha d'incloure  theusermetrics the a la "
+"El fitxer apparmor de la teva app ha d'incloure ``usermetrics`` a la "
 "política:"
 
 #: ../../appdev/guides/user-metrics.rst:35
@@ -3148,9 +3117,8 @@ msgstr ""
 "Id mètric [dot] Nom de la variable [equals] Informació nova de la variable"
 
 #: ../../appdev/guides/user-metrics.rst:72
-#, fuzzy
 msgid "``metric.circleMetric = \"New Metric Message\"``"
-msgstr "metric.circleMetric   «New Metric Message»\""
+msgstr "``metric.circleMetric = \"Nou missatge de mètrica\"``"
 
 #: ../../appdev/guides/user-metrics.rst:74
 msgid "We then tell the lock screen to update the metric."
@@ -3165,27 +3133,24 @@ msgstr ""
 "format)"
 
 #: ../../appdev/guides/user-metrics.rst:78
-#, fuzzy
 msgid "``metric.update(0)``"
-msgstr "metricmetric.update(0)``"
+msgstr "``metric.update(0)``"
 
 #: ../../appdev/guides/user-metrics.rst:80
-#, fuzzy
 msgid ""
 "(Note: In this example, ``0`` is arbitrary since the metric value doesn't "
 "include a counter)"
 msgstr ""
-"(Nota: En aquest exemple, ,0, és arbitrari ja que el valor mètric no inclou "
-"un comptador)"
+"(Nota: En aquest exemple, ``0`` és arbitrari ja que el valor mètric no "
+"inclou un comptador)"
 
 #: ../../appdev/guides/user-metrics.rst:82
-#, fuzzy
 msgid ""
 "We have now updated the metric for today. When the time rolls over to "
 "tomorrow, the metric will be reset to whatever is in ``emptyFormat``."
 msgstr ""
 "Ara hem actualitzat la mètrica per avui. Quan el temps passi a demà, la "
-"mètrica es restablirà al que estigui a .emptyFormat.."
+"mètrica es restablirà al que estigui a ``emptyFormat``."
 
 #: ../../appdev/guides/user-metrics.rst:84
 msgid "For most apps, this defaults to 0 counts for messages, calls, etc."
@@ -3202,25 +3167,22 @@ msgid "User Metrics are made up of two \"formats\":"
 msgstr "Les Mètriques d'Usuari estan formades per dos \"formats\":"
 
 #: ../../appdev/guides/user-metrics.rst:91
-#, fuzzy
 msgid "metrics/messages for today (``format``)"
-msgstr "mètriques/missatges per avui ()format))"
+msgstr "mètriques/missatges per avui (``format``)"
 
 #: ../../appdev/guides/user-metrics.rst:92
-#, fuzzy
 msgid "metrics/messages for tomorrow (``emptyFormat``)"
-msgstr "mètriques/missatges per a demà ()emptyFormat))"
+msgstr "mètriques/missatges per a demà (``emptyFormat``)"
 
 #: ../../appdev/guides/user-metrics.rst:94
-#, fuzzy
 msgid ""
 "The value of ``emptyFormat`` is what displays on the lock screen when no "
 "value has been stored in ``format``. In order to display a new value of "
 "``format`` the metric must be updated."
 msgstr ""
-"El valor de  TheemptyFormat. és el que es mostra a la pantalla de bloqueig "
-"quan no s'ha emmagatzemat cap valor en .format.. Per tal de mostrar un valor "
-"nou de  theformat., s'ha d'actualitzar la mètrica."
+"El valor de ``emptyFormat`` és el que es mostra a la pantalla de bloqueig "
+"quan no s'ha emmagatzemat cap valor en ``format``. Per tal de mostrar un "
+"valor nou de ``format``, s'ha d'actualitzar la mètrica."
 
 #: ../../appdev/guides/user-metrics.rst:96
 msgid "There are two options for updating the metric:"
@@ -3231,17 +3193,16 @@ msgid "Set the metric to a specific amount:"
 msgstr "Estableix la mètrica a una quantitat específica:"
 
 #: ../../appdev/guides/user-metrics.rst:100
-#, fuzzy
 msgid ""
 "``metricID.update(x)`` (where x is a number of type `double` to set for a "
 "counter value). ``metricID`` is the ``id:`` specified in the Metric item. "
 "The counter value can be included in the ``format`` setting by using ``%1``. "
 "e.g. ``format: \"%1 buttons pressed today\"``"
 msgstr ""
-"ofmetricID.update(x)). (on x és un nombre de tipus  ofdouble). per a "
-"establir un valor de comptador). themetricID. és el  theid:. especificat a "
-"l'element Mètric. El valor del comptador es pot incloure a la configuració  "
-"theformat. utilitzant  The%1.. p. ex. :format: \"%1 botons premuts avui\"\""
+"``metricID.update(x))`` (on x és un nombre de tipus `double` per a establir "
+"un valor de comptador). ``metricID`` és el ``id:`` especificat a l'element "
+"Mètric. El valor del comptador es pot incloure a la configuració ``format`` "
+"utilitzant ``%1``. p. ex. ``format: \"%1 botons premuts avui``\""
 
 #: ../../appdev/guides/user-metrics.rst:102
 msgid "Increment the metric:"
@@ -3352,7 +3313,6 @@ msgid "Writable directories"
 msgstr "Directoris d'escriptura"
 
 #: ../../appdev/guides/writeable-dirs.rst:4
-#, fuzzy
 msgid ""
 "App confinement is part of the Ubuntu Touch security concept. Data can be "
 "exchanged between apps only according to the AppArmor policies, mainly using "
@@ -3362,8 +3322,8 @@ msgid ""
 msgstr ""
 "El confinament d'aplicacions forma part del concepte de seguretat d'Ubuntu "
 "Touch. Les dades només es poden intercanviar entre aplicacions d'acord amb "
-"les polítiques d'AppArmor, principalment utilitzant el :ref:.ContentHub "
-"<contenthub>.. Dit això, les aplicacions només poden llegir i escriure "
+"les polítiques d'AppArmor, principalment utilitzant el :ref:`ContentHub "
+"<contenthub>`. Dit això, les aplicacions només poden llegir i escriure "
 "fitxers que es troben en un dels tres directoris específics de l'aplicació "
 "explicats en aquesta guia."
 
@@ -3372,7 +3332,6 @@ msgid "Standard Paths"
 msgstr "Camins estàndard"
 
 #: ../../appdev/guides/writeable-dirs.rst:8
-#, fuzzy
 msgid ""
 "Besides the write access to the app directories explained below, the app can "
 "write debug messages into the app log file located at ``/home/phablet/.cache/"
@@ -3382,42 +3341,38 @@ msgid ""
 msgstr ""
 "A més de l'accés d'escriptura als directoris d'aplicacions explicats a "
 "continuació, l'aplicació pot escriure missatges de depuració al fitxer de "
-"registre d'aplicacions situat a  the/home/phablet/.cache/upstart/application-"
-"click-<fullappname><appname><version>.log.. Per a afegir missatges al fitxer "
-"de registre, utilitzeu les funcions  theDepuració Qt <https://doc.qt.io/qt-5/"
-"qdebug.html>.."
+"registre d'aplicacions situat a ``/home/phablet/.cache/upstart/application-"
+"click-<nom-complet-app>_<nom-app><versió>.log``. Per a afegir missatges al "
+"fitxer de registre, utilitzeu les funcions `Depuració Qt <https://doc.qt.io/"
+"qt-5/qdebug.html>`_."
 
 #: ../../appdev/guides/writeable-dirs.rst:11
 msgid "Config"
 msgstr "Configuració"
 
 #: ../../appdev/guides/writeable-dirs.rst:12
-#, fuzzy
 msgid "Path: ``/home/phablet/.config/<fullappname>/``"
-msgstr "Camí: :/home/phablet/.config/<fullappname>/:"
+msgstr "Camí: ``/home/phablet/.config/<fullappname>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:14
-#, fuzzy
 msgid ""
 "This is the place to store configurations files to. The music app for "
 "example stores its configuration to ``/home/phablet/.config/com.ubuntu.music/"
 "com.ubuntu.music.conf``."
 msgstr ""
 "Aquest és el lloc on emmagatzemar els fitxers de configuració. L'aplicació "
-"de música, per exemple, emmagatzema la seva configuració a ./home/phablet/"
-".config/com.ubuntu.music/com.ubuntu.music.conf.."
+"de música, per exemple, emmagatzema la seva configuració a ``/home/phablet/"
+".config/com.ubuntu.music/com.ubuntu.music.conf``."
 
 #: ../../appdev/guides/writeable-dirs.rst:17
 msgid "Cache"
 msgstr "Memòria cau"
 
 #: ../../appdev/guides/writeable-dirs.rst:18
-#, fuzzy
 msgid "Path: ``/home/phablet/.cache/<fullappname>/``"
-msgstr "Camí: :/home/phablet/.cache/<fullappname>/:"
+msgstr "Camí: ``/home/phablet/.cache/<fullappname>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:20
-#, fuzzy
 msgid ""
 "This is the place to cache data for later use. The cache is also used by the "
 "Content Hub. Files that have been shared with the music app for example can "
@@ -3425,8 +3380,8 @@ msgid ""
 msgstr ""
 "Aquest és el lloc on s'emmagatzemaran les dades per al seu ús posterior. La "
 "memòria cau també és utilitzada pel Content Hub. Els fitxers que s'han "
-"compartit amb l'aplicació de música, per exemple, es poden trobar a ./home/"
-"phablet/.cache/com.ubuntu.music/HubIncoming/.."
+"compartit amb l'aplicació de música, per exemple, es poden trobar a ``/home/"
+"phablet/.cache/com.ubuntu.music/HubIncoming/``."
 
 #: ../../appdev/guides/writeable-dirs.rst:23
 msgid ""
@@ -3446,32 +3401,29 @@ msgid "App data"
 msgstr "Dades de l'aplicació"
 
 #: ../../appdev/guides/writeable-dirs.rst:27
-#, fuzzy
 msgid "Path: ``/home/phablet/.local/share/<fullappname>/``"
-msgstr "Camí: :/home/phablet/.local/share/<fullappname>/:"
+msgstr "Camí: ``/home/phablet/.local/share/<fullappname>/``"
 
 #: ../../appdev/guides/writeable-dirs.rst:29
-#, fuzzy
 msgid ""
 "This is where your app stores any data. The music app for example stores its "
 "data bases to ``/home/phablet/.local/share/com.ubuntu.music/Databases/``."
 msgstr ""
 "Aquí és on la teva app emmagatzema qualsevol dada. L'aplicació de música, "
-"per exemple, emmagatzema les seves bases de dades a ./home/phablet/.local/"
-"share/com.ubuntu.music/Databases/.."
+"per exemple, emmagatzema les seves bases de dades a ``/home/phablet/.local/"
+"share/com.ubuntu.music/Databases/``."
 
 #: ../../appdev/guides/writeable-dirs.rst:33
 msgid "Using Standard Paths in C++"
 msgstr "Ús de camins estàndard en C++"
 
 #: ../../appdev/guides/writeable-dirs.rst:34
-#, fuzzy
 msgid ""
 "The Qt header ``QStandardPaths`` provides the app's writable locations in C+"
 "+:"
 msgstr ""
-"La capçalera Qt  TheQStandardPaths the proporciona les ubicacions "
-"d'escriptura de l'aplicació en C++:"
+"La capçalera Qt ``QStandardPaths`` proporciona les ubicacions d'escriptura "
+"de l'aplicació en C++:"
 
 #: ../../appdev/guides/writeable-dirs.rst:45
 msgid ""
@@ -3513,16 +3465,15 @@ msgstr ""
 "d'escriptura de l'aplicació en QML:"
 
 #: ../../appdev/guides/writeable-dirs.rst:72
-#, fuzzy
 msgid ""
 "Notice that ``QStandardPaths`` returns paths (``'/phablet/home/...'``), and "
 "QML ``StandardPaths`` returns urls (``'file:///phablet/home/...'``). This "
 "must be considered specially if the app is sharing location strings between "
 "QML and C++."
 msgstr ""
-"Adoneu-vos que ).QStandardPaths that retorna camins ().'/phablet/home/...').)"
-", i QML ).StandardPaths). retorna urls ().'file:///phablet/home/...').). "
-"Això s'ha de considerar especialment si l'aplicació està compartint cadenes "
+"Adoneu-vos que ``QStandardPaths`` retorna camins (``'/phablet/home/...'``), "
+"i QML ``StandardPaths`` retorna urls (``'file:///phablet/home/...'``). Això "
+"s'ha de considerar especialment si l'aplicació està compartint cadenes "
 "d'ubicació entre QML i C++."
 
 #: ../../appdev/index.rst:2
@@ -3542,11 +3493,9 @@ msgid "Building your first app should be as simple as:"
 msgstr "Construir la teva primera app hauria de ser tan senzill com:"
 
 #: ../../appdev/index.rst:13
-#, fuzzy
 msgid "`Install clickable <https://clickable-ut.dev/en/latest/install.html>`_"
 msgstr ""
-"`Clickable<https://click.readthedocs.io/en/latest/>`_ Interfície de la línia "
-"d'ordres"
+"`Instal·leu clickable <https://clickable-ut.dev/en/latest/install.html>`_"
 
 #: ../../appdev/index.rst:14
 msgid "Plug in your Ubuntu Touch device"
@@ -3557,9 +3506,8 @@ msgid "Enable developer mode in System Settings"
 msgstr "Habiliteu el mode de desenvolupador"
 
 #: ../../appdev/index.rst:16
-#, fuzzy
 msgid "Run ``clickable create``"
-msgstr "Executa  clicable create``"
+msgstr "Executeu ``clicable create``"
 
 #: ../../appdev/index.rst:17
 msgid "Choose \"QML Only\" from the list of app templates"
@@ -3574,9 +3522,8 @@ msgid "When the app has been generated, enter the newly created directory"
 msgstr "Quan s'hagi generat l'aplicació, entra al directori de nova creació"
 
 #: ../../appdev/index.rst:20
-#, fuzzy
 msgid "Run ``clickable``"
-msgstr "Clickable"
+msgstr "Executeu ``clickable``"
 
 #: ../../appdev/index.rst:22
 msgid "Voilà you have your first app running on Ubuntu Touch!"
@@ -3626,17 +3573,16 @@ msgstr ""
 "continuació, construeixes la teva app des de la línia d'ordres amb Clickable."
 
 #: ../../appdev/index.rst:44
-#, fuzzy
 msgid ""
 "Applications are shipped as a :ref:`click <click>` package and can be "
 "published on the official app store `OpenStore <https://open-store.io>`__. "
 "Note also that most apps in the OpenStore are open source and can serve as "
 "references and inspiration."
 msgstr ""
-"Les aplicacions s'envien com un paquet :ref:.clic <click> the i es poden "
-"publicar a la botiga oficial d'aplicacions  theOpenStore <https://open-"
-"store.io> the. Tingueu en compte també que la majoria d'aplicacions a "
-"l'OpenStore són de codi obert i poden servir de referències i inspiració."
+"Les aplicacions s'envien com un paquet :ref:`clic <click>` i es poden "
+"publicar a la botiga oficial d'aplicacions `OpenStore <https://open-store.io>"
+"`__. Tingueu en compte també que la majoria d'aplicacions a l'OpenStore són "
+"de codi obert i poden servir de referències i inspiració."
 
 #: ../../appdev/index.rst:47
 msgid "References and guides"
@@ -3656,15 +3602,15 @@ msgid ""
 "directly reach a larger audience."
 msgstr ""
 "Aquesta és una comunitat útil i acollidora i tot funciona millor en el "
-"treball en equip! Buscant altres desenvolupadors que puguin voler "
-"col·laborar amb tu a la teva app? Teniu preguntes que no es responen als "
-"documents o voleu xatejar amb altres desenvolupadors d'Ubuntu Touch? Uneix-"
-"te al nostre grup de Telegram UTUBports UT App Dev <https://t.me/"
-"UbuntuAppDevEN> the o xateja amb nosaltres al fòrum de desenvolupament "
-"d'aplicacions  theUBports <https://forums.ubports.com/category/35/app-"
-"development> the! També podeu consultar la nostra llista de :ref:.apps "
-"preinstal·lades <preinstalledapps>.. Les contribucions a aquestes són molt "
-"apreciades i arriben directament a un públic més gran."
+"treball en equip. Esteu buscant altres desenvolupadors que puguin voler "
+"col·laborar a la vostra app? Teniu preguntes que no es responen als "
+"documents o voleu xatejar amb altres desenvolupadors d'Ubuntu Touch? Uniu-"
+"vos al nostre grup de Telegram `UBports UT App Dev <https://t.me/"
+"UbuntuAppDevEN>`_ o xategeu amb nosaltres al `fòrum de desenvolupament "
+"d'aplicacions UBports <https://forums.ubports.com/category/35/app-"
+"development> `_. També podeu consultar la nostra llista de :ref:`apps "
+"preinstal·lades <preinstalledapps>`, `... <...>`_. Les contribucions a "
+"aquestes són molt apreciades i arriben directament a un públic més gran."
 
 #: ../../appdev/index.rst:64
 msgid "Maintainers wanted"
@@ -3730,22 +3676,20 @@ msgstr ""
 "QtQuick2 estàndard."
 
 #: ../../appdev/nativeapp/index.rst:13
-#, fuzzy
 msgid ""
 "You can use `Clickable <http://clickable.bhdouglass.com/en/latest/>`_ to "
 "facilitate Packaging, deploying, publishing and tests ."
 msgstr ""
-"`Clickable<https://click.readthedocs.io/en/latest/>`_ Interfície de la línia "
-"d'ordres"
+"Podeu fer servir `Clickable <https://click.readthedocs.io/en/latest/>`_ per "
+"ajudar a empaquetar, distribuir, publicar i provar."
 
 #: ../../appdev/nativeapp/index.rst:15
-#, fuzzy
 msgid ""
 "Check out informations about the platform and confinement model "
 "in :ref:`Platform <platform>` section"
 msgstr ""
 "Consulteu informació sobre la plataforma i el model de confinament a la "
-"secció :ref: thePlataforma <platform> the"
+"secció :ref:`Plataforma <platform>`"
 
 #: ../../appdev/platform/apparmor.rst:2
 msgid "AppArmor Policy Groups"
@@ -3810,13 +3754,12 @@ msgid "Usage: common"
 msgstr "Ús: comú"
 
 #: ../../appdev/platform/apparmor.rst:32
-#, fuzzy
 msgid ""
 "The accounts policy gives your app the permissions it needs to access the "
 "`Online Accounts API`_."
 msgstr ""
 "La política de comptes dóna permisos els permisos que li calen a la vostra "
-"aplicació per accedir a l'«API de comptes en línia»_."
+"aplicació per accedir a l'`API de comptes en línia`_."
 
 #: ../../appdev/platform/apparmor.rst:36
 msgid "audio"
@@ -4152,13 +4095,12 @@ msgid "Description: Can access the network"
 msgstr "Descripció: es pot accedir la xarxa"
 
 #: ../../appdev/platform/apparmor.rst:205
-#, fuzzy
 msgid ""
 "The networking policy group allows an app to contact network devices and use "
 "the `download manager`_."
 msgstr ""
 "El grup de polítiques de xarxes permet a una aplicació contactar amb "
-"dispositius de xarxa i utilitzar el  thedownload manager.."
+"dispositius de xarxa i utilitzar el `download manager`_."
 
 #: ../../appdev/platform/apparmor.rst:209
 msgid "nfc"
@@ -4244,9 +4186,8 @@ msgid "Description: Can access the sensors"
 msgstr "Descripció: es poden accedir els sensors"
 
 #: ../../appdev/platform/apparmor.rst:253
-#, fuzzy
 msgid "Allows apps to access `device sensors`_"
-msgstr "Permet a les aplicacions accedir al «sensors de dispositiu»_"
+msgstr "Permet a les aplicacions accedir al `sensors de dispositiu`_"
 
 #: ../../appdev/platform/apparmor.rst:257
 msgid "usermetrics"
@@ -4335,11 +4276,10 @@ msgid "Description: Can use the UbuntuWebview"
 msgstr "Descripció: Es pot usar l'UbuntuWebview"
 
 #: ../../appdev/platform/apparmor.rst:301
-#, fuzzy
 msgid "The webview policy group allows apps to embed a `web browser view`_."
 msgstr ""
 "El grup de polítiques de visualització web permet a les aplicacions "
-"incrustar una  Thevisualització del navegador web.."
+"incrustar una `visualització del navegador web`_."
 
 #: ../../appdev/platform/click.rst:4
 msgid "Click package"
@@ -4363,9 +4303,8 @@ msgstr ""
 "versió."
 
 #: ../../appdev/platform/click.rst:11
-#, fuzzy
 msgid "Example ``manifest.json`` file::"
-msgstr "Exemple de fitxer ``manifest.json``::"
+msgstr "Exemple de fitxer ``manifest.json``:"
 
 #: ../../appdev/platform/click.rst:28
 msgid "AppArmor profile policy file"
@@ -4393,9 +4332,8 @@ msgstr ""
 "icona mostrar a la pantalla d'inici, i algunes altres propietats."
 
 #: ../../appdev/platform/click.rst:34
-#, fuzzy
 msgid "Example of ``app.desktop``::"
-msgstr "Exemple d'`app.desktop``::"
+msgstr "Exemple d'``app.desktop``:"
 
 #: ../../appdev/platform/click.rst:44
 msgid "Non exhaustive list of properties:"
