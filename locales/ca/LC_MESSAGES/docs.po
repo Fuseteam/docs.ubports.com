@@ -38,7 +38,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-04-30 16:10+0000\n"
+"PO-Revision-Date: 2026-05-03 17:09+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ca/>\n"
@@ -3209,20 +3209,17 @@ msgid "Increment the metric:"
 msgstr "Incrementa la mètrica:"
 
 #: ../../appdev/guides/user-metrics.rst:104
-#, fuzzy
 msgid ""
 "``metricID.increment(x)`` (where x is the amount to add to the current "
 "counter)"
 msgstr ""
-"themetricID.increment(x) the (on x és la quantitat a afegir al comptador "
-"actual)"
+"``metricID.increment(x)`` (on x és la quantitat a afegir al comptador actual)"
 
 #: ../../appdev/guides/user-metrics.rst:106
-#, fuzzy
 msgid ""
 "The metric will reset back to the value stored in ``emptyFormat`` each day."
 msgstr ""
-"La mètrica es restablirà al valor emmagatzemat a  theemptyFormat. cada dia."
+"La mètrica es restablirà al valor emmagatzemat a ``emptyFormat`` cada dia."
 
 #: ../../appdev/guides/user-metrics.rst:108
 msgid ""
@@ -3279,7 +3276,6 @@ msgstr ""
 "Vegeu  SeeFluffyChat <https://gitlab.com/ChristianPauly/fluffychat>).)."
 
 #: ../../appdev/guides/user-metrics.rst:119
-#, fuzzy
 msgid ""
 "In the case of the `nCounter`_ app. I wanted to count the number of days, "
 "but since the metric \"resets\" each day, that presents a problem. I created "
@@ -3288,10 +3284,10 @@ msgid ""
 "This, however, nearly defeats the purpose of the metric entirely, other than "
 "having a neat stat reminder for the day."
 msgstr ""
-"En el cas de l'app  thenCounter.. Volia comptar el nombre de dies, però des "
-"que la mètrica es \"reinicia\" cada dia, això presenta un problema. He creat "
-"una solució temporal que actualitza la mètrica cada vegada que s'obre "
-"l'aplicació. Per tant, el ,emptyFormat. (predeterminat) indica a l'usuari "
+"En el cas de l'app `Counter`_. Volia comptar el nombre de dies, però des que "
+"la mètrica es «reinicia» cada dia, això presenta un problema. He creat una "
+"solució temporal que actualitza la mètrica cada vegada que s'obre "
+"l'aplicació. Per tant, l'``,emptyFormat`` (predeterminat) indica a l'usuari "
 "que obri l'aplicació. Això, però, gairebé derrota el propòsit de la mètrica "
 "per complet, a part de tenir un recordatori d'estat pur per al dia."
 
@@ -3589,7 +3585,6 @@ msgid "References and guides"
 msgstr "Referències"
 
 #: ../../appdev/index.rst:57
-#, fuzzy
 msgid ""
 "This is a helpful and welcoming community and everything works better in "
 "teamwork! Looking for other developers that might want to collaborate with "
@@ -3605,12 +3600,12 @@ msgstr ""
 "treball en equip. Esteu buscant altres desenvolupadors que puguin voler "
 "col·laborar a la vostra app? Teniu preguntes que no es responen als "
 "documents o voleu xatejar amb altres desenvolupadors d'Ubuntu Touch? Uniu-"
-"vos al nostre grup de Telegram `UBports UT App Dev <https://t.me/"
+"vos al nostre grup de Telegra `UBports UT App Dev <https://t.me/"
 "UbuntuAppDevEN>`_ o xategeu amb nosaltres al `fòrum de desenvolupament "
 "d'aplicacions UBports <https://forums.ubports.com/category/35/app-"
-"development> `_. També podeu consultar la nostra llista de :ref:`apps "
-"preinstal·lades <preinstalledapps>`, `... <...>`_. Les contribucions a "
-"aquestes són molt apreciades i arriben directament a un públic més gran."
+"development>`_. També podeu consultar la nostra llista de :ref:`preinstalled "
+"apps <preinstalledapps>`. Les contribucions d'aquest tipus són molt "
+"apreciades i arriben directament a un públic més gran."
 
 #: ../../appdev/index.rst:64
 msgid "Maintainers wanted"
@@ -4352,9 +4347,8 @@ msgid "Icon: Path to the icon to display"
 msgstr "Icona: camí a la icona a mostrar"
 
 #: ../../appdev/platform/click.rst:49
-#, fuzzy
 msgid "Terminal: ``false`` if will not run in terminal window"
-msgstr "Terminal: ``false``si no s'executarà a la finestra de terminal"
+msgstr "Terminal: ``false`` si no s'executarà a una finestra de terminal"
 
 #: ../../appdev/platform/click.rst:50
 msgid ""
@@ -4369,27 +4363,23 @@ msgid "X-Ubuntu-Touch: ``true`` to make the app visible"
 msgstr "X-Ubuntu-Touch: ``true`` per fer visible l'aplicació"
 
 #: ../../appdev/platform/click.rst:52
-#, fuzzy
 msgid "X-Ubuntu-XMir-Enable: ``true`` if your app is built for X"
 msgstr ""
-"X-Ubuntu-XMir-Enable: ``true``si la vostra aplicació està construïda sobre "
-"les X"
+"X-Ubuntu-XMir-Enable: ``true`` si la vostra aplicació està construïda per a X"
 
 #: ../../appdev/platform/click.rst:53
-#, fuzzy
 msgid ""
 "X-Ubuntu-Supported-Orientations: ``landscape`` or ``portrait`` to force your "
 "app start in landscape mode and portrait mode respectively."
 msgstr ""
-"Orientacions suportades per X-Ubuntu: .landscape. o  orportrait. per forçar "
-"l'inici de l'aplicació en mode paisatge i mode retrat, respectivament."
+"Orientacions suportades per X-Ubuntu: ``landscape`` o ``portrait`` per "
+"forçar l'inici de l'aplicació en mode paisatge i mode retrat, respectivament."
 
 #: ../../appdev/platform/click.rst:60
 msgid "Security and app isolation"
 msgstr "Seguretat i aïllament de les aplicacions"
 
 #: ../../appdev/platform/click.rst:62
-#, fuzzy
 msgid ""
 "All Ubuntu apps are confined respecting AppArmor access control mechanism "
 "(see `Application Confinement <https://wiki.ubuntu.com/SecurityTeam/"
@@ -4399,26 +4389,24 @@ msgid ""
 "groups are needed for the app or scope to function properly with an apparmor "
 "``.json`` file."
 msgstr ""
-"Totes les aplicacions i tots els lents de l'Ubuntu estan confinats "
-"respectant el mecanisme de control d'accés AppArmor (vegeu `Confinament de "
-"les aplicacions <https://wiki.ubuntu.com/SecurityTeam/Specifications/"
-"ApplicationConfinement#App_confinement_with_AppArmor>`_) , el que significa "
-"que sols tenen accés als seus propis recursos i estan aïllades d'altres "
-"aplicacions i parts del sistema. La persona desenvolupadora ha de declarar "
-"quins grups de política calen per a l'aplicació o per al lent per funcionar "
-"adequadament amb el fitxer ``.json``de l'apparmor."
+"Totes les aplicacions de l'Ubuntu estan confinades respectant el mecanismes "
+"de control d'accés AppAarmor (vegeu `Application Confinement <https://"
+"wiki.ubuntu.com/SecurityTeam/Specifications/"
+"ApplicationConfinement#App_confinement_with_AppArmor>`_) , cosa que "
+"significa que sols tenen accés als seus propis recursos i estan aïllades "
+"d'altres aplicacions i parts del sistema. Els desenvolupadors han de "
+"declarar quins grups de política són necessaris per a l'aplicació o "
+"agregador per funcionar adequadament amb el fitxer ``.json`` file."
 
 #: ../../appdev/platform/click.rst:64
-#, fuzzy
 msgid "Example ``apparmor.json`` file::"
-msgstr "Exemple de fitxer ``apparmor.json``::"
+msgstr "Exemple  de fitxer ``apparmor.json``:"
 
 #: ../../appdev/platform/click.rst:76
-#, fuzzy
 msgid "For a full list of available policy groups, see :doc:`apparmor`."
 msgstr ""
-"Per a obtenir una llista completa dels grups polítics disponibles, vegeu "
-":doc:.apparmor.."
+"Per a obtenir una llista completa dels grups de política disponibles, vegeu "
+":doc:`apparmor`."
 
 #: ../../appdev/platform/index.rst:4 ../../index.rst:70
 msgid "Platform"
@@ -4540,14 +4528,12 @@ msgid "Launching"
 msgstr "Llançament"
 
 #: ../../appdev/webapp/guide.rst:17
-#, fuzzy
 msgid "You can launch a webapp from the terminal with:::"
-msgstr "Podeu llançar una aplicació web des de la terminal amb:::"
+msgstr "Podeu llançar una aplicació web des de la terminal amb:"
 
 #: ../../appdev/webapp/guide.rst:21
-#, fuzzy
 msgid "For example:::"
-msgstr "Per exemple:::"
+msgstr "Per exemple:"
 
 #: ../../appdev/webapp/guide.rst:25
 msgid ""
@@ -4582,13 +4568,12 @@ msgstr ""
 "com arguments de la línia d'ordres:"
 
 #: ../../appdev/webapp/guide.rst:34
-#, fuzzy
 msgid ""
 "``--enable-back-forward`` Enable the display of the back and forward buttons "
 "in the toolbar (at the bottom of the webapp window)"
 msgstr ""
-"``--enable-back-forward``Activa la visualització dels botons enrere i "
-"endavant a la barra d'eines (al peu de la finestra de l'aplicació web)"
+"``--enable-back-forward`` Activa la visualització dels botons endavant i "
+"enrere a la barra d'eines (al peu de la finestra de la webapp)"
 
 #: ../../appdev/webapp/guide.rst:35
 msgid ""
@@ -4637,13 +4622,12 @@ msgid "Uncontained by default"
 msgstr "Sense confinament per defecte"
 
 #: ../../appdev/webapp/guide.rst:49
-#, fuzzy
 msgid ""
 "By default, there is no URL containment. Suppose you launch a webapp without "
 "any patters and only a starting URL like this:::"
 msgstr ""
 "Per defecte, no hi ha confinament d'URL. Suposeu que llenceu una aplicació "
-"web sense cap patró i sols una URL d'inici de la manera següent:::"
+"web sense cap patró i sols una URL d'inici de la manera següent:"
 
 #: ../../appdev/webapp/guide.rst:53
 msgid ""
@@ -4668,7 +4652,6 @@ msgid "Simple containment to the site"
 msgstr "Confinament simple al lloc"
 
 #: ../../appdev/webapp/guide.rst:60
-#, fuzzy
 msgid ""
 "One often wants to contain users to the site itself. That is, if the website "
 "is www.ubuntu.com, it may be useful to contain webapp users only to subpages "
@@ -4678,7 +4661,7 @@ msgstr ""
 "Sovint volem confinar els usuaris al propi lloc. És a dir, si la pàgina web "
 "és www.ubuntu.com, pot ser útil confinar els usuari web sol a subpàgines de "
 "www.ubuntu.com. Això es fa afegint un patró URL comodí a l'ordre de "
-"llançament, de la manera següent:::"
+"llançament, de la manera següent:"
 
 #: ../../appdev/webapp/guide.rst:64
 msgid "``--webappUrlPatterns=`` indicates a pattern is next"
@@ -4724,7 +4707,6 @@ msgid "More complex wildcard patterns"
 msgstr "Patrons de comodí més complexos"
 
 #: ../../appdev/webapp/guide.rst:76
-#, fuzzy
 msgid ""
 "You might want to limit access to only some subpages of your site from "
 "within the webapp. This is easy with wildcard patterns. (Links to other "
@@ -4737,14 +4719,13 @@ msgstr ""
 "enllaços a altres subpàgines s'obren al navegador.) Per exemple, el següent "
 "permet l'accés a www.ubuntu.com/desktop/features i www.ubuntu.com/phone/"
 "features mentre que no permet accés a www.ubuntu.com/desktop or "
-"www.ubuntu.com/phone::"
+"www.ubuntu.com/phone:"
 
 #: ../../appdev/webapp/guide.rst:82
 msgid "Multiple patterns"
 msgstr "Patrons múltiples"
 
 #: ../../appdev/webapp/guide.rst:84
-#, fuzzy
 msgid ""
 "You can use multiple patterns by separating them with a comma. For example, "
 "the following allows access only to www.ubuntu.com/desktop/features and "
@@ -4752,7 +4733,7 @@ msgid ""
 msgstr ""
 "Podeu usar patrons múltiples separant-los amb una coma. Per exemple, el "
 "següent permet accés sols a www.ubuntu.com/desktop/features and "
-"www.ubuntu.com/phone/features:::"
+"www.ubuntu.com/phone/features:"
 
 #: ../../appdev/webapp/guide.rst:88
 msgid ""
@@ -4767,7 +4748,6 @@ msgid "Adding a specific subdomain"
 msgstr "Addició d'un subdomini específic"
 
 #: ../../appdev/webapp/guide.rst:94
-#, fuzzy
 msgid ""
 "Many URLs have one or more subdomains. (For example, in the following, "
 "\"developer\" is the subdomain: developer.ubuntu.com.) You can allow access "
@@ -4775,10 +4755,9 @@ msgid ""
 msgstr ""
 "Molts URL tenen un o més subdominis. (Per exemple, al següent, “developer” "
 "és el subdomini: developer.ubuntu.com.) Podeu permetre accés a un subdomini "
-"únic (i totes les seves subpàgines) amb un patró com aquest:::"
+"únic (i totes les seves subpàgines) amb un patró com aquest:"
 
 #: ../../appdev/webapp/guide.rst:98
-#, fuzzy
 msgid ""
 "However, one usually wants the user to be able to navigate back to the "
 "starting URL (and its subpages). So, if the starting URL is https://"
@@ -4786,10 +4765,9 @@ msgid ""
 msgstr ""
 "Tanmateix, generalment volem que l'usuari sigui capaç de tornar a la URL "
 "d'inici (i les seves subpàgines). Així, si la URL inicial és http://"
-"www.ubuntu.com, cal un segon patró:::"
+"www.ubuntu.com, cal un segon patró:"
 
 #: ../../appdev/webapp/guide.rst:102
-#, fuzzy
 msgid ""
 "Putting these together, here’s an example that starts on https://"
 "www.ubuntu.com and allows navigation to https://developer.ubuntu.com and "
@@ -4797,14 +4775,13 @@ msgid ""
 msgstr ""
 "Posant tot això junt, aquí podeu trobar un exemple que comença a http://"
 "www.ubuntu.com i permet la navegació a http://developer.ubuntu.com i "
-"subpàgines i enrere a http://www.ubuntu.com i subpàgines:::"
+"subpàgines i enrere a http://www.ubuntu.com i subpàgines:"
 
 #: ../../appdev/webapp/guide.rst:107
 msgid "Adding subdomains with a wildcard"
 msgstr "Addició de subdominis amb un comodí"
 
 #: ../../appdev/webapp/guide.rst:109
-#, fuzzy
 msgid ""
 "Some URLs have multiple subdomains. For example, www.ubuntu.com has "
 "design.ubuntu.com, developer.ubuntu.com and more. You can add access to all "
@@ -4812,7 +4789,7 @@ msgid ""
 msgstr ""
 "Algunes URL tenen subdominis múltiples. Per exemple, www.ubuntu.com té "
 "design.ubuntu.com, developer.ubuntu.com i més. Podeu afegir accés a tots els "
-"subdominis amb un comodí a la posició de subdomini:::"
+"subdominis amb un comodí a la posició de subdomini:"
 
 #: ../../appdev/webapp/guide.rst:113
 msgid ""
@@ -4831,7 +4808,6 @@ msgid "Adding http"
 msgstr "Addició d'https"
 
 #: ../../appdev/webapp/guide.rst:118
-#, fuzzy
 msgid ""
 "Sometimes a site uses http for some of its URLs. In general this is unsafe "
 "and should be avoided, but here is an example that allows access to "
@@ -4840,7 +4816,7 @@ msgid ""
 msgstr ""
 "A vegades un lloc usa https per alguna de les seves URLs. Aquí podeu trobar "
 "un exemple que permet http i https com accés a dins de l'aplicació web a "
-"www.launchpad.net (i totes les subpàgines degudes al comodí):::"
+"www.launchpad.net (i totes les subpàgines degudes al comodí):"
 
 #: ../../appdev/webapp/guide.rst:122
 msgid ""
@@ -4864,21 +4840,18 @@ msgstr ""
 "diverses aplicacions web."
 
 #: ../../appdev/webapp/guide.rst:129
-#, fuzzy
 msgid "See all help with:::"
-msgstr "Vegeu tota la ajuda amb:::"
+msgstr "Vegeu tota la ajuda amb:"
 
 #: ../../appdev/webapp/guide.rst:133
-#, fuzzy
 msgid "Note: Only the following options apply to converged Ubuntu.::"
-msgstr "Nota: Sols les opcions següents s'apliquen a l'Ubuntu convergit.::"
+msgstr "Nota: Sols les opcions següents s'apliquen a l'Ubuntu convergit.:"
 
 #: ../../appdev/webapp/guide.rst:147
-#, fuzzy
 msgid "Chrome options (if none specified, no chrome is shown by default):::"
 msgstr ""
 "Opcions del Chrome (si no s'especifica cap, no es mostra cap chrome per "
-"defecte):::"
+"defecte):"
 
 #: ../../appdev/webapp/guide.rst:152
 msgid ""
