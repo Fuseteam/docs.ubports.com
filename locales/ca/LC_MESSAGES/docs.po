@@ -38,7 +38,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-05-03 17:09+0000\n"
+"PO-Revision-Date: 2026-05-05 09:12+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ca/>\n"
@@ -4879,11 +4879,10 @@ msgstr ""
 "defecte enviada pel contenidor web."
 
 #: ../../appdev/webapp/guide.rst:159
-#, fuzzy
 msgid "To change the string from the command line, use the following option:::"
 msgstr ""
 "Per canviar la cadena de caràcters des de la línia d'ordres, useu l'opció "
-"següent:::"
+"següent:"
 
 #: ../../appdev/webapp/guide.rst:164
 msgid "Browser data containment"
@@ -5014,11 +5013,8 @@ msgstr ""
 "webapp-creator.jujuyeh>`_ aplicació disponible a l'openstore"
 
 #: ../../appdev/webapp/index.rst:42
-#, fuzzy
 msgid "`Clickable <https://clickable-ut.dev>`_ CLI"
-msgstr ""
-"`Clickable<https://click.readthedocs.io/en/latest/>`_ Interfície de la línia "
-"d'ordres"
+msgstr "`Clickable <https://clickable-ut.dev>`_ intèrpret de línia d'ordres"
 
 #: ../../appdev/webapp/index.rst:46
 msgid "Debugging your webapp"
@@ -5059,13 +5055,12 @@ msgid "Watch the logs"
 msgstr "Inspecció dels registres"
 
 #: ../../appdev/webapp/webdebug.rst:11
-#, fuzzy
 msgid ""
 "If you are comfortable in a CLI environment, most Javascript errors will "
 "leave an entry in the app log file::"
 msgstr ""
 "Si us és còmode l'entorn de línia d'ordres, la major part dels errors de "
-"Javascirpt deixaran una entrada al fitxer de registre de l'aplicació::"
+"Javascript deixaran una entrada al fitxer de registre de l'aplicació:"
 
 #: ../../appdev/webapp/webdebug.rst:15
 msgid ""
@@ -5100,9 +5095,8 @@ msgstr ""
 "especial, teniu accés al depurador regular d'estil Chrome."
 
 #: ../../appdev/webapp/webdebug.rst:26
-#, fuzzy
 msgid "On your phone, start the browser in inspector mode:::"
-msgstr "Al vostre telèfon, inicieu el navegador en mode inspector::"
+msgstr "Al vostre telèfon, inicieu el navegador en mode inspector:"
 
 #: ../../appdev/webapp/webdebug.rst:31
 msgid ""
@@ -5389,7 +5383,6 @@ msgid "Assumptions"
 msgstr "Assumpcions"
 
 #: ../../contribute/code.rst:9
-#, fuzzy
 msgid ""
 "This page does not include information about how to develop applications or "
 "changes to Ubuntu Touch. To learn how to develop Ubuntu Touch components, "
@@ -5399,9 +5392,9 @@ msgid ""
 msgstr ""
 "Aquesta pàgina no inclou informació sobre com desenvolupar aplicacions o "
 "canvis a Ubuntu Touch. Per aprendre a desenvolupar components d'Ubuntu "
-"Touch, consulteu la secció :doc:./systemdev/index.. Per a aprendre a "
-"desenvolupar aplicacions, consulteu les seccions :doc:./appdev/index. o "
-":doc:./contribute/preinstalled-apps.."
+"Touch, consulteu la secció :doc:`/systemdev/index` Per a aprendre a "
+"desenvolupar aplicacions, consulteu les seccions :doc:`/appdev/index` o "
+":doc:`/contribute/preinstalled-apps`."
 
 #: ../../contribute/code.rst:11
 msgid ""
@@ -5518,7 +5511,6 @@ msgid "Do not commit commented code"
 msgstr "No publiquis el codi comentat"
 
 #: ../../contribute/code.rst:47
-#, fuzzy
 msgid ""
 "As developers, we often comment out code that is only there to help us "
 "verify assumptions (like console logging messages). Make sure this **never** "
@@ -5533,7 +5525,7 @@ msgstr ""
 "que això **mai** ho fa en les vostres comissions. Si heu de desobeir aquesta "
 "regla, assegureu-vos d'afegir un comentari explicant per què el codi "
 "comentat encara existeix a la font. Si teniu la sensació que heu de fer un "
-"comentari  a// TODO:. o  or// FIXME:., considereu si la presentació d'un "
+"comentari a ``// TODO:`` o ``// FIXME:``, considereu si la presentació d'un "
 "informe d'incidència que faci referència al codi trencat o a l'element TODO "
 "seria millor."
 
@@ -5700,7 +5692,6 @@ msgid "Who?"
 msgstr "Qui?"
 
 #: ../../contribute/code.rst:82
-#, fuzzy
 msgid ""
 "Git embeds your name and email address as the committer of your changes. If "
 "someone else has helped you write your changes, you should add them with a "
@@ -5709,11 +5700,10 @@ msgid ""
 msgstr ""
 "Git incrusta el vostre nom i adreça de correu electrònic com a emissor dels "
 "vostres canvis. Si algú altre us ha ajudat a escriure els vostres canvis, "
-"hauríeu d'afegir-los amb una línia .Co-Authored-By: Their Name <their-"
-"email@example.com>. al missatge de publicació."
+"hauríeu d'afegir-los amb una línia ``Co-Authored-By: El seu nom <el-seu-"
+"email@exemple.com>`` al missatge de publicació."
 
 #: ../../contribute/code.rst:84
-#, fuzzy
 msgid ""
 "It is possible to provide some of this context in code comments rather than "
 "in commit messages. Comments can assist people who are only reading the code "
@@ -5723,10 +5713,10 @@ msgid ""
 msgstr ""
 "És possible proporcionar alguns d'aquest context en els comentaris de codi "
 "en lloc dels missatges de publicació. Els comentaris poden ajudar les "
-"persones que només estan llegint el codi sense utilitzar eines com .git "
-"blame.. Tingues en compte que els comentaris poden quedar obsolets "
-"ràpidament en comparació amb el codi que estan a prop. Un missatge de "
-"publicació només està vinculat al codi que heu escrit."
+"persones que només estan llegint el codi sense utilitzar eines com ``git "
+"blame``. Tingueu en compte que els comentaris poden quedar obsolets "
+"ràpidament en comparació amb el codi proper. Un missatge de publicació només "
+"està vinculat al codi que heu escrit."
 
 #: ../../contribute/code.rst:86
 msgid ""
@@ -5846,15 +5836,15 @@ msgstr ""
 "actualitzeu-la també."
 
 #: ../../contribute/code.rst:118
-#, fuzzy
 msgid ""
 "Editing commits requires learning new tools in Git. Edit a series of commits "
 "with ``git-rebase``. Push the resulting changes with a force push, or create "
 "a new branch and open a new changeset."
 msgstr ""
-"L'edició de les publicacions requereix aprendre noves eines a Git. Edita una "
-"sèrie de publicacions amb .git-rebase.. Empeny els canvis resultants amb una "
-"empenta de força, o crea una branca nova i obre un conjunt de canvis nou."
+"L'edició de les publicacions requereix aprendre noves eines a Git. Editeu "
+"una sèrie de publicacions amb ``git-rebase``. Feu un «push» des canvis "
+"resultants amb un «force push», o creeu una branca nova i obriu un conjunt "
+"de canvis nou."
 
 #: ../../contribute/code.rst:120
 msgid ""
@@ -5942,9 +5932,8 @@ msgstr ""
 "a l'informe d'assumpte també si no hi és."
 
 #: ../../contribute/code.rst:141 ../../contribute/code.rst:150
-#, fuzzy
 msgid "For example:"
-msgstr "Per exemple:::"
+msgstr "Per exemple:"
 
 #: ../../contribute/code.rst:143
 msgid "Fixes https://gitlab.com/ubports/development/ubuntu-touch/-/issues/1"
@@ -6000,7 +5989,6 @@ msgstr ""
 "*abans* i *després* l'actual en una sèrie, si cal."
 
 #: ../../contribute/code.rst:159
-#, fuzzy
 msgid ""
 "For example, say you've filed three Merge Requests on GitLab, ``ubports/core/"
 "docs!1``, ``ubports/core/code!2``, and ``ubports/core/infrastructure!3``. "
@@ -6008,14 +5996,13 @@ msgid ""
 "have something similar to this included:"
 msgstr ""
 "Per exemple, dieu que heu presentat tres sol·licituds de fusió a GitLab, "
-",ubports/core/docs!1,, ,ubports/core/code!2,, i ,ubports/core/"
-"infrastructure!3.. Han de fusionar-se en aquest ordre. En aquest cas, les "
+"``ubports/core/docs!1``, ``ubports/core/code!2``, i ``ubports/core/"
+"infrastructure!3``. Han de fusionar-se en aquest ordre. En aquest cas, les "
 "seves descripcions de MR tindrien alguna cosa semblant a això:"
 
 #: ../../contribute/code.rst:161
-#, fuzzy
 msgid "In ``ubports/core/docs!1``:"
-msgstr "A :ubports/core/docs!1::"
+msgstr "A ``ubports/core/docs!1``:"
 
 #: ../../contribute/code.rst:163
 msgid ""
@@ -6024,9 +6011,8 @@ msgstr ""
 "ubports/core/code!2 i ubports/core/infrastructure!3 depenen d'aquest MR."
 
 #: ../../contribute/code.rst:164
-#, fuzzy
 msgid "In ``ubports/core/code!2``:"
-msgstr "A :ubports/core/code!2::"
+msgstr "A ``ubports/core/code!``:"
 
 #: ../../contribute/code.rst:166
 msgid ""
@@ -6037,9 +6023,8 @@ msgstr ""
 "infrastructure!3 depèn d'aquest MR."
 
 #: ../../contribute/code.rst:167
-#, fuzzy
 msgid "In ``ubports/core/infrastructure!3``:"
-msgstr "A :ubports/core/infrastructure!3::"
+msgstr "A ``ubports/core/infrastructure!``:"
 
 #: ../../contribute/code.rst:169
 msgid ""
@@ -6273,12 +6258,11 @@ msgid "Documentation guidelines"
 msgstr "Directrius de la documentació"
 
 #: ../../contribute/documentation.rst:12
-#, fuzzy
 msgid ""
 "These rules govern how you should write documentation to avoid problems with "
 "style, format or linking."
 msgstr ""
-"Aquest normes regulen *com* hauríeu d'escriure la documentació per evitar "
+"Aquest normes regulen com hauríeu d'escriure la documentació per evitar "
 "problemes amb l'estil, el format o els enllaços. Si no seguiu aquestes "
 "directriu, no acceptarem el vostre document."
 
@@ -6312,13 +6296,12 @@ msgstr ""
 "majúscules consistents a la taula de continguts."
 
 #: ../../contribute/documentation.rst:30
-#, fuzzy
 msgid ""
 "Page titles are underlined with equals signs. For example, the markup "
 "for :doc:`./bugreporting` includes the following title:"
 msgstr ""
 "Els títols de les pàgines estan subratllats amb signes iguals. Per exemple, "
-"el marcatge per a :doc:,./bugreporting, inclou el títol següent:"
+"el marcatge per a :doc:`./bugreporting`, inclou el títol següent:"
 
 #: ../../contribute/documentation.rst:37
 msgid "Note that:"
@@ -6381,7 +6364,6 @@ msgid "Table of contents"
 msgstr "Taula de continguts"
 
 #: ../../contribute/documentation.rst:91
-#, fuzzy
 msgid ""
 "If you add a new page you also have to add it to the table of contents. You "
 "can do this by adding the page to the ``index.rst`` file in the same "
@@ -6389,10 +6371,11 @@ msgid ""
 "\"newpage.rst\", you would add the line marked with a chevron (>) in the "
 "nearest index:"
 msgstr ""
-"Això ho podeu fer afegint la pàgina al  fitxer``index.rst`` al mateix "
+"Si afegiu una pàgina nova també heu d'afegir-la a la taula de continguts. "
+"Això ho podeu fer afegint la pàgina al fitxer ``index.rst`` al mateix "
 "directori on el vau crear. Per exemple, si creeu un fitxer anomenat «"
 "paginanova.rst», afegiríeu la línia marcada amb un signe de més gran (>) a "
-"l'índex més proper::"
+"l'índex més proper:"
 
 #: ../../contribute/documentation.rst:103
 msgid ""
@@ -6456,18 +6439,17 @@ msgstr ""
 "gitlab.com/ubports/docs/docs.ubports.com/-/blob/master/redirects.txt>.."
 
 #: ../../contribute/documentation.rst:116
-#, fuzzy
 msgid ""
 "We use Rediraffe's ``checkdiff`` builder to ensure that pages are not "
 "deleted from the documentation without a redirect in place. This builder is "
 "run as part of the ``build.sh`` script in the repository and as part of our "
 "automated build once you submit a Merge Request (MR)."
 msgstr ""
-"Utilitzem el constructor scheckdiff. de Rediraffe per assegurar que les "
+"Utilitzem el constructor ``checkdiff`` de Rediraffe per assegurar que les "
 "pàgines no s'esborren de la documentació sense una redirecció al seu lloc. "
-"Aquest constructor s'executa com a part de l'script  thebuild.sh). al "
-"repositori i com a part de la nostra construcció automatitzada una vegada "
-"que envieu una sol·licitud de fusió (MR)."
+"Aquest constructor s'executa com a part de l'script ``build.sh`` al "
+"repositori i com a part de la nostra compilació automatitzada una vegada que "
+"envieu una sol·licitud de fusió (MR)."
 
 #: ../../contribute/documentation.rst:118
 msgid ""
@@ -6478,16 +6460,14 @@ msgstr ""
 "redireccionaments."
 
 #: ../../contribute/documentation.rst:120
-#, fuzzy
 msgid ""
 "You are moving ``systemdev/calendars.rst`` to ``appdev/calendars.rst``. Add "
 "the following to the ``redirects.txt`` file::"
 msgstr ""
-"Esteu movent .systemdev/calendars.rst. a .appdev/calendars.rst.. Afegeix el "
-"següent al fitxer  theredirects.txt the:"
+"Esteu movent ``systemdev/calendars.rst`` a ``appdev/calendars.rst``. Afegeix "
+"el següent al fitxer ``redirects.txt``:"
 
 #: ../../contribute/documentation.rst:124
-#, fuzzy
 msgid ""
 "You are moving ``appdev/clickable.rst`` into several pages in ``appdev/"
 "clickable/`` to give significantly more information about the tool than "
@@ -6496,19 +6476,18 @@ msgid ""
 "redirect the old page to the new introduction page. This can be done by "
 "adding the following to ``redirects.txt``::"
 msgstr ""
-"Esteu movent .appdev/clickable.rst. a diverses pàgines de .appdev/clickable/"
-". per a donar molta més informació sobre l'eina de la que hi havia "
-"anteriorment. Heu creat una pàgina d'introducció, .appdev/clickable/"
-"introduction.rst.. En aquest cas, seria una bona idea redirigir la pàgina "
-"antiga a la nova pàgina d'introducció. Això es pot fer afegint el següent a  "
-"theredirects.txt the::"
+"Esteu movent ``appdev/clickable.rst`` a diverses pàgines de ``appdev/"
+"clickable/`` per a donar molta més informació sobre l'eina de la que hi "
+"havia anteriorment. Heu creat una pàgina d'introducció, ``appdev/clickable/"
+"introduction.rst``. En aquest cas, seria una bona idea redirigir la pàgina "
+"antiga a la nova pàgina d'introducció. Això es pot fer afegint el següent a "
+"``redirects.txt'`` :"
 
 #: ../../contribute/documentation.rst:129
 msgid "Warnings"
 msgstr "Advertiments"
 
 #: ../../contribute/documentation.rst:131
-#, fuzzy
 msgid ""
 "Your edits must not introduce any warnings into the documentation build. If "
 "any warnings occur, the build will fail and the merge request will be marked "
@@ -6521,9 +6500,9 @@ msgstr ""
 "la documentació. Si es produeix cap advertiment, la compilació fallarà i la "
 "vostra demanda de baixada es marcarà amb una «X» vermella. Si us plau "
 "assegureu-vos que el vostre RST és vàlid i correcte abans de crear una "
-"demanda de baixada. Això es fa automàticament (mitjançant la fallada de "
-"sphinx-build amb el vostre error) si seguiu les nostres instruccions de "
-"compilació de sota."
+"demanda de fusió. Això es fa automàticament (mitjançant la fallada de sphinx-"
+"build amb el vostre error) si seguiu :ref:`les nostres instruccions de "
+"compilació  <doc-contribution-workflow>` de sota."
 
 #: ../../contribute/documentation.rst:135
 msgid "Line length"
@@ -6565,40 +6544,25 @@ msgid "Forking the repository"
 msgstr "Bifurcació del repositori"
 
 #: ../../contribute/documentation.rst:152
-#, fuzzy
-#| msgid ""
-#| "You can make more advanced edits to our documentation by forking `ubports/"
-#| "docs.ubports.com <https://github.com/ubports/docs.ubports.com>`_ on "
-#| "GitHub. If you're not sure how to do this, check out the excellent GitHub "
-#| "guide on `forking projects <https://guides.github.com/activities/forking/"
-#| ">`_."
 msgid ""
 "You can make more advanced edits to the documentation by forking `ubports/"
 "docs.ubports.com <https://gitlab.com/ubports/docs/docs.ubports.com>`_ on "
 "GitLab."
 msgstr ""
 "Podeu fer edicions més avançades de la nostra documentació bifurcant "
-"`ubports/docs.ubports.com <https://github.com/ubports/docs.ubports.com>`_ al "
-"GitHub. Si no teniu seguretat sobre com fer això, mireu l'excel·lent guia "
-"del GitHub a  `bifurcació de projectes <https://guides.github.com/activities/"
-"forking/>`_."
+"`ubports/docs.ubports.com <https://gitlab.com/ubports/docs.ubports.com>`_ al "
+"Gitlab."
 
 #: ../../contribute/documentation.rst:155
 msgid "Building the documentation"
 msgstr "Compilació de la documentació"
 
 #: ../../contribute/documentation.rst:157
-#, fuzzy
-#| msgid ""
-#| "If you'd like to build this documentation *before* sending a PR (which "
-#| "you should), follow these instructions on your *local copy* of your fork "
-#| "of the repository."
 msgid ""
 "To build this documentation, follow these instructions on your *local copy* "
 "of your fork of the repository."
 msgstr ""
-"Si voleu compilar aquesta documentació *abans* d'enviar una demanda de "
-"baixada (cosa que hauríeu de fer), seguiu aquestes instruccions a la *còpia "
+"Per compilar aquesta documentació seguiu aquestes instruccions a la *còpia "
 "local* de la vostra bifurcació del repositori."
 
 #: ../../contribute/documentation.rst:159
@@ -6620,12 +6584,6 @@ msgstr ""
 "``index.html`` per veure la documentació de l'UBports."
 
 #: ../../contribute/documentation.rst:163
-#, fuzzy
-#| msgid ""
-#| "If you have trouble building the docs, the first thing to try is deleting "
-#| "the build environment. Run ``rm -r ~/ubportsdocsenv`` and try the build "
-#| "again. Depending on when you first used the build script, you may need to "
-#| "run the ``rm`` command with ``sudo``."
 msgid ""
 "If you have trouble building the docs, the first thing to try is deleting "
 "the build environment. Run ``rm -r ~/ubportsdocsenv`` and try the build "
@@ -6633,9 +6591,7 @@ msgid ""
 msgstr ""
 "Si teniu algun problema en la compilació dels documents, el primer a provar "
 "és eliminar l'entorn de compilació. Executeu ``rm -r ~/ubportsdocsenv`` i "
-"proveu un altre cop la compilació. Depenent de quan vau usar l'script de "
-"compilació per primer cop, potser haureu d'executar l'ordre ``rm`` amb "
-"``sudo``."
+"proveu un altre cop la compilació."
 
 #: ../../contribute/documentation.rst:166
 msgid "Final check of your contribution"
@@ -6778,9 +6734,8 @@ msgstr ""
 "demanda d'incorporació de canvis per fer-lo millor!"
 
 #: ../../contribute/documentation.rst:204
-#, fuzzy
 msgid "To create a todo, add this markup to your page::"
-msgstr "Per crear un per fer, afegiu aquest marcatge a la vostra pàgina::"
+msgstr "Per crear un per fer, afegiu aquest marcatge a la vostra pàgina:"
 
 #: ../../contribute/documentation.rst:213
 msgid "ReadTheDocs hosting"
@@ -6877,7 +6832,6 @@ msgid "Core apps"
 msgstr "Aplicacions principals"
 
 #: ../../contribute/preinstalled-apps.rst:11
-#, fuzzy
 msgid ""
 "Core apps are applications which are included with UBports distributions of "
 "Ubuntu Touch **and** placed in the OpenStore for updates. Core apps are a "
@@ -6886,12 +6840,12 @@ msgid ""
 "Most core apps can even be built and run without an Ubuntu Touch device!"
 msgstr ""
 "Les aplicacions principals són aplicacions que s'inclouen amb les "
-"distribucions d'UBports d'Ubuntu Touch **i** col·locades a l'OpenStore per a "
-"actualitzacions. Les aplicacions bàsiques són una bona experiència de "
-"\"primer desenvolupament\" dins d'UBports. Molts estan construïts amb "
-",Clickable., un sistema de construcció i prova fàcil d'utilitzar per a les "
+"distribucions d'UBports d'Ubuntu Touch **i** es troben a l'OpenStore per a "
+"actualitzacions. Les aplicacions bàsiques són una bona experiència de «"
+"primer desenvolupament» dins d'UBports. Moltes estan construïts amb "
+"`Clickable`_, un sistema de construcció i prova fàcil d'utilitzar per a les "
 "aplicacions Ubuntu Touch. La majoria d'aplicacions del nucli fins i tot es "
-"poden construir i executar sense un dispositiu Ubuntu Touch!"
+"poden construir i executar sense un dispositiu Ubuntu Touch."
 
 #: ../../contribute/preinstalled-apps.rst:14
 msgid "Which core apps currently exist?"
@@ -6919,70 +6873,60 @@ msgid "Calculator"
 msgstr "Calculadora"
 
 #: ../../contribute/preinstalled-apps.rst:25
-#, fuzzy
 msgid "`Calculator on OpenStore`_"
-msgstr "onCalculador a OpenStore`"
+msgstr "`Calculadora a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:25
-#, fuzzy
 msgid "`calculator-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`calculator-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:26
 msgid "Calendar"
 msgstr "Calendari"
 
 #: ../../contribute/preinstalled-apps.rst:26
-#, fuzzy
 msgid "`Calendar on OpenStore`_"
-msgstr "onCalendar a OpenStore on"
+msgstr "`Calendari a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:26
-#, fuzzy
 msgid "`calendar-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`calendar-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:27
 msgid "Clock"
 msgstr "Rellotge"
 
 #: ../../contribute/preinstalled-apps.rst:27
-#, fuzzy
 msgid "`Clock on OpenStore`_"
-msgstr "onClock on OpenStore`"
+msgstr "`Rellotge a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:27
-#, fuzzy
 msgid "`clock-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`clock-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:28
 msgid "File Manager"
 msgstr "Gestor de fitxers"
 
 #: ../../contribute/preinstalled-apps.rst:28
-#, fuzzy
 msgid "`File Manager on OpenStore`_"
-msgstr "onFile Manager en OpenStore`"
+msgstr "`Gestor de fitxers a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:28
-#, fuzzy
 msgid "`filemanager-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`filemanager-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:29
 msgid "Gallery"
 msgstr "Galeria"
 
 #: ../../contribute/preinstalled-apps.rst:29
-#, fuzzy
 msgid "`Gallery on OpenStore`_"
-msgstr "onGallery on OpenStore`"
+msgstr "`Galeria a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:29
-#, fuzzy
 msgid "`gallery-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`gallery-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:30
 #: ../../userguide/dailyuse/libertine.rst:116
@@ -6990,14 +6934,12 @@ msgid "Music"
 msgstr "Música"
 
 #: ../../contribute/preinstalled-apps.rst:30
-#, fuzzy
 msgid "`Music on OpenStore`_"
-msgstr "onMúsica a l'OpenStore`"
+msgstr "`Música a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:30
-#, fuzzy
 msgid "`music-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`music-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:31
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:31
@@ -7005,70 +6947,60 @@ msgid "Notes"
 msgstr "Notes"
 
 #: ../../contribute/preinstalled-apps.rst:31
-#, fuzzy
 msgid "`Notes on OpenStore`_"
-msgstr "onNotes a OpenStore`"
+msgstr "`Notes a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:31
-#, fuzzy
 msgid "`notes-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`notes-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:32
 msgid "OpenStore"
 msgstr "OpenStore"
 
 #: ../../contribute/preinstalled-apps.rst:32
-#, fuzzy
 msgid "`OpenStore... on OpenStore`_"
-msgstr "onOpenStore... a OpenStore`"
+msgstr "`OpenStore... a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:32
-#, fuzzy
 msgid "`openstore-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`openstore-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:33
 msgid "Terminal"
 msgstr "Terminal"
 
 #: ../../contribute/preinstalled-apps.rst:33
-#, fuzzy
 msgid "`Terminal on OpenStore`_"
-msgstr "onTerminal a OpenStore on"
+msgstr "`Terminal a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:33
-#, fuzzy
 msgid "`terminal-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`terminal-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:34
 msgid "UBports Welcome"
 msgstr "Weblate de l'UBports"
 
 #: ../../contribute/preinstalled-apps.rst:34
-#, fuzzy
 msgid "`UBports Welcome on OpenStore`_"
-msgstr "onUBports Welcome on OpenStore on"
+msgstr "`Bienvinguda de l'UBports a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:34
-#, fuzzy
 msgid "`ubports-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`ubports-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:35
 msgid "Weather"
 msgstr "Temps"
 
 #: ../../contribute/preinstalled-apps.rst:35
-#, fuzzy
 msgid "`Weather on OpenStore`_"
-msgstr "Weather on OpenStore`"
+msgstr "`Temps a l'OpenStore`_"
 
 #: ../../contribute/preinstalled-apps.rst:35
-#, fuzzy
 msgid "`weather-app on GitLab`_"
-msgstr "Directament al GitHub"
+msgstr "`weather-app al GitLab`_"
 
 #: ../../contribute/preinstalled-apps.rst:39
 msgid "Other preinstalled apps"
@@ -7096,44 +7028,36 @@ msgstr ""
 "executar-les en un dispositiu."
 
 #: ../../contribute/preinstalled-apps.rst:47
-#, fuzzy
 msgid "Browser (`morph-browser on GitLab`_)"
-msgstr "Navegador (rowmorph-browser en GitLab))"
+msgstr "Navegador (`morph-browser al GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:48
-#, fuzzy
 msgid "Contacts (`address-book-app on GitLab`_)"
-msgstr "Directament al GitHub"
+msgstr "Contactes (`address-book-app al GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:49
-#, fuzzy
 msgid "Camera (`camera-app on GitLab`_)"
-msgstr "Càmera ()camera-app a GitLab))"
+msgstr "Càmera (`camera-app al GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:50
-#, fuzzy
 msgid "External Drives (`ciborium on GitLab`_)"
-msgstr "Unitats externes ()ciborium on GitLab))"
+msgstr "Unitats externes (`ciborium al GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:51
-#, fuzzy
 msgid "Media Player (`mediaplayer-app on GitLab`_)"
-msgstr "Directament al GitHub"
+msgstr "Reproductor de multimèdia (`mediaplayer-app al GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:52
-#, fuzzy
 msgid "Messaging (`messaging-app on GitLab`_)"
-msgstr "Directament al GitHub"
+msgstr "Missatgeria (`messaging-app al GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:53
-#, fuzzy
 msgid "Phone (`dialer-app on GitLab`_)"
-msgstr "Directament al GitHub"
+msgstr "Telèfon (`dialer-app al GitLab`_)"
 
 #: ../../contribute/preinstalled-apps.rst:54
-#, fuzzy
 msgid "System Settings (`system-settings on GitLab`_)"
-msgstr "Configuració del sistema ()system-settings on GitLab))"
+msgstr "Configuració del sistema (`system-settings al GitLab)`_)"
 
 #: ../../contribute/preinstalled-apps.rst:56
 msgid ""
@@ -7233,15 +7157,14 @@ msgid "Testing patches"
 msgstr "Comprovació de pegats"
 
 #: ../../contribute/quality-assurance.rst:23
-#, fuzzy
 msgid ""
 "Pull-requests can be tested using the `QA scripts <https://gitlab.com/"
 "ubports/development/core/ubports-qa-scripts>`_. Run ``ubports-qa -h`` for "
 "usage information."
 msgstr ""
-"Les sol·licituds es poden provar utilitzant els scripts  theQA <https://"
-"gitlab.com/ubports/development/core/ubports-qa-scripts>.. Executeu .ubports-"
-"qa -h. per a informació d'ús."
+"Les sol·licituds es poden provar utilitzant els `scripts QA <https://"
+"gitlab.com/ubports/development/core/ubports-qa-scripts>`_. Executeu "
+"``ubports-qa -h`` per a informació d'ús."
 
 #: ../../contribute/quality-assurance.rst:25
 msgid ""
@@ -7343,7 +7266,6 @@ msgstr ""
 "sintaxi. Com a plantilla s'utilitza el fitxer *.ts*."
 
 #: ../../contribute/translations.rst:14
-#, fuzzy
 msgid ""
 "Within an app strings are marked either this way ``i18n.tr(\"string\")`` "
 "when using gettext or like this ``tr(\"string\")`` when using QtLinguist. "
@@ -7351,8 +7273,8 @@ msgid ""
 "into the *.pot* or *.ts* template files. The *.po* and *.ts* language files "
 "then need to be updated from their template."
 msgstr ""
-"Dins d'una app les cadenes estan marcades d'aquesta manera .i18n.tr"
-"(\"cadena\"). quan s'utilitza gettext o com aquesta .tr(\"cadena\"). quan "
+"Dins d'una app les cadenes estan marcades d'aquesta manera ``i18n.tr"
+"(\"cadena\")`` quan s'utilitza gettext o com aquesta ``tr(\"cadena\")`` quan "
 "s'utilitza QtLinguist. Quan es construeix l'aplicació, aquestes cadenes "
 "traduïbles s'extreuen i s'escriuen als fitxers de plantilla *.pot* o *.ts*. "
 "Els fitxers d'idioma *.po* i *.ts* s'han d'actualitzar des de la seva "
@@ -7392,7 +7314,6 @@ msgstr ""
 "traduïdes es recuperen com a publicacions al repositori del weblate."
 
 #: ../../contribute/translations.rst:24
-#, fuzzy
 msgid ""
 "Editor: Translation is done by changing *.po* files with the editor of your "
 "choice, and a GitHub/GitLab account. The *.po*/*.ts* files for each project "
@@ -7401,10 +7322,13 @@ msgid ""
 "After translating the translator commits new translations to an apps repo "
 "generally by opening a merge request/pull request."
 msgstr ""
-"Per a usuaris avançats: Treball directe als fitxers .po amb l'editor de la "
-"vostra elecció, i un compte GitHub. Els fitxers .po per a cada projecte "
-"estan al seu repositori a la `nostra organització del GitHub <https://"
-"github.com/ubports>`_."
+"Editor: La traducció es fa canviant fitxers *.po* amb l'editor de la vostra "
+"elecció, i un compte GitHub/GitLab. Els fitxers *.po*/*.ts* per a cada "
+"projecte estan al repositori a `la nostra organització  <https://gitlab.com/"
+"ubports>`_ o a `la nostra organització GitHub <https://github.com/ubports>"
+"`_. Després de traduir la persona traductora publica les seves traduccions a "
+"un repositori d'apps generalment tot obrint una demanda de fusió amb una "
+"demanda de fusió/pujada."
 
 #: ../../contribute/translations.rst:25
 msgid ""
@@ -7456,7 +7380,6 @@ msgid "Hosted Weblate"
 msgstr "Weblate de l'UBports"
 
 #: ../../contribute/translations.rst:37
-#, fuzzy
 msgid ""
 "You can go to `UBports translation projects dashboard <https://"
 "hosted.weblate.org/projects/ubports/>`_ or the `Lomiri translation projects "
@@ -7464,10 +7387,11 @@ msgid ""
 "and start making anonymous suggestions without being registered. If you want "
 "to save your translations, you must be logged in."
 msgstr ""
-"Podeu anar a `Weblate de l'UBports <https://forums.ubports.com/category/39/"
-"translations>`_, cliqueu al botó «Dashboard» (tauler), i comenceu a fer "
-"suggeriments anònims sense haver-vos registrat. Si voleu desar les vostres "
-"traduccions, heu d'iniciar una sessió."
+"Podeu anar al `tauler de traduccions del projectes UBports <https://"
+"hosted.weblate.org/projects/ubports/>`_ o al `tauler de traducció dels "
+"projectes Lomiri <https://hosted.weblate.org/projects/lomiri/>`_, aneu a un "
+"projecte, i comenceu a fer suggeriments anònims sense haver-vos registrat. "
+"Si voleu desar les vostres traduccions, heu de registrar-vos."
 
 #: ../../contribute/translations.rst:39
 msgid ""
@@ -7517,13 +7441,12 @@ msgid ".po/.ts File Editor"
 msgstr "editor de fitxers .po"
 
 #: ../../contribute/translations.rst:51
-#, fuzzy
 msgid ""
 "If you want to work with *.po*/*.ts* files directly you need to know what "
 "you're doing for sure. The first thing you should always remember is:"
 msgstr ""
-"Si voleu treballar amb fitxers .po directament segurament sabeu el que esteu "
-"fent."
+"Si voleu treballar amb fitxers *.po*/*.ts* directament segurament sabeu el "
+"que esteu fent. El primer que sempre heu de recordar és:"
 
 #: ../../contribute/translations.rst:54
 msgid ""
@@ -7536,18 +7459,18 @@ msgstr ""
 "el weblate."
 
 #: ../../contribute/translations.rst:56
-#, fuzzy
 msgid ""
 "As was said up above, you need a file editor of your choice and a GitHub/"
 "GitLab account to translate *.po*/*.ts* files directly. Idealy you do have "
 "`clickable <http://clickable.bhdouglass.com/en/latest/>`_ set up and know "
 "how to build an app."
 msgstr ""
-"Com s'havia dit abans, per editar fitxers .po directament us cal un editor "
-"de fitxers de la vostra elecció i un compte del GitHub."
+"Com s'havia dit abans, per editar fitxers *.po*/*.ts* directament us cal un "
+"editor de fitxers de la vostra elecció i un compte del GitHub. Idealment "
+"teniu `clickable <http://clickable.bhdouglass.com/en/latest/>`_ configurat i "
+"sabeu com compilar una aplicació."
 
 #: ../../contribute/translations.rst:58
-#, fuzzy
 msgid ""
 "There are online gettext .po editors and those you can install on your "
 "computer. You can choose whatever editor you want, but we prefer to work "
@@ -7556,7 +7479,9 @@ msgid ""
 msgstr ""
 "Podeu triar qualsevol editor que voleu, però preferim treballar "
 "exclusivament amb programari lliure. Hi ha massa editors de text pla i eines "
-"per ajudar-vos a traduir els fitxers .po com per fer una llista aquí."
+"per ajudar-vos a traduir els fitxers .po com per fer una llista aquí. Hi ha "
+"massa editors de text pla i eines per ajudar-vos a traduir fitxers *.po*/"
+"*.ts* per fer una llista aquí."
 
 #: ../../contribute/translations.rst:61
 msgid ""
@@ -7725,9 +7650,8 @@ msgid "Bottom edge menu"
 msgstr "Menú de la vora inferior"
 
 #: ../../humanguide/app-layout/app-main-view.rst:29
-#, fuzzy
 msgid "For quick actions. See `Quick actions`_."
-msgstr "Per a accions ràpides. Vegeu .Actuacions ràpides.."
+msgstr "Per a accions ràpides. Vegeu `Accions ràpides`_."
 
 #: ../../humanguide/app-layout/dialogs.rst:2
 msgid "Dialogs"
@@ -7767,7 +7691,6 @@ msgstr ""
 "un canvi."
 
 #: ../../humanguide/app-layout/dialogs.rst:10
-#, fuzzy
 msgid ""
 "The main action should be highlighted using "
 "``theme.palette.normal.negative`` if it is destructive, "
@@ -7775,11 +7698,11 @@ msgid ""
 "``theme.palette.normal.focus`` if it is neutral. The remaining options "
 "should be gray, without defining a color theme property."
 msgstr ""
-"L'acció principal s'ha de ressaltar utilitzant  "
-"Thetheme.palette.normal.negative. si és destructiva, "
-",theme.palette.normal.positive. si és positiva, o "
-",theme.palette.normal.focus. si és neutra. La resta d'opcions haurien de ser "
-"grises, sense definir una propietat de tema de color."
+"L'acció principal s'ha de ressaltar utilitzant "
+"``theme.palette.normal.negative`` si és destructiva, "
+"``theme.palette.normal.positive`` si és positiva, o "
+"``theme.palette.normal.focus`` si és neutra. La resta d'opcions haurien de "
+"ser grises, sense definir una propietat de tema de color."
 
 #: ../../humanguide/app-layout/dialogs.rst:14
 msgid ""
@@ -7852,15 +7775,14 @@ msgstr ""
 "Càmera o alguns jocs."
 
 #: ../../humanguide/app-layout/header-uses.rst:14
-#, fuzzy
 msgid ""
 "The header takes care of showing the back button when a `page stack <https://"
 "api-docs.ubports.com/sdk/apps/qml/Ubuntu.Components/PageStack.html>`__ is "
 "used."
 msgstr ""
-"La capçalera s'encarrega de mostrar el botó enrere quan una  apipi de pàgina"
-"  ahttps://api-docs.ubports.com/sdk/apps/qml/Ubuntu.S'utilitza Components/"
-"PageStack.html.."
+"La capçalera s'encarrega de mostrar el botó enrere quan s'usa una `pila de "
+"pàgina <https://api-docs.ubports.com/sdk/apps/qml/Ubuntu.Components/"
+"PageStack.html>`_."
 
 #: ../../humanguide/app-layout/importing-data.rst:2
 msgid "Importing Data"
@@ -7883,11 +7805,11 @@ msgstr ""
 "exportar o compartir dades entre elles."
 
 #: ../../humanguide/app-layout/importing-data.rst:10
-#, fuzzy
 msgid ""
 "For more information see `Importing from Content Hub and URLdispatcher`_."
 msgstr ""
-"Per a més informació, vegeu .Importing from Content Hub and URLdispatcher.."
+"Per a més informació, vegeu `Importació des del Content Hub i "
+"URLdispatcher`_."
 
 #: ../../humanguide/app-layout/index.rst:2
 msgid "App layout"
@@ -8097,7 +8019,6 @@ msgid "Quick actions"
 msgstr "ubicació"
 
 #: ../../humanguide/app-layout/quick-actions.rst:4
-#, fuzzy
 msgid ""
 "The most common action for an app, the one that needs to be accessed quickly "
 "might be added as a `bottom edge <https://api-docs.ubports.com/sdk/apps/qml/"
@@ -8105,9 +8026,9 @@ msgid ""
 "outside of the screen upwards."
 msgstr ""
 "L'acció més comuna per a una aplicació, a la qual s'ha d'accedir ràpidament, "
-"es podria afegir com a  aaresta inferior  ahttps://api-docs.ubports.com/sdk/"
-"apps/qml/Ubuntu.Acció Components/BottomEdge.html., s'accedeix amb un "
-"lliscament des de fora de la pantalla cap amunt."
+"es podria afegir com a acció `vora inferior <https://api-docs.ubports.com/"
+"sdk/apps/qml/Ubuntu.Components/BottomEdge.html>`__, a la qual s'accedeix amb "
+"un lliscament des de fora de la pantalla cap amunt."
 
 #: ../../humanguide/app-layout/quick-actions.rst:6
 msgid "You can add a new contact in the Contacts app swiping up:"
@@ -8442,13 +8363,12 @@ msgstr ""
 "icones de l'app, com ara a la capçalera o als menús."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:9
-#, fuzzy
 msgid ""
 "|stock_message.svg| |share.svg| |stock_alarm-clock.svg| |security-alert.svg| "
 "|settings.svg|"
 msgstr ""
-"stockmessage.svg|  share.svg|  stockalarm-clock.svg|  security-alert.svg|  "
-"settings.svg|"
+"|stock_message.svg| |share.svg| |stock_alarm-clock.svg| |security-alert.svg| "
+"|settings.svg|"
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:82
 msgid "stock_message.svg"
@@ -8591,17 +8511,17 @@ msgid "Design concepts"
 msgstr "Conceptes de disseny"
 
 #: ../../humanguide/design-concepts/system-palette.rst:1
-#, fuzzy
 msgid ""
 "As designed by `Canonical <https://www.canonical.com/>`__, we use the "
 "following system palette (from `Michał Prędotka <http://colors.mivoligo.com/"
 ">`__ and `Ubuntu documentation <https://docs.ubuntu.com/phone/en/apps/api-"
 "qml-development/Ubuntu.Components.UbuntuColors>`__):"
 msgstr ""
-"Tal com va ser dissenyat per ,Canonical <https://www.canonical.com/>,, "
-"utilitzem la següent paleta de sistema (de  theMicha. Pr.dotka <http://"
-"colors.mivoligo.com/>. i  and documentació d'Ubuntu .https://docs.ubuntu.com/"
-"phone/en/apps/api-qml-development/Ubuntu.Components.UbuntuColors):):"
+"Tal com va ser dissenyat per `Canonical <https://www.canonical.com/>`__, "
+"utilitzem la següent paleta de sistema (de `Michał Prędotka <http://"
+"colors.mivoligo.com/>`__. i `documentació de l'Ubuntu <https://"
+"docs.ubuntu.com/phone/en/apps/api-qml-development/"
+"Ubuntu.Components.UbuntuColors>`__):"
 
 #: ../../humanguide/design-concepts/system-palette.rst:4
 msgid "Operating system and app palette"
@@ -9370,7 +9290,6 @@ msgstr ""
 "programari com .Inkscape <https://inkscape.org/>.."
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:11
-#, fuzzy
 msgid ""
 "One particularity of qml, though, is that SVGs are rendered to use less "
 "memory, losing the advantages of scalability. When using a SVG file in an "
@@ -9381,9 +9300,9 @@ msgid ""
 msgstr ""
 "Una particularitat de qml, però, és que els SVG es renderitzen per utilitzar "
 "menys memòria, perdent els avantatges de l'escalabilitat. En utilitzar un "
-"fitxer SVG en un element  theImage. podem utilitzar la propietat anomenada  "
-"thesourceSize.. Això definirà la mida renderitzada de la imatge SVG. Una "
-"imatge SVG amb una amplada  andsourceSize. i una alçada de 252 píxels, es "
+"fitxer SVG en un element ``Image`` podem utilitzar la propietat anomenada "
+"``sourceSize``. Això definirà la mida renderitzada de la imatge SVG. Una "
+"imatge SVG amb una amplada ``sourceSize`` i una alçada de 252 píxels, es "
 "representarà com si la imatge escalable fos una png de 252 per 252 píxels."
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:16
@@ -9391,7 +9310,6 @@ msgid "Different rendered sizes of the same svg image"
 msgstr "Diferents mides renderitzades de la mateixa imatge svg"
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:18
-#, fuzzy
 msgid ""
 "It is not advisable to define ``sourceSize`` as a relative size to avoid "
 "performance issues. A good practice is defining ``sourceSize`` based on a "
@@ -9400,11 +9318,11 @@ msgid ""
 "image of 40 per 40 grid units in the other cases. By defining these "
 "thresholds, we get scalable images without a huge performance cost."
 msgstr ""
-"No és recomanable definir  tosourceSize. com una mida relativa per evitar "
-"problemes de rendiment. Una bona pràctica és definir .sourceSize. basant-se "
-"en una llista de llindars establerta. En l'exemple de sota la imatge.svg es "
-"renderitzarà 60 per 60 unitats de graella si la vista principal és més gran "
-"que 70 unitats de graella, però com una imatge de 40 per 40 unitats de "
+"No és recomanable definir ``sourceSize`` com una mida relativa per evitar "
+"problemes de rendiment. Una bona pràctica és definir ``sourceSize`` basant-"
+"se en una llista de llindars establerta. En l'exemple de sota la imatge.svg "
+"es renderitzarà 60 per 60 unitats de graella si la vista principal és més "
+"gran que 70 unitats de graella, però com una imatge de 40 per 40 unitats de "
 "graella en els altres casos. En definir aquests llindars, obtenim imatges "
 "escalables sense un cost de rendiment enorme."
 
@@ -9502,7 +9420,6 @@ msgstr ""
 "d'ús, la privacitat i la convergència."
 
 #: ../../index.rst:10
-#, fuzzy
 msgid ""
 "On this website you find guides to :doc:`install Ubuntu Touch on your mobile "
 "phone <userguide/install>`, :doc:`use Ubuntu Touch <userguide/dailyuse/"
@@ -9511,13 +9428,13 @@ msgid ""
 "more about system components <systemdev/index>`. If this is your first time "
 "here, please consider reading our :doc:`introduction <about/introduction>`."
 msgstr ""
-"En aquest lloc web trobareu guies per a :doc:.instal·lar Ubuntu Touch al "
-"telèfon mòbil <userguide/install>,, :doc:.utilitzar Ubuntu Touch <userguide/"
-"dailyuse/index>., :doc:.desenvolupar aplicacions Ubuntu Touch <appdev/index>"
-"., :doc:.portar Ubuntu Touch a un telèfon Android <porting/introduction/"
-"index>. i :doc:.aprendre més sobre els components del sistema <systemdev/"
-"index>.. Si aquesta és la primera vegada aquí, considereu llegir la nostra "
-":doc:.introducció <about/introduction>.."
+"En aquest lloc web trobareu guies per a :doc:`instal·lar Ubuntu Touch al "
+"vostre telèfon mòbil <userguide/install>`, :doc:`utilitzar l'Ubuntu Touch "
+"<userguide/dailyuse/index>`, :doc:`desenvolupar aplicacions Ubuntu Touch "
+"<appdev/index>`, :doc:`portar Ubuntu Touch a un telèfon Android <porting/"
+"introduction/index>` i :doc:`aprendre més sobre els components del sistema "
+"<systemdev/index>`. Si aquesta és la primera vegada aquí, considereu llegir "
+"la nostra :doc:`introducció <about/introduction>`."
 
 #: ../../index.rst:12
 msgid ""
@@ -9579,7 +9496,6 @@ msgstr ""
 "compartit GitLab"
 
 #: ../../porting/UpdatePortsFor2004.rst:11
-#, fuzzy
 msgid ""
 "Because of changes in how Ubuntu Touch 20.04's rootfs is made, we need to "
 "changes the way device tarballs are built. Instead of cherry-picking script "
@@ -9590,21 +9506,19 @@ msgid ""
 "whole ``build/`` directory, and replace the content of ``build.sh`` with:"
 msgstr ""
 "A causa dels canvis en com es fan els rootfs d'Ubuntu Touch 20.04, hem de "
-"canviar la forma en què es construeixen els tarballs dels dispositius. En "
+"canviar la forma en què es construeixen els arxius tar dels dispositius. En "
 "lloc de seleccionar canvis de script des del repositori d'altres ports, "
 "recomanem la transició a l'script de construcció compartit. Utilitzant "
-"l'script compartit, el vostre port rebrà els últims canvis en l'edifici "
-"tarball del dispositiu a mesura que el rootfs continuï evolucionant (p. ex. "
-"per 22.04 o més). Per a la transició a l'script compartit, suprimiu tot el "
-"directori  thebuild/, i substituïu el contingut de  thebuild.sh the amb:"
+"l'script compartit, el vostre port rebrà els últims canvis en la compilació "
+"de l'arxiu tarl del dispositiu a mesura que el rootfs continuï evolucionant "
+"(p. ex. per 22.04 o més). Per a la transició a l'script compartit, suprimiu "
+"tot el directori ``build/`` i substituïu el contingut de ``build.sh`` amb:"
 
 #: ../../porting/UpdatePortsFor2004.rst:21
-#, fuzzy
 msgid "You may want to add ``build/`` into your ``.gitignore``."
-msgstr "És possible que vulgueu afegir  tobuild/ to al vostre  to.gitignore.."
+msgstr "És possible que vulgueu afegir ``build/`` al vostre ``.gitignore``."
 
 #: ../../porting/UpdatePortsFor2004.rst:23
-#, fuzzy
 msgid ""
 "And for the same reason, we recommend using the shared GitLab CI "
 "configuration so that when the shared script has its requirement changes, "
@@ -9613,17 +9527,16 @@ msgid ""
 msgstr ""
 "I per la mateixa raó, recomanem utilitzar la configuració compartida de "
 "GitLab CI perquè quan l'script compartit tingui els seus canvis de "
-"requeriments, el teu port no es trenqui. L'ús de la configuració compartida "
-"es pot fer substituint el contingut de  the.gitlab-ci.yml the per:"
+"requeriments, el vostre port no es trenqui. L'ús de la configuració "
+"compartida es pot fer substituint el contingut de ``.gitlab-ci.yml`` per:"
 
 #: ../../porting/UpdatePortsFor2004.rst:33
-#, fuzzy
 msgid ""
 "The ``variables`` section enables building the flashable partition image "
 "from the Focal rootfs, which you might want to leave out for intial porting."
 msgstr ""
-"La secció  Thevariables The permet construir la imatge de partició llampant "
-"des dels rootfs focals, que potser voleu deixar fora per a la seva adaptació "
+"La secció ``variables`` permet construir la imatge de partició gravable des "
+"dels rootfs Focal, que potser voleu deixar fora per a la seva adaptació "
 "inicial."
 
 #: ../../porting/UpdatePortsFor2004.rst:36
@@ -9660,7 +9573,6 @@ msgstr ""
 "particions d'Android"
 
 #: ../../porting/UpdatePortsFor2004.rst:43
-#, fuzzy
 msgid ""
 "Many ports overlay the files in Android partitions to makes the port work. "
 "This is often achived by overlaying the ``mount-android.conf`` Upstart job "
@@ -9672,14 +9584,14 @@ msgid ""
 "``.halium-overlay-dir`` (see :ref:`Overlay`)."
 msgstr ""
 "Molts ports superposen els fitxers a les particions d'Android per fer que el "
-"port funcioni. Això s'aconsegueix sovint superposant el treball «mount-"
-"android.conf. Upstart» per a contenir el codi en si, o per a cridar un altre "
-"script. Atès que Ubuntu Touch 20.04 ja no utilitza Upstart (vegeu més avall)"
-", el codi ja no s'executarà. Si el vostre port distribueix els fitxers "
-"superposats sota ,/opt/halium-overlay). o  the/usr/share/halium-overlay,, el "
-"nou sistema de superposició s'encarregarà d'això automàticament, excepte "
-"quan s'afegeixi el nou fitxer en aquest cas és possible que necessiteu  "
-"the.halium-overlay-dir). (vegeu :ref:).Overlay).)."
+"port funcioni. Això s'aconsegueix sovint superposant la tasca Upstart "
+"``mount-android.conf`` per contenir el codi en si, o per a cridar un altre "
+"script. Atès que l'Ubuntu Touch 20.04 ja no utilitza Upstart (vegeu més "
+"avall), el codi ja no s'executarà. Si el vostre port distribueix els fitxers "
+"superposats sota ``/opt/halium-overlay)`` o ``/usr/share/halium-overlay``, "
+"el nou sistema de superposició s'encarregarà d'això automàticament, excepte "
+"quan s'afegeixi el nou fitxer en aquest cas és possible que necessiteu "
+"``.halium-overlay-dir`` (vegeu :ref:`Overlay`)."
 
 #: ../../porting/UpdatePortsFor2004.rst:45
 msgid ""
@@ -9700,7 +9612,6 @@ msgstr ""
 "Per als ports Halium 7 o més antics: actualitza l'script bluetooth-touch"
 
 #: ../../porting/UpdatePortsFor2004.rst:50
-#, fuzzy
 msgid ""
 "The way bluetooth-touch script used to work is inherently tied to Upstart. "
 "In Ubuntu Touch 20.04, bluetooth-touch is migrated to use Systemd. So, "
@@ -9708,44 +9619,41 @@ msgid ""
 "have to overlay ``/usr/share/bluetooth-touch/android.sh``. Note that the "
 "script will be run by ``/bin/sh``, so avoid Bash-ism here."
 msgstr ""
-"La forma en què funciona l'escriptura de toc bluetooth està inherentment "
-"lligada a Upstart. A Ubuntu Touch 20.04, bluetooth-touch es migra per "
-"utilitzar Systemd. Per tant, en lloc de superposar el treball Upstart "
-",bluetooth-touch-android.conf., haureu de superposar ,/usr/share/bluetooth-"
-"touch/android.sh.. Tingueu en compte que l'script s'executarà amb  the/bin/"
-"sh., així que eviteu el Bash-ism aquí."
+"La forma en què funciona el script bluetooth-touch està inherentment lligada "
+"a Upstart. A Ubuntu Touch 20.04, bluetooth-touch es migra per utilitzar "
+"Systemd. Per tant, en lloc de superposar la tasca Upstart ``bluetooth-touch-"
+"android.conf`` haureu de superposar ``/usr/share/bluetooth-touch/"
+"android.sh``. Tingueu en compte que l'script s'executarà amb ``/bin/sh``, "
+"així que eviteu el Bash-isme aquí."
 
 #: ../../porting/UpdatePortsFor2004.rst:52
-#, fuzzy
 msgid ""
 "Halium 9 ports doesn't require this, as Bluebinder replaces ``bluetooth-"
 "touch`` by directly talking to HIDL service to provide Bluetooth host "
 "interface."
 msgstr ""
 "Els ports de Halium 9 no requereixen això, ja que Bluebinder reemplaça "
-".bluetooth-touch. parlant directament amb el servei HIDL per proporcionar la "
-"interfície d'amfitrió Bluetooth."
+"``bluetooth-touch`` parlant directament amb el servei HIDL per proporcionar "
+"la interfície d'amfitrió Bluetooth."
 
 #: ../../porting/UpdatePortsFor2004.rst:55
 msgid "For everyone: configure usb-moded"
 msgstr "Per a tothom: configureu usb-moded"
 
 #: ../../porting/UpdatePortsFor2004.rst:57
-#, fuzzy
 msgid ""
 "usb-moded replaces ``setupusb`` script in setting and managing USB modes. "
 "We've written a specific page for that. See :ref:`USBModed`."
 msgstr ""
-"usb-moded substitueix l'script .setupusb. en la configuració i gestió dels "
+"usb-moded substitueix l'script ``setupusb`` en la configuració i gestió dels "
 "modes USB. Hem escrit una pàgina específica per a això. Vegeu "
-":ref:.USBModed.."
+":ref:`USBModed`."
 
 #: ../../porting/UpdatePortsFor2004.rst:60
 msgid "For everyone: check custom Upstart jobs"
 msgstr "Per a tothom: consulteu treballs personalitzats d'Upstart"
 
 #: ../../porting/UpdatePortsFor2004.rst:62
-#, fuzzy
 msgid ""
 "Some ports has custom Upstart jobs to do certain things on boot. Those jobs "
 "has to be converted to Systemd units in order to run at all in Ubuntu Touch "
@@ -9753,13 +9661,12 @@ msgid ""
 "SystemdForUpstartUsers#Job_vs._unit_keywords>` useful."
 msgstr ""
 "Alguns ports tenen tasques personalitzades d'Upstart per fer certes coses en "
-"arrencar. Aquests treballs s'han de convertir a unitats Systemd per tal "
-"d'executar-se en absolut a Ubuntu Touch 20.04. Hom pot trobar útil la guia "
-"d'Ubuntu sobre aquest tema <https://wiki.ubuntu.com/"
-"SystemdForUpstartUsers#Jobvs.unitkeywords>.."
+"arrencar. Aquests treballs s'han de convertir a unitats Systemd per tal com "
+"a mínim d'executar-se a Ubuntu Touch 20.04. Hom pot trobar útil la `guia de "
+"l'Ubuntu sobre aquest tema <https://wiki.ubuntu.com/"
+"SystemdForUpstartUsers#Job_vs._unit_keywords>`."
 
 #: ../../porting/UpdatePortsFor2004.rst:64
-#, fuzzy
 msgid ""
 "Alternatively, instead of writing custom Systemd units, use ``devicehack`` "
 "script which will run on every boot after the Android container runs. The "
@@ -9767,9 +9674,9 @@ msgid ""
 "will be run with ``/bin/sh``."
 msgstr ""
 "Alternativament, en lloc d'escriure unitats personalitzades del Systemd, "
-"utilitzeu l'script .devicehack. que s'executarà en cada arrencada després "
-"que el contenidor Android s'executi. El camí és  The/usr/libexec/lxc-android-"
-"config/device-hacks., i l'script s'executarà amb  the/bin/sh.."
+"utilitzeu l'script ``devicehack`` que s'executarà en cada arrencada després "
+"que el contenidor Android s'executi. El camí és ``/usr/libexec/lxc-android-"
+"config/device-hacks``, i l'script s'executarà amb ``/bin/sh``."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:4
 msgid "Booting"
@@ -9843,7 +9750,6 @@ msgid "ssh connection"
 msgstr "connectivitat"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:25
-#, fuzzy
 msgid ""
 "To confirm that your device has booted correctly, on your host computer, run "
 "dmesg -w and watch for “GNU/Linux device” in the output. This confirms that "
@@ -9852,17 +9758,16 @@ msgid ""
 "to :ref:`telnet`."
 msgstr ""
 "Per confirmar que el vostre sistema s'ha iniciat correctament, executeu "
-"``dmesg -w`` i esteu atents per «GNU/Linux device» a la sortida. Si, en "
-"canvi, obteniu quelcom semblant a «ubports initrd i hit a nail», si us plau "
-"contacteu-nos perquè podem esbrinar la causa. També podeu escollir executar "
-"``watch ip link`` i cercar canvis als dispositius de xarxa."
+"dmesg -w i esteu atents per «GNU/Linux device» a la sortida. Això confirma "
+"que podeu establir una connexió ssh amb el dispositiu (vegeu a sota). Si en "
+"canvi obteniu quelcom semblant a «Halium initrd Failed to boot”», aneu a "
+":ref:`telnet`."
 
 #: ../../porting/build_and_boot/Boot_debug.rst:27
 msgid "Establish an ssh connection to your device as follows:"
 msgstr "Establiu una connexió ssh al vostre dispositiu de la següent manera:"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:29
-#, fuzzy
 msgid ""
 "Your computer should now have a newly connected RNDIS interface. Check the "
 "output of ``ip link show`` for the device name. The device name will most "
@@ -9870,15 +9775,14 @@ msgid ""
 "the default one is all 00s) and an IP of 10.15.19.100::"
 msgstr ""
 "El vostre ordinador ara hauria de tenir una interfície RNDIS recentment "
-"connectada. Comproveu la sortida de  theip link show. per al nom del "
-"dispositiu. El nom del dispositiu probablement s'assemblarà a  "
-"Theenp0s29u1u1.. Assigna a aquest dispositiu una adreça MAC falsa (si la "
-"predeterminada és totes les 00s) i una IP de 10.15.19.100::"
+"connectada. Comproveu la sortida de ``ip link show`` per al nom del "
+"dispositiu. El nom del dispositiu probablement s'assemblarà a "
+"``enp0s29u1u1``. Assigneu a aquest dispositiu una adreça MAC falsa (si la "
+"predeterminada és tots 00s) i una IP de 10.15.19.100:"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:35
-#, fuzzy
 msgid "Once finished, you should be able to login with the following::"
-msgstr "Un cop finalitzat, haureu de poder iniciar la sessió amb el següent::"
+msgstr "Un cop finalitzat, haureu de poder iniciar la sessió amb el següent:"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:39
 msgid ""
@@ -9890,7 +9794,6 @@ msgid "telnet connection"
 msgstr "Connexió telnet"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:46
-#, fuzzy
 msgid ""
 "If you have been offered a telnet connection the rootfs and system image "
 "have likely not been found and mounted at boot time. This may indicate that "
@@ -9900,16 +9803,15 @@ msgstr ""
 "Si se us ha ofert una connexió telnet, és probable que no s'hagin trobat i "
 "muntat els rootfs i la imatge del sistema en el moment de l'arrencada. Això "
 "pot indicar que una o més particions no s'han muntat com haurien. Connecteu "
-"al vostre dispositiu amb la següent ordre::"
+"al vostre dispositiu amb la següent ordre:"
 
 #: ../../porting/build_and_boot/Boot_debug.rst:50
-#, fuzzy
 msgid ""
 "From here you can start debugging to find out what went wrong. "
 "Please :ref:`seek help <Getting-community-help>` to find out how to proceed."
 msgstr ""
 "A partir d'aquí es pot començar a depurar per esbrinar el que va sortir "
-"malament. Si us plau, :ref:.busca ajuda <Getting-community-help>. per a "
+"malament. Si us plau, :ref:`busqueu ajuda <Getting-community-help>` per "
 "esbrinar com procedir."
 
 #: ../../porting/build_and_boot/index.rst:2
@@ -9987,20 +9889,18 @@ msgid "Setting up your build environment"
 msgstr "Configuració de l'entorn de construcció"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:13
-#, fuzzy
 msgid ""
 "Assuming you have already installed the tools specified in the section "
 "on :ref:`Setting-up`, there are just a few more to add before your build "
 "environment is complete. Run this commmand to add them::"
 msgstr ""
 "Suposant que ja heu instal·lat les eines especificades a la secció a "
-":ref:.Setting-up., només hi ha algunes més a afegir abans que es completi el "
-"vostre entorn de construcció. Executeu aquest commmand per a afegir-los::"
+":ref:`Setting-up`, només hi ha algunes més a afegir abans que es completi el "
+"vostre entorn de compilació. Executeu aquesta ordre per a afegir-los:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:19
-#, fuzzy
 msgid "If you use a RPM based distro such as Mageia, you run::"
-msgstr "Si utilitzeu una distribució basada en RPM com Mageia, executeu::"
+msgstr "Si utilitzeu una distribució basada en RPM com Mageia, executeu:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:27
 msgid ""
@@ -10029,7 +9929,6 @@ msgstr ""
 "Android com a base."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:37
-#, fuzzy
 msgid ""
 "Make sure to get the device repository, not the kernel repository (you will "
 "get that in the next step). For example, for the Fairphone 3, the "
@@ -10038,8 +9937,8 @@ msgid ""
 msgstr ""
 "Assegureu-vos d'obtenir el repositori del dispositiu, no el repositori del "
 "nucli (això ho obtindreu en el següent pas). Per exemple, per al Fairphone "
-"3, els repositoris s'anomenen ,fairphone-fp3. i  "
-"andandroidkernelfairphonesdm632.. El primer és el que voleu."
+"3, els repositoris s'anomenen ``fairphone-fp3`` i "
+"``android_kernel_fairphone_sdm632``. El primer és el que voleu."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:39
 msgid ""
@@ -10123,7 +10022,6 @@ msgid "Getting your config from device"
 msgstr "Obtenció de la configuració des del dispositiu"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:64
-#, fuzzy
 msgid ""
 "It is possible to pull your current kernel config from device, if the "
 "configuration is present as ``/proc/config.gz`` on device. To pull this "
@@ -10135,14 +10033,15 @@ msgid ""
 "<your device's codename_defconfig``."
 msgstr ""
 "És possible treure la configuració actual del nucli del dispositiu, si la "
-"configuració està present com a  the/proc/config.gz. al dispositiu. Per a "
-"extreure aquesta configuració, copieu el fitxer  the/proc/config.gz. des del "
-"vostre dispositiu a l'ordinador. A continuació, executeu  thezcat. al fitxer "
-"per a obtenir la seva sortida. Deseu-ho com a ..config. al vostre origen del "
-"nucli. Després d'això, executeu ,ARCH.<your device's architecture> make "
-"saveefconfig., el qual convertirà la vostra configuració completament moguda "
-"en una defconfig. Copia .defconfig. a .arch/<your device's architecture>/"
-"configs/.el nom en clau del vostre dispositiudefconfig.."
+"configuració està present com a ``/proc/config.gz`` al dispositiu. Per "
+"extreure aquesta configuració, copieu el fitxer ``/proc/config.gz`` des del "
+"vostre dispositiu a l'ordinador. A continuació, executeu ``zcat`` al fitxer "
+"per obtenir la seva sortida. Deseu-ho com a ``.config`` al vostre origen del "
+"nucli. Després d'això, executeu ``ARCH=<l'arquitectura del vostre "
+"dispositiu> make saveefconfig``, cosa que convertirà la vostra configuració "
+"completament preparada a una defconfig. Copieu ``defconfig`` a ``arch/"
+"<l'arquitectura del vostre dispositiu>/configs/<el nom del codi del vostre "
+"dispositiu_defconfig``."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:69
 msgid "Proceed with the guide to patch your config."
@@ -10153,7 +10052,6 @@ msgid "Getting your defconfig in kernel source"
 msgstr "Obtenció de la vostra defconfig al codi font del nucli"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:74
-#, fuzzy
 msgid ""
 "In order to find your defconfig from kernel source, you will have to search "
 "for it in the ``arch/<your device's architecture/configs`` directory. This "
@@ -10165,13 +10063,13 @@ msgid ""
 "tree's reference the defconfig too."
 msgstr ""
 "Per trobar el vostre defconfig des del codi font del nucli, haureu de cercar-"
-"lo al directori  thearch/.your device's architecture/configs.. Aquest "
-"defconfig es pot anomenar de moltes maneres, com ,<your device's codename>"
-"defconfig., o alguna cosa estranya com .k61v64debugdefconfig.. Si teniu la "
-"font del nucli d'un OEM, de vegades inclou un script  abuild.sh. que fa "
-"referència a la desfconfig requerida. En cas contrari, si teniu la font del "
-"nucli d'algun lloc com LineageOS, la referència de l'arbre de dispositius "
-"també és la defconfig."
+"lo al directori ``arch/<l'arquitectura del vostre dispositiu>/configs``. "
+"Aquest defconfig es pot anomenar de moltes maneres, com ``<el nom del codi "
+"del vostre dispositiu>_defconfig``, o alguna cosa estranya com "
+"``k61v64_debug_defconfig``. Si teniu la font del nucli d'un OEM, de vegades "
+"inclou un script ``build.sh`` que fa referència al defconfig requerit. En "
+"cas contrari, si teniu la font del nucli d'algun lloc com LineageOS, el seu "
+"arbre de dispositiu també fa referència al defconfig."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:79
 msgid "After finding your defconfig, proceed with the guide to patch it."
@@ -10183,7 +10081,6 @@ msgid "Applying minimal patches to your defconfig"
 msgstr "Aplicació de pedaços mínims a la desfconfig"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:85
-#, fuzzy
 msgid ""
 "In order for Ubuntu Touch to successfully boot, we need to enable some "
 "configs required by the OS. Start by browsing into your kernel directory, "
@@ -10193,9 +10090,9 @@ msgid ""
 msgstr ""
 "Perquè l'Ubuntu Touch arrenqui amb èxit, hem d'habilitar algunes "
 "configuracions requerides pel sistema operatiu. Comenceu navegant pel vostre "
-"directori del nucli, i pel  thearch/<your device's architecture>/configs., "
-"on haureu d'afegir un fitxer nou anomenat  ahalium.config.. En aquest "
-"fitxer, afegiu el contingut següent:"
+"directori del nucli, i pel ``arch/<l'arquitectura del vostre dispositiu>/"
+"configs``, on haureu d'afegir un fitxer nou anomenat ``halium.config``. En "
+"aquest fitxer, afegiu el contingut següent:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:0
 msgid "CONFIG_DEVTMPFS=y"
@@ -10243,13 +10140,12 @@ msgstr ""
 "a deviceinfo."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:101
-#, fuzzy
 msgid ""
 "At this point you've almost completed the initial setup for the kernel, move "
 "on to configuring ``deviceinfo`` and building."
 msgstr ""
 "En aquest punt gairebé heu completat la configuració inicial del nucli, "
-"passeu a configurar .deviceinfo. i a construir."
+"passeu a configurar ``deviceinfo`` i a compilar."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:103
 msgid ""
@@ -10283,18 +10179,16 @@ msgstr ""
 "sigui necessari."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:112
-#, fuzzy
 msgid "``deviceinfo_name=\"Redmi 9C\"``"
-msgstr "\"deviceinfoname\"\"Redmi 9C\"\""
+msgstr "``deviceinfo_name=\"Redmi 9C\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:115
 msgid "The name of the device's manufacturer. Change as needed."
 msgstr "El nom del fabricant del dispositiu. Canvi segons sigui necessari."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:117
-#, fuzzy
 msgid "``deviceinfo_manufacturer=\"Xiaomi\"``"
-msgstr "deviceinfomanufacturer\"\"Xiaomi\"\""
+msgstr "``deviceinfo_manufacturer=\"Xiaomi\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:120
 msgid ""
@@ -10307,9 +10201,8 @@ msgstr ""
 "complet del telèfon. Substitueix el nom en clau de sota també pel teu."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:122
-#, fuzzy
 msgid "``deviceinfo_codename=\"angelica\"``"
-msgstr "deviceinfocodename\"\"angelica\"\""
+msgstr "``deviceinfo_codename=\"angelica\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:125
 msgid ""
@@ -10324,9 +10217,8 @@ msgstr ""
 "aarch64». Per als dispositius armhf, establiu la configuració a «armv7»."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:127
-#, fuzzy
 msgid "``deviceinfo_arch=\"aarch64\"``"
-msgstr "\"deviceinfoarch\"\"aarch64\"\""
+msgstr "``deviceinfo_arch=\"aarch64\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:130
 msgid ""
@@ -10339,13 +10231,12 @@ msgstr ""
 "travessar. Substitueix a continuació l'enllaç amb el teu propi."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:132
-#, fuzzy
 msgid ""
 "``deviceinfo_kernel_source=\"https://github.com/muhammad23012009/"
 "android_kernel_xiaomi_dandelion\"``"
 msgstr ""
-"/deviceinfokernelsource\"\"https://github.com/muhammad23012009/"
-"androidkernelxiaomidandelion\"\""
+"``deviceinfo_kernel_source=\"https://github.com/muhammad23012009/"
+"android_kernel_xiaomi_dandelion\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:135
 msgid ""
@@ -10358,12 +10249,10 @@ msgstr ""
 "esquerra de GitLab. Reemplaça com sigui necessari."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:137
-#, fuzzy
 msgid "``deviceinfo_kernel_source_branch=\"halium10-new\"``"
-msgstr "\"deviceinfokernelsourcebranch\"\"halium10-new\"\""
+msgstr "``deviceinfo_kernel_source_branch=\"halium10-new\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:140
-#, fuzzy
 msgid ""
 "Defconfig is a vital part of the kernel compilation process. Most of the "
 "times you can find this defconfig in your kernel source, the path to which "
@@ -10375,20 +10264,19 @@ msgid ""
 msgstr ""
 "Defconfig és una part vital del procés de compilació del nucli. La majoria "
 "de vegades podeu trobar aquest defconfig a la font del nucli, el camí al "
-"qual és \"arch/<your architecture>/configs\". El nom de defconfig sovint es "
-"construeix com \"<your codename>defconfig\". Després de trobar el vostre "
-"defconfig, substituïu-lo segons sigui necessari. També heu d'afegir "
-".halium.config. en aquest camp, a causa d'afegir els pedaços de configuració "
-"del nucli anteriors. (Si encara no podeu trobar la defconfig, consulteu la "
-"secció \"Finding your defconfig\")"
+"qual és \"arch/<l'arquitectura del vostre dispositiu>/configs\". El nom de "
+"defconfig sovint es construeix com \"<el nom del codi del vostre dispositiu>"
+"defconfig\". Després de trobar el vostre defconfig, substituïu-lo segons "
+"sigui necessari. També heu d'afegir ``halium.config`` en aquest camp, a "
+"causa d'afegir els pedaços de configuració del nucli anteriors. (Si encara "
+"no podeu trobar el defconfig, consulteu la secció «Trobar el vostre defconfig"
+"»)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:144
-#, fuzzy
 msgid "``deviceinfo_kernel_defconfig=\"angelica_defconfig halium.config\"``"
-msgstr "deviceinfokerneldefconfig \"angelicadefconfig halium.config\"\""
+msgstr "``deviceinfo_kernel_defconfig=\"angelica_defconfig halium.config\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:147
-#, fuzzy
 msgid ""
 "The kernel cmdline is one of the key things that is required to make the "
 "kernel boot. It has special parameters that allow the kernel to determine "
@@ -10406,26 +10294,25 @@ msgstr ""
 "El nucli cmdline és una de les coses clau que es requereixen per a fer que "
 "el nucli arrenqui. Té paràmetres especials que permeten al nucli determinar "
 "quines característiques/coses s'han d'habilitar i quines s'han "
-"d'inhabilitar. Els rootfs d'Ubuntu Touch també es basen en algunes línies "
-"cmd clau que es requereixen per arrencar, més específicament "
-"\"console\".tty0\". Per adaptar-ho al vostre dispositiu, proveu de "
-"desempaquetar la vostra imatge d'arrencada (secció 8.3) i copiar la línia cm "
-"d'allà, o preneu l'ajuda d'un arbre de dispositius LineageOS si està "
-"disponible. \"console.tty0\" és un must per a cmdline i no s'ha de treure no "
-"importa el que. La resta de les coses es poden eliminar i podeu ajustar-les "
-"al vostre dispositiu. .console.tty0. és un requisit perquè el rootfs "
-"arrenqui correctament. .systempart. s'afegeix si voleu arrencar el vostre "
-"rootfs des de la partició del sistema. Se suposa que apunta a la partició "
-"del vostre sistema."
+"d'inhabilitar. Els rootfs d'Ubuntu Touch també es basa en algunes línies "
+"d'ordres clau que es requereixen per arrencar, més específicament «"
+"console=tty0». Per adaptar-ho al vostre dispositiu, proveu de desempaquetar "
+"la vostra imatge d'arrencada (secció 8.3) i copiar la línia d'ordres d'allà, "
+"o preneu l'ajuda d'un arbre de dispositius LineageOS si està disponible. «"
+"console=tty0» és una cosa a tenir per a la línia d'ordres i no s'ha de "
+"treure en cap cas. La resta de les coses es poden eliminar i podeu ajustar-"
+"les al vostre dispositiu. ``console=tty0`` és un requisit perquè el rootfs "
+"arrenqui correctament. ``systempart`` s'afegeix si voleu arrencar el vostre "
+"rootfs des de la partició del sistema. Ha d'apuntar a la partició del vostre "
+"sistema."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:150
-#, fuzzy
 msgid ""
 "``deviceinfo_kernel_cmdline=\"console=tty0 bootopt=64S3,32N2,64N2 "
 "systempart=/dev/mapper/system\"``"
 msgstr ""
-"deviceinfokernelcmdline \"console=tty0 bootopt\"64S3,32N2,64N2 systempart//"
-"dev/mapper/system\"\""
+"``deviceinfo_kernel_cmdline=\"console=tty0 bootopt=64S3,32N2,64N2 "
+"systempart=/dev/mapper/system\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:153
 msgid ""
@@ -10439,9 +10326,8 @@ msgstr ""
 "entrada completament."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:155
-#, fuzzy
 msgid "``deviceinfo_kernel_clang_compile=\"true\"``"
-msgstr "\"deviceinfokernelclangcompile\"\"true\"\""
+msgstr "``deviceinfo_kernel_clang_compile=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:158
 msgid ""
@@ -10455,12 +10341,10 @@ msgstr ""
 "la."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:161
-#, fuzzy
 msgid "``deviceinfo_kernel_use_lld=\"true\"``"
-msgstr "deviceinfokerneluselld\"\"true\"\""
+msgstr "``deviceinfo_kernel_use_lld=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:164
-#, fuzzy
 msgid ""
 "This config allows you to compile your kernel with LLVM and LTO, granted "
 "that it's supported by it. This is a neat way of specifying ``clang`` and "
@@ -10468,14 +10352,13 @@ msgid ""
 "not needed to specify ``deviceinfo_kernel_use_lld``)"
 msgstr ""
 "Aquesta configuració us permet compilar el vostre nucli amb LLVM i LTO, atès "
-"que està suportat per ell. Aquesta és una manera clara d'especificar  "
-"andclang. i  andld.lld. junts. Normalment són necessaris pels dispositius "
-"GKI. (Un cop activat, no cal especificar  todeviceinfokerneluselld to)"
+"que està suportat per ell. Aquesta és una manera clara d'especificar "
+"``clang`` i ``ld.lld`` junts. Normalment són necessaris pels dispositius "
+"GKI. (Un cop activat, no cal especificar ``deviceinfo_kernel_use_lld``)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:169
-#, fuzzy
 msgid "``deviceinfo_kernel_llvm_compile=\"true\"``"
-msgstr "deviceinfokernelllvmcompile\"\"true\"\""
+msgstr "``deviceinfo_kernel_llvm_compile=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:172
 msgid ""
@@ -10487,9 +10370,8 @@ msgstr ""
 "funciona la majoria de vegades."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:174
-#, fuzzy
 msgid "``deviceinfo_kernel_use_dtc_ext=\"true\"``"
-msgstr "deviceinfokernelusedtcext\"\"true\"\""
+msgstr "``deviceinfo_kernel_use_dtc_ext=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:177
 msgid ""
@@ -10504,9 +10386,8 @@ msgstr ""
 "necessari."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:179
-#, fuzzy
 msgid "``deviceinfo_kernel_image_name=\"Image.gz\"``"
-msgstr "deviceinfokernelimagename\"\"Image.gz\"\""
+msgstr "``deviceinfo_kernel_image_name=\"Image.gz\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:182
 msgid ""
@@ -10518,9 +10399,8 @@ msgstr ""
 "dispositius GKI."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:185
-#, fuzzy
 msgid "``deviceinfo_ramdisk_compression=\"lz4\"``"
-msgstr "\"deviceinforamdiskcompression\"\"lz4\"\""
+msgstr "``deviceinfo_ramdisk_compression=\"lz4\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:188
 msgid ""
@@ -10531,9 +10411,8 @@ msgstr ""
 "Halium 13 és suportat en aquest moment."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:190
-#, fuzzy
 msgid "``deviceinfo_halium_version=\"11\"``"
-msgstr "\"deviceinfohaliumversion\"\"11\"\""
+msgstr "``deviceinfo_halium_version=\"11\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:193
 msgid ""
@@ -10553,9 +10432,8 @@ msgstr ""
 "utilitza la versió 4)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:195
-#, fuzzy
 msgid "``deviceinfo_bootimg_header_version=\"2\"``"
-msgstr "\"deviceinfobootimgheaderversion\"\"2\"\""
+msgstr "``deviceinfo_bootimg_header_version=\"2\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:198
 msgid ""
@@ -10571,9 +10449,8 @@ msgstr ""
 "proveïdorboot."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:201
-#, fuzzy
 msgid "``deviceinfo_bootimg_prebuilt_dtb=\"mt6765.dtb\"``"
-msgstr "deviceinfobootimgprebuiltdtb.\"mt6765.dtb\"\""
+msgstr "``deviceinfo_bootimg_prebuilt_dtb=\"mt6765.dtb\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:204
 msgid ""
@@ -10595,9 +10472,8 @@ msgstr ""
 "(dispositiu GKI), això inclourà dtb al vostre vendorboot."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:209
-#, fuzzy
 msgid "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
-msgstr "deviceinfodtb.\"mediatek/mt6765.dtb\"\""
+msgstr "``deviceinfo_dtb=\"mediatek/mt6765.dtb\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:212
 msgid ""
@@ -10611,9 +10487,8 @@ msgstr ""
 "dispositius Samsung/Exynos.)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:214
-#, fuzzy
 msgid "``deviceinfo_bootimg_prebuilt_dt=\"exynos8890-dt.img\"``"
-msgstr "deviceinfobootimgprebuiltdt \"exynos8890-dt.img\"\""
+msgstr "``deviceinfo_bootimg_prebuilt_dt=\"exynos8890-dt.img\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:217
 msgid ""
@@ -10626,9 +10501,8 @@ msgstr ""
 "ser relatiu al vostre directori de construcció. Edita com es desitgi."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:219
-#, fuzzy
 msgid "``deviceinfo_prebuilt_dtbo=\"angelica-dtbo.img\"``"
-msgstr "deviceinfoprebuiltdtbo-\"angelica-dtbo.img\"\""
+msgstr "``deviceinfo_prebuilt_dtbo=\"angelica-dtbo.img\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:222
 msgid ""
@@ -10641,9 +10515,8 @@ msgstr ""
 "compilarà amb aquest dtbo, si el dtbo no s'està compilant."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:224
-#, fuzzy
 msgid "``deviceinfo_skip_dtbo_partition=\"true\"``"
-msgstr "deviceinfoskipdtbopartition\"\"true\"\""
+msgstr "``deviceinfo_skip_dtbo_partition=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:227
 msgid ""
@@ -10666,9 +10539,8 @@ msgstr ""
 "incompatible amb l'opció dtbo preconstruïda."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:230
-#, fuzzy
 msgid "``deviceinfo_dtbo=\"mediatek/galahad.dtbo mediatek/lancelot.dtbo\"``"
-msgstr "/deviceinfodtbo/\"mediatek/galahad.dtbo mediatek/lancelot.dtbo\"\""
+msgstr "``deviceinfo_dtbo=\"mediatek/galahad.dtbo mediatek/lancelot.dtbo\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:233
 msgid ""
@@ -10683,9 +10555,8 @@ msgstr ""
 "aquest indicador establert a la seva capçalera. Editeu com vulgueu si cal."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:235
-#, fuzzy
 msgid "``deviceinfo_bootimg_board=\"EXYNOS4412\"``"
-msgstr "\"deviceinfobootimgboard\"\"EXYNOS4412\"\""
+msgstr "``deviceinfo_bootimg_board=\"EXYNOS4412\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:238
 msgid ""
@@ -10700,9 +10571,8 @@ msgstr ""
 "imatge d'arrencada. (Nota: La mida es declara en bytes)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:240
-#, fuzzy
 msgid "``deviceinfo_bootimg_partition_size=\"67713847\"``"
-msgstr "\"deviceinfobootimgpartitionsize\"\"67713847\"\""
+msgstr "``deviceinfo_bootimg_partition_size=\"67713847\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:243
 msgid ""
@@ -10715,9 +10585,8 @@ msgstr ""
 "una partició vbmeta dedicada)."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:245
-#, fuzzy
 msgid "``deviceinfo_bootimg_append_vbmeta=\"true\"``"
-msgstr "deviceinfobootimgappendvbmeta\"\"true\"\""
+msgstr "``deviceinfo_bootimg_append_vbmeta=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:248
 msgid ""
@@ -10735,9 +10604,8 @@ msgstr ""
 "farà que no es construeixi en absolut."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:250
-#, fuzzy
 msgid "``deviceinfo_has_recovery_partition=\"true\"``"
-msgstr "deviceinfohasrecoverypartition\"\"true\"\""
+msgstr "``deviceinfo_has_recovery_partition=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:253
 msgid ""
@@ -10751,9 +10619,8 @@ msgstr ""
 "funcionarà si estàs construint recuperació!)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:255
-#, fuzzy
 msgid "``deviceinfo_recovery_partition_size=\"67713847\"``"
-msgstr "\"deviceinforecoverypartitionsize\"\"67713847\"\""
+msgstr "``deviceinfo_recovery_partition_size=\"67713847\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:258
 msgid ""
@@ -10773,9 +10640,8 @@ msgstr ""
 "altres dispositius pot fer que no arrenqui la imatge!)"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:260
-#, fuzzy
 msgid "``deviceinfo_bootimg_tailtype=\"SEAndroid\"``"
-msgstr "\"deviceinfobootimgtailtype\"\"SEAndroid\"\""
+msgstr "``deviceinfo_bootimg_tailtype=\"SEAndroid\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:263
 msgid ""
@@ -10793,9 +10659,8 @@ msgstr ""
 "mòduls. Només és realment necessari per si estàs fent alguna cosa avançada."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:265
-#, fuzzy
 msgid "``deviceinfo_kernel_disable_modules=\"true\"``"
-msgstr "\"deviceinfokerneldisablemodules\"\"true\"\""
+msgstr "``deviceinfo_kernel_disable_modules=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:268
 msgid ""
@@ -10810,9 +10675,8 @@ msgstr ""
 "per al 20.04 i endavant, però no aplicable per al 16.04."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:270
-#, fuzzy
 msgid "``deviceinfo_use_overlaystore=\"true\"``"
-msgstr "deviceinfouseoverlaystore\"\"true\"\""
+msgstr "``deviceinfo_use_overlaystore=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:273
 msgid ""
@@ -10825,9 +10689,8 @@ msgstr ""
 "els vostres dtbs. Utilitzeu-lo només si esteu segurs que ho necessiteu."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:275
-#, fuzzy
 msgid "``deviceinfo_kernel_apply_overlay=\"true\"``"
-msgstr "deviceinfokernelapplyoverlay\"\"true\"\""
+msgstr "``deviceinfo_kernel_apply_overlay=\"true\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:278
 msgid ""
@@ -10841,9 +10704,8 @@ msgstr ""
 "està establerta. Només utilitza'l si ho necessites."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:280
-#, fuzzy
 msgid "``deviceinfo_system_partition_size=\"4000M\"``"
-msgstr "\"deviceinfosystempartitionsize\"\"4000M\"\""
+msgstr "``deviceinfo_system_partition_size=\"4000M\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:283
 msgid ""
@@ -10853,9 +10715,8 @@ msgstr ""
 "llançats amb emmagatzematge UFS"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:285
-#, fuzzy
 msgid "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
-msgstr "\"deviceinforootfsimagesectorsize\"\"4096\"\""
+msgstr "``deviceinfo_rootfs_image_sector_size=\"4096\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:288
 msgid ""
@@ -11179,15 +11040,14 @@ msgstr ""
 "de mantenir \"console.tty0\" allà dins. No hi ha exemples aquí :("
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:402
-#, fuzzy
 msgid ""
 "If you're building vendor_boot, this command will also output a "
 "``bootconfig`` file in your output directory. Move this to your source "
 "tree's root."
 msgstr ""
-"Si esteu construint vendorboot, aquesta ordre també generarà un fitxer  "
-"abootconfig. al vostre directori de sortida. Mou això a l'arrel de l'arbre "
-"d'origen."
+"Si esteu construint vendor_boot, aquesta ordre també generarà un fitxer "
+"``bootconfig`` al vostre directori de sortida. Moveu això a l'arrel de "
+"l'arbre d'origen."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:404
 msgid "Apart from these mentioned values, you'll want to skip everything else."
@@ -11202,36 +11062,32 @@ msgid "Put the value from \"page size\" into this config."
 msgstr "Posa el valor de «mida de pàgina» en aquesta configuració."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:412
-#, fuzzy
 msgid "``deviceinfo_flash_pagesize=\"2048\"``"
-msgstr "\"deviceinfoflashpagesize\"\"2048\"\""
+msgstr "``deviceinfo_flash_pagesize=\"2048\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:415
 msgid "Base offset will always remain 0x00000000."
 msgstr "El desplaçament base sempre romandrà 0x00000000."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:417
-#, fuzzy
 msgid "``deviceinfo_flash_offset_base=\"0x00000000\"``"
-msgstr "\"deviceinfoflashoffsetbase\"\"0x00000000\"\""
+msgstr "``deviceinfo_flash_offset_base=\"0x00000000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:420
 msgid "Fill this in from \"kernel load address\"."
 msgstr "Ompliu-ho des de l'adreça «Càrrega del nucli»."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:422
-#, fuzzy
 msgid "``deviceinfo_flash_offset_kernel=\"0x40080000\"``"
-msgstr "\"deviceinfoflashoffsetkernel\"\"0x40080000\"\""
+msgstr "``deviceinfo_flash_offset_kernel=\"0x40080000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:425
 msgid "This gets its value from \"ramdisk load address\"."
 msgstr "Això obté el seu valor de l'«adreça de càrrega deramdisk»."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:427
-#, fuzzy
 msgid "``deviceinfo_flash_offset_ramdisk=\"0x51b00000\"``"
-msgstr "\"deviceinfoflashoffsetramdisk\"\"0x51b00000\"\""
+msgstr "``deviceinfo_flash_offset_ramdisk=\"0x51b00000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:430
 msgid ""
@@ -11242,9 +11098,8 @@ msgstr ""
 "ompliu-lo des de la \"segona adreça de càrrega del carregador d'arrencada\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:432
-#, fuzzy
 msgid "``deviceinfo_flash_offset_second=\"0xc0ff0000\"``"
-msgstr "\"deviceinfoflashoffsetsecond\"\"0xc0ff0000\"\""
+msgstr "``deviceinfo_flash_offset_second=\"0xc0ff0000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:435
 msgid "Tags should be filled in from \"kernel tags load address\"."
@@ -11253,18 +11108,16 @@ msgstr ""
 "nucli."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:437
-#, fuzzy
 msgid "``deviceinfo_flash_offset_tags=\"0x47880000\"``"
-msgstr "\"deviceinfoflashoffsettags\"\"0x47880000\"\""
+msgstr "``deviceinfo_flash_offset_tags=\"0x47880000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:440
 msgid "DTB offset comes from \"dtb load address\"."
 msgstr "El desplaçament DTB prové de l'«adreça de càrrega dtb»."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:442
-#, fuzzy
 msgid "``deviceinfo_flash_offset_dtb=\"0x47880000\"``"
-msgstr "\"deviceinfoflashoffsetdtb\"\"0x47880000\"\""
+msgstr "``deviceinfo_flash_offset_dtb=\"0x47880000\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:445
 msgid ""
@@ -11275,32 +11128,28 @@ msgstr ""
 "fan complir."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:447
-#, fuzzy
 msgid "``deviceinfo_bootimg_os_version=\"10.0\"``"
-msgstr "deviceinfobootimgosversion\"\"10.0\"\""
+msgstr "``deviceinfo_bootimg_os_version=\"10.0\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:450
 msgid "You'll want to put the \"os patch level\" value here."
 msgstr "Voldreu posar aquí el valor del \"nivell del pegat del SO\"."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:452
-#, fuzzy
 msgid "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
-msgstr "\"deviceinfobootimgospatchlevel\"\"2021-11\"\""
+msgstr "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:455
-#, fuzzy
 msgid ""
 "If you're building a vendor_boot and you have moved the ``bootconfig`` file "
 "to your tree's root, add the following:"
 msgstr ""
-"Si esteu construint un vendorboot i heu mogut el fitxer  thebootconfig, a "
+"Si esteu construint un vendor_boot i heu mogut el fitxer ``bootconfig`` a "
 "l'arrel del vostre arbre, afegiu el següent:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:457
-#, fuzzy
 msgid "``deviceinfo_vendor_bootconfig_path=\"bootconfig\"``"
-msgstr "deviceinfovendorbootconfigpath\"\"bootconfig\"\""
+msgstr "``deviceinfo_vendor_bootconfig_path=\"bootconfig\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:460
 msgid ""
@@ -11315,15 +11164,14 @@ msgid "Building, installing and running"
 msgstr "Construir, instal·lar i executar"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:466
-#, fuzzy
 msgid ""
 "After you've completed your deviceinfo and filled in all needed stuff, its "
 "time you get to the main part, the build. For this just run: ``./build.sh -b "
 "workdir``"
 msgstr ""
-"Després d'haver completat la seva informació de dispositiu i omple totes les "
-"coses necessàries, el seu temps d'arribar a la part principal, la "
-"construcció. Per a això només executeu: :./build.sh -b workdir:"
+"Després d'haver completat la informació del vostre dispositiu i omplert "
+"totes les coses necessàries, ha arribat l'hora de la part principal, la "
+"compilació. Per a això, simplement executeu:``/build.sh -b workdir``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:469
 msgid ""
@@ -11356,23 +11204,21 @@ msgstr ""
 "els rootfs. Per a això, executeu això:"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:6
-#, fuzzy
 msgid ""
 "``./build/prepare-fake-ota.sh out/device_<your device's "
 "codename>_usrmerge.tar.xz ota`` This will download the rootfs, extract it "
 "and pack it into tarballs for our final script to create flashable images."
 msgstr ""
-"../build/prepare-fake-ota.sh out/device<your device's codename>"
-"usrmerge.tar.xz ota. Això descarregarà els rootfs, els extraurà i els "
-"empaquetarà en tarballs per al nostre script final per crear imatges "
-"flaixables."
+"``./build/prepare-fake-ota.sh out/device_<el nom de codi del vostre "
+"dispositiu>usrmerge.tar.xz ota``. Això descarregarà el rootfs, l'extraurà i "
+"l'empaquetarà en arxius tar per al nostre script final per crear imatges "
+"gravables."
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:9
 msgid "Next up, run:"
 msgstr "Següent amunt, executeu:"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:11
-#, fuzzy
 msgid ""
 "``./build/system-image-from-ota.sh ota/ubuntu_command images`` This will "
 "convert the tarballs into flashable images, and your images will be stored "
@@ -11380,9 +11226,9 @@ msgid ""
 "you configured your deviceinfo. But the basic file structure will be as "
 "given:"
 msgstr ""
-"the./build/system-image-from-ota.sh ota/ubuntucommand images. Això "
-"convertirà els tarballs en imatges flaixables, i les vostres imatges "
-"s'emmagatzemaran al directori  theimages/.. Hi haurà una sèrie de fitxers "
+"``./build/system-image-from-ota.sh ota/ubuntu_command images`` Això "
+"convertirà els arxius tar en imatges gravables, i les vostres imatges "
+"s'emmagatzemaran al directori `images/`. Hi haurà una sèrie de fitxers "
 "depenent de com heu configurat la vostra informació del dispositiu. Però "
 "l'estructura bàsica del fitxer serà la següent:"
 
@@ -11403,7 +11249,6 @@ msgid "└── system.img"
 msgstr "system.img"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:21
-#, fuzzy
 msgid ""
 "The ``boot.img`` will be flashed onto the boot partition of the phone. The "
 "``system.img`` and ``rootfs.img`` are interchangable. ``rootfs.img`` is "
@@ -11411,16 +11256,15 @@ msgid ""
 "``systempart`` in deviceinfo's cmdline. Otherwise, ``system.img`` is flashed "
 "to your system partition."
 msgstr ""
-"El .boot.img. es mostrarà a la partició d'arrencada del telèfon. Els  "
-"Thesystem.img. i  androotfs.img. són intercalables. therootfs.img the es mou "
-"a la partició de dades com a  theubuntu.img. si no incloeu .systempart. a la "
-"cmdline de deviceinfo. En cas contrari, ,system.img, es mostrarà a la "
-"partició del sistema."
+"El ``boot.img`` es gravarà a la partició d'arrencada del telèfon. Els "
+"``system.img`` i ``rootfs.img`` són intercanviables. ``rootfs.img`` es mou a "
+"la partició de dades com a ``ubuntu.img`` si no incloeu ``systempart`` a la "
+"línia d'ordrs de deviceinfo. En cas contrari, ``system.img`` es mostrarà a "
+"la partició del sistema."
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:25
-#, fuzzy
 msgid "info::"
-msgstr "info::"
+msgstr "info:"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:33
 msgid ""
@@ -11456,7 +11300,6 @@ msgstr ""
 "l'arbre font del nucli i establir la configuració necessària del nucli."
 
 #: ../../porting/configure_test_fix/Apparmor.rst:11
-#, fuzzy
 msgid ""
 "It is generally sufficient to cherry pick certain commits to the kernel "
 "source rather than replacing the whole ``apparmor`` directory in the kernel "
@@ -11465,8 +11308,8 @@ msgid ""
 "that were added on the same and most recent date):"
 msgstr ""
 "En general, n'hi ha prou amb seleccionar certes publicacions a la font del "
-"nucli en lloc de reemplaçar tot el directori  theapparmor. a l'arbre font "
-"del nucli. Seguiu l'enllaç següent que correspon a la versió del nucli del "
+"nucli en lloc de reemplaçar tot el directori ``apparmor`` a l'arbre font del "
+"nucli. Seguiu l'enllaç següent que correspon a la versió del nucli del "
 "vostre dispositiu i seleccioneu el bloc de publicacions més recent (és a "
 "dir, totes les publicacions que s'han afegit en la mateixa data i més recent)"
 ":"
@@ -11504,9 +11347,8 @@ msgstr ""
 "security/apparmor>"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:18
-#, fuzzy
 msgid "Make sure your kernel defconfig has the setting::"
-msgstr "Assegureu-vos que el vostre nucli defconfig tingui la configuració::"
+msgstr "Assegureu-vos que el vostre nucli defconfig tingui la configuració:"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:22
 msgid ""
@@ -11533,15 +11375,15 @@ msgstr ""
 "per a les aplicacions de l'Ubuntu Touch: ``GRID_UNIT_PX`` i ``QTWEBKIT_DPR``."
 
 #: ../../porting/configure_test_fix/Display.rst:8
-#, fuzzy
 msgid ""
 "There are also other options available that may be useful for you depending "
 "on your device's form factor. These are mentioned below and explained in "
 "depth :ref:`in the section on display settings<Display-settings>`."
 msgstr ""
-"També n'hi ha altres opcions disponibles que us poden ser útils depenent del "
-"factor de forma del vostre dispositiu. Aquestes opcions es discuteixen a "
-"sota."
+"També n'hi ha d'altres opcions disponibles que us poden ser útils depenent "
+"del factor de forma del vostre dispositiu. Aquestes opcions es discuteixen a "
+"sota i s'expliquen en profunditat a la :ref:`secció de configuració de la "
+"pantalla<Display-settings>`."
 
 #: ../../porting/configure_test_fix/Display.rst:10
 msgid ""
@@ -11560,28 +11402,25 @@ msgstr ""
 "especificant-los. Per exemple, aquest fitxer correspon a la tauleta Nexus 7:"
 
 #: ../../porting/configure_test_fix/Display.rst:18
-#, fuzzy
 msgid ""
 "The method for deriving values for these variables :ref:`is explained below. "
 "<Display-settings>`"
 msgstr ""
 "A continuació s'explica el mètode per a obtenir valors per a aquestes "
-"variables :ref:.. <Display-settings>"
+"variables :ref:`explicat a sota.<Display-settings>`"
 
 #: ../../porting/configure_test_fix/Display.rst:20
-#, fuzzy
 msgid ""
 "Once you have adjusted the ``android.conf`` file to the display settings "
 "needed for your device, this file should be incorporated into your build. "
 "See :doc:`the overlay documentation </porting/configure_test_fix/Overlay>`."
 msgstr ""
-"Un cop ajustat el fitxer  theandroid.conf. a la configuració de "
-"visualització necessària per al vostre dispositiu, aquest fitxer s'hauria "
-"d'incorporar a la vostra construcció. Vegeu :doc:.la documentació "
-"superposada </porting/configuretestfix/Overlay>.."
+"Un cop ajustat el fitxer ``android.conf`` a la configuració de visualització "
+"necessària per al vostre dispositiu, aquest fitxer s'hauria d'incorporar a "
+"la vostra compilació. Vegeu :doc:`la documentació de la superposició</"
+"porting/configure_test_fix/Overlay>`."
 
 #: ../../porting/configure_test_fix/Display.rst:23
-#, fuzzy
 msgid ""
 "This way of configuration is considered legacy and will be replaced "
 "by :ref:`DeviceInfo <DeviceInfo>` in the future. For migration purposes "
@@ -11589,9 +11428,9 @@ msgid ""
 "<DeviceInfo>`)."
 msgstr ""
 "Aquesta forma de configuració es considera antiga i serà reemplaçada per "
-":ref:.DeviceInfo <DeviceInfo> the en el futur. Per a propòsits de migració, "
-"establiu les dues configuracions (andandroid.conf)., així com :ref:)"
-".DeviceInfo <DeviceInfo>).)."
+":ref:`DeviceInfo <DeviceInfo>` en el futur. Per a propòsits de migració, "
+"establiu les dues configuracions (``android.conf`` així com :ref:`DeviceInfo "
+"<DeviceInfo>`)."
 
 #: ../../porting/configure_test_fix/Display.rst:29
 msgid "Determining the correct display settings"
@@ -11602,7 +11441,6 @@ msgid "Display scaling"
 msgstr "Escalat de la pantalla"
 
 #: ../../porting/configure_test_fix/Display.rst:34
-#, fuzzy
 msgid ""
 "``GRID_UNIT_PX`` (Pixels per Grid Unit or Px/GU) is specific to each device. "
 "Its goal is to make the user interface of the system and its applications "
@@ -11615,7 +11453,7 @@ msgid ""
 msgstr ""
 "``GRID_UNIT_PX`` (Píxels per unitat de quadrícula o Px/GU) és específica per "
 "a cada dispositiu. El seu objectiu és fer que la interfície d'usuari del "
-"sistema i de les seves aplicacions tinguin la mateixa mida «percebuda» "
+"sistema i de les seves aplicacions tinguin la mateixa mida *percebuda* "
 "independentment del dispositius on es visualitzen. Principalment depèn de la "
 "densitat de píxels de la pantalla del dispositiu i la distància a la "
 "pantalla on es troba l'usuari. Aquest últim valor no pot ser detectat "
@@ -11624,12 +11462,11 @@ msgstr ""
 "sostenen a 1.235 cops la distància a la qual se sostenen els telèfons."
 
 #: ../../porting/configure_test_fix/Display.rst:36
-#, fuzzy
 msgid ""
 "``QTWEBKIT_DPR`` sets the display scaling for the Oxide web engine, so "
 "changes to this value will affect the scale of the browser and webapps."
 msgstr ""
-"``QTWEBKIT_DPR``estableix l'escalat de la pantalla per al motor de web "
+"``QTWEBKIT_DPR`` estableix l'escalat de la pantalla per al motor de web "
 "Oxide, de manera que els canvis a aquest valor afectarà l'escalat del "
 "navegadors i les aplicacions web."
 
@@ -11842,7 +11679,6 @@ msgid "Form factor"
 msgstr "Factor de forma"
 
 #: ../../porting/configure_test_fix/Display.rst:60
-#, fuzzy
 msgid ""
 "``FORM_FACTOR`` specifies the device's form factor. This value is set as the "
 "device's Chassis, which you can find by running ``hostnamectl``. The "
@@ -11851,10 +11687,10 @@ msgid ""
 "For more information on the Chassis, see the freedesktop.org hostnamed "
 "specification."
 msgstr ""
-"``FORM_FACTOR``especifica el factor de forma del dispositiu. Aquest valor "
+"``FORM_FACTOR`` especifica el factor de forma del dispositiu. Aquest valor "
 "està esablert com el xassís del dispositiu, que podeu trobar executant "
 "``hostnamectl``. Els valors acceptables són ``handset``, ``tablet``, "
-"``laptop``i ``desktop``. Les aplicacions, com ara la  galeria, usen aquesta "
+"``laptop`` i ``desktop``. Les aplicacions, com ara la  galeria, usen aquesta "
 "informació per canviar la seva funcionalitat. Per a més informació sobre el "
 "xassís, vegeu the freedesktop.org hostnamed specification`_."
 
@@ -11969,9 +11805,8 @@ msgid "Run `sudo fscrypt setup` to generate a new file."
 msgstr "Executeu .sudo fscrypt setup. per a generar un fitxer nou."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:27
-#, fuzzy
 msgid "The resulting configuration file might look like::"
-msgstr "El fitxer de configuració resultant pot semblar::"
+msgstr "El fitxer de configuració resultant pot semblar:"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:47
 msgid "use_fs_keyring_for_v1_policies configuration switch"
@@ -12028,7 +11863,6 @@ msgid "Kernel backports"
 msgstr "Retroportaments del nucli"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:77
-#, fuzzy
 msgid ""
 "If your device uses kernel version 4.14 or 4.19, then you can backport "
 "policy version 2 support from the `Android Common Kernel <https://"
@@ -12037,9 +11871,9 @@ msgid ""
 msgstr ""
 "Si el vostre dispositiu utilitza la versió 4.14 o 4.19 del nucli, llavors "
 "podeu donar suport a la versió 2 de la política de backport des del "
-"repositori  theAndroid Common Kernel <https://android.googlesource.com/"
-"kernel/common/>.. Per a obtenir fonts des d'allà, afegiu el remot al vostre "
-"arbre de Git::"
+"repositori `Android Common Kernel <https://android.googlesource.com/kernel/"
+"common/>`_. Per a obtenir fonts des d'allà, afegiu el remot al vostre arbre "
+"de Git:"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:81
 msgid ""
@@ -12059,7 +11893,6 @@ msgstr ""
 "publicacions relacionades amb el nucli comú."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:83
-#, fuzzy
 msgid ""
 "For example, if the device kernel is using 4.19.81, according to the Common "
 "Kernel's Git history an appropriate source base would be `commit "
@@ -12069,26 +11902,24 @@ msgid ""
 "those sources using::"
 msgstr ""
 "Per exemple, si el nucli del dispositiu està utilitzant 4.19.81, d'acord amb "
-"l'historial Git del nucli comú, una base de font apropiada seria .commit "
+"l'historial Git del nucli comú, una base de font apropiada seria `commit "
 "c2ad33f0296a2528fd0bf4e96af0802dad0b1b27 <https://android.googlesource.com/"
-"kernel/common/+/c2ad33f0296a2528fd0bf4e96af0802dad0b1b27>., que es basa en "
+"kernel/common/+/c2ad33f0296a2528fd0bf4e96af0802dad0b1b27>`_, que es basa en "
 "la versió 4.19.78 i una coincidència propera a la resta de l'arbre font. "
-"Recupera aquestes fonts utilitzant::"
+"Recupera aquestes fonts utilitzant:"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:87
-#, fuzzy
 msgid ""
 "After determining the right commit, check out `fs/crypto` and encryption-"
 "supporting filesystems at that commit (replace the commit hash in the "
 "example with your determined match)::"
 msgstr ""
-"Després de determinar la publicació correcta, consulteu ,fs/crypto, i "
+"Després de determinar la publicació correcta, consulteu `fs/crypto` i "
 "sistemes de fitxers compatibles amb xifratge en aquesta publicació "
 "(reemplaceu el resum de la publicació a l'exemple amb la vostra coincidència "
-"determinada)::"
+"determinada):"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:99
-#, fuzzy
 msgid ""
 "Should the compilation of your kernel fail at first with missing identifier "
 "errors, undefined references or missing files, compare with the Common "
@@ -12097,7 +11928,7 @@ msgstr ""
 "Si la compilació del vostre nucli falla al principi amb errors "
 "d'identificador, referències no definides o fitxers que manquen, compareu-"
 "vos amb el nucli comú i reviseu els canvis i dependències que manquen "
-"individualment::"
+"individualment:"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:112
 msgid ""
@@ -12163,7 +11994,6 @@ msgid "Add udev rules"
 msgstr "Addició de les regles udev"
 
 #: ../../porting/configure_test_fix/Lomiri.rst:16
-#, fuzzy
 msgid ""
 "The correct way to do this is by storing these settings in overlay files "
 "(:ref:`Overlay`), and not by making the root directory writeable, as "
@@ -12172,7 +12002,7 @@ msgid ""
 "for first time setup."
 msgstr ""
 "La manera correcta de fer-ho és emmagatzemant aquests paràmetres en fitxers "
-"superposats (:ref:.Overlay.), i no fent que el directori arrel es pugui "
+"superposats (:ref:`Overlay`), i no fent que el directori arrel es pugui "
 "escriure, com es descriu a continuació. No obstant això, per tal de "
 "configurar ràpidament les regles udev que són necessàries per completar els "
 "passos posteriors, podeu utilitzar el mètode detallat aquí per primera "
@@ -12197,26 +12027,20 @@ msgid "Create and add udev rules"
 msgstr "Addició de les regles udev"
 
 #: ../../porting/configure_test_fix/Lomiri.rst:28
-#, fuzzy
 msgid ""
 "You must create some udev rules to allow Ubuntu Touch software to access "
 "your hardware."
 msgstr ""
-"Ara que heu iniciat una sessió d'usuari, heu de crear algunes regles udev "
-"per permetre el programari de l'Ubuntu Touch accedir el maquinari. Executeu "
-"l'ordre següent, reemplaçant [nomdecodi] pel nom de codi del vostre "
-"dispositiu::"
+"Heu de crear algunes regles udev per permetre el programari de l'Ubuntu "
+"Touch accedir el maquinari."
 
 #: ../../porting/configure_test_fix/Lomiri.rst:30
-#, fuzzy
 msgid ""
 "To do this, you can use the commands below, replacing `[CODENAME]` with your "
 "device's codename::"
 msgstr ""
-"Ara que heu iniciat una sessió d'usuari, heu de crear algunes regles udev "
-"per permetre el programari de l'Ubuntu Touch accedir el maquinari. Executeu "
-"l'ordre següent, reemplaçant [nomdecodi] pel nom de codi del vostre "
-"dispositiu::"
+"Per fer això, podeu usar les ordres de sota, susbtituint `[CODENAME]` amb el "
+"nom de codi del vostre dispositiu:"
 
 #: ../../porting/configure_test_fix/Lomiri.rst:36
 msgid ""
@@ -12229,15 +12053,14 @@ msgstr ""
 "contrasenya de bloqueig és la mateixa que hau establert per al SSH."
 
 #: ../../porting/configure_test_fix/Lomiri.rst:38
-#, fuzzy
 msgid ""
 "When Unity 8 is first brought up on your device, you will probably notice "
 "that everything is very small. The :ref:`Display` section describes how to "
 "deal with this."
 msgstr ""
-"Quan Unity 8 es presenta per primera vegada en el seu dispositiu, és "
-"probable que noti que tot és molt petit. La secció :ref:.Display. descriu "
-"com fer-ho."
+"Quan l'Unity 8 es mostra per primera vegada en el seu dispositiu, és "
+"probable que noteu que tot és molt petit. La secció :ref:`Display` descriu "
+"com arreglar això."
 
 #: ../../porting/configure_test_fix/Overlay.rst:4
 msgid "Overlay file method"
