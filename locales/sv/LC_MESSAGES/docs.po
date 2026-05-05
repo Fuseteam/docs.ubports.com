@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: UBports\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-03-11 01:09+0000\n"
+"PO-Revision-Date: 2026-05-06 09:09+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: ../../about/introduction.rst:2 ../../porting/introduction/index.rst:2
 msgid "Introduction"
@@ -5004,7 +5004,7 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:135
 msgid "Line length"
-msgstr ""
+msgstr "Radlängd"
 
 #: ../../contribute/documentation.rst:137
 msgid ""
@@ -5476,7 +5476,7 @@ msgstr ""
 
 #: ../../contribute/quality-assurance.rst:2
 msgid "Quality Assurance"
-msgstr ""
+msgstr "Kvalitetsförsäkran"
 
 #: ../../contribute/quality-assurance.rst:4
 msgid ""
@@ -5992,7 +5992,7 @@ msgstr ""
 
 #: ../../humanguide/app-layout/importing-data.rst:2
 msgid "Importing Data"
-msgstr ""
+msgstr "Importerar data"
 
 #: ../../humanguide/app-layout/importing-data.rst:4
 msgid ""
@@ -6013,7 +6013,7 @@ msgstr ""
 
 #: ../../humanguide/app-layout/index.rst:2
 msgid "App layout"
-msgstr ""
+msgstr "App-layout"
 
 #: ../../humanguide/app-layout/main-actions.rst:2
 msgid "Main actions"
@@ -6102,7 +6102,7 @@ msgstr ""
 
 #: ../../humanguide/app-layout/presenting-data.rst:2
 msgid "Presenting data"
-msgstr ""
+msgstr "Presenterar data"
 
 #: ../../humanguide/app-layout/presenting-data.rst:5
 msgid "List Items"
@@ -6182,7 +6182,7 @@ msgstr ""
 
 #: ../../humanguide/app-layout/quick-actions.rst:2
 msgid "Quick actions"
-msgstr ""
+msgstr "Snabba åtgärder"
 
 #: ../../humanguide/app-layout/quick-actions.rst:4
 msgid ""
@@ -10858,7 +10858,7 @@ msgstr ""
 
 #: ../../porting/introduction/Preparations.rst:12
 msgid "Kernel"
-msgstr ""
+msgstr "Kärna"
 
 #: ../../porting/introduction/Preparations.rst:13
 msgid ""
@@ -10873,7 +10873,7 @@ msgstr ""
 
 #: ../../porting/introduction/Preparations.rst:15
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #: ../../porting/introduction/Preparations.rst:16
 msgid ""
