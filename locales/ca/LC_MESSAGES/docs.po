@@ -38,7 +38,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-05-06 09:09+0000\n"
+"PO-Revision-Date: 2026-05-06 11:06+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ca/>\n"
@@ -14970,7 +14970,6 @@ msgid ""
 msgstr "L'eMMC amb jumpdrive conté dues particions: pmOSboot i pmOSroot."
 
 #: ../../systemdev/kernel-pinephone.rst:37
-#, fuzzy
 msgid ""
 "The microSD card with Ubuntu Touch contains 10 partitions: loader, scr, "
 "persist, boot_a, boot_b, recovery_a, recovery_b, cache, system and userdata. "
@@ -14981,12 +14980,12 @@ msgid ""
 "``System.map-5.6.0-pine64`` ``vmlinuz``."
 msgstr ""
 "La targeta microSD amb Ubuntu Touch conté 10 particions: carregador, scr, "
-"persist, boota, bootb, recoverya, recoveryb, cache, system i userdata. Per a "
+"persist, boota, bootb, recoverya, recoveryb, cache, system i userdata. Per "
 "actualitzar el nucli voleu muntar l'arrencada. Comproveu quin dispositiu és "
-"el SDcard al vostre SO i el mount boota. En l'exemple anterior aquest és "
+"el SDcard al vostre SO i monteu boot_a. En l'exemple anterior aquest és "
 "sdc4. Dins d'aquesta partició veureu el nucli vmlinuz i fitxers relacionats: "
-".config-5.6.0-pine64. .dtb. .initrd.img.  themodules/.  theSystem.map-5.6.0-"
-"pine64. .vmlinuz.."
+"``config-5.6.0-pine64`` ``dtb`` ``initrd.img`` ``modules/`` ``System.map-"
+"5.6.0-pine64`` ``vmlinuz``."
 
 #: ../../systemdev/kernel-pinephone.rst:42
 #, fuzzy
