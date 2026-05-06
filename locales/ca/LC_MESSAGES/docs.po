@@ -38,7 +38,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-05-05 09:12+0000\n"
+"PO-Revision-Date: 2026-05-06 09:09+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ca/>\n"
@@ -12111,20 +12111,18 @@ msgstr ""
 "particions d'Android."
 
 #: ../../porting/configure_test_fix/Overlay.rst:18
-#, fuzzy
 msgid ""
 "If a subdirectory contains a special file named ``.halium-override-dir`` "
 "that directory will replace the destination directory tree, i.e. the "
 "contents of the underlying directory and its descendants will no longer be "
 "accessible."
 msgstr ""
-"Si un subdirectori conté un fitxer especial anomenat ..halium-override-dir., "
+"Si un subdirectori conté un fitxer especial anomenat ``halium-override-dir`` "
 "aquest directori reemplaçarà l'arbre de directoris de destinació, és a dir, "
 "el contingut del directori subjacent i els seus descendents ja no seran "
 "accessibles."
 
 #: ../../porting/configure_test_fix/Overlay.rst:20
-#, fuzzy
 msgid ""
 "If a subdirectory contains a special file named ``.halium-overlay-dir`` it "
 "will be merged with with the destination directory.  Any file in the "
@@ -12136,15 +12134,15 @@ msgid ""
 "www.kernel.org/doc/html/latest/filesystems/overlayfs.html>`_ for the "
 "technical details)."
 msgstr ""
-"Si un subdirectori conté un fitxer especial anomenat ..halium-overlay-dir., "
+"Si un subdirectori conté un fitxer especial anomenat ``halium-overlay-dir`` "
 "es fusionarà amb el directori de destinació.  Qualsevol fitxer del directori "
 "subjacent o descendents d'aquest segueix sent accessible si no hi ha cap "
 "fitxer amb el mateix camí de destinació a l'arbre de directoris "
 "superposats.  Els fitxers i directoris sencers que només existeixen en la "
 "superposició es fan accessibles en els seus respectius camins de "
 "destinació.  Això s'implementa utilitzant el sistema de fitxers overlayfs "
-"(vegeu la  thedocumentació overlayfs <https://www.kernel.org/doc/html/latest/"
-"filesystems/overlayfs.html>). per als detalls tècnics)."
+"(vegeu la `documentació overlayfs <https://www.kernel.org/doc/html/latest/"
+"filesystems/overlayfs.html>`_ per als detalls tècnics)."
 
 #: ../../porting/configure_test_fix/Overlay.rst:22
 msgid ""
@@ -12170,13 +12168,13 @@ msgstr ""
 "sencers pot fallar amb errors de muntatge."
 
 #: ../../porting/configure_test_fix/Overlay.rst:31
-#, fuzzy
 msgid ""
 "You should set the following option in your port's ``deviceinfo`` to enable "
 "mount-based overlay files: ``deviceinfo_use_overlaystore=\"true\"``."
 msgstr ""
-"Heu d'establir l'opció següent a la .deviceinfo. del port per a habilitar "
-"fitxers superposats basats en muntatge: .deviceinfouseoverlaystore.\"true\".."
+"Heu d'establir l'opció següent a la ``deviceinfo`` del port per a habilitar "
+"fitxers superposats basats en muntatge: "
+"``deviceinfouseoverlaystore.\"true\"``."
 
 #: ../../porting/configure_test_fix/Overlay.rst:33
 msgid ""
@@ -12191,28 +12189,24 @@ msgid "Example"
 msgstr "Exemples"
 
 #: ../../porting/configure_test_fix/Overlay.rst:38
-#, fuzzy
 msgid "Contents of ``overlay/system/halium``::"
-msgstr "Continguts de soverlay/system/haliums::"
+msgstr "Continguts de ``overlay/system/haliums``:"
 
 #: ../../porting/configure_test_fix/Overlay.rst:55
-#, fuzzy
 msgid "Contents of the underlying filesystem image::"
-msgstr "Contingut de la imatge subjacent del sistema de fitxers::"
+msgstr "Contingut de la imatge subjacent del sistema de fitxers:"
 
 #: ../../porting/configure_test_fix/Overlay.rst:69
-#, fuzzy
 msgid "The resulting combined filesystem the looks as follows::"
-msgstr "El sistema de fitxers combinat resultant es veu de la següent manera::"
+msgstr "El sistema de fitxers combinat resultant es veu de la següent manera:"
 
 #: ../../porting/configure_test_fix/Overlay.rst:85
-#, fuzzy
 msgid ""
 "The directory ``/etc/foo`` has been merged, whereas the ``/etc/bar`` "
 "directory and the file ``/etc/bazrc`` have been replaced."
 msgstr ""
-"El directori  The/etc/foo The s'ha fusionat, mentre que el directori  the/"
-"etc/bar. i el fitxer  the/etc/bazrc. han estat reemplaçats."
+"El directori ``/etc/foo`` s'ha fusionat, mentre que el directori ``/etc/"
+"bar`` i el fitxer ``/etc/bazrc`` han estat reemplaçats."
 
 #: ../../porting/configure_test_fix/Sound.rst:2
 msgid "Sound"
@@ -12231,13 +12225,12 @@ msgstr ""
 "auriculars Bluetooth."
 
 #: ../../porting/configure_test_fix/Sound.rst:9
-#, fuzzy
 msgid ""
 "Ubuntu Touch utilizes pulseaudio-modules-droid_ from SailfishOS to talk to "
 "Audio HAL. The module is responsible for:"
 msgstr ""
-"Ubuntu Touch utilitza el droid de pulseaudio-modules de SailfishOS per "
-"parlar amb Audio HAL. El mòdul és responsable de:"
+"Ubuntu Touch utilitza pulseaudio-modules-droid_ de SailfishOS per parlar amb "
+"Audio HAL. El mòdul és responsable de:"
 
 #: ../../porting/configure_test_fix/Sound.rst:11
 msgid "Loading appropriate Audio HAL from vendor partition."
@@ -12262,7 +12255,6 @@ msgid "Configuring pulseaudio-modules-droid quirks"
 msgstr "Execució de l'Ubuntu Touch"
 
 #: ../../porting/configure_test_fix/Sound.rst:20
-#, fuzzy
 msgid ""
 "Due to how different device vendors implement Android Audio HAL differently, "
 "sometimes you'll have to pass arguments to pulseaudio-modules-droid. On "
@@ -12272,23 +12264,21 @@ msgid ""
 msgstr ""
 "A causa de com els diferents proveïdors de dispositius implementen Android "
 "Audio HAL de manera diferent, de vegades haureu de passar arguments a "
-"pulseaudio-modules-droid. A Ubuntu Touch, això es fa proporcionant una  "
-"aDeviceinfo </porting/configuretestfix/deviceinfo>. clau "
-".PulseaudioModulesDroidExtraCardArgs.."
+"pulseaudio-modules-droid. A l'Ubuntu Touch, això es fa proporcionant una "
+"clau `Deviceinfo </porting/configuretestfix/device_info>`_ "
+"``PulseaudioModulesDroid_ExtraCardArgs``."
 
 #: ../../porting/configure_test_fix/Sound.rst:22
-#, fuzzy
 msgid ""
 "The full list of options can be found on the `pulseaudio-modules-droid's "
 "GitHub page`_. However, the following are a few options that might have to "
 "be added:"
 msgstr ""
-"La llista completa d'opcions es pot trobar a la  thepàgina GitHub "
-"depulseaudio-modules-droid.. No obstant això, les següents són algunes de "
-"les opcions que podrien haver d'afegir-se:"
+"La llista completa d'opcions es pot trobar a la `pàgina GitHub de pulseaudio-"
+"modules-droid`_. No obstant això, les següents són algunes de les opcions "
+"que podrien haver d'afegir-se:"
 
 #: ../../porting/configure_test_fix/Sound.rst:24
-#, fuzzy
 msgid ""
 "pulseaudio-modules-droid seems to incorrectly detect audio sampling rate on "
 "some devices. If the audio output sounds pitched and sped up/down, try "
@@ -12296,23 +12286,21 @@ msgid ""
 msgstr ""
 "Sembla que el droid de pulseaudio-modules detecta incorrectament la "
 "freqüència de mostreig d'àudio en alguns dispositius. Si la sortida d'àudio "
-"sona afinada i accelerada amunt/avall, proveu d'afegir ,rate4848000. o  "
-"therate.44100.."
+"sona afinada i accelerada amunt/avall, proveu d'afegir ``rate=48000`` o "
+"``rate=44100``."
 
 #: ../../porting/configure_test_fix/Sound.rst:25
-#, fuzzy
 msgid "``hw_volume=false`` can be used if changing volume seems to do nothing."
 msgstr ""
-".hwvolume.false. es pot utilitzar si el canvi de volum sembla no fer res."
+"``hw_volume=false`` es pot utilitzar si el canvi de volum sembla no fer res."
 
 #: ../../porting/configure_test_fix/Sound.rst:26
-#, fuzzy
 msgid ""
 "``use_legacy_stream_set_parameters=true`` can be tried if PulseAudio crashes "
 "on starting voicecall and/or voicecall doesn't produce sound."
 msgstr ""
-".uselegacystreamsetparameters.true. es pot provar si PulseAudio falla en "
-"iniciar la crida de veu i/o la crida de veu no produeix so."
+"``use_legacy_stream_set_parameters.true`` es pot provar si PulseAudio falla "
+"en iniciar la crida de veu i/o la crida de veu no produeix so."
 
 #: ../../porting/configure_test_fix/Sound.rst:31
 msgid ""
@@ -12341,76 +12329,69 @@ msgstr ""
 "executeu:"
 
 #: ../../porting/configure_test_fix/Sound.rst:41
-#, fuzzy
 msgid ""
 "If ``audio.primary.default.so`` is the only output, this usually means the "
 "workaround is needed. Follow the following steps to implement the workaround:"
 msgstr ""
-"Si .audio.primary.default.so. és l'única sortida, normalment vol dir que es "
-"necessita la solució temporal. Seguiu els següents passos per implementar la "
-"solució:"
+"Si ``audio.primary.default.so`` és l'única sortida, normalment vol dir que "
+"es necessita la solució temporal. Seguiu els següents passos per implementar "
+"la solució:"
 
 #: ../../porting/configure_test_fix/Sound.rst:43
-#, fuzzy
 msgid ""
 "\"Overlay\" ``audio.primary.default.so`` with a compatibility module by "
 "placing the symlink in the overlay. From the device source repository, run "
 "the command:"
 msgstr ""
-"«Overlay» .audio.primary.default.so. amb un mòdul de compatibilitat "
+"«Overlay» ``audio.primary.default.so`` amb un mòdul de compatibilitat "
 "col·locant l'enllaç simbòlic a la superposició. Des del repositori d'origen "
 "del dispositiu, executeu l'ordre:"
 
 #: ../../porting/configure_test_fix/Sound.rst:51
-#, fuzzy
 msgid ""
 "``audio.hidl_compat.default.so`` is a wrapper module which implements Audio "
 "HAL interface by connecting to the actual Audio HAL over Binder, thus "
 "allowing pulseaudio-modules-droid to connect to it."
 msgstr ""
-".audio.hidlcompat.default.so. és un mòdul d'ajustament que implementa la "
+"``audio.hidlcompat.default.so`` és un mòdul d'ajustament que implementa la "
 "interfície HAL d'àudio connectant-se a la HAL d'àudio real sobre Binder, "
 "permetent així que pulseaudio-modules-droid es connecti a ella."
 
 #: ../../porting/configure_test_fix/Sound.rst:53
-#, fuzzy
 msgid ""
 "Overlay ``init.disabled.rc`` so that Audio HAL process does not get "
 "disabled. Audio HAL process is disabled by default as it's expected that "
 "pulseaudio-modules-droid will be able to use Audio HAL directly. This is "
 "done by the following:"
 msgstr ""
-"Superposa .init.disabled.rc. de manera que el procés «Hall» de l'àudio no es "
+"Superposa ``init.disabled.rc`` de manera que el procés Hall de l'àudio no es "
 "desactiva. El procés de HAL d'àudio està desactivat de manera "
 "predeterminada, ja que s'espera que pulseaudio-modules-droid sigui capaç "
 "d'utilitzar el HAL d'àudio directament. Això es fa amb el següent:"
 
 #: ../../porting/configure_test_fix/Sound.rst:54
-#, fuzzy
 msgid ""
 "Get a copy of ``init.disabled.rc`` from the booted system. This can be done "
 "on booted system using ADB or SSH. For example:"
 msgstr ""
-"Obteniu una còpia de  theinit.disabled.rc. des del sistema arrencat. Això es "
+"Obteniu una còpia de ``init.disabled.rc`` des del sistema arrencat. Això es "
 "pot fer en el sistema arrencat utilitzant ADB o SSH. Per exemple:"
 
 #: ../../porting/configure_test_fix/Sound.rst:60
-#, fuzzy
 msgid ""
 "Modify the file by commenting the sections which mentions ``audio-hal``. The "
 "entire section can be commented by placing ``#`` in front. For example:"
 msgstr ""
-"Modifiqueu el fitxer comentant les seccions que mencionen .audio-hal.. Tota "
-"la secció es pot comentar col·locant  The al davant. Per exemple:"
+"Modifiqueu el fitxer comentant les seccions que mencionen ``audio-hal``. "
+"Tota la secció es pot comentar col·locant ``#`` al davant. Per exemple:"
 
 #: ../../porting/configure_test_fix/Sound.rst:69
-#, fuzzy
 msgid ""
 "Place the modified file into the overlay directory in the device source "
 "repository, at ``overlay/system/etc/init/init.disabled.rc``."
 msgstr ""
 "Col·loqueu el fitxer modificat al directori de superposició al repositori "
-"d'origen del dispositiu, a .overlay/system/etc/init/init.disabled.rc.."
+"d'origen del dispositiu, a ``overlay/system/etc/init/init.disabled.rc``."
 
 #: ../../porting/configure_test_fix/Sound.rst:72
 msgid ""
@@ -12427,7 +12408,6 @@ msgid "Configuring usb-moded"
 msgstr "Execució de l'Ubuntu Touch"
 
 #: ../../porting/configure_test_fix/USBModed.rst:7
-#, fuzzy
 msgid ""
 "Information on this page is applicable for ports supporting Ubuntu Touch "
 "20.04. To make your port support Ubuntu Touch 20.04, "
@@ -12435,10 +12415,9 @@ msgid ""
 msgstr ""
 "La informació d'aquesta pàgina és aplicable als ports que suporten Ubuntu "
 "Touch 20.04. Per a fer que el vostre port sigui compatible amb Ubuntu Touch "
-"20.04, vegeu :ref:.UpdatePortsFor2004.."
+"20.04, vegeu :ref:`UpdatePortsFor2004`."
 
 #: ../../porting/configure_test_fix/USBModed.rst:9
-#, fuzzy
 msgid ""
 "usb-moded is a new daemon in Ubuntu Touch 20.04 which handles transitions "
 "between USB modes e.g. MTP and developer mode. It replaces a number of ad-"
@@ -12446,7 +12425,7 @@ msgid ""
 msgstr ""
 "usb-moded és un dimoni nou d'Ubuntu Touch 20.04 que gestiona les transicions "
 "entre els modes USB, p. ex. MTP i el mode desenvolupador. Substitueix una "
-"sèrie de treballs ad-hoc Upstart el 16.04, i l'script ,setupusb. utilitzat "
+"sèrie de treballs ad-hoc Upstart el 16.04, i l'script ``setupusb`` utilitzat "
 "pels ports recents."
 
 #: ../../porting/configure_test_fix/USBModed.rst:11
@@ -12492,13 +12471,12 @@ msgstr ""
 "HAL controlat pel venedor que parla sobre HIDL."
 
 #: ../../porting/configure_test_fix/USBModed.rst:21
-#, fuzzy
 msgid ""
 "This has led to porters resorting to an ad-hoc script like ``setupusb`` "
 "which runs at boot to configure the USB mode once. And when a basic things "
 "like this gets pushed to porters, inevitably it leads to fragmentation."
 msgstr ""
-"Això ha portat als portadors a recórrer a un script ad-hoc com .setupusb. "
+"Això ha portat als portadors a recórrer a un script ad-hoc com ``setupusb`` "
 "que s'executa en arrencar per configurar el mode USB una vegada. I quan una "
 "cosa bàsica com aquesta es veu empesa als portadors, inevitablement condueix "
 "a la fragmentació."
@@ -12522,17 +12500,16 @@ msgid "The basic configurations"
 msgstr "Les configuracions bàsiques"
 
 #: ../../porting/configure_test_fix/USBModed.rst:28
-#, fuzzy
 msgid ""
 "The main configuration is at ``/etc/default/usb-moded.d/device-specific-"
 "config.conf`` which porters can use the overlay system to place the file. "
 "The file is in a simple ``<key>=<value>`` format. An example of it is as "
 "below:"
 msgstr ""
-"La configuració principal és a  The/etc/default/usb-moded.d/device-specific-"
-"config.conf., els porters poden utilitzar el sistema superposat per a "
-"col·locar el fitxer. El fitxer està en un format  The<key> The<value>. "
-"simple. Un exemple d'això és el següent:"
+"La configuració principal és a ``/etc/default/usb-moded.d/device-specific-"
+"config.conf`` els porters poden utilitzar el sistema superposat per a "
+"col·locar el fitxer. El fitxer està en un format ``<clau>=<valor>`` simple. "
+"Un exemple d'això és el següent:"
 
 #: ../../porting/configure_test_fix/USBModed.rst:39
 msgid "The following can be configure:"
@@ -12573,27 +12550,24 @@ msgid "IDPRODUCT_RNDIS_ADB"
 msgstr "IDPRODUCTRNDISADB"
 
 #: ../../porting/configure_test_fix/USBModed.rst:52
-#, fuzzy
 msgid ""
 "It accepts the IDs in hexadecimal without ``0x`` prefix. The IDs could be "
 "found in:"
 msgstr ""
-"Accepta els ID en hexadecimal sense prefix  the0x.. Els identificadors es "
+"Accepta els ID en hexadecimal sense prefix ``0x``. Els identificadors es "
 "poden trobar a:"
 
 #: ../../porting/configure_test_fix/USBModed.rst:54
-#, fuzzy
 msgid "Your device's ``init.<device>.rc`` or ``init.<chipset>.rc``."
-msgstr "El vostre dispositiu és «init.<device>.rc.» o «init.<chipset>.rc.»."
+msgstr "El vostre dispositiu és ``init.<device>.rc`` o ``init.<chipset>.rc``."
 
 #: ../../porting/configure_test_fix/USBModed.rst:55
 msgid "Your device's USB HAL source code, if it happens to ship one."
 msgstr "El codi font USB HAL del vostre dispositiu, si passa a enviar-ne un."
 
 #: ../../porting/configure_test_fix/USBModed.rst:56
-#, fuzzy
 msgid "Your device's ``setupusb`` script, if available."
-msgstr "L'script ssetupusb. del vostre dispositiu, si està disponible."
+msgstr "L'script ``setupusb`` del vostre dispositiu, si està disponible."
 
 #: ../../porting/configure_test_fix/USBModed.rst:58
 msgid ""
@@ -12644,7 +12618,6 @@ msgid "usb-moded's arguments"
 msgstr "Arguments de la línia d'ordres"
 
 #: ../../porting/configure_test_fix/USBModed.rst:74
-#, fuzzy
 msgid ""
 "This config controls the launching flag of the usb-moded daemon itself. Most "
 "of the time, usb-moded should work without any flag. However, the rootfs "
@@ -12655,8 +12628,8 @@ msgid ""
 msgstr ""
 "Aquesta configuració controla l'indicador de llançament del dimoni usb-"
 "moded. La majoria de les vegades, usb-moded hauria de funcionar sense cap "
-"bandera. No obstant això, el rootfs distribueix un valor predeterminat amb ,-"
-"r). que habilita el mode de rescat en arrencar (vegeu més avall). El "
+"bandera. No obstant això, el rootfs distribueix un valor predeterminat amb "
+"``-r`` que habilita el mode de rescat en arrencar (vegeu més avall). El "
 "comportament del mode de rescat pot ser confús per als usuaris finals, de "
 "manera que es recomana que els portadors configuren aquest valor al valor en "
 "blanc per desactivar el mode de rescat."
@@ -12686,7 +12659,6 @@ msgstr ""
 "tant es mantindrà en aquest mode fins que es torni a connectar el cable."
 
 #: ../../porting/configure_test_fix/USBModed.rst:83
-#, fuzzy
 msgid ""
 "This behavior is helpful for the porters. However, this can be confusing to "
 "end-users when the port is shipped. So I recommended disabling this mode "
@@ -12696,10 +12668,9 @@ msgstr ""
 "Aquest comportament és útil per als portadors. Tanmateix, això pot ser "
 "confús per als usuaris finals quan s'envia el port. Per tant, vaig recomanar "
 "desactivar aquest mode abans de posar el port a disposició dels usuaris "
-"substituint .USBMODEDARGS. com s'ha comentat anteriorment."
+"substituint ``USB__MODED_ARGS`` com s'ha comentat anteriorment."
 
 #: ../../porting/configure_test_fix/USBModed.rst:85
-#, fuzzy
 msgid ""
 "Another rescue feature available is the ability to force usb-moded to go to "
 "\"rescue mode\" or to enable ADB on every boot. This can be done by placing "
@@ -12708,27 +12679,25 @@ msgid ""
 "and the system will make sure the correct mode is enabled."
 msgstr ""
 "Una altra característica de rescat disponible és la capacitat de forçar usb-"
-"moded a anar al \"mode de rescat\" o per habilitar ADB en cada bota. Això es "
-"pot fer col·locant un fitxer buit a  an/userdata/.force-ssh. o  or/userdata/"
-".force-adb. (que es tradueix a ./data/.force-ssh or o  or/data/.force-adb. "
-"en la recuperació), i el sistema s'assegurarà que el mode correcte estigui "
-"habilitat."
+"moded a anar al «mode de rescat» o per habilitar ADB en cada reinici. Això "
+"es pot fer col·locant un fitxer buit a ``/userdata/.force-ssh`` o ``/"
+"userdata/.force-adb`` (que es tradueix a ``/data/.force-ssh`` o ``/data/"
+".force-adb`` en la recuperació), i el sistema s'assegurarà que el mode "
+"correcte estigui habilitat."
 
 #: ../../porting/configure_test_fix/USBModed.rst:88
-#, fuzzy
 msgid ""
 "If using ADB, you may also have to disable ADB authorization prompt. "
 "See :ref:`AdbdAuthz`."
 msgstr ""
 "Si utilitzeu ADB, també és possible que hàgiu de desactivar la sol·licitud "
-"d'autorització ADB. Vegeu :ref:.AdbdAuthz.."
+"d'autorització ADB. Vegeu :ref:`AdbdAuthz`."
 
 #: ../../porting/configure_test_fix/USBModed.rst:91
 msgid "Configuring usb-moded directly"
 msgstr "Configurar directament usb-moded"
 
 #: ../../porting/configure_test_fix/USBModed.rst:93
-#, fuzzy
 msgid ""
 "Besides tweaking options for the configurator script, porters can also set "
 "usb-moded options directly via ``/etc/usb-moded/90-device-specific-"
@@ -12739,13 +12708,13 @@ msgid ""
 "usb_moded-doc.txt>` for the syntax."
 msgstr ""
 "A més d'ajustar les opcions per a l'script del configurador, els portadors "
-"també poden establir opcions usb-moded directament a través de ./etc/usb-"
-"moded/90-device-specific-config.ini.. No obstant això, això està pensat com "
-"una eclosió d'escapament en cas que falli la detecció automàtica, i si us "
-"heu trobat que necessiteu utilitzar aquest fitxer, considereu la qüestió de "
-"la presentació sobre el repositori d'envasos d'usb-moded. Vegeu els "
-"documents d'usb-moded <https://github.com/sailfishos/usb-moded/blob/master/"
-"docs/usbmoded-doc.txt>. per a la sintaxi."
+"també poden establir opcions usb-moded directament a través de ``/etc/usb-"
+"moded/90-device-specific-config.ini``. No obstant això, això està pensat com "
+"un mecanisme d'escapament en cas que falli la detecció automàtica, i si us "
+"heu trobat que necessiteu utilitzar aquest fitxer, considereu presentar un "
+"informe d'error sobre el repositori d'empaquetament usb-moded. Vegeu els "
+"`documents d'usb-moded <https://github.com/sailfishos/usb-moded/blob/master/"
+"docs/usb_moded-doc.txt>` per a la sintaxi."
 
 #: ../../porting/configure_test_fix/Wifi.rst:2
 msgid "Wifi"
@@ -12764,11 +12733,10 @@ msgid "Ayatana-indicator-power"
 msgstr "Ayatana-indicador-poder"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:6
-#, fuzzy
 msgid "All deviceinfo keys used by ayatana-indicator-power are given below::"
 msgstr ""
 "Totes les claus de deviceinfo utilitzades per ayatana-indicator-power es "
-"mostren a continuació::"
+"mostren a continuació:"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:13
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:13
@@ -12837,9 +12805,8 @@ msgstr "Exemples"
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:25
 #: ../../porting/configure_test_fix/device_info/Mir.rst:65
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:27
-#, fuzzy
 msgid "Device ``sample`` using:"
-msgstr "Dispositiu :sample: utilitzant:"
+msgstr "Dispositiu ``sample`` utilitzant:"
 
 #: ../../porting/configure_test_fix/device_info/Ayatana-indicator-power.rst:27
 msgid ""
@@ -12860,18 +12827,16 @@ msgstr ""
 #: ../../porting/configure_test_fix/device_info/Mir.rst:72
 #: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:42
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:33
-#, fuzzy
 msgid "Config file::"
-msgstr "Fitxer de configuració::"
+msgstr "Fitxer de configuració:"
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:4
 msgid "hfd-service"
 msgstr "Al dispositiu"
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:6
-#, fuzzy
 msgid "Overview of all hfd-service keys::"
-msgstr "Vista general de totes les claus del servei hfd::"
+msgstr "Vista general de totes les claus del servei hfd:"
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:18
 msgid "SingleColorLedSysfsPath"
@@ -12899,12 +12864,11 @@ msgid "Any integer number"
 msgstr "Qualsevol nombre enter"
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:27
-#, fuzzy
 msgid ""
 "Single-color notification LED controllable via ``/sys/class/leds/green/"
 "brightness``"
 msgstr ""
-"Notificació d'un sol color LED controlable via -/sys/class/leds/green/"
+"Notificació d'un sol color LED controlable via ``/sys/class/leds/green/"
 "brightness``"
 
 #: ../../porting/configure_test_fix/device_info/HfdService.rst:28
@@ -12920,9 +12884,8 @@ msgid "Mir"
 msgstr "Mir"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:6
-#, fuzzy
 msgid "Overview of all Mir keys::"
-msgstr "Vista general de totes les claus Mir::"
+msgstr "Vista general de totes les claus Mir:"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:17
 msgid "mir-platform-android"
@@ -12990,9 +12953,8 @@ msgid "MirAndroidPlatformServerEglSync"
 msgstr "MirAndroidPlatformServerEglSync"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:26
-#, fuzzy
 msgid "Launcher argument (``default``)"
-msgstr "Argument del llançador ()default))"
+msgstr "Argument del llançador (``default``)"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:27
 #: ../../porting/configure_test_fix/device_info/Mir.rst:58
@@ -13048,21 +13010,19 @@ msgstr ""
 "servidor assignades a HWC."
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:67
-#, fuzzy
 msgid ""
 "Enabling egl flushing for every client except for ``lomiri`` and ``unity8``"
 msgstr ""
-"Habilitant el rentat d'egl per a tots els clients excepte  andlomiri and i  "
-"andunity8 and"
+"Habilitant el rentat d'egl per a tots els clients excepte ``lomiri`` i "
+"``unity8``"
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:68
-#, fuzzy
 msgid ""
 "Note that you can use ``!`` to invert conditions and turn the `allow` into a "
 "`deny` list."
 msgstr ""
-"Tingueu en compte que podeu utilitzar .!. per invertir les condicions i "
-"convertir el  theallow. en una llista  adeny.."
+"Tingueu en compte que podeu utilitzar ``!`` per invertir les condicions i "
+"convertir l'`allow` en una llista `deny`."
 
 #: ../../porting/configure_test_fix/device_info/Mir.rst:69
 msgid "Disabling egl sync for the server"
@@ -13077,10 +13037,8 @@ msgid "pulseaudio-module-droid-discover"
 msgstr "pulseaudio-module-droid-discover"
 
 #: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:6
-#, fuzzy
 msgid "Overview of all pulseaudio-module-droid-discover keys::"
-msgstr ""
-"Vista general de totes les tecles de descobriment d'aroid de pulseaudio::"
+msgstr "Vista general de totes les tecles de pulseaudio-module-droid-discover:"
 
 #: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:14
 msgid "About pulseaudio-module-droid-discover"
@@ -13101,13 +13059,12 @@ msgstr ""
 "arguments a aquests mòduls. Aquestes claus de Deviceinfo us permeten fer-ho."
 
 #: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:22
-#, fuzzy
 msgid ""
 "For information about what kinds of arguments are needed, see :doc:`the "
 "section \"Sound\" </porting/configure_test_fix/Sound>`."
 msgstr ""
 "Per a obtenir informació sobre quin tipus d'arguments es necessiten, vegeu "
-":doc:.la secció \"So\" </porting/configuretestfix/Sound>.."
+":doc:`la secció «So» </porting/configure_test_fix/Sound>`."
 
 #: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:26
 msgid "Available keys"
@@ -13146,22 +13103,20 @@ msgid "Arguments to pass to pulseaudio-module-droid-hidl"
 msgstr "Arguments per passar a pulseaudio-module-droid-hidl"
 
 #: ../../porting/configure_test_fix/device_info/Pulseaudio-module-droid-discover.rst:39
-#, fuzzy
 msgid ""
 "Device ``sample``'s Audio HAL requires the audio sampling rate of 48000 and "
 "needs to have ``hw_volume`` disabled."
 msgstr ""
-"L'audio HAL del dispositiu  thesample. requereix la freqüència de mostreig "
-"d'àudio de 48000 i necessita tenir  thehwvolume. desactivat."
+"L'audio HAL del dispositiu ``sample`` requereix la freqüència de mostreig "
+"d'àudio de 48000 i necessita tenir ``hw_volume`` desactivat."
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:4
 msgid "Repowerd"
 msgstr "Repowerd"
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:6
-#, fuzzy
 msgid "Overview of all repowerd keys::"
-msgstr "Vista general de totes les claus reactivades::"
+msgstr "Vista general de totes les claus reactivades:"
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:20
 msgid "BacklightSysfsPath"
@@ -13180,9 +13135,8 @@ msgid "Configuration for toggling DT2W"
 msgstr "Configuració per a commutar DT2W"
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:21
-#, fuzzy
 msgid "List of formatted strings: ``<path>|<enable>|<disable>``"
-msgstr "Llista de cadenes amb format:  of<path> of<enable> <disable>"
+msgstr "Llista de cadenes amb format: ``<camí><activa> <desactiva>``"
 
 #: ../../porting/configure_test_fix/device_info/Repowerd.rst:29
 msgid ""
@@ -13227,18 +13181,17 @@ msgid "Device specific overrides"
 msgstr "Sobreescriu el dispositiu específic"
 
 #: ../../porting/configure_test_fix/device_info/index.rst:11
-#, fuzzy
 msgid ""
 "Configuration files per device are located at ``/etc/deviceinfo/devices/"
 "[device].yaml``. It will try to autodetect the correct configuration to load "
 "based on model of the device, using android props for halium/android devices "
 "and dtb for native linux devices."
 msgstr ""
-"Els fitxers de configuració per dispositiu es troben a ./etc/deviceinfo/"
-"devices/[device].yaml.. S'intentarà detectar automàticament la configuració "
-"correcta per carregar en funció del model del dispositiu, utilitzant suports "
-"d'Android per a dispositius hali/android i dtb per a dispositius linux "
-"nadius."
+"Els fitxers de configuració per dispositiu es troben a ``/etc/deviceinfo/"
+"devices/[device].yaml``. S'intentarà detectar automàticament la configuració "
+"correcta per carregar en funció del model del dispositiu, utilitzant "
+"propietats d'Android per a dispositius halium/android i dtb per a "
+"dispositius linux nadius."
 
 #: ../../porting/configure_test_fix/device_info/index.rst:16
 msgid ""
@@ -13249,17 +13202,15 @@ msgstr ""
 "detectat automàticament es convertirà en minúscula."
 
 #: ../../porting/configure_test_fix/device_info/index.rst:18
-#, fuzzy
 msgid ""
 "For example, the file for the Nexus 7 tablet (flo) would be located at ``/"
 "etc/deviceinfo/devices/flo.yaml`` and needs to start with the device's name::"
 msgstr ""
-"Per exemple, el fitxer per a la tauleta Nexus 7 (flo) estaria situat a  the/"
-"etc/deviceinfo/devices/flo.yaml the i necessita començar amb el nom del "
-"dispositiu::"
+"Per exemple, el fitxer per a la tauleta Nexus 7 (flo) estaria situat a ``/"
+"etc/deviceinfo/devices/flo.yaml`` i necessita començar amb el nom del "
+"dispositiu:"
 
 #: ../../porting/configure_test_fix/device_info/index.rst:28
-#, fuzzy
 msgid ""
 "In case you can not add a new file to the rootfs, you can bind-mount ``/etc/"
 "deviceinfo/devices/halium.yaml``. For a reference, see the `configuration "
@@ -13267,14 +13218,13 @@ msgid ""
 "android_device_google_bonito/commit/"
 "d0ca48aadcde0b74840c3394ac86042033d7f846>`_."
 msgstr ""
-"En cas que no pugueu afegir un fitxer nou a rootfs, podeu vincular-lo a  the/"
-"etc/deviceinfo/devices/halium.yaml.. Per a una referència, vegeu el  "
-"thereportatge de configuració per a bonito/sargo <https://github.com/"
-"fredldotme/androiddevicegooglebonito/commit/"
-"d0ca48aadcde0b74840c3394ac86042033d7f846>.."
+"En cas que no pugueu afegir un fitxer nou a rootfs, podeu vincular-lo a ``/"
+"etc/deviceinfo/devices/halium.yaml``. Per a una referència, vegeu l'`informe "
+"de configuració per a bonito/sargo <https://github.com/fredldotme/"
+"android_device_google_bonito/commit/d0ca48aadcde0b74840c3394ac86042033d7f846>"
+"`_."
 
 #: ../../porting/configure_test_fix/device_info/index.rst:31
-#, fuzzy
 msgid ""
 "If no device specific configuration exists or a key is not specified for the "
 "device config, DeviceInfo will fallback to ``/etc/deviceinfo/default.yaml``. "
@@ -13282,9 +13232,9 @@ msgid ""
 "are already defined in ``default.yaml``."
 msgstr ""
 "Si no hi ha cap configuració específica del dispositiu o no s'especifica una "
-"clau per a la configuració del dispositiu, DeviceInfo tornarà a ,/etc/"
-"deviceinfo/default.yaml.. Mantingueu la configuració senzilla i intenteu no "
-"duplicar cap entrada, que ja està definida a .default.yaml.."
+"clau per a la configuració del dispositiu, DeviceInfo tornarà a ``/etc/"
+"deviceinfo/default.yaml``. Mantingueu la configuració senzilla i intenteu no "
+"duplicar cap entrada, que ja està definida a ``default.yaml``."
 
 #: ../../porting/configure_test_fix/device_info/index.rst:34
 msgid ""
@@ -13420,7 +13370,6 @@ msgstr ""
 "s'explica com realitzar aquestes tasques."
 
 #: ../../porting/configure_test_fix/index.rst:6
-#, fuzzy
 msgid ""
 "If you are doing a GSI port, much, if not all device features, should "
 "already work 'out of the box' once you have brought up Lomiri and added "
@@ -13432,24 +13381,23 @@ msgid ""
 "``system.img`` in order to reach your goal."
 msgstr ""
 "Si esteu fent un port GSI, moltes, si no totes les funcionalitats del "
-"dispositiu, ja haurien de funcionar 'fora de la caixa' un cop hagueu tret "
+"dispositiu, ja haurien de funcionar 'immediatament' un cop hagueu tret "
 "Lomiri i afegit AppArmor. Per aquesta raó, la portabilitat Halium-9/GSI, "
 "així com la portabilitat basada en construccions independents del nucli, "
 "normalment haurien de requerir només regles udev, pedaços d'AppArmor i només "
 "limitada, si n'hi ha, la configuració utilitzant el mètode de fitxers "
 "superposats. Si, tot i realitzar aquestes tasques, la vostra construcció "
 "basada en el GSI encara no funciona correctament, és possible que hàgiu de "
-"recórrer a la construcció d'un .system.img. específic per a aconseguir el "
+"recórrer a la construcció d'un ``system.img`` específic per a aconseguir el "
 "vostre objectiu."
 
 #: ../../porting/configure_test_fix/index.rst:8
-#, fuzzy
 msgid ""
 "On the other hand, Halium 7.1 porting and Halium-9.0 porting (when building "
 "the full device-specific ``system.img``) will require the most work."
 msgstr ""
 "D'altra banda, la portació Halium 7.1 i la portació Halium-9.0 (quan es "
-"construeixi el  thesystem.img. complet específic del dispositiu) requeriran "
+"construeixi el ``system.img`` complet específic del dispositiu) requeriran "
 "la major quantitat de treball."
 
 #: ../../porting/configure_test_fix/index.rst:10
@@ -13485,13 +13433,12 @@ msgstr "Configuració de l'instal·lador d'UBports"
 
 #: ../../porting/finalize/UBports_installer.rst:6
 #: ../../porting/finalize/UBports_recovery.rst:6
-#, fuzzy
 msgid ""
 "The exact steps have not yet been documented. Please :ref:`get in touch with "
 "the community for help. <Getting-community-help>`"
 msgstr ""
-"Els passos exactes encara no s'han documentat. Si us plau, contacteu amb la "
-"comunitat per obtenir ajuda. <Getting-community-help>"
+"Els passos exactes encara no s'han documentat. Si us plau, :ref:`contacteu "
+"amb la comunitat per obtenir ajuda. <Getting-community-help>`"
 
 #: ../../porting/finalize/UBports_recovery.rst:4
 msgid "Building UBports recovery"
@@ -13517,7 +13464,6 @@ msgstr ""
 "ràpid del que podria haver fet pel seu compte."
 
 #: ../../porting/finalize/index.rst:8
-#, fuzzy
 msgid ""
 "Previously, your port has had the rootfs and system image coexisting on the "
 "userdata partition. These need to be moved to the system partition in order "
@@ -13528,7 +13474,7 @@ msgstr ""
 "Prèviament, el vostre port ha tingut els rootfs i la imatge del sistema que "
 "coexisteixen a la partició userdata. Aquests s'han de moure a la partició "
 "del sistema per tal d'assegurar un màxim d'espai disponible per a les dades "
-"de l'usuari. Això es fa modificant el codi, construint .recovery.img. i "
+"de l'usuari. Això es fa modificant el codi, construint ``recovery.img`` i "
 "posteriorment reconstruint la imatge d'arrencada."
 
 #: ../../porting/finalize/index.rst:10
@@ -13889,7 +13835,6 @@ msgstr ""
 "configuració i proves."
 
 #: ../../porting/introduction/Intro.rst:80
-#, fuzzy
 msgid ""
 "Luckily, there is a community of porters out there who are eager to see "
 "Ubuntu Touch ported to new devices. When you run into trouble, you should "
@@ -13900,21 +13845,20 @@ msgid ""
 msgstr ""
 "Per sort, hi ha una comunitat de portadors que estan desitjosos de veure "
 "Ubuntu Touch portat a nous dispositius. Quan tingueu problemes, hauríeu de "
-"cercar les fonts següents (:ref:.Getting-community-help.) per veure si "
+"cercar les fonts següents (:ref:`Getting-community-help`) per veure si "
 "altres abans d'haver resolt el problema. Hi ha grups de xat de Telegram en "
 "línia que podeu unir-vos per demanar ajuda, però tingueu en compte que els "
 "participants ho estan fent en el seu temps lliure."
 
 #: ../../porting/introduction/Intro.rst:84
-#, fuzzy
 msgid ""
 "In the past there used to be different methods for porting. Find the "
 "historic details linked in the :ref:`deprecated porting section <deprecated-"
 "building-methods>`."
 msgstr ""
 "En el passat hi havia diferents mètodes per a la portabilitat. Troba els "
-"detalls històrics enllaçats a la :ref:.secció de ports obsolets <deprecated-"
-"building-methods> the."
+"detalls històrics enllaçats a la :ref:`secció de ports obsolets <deprecated-"
+"building-methods>`."
 
 #: ../../porting/introduction/Intro.rst:89
 msgid "Prior knowledge and skills"
@@ -14040,7 +13984,6 @@ msgid "Kernel"
 msgstr "Kernel"
 
 #: ../../porting/introduction/Preparations.rst:13
-#, fuzzy
 msgid ""
 "Ubuntu Touch currently requires a device with a Linux kernel version greater "
 "than or equal to 3.15. According to the `systemd v255 README <https://"
@@ -14051,13 +13994,13 @@ msgid ""
 "at the top level of any Linux kernel source tree."
 msgstr ""
 "Ubuntu Touch actualment requereix un dispositiu amb una versió del nucli "
-"Linux més gran o igual que 3.15. Segons el  thesystemd v255 README <https://"
-"github.com/systemd/systemd/blob/v255/README#L32>,, els nuclis de dispositius "
-"antics no són compatibles amb el systemd v255 o més nous. Podeu aprendre la "
-"versió del nucli del vostre dispositiu trobant \"Versió del nucli\" a la "
-"pàgina Quant a la configuració d'Android. La versió del nucli també es pot "
-"trobar al  theMakefile. al nivell superior de qualsevol arbre font del nucli "
-"Linux."
+"Linux més gran o igual que 3.15. Segons el `systemd v255 README <https://"
+"github.com/systemd/systemd/blob/v255/README#L32>`_, els nuclis de "
+"dispositius antics no són compatibles amb el systemd v255 o més nous. Podeu "
+"aprendre la versió del nucli del vostre dispositiu trobant «Versió del nucli"
+"» a la pàgina Quant a la configuració d'Android. La versió del nucli també "
+"es pot trobar al ``Makefile`` al nivell superior de qualsevol arbre font del "
+"nucli Linux."
 
 #: ../../porting/introduction/Preparations.rst:15
 msgid "RAM"
@@ -14237,7 +14180,6 @@ msgid "Prerequisites"
 msgstr "Prerequisits"
 
 #: ../../porting/introduction/Setting_up.rst:11
-#, fuzzy
 msgid ""
 "When setting up the build environment you need to have Python 3.6 or newer "
 "installed on your system. This can be installed via your system's package "
@@ -14250,7 +14192,7 @@ msgstr ""
 "de paquets del vostre sistema. Es van introduir canvis significatius en la "
 "sintaxi des de Python 2 a Python 3, i algunes etapes del procés de portatge "
 "poden requerir Python 2 en lloc de Python 3. Per a comprovar quina versió "
-"està activa en el vostre sistema, escriviu::"
+"està activa en el vostre sistema, escriviu:"
 
 #: ../../porting/introduction/Setting_up.rst:16
 msgid ""
@@ -14269,9 +14211,8 @@ msgstr "Mageia 9"
 #: ../../porting/introduction/Setting_up.rst:21
 #: ../../porting/introduction/Setting_up.rst:36
 #: ../../porting/introduction/Setting_up.rst:56
-#, fuzzy
 msgid "Install the required dependencies::"
-msgstr "Instal·la les dependències requerides::"
+msgstr "Instal·leu les dependències requerides:"
 
 #: ../../porting/introduction/Setting_up.rst:26
 msgid "Debian (Stretch or newer) / Ubuntu (16.04 or 18.04)"
@@ -14279,37 +14220,33 @@ msgstr "Debian (Estira o més recent) / Ubuntu (16.04 o 18.04)"
 
 #: ../../porting/introduction/Setting_up.rst:28
 #: ../../porting/introduction/Setting_up.rst:48
-#, fuzzy
 msgid ""
 "If your host PC has a 64-bit architecture (amd64), enable the usage of the "
 "i386 architecture::"
 msgstr ""
 "Si el vostre ordinador té una arquitectura de 64 bits (amd64), habiliteu "
-"l'ús de l'arquitectura i386::"
+"l'ús de l'arquitectura i386:"
 
 #: ../../porting/introduction/Setting_up.rst:32
 #: ../../porting/introduction/Setting_up.rst:52
-#, fuzzy
 msgid "Update your package lists to take advantage of the new architecture::"
-msgstr "Actualitza les llistes de paquets per aprofitar la nova arquitectura::"
+msgstr "Actualitzeu les llistes de paquets per aprofitar la nova arquitectura:"
 
 #: ../../porting/introduction/Setting_up.rst:46
 msgid "Ubuntu (20.04 or newer)"
 msgstr "Ubuntu (20.04 o més recent)"
 
 #: ../../porting/introduction/Setting_up.rst:66
-#, fuzzy
 msgid ""
 "Create a directory named 'bin' in your home directory, and include it in "
 "your path::"
 msgstr ""
-"Creeu un directori anomenat 'bin' al vostre directori d'inici i incloeu-lo "
-"al vostre camí::"
+"Creeu un directori anomenat «bin» al vostre directori d'inici i incloeu-lo "
+"al vostre camí:"
 
 #: ../../porting/introduction/Setting_up.rst:72
-#, fuzzy
 msgid "Download the repo script and make it executable::"
-msgstr "Baixeu l'script de dipòsit i feu-lo executable::"
+msgstr "Baixeu l'script de dipòsit i feu-lo executable:"
 
 #: ../../porting/introduction/Setting_up.rst:78
 msgid "Arch"
@@ -14333,9 +14270,8 @@ msgid "Make sure you have the base-devel package installed."
 msgstr "Assegureu-vos que teniu el paquet base-devel instal·lat."
 
 #: ../../porting/introduction/Setting_up.rst:84
-#, fuzzy
 msgid "Install the required dependencies from AUR::"
-msgstr "Instal·la les dependències requerides des d'AUR::"
+msgstr "Instal·leu les dependències requerides des d'AUR:"
 
 #: ../../porting/introduction/Setting_up.rst:88
 msgid ""
@@ -14437,7 +14373,6 @@ msgid "Debugging"
 msgstr "Depuració de la vostra aplicació web"
 
 #: ../../systemdev/calendars.rst:15
-#, fuzzy
 msgid ""
 "The most convenient way to run commands on the device and collect logs is by "
 "opening a remote shell. This can be done by using :doc:`/userguide/"
@@ -14447,7 +14382,7 @@ msgid ""
 msgstr ""
 "La manera més convenient d'executar ordres al dispositiu i recollir "
 "registres és obrint un intèrpret d'ordres remot. Això es pot fer utilitzant "
-":doc:./userguide/advanceduse/adb. o :doc:./userguide/advanceduse/ssh.. En "
+":doc:`/userguide/advanceduse/adb` o :doc:`/userguide/advanceduse/ssh`. En "
 "les següents seccions, s'assumeix que teniu accés a una consola de terminal "
 "al dispositiu."
 
@@ -14456,7 +14391,6 @@ msgid "Scheduling and account issues"
 msgstr "Planificació i problemes de comptes"
 
 #: ../../systemdev/calendars.rst:21
-#, fuzzy
 msgid ""
 "If you are not sure whether the calendar is being synchronised, or whether "
 "the operation is successful, ``sync-monitor`` is the component that needs to "
@@ -14465,11 +14399,12 @@ msgid ""
 "see them printed in real-time as you operate on the device, you can run this "
 "command:"
 msgstr ""
-"Si no esteu segur de si s'està sincronitzant el calendari o si l'operació és "
-"correcta, el ,sync-monitor. és el component que cal examinar. Aquest servei "
-"sempre s'ha d'executar en segon pla, i els seus registres es poden trobar a "
-",/.cache/upstart/sync-monitor.log.. Per tal de veure'ls impresos en temps "
-"real mentre opereu al dispositiu, podeu executar aquesta ordre:"
+"Si no teniu seguretat de si s'està sincronitzant el calendari o si "
+"l'operació és correcta, el ``sync-monitor`` és el component que cal "
+"examinar. Aquest servei sempre s'ha d'executar en segon pla, i els seus "
+"registres es poden trobar a ``~/.cache/upstart/sync-monitor.log``. Per tal "
+"de veure'ls en temps real mentre opereu al dispositiu, podeu executar "
+"aquesta ordre:"
 
 #: ../../systemdev/calendars.rst:27
 msgid ""
@@ -14486,7 +14421,6 @@ msgid "Calendar data synchronisation issues"
 msgstr "Sincronització del CalDAV i del CardDAV"
 
 #: ../../systemdev/calendars.rst:33
-#, fuzzy
 msgid ""
 "Follow these steps one you are confident that a synchronisation of your "
 "account is at least attempted, and want to investigate a synchronisation "
@@ -14496,17 +14430,16 @@ msgid ""
 msgstr ""
 "Seguiu aquests passos amb la seguretat que almenys s'intenta sincronitzar el "
 "vostre compte i voleu investigar un error de sincronització o problemes amb "
-"elements que manquen o duplicats. Al dispositiu, és possible executar  "
-"tosyncevolution. en mode de depuració. Per fer-ho, mata qualsevol procés "
+"elements que manquen o duplicats. Al dispositiu, és possible executar "
+"``syncevolution`` en mode de depuració. Per fer-ho, mata qualsevol procés "
 "existent:"
 
 #: ../../systemdev/calendars.rst:39
-#, fuzzy
 msgid ""
 "Then, start the ``syncevolution`` process with the proper environment "
 "variable:"
 msgstr ""
-"Llavors, inicieu el procés  thesyncevolution the amb la variable d'entorn "
+"Llavors, inicieu el procés ``esyncevolution`` amb la variable d'entorn "
 "adequada:"
 
 #: ../../systemdev/calendars.rst:45
@@ -14522,7 +14455,6 @@ msgstr ""
 "a Internet): tots els registres apareixeran al terminal."
 
 #: ../../systemdev/calendars.rst:47
-#, fuzzy
 msgid ""
 "In some cases, the output from ``syncevolution`` might not be enough: for "
 "example, the raw HTTP data is usually not printed. Should you need to see "
@@ -14533,18 +14465,17 @@ msgid ""
 "to old accounts which have been since deleted. To find out what accounts are "
 "still valid, you can invoke the ``account-console`` tool like this:"
 msgstr ""
-"En alguns casos, la sortida de  thesyncevolution. podria no ser suficient: "
+"En alguns casos, la sortida de ``syncevolution`` podria no ser suficient: "
 "per exemple, les dades HTTP en brut no s'imprimeixen normalment. Si "
 "necessiteu veure-ho també, haureu de modificar un fitxer de configuració "
-"també. Els fitxers de configuració de ssyncevolutions es troben sota s/"
-".config/syncevolution/., en un subdirectori el nom del qual pren la forma  "
-"the<provider-name>-<account-id>..  També pot haver-hi directoris obsolets, "
+"també. Els fitxers de configuració de ``syncevolution`` es troben sota ``~/"
+".config/syncevolution/``,  en un subdirectori el nom del qual pren la forma "
+"``<provider-name>-<account-id>``.  També pot haver-hi directoris obsolets, "
 "en referència als comptes antics que s'han suprimit des de llavors. Per a "
-"saber quins comptes encara són vàlids, podeu invocar l'eina  thecompte-"
-"consola: com aquesta:"
+"saber quins comptes encara són vàlids, podeu invocar l'eina ``account-"
+"console`` com aquesta:"
 
 #: ../../systemdev/calendars.rst:53
-#, fuzzy
 msgid ""
 "This will print the list of the current valid accounts. Once you've figured "
 "out what is the account you are interested in, open the file ``~/.config/"
@@ -14552,20 +14483,19 @@ msgid ""
 "``loglevel`` variable to a higher value (``11`` seems enough to print all "
 "the HTTP traffic):"
 msgstr ""
-"Això imprimirà la llista dels comptes vàlids actuals. Un cop hàgiu esbrinat "
-"quin és el compte que us interessa, obriu el fitxer  the/.config/"
-"syncevolution/<account>/peers/target-config/config.ini the i establiu la "
-"variable  theloglevel the a un valor més alt (1111 the sembla suficient per "
-"imprimir tot el trànsit HTTP):"
+"Això mostrarà la llista dels comptes vàlids actuals. Un cop hàgiu esbrinat "
+"quin és el compte que us interessa, obriu el fitxer ``~/.config/"
+"syncevolution/<account>/peers/target-config/config.ini`` i establiu la "
+"variable ``loglevel`` a un valor més alt (``11`` sembla suficient per "
+"mostrar tot el trànsit HTTP):"
 
 #: ../../systemdev/calendars.rst:65
-#, fuzzy
 msgid ""
 "Note that in order for these changes to take effect, you'll need to restart "
 "the ``syncevolution`` process again, as explained above."
 msgstr ""
 "Tingueu en compte que perquè aquests canvis tinguin efecte, haureu de tornar "
-"a iniciar el procés  thesyncevolution., com s'ha explicat anteriorment."
+"a iniciar el procés ``syncevolution``, com s'ha explicat anteriorment."
 
 #: ../../systemdev/debian-pkg.rst:2
 msgid "Debian packaging guide"
@@ -14588,15 +14518,14 @@ msgid "Native packages"
 msgstr "Paquets nadius"
 
 #: ../../systemdev/debian-pkg.rst:13
-#, fuzzy
 msgid ""
 "Native packages (e.g. https://gitlab.com/ubports/core/lomiri-system-"
 "settings) are repositories that contain a ``debian/`` folder **with** the "
 "source used to create the Debian source package."
 msgstr ""
 "Els paquets nadius (p. ex. https://gitlab.com/ubports/core/lomiri-system-"
-"settings) són repositoris que contenen una carpeta .debian/. **amb** la font "
-"utilitzada per a crear el paquet font de Debian."
+"settings) són repositoris que contenen una carpeta ``debian/`` **amb** la "
+"font utilitzada per a crear el paquet font de Debian."
 
 #: ../../systemdev/debian-pkg.rst:15
 msgid ""
@@ -14611,7 +14540,6 @@ msgid "Non-native packages"
 msgstr "Eliminació d'un paquet:"
 
 #: ../../systemdev/debian-pkg.rst:20
-#, fuzzy
 msgid ""
 "Non-native package repositories (e.g. https://gitlab.com/ubports/core/"
 "packaging/sensorfw) contain a ``debian`` folder, usually without the source "
@@ -14622,11 +14550,11 @@ msgid ""
 "rename the upstream sources and to create a Debian source package."
 msgstr ""
 "Els repositoris de paquets no nadius (p. ex. https://gitlab.com/ubports/core/"
-"packaging/sensorfw) contenen una carpeta ,debian., normalment sense la font "
-"utilitzada per crear el paquet de codi font de Debian. L'URL del fitxer tar "
-"d'origen i del nom de fitxer de l'arxiu  The.orig.tar.gz. s'ha d'especificar "
-"en una línia separada cadascuna en un fitxer anomenat  "
-"theubports.sourcelocation. dins del directori  thedebian..  El sistema CI "
+"packaging/sensorfw) contenen una carpeta ``debian``, normalment sense la "
+"font utilitzada per crear el paquet de codi font de Debian. L'URL del fitxer "
+"tar d'origen i del nom de fitxer de l'arxiu ``.orig.tar.gz`` s'ha "
+"d'especificar en una línia separada cadascuna en un fitxer anomenat "
+"``ubports.source_location`` dins del directori ``debian``.  El sistema CI "
 "utilitza aquesta informació per descarregar i canviar el nom de les fonts "
 "font i crear un paquet de codi font de Debian."
 
@@ -14688,15 +14616,14 @@ msgstr ""
 "sigui el que és."
 
 #: ../../systemdev/index.rst:6
-#, fuzzy
 msgid ""
 "This section does not cover most of the *applications* preinstalled on "
 "Ubuntu Touch. See :doc:`/contribute/preinstalled-apps` for more information "
 "on those."
 msgstr ""
 "Aquesta secció no cobreix la majoria de les *aplicacions* preinstal·lades a "
-"Ubuntu Touch. Vegeu :doc:./contribute/preinstalled-apps. per a més "
-"informació sobre aquestes."
+"Ubuntu Touch. Vegeu :doc:`/contribute/preinstalled-apps` per a més "
+"informació sobre aquestes aplicacions."
 
 #: ../../systemdev/kernel-hal.rst:2
 msgid "Kernel and hardware abstraction"
@@ -14726,14 +14653,13 @@ msgstr ""
 "Un problema relacionat amb el procés d'actualització d'imatge del sistema"
 
 #: ../../systemdev/kernel-hal.rst:10
-#, fuzzy
 msgid ""
 "This document is not useful if you would like to modify :doc:`../contribute/"
 "preinstalled-apps` or :doc:`System software <../systemdev/index>`. See the "
 "respective documentation for each."
 msgstr ""
-"Aquest document no és útil si voleu modificar :doc:.../contribute/"
-"preinstalled-apps. o :doc:.System software <../systemdev/index>.. Vegeu la "
+"Aquest document no és útil si voleu modificar :doc:`../contribute/"
+"preinstalled-apps` o :doc:`System software <../systemdev/index>`. Vegeu la "
 "documentació respectiva per a cadascun."
 
 #: ../../systemdev/kernel-hal.rst:14
@@ -14797,9 +14723,8 @@ msgid "Nexus 5 (hammerhead)"
 msgstr "Nexus 5 (hammerhead)"
 
 #: ../../systemdev/kernel-hal.rst:37
-#, fuzzy
 msgid "OnePlus One (bacon)"
-msgstr "Oneplus One::"
+msgstr "Oneplus One (bacon)"
 
 #: ../../systemdev/kernel-hal.rst:38
 msgid "Fairphone 2 (FP2)"
@@ -14855,13 +14780,12 @@ msgid "Nexus 7 2013 GSM (deb)"
 msgstr "Nexus 7 2013 GSM (deb)"
 
 #: ../../systemdev/kernel-hal.rst:51
-#, fuzzy
 msgid ""
 "Detailed steps for the three CI enabled devices can be found "
 "under  :doc:`HAL for Nexus 5, OnePlus One, and Fairphone 2 <ubp-5.1>`."
 msgstr ""
 "Es poden trobar passos detallats per als tres dispositius habilitats amb CI "
-"a :doc:.HAL per a Nexus 5, OnePlus One i Fairphone 2 <ubp-5.1>.."
+"a :doc:`HAL per a Nexus 5, OnePlus One i Fairphone 2 <ubp-5.1>`."
 
 #: ../../systemdev/kernel-hal.rst:53
 msgid ""
@@ -14933,15 +14857,14 @@ msgstr ""
 "com a 5.1, o a sota com a ports basats en Linux."
 
 #: ../../systemdev/kernel-hal.rst:75
-#, fuzzy
 msgid ""
 "All new ports of UT to Android devices should follow the Halium process. "
 "Further details can be found under :doc:`Halium porting <../porting/"
 "introduction/index>`"
 msgstr ""
 "Tots els ports nous d'UT als dispositius Android han de seguir el procés "
-"Halium. Es poden trobar més detalls a :doc: adaptació a l'Halium <../porting/"
-"introduction/index>"
+"Halium. Es poden trobar més detalls a :doc:`adaptació a l'Halium <../porting/"
+"introduction/index>`"
 
 #: ../../systemdev/kernel-hal.rst:78
 msgid "Linux based ports"
@@ -14969,14 +14892,12 @@ msgid "Pinebook (pinebook)"
 msgstr "Pinebook (pinebook)"
 
 #: ../../systemdev/kernel-hal.rst:85
-#, fuzzy
 msgid ":doc:`Pinephone (pinephone) <kernel-pinephone>`"
-msgstr ":doc:)Pinephone (pinephone) <kernel-pinephone>"
+msgstr ":doc:`Pinephone (pinephone) <kernel-pinephone>`"
 
 #: ../../systemdev/kernel-hal.rst:86
-#, fuzzy
 msgid ":doc:`Pinetab (pinetab) <kernel-pinephone>`"
-msgstr ":doc:)Pinetab (pinetab) <kernel-pinephone>"
+msgstr ":doc:`Pinetab (pinetab) <kernel-pinephone>`"
 
 #: ../../systemdev/kernel-hal.rst:87
 msgid ""
@@ -15018,7 +14939,6 @@ msgstr ""
 "s'encengui."
 
 #: ../../systemdev/kernel-pinephone.rst:11
-#, fuzzy
 msgid ""
 "The recovery presents the PinePhone as a network device over USB and runs a "
 "telnet server. When you connect the PinePhone to your desktop via USB, you "
@@ -15026,17 +14946,15 @@ msgid ""
 msgstr ""
 "La recuperació presenta el PinePhone com un dispositiu de xarxa a través "
 "d'USB i executa un servidor telnet. Quan connecteu el PinePhone a "
-"l'escriptori a través d'USB, veureu que el dispositiu rndis es mostra a  "
-"thedmesgs::"
+"l'escriptori a través d'USB, veureu que el dispositiu rndis es mostra a "
+"``dmesg``:"
 
 #: ../../systemdev/kernel-pinephone.rst:19
-#, fuzzy
 msgid "You can log in to the recovery system with ``telnet 172.16.42.1``."
 msgstr ""
-"Podeu iniciar sessió al sistema de recuperació amb  thetelnet 172.16.42.1.."
+"Podeu iniciar sessió al sistema de recuperació amb ``telnet 172.16.42.1``."
 
 #: ../../systemdev/kernel-pinephone.rst:21
-#, fuzzy
 msgid ""
 "The recovery also exposes the eMMC and the microSD card over USB. Assuming "
 "you have already installed Ubuntu Touch on your microSD card you will see "
@@ -15044,7 +14962,7 @@ msgid ""
 msgstr ""
 "La recuperació també exposa l'eMMC i la targeta microSD a través d'USB. "
 "Suposant que ja heu instal·lat l'Ubuntu Touch a la vostra targeta microSD "
-"veureu alguna cosa així a sdmesgs::"
+"veureu alguna cosa així a ``dmesg``:"
 
 #: ../../systemdev/kernel-pinephone.rst:35
 msgid ""
