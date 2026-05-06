@@ -38,7 +38,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-05-06 11:06+0000\n"
+"PO-Revision-Date: 2026-05-06 15:59+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ca/>\n"
@@ -256,7 +256,7 @@ msgstr "``devel-debian``"
 
 #: ../../about/process/branch-naming.rst:28
 msgid "Debian testing."
-msgstr "Proves de fum"
+msgstr "Debian testing."
 
 #: ../../about/process/branch-naming.rst:30
 msgid "``ubports/<major version>.x`` (e.g. ``ubports/24.6.x``)"
@@ -446,8 +446,8 @@ msgid ""
 "bugreport </contribute/bugreporting>`.)"
 msgstr ""
 "Aquest document descriu el procés estàndard per tractar amb problemes nous "
-"als projectes de l'UBports. No s'ha de confondre amb la guia :doc:`guia per "
-"a l'escriptura d'un bon informe d'error </contribute/bugreporting>`."
+"als projectes de l'UBports. (No s'ha de confondre amb la guia :doc:`guia per "
+"a l'escriptura d'un bon informe d'error </contribute/bugreporting>`.)"
 
 #: ../../about/process/issue-tracking.rst:8
 msgid "Where are bugs tracked?"
@@ -621,8 +621,8 @@ msgid ""
 "**Needs: confirmation/more info**: the bug needs confirmation and / or "
 "further detailing by affected users."
 msgstr ""
-"**needs confirmation**: Cal confirmació - A l'error li cal confirmació i / o"
-"  més informació dels usuaris afectats"
+"**needs confirmation**: Cal confirmació - A l'error li cal confirmació i / o "
+"més informació dels usuaris afectats."
 
 #: ../../about/process/issue-tracking.rst:49
 msgid ""
@@ -1313,7 +1313,7 @@ msgid ""
 "Canonical, and UBports has chosen to not support it either due to lack of "
 "manpower."
 msgstr ""
-"L'«Ubuntu SDK IDE  <https://docs.ubuntu.com/phone/en/platform/sdk>» ja no té "
+"L'«Ubuntu SDK IDE <https://docs.ubuntu.com/phone/en/platform/sdk>» ja no té "
 "suport per part de Canonical, i l'UBports no té actualment el temps i els "
 "recursos humans per portar-lo a un estat funcional."
 
@@ -1533,7 +1533,7 @@ msgid ""
 "game."
 msgstr ""
 "``contentType`` és ``ContentType.All``, així que només veurem aplicacions "
-"que poden rebre tipus de fitxers sense marcar.  ``handler`` és "
+"que poden rebre tipus de fitxers sense marcar. ``handler`` és "
 "``ContentHandler.Destination``, de manera que l'aplicació seleccionada "
 "hauria d'emmagatzemar el joc desat."
 
@@ -1682,16 +1682,16 @@ msgid ""
 "Add a `libraries section <https://clickable.bhdouglass.com/en/latest/project-"
 "config.html#libraries>`_ to your clickable.yaml, like this:"
 msgstr ""
-"Afegiu una  asecció de biblioteques <https://clickable.bhdouglass.com/en/"
-"latest/project-config.html#libraries> a al vostre clickable.yaml, així:"
+"Afegiu una `secció de biblioteques <https://clickable.bhdouglass.com/en/"
+"latest/project-config.html#libraries>`_ a al vostre clickable.yaml, així:"
 
 #: ../../appdev/guides/dependencies.rst:24
 msgid ""
 "If the library does not contain a CMake configuration, you need to use the "
 "`qmake` or `custom` builder instead."
 msgstr ""
-"Si la biblioteca no conté una configuració del CMake, haureu d'utilitzar el  "
-"theqmake. o el constructor  thecustom.."
+"Si la biblioteca no conté una configuració del CMake, haureu d'utilitzar el "
+"`qmake` o en canvi el constructor `custom`."
 
 #: ../../appdev/guides/dependencies.rst:26
 msgid ""
@@ -1720,7 +1720,7 @@ msgid ""
 msgstr ""
 "Per a construir realment la biblioteca per a totes les arquitectures, "
 "executeu ``clickable build --libs --arch armhf``, ``clickable build --libs --"
-"arch arm64`` i  ``clickable build --libs --arch amd64``. No us oblideu "
+"arch arm64`` i ``clickable build --libs --arch amd64``. No us oblideu "
 "d'esmentar aquest pas en el vostre README, perquè altres puguin reproduir el "
 "procés de construcció."
 
@@ -1730,9 +1730,9 @@ msgid ""
 "apps/teleports/-/blob/main/clickable.yaml#L26>`_ uses the libraries feature "
 "to build its dependency tdlib."
 msgstr ""
-"Vegeu com  theTeleports clickable.yaml <https://gitlab.com/ubports/"
-"development/apps/teleports/-/blob/main/clickable.yaml#L26> the utilitza la "
-"característica de biblioteques per a construir la seva tdlib de dependències."
+"Vegeu com `Teleports clickable.yaml <https://gitlab.com/ubports/development/"
+"apps/teleports/-/blob/main/clickable.yaml#L26>`_ utilitza la característica "
+"de biblioteques per a construir la seva tdlib de dependències."
 
 #: ../../appdev/guides/dependencies.rst:48
 msgid "Pre-built"
@@ -1780,8 +1780,8 @@ msgid ""
 msgstr ""
 "Clickable instal·larà automàticament el paquet especificat per a "
 "l'arquitectura de destinació dins del contenidor de construcció. Un exemple "
-"es pot trobar a  AnGuitar Tools' clickable.json <https://github.com/t-mon/"
-"guitar-tools/blob/master/clickable.json#L4>.."
+"es pot trobar a `Guitar Tools clickable.json <https://github.com/t-mon/"
+"guitar-tools/blob/master/clickable.json#L4>`_."
 
 #: ../../appdev/guides/dependencies.rst:64
 msgid ""
@@ -1818,11 +1818,10 @@ msgid ""
 "directories. The additional lines on your CMakeLists.txt then may look like:"
 msgstr ""
 "En cas que la biblioteca contingui un fitxer de configuració del CMake, "
-"podeu utilitzar l'ordre  thefindpackage <https://cmake.org/cmake/help/latest/"
-"command/findpackage.html> the, que us proporciona un objectiu per enllaçar "
-"amb o variables que apunten al binari de la biblioteca i incloure "
-"directoris. Les línies addicionals en els vostres CMakeLists.txt llavors "
-"poden semblar:"
+"podeu utilitzar l'ordre `find_package <https://cmake.org/cmake/help/latest/"
+"command/findpackage.html>`_, que us proporciona un objectiu per enllaçar amb "
+"o variables que apunten al binari de la biblioteca i incloure directoris. "
+"Les línies addicionals en els vostres CMakeLists.txt llavors poden semblar:"
 
 #: ../../appdev/guides/dependencies.rst:90
 msgid ""
@@ -1872,7 +1871,7 @@ msgid ""
 "missing."
 msgstr ""
 "Esbrineu quins fitxers d'objecte compartit (``*.so``) heu d'enviar. Podeu "
-"fer-ho iniciant l'app al vostre dispositiu a través de  ``clickable && "
+"fer-ho iniciant l'app al vostre dispositiu a través de ``clickable && "
 "clickable logs``. Heu de veure un missatge d'error que us digui quin fitxer "
 "d'objecte compartit mancava."
 
@@ -1904,9 +1903,9 @@ msgid ""
 "clickable.bhdouglass.com/en/latest/project-config.html#install-lib>`_ key to "
 "your clickable.yaml:"
 msgstr ""
-"Per a obtenir els fitxers al paquet de clics, afegiu la tecla  theinstalllib "
-"<https://clickable.bhdouglass.com/en/latest/project-config.html#install-lib> "
-"the al vostre clickable.yaml:"
+"Per a obtenir els fitxers al paquet de clics, afegiu la tecla `install_lib "
+"<https://clickable.bhdouglass.com/en/latest/project-config.html#install-lib>"
+"`_ al vostre clickable.yaml:"
 
 #: ../../appdev/guides/dependencies.rst:115
 msgid ""
@@ -1994,7 +1993,7 @@ msgstr ""
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:52
 msgid "What about the URLdispatcher?"
-msgstr "Distribuïdor d'URL"
+msgstr "Què passa amb l'URLdispatcher?"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:54
 msgid ""
@@ -2090,8 +2089,8 @@ msgid ""
 "linphone-simple/blob/master/qml/Main.qml#L76>`_ that will cover two cases: "
 "1) We receive one URL 2) We receive more than one URL"
 msgstr ""
-"Hem d'afegir una mica  tocodi extra <https://gitlab.com/ubports-linphone/"
-"linphone-simple/blob/master/qml/Main.qml#L76> to que cobrirà dos casos: 1) "
+"Hem d'afegir una mica `codi extra <https://gitlab.com/ubports-linphone/"
+"linphone-simple/blob/master/qml/Main.qml#L76>`_ que cobrirà dos casos: 1) "
 "Rebem una URL 2) Rebem més d'una URL"
 
 #: ../../appdev/guides/importing-CH-urldispatcher.rst:123
@@ -2385,9 +2384,9 @@ msgid ""
 "file, it is recommended to first convert the JSON file to a YAML file. "
 "Afterwards, add the following:"
 msgstr ""
-"Si el vostre projecte té un fitxer  aclickable.json a en lloc d'un fitxer  "
-"aclickable.yaml., es recomana convertir primer el fitxer JSON a un fitxer "
-"YAML. Després, afegeix el següent:"
+"Si el vostre projecte té un fitxer `clickable.json` en lloc d'un fitxer "
+"`clickable.yaml`, es recomana convertir primer el fitxer JSON a un fitxer "
+"YAML. Després, afegiu el següent:"
 
 #: ../../appdev/guides/port-to-focal.rst:42
 msgid "AppArmor file"
@@ -2755,7 +2754,7 @@ msgstr "etiqueta"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "The tag of the push notification."
-msgstr "Notificacions d'inserció"
+msgstr "L'etiqueta de les notificacions push."
 
 #: ../../appdev/guides/pushnotifications.rst:210
 msgid "sound"
@@ -2819,7 +2818,7 @@ msgstr "Un objecte JSON, que defineix com mostrar l'emblema"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid "counter."
-msgstr "Comptes"
+msgstr "compador."
 
 #: ../../appdev/guides/pushnotifications.rst:223
 msgid "card"
@@ -2951,7 +2950,7 @@ msgstr "Vibra"
 
 #: ../../appdev/guides/pushnotifications.rst:263
 msgid "pattern"
-msgstr "Patrons d'URL"
+msgstr "patró"
 
 #: ../../appdev/guides/pushnotifications.rst:0
 msgid ""
@@ -3012,8 +3011,8 @@ msgid ""
 "See the documentation of the `Lomiri Push Service <https://gitlab.com/"
 "ubports/development/core/lomiri-push-service/-/tree/main/docs>`_."
 msgstr ""
-"Vegeu la documentació del  theServei de Push de Lomiri <https://gitlab.com/"
-"ubports/development/core/lomiri-push-service/-/tree/main/docs> the."
+"Vegeu la documentació del `Servei de Push de Lomiri <https://gitlab.com/"
+"ubports/development/core/lomiri-push-service/-/tree/main/docs>`_."
 
 #: ../../appdev/guides/user-metrics.rst:2
 msgid "User Metrics"
@@ -3271,9 +3270,9 @@ msgid ""
 "maintain a running tally beyond one day (though not impossible. See "
 "`FluffyChat <https://gitlab.com/ChristianPauly/fluffychat>`_)."
 msgstr ""
-"Basant-se en com es configuren els \"formats\", sembla que és difícil "
-"mantenir un recompte corrent més enllà d'un dia (encara que no impossible. "
-"Vegeu  SeeFluffyChat <https://gitlab.com/ChristianPauly/fluffychat>).)."
+"Basant-se en com es configuren els «formats», sembla que és difícil mantenir "
+"un recompte corrent més enllà d'un dia (encara que no impossible. Vegeu "
+"`FluffyChat <https://gitlab.com/ChristianPauly/fluffychat>`_)."
 
 #: ../../appdev/guides/user-metrics.rst:119
 msgid ""
@@ -3428,9 +3427,9 @@ msgid ""
 "qcoreapplication.html#applicationName-prop>`_, this needs to be the same as "
 "the clickable application name."
 msgstr ""
-"Atès que el valor de les cadenes QStandardPaths es decideix pel  thenom "
+"Atès que el valor de les cadenes QStandardPaths es decideix pel `nom "
 "d'aplicació Qt <https://doc.qt.io/qt-5/qcoreapplication.html#applicationName-"
-"prop>., aquest ha de ser el mateix que el nom d'aplicació clicable."
+"prop>`_, aquest ha de ser el mateix que el nom d'aplicació clickable."
 
 #: ../../appdev/guides/writeable-dirs.rst:48
 msgid ""
@@ -3440,8 +3439,8 @@ msgid ""
 "clickable application name as well, otherwise the paths won't work on the "
 "device."
 msgstr ""
-"Establir el  thenomorganització <https://doc.qt.io/qt-5/"
-"qcoreapplication.html#organizationName-prop>. també canviarà els camins "
+"Establir `organizationName <https://doc.qt.io/qt-5/"
+"qcoreapplication.html#organizationName-prop>`_ també canviarà els camins "
 "retornats per aquestes funcions - si heu de fer això, establiu-lo també al "
 "nom de l'aplicació clicable, en cas contrari els camins no funcionaran al "
 "dispositiu."
@@ -3456,9 +3455,9 @@ msgid ""
 "labs-platform-standardpaths.html>`_ provides the app's writable locations in "
 "QML:"
 msgstr ""
-"El mòdul Qt  TheQt.labs.platform <https://doc.qt.io/archives/qt-5.10/qml-qt-"
-"labs-platform-standardpaths.html> The proporciona les ubicacions "
-"d'escriptura de l'aplicació en QML:"
+"El mòdul Qt `Qt.labs.platform <https://doc.qt.io/archives/qt-5.10/qml-qt-"
+"labs-platform-standardpaths.html>`_ proporciona les ubicacions d'escriptura "
+"de l'aplicació en QML:"
 
 #: ../../appdev/guides/writeable-dirs.rst:72
 msgid ""
@@ -3620,12 +3619,12 @@ msgid ""
 "triages and investigates issue reports and helps to develop the app."
 msgstr ""
 "A totes les aplicacions els agraden les contribucions. Però algunes "
-"aplicacions centrals no tenen mantenidors. Consulteu la  thellista "
+"aplicacions centrals no tenen mantenidors. Consulteu la `llista "
 "d'aplicacions del nucli <https://gitlab.com/ubports/development/ubuntu-"
-"touch/-/blob/master/COREAPPS.md>. i mireu si voleu fer un pas endavant com a "
-"nou mantenidor per a una de les nostres aplicacions del nucli. El mantenidor "
-"revisa el MR, triages i investiga informes d'emissió i ajuda a desenvolupar "
-"l'aplicació."
+"touch/-/blob/master/COREAPPS.md>`_ i mireu si voleu fer un pas endavant com "
+"a nou mantenidor per a una de les nostres aplicacions del nucli. El "
+"mantenidor revisa el MR, triatges, investiga informes d'error i ajuda a "
+"desenvolupar l'aplicació."
 
 #: ../../appdev/index.rst:68
 msgid ""
@@ -3650,10 +3649,10 @@ msgid ""
 "backend."
 msgstr ""
 "La manera recomanada de construir una aplicació nativa a Ubuntu Touch és "
-"utilitzar el marc de treball  theQt <https://doc.qt.io/> the (versió actual "
-"des que Xenial OTA-16 és Qt 5.12.9). No heu de seguir amb el model "
-"tradicional C++<->QML Qt, podeu utilitzar també Python, Go, Rust o fins i "
-"tot Javascript per al dorsal."
+"utilitzar el marc de treball `Qt <https://doc.qt.io/>`__ (versió actual des "
+"del Xenial OTA-16 és Qt 5.12.9). No heu de seguir amb el model tradicional "
+"C++<->QML Qt, podeu utilitzar també Python, Go, Rust o fins i tot Javascript "
+"per al dorsal."
 
 #: ../../appdev/nativeapp/index.rst:10
 msgid ""
@@ -3932,7 +3931,7 @@ msgid ""
 "group."
 msgstr ""
 "Descripció: Useu eines especials de depuració. Això ha de fer-se servir "
-"únicament  a la fase de desenvolupament i no en paquets de producció. Nota: "
+"únicament a la fase de desenvolupament i no en paquets de producció. Nota: "
 "fer servir aquest grup de polítiques afegeix significativament un "
 "confinament diferentment del normal i no es considera prou segur. No hauria "
 "de fer córrer programes no confiables fent servir aquest grup de polítiques."
@@ -4400,7 +4399,7 @@ msgstr ""
 
 #: ../../appdev/platform/click.rst:64
 msgid "Example ``apparmor.json`` file::"
-msgstr "Exemple  de fitxer ``apparmor.json``:"
+msgstr "Exemple de fitxer ``apparmor.json``:"
 
 #: ../../appdev/platform/click.rst:76
 msgid "For a full list of available policy groups, see :doc:`apparmor`."
@@ -4472,9 +4471,7 @@ msgstr ""
 
 #: ../../appdev/platform/index.rst:21
 msgid "`Read the docs <https://docs.ubuntu.com/phone/en/platform/>`__"
-msgstr ""
-"`Llegiu els documents <https://docs.ubuntu.com/phone/en/platform/>`__\n"
-"Translation"
+msgstr "`Llegiu els documents <https://docs.ubuntu.com/phone/en/platform/>`__"
 
 #: ../../appdev/platform/index.rst:24
 msgid "Packaging your app"
@@ -4685,7 +4682,7 @@ msgid ""
 "in the browser."
 msgstr ""
 "Amb aquesta ordre de llançament i patró URL, l'usuari pot navegar i obrir "
-"qualsevol URL a l'aplicació web que comenci amb  http://www.ubuntu.com/. Per "
+"qualsevol URL a l'aplicació web que comenci amb http://www.ubuntu.com/. Per "
 "exemple, poden clicar al botó del telèfon (http://www.ubuntu.com/phone) a la "
 "capçalera i s'obre a l'aplicació web, o el botó Tauleta (http://"
 "www.ubuntu.com/tablet). En canvi, si es clica Desenvolupament sobre la URL "
@@ -4698,9 +4695,9 @@ msgid ""
 "protocol would create an ambiguous URL and thus introduce security concerns."
 msgstr ""
 "Pista: Assegureu-vos d'especificar completament el subdomini a la vostra URL "
-"inicial, és a dir, useu  http://www.ubuntu.com en comptes de www.ubuntu.com. "
+"inicial, és a dir, useu http://www.ubuntu.com en comptes de www.ubuntu.com. "
 "Si no s'especifica el subdomini es crearia una URL ambigua i s'introdueixen "
-"problemes de seguretat. Patrons comodí més complexos"
+"problemes de seguretat."
 
 #: ../../appdev/webapp/guide.rst:74
 msgid "More complex wildcard patterns"
@@ -4899,7 +4896,7 @@ msgstr ""
 "vista de les dades del navegador. És a dir, les aplicacions web no "
 "accedeixen dades de cap altre navegadors instal·lat, com ara la història, "
 "galetes i d'altres. Altres navegadors del sistema no accedeixen les dades de "
-"l'aplicació web. Emmagatzematge"
+"l'aplicació web."
 
 #: ../../appdev/webapp/guide.rst:169
 #: ../../porting/introduction/Preparations.rst:17
@@ -4988,9 +4985,9 @@ msgstr ""
 "adequadament. És una aplicació senzilla de qml que es pot configurar "
 "fàcilment. La creació és gairebé tan simple com la webapp \"clàssica\", però "
 "el resultat és més potent amb una bona funció de navegació. Un exemple "
-"bastant avançat d'això és l'aplicació  theYouTube <https://open-store.io/app/"
-"youtube-web.mateo-salta>. de Mateo Salta que té bastants modificacions a la "
-"part superior de la plantilla."
+"bastant avançat d'això és l'aplicació `YouTube <https://open-store.io/app/"
+"youtube-web.mateo-salta>`__ de Mateo Salta que té bastants modificacions a "
+"la part superior de la plantilla."
 
 #: ../../appdev/webapp/index.rst:28
 msgid "Guide"
@@ -5067,8 +5064,8 @@ msgid ""
 "You can check the log file in the terminal or use the `LogViewer <https://"
 "open-store.io/app/logviewer.neothethird>`_ app."
 msgstr ""
-"Podeu consultar el fitxer de registre al terminal o utilitzar l'aplicació  "
-"theLogViewer <https://open-store.io/app/logviewer.neothethird>.."
+"Podeu consultar el fitxer de registre al terminal o utilitzar l'aplicació "
+"`LogViewer <https://open-store.io/app/logviewer.neothethird>`_."
 
 #: ../../appdev/webapp/webdebug.rst:19
 msgid ""
@@ -5160,8 +5157,8 @@ msgid ""
 "Pinephone users should check for and report bugs `here <https://gitlab.com/"
 "ubports/community-ports/pinephone>`_"
 msgstr ""
-"Els usuaris de Pinephone haurien de comprovar i informar d'errors  aquí "
-"<https://gitlab.com/ubports/community-ports/pinephone>"
+"Els usuaris de Pinephone haurien de comprovar i informar d'errors `aquí "
+"<https://gitlab.com/ubports/community-ports/pinephone>`_"
 
 #: ../../contribute/bugreporting.rst:19
 msgid ""
@@ -5210,8 +5207,8 @@ msgstr ""
 "A continuació, esbrineu com recrear exactament l'error que heu trobat. "
 "Documenteu detalladament els passos exactes que heu fet per trobar el "
 "problema. Després, reinicieu el telèfon i realitzeu aquests passos un altre "
-"cop. Si encara es produeix el problema, continueu al pas següent. `Si no  "
-"<https://youtu.be/nn2FB1P_Mn8?t=10s>`_..."
+"cop. Si encara es produeix el problema, continueu al pas següent. `Si no... "
+"<https://youtu.be/nn2FB1P_Mn8?t=10s>`_"
 
 #: ../../contribute/bugreporting.rst:31
 msgid "Making the bug report"
@@ -5626,12 +5623,12 @@ msgid ""
 "you made them."
 msgstr ""
 "Per a un exemple d'una sèrie de compromeses que segueix molt bé aquestes "
-"directrius, vegeu les tres compromeses a la part superior del registre  "
-"thegit que condueix a 840777f a Lomiri <https://github.com/ubports/unity8/"
-"commits/840777f92fb663a525dbe765155dbcf2a6f7541e>.. No tots els canvis "
+"directrius, vegeu les tres compromeses a la part superior del registre `git "
+"log que condueix a 840777f a Lomiri <https://github.com/ubports/unity8/"
+"commits/840777f92fb663a525dbe765155dbcf2a6f7541e>`_. No tots els canvis "
 "requereixen una descripció tan detallada com aquests exemples. Seguiu al "
-"costat de més detalls; algun dia, *vosaltres* sou qui mira enrere els "
-"vostres compromisos i es pregunta per què els heu fet."
+"costat de més detalls; algun dia, *sereu* qui mira enrere els vostres "
+"compromisos i es pregunta per què els heu fet."
 
 #: ../../contribute/code.rst:71
 msgid "Answer crucial questions in commit messages"
@@ -6233,7 +6230,7 @@ msgstr ""
 
 #: ../../contribute/documentation.rst:2
 msgid "Documentation"
-msgstr "PER FER de la documentació"
+msgstr "Documentació"
 
 #: ../../contribute/documentation.rst:5
 msgid ""
@@ -6243,7 +6240,7 @@ msgid ""
 msgstr ""
 "La documentació d'aquest lloc està escrita en ReStructuredTex, o, "
 "abreujadament, RST. Si us plau mireu `RST Primer <http://www.sphinx-doc.org/"
-"en/stable/rest.html>`_  si no coneixeu el RST."
+"en/stable/rest.html>`_ si no coneixeu el RST."
 
 #: ../../contribute/documentation.rst:7
 msgid ""
@@ -6435,8 +6432,8 @@ msgstr ""
 "quan canvieu el nom d'una pàgina o moveu una pàgina dins de l'estructura de "
 "directoris de la documentació. Els enllaços redirigits es creen col·locant "
 "el nom de fitxer del document antic i el nom de fitxer del document nou, en "
-"relació amb l'arrel de la documentació, al fitxer  theredirects.txt <https://"
-"gitlab.com/ubports/docs/docs.ubports.com/-/blob/master/redirects.txt>.."
+"relació amb l'arrel de la documentació, al `fitxer theredirects.txt <https://"
+"gitlab.com/ubports/docs/docs.ubports.com/-/blob/master/redirects.txt>`_."
 
 #: ../../contribute/documentation.rst:116
 msgid ""
@@ -6502,7 +6499,7 @@ msgstr ""
 "assegureu-vos que el vostre RST és vàlid i correcte abans de crear una "
 "demanda de fusió. Això es fa automàticament (mitjançant la fallada de sphinx-"
 "build amb el vostre error) si seguiu :ref:`les nostres instruccions de "
-"compilació  <doc-contribution-workflow>` de sota."
+"compilació <doc-contribution-workflow>` de sota."
 
 #: ../../contribute/documentation.rst:135
 msgid "Line length"
@@ -6789,7 +6786,7 @@ msgid ""
 "If those aren't enough for you, see `our contribute page <https://"
 "ubports.com/community-center>`_ for an introduction of our focus groups."
 msgstr ""
-"Si això no us és prou, vegeu `la nostra pàgina de contribució  <https://"
+"Si això no us és prou, vegeu `la nostra pàgina de contribució <https://"
 "ubports.com/page/vo-get-involved>`_ per a una introducció dels nostres grups "
 "focals."
 
@@ -7081,10 +7078,10 @@ msgid ""
 msgstr ""
 "Aquesta pàgina explica com ajudar a l'equip de control de qualitat de "
 "l'UBports, tant com a membre oficial o com a nou col·laborador. Si us plau "
-"llegiu també les guies  :doc:`seguiment de problemes </about/process/issue-"
+"llegiu també les guies :doc:`seguiment de problemes </about/process/issue-"
 "tracking>` i :doc:`informació d'errors <bugreporting>` per entendre millor "
 "el flux de treball. Per a comunicació en temps real, podeu unir-vos al "
-"nostre `grup de telegram <http://t.me/ubports_qa_team>`_."
+"nostre `grup de Telegram <http://t.me/ubports_qa_team>`_."
 
 #: ../../contribute/quality-assurance.rst:7
 msgid "Smoke testing"
@@ -7100,7 +7097,7 @@ msgid ""
 "were introduced."
 msgstr ""
 "Per provar la funcionalitat bàsica del sistema operatiu, hem compilat `un "
-"conjunt de comprovacions estandarditzades  <https://nc.ubports.com/s/"
+"conjunt de comprovacions estandarditzades <https://nc.ubports.com/s/"
 "3RnAI7tYzB2PMXs>`_. Executeu aquests comprovacions al vostre dispositiu per "
 ":doc:`trobar i informar errors i regressions <bugreporting>`. Normalment "
 "s'executen a tots els dispositius abans d'un nou alliberament per assegurar "
@@ -7306,12 +7303,12 @@ msgid ""
 "strings get back as commits to the repo from weblate."
 msgstr ""
 "Weblate: Una eina de traducció basada en web. Les aplicacions d'UBports que "
-"utilitzen el Weblate es poden traduir al  thetaulell de projectes de "
-"traducció d'UBports <https://hosted.weblate.org/projects/ubports/> the i al  "
-"thetaulell de projectes de traducció de  theLomiri <https://"
-"hosted.weblate.org/projects/lomiri/> the. Hi ha una transferència automàtica "
-"de cadenes noves des d'un repositori d'aplicacions al weblate. Les cadenes "
-"traduïdes es recuperen com a publicacions al repositori del weblate."
+"utilitzen el Weblate es poden traduir al `taulell de projectes de traducció "
+"d'UBports <https://hosted.weblate.org/projects/ubports/>`_ i al `taulell de "
+"projectes de traducció de Lomiri <https://hosted.weblate.org/projects/"
+"lomiri/>`_. Hi ha una transferència automàtica de cadenes noves des d'un "
+"repositori d'aplicacions al weblate. Les cadenes traduïdes es recuperen com "
+"a publicacions al repositori del weblate."
 
 #: ../../contribute/translations.rst:24
 msgid ""
@@ -7324,7 +7321,7 @@ msgid ""
 msgstr ""
 "Editor: La traducció es fa canviant fitxers *.po* amb l'editor de la vostra "
 "elecció, i un compte GitHub/GitLab. Els fitxers *.po*/*.ts* per a cada "
-"projecte estan al repositori a `la nostra organització  <https://gitlab.com/"
+"projecte estan al repositori a `la nostra organització <https://gitlab.com/"
 "ubports>`_ o a `la nostra organització GitHub <https://github.com/ubports>"
 "`_. Després de traduir la persona traductora publica les seves traduccions a "
 "un repositori d'apps generalment tot obrint una demanda de fusió amb una "
@@ -7355,11 +7352,11 @@ msgstr ""
 "Les aplicacions principals i algunes aplicacions de la comunitat com dekko o "
 "TELEports solen utilitzar el weblate per a la traducció. Aquesta és la forma "
 "preferida de traduir i no necessita cap habilitat de programació. Consulteu "
-"el  thetaulell de projectes de traducció d'UBports <https://"
-"hosted.weblate.org/projects/ubports/> the i el  thetaulell de projectes de "
-"traducció de  theLomiri <https://hosted.weblate.org/projects/lomiri/> the. "
-"Quan s'utilitza el weblate no editeu fitxers *.po* manualment. La publicació "
-"de fitxers *.po* editats pot trencar el procés automatitzat de traducció."
+"el `taulell de projectes de traducció d'UBports <https://hosted.weblate.org/"
+"projects/ubports/>`_ i el `taulell de projectes de traducció de Lomiri "
+"<https://hosted.weblate.org/projects/lomiri/>`_. Quan s'utilitza el weblate "
+"no editeu fitxers *.po* manualment. La publicació de fitxers *.po* editats "
+"pot trencar el procés automatitzat de traducció."
 
 #: ../../contribute/translations.rst:29
 msgid ""
@@ -8066,10 +8063,10 @@ msgid ""
 "design/get-started/design-philosophy>`__ started by Canonical and `Samuel "
 "Hewitt <https://samuelhewitt.com>`__."
 msgstr ""
-"Tot el sistema i les aplicacions segueixen els  theprincipis de disseny de "
+"Tot el sistema i les aplicacions segueixen els `principis de disseny de "
 "l'Suru <http://web.archive.org/web/20191223082720/https://docs.ubuntu.com/"
-"phone/en/apps/design/get-started/design-philosophy>. iniciats per Canonical i"
-"  andSamuel Hewitt <https://samuelhewitt.com>.."
+"phone/en/apps/design/get-started/design-philosophy>`__ iniciats per "
+"Canonical i `Samuel Hewitt <https://samuelhewitt.com>`__."
 
 #: ../../humanguide/design-concepts/app-icon-design.rst:7
 msgid "Design Philosophy and Suru Meaning"
@@ -8395,8 +8392,8 @@ msgid ""
 "See a `list of the icons <http://docs.ubports.com/projects/icons/>`__. "
 "available in the system."
 msgstr ""
-"`Llegiu els documents <https://docs.ubuntu.com/phone/en/platform/>`__\n"
-"Translation"
+"Vegeu a `llista d'icones <http://docs.ubports.com/projects/icons/>`__ "
+"disponibles al sistema."
 
 #: ../../humanguide/design-concepts/in-app-icons-design.rst:15
 msgid "Color"
@@ -8682,9 +8679,9 @@ msgid ""
 "Our default font is `Ubuntu <https://design.ubuntu.com/font/>`__ `[2] "
 "<https://en.wikipedia.org/wiki/Ubuntu_(typeface)>`__ installed in the system."
 msgstr ""
-"El nostre tipus de lletra per defecte és UbuntuUbuntu <https://"
-"design.ubuntu.com/font/> the  the[2] <https://en.wikipedia.org/wiki/Ubuntu"
-"(typeface)> the instal·lat al sistema."
+"El nostre tipus de lletra per defecte és `Ubuntu <https://design.ubuntu.com/"
+"font/>`__ `[2] <https://en.wikipedia.org/wiki/Ubuntu(typeface)>`__ "
+"instal·lat al sistema."
 
 #: ../../humanguide/design-concepts/typography.rst:13
 msgid ""
@@ -8891,7 +8888,7 @@ msgstr "La majoria dels ordinadors portàtils"
 
 #: ../../humanguide/design-concepts/units.rst:20
 msgid "1 gu = 8 px"
-msgstr "1 gu   8 px"
+msgstr "1 gu = 8 px"
 
 #: ../../humanguide/design-concepts/units.rst:23
 msgid "High DPI laptops"
@@ -8899,7 +8896,7 @@ msgstr "Ordinador portàtil de densitat 'alta'"
 
 #: ../../humanguide/design-concepts/units.rst:23
 msgid "1 gu = 16 px"
-msgstr "1 gu   16 px"
+msgstr "1 gu = 16 px"
 
 #: ../../humanguide/design-concepts/units.rst:26
 msgid "Phone with 4 inch screen at HD resolution (around 720x1,280 pixels)"
@@ -8909,7 +8906,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/units.rst:26
 msgid "1 gu = 18 px"
-msgstr "1 gu   18 px"
+msgstr "1 gu = 18 px"
 
 #: ../../humanguide/design-concepts/units.rst:29
 msgid "Tablet with 10 inch screen at HD resolution (around 720x1,280 pixels)"
@@ -8919,7 +8916,7 @@ msgstr ""
 
 #: ../../humanguide/design-concepts/units.rst:29
 msgid "1 gu = 10 px"
-msgstr "1 gu   10 px"
+msgstr "1 gu = 10 px"
 
 #: ../../humanguide/design-concepts/units.rst:34
 msgid "Density Unit"
@@ -9262,9 +9259,7 @@ msgstr "Altres consideracions de disseny"
 
 #: ../../humanguide/other-design-considerations/index.rst:13
 msgid "`Suru Icons <http://docs.ubports.com/projects/icons/en/latest/>`__"
-msgstr ""
-"`Llegiu els documents <https://docs.ubuntu.com/phone/en/platform/>`__\n"
-"Translation"
+msgstr "`Icones Suru <http://docs.ubports.com/projects/icons/en/latest/>`__"
 
 #: ../../humanguide/other-design-considerations/scaling-images.rst:2
 msgid "Scaling images"
@@ -9331,8 +9326,8 @@ msgid ""
 "Read more about image performance in the `Qt wiki <https://wiki.qt.io/"
 "Performance_tip_Images>`__."
 msgstr ""
-"Llegeix més sobre el rendiment de la imatge al  the wiki de Qt <https://"
-"wiki.qt.io/PerformancetipImages> the."
+"Llegeix més sobre el rendiment de la imatge al `wiki de Qt <https://"
+"wiki.qt.io/PerformancetipImages>`__."
 
 #: ../../humanguide/other-design-considerations/translations.rst:4
 msgid ""
@@ -9601,10 +9596,10 @@ msgid ""
 "branch). Contact @peat-psuwit in the UBports porting group for more info."
 msgstr ""
 "Alternativament, és possible que vulgueu considerar moure el vostre port "
-"completament per utilitzar el sistema  theoverlaystore.. No obstant això, la "
-"migració no és directa i farà que el seu port sigui incompatible amb el "
-"16.04 (llevat que tingui una altra sucursal). Contacta amb  thepeat-psuwit "
-"en el grup de ports d'UBports per a més informació."
+"completament per utilitzar el sistema `overlaystore`. No obstant això, la "
+"migració no és directa i farà que el vostre port sigui incompatible amb el "
+"16.04 (llevat que tingueu una altra branca). Contacteu amb @peat-psuwit en "
+"el grup de ports d'UBports per a més informació."
 
 #: ../../porting/UpdatePortsFor2004.rst:48
 msgid "For Halium 7 ports or older: update bluetooth-touch script"
@@ -10580,7 +10575,7 @@ msgid ""
 "image appended (Not the case for most devices with a dedicated vbmeta "
 "partition.)"
 msgstr ""
-"Molt autoexplicatiu. Establiu-ho a cert si el vostre dispositiu requereix "
+"Molt auto-explicatiu. Establiu-ho a cert si el vostre dispositiu requereix "
 "una imatge vbmeta annexada (No és el cas de la majoria de dispositius amb "
 "una partició vbmeta dedicada)."
 
@@ -10872,7 +10867,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:338
 msgid "additional command line args:"
-msgstr "Arguments de la línia d'ordres"
+msgstr "arguments addicionals de la línia d'ordres:"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:340
 msgid "recovery dtbo size: 0"
@@ -10916,7 +10911,7 @@ msgstr "adreça de càrrega del nucli: 0x10008000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:361
 msgid "ramdisk load address: 0x10000000"
-msgstr "Adreça de càrrega de disc RAM: 0x10000000"
+msgstr "adreça local de disc RAM: 0x10000000"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:363
 msgid "vendor ramdisk total size: 13685168"
@@ -11020,7 +11015,7 @@ msgid ""
 "\"os version\" is the value which determines which Android version this "
 "boot.img has. Some bootloaders enforce this. For example, 10.0."
 msgstr ""
-"\"versió OS\" és el valor que determina quina versió d'Android té aquest "
+"«versió OS» és el valor que determina quina versió d'Android té aquest "
 "boot.img. Alguns carregadors d'arrencada ho fan complir. Per exemple, 10.0."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:398
@@ -11133,7 +11128,7 @@ msgstr "``deviceinfo_bootimg_os_version=\"10.0\"``"
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:450
 msgid "You'll want to put the \"os patch level\" value here."
-msgstr "Voldreu posar aquí el valor del \"nivell del pegat del SO\"."
+msgstr "Voldreu posar aquí el valor del «nivell del pegat del SO»."
 
 #: ../../porting/build_and_boot/standalone_kernel_build.rst:452
 msgid "``deviceinfo_bootimg_os_patch_level=\"2021-11\"``"
@@ -11193,7 +11188,7 @@ msgstr ""
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:2
 msgid "Installing the kernel"
-msgstr "Instal·lació d'un paquet:"
+msgstr "Instal·lació del nucli"
 
 #: ../../porting/build_and_boot/standalone_kernel_install.rst:4
 msgid ""
@@ -11288,8 +11283,8 @@ msgid ""
 msgstr ""
 "Sense AppArmor, una sèrie de funcions del dispositiu no funcionaran "
 "correctament i la majoria d'aplicacions es bloquejaran quan s'engeguin. Per "
-"a més informació sobre AppArmor, consulteu el  theUbuntu Wiki. <https://"
-"wiki.ubuntu.com/AppArmor>"
+"a més informació sobre AppArmor, consulteu el `Ubuntu Wiki. <https://"
+"wiki.ubuntu.com/AppArmor>`_"
 
 #: ../../porting/configure_test_fix/Apparmor.rst:9
 msgid ""
@@ -11371,7 +11366,7 @@ msgid ""
 "Touch applications: ``GRID_UNIT_PX`` and ``QTWEBKIT_DPR``."
 msgstr ""
 "Quan s'inicia el dispositiu, probablement notareu que tots és molt petit. Hi "
-"ha dues variables que estableixen l'escalat del contingut per a  l'Unity 8 i "
+"ha dues variables que estableixen l'escalat del contingut per a l'Unity 8 i "
 "per a les aplicacions de l'Ubuntu Touch: ``GRID_UNIT_PX`` i ``QTWEBKIT_DPR``."
 
 #: ../../porting/configure_test_fix/Display.rst:8
@@ -11398,7 +11393,7 @@ msgstr ""
 "molts casos, tanmateix, on la conjectura és incorrecta (per exemple, les "
 "pantalles d'alta resolució de telèfons s'identificaran com ordinadors "
 "d'escriptori). Per establir un valor manualment per a aquestes variables, "
-"simplement creeu un fitxer a  ``/etc/ubuntu-session.d/[nomdecodi].conf`` "
+"simplement creeu un fitxer a ``/etc/ubuntu-session.d/[nomdecodi].conf`` "
 "especificant-los. Per exemple, aquest fitxer correspon a la tauleta Nexus 7:"
 
 #: ../../porting/configure_test_fix/Display.rst:18
@@ -11672,7 +11667,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Display.rst:55
 msgid "There are two other settings that may be of interest to you:"
-msgstr "Hi ha dos paràmetres més que us poden ser d'interès."
+msgstr "Hi ha dos paràmetres més que us poden ser d'interès:"
 
 #: ../../porting/configure_test_fix/Display.rst:58
 msgid "Form factor"
@@ -11690,9 +11685,9 @@ msgstr ""
 "``FORM_FACTOR`` especifica el factor de forma del dispositiu. Aquest valor "
 "està esablert com el xassís del dispositiu, que podeu trobar executant "
 "``hostnamectl``. Els valors acceptables són ``handset``, ``tablet``, "
-"``laptop`` i ``desktop``. Les aplicacions, com ara la  galeria, usen aquesta "
+"``laptop`` i ``desktop``. Les aplicacions, com ara la galeria, usen aquesta "
 "informació per canviar la seva funcionalitat. Per a més informació sobre el "
-"xassís, vegeu the freedesktop.org hostnamed specification`_."
+"xassís, vegeu freedesktop.org hostnamed specification."
 
 #: ../../porting/configure_test_fix/Display.rst:63
 msgid "Native orientation"
@@ -11846,12 +11841,11 @@ msgid ""
 msgstr ""
 "Per a significar una configuració acabada i desbloquejar la interfície "
 "d'usuari d'encriptatge des de lomiri-system-settings, el commutador de "
-"configuració DeviceInfo  theFilesystemEncryption. s'ha d'establir a  "
-"thetrue.."
+"configuració DeviceInfo  `FilesystemEncryption` s'ha d'establir a `true`."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:59
 msgid "Example::"
-msgstr "Exemples"
+msgstr "Exemples:"
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:72
 msgid "Only after this will you be able to set up encryption on your device."
@@ -11884,12 +11878,12 @@ msgid ""
 "which merges the commit `\"fscrypt: v2 encryption policy support\"` and "
 "related commits into the Common Kernel."
 msgstr ""
-"Una manera fàcil de \"transplantar\" el suport de política v2 és trobant la "
+"Una manera fàcil de «transplantar» el suport de política v2 és trobant la "
 "versió més propera del nucli comú que té el suport de política v2 que "
 "coincideix amb la versió del nucli del vostre dispositiu, i comprovant els "
 "fitxers individuals relacionats amb fscrypt i els sistemes de fitxers "
 "compatibles a l'arbre del nucli. Per començar, cerqueu una publicació que "
-"fusioni la publicació  the\"fscrypt: v2 encryption policy support\". i les "
+"fusioni la publicació `\"fscrypt: v2 encryption policy support\"` i les "
 "publicacions relacionades amb el nucli comú."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:83
@@ -11946,11 +11940,11 @@ msgstr ""
 "criptogràfic, el codi del sistema de fitxers i altres controladors, llavors "
 "haureu de trencar aquestes dependències canviant manualment el codi per "
 "acomodar-lo per al nou fscrypt. Per exemple, en els dispositius Qualcomm el "
-"controlador  the\"qseecom\". pot entrar en funcions sobreescrites pel "
-"pagament manual, i haureu de complementar les funcions que falten en la "
-"vostra adaptació. Els nuclis amb  the\"sdcardfs\" enabled activats hauran "
-"d'adaptar el controlador sdcardfs per a treballar amb el nou fscrypt, ja "
-"sigui portant endavant les funcions que manquen o simplement eliminant-les."
+"controlador `\"qseecom\"` pot entrar en funcions sobreescrites pel pagament "
+"manual, i haureu de complementar les funcions que falten en la vostra "
+"adaptació. Els nuclis amb `\"sdcardfs\"` activats hauran d'adaptar el "
+"controlador sdcardfs per a treballar amb el nou fscrypt, ja sigui portant "
+"endavant les funcions que manquen o simplement eliminant-les."
 
 #: ../../porting/configure_test_fix/Lomiri.rst:4
 msgid "Lomiri - the graphical UI"
@@ -11970,7 +11964,7 @@ msgstr ""
 
 #: ../../porting/configure_test_fix/Lomiri.rst:9
 msgid "What are udev rules?"
-msgstr "Addició de les regles udev"
+msgstr "Què són les regles udev?"
 
 #: ../../porting/configure_test_fix/Lomiri.rst:11
 msgid ""
@@ -12526,8 +12520,8 @@ msgid ""
 "pid.codes/pids/>`_."
 msgstr ""
 "Les següents configuracions són molt recomanables per a ser establertes. "
-"Sense ell, el sistema es revertirà en el codi de prova del projecte  "
-"thepid.codes <https://pid.codes/pids/> the."
+"Sense ell, el sistema es revertirà en el codi de prova del projecte "
+"`pid.codes <https://pid.codes/pids/>`_."
 
 #: ../../porting/configure_test_fix/USBModed.rst:46
 msgid "IDVENDOR"
@@ -12640,7 +12634,7 @@ msgstr "USBMODEDARGS"
 
 #: ../../porting/configure_test_fix/USBModed.rst:79
 msgid "About usb-moded's rescue mode"
-msgstr "Quant al mode de rescat d'USb-moded"
+msgstr "Quant al mode de rescat d'usb-moded"
 
 #: ../../porting/configure_test_fix/USBModed.rst:81
 msgid ""
@@ -13527,7 +13521,7 @@ msgstr ""
 
 #: ../../porting/introduction/Intro.rst:11
 msgid "What is Ubuntu Touch?"
-msgstr "Execució de l'Ubuntu Touch"
+msgstr "Què és l'Ubuntu Touch?"
 
 #: ../../porting/introduction/Intro.rst:13
 msgid ""
@@ -13555,12 +13549,12 @@ msgstr ""
 "Per ser específic, els venedors de dispositius tendeixen a mantenir el codi "
 "que parla directament al maquinari del dispositiu (els controladors de "
 "dispositius de baix nivell) propietari. Aquests components són comunament "
-"anomenats  thevendor 'blobs' (Binary Large OBjects) <https://"
-"en.wikipedia.org/wiki/Proprietarydevicedriver>.. Les taques del venedor "
-"s'han d'incorporar a un port d'Ubuntu Touch. Tingueu en compte que aquests "
-"components són específics no només per a cada dispositiu, sinó també per a "
-"cada versió d'Android. Per tant, és necessari assegurar la versió correcta "
-"d'aquests components a l'hora de construir un port."
+"anomenats `vendor «blobs» (Binary Large OBjects) <https://en.wikipedia.org/"
+"wiki/Proprietarydevicedriver>`_. Les vendor blobs s'han d'incorporar a un "
+"port d'Ubuntu Touch. Tingueu en compte que aquests components són específics "
+"no només per a cada dispositiu, sinó també per a cada versió d'Android. Per "
+"tant, és necessari assegurar la versió correcta d'aquests components a "
+"l'hora de construir un port."
 
 #: ../../porting/introduction/Intro.rst:19
 msgid ""
@@ -13600,9 +13594,9 @@ msgid ""
 "Android hardware. It is a joint effort by multiple mobile operating systems, "
 "notably Lune OS, Droidian and Ubuntu Touch."
 msgstr ""
-"El projecte  TheHalium <https://halium.org/> The permet que els sistemes "
-"Linux s'executin amb maquinari Android. És un esforç conjunt de múltiples "
-"sistemes operatius mòbils, en particular Lune OS, Droidian i Ubuntu Touch."
+"El projecte `Halium <https://halium.org/>`_ permet que els sistemes Linux "
+"s'executin amb maquinari Android. És un esforç conjunt de múltiples sistemes "
+"operatius mòbils, en particular Lune OS, Droidian i Ubuntu Touch."
 
 #: ../../porting/introduction/Intro.rst:25
 msgid ""
@@ -13675,12 +13669,12 @@ msgid ""
 "below shows which versions are required for the different Halium versions."
 msgstr ""
 "Halium es construeix utilitzant codi font per a una versió modificada del "
-"sistema operatiu Android anomenada LineageOS (vegeu theel lloc web de "
-"LineageOS <https://lineageos.org/> and i  andwiki <https://"
-"wiki.lineageos.org/> the). El codi font requerit està disponible en línia i "
-"ha de ser descarregat i configurat per construir la versió correcta de "
-"Halium per a cada port de dispositiu individual. La taula següent mostra "
-"quines versions són necessàries per a les diferents versions de Halium."
+"sistema operatiu Android anomenada LineageOS (vegeu `el lloc web de "
+"LineageOS <https://lineageos.org/>`_ and i  el `wiki <https://"
+"wiki.lineageos.org/>`_). El codi font requerit està disponible en línia i ha "
+"de ser descarregat i configurat per construir la versió correcta de Halium "
+"per a cada port de dispositiu individual. La taula següent mostra quines "
+"versions són necessàries per a les diferents versions de Halium."
 
 #: ../../porting/introduction/Intro.rst:44
 msgid "Android version"
@@ -13780,9 +13774,9 @@ msgid ""
 msgstr ""
 "Un GSI és una imatge de sistema que es construeix per poder funcionar amb "
 "una àmplia gamma de dispositius. Els dispositius Android, a partir de la "
-"versió 9.0, utilitzen un GSI. Per a més informació, vegeu les  thepàgines "
-"del desenvolupador d'Android <https://developer.android.com/topic/generic-"
-"system-image/> the"
+"versió 9.0, utilitzen un GSI. Per a més informació, vegeu les `pàgines del "
+"desenvolupador d'Android <https://developer.android.com/topic/generic-system-"
+"image/>`_"
 
 #: ../../porting/introduction/Intro.rst:66
 msgid ""
@@ -13913,7 +13907,7 @@ msgstr ""
 
 #: ../../porting/introduction/Intro.rst:102
 msgid "`Telegram: @ubports_porting <https://t.me/ubports_porting>`_"
-msgstr "Telegram:  ubportsporting <https://t.me/ubportsporting>"
+msgstr "`Telegram: @ubports_porting <https://t.me/ubports_porting>`_"
 
 #: ../../porting/introduction/Intro.rst:103
 msgid "`The UBports Forum <https://forums.ubports.com/category/33/porting>`_"
@@ -14050,7 +14044,7 @@ msgid ""
 "many devices are sold in a number of different variants with different "
 "hardware specifications."
 msgstr ""
-"Aneu al  theViqui de LineageOS <https://wiki.lineageos.org/> the. Busqueu el "
+"Aneu al `wiki de LineageOS <https://wiki.lineageos.org/>`_. Busqueu el "
 "vostre dispositiu i llegiu i apunteu les guies que hi apareixen. Proveu amb "
 "una cerca web d'informació addicional, especificant tant el seu nom "
 "comercial com el nom de codi que heu trobat al lloc web de LineageOS. Aneu "
@@ -14988,31 +14982,28 @@ msgstr ""
 "5.6.0-pine64`` ``vmlinuz``."
 
 #: ../../systemdev/kernel-pinephone.rst:42
-#, fuzzy
 msgid ""
 "To install dependencies, get the `source code <https://gitlab.com/pine64-org/"
 "linux/-/tree/pine64-kernel-ubports>`_, configure and build the kernel, run "
 "the following::"
 msgstr ""
-"Per instal·lar dependències, obteniu el  thecodi font <https://gitlab.com/"
-"pine64-org/linux/-/tree/pine64-kernel-ubports> the, configureu i construïu "
-"el nucli, executeu el següent::"
+"Per instal·lar dependències, obteniu el `codi font <https://gitlab.com/"
+"pine64-org/linux/-/tree/pine64-kernel-ubports>`_, configureu i construïu el "
+"nucli, executeu el següent:"
 
 #: ../../systemdev/kernel-pinephone.rst:51
 msgid "Install the kernel"
 msgstr "Instal·lació d'un paquet:"
 
 #: ../../systemdev/kernel-pinephone.rst:53
-#, fuzzy
 msgid ""
 "Boot into recovery and mount boot_a. Make a backup if needed. Then copy over "
 "your newly built kernel and if needed modules::"
 msgstr ""
-"Arrencar en recuperació i muntar bota. Feu una còpia de seguretat si cal. "
-"Després copieu sobre el vostre nucli acabat de construir i si cal mòduls::"
+"Arrencar en recuperació i muntar boot_a. Feu una còpia de seguretat si cal. "
+"Després copieu sobre el vostre nucli acabat de construir i si cal mòduls:"
 
 #: ../../systemdev/kernel-pinephone.rst:61
-#, fuzzy
 msgid ""
 "Afterwards be sure to unmount the partition so it is cleanly written. Now "
 "you can reboot the PinePhone. Once booted, you can verify that the kernel "
@@ -15022,7 +15013,7 @@ msgstr ""
 "Després assegureu-vos de desmuntar la partició perquè s'escrigui netament. "
 "Ara podeu reiniciar el PinePhone. Un cop arrencat, podeu verificar que el "
 "nucli s'ha actualitzat correctament comprovant la data de construcció amb "
-".uname -a. al dispositiu."
+"``uname -a`` al dispositiu."
 
 #: ../../systemdev/kernel-pinephone.rst:66
 msgid ""
@@ -15292,62 +15283,57 @@ msgstr ""
 "trobareu aquests subdirectoris:"
 
 #: ../../systemdev/online-accounts.rst:8
-#, fuzzy
 msgid ""
 "``click-hooks``: the programs run when a :ref:`Click application <click>` "
 "making use of the Online Accounts functionality is installed or removed"
 msgstr ""
-"theclick-hooks the: els programes s'executen quan s'instal·la o elimina una "
-"aplicació :ref: theClick <click> the que fa ús de la funcionalitat de "
-"comptes en línia"
+"``click-hooks``: els programes s'executen quan s'instal·la o elimina una "
+":ref:`aplicació Click <click>` que fa ús de la funcionalitat de comptes en "
+"línia"
 
 #: ../../systemdev/online-accounts.rst:9
-#, fuzzy
 msgid ""
 "``client``: the library that client applications can use to request access "
 "to an account"
 msgstr ""
-"theclient the: la biblioteca que les aplicacions del client poden utilitzar "
-"per a sol·licitar accés a un compte"
+"``client``: la biblioteca que les aplicacions del client poden utilitzar per "
+"a sol·licitar accés a un compte"
 
 #: ../../systemdev/online-accounts.rst:10
-#, fuzzy
 msgid ""
 "``online-accounts-service``: the main service, implementing the logic to "
 "process client requests; it has no UI, but is able to attach the ``online-"
 "accounts-ui`` on top of an application's UI"
 msgstr ""
-",online-accounts-services: el servei principal, implementant la lògica per a "
-"processar les sol·licituds del client; no té IU, però és capaç d'adjuntar la "
-"IU  toonline-accounts-uis a sobre de la IU d'una aplicació"
+"``online-accounts-services``: el servei principal, implementant la lògica "
+"per a processar les sol·licituds del client; no té IU (interfície d'usuari), "
+"però és capaç d'adjuntar la IU ``online-accounts-ui`` a sobre de la IU d'una "
+"aplicació"
 
 #: ../../systemdev/online-accounts.rst:11
-#, fuzzy
 msgid ""
 "``online-accounts-ui``: the user interface which pops up when applications "
 "interact with online accounts (for example, the dialog that appears when an "
 "application requests access to an account)"
 msgstr ""
-"theonline-accounts-ui the: la interfície d'usuari que apareix quan les "
+"``online-accounts-ui``: la interfície d'usuari que apareix quan les "
 "aplicacions interactuen amb els comptes en línia (per exemple, el diàleg que "
 "apareix quan una aplicació sol·licita accés a un compte)"
 
 #: ../../systemdev/online-accounts.rst:12
-#, fuzzy
 msgid ""
 "``plugins``: the base classes and QML elements that account plugins can use "
 "in their implementation"
 msgstr ""
-"theplugins the: les classes base i els elements QML que els connectors de "
+"``plugins``: les classes base i els elements QML que els connectors de "
 "compte poden utilitzar en la seva implementació"
 
 #: ../../systemdev/online-accounts.rst:13
-#, fuzzy
 msgid ""
 "``system-settings-plugin``: the user interface for the Accounts panel in the "
 "System Settings application"
 msgstr ""
-"thesystem-settings-plugin the: la interfície d'usuari per al plafó Comptes a "
+"``system-settings-plugin``: la interfície d'usuari per al plafó Comptes a "
 "l'aplicació Configuració del sistema"
 
 #: ../../systemdev/online-accounts.rst:15
@@ -15396,14 +15382,13 @@ msgstr ""
 "de comptes per a aplicacions Qt"
 
 #: ../../systemdev/online-accounts.rst:21
-#, fuzzy
 msgid ""
 "`signond <https://github.com/ubports/signon>`_: authentication daemon, "
 "exposing a D-Bus API. It includes the ``libsignon-qt`` library, which offers "
 "an authentication API for Qt applications"
 msgstr ""
-".signond <https://github.com/ubports/signon>.: dimoni d'autenticació, "
-"exposant una API D-Bus. Inclou la biblioteca  thelibsignon-qt,, que ofereix "
+"`signond <https://github.com/ubports/signon>`_: dimoni d'autenticació, "
+"exposant una API D-Bus. Inclou la biblioteca ``libsignon-qt``, que ofereix "
 "una API d'autenticació per a aplicacions Qt"
 
 #: ../../systemdev/online-accounts.rst:22
@@ -15437,25 +15422,23 @@ msgstr ""
 "github.com/ubports/ubuntu-push> the)"
 
 #: ../../systemdev/online-accounts.rst:26
-#, fuzzy
 msgid ""
 "The `account-polld-plugins-go <https://github.com/ubports/account-polld-"
 "plugins-go>`_, a repository of plugins for the ``account-polld`` service. "
 "The plugins in this repository are written in Go, but plugins can be written "
 "in whatever language and can reside in different repositories"
 msgstr ""
-"El  Theaccount-polld-plugins-go <https://github.com/ubports/account-polld-"
-"plugins-go> The, un repositori de connectors per al servei  theaccount-"
-"polld.. Els connectors d'aquest repositori estan escrits a Go, però els "
-"connectors es poden escriure en qualsevol idioma i poden residir en "
-"diferents repositoris"
+"El `account-polld-plugins-go <https://github.com/ubports/account-polld-"
+"plugins-go>`_, un repositori de connectors per al servei ``account-polld``. "
+"Els connectors d'aquest repositori estan escrits a Go, però els connectors "
+"es poden escriure en qualsevol idioma i poden residir en diferents "
+"repositoris"
 
 #: ../../systemdev/online-accounts.rst:33
 msgid "Account creation issues"
 msgstr "Problemes de creació de comptes"
 
 #: ../../systemdev/online-accounts.rst:35
-#, fuzzy
 msgid ""
 "It may happen that the account creation fails, either due to communication "
 "issues with the remote server, or to some bug in the account plugin itself "
@@ -15470,20 +15453,19 @@ msgstr ""
 "del compte (això pot passar fàcilment mentre es desenvolupa un connector nou)"
 ". Per a depurar aquestes situacions, podeu obrir un terminal (és més fàcil "
 "si es fa des d'un intèrpret d'ordres remot -- podeu guanyar un intèrpret "
-"d'ordres al dispositiu utilitzant :doc: the/userguide/advanceduse/adb the o "
-":doc: the/userguide/advanceduse/ssh the) i iniciar el  theonline-accounts-"
-"service: en mode de depuració:"
+"d'ordres al dispositiu utilitzant :doc:`/userguide/advanceduse/adb` o :doc:`/"
+"userguide/advanceduse/ssh`) i iniciar el ``online-accounts-service`` en mode "
+"de depuració:"
 
 #: ../../systemdev/online-accounts.rst:42
-#, fuzzy
 msgid ""
 "If you believe that the issue might be caused by some errors in the "
 "authentication phase, you can also enabled extensive logging by ``signond`` "
 "like this:"
 msgstr ""
 "Si creieu que el problema pot ser causat per alguns errors en la fase "
-"d'autenticació, també podeu habilitar l'enregistrament extensiu de  "
-"thesignond: d'aquesta manera:"
+"d'autenticació, també podeu habilitar l'enregistrament extensiu de "
+"``signond`` d'aquesta manera:"
 
 #: ../../systemdev/online-accounts.rst:50
 msgid ""
@@ -15498,7 +15480,6 @@ msgid "QtMir and QtUbuntu"
 msgstr "QtMir i QtUbuntu"
 
 #: ../../systemdev/qtmir-qtubuntu.rst:4
-#, fuzzy
 msgid ""
 "`QtMir`_ and `QtUbuntu`_ are `Qt Platform Abstractions`_ (QPAs) for the "
 "Ubuntu Touch platform. QtMir can be thought of as a server for Unity8 while "
@@ -15506,7 +15487,7 @@ msgid ""
 "respective domains to use Qt's high-level abstractions of surfaces, windows, "
 "controls, and more, without worrying about the underlying operating system."
 msgstr ""
-"andQtMir. i  andQtUbuntu. són  theQt Platform Abstractions. (QPAs) per a la "
+"`QtMir`_ i `QtUbuntu`_ són `Qt Platform Abstractions`_ (QPAs) per a la "
 "plataforma Ubuntu Touch. QtMir es pot considerar com un servidor per a "
 "Unity8 mentre que QtUbuntu s'utilitza per a aplicacions client. Cadascun "
 "d'ells permet als seus respectius dominis utilitzar abstraccions d'alt "
@@ -15518,19 +15499,16 @@ msgid "QtMir"
 msgstr "QtMir"
 
 #: ../../systemdev/qtmir-qtubuntu.rst:9
-#, fuzzy
 msgid ""
 "The `QtMir`_ QPA allows Unity8, the shell of Ubuntu Touch, to be written in "
 "QML and Qt C++ while operating on Mir Surfaces and Windows. It also allows "
 "the desktop to be represented and reasoned about as a `Qt Scene Graph`_."
 msgstr ""
-"El  TheQtMir. QPA permet que Unity8, l'intèrpret d'ordres de l'Ubuntu Touch, "
-"s'escriui en QML i Qt C++ mentre s'opera en les superfícies Mir i Windows. "
-"També permet que l'escriptori sigui representat i raonat com un  aQt Scene "
-"Graph.."
+"El `QtMir`_ QPA permet que Unity8, l'intèrpret d'ordres de l'Ubuntu Touch, "
+"s'escrigui en QML i Qt C++ mentre s'opera en Mir Surfaces i Windows. També "
+"permet que l'escriptori sigui representat i raonat com un `Qt Scene Graph`_."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:11
-#, fuzzy
 msgid ""
 "You'll find most of QtMir's logging in Unity8's logs, normally stored at ``/"
 "home/phablet/.cache/upstart/unity8`` on Ubuntu Touch. Different logging "
@@ -15538,13 +15516,12 @@ msgid ""
 "to different modules within QtMir's codebase."
 msgstr ""
 "Trobareu la major part de l'enregistrament de QtMir als registres d'Unity8, "
-"normalment emmagatzemats a ./home/phablet/.cache/upstart/unity8. a Ubuntu "
-"Touch. Diferents categories de registre, com  andqtmir.sessions. i  "
-"andqtmir.surfaces., es relacionen directament amb diferents mòduls dins de "
+"normalment emmagatzemats a ``/home/phablet/.cache/upstart/unity8`` a Ubuntu "
+"Touch. Diferents categories de registre, com ``qtmir.sessions`` i "
+"``qtmir.surfaces``, es relacionen directament amb diferents mòduls dins de "
 "la base de codi del QtMir."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:13
-#, fuzzy
 msgid ""
 "While Unity8 shows almost all QtMir logging by default, you can enable even "
 "more verbose logging by placing the following content in the file ``/usr/"
@@ -15552,29 +15529,26 @@ msgid ""
 msgstr ""
 "Tot i que Unity8 mostra gairebé tots els registres de QtMir per defecte, "
 "podeu activar un registre encara més detallat col·locant el següent "
-"contingut al fitxer  the/usr/share/upstart/sessions/unity8.override the:"
+"contingut al fitxer ``/usr/share/upstart/sessions/unity8.override``:"
 
 #: ../../systemdev/qtmir-qtubuntu.rst:19
 msgid "Then restart Unity8:"
 msgstr "Després reinicieu Unity8:"
 
 #: ../../systemdev/qtmir-qtubuntu.rst:26
-#, fuzzy
 msgid "QtUbuntu"
-msgstr "A l'Ubuntu::"
+msgstr "QtUbuntu"
 
 #: ../../systemdev/qtmir-qtubuntu.rst:28
-#, fuzzy
 msgid ""
 "The `QtUbuntu`_ QPA uses the `Mir client API`_ and `Ubuntu Platform API`_ to "
 "provide Ubuntu Touch apps with a stable hardware compatibility API."
 msgstr ""
-"El  TheQtUbuntu. QPA utilitza l' APIAPI de client Mir and i l' APIAPI de "
-"plataforma d'Ubuntu and per proporcionar aplicacions Ubuntu Touch amb una "
-"API de compatibilitat de maquinari estable."
+"El `QtUbuntu`_ QPA utilitza l' `API de client Mir`_ i l' `API de plataforma "
+"d'Ubuntu`_ per proporcionar aplicacions Ubuntu Touch amb una API de "
+"compatibilitat de maquinari estable."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:30
-#, fuzzy
 msgid ""
 "Since QtUbuntu is used directly by apps, any logging output from it will be "
 "located in an app's log file. Most of the time, QtUbuntu gives no logging "
@@ -15587,7 +15561,7 @@ msgstr ""
 "sortida de registre d'ella estarà situada en el fitxer de registre d'una "
 "aplicació. La majoria de les vegades, QtUbuntu no dona sortida de registre. "
 "No obstant això, si voleu rebre més sortida, podeu establir adequadament la "
-"variable d'entorn  theQTLOGGINGRULES.. Atès que les aplicacions d'Ubuntu "
+"variable d'entorn ``QT_LOGGING_RULES``. Atès que les aplicacions d'Ubuntu "
 "Touch s'han iniciat amb la sessió d'usuari d'Upstart, podeu establir això "
 "per a totes les aplicacions fins que reinicieu el dispositiu amb la següent "
 "ordre:"
@@ -15612,7 +15586,6 @@ msgstr ""
 "mai ha ocorregut."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:43
-#, fuzzy
 msgid ""
 "`QtUbuntu-Camera`_ provides the ``aalCamera`` (Android Abstraction Layer "
 "Camera) plugin to `QtMultimedia`_. This plugin allows apps to access Android "
@@ -15620,37 +15593,35 @@ msgid ""
 "replace this component with the `gst-droid`_ plugin for GStreamer for all "
 "new Android device ports."
 msgstr ""
-"theQtUbuntu-Camera. proporciona el connector  theaalCamera. (Càmera de capa "
-"d'abstracció d'Android) a .QtMultimedia.. Aquest connector permet a les "
+"`QtUbuntu-Camera`_ proporciona el connector ``aalCamera`` (Càmera de capa "
+"d'abstracció d'Android) a `QtMultimedia`_. Aquest connector permet a les "
 "aplicacions accedir a les càmeres de dispositiu Android a través de l'API "
 "estàndard de QtMultimedia. Estem intentant reemplaçar aquest component amb "
-"el connector  thegst-droid. per al GStreamer per a tots els ports nous de "
+"el connector `gst-droid`_ per al GStreamer per a tots els ports nous de "
 "dispositius Android."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:45
-#, fuzzy
 msgid ""
 "`QtUbuntu-Sensors`_ provides Android haptic feedback, GPS, orientation, and "
 "accelerometer sensors to `QtSensors`_. We are trying to replace this "
 "component with `sensorfw`_, a single daemon capable of providing these "
 "functions using Android or standard Linux kernel drivers."
 msgstr ""
-".QtUbuntu-Sensors. proporciona retroalimentació hàptica per a Android, GPS, "
-"orientació i sensors d'acceleròmetre a .QtSensors.. Estem tractant de "
-"reemplaçar aquest component per .sensorfw., un sol daemon capaç de "
+"`QtUbuntu-Sensors`_ proporciona retroalimentació hàptica per a Android, GPS, "
+"orientació i sensors d'acceleròmetre a `QtSensors`_. Estem tractant de "
+"reemplaçar aquest component per `sensorfw`_, un sol daemon capaç de "
 "proporcionar aquestes funcions utilitzant controladors de nucli Android o "
 "Linux estàndard."
 
 #: ../../systemdev/qtmir-qtubuntu.rst:47
-#, fuzzy
 msgid ""
 "`QtUbuntu-Media`_ provides hardware encoding and decoding of audio/video "
 "content on Android devices to `QtMultimedia`_. It is tightly integrated with "
 "`media-hub`_."
 msgstr ""
-".QtUbuntu-Media. proporciona la codificació i descodificació de maquinari de "
-"contingut d'àudio/vídeo en dispositius Android a .QtMultimedia.. Està "
-"estretament integrat amb .media-hub.."
+"`QtUbuntu-Media`_ proporciona la codificació i descodificació de maquinari "
+"de contingut d'àudio/vídeo en dispositius Android a `QtMultimedia`_. Està "
+"estretament integrat amb `media-hub`_."
 
 #: ../../systemdev/reference.rst:2
 msgid "System Software reference"
@@ -15665,15 +15636,14 @@ msgstr ""
 "sistema Ubuntu Touch interactuen per crear l'experiència d'usuari."
 
 #: ../../systemdev/reference.rst:6
-#, fuzzy
 msgid ""
 "There's not much here yet, but maybe you'd like to add some reference "
 "material? Check out :doc:`our guide to contributing to documentation </"
 "contribute/documentation>` to learn more."
 msgstr ""
 "Encara no hi ha molt aquí, però potser t'agradaria afegir algun material de "
-"referència? Consulteu :doc:.la nostra guia per a contribuir a la "
-"documentació </contribute/documentation>. per a saber-ne més."
+"referència? Consulteu :doc:`la nostra guia per a contribuir a la "
+"documentació </contribute/documentation>` per a saber-ne més."
 
 #: ../../systemdev/testing-locally.rst:2
 msgid "Making changes and testing locally"
@@ -15714,19 +15684,16 @@ msgstr ""
 "Ubuntu Touch localment:"
 
 #: ../../systemdev/testing-locally.rst:8
-#, fuzzy
 msgid "`Building packages in a chroot using sbuild`_"
-msgstr "aConstruint paquets en un chroot utilitzant sbuild`"
+msgstr "`Construint paquets en un chroot utilitzant sbuild`_"
 
 #: ../../systemdev/testing-locally.rst:9
-#, fuzzy
 msgid "`Building packages with crossbuilder`_"
-msgstr "Compilació creuada amb un compilador creuat"
+msgstr "`Compilació creuada amb un compilador creuat`_"
 
 #: ../../systemdev/testing-locally.rst:10
-#, fuzzy
 msgid "`Building on the device itself`_"
-msgstr "Compilació al propi dispositiu"
+msgstr "`Compilació al propi dispositiu`_"
 
 #: ../../systemdev/testing-locally.rst:13
 msgid "Pros and cons of sbuild and crossbuilder"
@@ -15785,7 +15752,6 @@ msgid "Preparing a package for a build"
 msgstr "Preparant un paquet per a una construcció"
 
 #: ../../systemdev/testing-locally.rst:28
-#, fuzzy
 msgid ""
 "``sbuild`` or ``crossbuilder`` need to be invoked from a debianized package "
 "source tree (i.e. the package sources with a ``debian`` subdirectory), "
@@ -15794,12 +15760,12 @@ msgid ""
 "following script can be used in order to prepare a non-native package for a "
 "build::"
 msgstr ""
-"Cal invocar .sbuild. o  thecrossbuilder. des d'un arbre font de paquets "
-"debianitzat (és a dir, les fonts de paquets amb un subdirectori  thedebian.)"
-", els paquets UBports consisteixen majoritàriament en repositoris git que "
+"Cal invocar ``sbuild`` o ``crossbuilder`` des d'un arbre font de paquets "
+"debianitzat (és a dir, les fonts de paquets amb un subdirectori ``debian``), "
+"els paquets UBports consisteixen majoritàriament en repositoris git que "
 "contenen paquets nadius o no nadius.  Els paquets nadius es poden construir "
 "directament i es pot utilitzar el següent script per preparar un paquet no "
-"natiu per a una construcció::"
+"natiu per a una construcció:"
 
 #: ../../systemdev/testing-locally.rst:67
 msgid "Building packages in a chroot using sbuild"
@@ -15830,29 +15796,26 @@ msgid "There are three types of building using sbuild:"
 msgstr "Hi ha tres tipus d'edificis utilitzant sbuild:"
 
 #: ../../systemdev/testing-locally.rst:73
-#, fuzzy
 msgid ""
 "`Native build`_ - this type of building is used when the host architecture "
 "matches the target architecture."
 msgstr ""
-".Edifici natiu.: aquest tipus d'edifici s'utilitza quan l'arquitectura de "
-"l'amfitrió coincideix amb l'arquitectura de destinació."
+"`Compilació nativa`_: aquest tipus de compilació s'utilitza quan "
+"l'arquitectura de l'amfitrió coincideix amb l'arquitectura de destinació."
 
 #: ../../systemdev/testing-locally.rst:74
-#, fuzzy
 msgid ""
 "`Cross compile build`_ - this type of building is used when the host "
 "architecture does not match the target architecture. This method may fail "
 "due to foreign architecture dependencies that are not installable. In that "
 "case you need to use another method."
 msgstr ""
-".Cross compile build.: aquest tipus d'edifici s'utilitza quan l'arquitectura "
-"de l'amfitrió no coincideix amb l'arquitectura de destinació. Aquest mètode "
-"pot fallar a causa de dependències d'arquitectura estrangeres que no són "
-"instal·lables. En aquest cas cal utilitzar un altre mètode."
+"`Compilació creuada`_.: aquest tipus de compilació s'utilitza quan "
+"l'arquitectura de l'amfitrió no coincideix amb l'arquitectura de destinació. "
+"Aquest mètode pot fallar a causa de dependències d'arquitectura estrangeres "
+"que no són instal·lables. En aquest cas cal utilitzar un altre mètode."
 
 #: ../../systemdev/testing-locally.rst:75
-#, fuzzy
 msgid ""
 "`Qemu cross architecture build`_ - this method allows you to perform a fake "
 "native build on a host architecture which does not match the target "
@@ -15861,13 +15824,13 @@ msgid ""
 "binary translations. Check the link for more information about `qemu "
 "<https://packages.debian.org/sid/qemu-user-static>`__."
 msgstr ""
-".Compilació d'arquitectura creuada de Qemu. - aquest mètode permet realitzar "
-"una construcció nativa falsa sobre una arquitectura d'amfitrió que no "
-"coincideix amb l'arquitectura de destinació, evitant problemes de "
+"`Compilació d'arquitectura creuada de Qemu`_ - aquest mètode permet "
+"realitzar una compilació nativa falsa sobre una arquitectura d'amfitrió que "
+"no coincideix amb l'arquitectura de destinació, evitant problemes de "
 "dependència de l'arquitectura estrangera. L'inconvenient d'aquest mètode és "
 "la velocitat lenta, causada per la sobrecàrrega de les traduccions binàries "
-"d'arquitectura. Consulteu l'enllaç per a més informació sobre  theqemu "
-"<https://packages.debian.org/sid/qemu-user-static>.."
+"d'arquitectura. Consulteu l'enllaç per a més informació sobre `qemu <https://"
+"packages.debian.org/sid/qemu-user-static>`__."
 
 #: ../../systemdev/testing-locally.rst:80
 msgid ""
@@ -15884,7 +15847,6 @@ msgstr ""
 "cli/#installing-a-package>.."
 
 #: ../../systemdev/testing-locally.rst:83
-#, fuzzy
 msgid ""
 "A LXD container requires the following configuration setting in order to "
 "allow debootstrap to use the mknod system call for creating pseudo devices "
@@ -15892,27 +15854,25 @@ msgid ""
 msgstr ""
 "Un contenidor LXD requereix la configuració següent per permetre que "
 "debootstrap utilitzi la crida del sistema mknod per crear pseudo dispositius "
-"com  the/dev/null the dins d'un chroot::"
+"com ``/dev/null`` dins d'un chroot:"
 
 #: ../../systemdev/testing-locally.rst:87
-#, fuzzy
 msgid ""
 "It is assumed that the user who is building packages is allowed to execute "
 "commands with superuser privilege using ``sudo``."
 msgstr ""
 "Se suposa que l'usuari que està construint paquets està autoritzat a "
-"executar ordres amb privilegi de superusuari utilitzant .sudo.."
+"executar ordres amb privilegi de superusuari utilitzant ``sudo``."
 
 #: ../../systemdev/testing-locally.rst:89
-#, fuzzy
 msgid ""
 "``sbuild`` uses ``schroot`` in order to manage chroots which in turn uses "
 "debootstrap for creating the chroot.  The required packages are installed "
 "with::"
 msgstr ""
-".sbuild. utilitza  toschroot. per gestionar chroots que al seu torn utilitza "
-"debootstrap per crear el chroot.  Els paquets requerits estan instal·lats "
-"amb::"
+"``sbuild`` utilitza ``schroot`` per gestionar chroots que al seu torn "
+"utilitza debootstrap per crear el chroot.  Els paquets requerits estan "
+"instal·lats amb:"
 
 #: ../../systemdev/testing-locally.rst:93
 msgid ""
@@ -15927,36 +15887,32 @@ msgid "Setting up sbuild"
 msgstr "Configuració de l'sbuild"
 
 #: ../../systemdev/testing-locally.rst:98
-#, fuzzy
 msgid ""
 "An unprivileged user needs to be added to the sbuild group in order to gain "
 "the necessary privilege to build packages::"
 msgstr ""
 "Cal afegir un usuari sense privilegis al grup sbuild per tal d'obtenir el "
-"privilegi necessari per construir paquets::"
+"privilegi necessari per construir paquets:"
 
 #: ../../systemdev/testing-locally.rst:102
-#, fuzzy
 msgid ""
 "The build user can configure ``sbuild`` by creating a file ``~/.sbuildrc`` "
 "as follows::"
 msgstr ""
-"L'usuari de construcció pot configurar  Thesbuild The creant un fitxer  a/"
-".sbuildrc a de la següent manera::"
+"L'usuari de construcció pot configurar ``sbuild`` creant un fitxer ``~/"
+".sbuildrc`` de la següent manera:"
 
 #: ../../systemdev/testing-locally.rst:110
-#, fuzzy
 msgid ""
 "For further customizations see the example file at ``/usr/share/doc/sbuild/"
 "examples/example.sbuildrc``."
 msgstr ""
-"Per a més personalitzacions, vegeu el fitxer d'exemple a  the/usr/share/doc/"
-"sbuild/examples/example.sbuildrc.."
+"Per a més personalitzacions, vegeu el fitxer d'exemple a ``/usr/share/doc/"
+"sbuild/examples/example.sbuildrc``."
 
 #: ../../systemdev/testing-locally.rst:112
-#, fuzzy
 msgid "Create the directory ``~/logs`` if it does not exist, yet::"
-msgstr "Crea el directori  the/logs the si no existeix, encara::"
+msgstr "Creeu el directori ``~/logs`` si no existeix encara:"
 
 #: ../../systemdev/testing-locally.rst:118
 msgid "UBports packages"
@@ -15971,7 +15927,6 @@ msgstr ""
 "repositori de paquets d'UBports que s'instal·laran a la màquina amfitriona."
 
 #: ../../systemdev/testing-locally.rst:122
-#, fuzzy
 msgid ""
 "In that case UBports package repository needs to be added on the host "
 "machine. First initialize the ``chroot_repo`` and ``chroot_distro`` "
@@ -15979,9 +15934,9 @@ msgid ""
 "by using::"
 msgstr ""
 "En aquest cas, cal afegir el repositori de paquets UBports a la màquina "
-"amfitriona. Inicialitza primer les variables  thechrootrepo and i  "
-"andchrootdistro the com es mostren a la secció  theCompilació nativa the i "
-"després afegeix el repositori utilitzant::"
+"amfitriona. Inicialitzeu primer les variables ``chroot_repo`` i "
+"``chroot_distro`` com es mostren a la secció `Compilació nativa`_ i després "
+"afegiu el repositori utilitzant:"
 
 #: ../../systemdev/testing-locally.rst:127
 msgid "Install the needed packages using::"
@@ -15992,7 +15947,6 @@ msgid "Native build"
 msgstr "Construcció nativa"
 
 #: ../../systemdev/testing-locally.rst:134
-#, fuzzy
 msgid ""
 "In order to create a chroot based on Ubuntu 20.04 (Focal Fossa) with the "
 "amd64 architecture under the directory ``/srv/chroot/ubports-$"
@@ -16000,9 +15954,9 @@ msgid ""
 "following variables can be defined for later use by the actual commands::"
 msgstr ""
 "Per tal de crear un chroot basat en Ubuntu 20.04 (Focal Fossa) amb "
-"l'arquitectura amd64 sota el directori  the/srv/chroot/ubports-$"
-"{chrootdistro}-amd64 the (chchrootbase the es pot canviar si cal) es poden "
-"definir les següents variables per al seu ús posterior per les ordres reals::"
+"l'arquitectura amd64 sota el directori ``/srv/chroot/ubports-$"
+"{chroot_distro}-amd64`` (``chroot_base`` es pot canviar si cal) es poden "
+"definir les següents variables per al seu ús posterior per les ordres reals:"
 
 #: ../../systemdev/testing-locally.rst:140
 msgid ""
@@ -16014,66 +15968,60 @@ msgstr ""
 
 #: ../../systemdev/testing-locally.rst:146
 #: ../../systemdev/testing-locally.rst:192
-#, fuzzy
 msgid ""
 "In both cases the chroot will be created by running the following command::"
 msgstr ""
-"Connecteu el dispositiu al vostre ordinador i executeu les ordres següents::"
+"Connecteu el dispositiu al vostre ordinador i executeu les ordres següents:"
 
 #: ../../systemdev/testing-locally.rst:150
 #: ../../systemdev/testing-locally.rst:196
-#, fuzzy
 msgid "The UBports package repository needs to be added using::"
-msgstr "El repositori de paquets d'UBports s'ha d'afegir amb::"
+msgstr "El repositori de paquets d'UBports s'ha d'afegir amb:"
 
 #: ../../systemdev/testing-locally.rst:155
 #: ../../systemdev/testing-locally.rst:201
-#, fuzzy
 msgid ""
 "Synchronizing package index files and subsequent package upgrades can be "
 "performed using::"
 msgstr ""
 "La sincronització dels fitxers d'índex de paquets i les actualitzacions de "
-"paquets posteriors es poden realitzar utilitzant::"
+"paquets posteriors es poden realitzar utilitzant:"
 
 #: ../../systemdev/testing-locally.rst:159
 #: ../../systemdev/testing-locally.rst:205
-#, fuzzy
 msgid ""
 "A build can be started from inside the debianized package source directory "
 "using::"
 msgstr ""
 "Es pot iniciar una construcció des de dins del directori de codi font de "
-"paquets desbianitzats utilitzant::"
+"paquets desbianitzats utilitzant:"
 
 #: ../../systemdev/testing-locally.rst:164
 msgid "Cross compile build"
 msgstr "Compilació creuada"
 
 #: ../../systemdev/testing-locally.rst:165
-#, fuzzy
 msgid ""
 "The only difference with the native build comes in the command for starting "
 "the build which is the following::"
 msgstr ""
 "L'única diferència amb la construcció nativa ve en l'ordre per a iniciar la "
-"construcció que és la següent::"
+"construcció que és la següent:"
 
 #: ../../systemdev/testing-locally.rst:170
 msgid "Qemu cross architecture build"
 msgstr "Construcció d'arquitectura creuada de Qemu"
 
 #: ../../systemdev/testing-locally.rst:172
-#, fuzzy
 msgid ""
 "To simplify the chroot setup, we use `mk-sbuild <https://wiki.debian.org/mk-"
 "sbuild>`__ from the ``ubuntu-dev-tools`` package. The `qemu-user-static "
 "<https://wiki.debian.org/QemuUserEmulation>`__ package allows execution of "
 "non-native target executables just like native ones."
 msgstr ""
-"Per simplificar la configuració de chroot, utilitzem  themk-sbuild <https://"
-"wiki.debian.org/mk-sbuild> the del paquet  theubuntu-dev-tools.. El paquet  "
-"Theqemu-user-static <https://wiki.debian.org/QemuUserEmulation> The permet "
+"Per simplificar la configuració de chroot, utilitzem `mk-sbuild <https://"
+"wiki.debian.org/mk-sbuild>`__ del paquet ``ubuntu-dev-tools``. El paquet "
+"`qemu-user-static <https://wiki.debian.org/QemuUserEmulation>`__ permet "
 "l'execució d'executables de destinació no nadius com els nadius."
 
 #: ../../systemdev/testing-locally.rst:174
@@ -16081,7 +16029,6 @@ msgid "Install the packages with the following commands::"
 msgstr "Instal·la els paquets amb les ordres següents:"
 
 #: ../../systemdev/testing-locally.rst:178
-#, fuzzy
 msgid ""
 "In order to create a chroot based on Ubuntu 20.04 (Focal Fossa) with the "
 "arm64 architecture under the directory ``/var/lib/schroot/chroots/ubports-$"
@@ -16089,9 +16036,9 @@ msgid ""
 "following variables can be defined for later use by the actual commands::"
 msgstr ""
 "Per tal de crear un chroot basat en Ubuntu 20.04 (Focal Fossa) amb "
-"l'arquitectura arm64 sota el directori  the/var/lib/schroot/chroots/ubports-$"
-"{chrootdistro}-arm64 the (chchrootbase the es pot canviar si cal) es poden "
-"definir les següents variables per al seu ús posterior per les ordres reals::"
+"l'arquitectura arm64 sota el directori ``/var/lib/schroot/chroots/ubports-$"
+"{chrootdistro}-arm64`` (``chroot_base`` es pot canviar si cal) es poden "
+"definir les següents variables per al seu ús posterior per les ordres reals:"
 
 #: ../../systemdev/testing-locally.rst:185
 msgid ""
@@ -16106,16 +16053,15 @@ msgid "Building completion"
 msgstr "Compilació de la documentació"
 
 #: ../../systemdev/testing-locally.rst:212
-#, fuzzy
 msgid ""
 "If the build was successful, the binary packages will be placed in the "
 "parent directory.  The build log will be placed inside ``~/logs``.  In case "
 "the build failed, the chroot can be inspected using::"
 msgstr ""
 "Si la construcció ha tingut èxit, els paquets binaris es col·locaran al "
-"directori pare.  El registre de construcció es col·locarà dins de  The/"
-"logs..  En cas que la construcció fallés, el chroot es pot inspeccionar "
-"utilitzant::"
+"directori pare.  El registre de construcció es col·locarà dins de ``~/"
+"logs``.  En cas que la construcció fallés, el chroot es pot inspeccionar "
+"utilitzant:"
 
 #: ../../systemdev/testing-locally.rst:217
 msgid "Optimizations"
@@ -16126,59 +16072,53 @@ msgid "Caching package downloads"
 msgstr "S'estan emmagatzemant les baixades dels paquets"
 
 #: ../../systemdev/testing-locally.rst:222
-#, fuzzy
 msgid ""
 "In order to save bandwidth and time it is highly advisable to cache "
 "downloaded packages by using ``apt-cacher-ng``.  It can be installed with::"
 msgstr ""
 "Per tal d'estalviar amplada de banda i temps, és molt aconsellable "
-"emmagatzemar a la memòria cau els paquets descarregats utilitzant .apt-"
-"cacher-ng..  Es pot instal·lar amb::"
+"emmagatzemar a la memòria cau els paquets descarregats utilitzant ``apt-"
+"cacher-ng``.  Es pot instal·lar amb:"
 
 #: ../../systemdev/testing-locally.rst:226
-#, fuzzy
 msgid ""
 "Chroots then need to be configured so that apt inside the chroot uses ``apt-"
 "cacher-ng`` on the host as a proxy server::"
 msgstr ""
-"Llavors cal configurar Chroots perquè apt dins del chroot utilitzi  theapt-"
-"cacher-ng the al servidor intermediari::"
+"Llavors cal configurar Chroots perquè apt dins del chroot utilitzi ``apt-"
+"cacher-ng`` al servidor intermediari:"
 
 #: ../../systemdev/testing-locally.rst:231
 msgid "Caching compilation results"
 msgstr "Resultats de la compilació de memòria cau"
 
 #: ../../systemdev/testing-locally.rst:233
-#, fuzzy
 msgid ""
 "``ccache`` is a compiler cache which speeds up repeated compilation of the "
 "same source code by caching the resulting object files. The actual cache is "
 "stored on the host system and bind-mounted into ``sbuild`` chroots with a "
 "``schroot`` hook::"
 msgstr ""
-"accache. és una memòria cau de compilador que accelera la compilació "
+"``ccache`` és una memòria cau de compilador que accelera la compilació "
 "repetida del mateix codi font en memòria cau dels fitxers d'objecte "
-"resultants. La memòria cau real s'emmagatzema en el sistema amfitrió i "
-"s'uneix a  thesbuild the chroots amb un ganxo  theschroot the::"
+"resultants. La memòria cau real s'emmagatzema en el sistema amfitrió i es "
+"munta «bind» a ``sbuild`` chroots amb un ganxo ``schroot``:"
 
 #: ../../systemdev/testing-locally.rst:240
-#, fuzzy
 msgid ""
 "In order to make use of ``ccache inside`` a ``sbuild`` chroot a wrapper "
 "script needs to be created::"
 msgstr ""
-"Per tal de fer ús de  toccache inside to un chroot  asbuild a cal crear un "
-"script d'embolcall::"
+"Per tal de fer ús de ``ccache inside`` un chroot ``sbuild`` cal crear un "
+"script d'embolcall:"
 
 #: ../../systemdev/testing-locally.rst:253
-#, fuzzy
 msgid ""
 "In order to use this wrapper script the following line must be added to the "
 "configuration of a ``schroot`` chroot in ``/etc/schroot/chroot.d/``::"
 msgstr ""
 "Per a utilitzar aquest script d'embolcall, s'ha d'afegir la següent línia a "
-"la configuració d'un chroot  theschroot the a  the/etc/schroot/chroot.d/ "
-"the::"
+"la configuració d'un chroot ``schroot`` a ``/etc/schroot/chroot.d/``:"
 
 #: ../../systemdev/testing-locally.rst:258
 msgid "Further reading"
@@ -16218,22 +16158,20 @@ msgstr ""
 "Ubuntu Touch."
 
 #: ../../systemdev/testing-locally.rst:269
-#, fuzzy
 msgid ""
 "Crossbuilder requires a Linux distribution with ``lxd`` installed and the "
 "unprivileged commandset available. In other words, you must be able to run "
 "the ``lxc`` command. If you are running Ubuntu on your host, Crossbuilder "
 "will set up ``lxd`` for you."
 msgstr ""
-"Crossbuilder requereix una distribució Linux amb  thelxd. instal·lat i el "
+"Crossbuilder requereix una distribució Linux amb ``lxd`` instal·lat i el "
 "conjunt d'ordres sense privilegis disponible. En altres paraules, heu de "
-"poder executar l'ordre  thelxc.. Si esteu executant Ubuntu al vostre "
-"amfitrió, Crossbuilder configurarà .lxd. per a vós."
+"poder executar l'ordre  ``lxc``.. Si esteu executant Ubuntu al vostre "
+"amfitrió, Crossbuilder us configurarà ``lxd``."
 
 #: ../../systemdev/testing-locally.rst:271
-#, fuzzy
 msgid "Start by installing Crossbuilder on your host::"
-msgstr "Comenceu instal·lant ``cross-builder``al vostre amfitrió:"
+msgstr "Comenceu instal·lant Crossbuilder al vostre amfitrió:"
 
 #: ../../systemdev/testing-locally.rst:276
 msgid ""
@@ -16246,10 +16184,9 @@ msgstr ""
 "poder-lo executar des de qualsevol directori:"
 
 #: ../../systemdev/testing-locally.rst:282
-#, fuzzy
 msgid "Now that Crossbuilder is installed, we can use it to set up LXD::"
 msgstr ""
-"Ara que Crossbuilder està instal·lat, podem utilitzar-lo per configurar LXD::"
+"Ara que Crossbuilder està instal·lat, podem utilitzar-lo per configurar LXD:"
 
 #: ../../systemdev/testing-locally.rst:286
 msgid ""
@@ -16260,7 +16197,6 @@ msgstr ""
 "reiniciar el vostre amfitrió una vegada que tot s'hagi completat."
 
 #: ../../systemdev/testing-locally.rst:288
-#, fuzzy
 msgid ""
 "After LXD has been set up, a build for UBports based on Ubuntu 20.04 (Focal "
 "Fossa) using the arm64 architecture can be started from inside the "
@@ -16268,16 +16204,15 @@ msgid ""
 msgstr ""
 "Després de configurar LXD, es pot iniciar una construcció per a UBports "
 "basada en Ubuntu 20.04 (Focal Fossa) utilitzant l'arquitectura arm64 des de "
-"dins del directori font de paquets debianized utilitzant::"
+"dins del directori font de paquets debianized utilitzant:"
 
 #: ../../systemdev/testing-locally.rst:294
-#, fuzzy
 msgid ""
 "For building against a different UBports release or architecture change "
 "``distro`` and ``arch`` as needed."
 msgstr ""
-"Per construir contra una versió diferent d'UBports o canvi d'arquitectura  "
-"anddistro. i  andarch. segons sigui necessari."
+"Per construir contra una versió diferent d'UBports o canvi d'arquitectura "
+"``distro`` i ``arch`` segons sigui necessari."
 
 #: ../../systemdev/testing-locally.rst:296
 msgid ""
@@ -16296,15 +16231,14 @@ msgstr ""
 "s'executaran el primer cop que llenceu el crossbuilder per a un nou paquet."
 
 #: ../../systemdev/testing-locally.rst:298
-#, fuzzy
 msgid ""
 "In order to deploy the newly built package on a local device (see :doc:`/"
 "userguide/advanceduse/adb` to learn more about connecting your device), you "
 "can use::"
 msgstr ""
 "Per a desplegar el paquet acabat de construir en un dispositiu local (vegeu "
-":doc: the/userguide/advanceduse/adb the per a obtenir més informació sobre "
-"la connexió amb el vostre dispositiu), podeu utilitzar::"
+":doc:`/userguide/advanceduse/adb` per obtenir més informació sobre la "
+"connexió amb el vostre dispositiu), podeu utilitzar:"
 
 #: ../../systemdev/testing-locally.rst:302
 msgid ""
@@ -16319,31 +16253,27 @@ msgstr ""
 "ràpid."
 
 #: ../../systemdev/testing-locally.rst:304
-#, fuzzy
 msgid ""
 "If the build dependencies have changed the following command can be used to "
 "update the container accordingly (``distro`` and ``arch`` should be set as "
 "above)::"
 msgstr ""
 "Si les dependències de construcció han canviat, es pot utilitzar la següent "
-"ordre per actualitzar el contenidor en conseqüència ( anddistro and i  "
-"andarch the s'han d'establir com a dalt)::"
+"ordre per actualitzar el contenidor en conseqüència (``distro`` i ``arch`` "
+"s'han d'establir com a dalt):"
 
 #: ../../systemdev/testing-locally.rst:308
-#, fuzzy
 msgid ""
 "While ``crossbuilder`` does not create log files for the build process, the "
 "``script`` utility may be used for that purpose::"
 msgstr ""
-"Mentre que el ,crossbuilder the no crea fitxers de registre per al procés de "
-"construcció, la utilitat  thescript, es pot utilitzar amb aquesta finalitat::"
+"Mentre que el ``crossbuilder`` no crea fitxers de registre per al procés de "
+"construcció, la utilitat ``script`` es pot utilitzar amb aquesta finalitat:"
 
 #: ../../systemdev/testing-locally.rst:312
-#, fuzzy
 msgid "When a build container is no longer needed it maybe removed using::"
 msgstr ""
-"Quan ja no es necessita un contenidor de construcció, potser s'elimina "
-"usant::"
+"Quan ja no es necessita un contenidor de construcció, potser s'elimina usant:"
 
 #: ../../systemdev/testing-locally.rst:317
 msgid "Unit tests"
@@ -16407,7 +16337,6 @@ msgstr ""
 "desenvolupament que heu instal·lat), si us plau continueu llegint."
 
 #: ../../systemdev/testing-locally.rst:332
-#, fuzzy
 msgid ""
 "This method is limited. Many devices do not have enough free image space to "
 "install the packages required to build components of Ubuntu Touch. "
@@ -16419,7 +16348,7 @@ msgstr ""
 "lliure per instal·lar els paquets necessaris per construir components "
 "d'Ubuntu Touch. La instal·lació de paquets té el risc de danyar el "
 "programari del vostre dispositiu, fent-lo inutilitzable. Si això passa, "
-"podeu :doc:.reinstal·lar Ubuntu Touch </userguide/install>.."
+"podeu :doc:`reinstal·lar Ubuntu Touch </userguide/install>`."
 
 #: ../../systemdev/testing-locally.rst:335
 msgid ""
@@ -16431,60 +16360,52 @@ msgstr ""
 "dispositiu Ubuntu Touch a través d'un intèrpret d'ordres remot."
 
 #: ../../systemdev/testing-locally.rst:337
-#, fuzzy
 msgid ""
 "You can gain a shell on the device using :doc:`/userguide/advanceduse/adb` "
 "or :doc:`/userguide/advanceduse/ssh`. Remount the root filesystem read-write "
 "to begin::"
 msgstr ""
-"Podeu obtenir un intèrpret d'ordres al dispositiu utilitzant :doc:./"
-"userguide/advanceduse/adb. o :doc:./userguide/advanceduse/ssh.. Torna a "
-"muntar la lectura-escriptura del sistema de fitxers arrel per a començar::"
+"Podeu obtenir un intèrpret d'ordres al dispositiu utilitzant :doc:`/"
+"userguide/advanceduse/adb` o :doc:`/userguide/advanceduse/ssh`. Torneu a "
+"muntar la lectura-escriptura del sistema de fitxers arrel per començar:"
 
 #: ../../systemdev/testing-locally.rst:341
-#, fuzzy
 msgid ""
 "Next, install all the packages needed to rebuild the component you want to "
 "modify (the Contacts app, in this example)::"
 msgstr ""
-"Podeu accedir amb ssh al dispositiu (via ``phable-shell``, per exemple) i a "
-"continuació instal·lar tots els paquets que calen per recompilar el "
+"A continuació instal·leu tots els paquets que calen per recompilar el "
 "component que voleu modificar (la aplicació Contactes, per exemple):"
 
 #: ../../systemdev/testing-locally.rst:347
-#, fuzzy
 msgid ""
 "Additionally, you probably want to install ``git`` in order to get your "
 "app's source code on the device and later push your changes back into the "
 "repository::"
 msgstr ""
-"Això instal·larà uns quants paquets al rootfs del vostre dispositiu. "
-"Addicionalment, probablement voleu instal·lar ``git``per obtenir el codi "
+"Addicionalment, probablement voleu instal·lar ``git`` per obtenir el codi "
 "font de la vostra aplicació al dispositiu i després tornar a pujar els "
 "vostres canvis al repositori:"
 
 #: ../../systemdev/testing-locally.rst:351
-#, fuzzy
 msgid ""
 "Once you're finished, you can retrieve the source for an app (in our "
 "example, the address book) and move into its directory::"
 msgstr ""
-"Un cop hagis acabat, pots recuperar la font d'una app (en el nostre exemple, "
-"la llibreta d'adreces) i passar al seu directori::"
+"Un cop hàgiu acabat, podeu recuperar la font d'una app (en el nostre "
+"exemple, la llibreta d'adreces) i passar al seu directori:"
 
 #: ../../systemdev/testing-locally.rst:356
 msgid "Now, you are ready to build the package::"
 msgstr "Ara ja podeu compilar el paquet:"
 
 #: ../../systemdev/testing-locally.rst:360
-#, fuzzy
 msgid ""
 "The ``dpkg-buildpackage`` command will print out the names of generated "
 "packages. Install those packages with ``dpkg``::"
 msgstr ""
-"i finalment, instal·lar-lo. L'ordre ``dpkg-buildpackage`` imprimirà la "
-"llista de paquets generats, i aquests són els noms dels fitxers que haureu "
-"de passar a l'ordre següent:"
+"L'ordre ``dpkg-buildpackage`` imprimirà els noms dels paquets generats. "
+"Instal·leu aquests paquets amb ``dpkg``:"
 
 #: ../../systemdev/testing-locally.rst:364
 msgid ""
@@ -16524,15 +16445,14 @@ msgstr ""
 "LG Nexus 5 (hammerhead), OnePlus One (bacon), o Fairphone 2 (FP2)."
 
 #: ../../systemdev/ubp-5.1.rst:9
-#, fuzzy
 msgid ""
 "We highly suggest that you follow the :doc:`Halium porting guide <../porting/"
 "introduction/index>` if you want to bring up a new device. The steps in here "
 "are only relevant for hammerhead, bacon and FP2."
 msgstr ""
-"Suggerim que seguiu la :doc:.guia de portatge d'Hàlium <../porting/"
-"introduction/index>. si voleu obrir un dispositiu nou. Els passos aquí només "
-"són rellevants per al cap de martell, la cansalada i la FP2."
+"Suggerim que seguiu la :doc:`guia de portatge d'Hàlium <../porting/"
+"introduction/index>` si voleu obrir un dispositiu nou. Els passos aquí només "
+"són rellevants per al hammerhead, bacon i FP2."
 
 #: ../../systemdev/ubp-5.1.rst:11
 msgid ""
@@ -16547,31 +16467,27 @@ msgid "Getting set up"
 msgstr "Obtenció dels registres"
 
 #: ../../systemdev/ubp-5.1.rst:16
-#, fuzzy
 msgid ""
 "``ubp-5.1`` ports must be built using Ubuntu 16.04. A container or virtual "
 "machine based on 16.04 is recommended for this purpose."
 msgstr ""
-"Els ports .ubp-5.1. s'han de construir utilitzant Ubuntu 16.04. Es recomana "
-"un contenidor o màquina virtual basat en el 16.04 per a aquest propòsit."
+"Els ports ``ubp-5.1`` s'han de construir utilitzant Ubuntu 16.04. Es "
+"recomana un contenidor o màquina virtual basat en el 16.04 per a aquest "
+"propòsit."
 
 #: ../../systemdev/ubp-5.1.rst:18
-#, fuzzy
 msgid "Let's get started by installing some build dependencies::"
-msgstr "Comencem instal·lant algunes dependències de construcció::"
+msgstr "Comencem instal·lant algunes dependències de construcció:"
 
 #: ../../systemdev/ubp-5.1.rst:24
-#, fuzzy
 msgid "Create a directory for your ``ubp-5.1`` source::"
-msgstr "Crea un directori per a la vostra font  aubp-5.1 a:"
+msgstr "Creeu un directori per a la vostra font ``ubp-5.1``:"
 
 #: ../../systemdev/ubp-5.1.rst:29
-#, fuzzy
 msgid "Next, we'll initialize the repository::"
-msgstr "A continuació, inicialitzarem el repositori::"
+msgstr "A continuació, inicialitzarem el repositori:"
 
 #: ../../systemdev/ubp-5.1.rst:35
-#, fuzzy
 msgid ""
 "The ``allthefixings`` branch is provided for convenience. It adds all of the "
 "current UT device ports to the tree at the expense of a bit more downloaded "
@@ -16579,59 +16495,53 @@ msgid ""
 "the manifest in `build-scripts <https://github.com/ubports/build-scripts>`__ "
 "to pick the repos you like."
 msgstr ""
-"La branca  Theallthefixings. està proveïda per comoditat. Afegeix tots els "
+"La branca ``allthefixings`` està proveïda per comoditat. Afegeix tots els "
 "ports actuals del dispositiu UT a l'arbre a costa d'una mica més de dades "
-"descarregades. Si sou sensibles a la baixada, inicialitzeu utilitzant ub-b "
-"ubp-5.1. i utilitzeu el manifest a .build-scripts <https://github.com/"
-"ubports/build-scripts>. per a triar els repositoris que us agraden."
+"descarregades. Si sou sensibles a la baixada, inicialitzeu utilitzant ``-b "
+"ubp-5.1`` i utilitzeu el manifest a `build-scripts <https://github.com/"
+"ubports/build-scripts>`__ per triar els repositoris que us agraden."
 
 #: ../../systemdev/ubp-5.1.rst:37
-#, fuzzy
 msgid "Finally, we'll download the source::"
-msgstr "Finalment, us baixarem la font::"
+msgstr "Finalment, baixarem la font:"
 
 #: ../../systemdev/ubp-5.1.rst:42
 msgid "Set up and build"
 msgstr "Configura i construeix"
 
 #: ../../systemdev/ubp-5.1.rst:44
-#, fuzzy
 msgid ""
 "With the sources downloaded, we need to set up our environment and build the "
 "images. Make sure you're in your ``ubp-5.1`` directory to continue through "
 "these steps."
 msgstr ""
 "Amb les fonts descarregades, necessitem configurar el nostre entorn i "
-"construir les imatges. Assegureu-vos que esteu en el vostre directori .ubp-"
-"5.1. per a continuar a través d'aquests passos."
+"construir les imatges. Assegureu-vos que esteu en el vostre directori ``ubp-"
+"5.1`` per a continuar a través d'aquests passos."
 
 #: ../../systemdev/ubp-5.1.rst:46
-#, fuzzy
 msgid "First, bring in the default Android build environment::"
-msgstr "Primer, porteu l'entorn de construcció per defecte d'Android::"
+msgstr "Primer, porteu l'entorn de construcció per defecte d'Android:"
 
 #: ../../systemdev/ubp-5.1.rst:50
-#, fuzzy
 msgid ""
 "Run ``lunch`` and pick the appropriate combo for your device. The name of "
 "the combination should start with ``cm_``, followed by the device name and "
 "ending with ``-userdebug``::"
 msgstr ""
-"Executeu .lunch. i trieu la combinació adequada per al vostre dispositiu. El "
-"nom de la combinació ha de començar amb  thecm,, seguit del nom del "
-"dispositiu i acabant amb  and-userdebug and::"
+"Executeu ``lunch`` i trieu la combinació adequada per al vostre dispositiu. "
+"El nom de la combinació ha de començar amb ``cm_``, seguit del nom del "
+"dispositiu i acabant amb ``-userdebug``:"
 
 #: ../../systemdev/ubp-5.1.rst:54
-#, fuzzy
 msgid "With that done, the build can be started::"
-msgstr "Amb això fet, es pot començar la construcció::"
+msgstr "Amb això fet, es pot començar la construcció:"
 
 #: ../../systemdev/ubp-5.1.rst:59
 msgid "Install the new image"
 msgstr "Instal·lació d'un paquet:"
 
 #: ../../systemdev/ubp-5.1.rst:61
-#, fuzzy
 msgid ""
 "Now that the build is complete, we can flash it to the device. Note that all "
 "of these commands should be run from a terminal which has been set up with "
@@ -16640,16 +16550,15 @@ msgid ""
 msgstr ""
 "Ara que la construcció està completa, podem fer-la passar pel dispositiu. "
 "Tingueu en compte que totes aquestes ordres s'han d'executar des d'un "
-"terminal que s'ha configurat amb .source build/envsetup.sh. i  andlunch. per "
-"assegurar que les eines necessàries estan en el vostre PATH."
+"terminal que s'ha configurat amb ``source build/envsetup.sh`` i ``lunch`` "
+"per assegurar que les eines necessàries estan en el vostre PATH."
 
 #: ../../systemdev/ubp-5.1.rst:63
-#, fuzzy
 msgid ""
 "We'll begin with the boot and recovery images. Boot your device into "
 "fastboot mode and run the following commands::"
 msgstr ""
-"Connecteu el dispositiu al vostre ordinador i executeu les ordres següents::"
+"Connecteu el dispositiu al vostre ordinador i executeu les ordres següents:"
 
 #: ../../systemdev/ubp-5.1.rst:69
 msgid ""
@@ -16661,23 +16570,21 @@ msgstr ""
 "per assegurar-vos que també funciona."
 
 #: ../../systemdev/ubp-5.1.rst:71
-#, fuzzy
 msgid ""
 "To install your new build of the system image, use the `replace-android-"
 "system script <https://github.com/janimo/phablet-porting-scripts/blob/"
 "68734ca07998b8e784397df77d9aca4b968b3815/build/replace-android-system>`_. It "
 "can be run as follows with your device attached::"
 msgstr ""
-"Per a instal·lar la nova construcció de la imatge del sistema, utilitzeu el  "
-"thescript de sistema de reemplaçament-android <https://github.com/janimo/"
-"phablet-porting-scripts/blob/68734ca07998b8e784397df77d9aca4b968b3815/build/"
-"replace-android-system>.. Es pot executar de la següent manera amb el vostre "
-"dispositiu connectat::"
+"Per a instal·lar la nova construcció de la imatge del sistema, utilitzeu el "
+"`script replace-android-system <https://github.com/janimo/phablet-porting-"
+"scripts/blob/68734ca07998b8e784397df77d9aca4b968b3815/build/replace-android-"
+"system>`_. Es pot executar de la següent manera amb el vostre dispositiu "
+"connectat:"
 
 #: ../../systemdev/uploading-changes.rst:2
-#, fuzzy
 msgid "Uploading and testing with ``ubports-qa``"
-msgstr "S'està pujant i provant amb  andubports-qa and"
+msgstr "Pujada i prova amb ``ubports-qa``"
 
 #: ../../systemdev/uploading-changes.rst:4
 msgid ""
@@ -16700,17 +16607,16 @@ msgstr ""
 "fer sol·licituds de Pull a GitHub."
 
 #: ../../systemdev/uploading-changes.rst:8
-#, fuzzy
 msgid ""
 "To use the `UBports build service`_, make sure you understand "
 "our :doc:`branch naming convention </about/process/branch-naming>`. It is "
 "required that you follow the convention for deb-packages for CI to build "
 "your package correctly."
 msgstr ""
-"Per a utilitzar el  theservei de construcció d'UBports., assegureu-vos "
-"d'entendre la nostra convenció de nomenclatura :doc:.branch </about/process/"
-"branch-naming>.. Es requereix que segueixis la convenció de paquets deb per "
-"a la IC per construir el teu paquet correctament."
+"Per a utilitzar el `servei de compilacio d'UBports`_, assegureu-vos "
+"d'entendre la nostra :doc:`convenció de nomenclatura </about/process/branch-"
+"naming>`. Es requereix que seguiu la convenció de paquets deb per a la IC "
+"per construir el vostre paquet correctament."
 
 #: ../../systemdev/uploading-changes.rst:11
 msgid "Fork the repository"
@@ -16747,7 +16653,6 @@ msgstr ""
 "desitjats."
 
 #: ../../systemdev/uploading-changes.rst:22
-#, fuzzy
 msgid ""
 "Before changing anything, make sure you have checked out the branch you want "
 "to work from (probably ``xenial``, assuming you are making changes for the "
@@ -16755,10 +16660,10 @@ msgid ""
 "convention </about/process/branch-naming>`."
 msgstr ""
 "Abans de canviar res, assegureu-vos d'haver comprovat la branca des de la "
-"qual voleu treballar (probablement ,xenial)., suposant que esteu fent canvis "
-"per a les imatges del telèfon). A continuació, creeu una branca nova que "
-"compleixi amb la :doc:.convenció de nomenclatura del ram </about/process/"
-"branch-naming>.."
+"qual voleu treballar (probablement ``xenial``, suposant que esteu fent "
+"canvis per a les imatges del telèfon). A continuació, creeu una branca nova "
+"que compleixi amb la :doc:`convenció de nomenclatura de les branques </about/"
+"process/branch-naming>`."
 
 #: ../../systemdev/uploading-changes.rst:24
 msgid ""
@@ -16778,12 +16683,10 @@ msgstr ""
 "vostres canvis, volem assegurar-nos que el vostre dispositiu els instal·larà."
 
 #: ../../systemdev/uploading-changes.rst:29
-#, fuzzy
 msgid "Update the ``debian/changelog`` file"
-msgstr "Actualitza el fitxer  thedebian/changelog the"
+msgstr "Actualitzeu el fitxer ``debian/changelog``"
 
 #: ../../systemdev/uploading-changes.rst:31
-#, fuzzy
 msgid ""
 "Generally, ``apt`` will not install a new package from any repository if it "
 "has a lower (or the same) version number as the package it replaces. Users "
@@ -16791,67 +16694,61 @@ msgid ""
 "package. For that reason, we will need to update the package changelog to "
 "add a new version."
 msgstr ""
-"Generalment, ,apt, no instal·larà un paquet nou des de cap repositori si té "
-"un número de versió inferior (o el mateix) que el paquet que reemplaça. Els "
-"usuaris també poden voler veure els canvis que s'inclouen en una nova versió "
-"d'un paquet. Per aquesta raó, haurem d'actualitzar el registre de canvis de "
-"paquets per afegir una nova versió."
+"Generalment, ``apt`` no instal·larà un paquet nou des de cap repositori si "
+"té un número de versió inferior (o el mateix) que el paquet que reemplaça. "
+"Els usuaris també poden voler veure els canvis que s'inclouen en una nova "
+"versió d'un paquet. Per aquesta raó, haurem d'actualitzar el registre de "
+"canvis de paquets per afegir una nova versió."
 
 #: ../../systemdev/uploading-changes.rst:35
-#, fuzzy
 msgid ""
 "This is not an exhaustive reference of the ``debian/changelog`` format. See "
 "`deb-changelog(5) <https://manpages.debian.org/testing/dpkg-dev/deb-"
 "changelog.5.en.html>`_ for more information."
 msgstr ""
-"Aquesta no és una referència exhaustiva del format  thedebian/changelog.. "
-"Vegeu .deb-changelog(5) <https://manpages.debian.org/testing/dpkg-dev/deb-"
-"changelog.5.en.html>. per a més informació."
+"Aquesta no és una referència exhaustiva del format ``debian/changelog``. "
+"Vegeu `deb-changelog(5) <https://manpages.debian.org/testing/dpkg-dev/deb-"
+"changelog.5.en.html>`_ per a més informació."
 
 #: ../../systemdev/uploading-changes.rst:38
 msgid "Determine a new version number"
 msgstr "Determina un número de versió nou"
 
 #: ../../systemdev/uploading-changes.rst:40
-#, fuzzy
 msgid ""
 "To start, figure out what the current version numbering for the package is::"
 msgstr ""
-"Per començar, esbrineu quina és la numeració de versió actual del paquet::"
+"Per començar, esbrineu quina és la numeració de versió actual del paquet:"
 
 #: ../../systemdev/uploading-changes.rst:44
-#, fuzzy
 msgid ""
 "This will return a few lines, but the first is the most important to us::"
 msgstr ""
 "Això ens retornarà algunes línies, però la primera és la més important per a "
-"nosaltres::"
+"nosaltres:"
 
 #: ../../systemdev/uploading-changes.rst:48
-#, fuzzy
 msgid ""
 "The part inside the parentheses ``(0.24+ubports2)`` is our version number. "
 "It consists of several parts:"
 msgstr ""
-"La part dins dels parèntesis  the(0,24+informes2). és el nostre número de "
+"La part dins dels parèntesis ``(0,24+informes2)`` és el nostre número de "
 "versió. Consta de diverses parts:"
 
 #: ../../systemdev/uploading-changes.rst:50
-#, fuzzy
 msgid ""
 "The ``0.24`` is the *upstream version number*, the version that the original "
 "project maintainers give to the release we are using. For most UBports "
 "projects, the repository you'll be working on is the original project code. "
 "This makes UBports the \"upstream\" of that project."
 msgstr ""
-"El 0.0.24. és el *número de versió d'upstream*, la versió que els "
+"El ``0.24`` és el *número de versió d'upstream*, la versió que els "
 "mantenidors del projecte original donen al llançament que estem utilitzant. "
 "Per a la majoria de projectes d'UBports, el repositori en el qual "
-"treballareu és el codi original del projecte. Això fa d'UBports el “stream” "
-"d'aquest projecte."
+"treballareu és el codi original del projecte. Això fa d'UBports el «upstream"
+"» d'aquest projecte."
 
 #: ../../systemdev/uploading-changes.rst:52
-#, fuzzy
 msgid ""
 "If you are making large changes to the repository and UBports is the "
 "upstream, you should increment the first part of the version number before "
@@ -16861,16 +16758,15 @@ msgstr ""
 "Si esteu fent grans canvis al repositori i UBports és la font, haureu "
 "d'incrementar la primera part del número de versió abans del més (+) i "
 "restablir el sufix de distribució. En el nostre exemple anterior, faries "
-"aquest nou número de versió::"
+"aquest nou número de versió:"
 
 #: ../../systemdev/uploading-changes.rst:56
-#, fuzzy
 msgid ""
 "If you are making changes only to the package build (files in the ``debian/"
 "`` folder), it is best to only increment the version suffix::"
 msgstr ""
-"Si esteu fent canvis només a la construcció del paquet (fitxers a la carpeta"
-"  thedebian/ the), el millor és augmentar només el sufix de versió::"
+"Si esteu fent canvis només a la construcció del paquet (fitxers a la carpeta "
+"``debian/``), el millor és augmentar només el sufix de versió:"
 
 #: ../../systemdev/uploading-changes.rst:62
 msgid ""
@@ -16885,53 +16781,47 @@ msgid "Write the changelog entry"
 msgstr "Escriu l'entrada del registre de canvis"
 
 #: ../../systemdev/uploading-changes.rst:67
-#, fuzzy
 msgid ""
 "Now it is time to write your changelog entry! Start with the following "
 "template::"
 msgstr ""
 "Ara és el moment d'escriure la vostra entrada de registre de canvis! Comença "
-"amb la següent plantilla::"
+"amb la següent plantilla:"
 
 #: ../../systemdev/uploading-changes.rst:75
-#, fuzzy
 msgid ""
 "If you open the ``debian/changelog`` file, you'll find that every entry "
 "follows this format. This helps everyone (including computers) read and "
 "understand the contents. This is used, for example, to name the output "
 "package correctly for every package version."
 msgstr ""
-"Si obriu el fitxer  thedebian/changelog., trobareu que cada entrada segueix "
+"Si obriu el fitxer ``debian/changelog``, trobareu que cada entrada segueix "
 "aquest format. Això ajuda a tothom (inclosos els ordinadors) a llegir i "
 "entendre els continguts. Això s'utilitza, per exemple, per anomenar el "
 "paquet de sortida correctament per a cada versió del paquet."
 
 #: ../../systemdev/uploading-changes.rst:77
-#, fuzzy
 msgid ""
 "Let's assume I, John Doe, am making a packaging change to the ``morph-"
 "browser`` package for Ubuntu Touch. I'll replace the different all-caps "
 "placeholders above in the following way:"
 msgstr ""
-"Suposem que jo, John Doe, estic fent un canvi d'embalatge al paquet  "
-"themorph-browser. per a Ubuntu Touch. Substituiré els diferents marcadors de "
+"Suposem que jo, John Doe, estic fent un canvi d'empaquetament al paquet "
+"``morph-browser`` per a Ubuntu Touch. Substituiré els diferents marcadors de "
 "posició de tots els caps anteriors de la següent manera:"
 
 #: ../../systemdev/uploading-changes.rst:79
-#, fuzzy
 msgid "PACKAGE-NAME is replaced with ``morph-browser``"
-msgstr "PACKAGE-NAME se substitueix per  withmorph-browser``"
+msgstr "PACKAGE-NAME se substitueix per ``morph-browser``"
 
 #: ../../systemdev/uploading-changes.rst:80
-#, fuzzy
 msgid "VERSION is replaced with ``0.24+ubports3`` (which we determined above)"
 msgstr ""
-"La VERSIÓ se substitueix per 0.0.24+ubports3) (que hem determinat més amunt)"
+"La VERSIÓ se substitueix per ``0.24+ubports3`` (que hem determinat més amunt)"
 
 #: ../../systemdev/uploading-changes.rst:81
-#, fuzzy
 msgid "DISTRIBUTION is replaced with ``xenial``"
-msgstr "la distribució se substitueix per  withxenial with"
+msgstr "La distribució se substitueix per ``xenial``"
 
 #: ../../systemdev/uploading-changes.rst:82
 msgid ""
@@ -16946,16 +16836,13 @@ msgstr ""
 "crearé diversos punts de bala."
 
 #: ../../systemdev/uploading-changes.rst:83
-#, fuzzy
 msgid "NAME is replaced with my name, ``John Doe``"
-msgstr "El nom se substitueix pel meu nom, ,John Doe,"
+msgstr "El nom se substitueix pel meu nom, ``John Doe``"
 
 #: ../../systemdev/uploading-changes.rst:84
-#, fuzzy
 msgid "EMAIL is replaced with my e-mail, ``john.doe@example.com``."
 msgstr ""
-"El correu electrònic es reemplaça amb el meu correu electrònic, "
-".john.doe.example.com.."
+"EMAIL es reemplaça amb el meu correu electrònic, ``john.doe.example.com``."
 
 #: ../../systemdev/uploading-changes.rst:88
 msgid ""
@@ -16966,7 +16853,6 @@ msgstr ""
 "per a les entrades de registre de canvis de paquets."
 
 #: ../../systemdev/uploading-changes.rst:90
-#, fuzzy
 msgid ""
 "DATETIME is replaced with the date and time I made this changelog entry in "
 "RFC2822/RFC5322 format. The easiest way to retrieve this is by running the "
@@ -16974,7 +16860,7 @@ msgid ""
 msgstr ""
 "DATETIME és reemplaçat per la data i l'hora en què vaig fer aquesta entrada "
 "de registre de canvis en format RFC2822/RFC5322. La manera més fàcil de "
-"recuperar això és executant l'ordre  thedate -R. en un terminal."
+"recuperar això és executant l'ordre ``date -R`` en un terminal."
 
 #: ../../systemdev/uploading-changes.rst:92
 msgid ""
@@ -16985,21 +16871,19 @@ msgstr ""
 "els 80 caràcters de longitud."
 
 #: ../../systemdev/uploading-changes.rst:94
-#, fuzzy
 msgid "With that, my new changelog entry follows::"
-msgstr "Amb això, la meva nova entrada de registre de canvis segueix::"
+msgstr "Amb això, la meva nova entrada de registre de canvis segueix:"
 
 #: ../../systemdev/uploading-changes.rst:104
-#, fuzzy
 msgid ""
 "Add your new changelog entry to the top of the ``debian/changelog`` file and "
 "commit it with the message \"Update changelog\". Push your changes. Now "
 "you're ready to make your Pull Request!"
 msgstr ""
 "Afegiu la vostra entrada nova al registre de canvis a la part superior del "
-"fitxer  thedebian/changelog\". i publiqueu-lo amb el missatge \"Actualitza "
-"el registre de canvis\". Prémer els canvis. Ara ja estàs a punt per fer la "
-"teva sol·licitud de Pull!"
+"fitxer ``debian/changelog`` i publiqueu-lo amb el missatge «Actualitza el "
+"registre de canvis». Pugeu els canvis. Ara ja esteua punt per fer la vostra "
+"sol·licitud de fusió."
 
 #: ../../systemdev/uploading-changes.rst:107
 msgid "Create your pull request"
@@ -17037,7 +16921,6 @@ msgstr ""
 "sol·licitud de pull."
 
 #: ../../systemdev/uploading-changes.rst:119
-#, fuzzy
 msgid ""
 "Give your pull request a descriptive title and description (include links to "
 "reference bugs or other material). Ensure that the \"base\" branch is the "
@@ -17046,9 +16929,9 @@ msgid ""
 msgstr ""
 "Doneu a la vostra sol·licitud un títol i una descripció descriptius "
 "(inclosos els enllaços a errors de referència o un altre material). "
-"Assegureu-vos que la branca \"base\" és la que voleu que s'apliquin els "
-"vostres canvis (probablement \".xenial\".), feu clic a \"Crea una "
-"sol·licitud d'extracció\"."
+"Assegureu-vos que la branca «base» és la que voleu que s'apliquin els "
+"vostres canvis (probablement ``xenial``), i a continuació feu clic a «Crea "
+"una sol·licitud de fusió»."
 
 #: ../../systemdev/uploading-changes.rst:121
 msgid ""
@@ -17084,37 +16967,33 @@ msgstr ""
 "muntatge."
 
 #: ../../systemdev/uploading-changes.rst:132
-#, fuzzy
 msgid ""
 "We'll use ``ubports-qa`` to install your changes. Take note of your pull "
 "request's ID (noted as ``#number`` after the title of the pull request) and "
 "follow these steps to install your changes:"
 msgstr ""
-"Utilitzarem .ubports-qa. per instal·lar els vostres canvis. Pren nota de "
-"l'ID de la teva sol·licitud de pull (anotat com a  thenumber the després del "
-"títol de la sol·licitud pull) i segueix aquests passos per instal·lar els "
-"teus canvis:"
+"Utilitzarem ``ubports-qa`` per instal·lar els vostres canvis. Preneu nota de "
+"l'ID de la vostra sol·licitud de fusió (anotat com a ``#number`` després del "
+"títol de la sol·licitud de fusió) i seguiu aquests passos per instal·lar els "
+"vostre canvis:"
 
 #: ../../systemdev/uploading-changes.rst:134
-#, fuzzy
 msgid ""
 "Ensure your device is running the newest version of Ubuntu Touch from the "
 "``devel`` channel."
 msgstr ""
 "Assegureu-vos que el vostre dispositiu estigui executant la versió més nova "
-"d'Ubuntu Touch des del canal  thedevel.."
+"d'Ubuntu Touch des del canal ``devel``."
 
 #: ../../systemdev/uploading-changes.rst:135
-#, fuzzy
 msgid ""
 "Get shell access to your device using :doc:`/userguide/advanceduse/adb` "
 "or :doc:`/userguide/advanceduse/ssh`."
 msgstr ""
-"Obteniu accés a l'intèrpret d'ordres al vostre dispositiu utilitzant :doc:./"
-"userguide/advanceduse/adb. o :doc:./userguide/advanceduse/ssh.."
+"Obteniu accés a l'intèrpret d'ordres al vostre dispositiu utilitzant :doc:`/"
+"userguide/advanceduse/adb` o :doc:`/userguide/advanceduse/ssh`."
 
 #: ../../systemdev/uploading-changes.rst:136
-#, fuzzy
 msgid ""
 "Run ``sudo ubports-qa install REPOSITORY PR``, replacing ``REPOSITORY`` with "
 "the name of the repository you have submitted a PR to and ``PR`` with the "
@@ -17122,27 +17001,25 @@ msgid ""
 "ubports-qa morph-browser 123`` to install the PR number 123 to morph-browser "
 "repo."
 msgstr ""
-"Executeu .sudo ubports-qa install REPOSITORY PR., substituint .REPOSITORY. "
-"pel nom del repositori al qual heu enviat un PR i  thePR. pel número de la "
-"vostra sol·licitud d'extracció sense el .. Per exemple, executeu .sudo "
-"ubports-qa morph-browser 123. per instal·lar el PR número 123 al repo morph-"
-"browser."
+"Executeu ``sudo ubports-qa install REPOSITORY PR``, substituint "
+"``REPOSITORY`` pel nom del repositori al qual heu enviat un PR i ``PR`` pel "
+"número de la vostra sol·licitud d'extracció sense el ``#``.  Per exemple, "
+"executeu ``sudo ubports-qa morph-browser 123`` per instal·lar el PR número "
+"123 al repo morph-browser."
 
 #: ../../systemdev/uploading-changes.rst:138
-#, fuzzy
 msgid ""
 "``ubports-qa`` will automatically add the repository containing your changed "
 "software and start the installation for you. All you will need to do is "
 "check the packages it asks you to install and say \"yes\" if they are "
 "correct."
 msgstr ""
-".ubports-qa. afegirà automàticament el repositori que conté el vostre "
-"programari canviat i iniciarà la instal·lació per a vós. Tot el que haureu "
-"de fer és comprovar els paquets que us demana que instal·leu i dir \"sí\" si "
-"són correctes."
+"``ubports-qa`` afegirà automàticament el repositori que conté el vostre "
+"programari canviat i us iniciarà la instal·lació. Tot el que haureu de fer "
+"és comprovar els paquets que us demana que instal·leu i dir «sí» si són "
+"correctes."
 
 #: ../../systemdev/uploading-changes.rst:140
-#, fuzzy
 msgid ""
 "If ``ubports-qa`` fails to install your packages, run it again with the ``-"
 "v`` flag (for example, ``ubports-qa -v install ...``). If it still fails, "
@@ -17150,25 +17027,24 @@ msgid ""
 "command) to `Ubuntu Pastebin <https://paste.ubuntu.com/>`_ and contact us "
 "for help."
 msgstr ""
-"Si  theubports-qa to no instal·la els vostres paquets, executeu-lo de nou "
-"amb l'indicador  the-v the (per exemple, ,ubports-qa -v install ...).). Si "
-"encara falla, envieu tot el registre (a partir de la  the$. abans de l'ordre"
-"  theubports-qa.) a UbuntuUbuntu Pastebin <https://paste.ubuntu.com/>. i "
-"contacteu amb nosaltres per obtenir ajuda."
+"Si  ``ubports-qa`` no instal·la els vostres paquets, executeu-lo de nou amb "
+"l'indicador ``-v`` (per exemple, ``ubports-qa -v install ...``.). Si encara "
+"falla, envieu tot el registre (a partir de la ``$`` abans de l'ordre "
+"``ubports-qa`` a `Ubuntu Pastebin <https://paste.ubuntu.com/>`_ i contacteu "
+"amb nosaltres per obtenir ajuda."
 
 #: ../../systemdev/uploading-changes.rst:142
-#, fuzzy
 msgid ""
 "Once ``ubports-qa`` is finished, test your changes to ensure they have fixed "
 "the original bug. Add the ``ubports-qa`` command to your pull request, then "
 "send the link to the pull request to other developers and testers so they "
 "may also test your changes."
 msgstr ""
-"Un cop finalitzat ,ubports-qa., proveu els vostres canvis per assegurar-vos "
-"que han corregit l'error original. Afegiu l'ordre  theubports-qa. a la "
-"vostra sol·licitud de pull, després envieu l'enllaç a la sol·licitud pull a "
-"altres desenvolupadors i provadors perquè també puguin provar els vostres "
-"canvis."
+"Un cop finalitzat ``ubports-qa``, proveu els vostres canvis per assegurar-"
+"vos que han corregit l'error original. Afegiu l'ordre ``ubports-qa`` a la "
+"vostra sol·licitud de fusió, després envieu l'enllaç a la sol·licitud de "
+"fusió a altres desenvolupadors i provadors perquè també puguin provar els "
+"vostres canvis."
 
 #: ../../systemdev/uploading-changes.rst:144
 msgid ""
@@ -17182,14 +17058,13 @@ msgstr ""
 "codi."
 
 #: ../../systemdev/uploading-changes.rst:146
-#, fuzzy
 msgid ""
 "Every time you make a change and push it to GitHub, it will trigger a new "
 "build. You can run ``sudo ubports-qa update`` to get the freshest changes "
 "every time this happens."
 msgstr ""
 "Cada vegada que feu un canvi i l'empenyeu a GitHub, s'activarà una nova "
-"construcció. Podeu executar .sudo ubports-qa update. per a obtenir els "
+"construcció. Podeu executar ``sudo ubports-qa update`` per obtenir els "
 "canvis més recents cada vegada que això succeeixi."
 
 #: ../../systemdev/uploading-changes.rst:149
@@ -17233,19 +17108,16 @@ msgid "First, you'll need ADB installed on your computer."
 msgstr "En primer lloc, us caldrà instal·lar l'ADB al vostre ordinador."
 
 #: ../../userguide/advanceduse/adb.rst:12
-#, fuzzy
 msgid "On Ubuntu::"
-msgstr "A l'Ubuntu::"
+msgstr "A l'Ubuntu:"
 
 #: ../../userguide/advanceduse/adb.rst:16
-#, fuzzy
 msgid "On Fedora::"
-msgstr "Al Fedora::"
+msgstr "Al Fedora:"
 
 #: ../../userguide/advanceduse/adb.rst:20
-#, fuzzy
 msgid "And on macOS with `Homebrew <https://brew.sh>`_::"
-msgstr "I al  MacOS amb `Homebrew <https://brew.sh>`_::"
+msgstr "I al  MacOS amb `Homebrew <https://brew.sh>`_:"
 
 #: ../../userguide/advanceduse/adb.rst:24
 msgid ""
@@ -17329,29 +17201,26 @@ msgstr ""
 "futur."
 
 #: ../../userguide/advanceduse/adb.rst:54
-#, fuzzy
 msgid ""
 "If you're bringing up a port and you require ADB access before the UI is "
 "available, you can disable this protection by editing ``/etc/default/adbd`` "
 "and change ``ADBD_SECURE=1`` to ``ADBD_SECURE=0``."
 msgstr ""
 "Si obriu un port i necessiteu accés ADB abans que la IU estigui disponible, "
-"podeu desactivar aquesta protecció editant ./etc/default/adbd. i canviant "
-".ADBDSECURE.1. a .ADBDSECURE.0.."
+"podeu desactivar aquesta protecció editant ``/etc/default/adbd`` i canviant "
+"``ADBD_SECURE=1`` a ``ADBD_SECURE=0``."
 
 #: ../../userguide/advanceduse/adb.rst:57
 msgid "Frequently used ADB commands"
 msgstr "Ordres ADB utilitzades amb freqüència"
 
 #: ../../userguide/advanceduse/adb.rst:59
-#, fuzzy
 msgid "ADB shell commands::"
-msgstr "Ordres de l'intèrpret d'ordres ADB::"
+msgstr "Ordres de l'intèrpret d'ordres ADB:"
 
 #: ../../userguide/advanceduse/adb.rst:64
-#, fuzzy
 msgid "Additional Adb commands::"
-msgstr "Ordres addicionals de l'Adb::"
+msgstr "Ordres addicionals de l'Adb:"
 
 #: ../../userguide/advanceduse/adb.rst:69
 msgid ""
@@ -17385,14 +17254,12 @@ msgstr ""
 "intentàveu executar inicialment."
 
 #: ../../userguide/advanceduse/adb.rst:78
-#, fuzzy
 msgid "Fairphone 2::"
-msgstr "Fairphone 2::"
+msgstr "Fairphone 2:"
 
 #: ../../userguide/advanceduse/adb.rst:82
-#, fuzzy
 msgid "OnePlus One::"
-msgstr "Oneplus One::"
+msgstr "Oneplus One:"
 
 #: ../../userguide/advanceduse/dav.rst:2
 msgid "CalDAV and CardDAV syncing"
@@ -17408,18 +17275,17 @@ msgstr ""
 "d'una interficia CalDAV o CardDAV."
 
 #: ../../userguide/advanceduse/dav.rst:7
-#, fuzzy
 msgid ""
 "CalDAV sync can be set up by using the calendar app. Open it, click on the "
 "little calendar icon in the top right corner and select \"Add internet "
 "calendar > Generic CalDAV\". Enter your calendar URL as well as your "
 "username and password to complete the process."
 msgstr ""
-"**Nota:** La sincronització CalDAV també es pot establir usant l'aplicació "
-"de calendari. Obriu l'aplicació, cliqueu sobre la icona petita de calendari "
-"al racó superior dret i trieu «Afegeix un calendari d'Internet > CalDAV "
-"genèric». Entreu l'URL del vostre calendari així com el vostre nom d'usuari "
-"i la contrasenya per completar el procés."
+"La sincronització CalDAV es pot establir usant l'aplicació de calendari. "
+"Obriu l'aplicació, cliqueu sobre la icona petita de calendari al racó "
+"superior dret i trieu «Afegeix un calendari d'Internet > CalDAV genèric». "
+"Entreu l'URL del vostre calendari així com el vostre nom d'usuari i la "
+"contrasenya per completar el procés."
 
 #: ../../userguide/advanceduse/dav.rst:11
 msgid ""
@@ -17481,14 +17347,12 @@ msgstr ""
 "variables següents:"
 
 #: ../../userguide/advanceduse/dav.rst:26
-#, fuzzy
 msgid "``CAL_URL``"
-msgstr "CALURL``"
+msgstr "``CAL_URL``"
 
 #: ../../userguide/advanceduse/dav.rst:27
-#, fuzzy
 msgid "``CONTACTS_URL``"
-msgstr "CONTACTSURL``"
+msgstr "``CONTACTS_URL``"
 
 #: ../../userguide/advanceduse/dav.rst:28
 msgid "``USERNAME``"
@@ -17499,47 +17363,41 @@ msgid "``PASSWORD``"
 msgstr "``PASSWORD``"
 
 #: ../../userguide/advanceduse/dav.rst:30
-#, fuzzy
 msgid "``CONTACT_NAME``"
-msgstr "NOMCONTACTE"
+msgstr "``CONTACT_NAME``"
 
 #: ../../userguide/advanceduse/dav.rst:31
-#, fuzzy
 msgid "``CALENDAR_NAME``"
-msgstr "NOMCALENDARI"
+msgstr "``CALENDAR_NAME``"
 
 #: ../../userguide/advanceduse/dav.rst:32
 msgid "``VISUAL_NAME``"
 msgstr "``VISUALNAME``"
 
 #: ../../userguide/advanceduse/dav.rst:33
-#, fuzzy
 msgid "``CONFIG_NAME``"
-msgstr "NOM DE CONFIGURACIÓ"
+msgstr "``CONFIG_NAME``"
 
 #: ../../userguide/advanceduse/dav.rst:34
-#, fuzzy
 msgid "``CRON_FREQUENCY``"
-msgstr "FREQÜÈNCIACRON``"
+msgstr "``CRON_FREQUENCY``"
 
 #: ../../userguide/advanceduse/dav.rst:36
-#, fuzzy
 msgid ""
 "Move the file to your Ubuntu Touch device, either by way of a file manager "
 "or through the use of ADB::"
 msgstr ""
 "Moveu el fitxer al vostre dispositiu Ubuntu Touch, bé amb el gestor de "
-"fitxers o bé amb l'adb::"
+"fitxers o bé amb l'ADB:"
 
 #: ../../userguide/advanceduse/dav.rst:40
 #: ../../userguide/advanceduse/dav.rst:67
-#, fuzzy
 msgid ""
 "Connect with the phablet shell (using ``adb shell``) or type the following "
 "directly into the Ubuntu Touch device terminal app::"
 msgstr ""
 "Connecteu-vos amb la consola de la phablet (``adb shell``) o directament am "
-"l'aplicació de terminal del telèfon, i entreu el següent::"
+"l'aplicació de terminal del telèfon, i entreu el següent:"
 
 #: ../../userguide/advanceduse/dav.rst:47
 msgid ""
@@ -17564,27 +17422,24 @@ msgstr ""
 "UTouchCalDAVandCardDAVsynchronization> the"
 
 #: ../../userguide/advanceduse/dav.rst:53
-#, fuzzy
 msgid "Download the script and config files::"
-msgstr "Descarrega l'script i els fitxers de configuració::"
+msgstr "Descarregueu l'script i els fitxers de configuració:"
 
 #: ../../userguide/advanceduse/dav.rst:58
-#, fuzzy
 msgid ""
 "Edit the config file as explained in the `instructions <https://github.com/"
 "UT-ilities/UTouch_CalDAV_and_CardDAV_synchronization>`_::"
 msgstr ""
-"Edita el fitxer de configuració tal com s'explica a les  theinstruccions "
-"<https://github.com/UT-ilities/UTouchCalDAVandCardDAVsynchronization> the::"
+"Editeu el fitxer de configuració tal com s'explica a les `instruccions "
+"<https://github.com/UT-ilities/UTouchCalDAVandCardDAVsynchronization>`_:"
 
 #: ../../userguide/advanceduse/dav.rst:63
-#, fuzzy
 msgid ""
 "Move the files to your Ubuntu Touch device, either by way of a file manager "
 "or through the use of ADB::"
 msgstr ""
 "Moveu el fitxer al vostre dispositiu Ubuntu Touch, bé amb el gestor de "
-"fitxers o bé amb l'adb::"
+"fitxers o bé amb l'ADB:"
 
 #: ../../userguide/advanceduse/dav.rst:74
 msgid "Sources:"
@@ -17659,116 +17514,102 @@ msgid "Steps to Set Up Reverse Tethering"
 msgstr "Punt d'accés invers a la xarxa"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:10
-#, fuzzy
 msgid "Prepare your *device* (Ubuntu Touch) and your *computer* (Linux):"
-msgstr "Exportació de la pantalla del vostre dispositiu UT a l'ordinador"
+msgstr ""
+"Prepareu el vostre *dispositiu* (Ubuntu Touch) i el vostre *ordinador* "
+"(Linux):"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:12
 msgid "Connect your *computer* to the internet."
 msgstr "Connecteu el vostre *ordinador* a Internet."
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:13
-#, fuzzy
 msgid "Attach your *device* to your *computer* via USB."
-msgstr "Exportació de la pantalla del vostre dispositiu UT a l'ordinador"
+msgstr "Adjunteu el vostre *dispositiu* al vostre *ordindaor* via USB."
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:14
 msgid "Turn off Wifi and Data on your *device*"
 msgstr "Apaga el Wifi i les dades al teu *dispositiu*"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:15
-#, fuzzy
 msgid ""
 "Set your device :doc:`usb in tethering mode </userguide/dailyuse/tethering>`"
 msgstr ""
-"Establiu el vostre dispositiu :doc: usb en mode tethering </userguide/"
-"dailyuse/tethering>"
+"Establiu el vostre dispositiu :doc:`usb en mode tethering </userguide/"
+"dailyuse/tethering>`"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:17
 msgid "Run the following commands on your *device*:"
 msgstr "Executeu les següents ordres al vostre *dispositiu*:"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:19
-#, fuzzy
 msgid ""
 "Bring your tethering connection down: ``sudo nmcli connection down "
 "tethering``"
-msgstr "Baixa la connexió de tethering: :sudo nmcli connection down tethering``"
+msgstr ""
+"Desactiveu la connexió de tethering: ``sudo nmcli connection down tethering``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:20
-#, fuzzy
 msgid ""
 "Modify your tethering connection: ``sudo nmcli connection modify tethering "
 "ipv4.method auto``"
 msgstr ""
-"Modifiqueu la vostra connexió de tethering: :sudo nmcli connection modify "
-"tethering ipv4.method auto:"
+"Modifiqueu la vostra connexió de tethering: ``sudo nmcli connection modify "
+"tethering ipv4.method auto``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:22
 msgid "Run the following commands on your *computer*:"
 msgstr "Executeu les següents ordres al vostre *ordinador*:"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:24
-#, fuzzy
 msgid "Get your interface name: ``ip route show to default via 10.42.0.1`` ::"
 msgstr ""
-"Obteniu el nom de la interfície: :Visualització de la ruta IP per defecte a "
-"través de 10.42.0.1  ::"
+"Obteniu el nom de la interfície: ``ip route show to default via 10.42.0.1`` :"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:29
-#, fuzzy
 msgid "Your interface name is: ``enx122626d0fe26``"
-msgstr "El vostre nom d'interfície és: :enx122626d0fe26``"
+msgstr "El vostre nom d'interfície és: ``enx122626d0fe26``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:30
-#, fuzzy
 msgid ""
 "Get your connection name: ``nmcli --field GENERAL.CONNECTION device show "
 "enx122626d0fe26`` ::"
 msgstr ""
-"Obteniu el nom de la connexió: :nmcli --field GENERAL.El dispositiu de "
-"connexió mostra enx122626d0fe26  ::"
+"Obteniu el nom de la connexió: ``nmcli --field GENERAL.El dispositiu de "
+"connexió mostra enx122626d0fe26``:"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:35
-#, fuzzy
 msgid "Your connection name is ``Wired connection 2``"
-msgstr "El vostre nom de connexió és  isConnexió incorrecta 2``"
+msgstr "El vostre nom de connexió és ``Wired connection 2``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:36
-#, fuzzy
 msgid ""
 "Bring the connection down: ``nmcli connection down \"Wired connection 2\"``"
-msgstr "Baixa la connexió:  thenmcli baixa la connexió «Connexió girada 2»\""
+msgstr ""
+"Desactiveu la connexió: ``nmcli connection down \"Wired connection 2\"``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:37
-#, fuzzy
 msgid ""
 "Change the ipv4 method to ``shared``: ``nmcli connection modify \"Wired "
 "connection 2\" ipv4.method shared``"
 msgstr ""
-"Canvia el mètode ipv4 a  theshared the:  thenmcli modifica la connexió "
-"\"Connexió girada 2\" ipv4.method shared the"
+"Canvieu el mètode ipv4 a ``shared``: ``nmcli connection modify \"Wired "
+"connection 2\" ipv4.method shared``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:38
-#, fuzzy
 msgid ""
 "Bring the connection back up: ``nmcli connection up \"Wired connection 2\"``"
-msgstr ""
-"Porta la còpia de seguretat de la connexió:  thenmcli connectant \"Connexió "
-"girada 2\"\""
+msgstr "Activeu la connexió: ``nmcli connection up \"Wired connection 2\"``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:40
 msgid "Finally run the following command on your *device*:"
 msgstr "Finalment executeu la següent ordre al vostre *dispositiu*:"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:42
-#, fuzzy
 msgid ""
 "Bring your tethering connection back up: ``sudo nmcli connection up "
 "tethering``"
-msgstr ""
-"Feu una còpia de seguretat de la vostra connexió de tetera: :sudo nmcli "
-"connection up tethering``"
+msgstr "Activa la connexió de tethering: ``sudo nmcli connection up tethering``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:44
 msgid "You should now have a working internet connection on your *device*!"
@@ -17795,25 +17636,22 @@ msgstr ""
 "habiliteu el reenviament: ``echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:52
-#, fuzzy
 msgid "Apply forwarding iptables Rule: ``sudo iptables -P FORWARD ACCEPT``"
 msgstr ""
-"Aplica la regla «iptables» de reenviament: :sudo iptables -P FORWARD ACCEPT``"
+"Aplica la regla «iptables» de reenviament: ``sudo iptables -P FORWARD "
+"ACCEPT``"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:57
-#, fuzzy
 msgid "`Ask Ubuntu`_"
-msgstr "Pregunta Ubuntu`"
+msgstr "`Ask Ubuntu`_"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:58
-#, fuzzy
 msgid "RidgeRun_"
-msgstr "RidgeRun"
+msgstr "RidgeRun_"
 
 #: ../../userguide/advanceduse/reverse-tethering.rst:59
-#, fuzzy
 msgid "`Fedora Magazine`_"
-msgstr "Fedora Magazine`"
+msgstr "`Fedora Magazine`_"
 
 #: ../../userguide/advanceduse/screencasting.rst:2
 msgid "Screencasting your Ubuntu touch device to your computer"
@@ -17836,13 +17674,12 @@ msgid "Using ADB"
 msgstr "Ús d'adb"
 
 #: ../../userguide/advanceduse/screencasting.rst:10
-#, fuzzy
 msgid ""
 "You can catch output directly from the ``adb exec-out`` command and forward "
 "it to MPlayer::"
 msgstr ""
 "Podeu capturar la sortida directament de l'ordre ``adb exec-out`` i enviar-"
-"la al mplayer::"
+"la al MPlayer:"
 
 #: ../../userguide/advanceduse/screencasting.rst:14
 msgid ""
@@ -17872,54 +17709,50 @@ msgid "For real-time casting:"
 msgstr "Per emissió en temps real:"
 
 #: ../../userguide/advanceduse/screencasting.rst:29
-#, fuzzy
 msgid ""
 "Prepare your computer to listen to a TCP port (1234 here) and forward the "
 "raw stream to a video player (MPlayer here) with a framesize of 384x640::"
 msgstr ""
-"Prepareu el vostre ordinador per escoltar a un port tcp (aquí 1234) i "
-"reenviar l'emissió en brut a un reproductor de vídeo (aquí el mplayer) amb "
-"una mida de marcs de 384x640::"
+"Prepareu el vostre ordinador per escoltar a un port TCP (aquí 1234) i "
+"reenviar l'emissió en brut a un reproductor de vídeo (aquí el MPlayer) amb "
+"una mida de marcs de 384x640:"
 
 #: ../../userguide/advanceduse/screencasting.rst:33
 msgid "For stream recording:"
 msgstr "Per a la gravació de la transmissió:"
 
 #: ../../userguide/advanceduse/screencasting.rst:35
-#, fuzzy
 msgid ""
 "Prepare your computer to listen to a TCP port (1234 here), unpack and "
 "forward the raw stream to a video encoder (MEncoder here)::"
 msgstr ""
-"Prepareu el vostre ordinador per escoltar al port tcp (aquí 1234), "
-"descomprimir amb el ungzip i reenviar l'emissió en brut a un codificador de "
-"vídeo (el mencoder en aquest cas)::"
+"Prepareu el vostre ordinador per escoltar al port TCP (aquí 1234), "
+"descomprimir i reenviar l'emissió en brut a un codificador de vídeo (el "
+"MEncoder en aquest cas):"
 
 #: ../../userguide/advanceduse/screencasting.rst:40
 msgid "On the Ubuntu Touch device"
 msgstr "Instal·lació de l'Ubuntu Touch"
 
 #: ../../userguide/advanceduse/screencasting.rst:42
-#, fuzzy
 msgid ""
 "Forward and gzip the stream with 60 FPS (--cap-interval 1) and a framesize "
 "of 384x640 to the computer at 10.42.0.209 on port 1234::"
 msgstr ""
-"Envieu i comprimiu amb gzip amb 60fps(--cap-interval 1) i mida de marc de "
-"384x640 al ordinador 10.42.0.209 al port 1234::"
+"Envieu i comprimiu amb gzip amb 60 FPS (--cap-interval 1) i mida de marc de "
+"384x640 a l'ordinador 10.42.0.209 al port 1234:"
 
 #: ../../userguide/advanceduse/screencasting.rst:48
 msgid "Example script"
 msgstr "Script d'exemple"
 
 #: ../../userguide/advanceduse/screencasting.rst:50
-#, fuzzy
 msgid ""
 "Run this on a computer (with MPlayer installed and SSH access to the Ubuntu "
 "Touch device) to screencast a remote Ubuntu Touch device to it.::"
 msgstr ""
 "Executeu-ho en un ordinador (amb MPlayer instal·lat i accés SSH al "
-"dispositiu Ubuntu Touch) per projectar-hi un dispositiu Ubuntu Touch remot.::"
+"dispositiu Ubuntu Touch) per projectar-hi un dispositiu Ubuntu Touch remot.:"
 
 #: ../../userguide/advanceduse/screencasting.rst:71
 msgid "You can download it here: :download:`files/mircast.sh`"
@@ -17958,7 +17791,6 @@ msgid "Create your public key"
 msgstr "Creeu la vostra clau pública"
 
 #: ../../userguide/advanceduse/ssh.rst:11
-#, fuzzy
 msgid ""
 "If not already created, create your public key. Default choices should be "
 "fine for LAN. You can leave empty password if you don't want to deal with it "
@@ -17966,7 +17798,7 @@ msgid ""
 msgstr ""
 "Si ja no l'heu creada, creeu la vostra clau pública, les opcions "
 "predeterminades són adequades per a la xarxa d'àrea local, podeu deixar la "
-"contrasenya buida si no voleu haver d'entrar-la cada cop::"
+"contrasenya buida si no voleu haver d'entrar-la cada cop:"
 
 #: ../../userguide/advanceduse/ssh.rst:16
 msgid "Copy the public key to your device"
@@ -17997,21 +17829,19 @@ msgstr ""
 "carregant-la al vostre emmagatzemament de núvol, o servidor web, etc."
 
 #: ../../userguide/advanceduse/ssh.rst:22
-#, fuzzy
 msgid ""
 "You can also connect via :doc:`adb <adb>` and use the following command to "
 "copy it (Some devices cant support ADB, check the devices page to learn "
 "more.)::"
 msgstr ""
-"Podeu connectar també via :doc:`adb  <adb>` i usar l'ordre següent per "
-"copiar-la::"
+"Podeu connectar també via :doc:`adb <adb>` i usar l'ordre següent per copiar-"
+"la:"
 
 #: ../../userguide/advanceduse/ssh.rst:27
 msgid "Configure your device"
 msgstr "Configureu el vostre dispositiu"
 
 #: ../../userguide/advanceduse/ssh.rst:29
-#, fuzzy
 msgid ""
 "Now you have the public key on the UBports device. Let's assume it's stored "
 "as ``/home/phablet/id_rsa.pub``. Use the terminal app or an ADB connection "
@@ -18019,44 +17849,39 @@ msgid ""
 msgstr ""
 "Ara teniu la vostra clau pública al dispositiu UBports. Suposem que està "
 "desada com ``/home/phablet/id_rsa.pub``. Useu l'aplicació de terminal o la "
-"connexió adb per realitzar els passos següents al vostre telefon.::"
+"connexió ADB per realitzar els passos següents al vostre telèfon.:"
 
 #: ../../userguide/advanceduse/ssh.rst:38
-#, fuzzy
 msgid "Now start the SSH server::"
-msgstr "Inicieu ara el servidor ssh::"
+msgstr "Inicieu ara el servidor SSH:"
 
 #: ../../userguide/advanceduse/ssh.rst:44
 msgid "Connect"
 msgstr "Connecteu"
 
 #: ../../userguide/advanceduse/ssh.rst:46
-#, fuzzy
 msgid "Now everything is set up and you can use ``ssh`` ::"
-msgstr "Ara tot està configurat i podeu usar ``ssh`` ::"
+msgstr "Ara tot està configurat i podeu usar ``ssh`` :"
 
 #: ../../userguide/advanceduse/ssh.rst:50
-#, fuzzy
 msgid "or, if that does not work ::"
-msgstr "o, si això no funciona ::"
+msgstr "o, si això no funciona :"
 
 #: ../../userguide/advanceduse/ssh.rst:54
-#, fuzzy
 msgid ""
 "To identify the IP-address of your UBports device, open the Terminal app on "
 "your device and run the following command::"
 msgstr ""
-"Connecteu el dispositiu al vostre ordinador i executeu les ordres següents::"
+"Connecteu el dispositiu al vostre ordinador i executeu les ordres següents:"
 
 #: ../../userguide/advanceduse/ssh.rst:58
-#, fuzzy
 msgid ""
 "The output is a list of IP addresses separated by spaces. Use the IP address "
 "that matches your subnet. On your PC or laptop: ::"
 msgstr ""
 "La sortida és una llista d'adreces IP separades per espais. Utilitzeu "
 "l'adreça IP que coincideixi amb la vostra subxarxa. Al vostre ordinador o "
-"ordinador portàtil: ::"
+"ordinador portàtil: :"
 
 #: ../../userguide/advanceduse/ssh.rst:64
 msgid "On the phone: ::"
@@ -18067,49 +17892,41 @@ msgid "In this case you use the second IP address"
 msgstr "En aquest cas s'utilitza la segona adreça IP"
 
 #: ../../userguide/advanceduse/ssh.rst:71
-#, fuzzy
 msgid "Of course you can now also use ``scp`` or ``sshfs`` to transfer files."
 msgstr ""
-"Per suposat que podeu usar també ``scp`` o ``sshfs``per transferir fitxers."
+"Per suposat que podeu usar també ``scp`` o ``sshfs`` per transferir fitxers."
 
 #: ../../userguide/advanceduse/ssh.rst:74
 msgid "Configuration"
 msgstr "ubicació"
 
 #: ../../userguide/advanceduse/ssh.rst:76
-#, fuzzy
 msgid "you can enable ssh on boot by running the following command::"
-msgstr "podeu activar ssh en arrencar executant la següent ordre::"
+msgstr "podeu activar ssh en arrencar executant la següent ordre:"
 
 #: ../../userguide/advanceduse/ssh.rst:80
-#, fuzzy
 msgid "you can edit the port ssh is listening on with the following command::"
-msgstr "Podeu editar el port que ssh està escoltant amb la següent ordre::"
+msgstr "Podeu editar el port que ssh està escoltant amb la següent ordre:"
 
 #: ../../userguide/advanceduse/ssh.rst:84
-#, fuzzy
 msgid "then add the following text::"
-msgstr "a continuació, afegeix el text següent::"
+msgstr "a continuació, afegiu el text següent:"
 
 #: ../../userguide/advanceduse/ssh.rst:93
-#, fuzzy
 msgid "If connecting fails with the message ::"
-msgstr "Si la connexió falla amb el missatge ::"
+msgstr "Si la connexió falla amb el missatge :"
 
 #: ../../userguide/advanceduse/ssh.rst:97
-#, fuzzy
 msgid "check the log on the UBports device ::"
-msgstr "comprova el registre al dispositiu UBports ::"
+msgstr "comproveu el registre al dispositiu UBports :"
 
 #: ../../userguide/advanceduse/ssh.rst:101
-#, fuzzy
 msgid "If you see a message about missing hostkeys such as ::"
-msgstr "Si veieu un missatge sobre les claus d'amfitrió que falten, com ara ::"
+msgstr "Si veieu un missatge sobre les claus d'amfitrió que falten, com ara :"
 
 #: ../../userguide/advanceduse/ssh.rst:105
-#, fuzzy
 msgid "You need to generate host keys with the following command ::"
-msgstr "Heu de generar les claus d'amfitrió amb la següent ordre ::"
+msgstr "Heu de generar les claus d'amfitrió amb la següent ordre :"
 
 #: ../../userguide/advanceduse/ssh.rst:112
 msgid ""
@@ -18136,7 +17953,6 @@ msgid "Switch release channels"
 msgstr "Commutació dels canals d'alliberament"
 
 #: ../../userguide/advanceduse/switchchannel.rst:3
-#, fuzzy
 msgid ""
 "You can change the release channel using the system settings. The 3 existing "
 "channels are `stable`, `rc` (release candidate) and `devel` (nightly "
@@ -18144,9 +17960,9 @@ msgid ""
 "schedule>`."
 msgstr ""
 "Podeu canviar el canal de llançament utilitzant la configuració del sistema. "
-"Els 3 canals existents són ,stable,, ,rc). (candidat de llançament) i  "
-"anddevel). (construccions nocturnes). Més informació a :doc:.la planificació "
-"de llançament </about/process/release-schedule>.."
+"Els 3 canals existents són `stable`, `rc` (candidat de llançament) i `devel` "
+"(compilacions nocturnes). Més informació a :doc:`la planificació de "
+"llançament </about/process/release-schedule>`."
 
 #: ../../userguide/dailyuse/index.rst:2
 msgid "Daily use"
@@ -18220,11 +18036,10 @@ msgid "Create a container"
 msgstr "Creació d'un contenidor"
 
 #: ../../userguide/dailyuse/libertine.rst:22
-#, fuzzy
 msgid ""
 "The first step is to create a container where applications can be installed:"
 msgstr ""
-"El primer pas és crear un contenidor on es puguin instal·lar aplicacions::"
+"El primer pas és crear un contenidor on es puguin instal·lar aplicacions:"
 
 #: ../../userguide/dailyuse/libertine.rst:24
 msgid ""
@@ -18254,9 +18069,8 @@ msgstr ""
 "tocant \"D'acord\", i es crearà el contenidor."
 
 #: ../../userguide/dailyuse/libertine.rst:33
-#, fuzzy
 msgid "To do this via the command-line::"
-msgstr "Per a fer-ho a través de la línia d'ordres::"
+msgstr "Per a fer-ho a través de la línia d'ordres:"
 
 #: ../../userguide/dailyuse/libertine.rst:37
 msgid "You can add extra options such as:"
@@ -18277,9 +18091,8 @@ msgstr ""
 "vostre dispositiu li dóna suport aleshores se suggereix ``lxc``."
 
 #: ../../userguide/dailyuse/libertine.rst:42
-#, fuzzy
 msgid "If the kernel of your device supports it, ``lxc`` is suggested."
-msgstr "Si el nucli del vostre dispositiu és compatible, se suggereix ,lxc.."
+msgstr "Si el nucli del vostre dispositiu és compatible, se suggereix ``lxc``."
 
 #: ../../userguide/dailyuse/libertine.rst:44
 msgid ""
@@ -18290,7 +18103,6 @@ msgstr ""
 "contenidor (algunes centenars de megabytes)."
 
 #: ../../userguide/dailyuse/libertine.rst:47
-#, fuzzy
 msgid ""
 "The ``create`` command shown above cannot be run directly in the terminal "
 "app, due to AppArmor restrictions. You can run it from another device using "
@@ -18300,9 +18112,9 @@ msgid ""
 msgstr ""
 "L'ordre ``create`` que es mostra a dalt no es pot executar directament a "
 "l'aplicació de terminal, per causa de restriccions de l'apparmor. La podeu "
-"executar des d'un altre dispositiu usant una connexió o bé ``adb`` o bé  "
-"``ssh``. Alternativament, podeu executar-la des de l'aplicació de terminal "
-"usant una connexió ssh loopback executant l'ordre: ``ssh localhost``."
+"executar des d'un altre dispositiu usant una connexió o bé  ADB o bé SSH. "
+"Alternativament, podeu executar-la des de l'aplicació de terminal usant una "
+"connexió ssh loopback executant l'ordre: ``ssh localhost``."
 
 #: ../../userguide/dailyuse/libertine.rst:52
 msgid "List containers"
@@ -18317,9 +18129,8 @@ msgstr ""
 "per a llistar tots els contenidors que heu creat al dispositiu."
 
 #: ../../userguide/dailyuse/libertine.rst:56
-#, fuzzy
 msgid "You can also use the command-line. Run::"
-msgstr "També podeu utilitzar la línia de comandes. Executa::"
+msgstr "També podeu utilitzar la línia de comandes. Executeu:"
 
 #: ../../userguide/dailyuse/libertine.rst:61
 msgid "Destroy a container"
@@ -18340,9 +18151,8 @@ msgstr ""
 "contenidor al menú *Gestiona els contenidors llibertins*."
 
 #: ../../userguide/dailyuse/libertine.rst:72
-#, fuzzy
 msgid "You can also list them via the command-line::"
-msgstr "També podeu llistar-los a través de la línia d'ordres::"
+msgstr "També podeu llistar-los a través de la línia d'ordres:"
 
 #: ../../userguide/dailyuse/libertine.rst:77
 msgid "Install a package"
@@ -18373,9 +18183,8 @@ msgstr ""
 "dispositiu mòbil."
 
 #: ../../userguide/dailyuse/libertine.rst:86
-#, fuzzy
 msgid "Packages may also be installed via the command-line::"
-msgstr "Els paquets també es poden instal·lar a través de la línia d'ordres::"
+msgstr "Els paquets també es poden instal·lar a través de la línia d'ordres:"
 
 #: ../../userguide/dailyuse/libertine.rst:91
 msgid "Remove a package"
@@ -18393,9 +18202,8 @@ msgstr ""
 "revelarà una opció per eliminar-la."
 
 #: ../../userguide/dailyuse/libertine.rst:95
-#, fuzzy
 msgid "Or you can remove the package via the command-line::"
-msgstr "O podeu eliminar el paquet a través de la línia d'ordres::"
+msgstr "O podeu eliminar el paquet a través de la línia d'ordres:"
 
 #: ../../userguide/dailyuse/libertine.rst:100
 msgid ""
@@ -18411,14 +18219,13 @@ msgid "Run desktop application"
 msgstr "Execució d'aplicacions d'escriptori"
 
 #: ../../userguide/dailyuse/libertine.rst:105
-#, fuzzy
 msgid ""
 "Run it from the app menu like any other app. To start a graphical app from "
 "the command-line, for example ``gedit``, run this in a terminal::"
 msgstr ""
-"Executa-ho des del menú de l'app com qualsevol altra aplicació. Per a "
-"iniciar una aplicació gràfica des de la línia d'ordres, per exemple  "
-"thegedit,, executeu-la en un terminal::"
+"Executeu-ho des del menú de l'app com qualsevol altra aplicació. Per iniciar "
+"una aplicació gràfica des de la línia d'ordres, per exemple ``gedit``, "
+"executeu-la en un terminal:"
 
 #: ../../userguide/dailyuse/libertine.rst:111
 msgid "Files"
@@ -18483,7 +18290,6 @@ msgstr ""
 "executeu:"
 
 #: ../../userguide/dailyuse/libertine.rst:137
-#, fuzzy
 msgid ""
 "**The first option** is based on ``libertine-container-manager exec``. It "
 "lets you run your commands as root. The drawback is that the container is "
@@ -18495,16 +18301,16 @@ msgid ""
 "which may lead to problems with software trying to create temporary files or "
 "directories. You may use this option to installing packages."
 msgstr ""
-"**La primera opció** es basa en .libertine-container-manager exec.. Et "
+"**La primera opció** es basa en ``libertine-container-manager exec``. Us "
 "permet executar les teves ordres com a root. L'inconvenient és que el "
-"contenidor no està completament configurat. Fins ara sabem que les  "
-"thecarpetes esmentades anteriorment (Documents, Música, ...) no estan "
-"muntades <https://askubuntu.com/questions/831830/libertine-terminal-"
-"applications-how-to-access-to-the-real-home-dir#comment1273744833984/>., és "
-"a dir, el directori  the/home/phablet/. està buit. De la mateixa manera, el "
-"directori referenciat a  theTMPDIR. no està disponible, cosa que pot "
-"provocar problemes amb el programari que intenta crear fitxers o directoris "
-"temporals. Podeu utilitzar aquesta opció per instal·lar paquets."
+"contenidor no està completament configurat. Fins ara sabem que les `carpetes "
+"esmentades anteriorment (Documents, Música, ...) no estan muntades <https://"
+"askubuntu.com/questions/831830/libertine-terminal-applications-how-to-access-"
+"to-the-real-home-dir#comment1273744833984/>`_, és a dir, el directori ``/"
+"home/phablet/`` està buit. De la mateixa manera, el directori referenciat a "
+"``TMPDIR`` no està disponible, cosa que pot provocar problemes amb el "
+"programari que intenta crear fitxers o directoris temporals. Podeu utilitzar "
+"aquesta opció per instal·lar paquets."
 
 #: ../../userguide/dailyuse/libertine.rst:143
 #: ../../userguide/dailyuse/libertine.rst:159
@@ -18515,25 +18321,21 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:147
 #: ../../userguide/dailyuse/libertine.rst:163
-#, fuzzy
 msgid "For example, run::"
-msgstr "Per exemple, executeu::"
+msgstr "Per exemple, executeu:"
 
 #: ../../userguide/dailyuse/libertine.rst:151
-#, fuzzy
 msgid "To get a shell into your container as ``root``, run::"
 msgstr ""
-"Per a obtenir una consola dins del contenidor com a ``root``, podeu "
-"executar::"
+"Per a obtenir una consola dins del contenidor com a ``root``, podeu executar:"
 
 #: ../../userguide/dailyuse/libertine.rst:155
-#, fuzzy
 msgid ""
 "**The second option** is based on ``libertine-launch``. It will execute your "
 "commands as user phablet in a completely set up container. You may use this "
 "option to modify your files using installed packages."
 msgstr ""
-"**La segona opció** es basa en .libertine-launch.. Executarà les vostres "
+"**La segona opció** es basa en ``libertine-launch``. Executarà les vostres "
 "ordres com a phablet d'usuari en un contenidor completament configurat. "
 "Podeu utilitzar aquesta opció per a modificar els fitxers utilitzant els "
 "paquets instal·lats."
@@ -18591,12 +18393,10 @@ msgstr ""
 "muntatge d'enllaços."
 
 #: ../../userguide/dailyuse/libertine.rst:190
-#, fuzzy
 msgid "To add a bind mount, use::"
-msgstr "Per a afegir un muntatge d'enllaços, useu::"
+msgstr "Per a afegir un muntatge d'enllaços, useu:"
 
 #: ../../userguide/dailyuse/libertine.rst:194
-#, fuzzy
 msgid ""
 "You can also make deep links if you only want parts of your SD-card "
 "available in the container. In this case just add the entire path to the "
@@ -18604,7 +18404,7 @@ msgid ""
 msgstr ""
 "També pots fer enllaços profunds si només vols parts de la teva targeta SD "
 "disponibles al contenidor. En aquest cas només cal afegir tot el camí al "
-"directori que voleu vincular mount::"
+"directori que voleu vincular mount:"
 
 #: ../../userguide/dailyuse/libertine.rst:199
 msgid ""
@@ -18641,33 +18441,29 @@ msgid "Shortcuts"
 msgstr "Dreceres"
 
 #: ../../userguide/dailyuse/libertine.rst:209
-#, fuzzy
 msgid ""
 "If you want, you can add aliases for command-line tools. Add lines like the "
 "following ones to your ``~/.bash_aliases``::"
 msgstr ""
 "Si ho voleu, podeu afegir àlies per a les eines de consola. Afegiu línies "
-"com aquestes al vostre fitxer ``~/.bash_aliases``::"
+"com aquestes al vostre fitxer ``~/.bash_aliases``:"
 
 #: ../../userguide/dailyuse/libertine.rst:216
 msgid "Installing packages manually"
 msgstr "Instal·lació d'un paquet:"
 
 #: ../../userguide/dailyuse/libertine.rst:218
-#, fuzzy
 msgid ""
 "If you want to install a package from a file, you will first have to make it "
 "available to the root user, for example by copying it to the ``/root`` "
 "directory::"
 msgstr ""
 "Si voleu instal·lar un paquet des d'un fitxer, primer haureu de posar-lo a "
-"disposició de l'usuari root, per exemple copiant-lo al directori  the/root "
-"the::"
+"disposició de l'usuari root, per exemple copiant-lo al directori ``/root``:"
 
 #: ../../userguide/dailyuse/libertine.rst:222
-#, fuzzy
 msgid "Then install it using dpkg::"
-msgstr "Després instal·leu-lo utilitzant dpkg::"
+msgstr "Després instal·leu-lo utilitzant dpkg:"
 
 #: ../../userguide/dailyuse/libertine.rst:227
 msgid "Background"
@@ -18833,11 +18629,10 @@ msgid "Quick settings"
 msgstr "Configuració ràpida"
 
 #: ../../userguide/dailyuse/location.rst:59
-#, fuzzy
 msgid "`Open location quick settings`_, then select ``Location settings...``."
 msgstr ""
-",Obre la configuració ràpida de la ubicació,, després seleccioneu "
-",Configuració de la ubicació....."
+"`Obre la configuració ràpida de la ubicació`_ després seleccioneu "
+"``Configuració de la ubicació...``."
 
 #: ../../userguide/dailyuse/location.rst:62
 #: ../../userguide/dailyuse/location.rst:84
@@ -18845,13 +18640,12 @@ msgid "System settings app"
 msgstr "Aplicació de configuració del sistema"
 
 #: ../../userguide/dailyuse/location.rst:64
-#, fuzzy
 msgid ""
 "Launch the ``System Settings`` app. Select ``Security & Privacy``, then "
 "select ``Location``."
 msgstr ""
-"Llança l'aplicació  theConfiguració del sistema.. Seleccioneu , Privadesa de "
-"seguretat. i, a continuació, seleccioneu ,Location.."
+"Llançeu l'aplicació ``Configuració del sistema``. Seleccioneu ``Privadesa i "
+"seguretat`` i, a continuació, seleccioneu ``Ubicació``."
 
 #: ../../userguide/dailyuse/location.rst:68
 msgid "Enabling or disabling location services"
@@ -18884,33 +18678,29 @@ msgstr ""
 "Ubuntu Touch."
 
 #: ../../userguide/dailyuse/location.rst:80
-#, fuzzy
 msgid ""
 "`Open location quick settings`_. Select the ``Location detection`` switch to "
 "turn on or off location services."
 msgstr ""
-".Obre la configuració ràpida de la ubicació.. Seleccioneu l'opció  "
-"theDetecció d'ubicació. per a activar o desactivar els serveis d'ubicació."
+"`Obre la configuració ràpida de la ubicació`_. Seleccioneu l'opció "
+"``Detecció d'ubicació`` per activar o desactivar els serveis d'ubicació."
 
 #: ../../userguide/dailyuse/location.rst:86
-#, fuzzy
 msgid ""
 "`Open location settings in the settings app`_. Under ``Let the device detect "
 "your location:``, select the appropriate option:"
 msgstr ""
-"theObre la configuració d'ubicació a l'aplicació de configuració the. A  "
-"theDeixeu que el dispositiu detecti la vostra ubicació:,, seleccioneu "
-"l'opció apropiada:"
+"`Obre la configuració d'ubicació a l'aplicació de configuració`_. A ``Deixeu "
+"que el dispositiu detecti la vostra ubicació:``, seleccioneu l'opció "
+"apropiada:"
 
 #: ../../userguide/dailyuse/location.rst:89
-#, fuzzy
 msgid "``Using GPS`` turns on location services."
-msgstr ".Utilització de GPS. activa els serveis d'ubicació."
+msgstr "``Utilització de GPS`` activa els serveis d'ubicació."
 
 #: ../../userguide/dailyuse/location.rst:90
-#, fuzzy
 msgid "``Not at all`` turns off location services."
-msgstr ".No en absolut. desactiva els serveis d'ubicació."
+msgstr "``No en absolut`` desactiva els serveis d'ubicació."
 
 #: ../../userguide/dailyuse/location.rst:93
 msgid "Allowing apps access to location data"
@@ -18936,16 +18726,15 @@ msgstr ""
 "que intenti accedir a la vostra ubicació actual."
 
 #: ../../userguide/dailyuse/location.rst:104
-#, fuzzy
 msgid ""
 "Select ``Allow`` to give the app access to your current location. Select "
 "``Don't Allow`` to deny the app access to your current location. Some app "
 "features may not work correctly if you select ``Don't Allow``."
 msgstr ""
-"Seleccioneu  thePermet. per donar accés a l'aplicació a la vostra ubicació "
-"actual. Seleccioneu .No permet. per a denegar l'accés de l'aplicació a la "
+"Seleccioneu ``Permet`` per donar accés a l'aplicació a la vostra ubicació "
+"actual. Seleccioneu ``No permet`` per denegar l'accés de l'aplicació a la "
 "vostra ubicació actual. Algunes funcions de l'aplicació poden no funcionar "
-"correctament si seleccioneu .No permetre.."
+"correctament si seleccioneu ``No permetre``."
 
 #: ../../userguide/dailyuse/location.rst:109
 msgid "Changing your permissions"
@@ -18972,25 +18761,23 @@ msgid "Location settings"
 msgstr "Ubicacions"
 
 #: ../../userguide/dailyuse/location.rst:119
-#, fuzzy
 msgid ""
 "`Open location settings in the settings app`_. All apps that have requested "
 "access to your location are listed under ``Let apps access this location:``. "
 "Toggle the switch next to an app \"on\" to allow it to access your location "
 "data. Toggle the switch \"off\" to deny access."
 msgstr ""
-"theObre la configuració d'ubicació a l'aplicació de configuració the. Totes "
-"les aplicacions que han sol·licitat accés a la vostra ubicació es llisten a "
-".Deixeu que les aplicacions accedeixin a aquesta ubicació:.. Alterna el "
-"commutador al costat d'una app \"activat\" per permetre-li accedir a les "
-"dades de la teva ubicació. Commuta l'opció «apaga» per a denegar l'accés."
+"`Obre la configuració d'ubicació a l'aplicació de configuració`_. Totes les "
+"aplicacions que han sol·licitat accés a la vostra ubicació es llisten a "
+"``Deixeu que les aplicacions accedeixin a aquesta ubicació:``. Alterna el "
+"commutador al costat d'una app «activat» per permetre-li accedir a les dades "
+"de la teva ubicació. Commuteu l'opció a «apaga» per denegar l'accés."
 
 #: ../../userguide/dailyuse/location.rst:125
 msgid "App permission settings"
 msgstr "Configuració de permisos de l'aplicació"
 
 #: ../../userguide/dailyuse/location.rst:127
-#, fuzzy
 msgid ""
 "Launch the ``System Settings`` app. Select ``Security & Privacy``, then "
 "select ``App permissions``, followed by ``Location``. All of the apps that "
@@ -18998,12 +18785,12 @@ msgid ""
 "an app \"on\" to allow it to access your location data. Toggle the switch "
 "\"off\" to deny access."
 msgstr ""
-"Llança l'aplicació  theConfiguració del sistema.. Seleccioneu , Privadesa de "
-"seguretat. i, a continuació, seleccioneu ,Permisos de l'aplicació., seguit "
-"de .Location.. Totes les apps que han sol·licitat accés a la teva ubicació "
-"estan llistades. Alterna el commutador al costat d'una app \"activat\" per "
-"permetre-li accedir a les dades de la teva ubicació. Commuta l'opció «apaga» "
-"per a denegar l'accés."
+"Llançeu l'aplicació ``Configuració del sistema``. Seleccioneu ``Privadesa i "
+"seguretat`` i, a continuació, seleccioneu ``Permisos de l'aplicació``, "
+"seguit de ``Ubicació``. Totes les apps que han sol·licitat accés a la teva "
+"ubicació estan llistades. Alterneu el commutador al costat d'una app a «"
+"activat» per permetre-li accedir a les dades de la vostra ubicació. Commuteu "
+"l'opció a «apaga» per denegar l'accés."
 
 #: ../../userguide/dailyuse/location.rst:134
 msgid "Using apps with location services"
@@ -19061,11 +18848,9 @@ msgstr ""
 "dispositiu.)"
 
 #: ../../userguide/dailyuse/location.rst:153
-#, fuzzy
 msgid "Turn off ``Lock when idle`` in the Battery settings"
 msgstr ""
-"Desactiva  theBloqueja quan estigui inactiu the a la configuració de la "
-"bateria"
+"Desactiveu ``Bloqueja quan estigui inactiu`` a la configuració de la bateria"
 
 #: ../../userguide/dailyuse/location.rst:154
 msgid ""
@@ -19086,16 +18871,15 @@ msgid "(Turn the screen brightness down to reduce energy consumption.)"
 msgstr "(Turnar la brillantor de la pantalla per reduir el consum d'energia.)"
 
 #: ../../userguide/dailyuse/location.rst:159
-#, fuzzy
 msgid ""
 "After 20-60 minutes, your device should display your current location. You "
 "can now close the app and turn on ``Lock when idle``. Future attempts to "
 "aquire your location should now take 1-4 minutes."
 msgstr ""
 "Després de 20-60 minuts, el vostre dispositiu ha de mostrar la vostra "
-"ubicació actual. Ara pots tancar l'app i activar  theBloquejar quan estigui "
-"inactiu.. Els futurs intents d'obtenir la seva ubicació han de prendre ara 1-"
-"4 minuts."
+"ubicació actual. Ara podeu tancar l'app i activar ``Bloqueja quan estigui "
+"inactiu``. Els futurs intents d'obtenir la seva ubicació han de prendre ara "
+"1-4 minuts."
 
 #: ../../userguide/dailyuse/location.rst:164
 msgid "App suspension"
@@ -19256,7 +19040,6 @@ msgstr ""
 "sistemes operatius GNU/Linux."
 
 #: ../../userguide/dailyuse/waydroid.rst:7
-#, fuzzy
 msgid ""
 "You will need to execute commands on your Ubuntu Touch device (locally via "
 "the terminal application or remotely via :doc:`ADB </userguide/advanceduse/"
@@ -19264,8 +19047,8 @@ msgid ""
 "install APKs and uninstall applications."
 msgstr ""
 "Haureu d'executar ordres al vostre dispositiu Ubuntu Touch (localment a "
-"través de l'aplicació terminal o remotament a través de :doc:.ADB </"
-"userguide/advanceduse/adb>./:doc:.SSH </userguide/advanceduse/ssh>.) per "
+"través de l'aplicació terminal o remotament a través de :doc:`ADB </"
+"userguide/advanceduse/adb>`/:doc:`SSH </userguide/advanceduse/ssh>`) per "
 "inicialitzar Waydroid, instal·lar APKs i desinstal·lar aplicacions."
 
 #: ../../userguide/dailyuse/waydroid.rst:12
@@ -19333,9 +19116,8 @@ msgstr ""
 "ADB/SSH o localment amb l'aplicació terminal)."
 
 #: ../../userguide/dailyuse/waydroid.rst:24
-#, fuzzy
 msgid "Run the following command in your shell: ``waydroid init``."
-msgstr "Executeu l'ordre següent a l'intèrpret d'ordres: .waydroid init.."
+msgstr "Executeu l'ordre següent a l'intèrpret d'ordres: ``waydroid init``."
 
 #: ../../userguide/dailyuse/waydroid.rst:25
 #: ../../userguide/dailyuse/waydroid.rst:33
@@ -19352,21 +19134,19 @@ msgid "How to install new APKs"
 msgstr "Com instal·lar APK nous"
 
 #: ../../userguide/dailyuse/waydroid.rst:30
-#, fuzzy
 msgid ""
 "Copy the APK to ``/home/phablet/Downloads`` on your Ubuntu Touch device."
 msgstr ""
 "Copieu l'APK a ``/home/phablet/Baixades`` i, tot seguit, executeu aquesta "
-"ordre a l'amfitrió::"
+"ordre a l'amfitrió:"
 
 #: ../../userguide/dailyuse/waydroid.rst:32
-#, fuzzy
 msgid ""
 "Run the following in your shell ``waydroid app install /home/phablet/"
 "Downloads/my-app.apk``"
 msgstr ""
-"Executeu el següent a l'intèrpret d'ordres  thewaydroid app install /home/"
-"phablet/Downloads/my-app.apk the"
+"Executeu el següent a l'intèrpret d'ordres ``waydroid app install /home/"
+"phablet/Downloads/my-app.apk``"
 
 #: ../../userguide/dailyuse/waydroid.rst:36
 msgid "Using an appstore in Waydroid"
@@ -19436,22 +19216,20 @@ msgid "How to uninstall apps"
 msgstr "Com desinstal·lar aplicacions"
 
 #: ../../userguide/dailyuse/waydroid.rst:56
-#, fuzzy
 msgid ""
 "To uninstall apps from the Ubuntu Touch device, run ``adb uninstall "
 "[APP_ID]`` in your shell"
 msgstr ""
 "Per a desinstal·lar aplicacions, executeu ``adb uninstall [APP_ID]`` des del "
-"dispositiu Ubuntu Touch::"
+"dispositiu Ubuntu Touch:"
 
 #: ../../userguide/dailyuse/waydroid.rst:57
-#, fuzzy
 msgid ""
 "Run the following in your shell ``waydroid app remove [APP_ID]`` (you can "
 "find the APP_ID by using 'waydroid app list')"
 msgstr ""
-"Executeu el següent a l'intèrpret d'ordres  theappwaydroid remove [APPID]) "
-"(podeu trobar l'APPID utilitzant 'llista d'aplicacionswaydroid')"
+"Executeu el següent a l'intèrpret d'ordres ``waydroid app remove [APP_ID]`` "
+"(podeu trobar l'APP_ID utilitzant «waydroid app list»)"
 
 #: ../../userguide/dailyuse/waydroid.rst:58
 msgid ""
@@ -19475,32 +19253,29 @@ msgid "Access Android storage"
 msgstr "Accedeix a l'emmagatzematge Android"
 
 #: ../../userguide/dailyuse/waydroid.rst:66
-#, fuzzy
 msgid ""
 "The Android storage is located at ``/home/phablet/.local/share/waydroid/data/"
 "media/0``."
 msgstr ""
-"L'emmagatzematge Android es troba a  The/home/phablet/.local/share/waydroid/"
-"data/media/0.."
+"L'emmagatzematge Android es troba a ``/home/phablet/.local/share/waydroid/"
+"data/media/0``."
 
 #: ../../userguide/dailyuse/waydroid.rst:68
-#, fuzzy
 msgid ""
 "Links to android libraries can be made in their respective XDG counterparts::"
 msgstr ""
 "Els enllaços a les biblioteques d'Android es poden fer en els seus "
-"respectius homòlegs XDG::"
+"respectius homòlegs XDG:"
 
 #: ../../userguide/dailyuse/waydroid.rst:79
-#, fuzzy
 msgid ""
 "When you are installing an APK, but run into the following error ``Invalid "
 "APK file``, this could simply mean that it could not find the apk file. Try "
 "the following steps to double check:"
 msgstr ""
-"Quan esteu instal·lant un APK, però teniu el següent error  theFitxer APK no "
-"vàlid., això simplement podria significar que no s'ha pogut trobar el fitxer "
-"apk. Proveu els passos següents per a comprovar-ho:"
+"Quan esteu instal·lant un APK, però teniu el següent error ``Invalid APK "
+"file``, això simplement podria significar que no s'ha pogut trobar el fitxer "
+"apk. Proveu els passos següents per comprovar-ho:"
 
 #: ../../userguide/dailyuse/waydroid.rst:82
 msgid "Check that you typed the filename correctly."
@@ -19540,7 +19315,6 @@ msgid "Install Ubuntu Touch"
 msgstr "Instal·lació de l'Ubuntu Touch"
 
 #: ../../userguide/install.rst:4
-#, fuzzy
 msgid ""
 "Installing Ubuntu Touch is easy, and a lot of work has gone in to making the "
 "installation process less intimidating to the average user. The UBports "
@@ -19556,7 +19330,12 @@ msgstr ""
 "procés d'instal·lació sigui menys intimidant per als usuaris menys tècnics. "
 "L'instal·lador de l'UBports és una eina gràfica maca que podeu usar per "
 "instal·lar l'Ubuntu Touch a un `dispositiu amb suport <https://ubuntu-"
-"touch.io/devices>`_ des del vostre ordinador Linux, Max o Windows."
+"touch.io/devices>`_ des del vostre ordinador `Linux <https://snapcraft.io/"
+"ubports-installer>`_, `Mac <https://devices.ubuntu-touch.io/installer/"
+"?package=dmg>`_ or `Windows <https://devices.ubuntu-touch.io/installer/"
+"?package=exe>`_ . Per a usuaris amb més experiència, també tenim "
+"instruccions per a la instal·lació manual per a cada dispositiu a `la pàgina "
+"de dispositius <https://devices.ubuntu-touch.io/>`_."
 
 #: ../../userguide/install.rst:7
 msgid ""
@@ -19579,46 +19358,46 @@ msgstr ""
 "al vostre sistema operatiu:"
 
 #: ../../userguide/install.rst:11
-#, fuzzy
 msgid ""
 "`Windows <https://devices.ubuntu-touch.io/installer/?package=exe>`_: "
 "``ubports-installer-<version-number>.exe``"
-msgstr "Windows:  ``ubports-installer-<número-de-versió>.exe``"
+msgstr ""
+"`Windows <https://devices.ubuntu-touch.io/installer/?package=exe>`_: "
+"``ubports-installer-<version-number>.exe``"
 
 #: ../../userguide/install.rst:12
-#, fuzzy
 msgid ""
 "`macOS <https://devices.ubuntu-touch.io/installer/?package=dmg>`_: ``ubports-"
 "installer-<version-number>.dmg``"
-msgstr "macOS: ``ubports-installer-<número-de-versió>.dmg``"
+msgstr ""
+"`macOS <https://devices.ubuntu-touch.io/installer/?package=dmg>`_: ``ubports-"
+"installer-<version-number>.dmg``"
 
 #: ../../userguide/install.rst:13
-#, fuzzy
 msgid ""
 "`Ubuntu or Debian <https://devices.ubuntu-touch.io/installer/?"
 "package=deb>`_: ``ubports-installer-<version-number>.deb``"
-msgstr "Ubuntu o Debian: ``ubports-installer-<número-de-versió>.deb``"
+msgstr ""
+"`Ubuntu o Debian <https://devices.ubuntu-touch.io/installer/?package=deb>`_: "
+"``ubports-installer-<version-number>.deb``"
 
 #: ../../userguide/install.rst:14
-#, fuzzy
 msgid ""
 "`Other Linux distributions (snap) <https://snapcraft.io/ubports-"
 "installer>`_: ``ubports-installer-<version-number>.snap``"
 msgstr ""
-"Altres distribucions de Linux: ubports-installer-<número-de-versió>.deb, "
-"ubports-installer-<número-de-versió>.snap or ubports-installer-<número-de-"
-"versió>.AppImage"
+"`Altres distribucions Linux (snap) <https://snapcraft.io/ubports-installer>"
+"`_: ``ubports-installer-<version-number>.snap``"
 
 #: ../../userguide/install.rst:15
-#, fuzzy
 msgid ""
 "`Other Linux distributions (AppImage) <https://devices.ubuntu-touch.io/"
 "installer/?package=appimage>`_: ``ubports-installer-<version-"
 "number>.AppImage``"
 msgstr ""
-"Altres distribucions de Linux: ubports-installer-<número-de-versió>.deb, "
-"ubports-installer-<número-de-versió>.snap or ubports-installer-<número-de-"
-"versió>.AppImage"
+"`Altres distribucions de Linux (AppImage) <https://devices.ubuntu-touch.io/"
+"installer/?package=appimage>`_: ``ubports-installer-<version-number>"
+".AppImage``"
 
 #: ../../userguide/install.rst:17
 msgid ""
@@ -19630,7 +19409,6 @@ msgstr ""
 "explorant l'Ubuntu Touch!"
 
 #: ../../userguide/install.rst:19
-#, fuzzy
 msgid ""
 "If you're an experienced android developer and want to help us bring Ubuntu "
 "Touch to more devices, visit the :doc:`porting section </porting/"
@@ -19638,10 +19416,9 @@ msgid ""
 msgstr ""
 "Si teniu experiència en el desenvolupament de l'Android i voleu ajudar-nos a "
 "adaptar l'Ubuntu Touch a més dispositius, visiteu la :doc:`secció "
-"d'adaptació </porting/introduction>`."
+"d'adaptació </porting/introduction/index>`."
 
 #: ../../userguide/install.rst:22
-#, fuzzy
 msgid ""
 "Please do **not** start the installer with ``sudo``. It is meant to be run "
 "as a normal user, not as root. Using the installer with sudo will mess up "
@@ -19649,7 +19426,7 @@ msgid ""
 "road. If the installer does not recognize your device, check the "
 "troubleshooting information below."
 msgstr ""
-"Si us plau, **no** inicieu l'instal·lador amb  thesudo.. Està destinat a ser "
+"Si us plau, **no** inicieu l'instal·lador amb ``sudo``. Està destinat a ser "
 "executat com un usuari normal, no com a root. L'ús de l'instal·lador amb "
 "sudo farà malbé els permisos en els fitxers de la memòria cau de "
 "l'instal·lador i provocarà problemes a la carretera. Si l'instal·lador no "
@@ -19657,7 +19434,6 @@ msgstr ""
 "problemes a continuació."
 
 #: ../../userguide/install.rst:27
-#, fuzzy
 msgid ""
 "If you need help, you can join UBports' support channels on `telegram "
 "<https://t.me/WelcomePlus>`_ or `matrix <https://matrix.to/#/!"
@@ -19668,13 +19444,14 @@ msgid ""
 "correctly, you can also `file a new issue <https://github.com/ubports/"
 "ubports-installer/issues/new>`_ to help us solve the problem."
 msgstr ""
-"Si necessiteu ajuda, podeu unir-vos als canals de suport d'UBports al  "
-"ortelegram <https://t.me/WelcomePlus> or o  ormatrix ,https://matrix.to/!/"
-"!KwdniMNeTmClpgHkND:matrix.org?via.matrix.orgvia.ubports.chatvia.disroot.org. "
-"o preguntar  theal fòrum <https://forums.ubports.com/> the o a  theaskubuntu "
-"<https://askubuntu.com>.. Si creieu que l'instal·lador d'UBports no funciona "
-"correctament, també podeu  canarxivar un nou número <https://github.com/"
-"ubports/ubports-installer/issues/new>. per ajudar-nos a resoldre el problema."
+"Si necessiteu ajuda, podeu unir-vos als canals de suport d'UBports al "
+"`telegram <https://t.me/WelcomePlus>`_ o `matrix <https://matrix.to/#/"
+"!KwdniMNeTmClpgHkND:matrix.org?via=matrix.org&via=ubports.chat&via=disroot.org>"
+"`_ o preguntar `al fòrum <https://forums.ubports.com/>`_ o a `askubuntu "
+"<https://askubuntu.com>`_ Si creieu que l'instal·lador d'UBports no funciona "
+"correctament, també podeu `enviar un informe d'error <https://github.com/"
+"ubports/ubports-installer/issues/new>`_ per ajudar-nos a resoldre el "
+"problema."
 
 #: ../../userguide/install.rst:30
 msgid "Connection lost during installation"
@@ -19733,17 +19510,15 @@ msgstr ""
 ". i torneu a arrencar l'ordinador."
 
 #: ../../userguide/install.rst:53
-#, fuzzy
 msgid "Fairphone 2 Vendor-ID"
-msgstr "Fairphone 2::"
+msgstr "Fairphone 2 Vendor-ID"
 
 #: ../../userguide/install.rst:55
-#, fuzzy
 msgid ""
 "Run ``echo 0x2ae5 >> ~/.android/adb_usb.ini`` in the terminal and restart "
 "the installer. This does not affect the snap package."
 msgstr ""
-"Executeu .echo 0x2ae5 . /.android/adbusb.ini. al terminal i reinicieu "
+"Executeu ``echo 0x2ae5 >>~/.android/adbusb.ini`` al terminal i reinicieu "
 "l'instal·lador. Això no afecta el paquet snap."
 
 #: ../../userguide/install.rst:58
@@ -19759,15 +19534,14 @@ msgstr ""
 "potser us falten algunes **regles d'udev**."
 
 #: ../../userguide/install.rst:62
-#, fuzzy
 msgid ""
 "See if ``/etc/udev/rules.d/51-android.rules`` exists and contains the rules "
 "below. If not, add them to the file and run ``sudo service udev restart`` or "
 "``sudo udevadm control --reload-rules && udevadm trigger``."
 msgstr ""
-"Vegeu si  the/etc/udev/rules.d/51-android.rules. existeix i conté les regles "
-"següents. Si no, afegiu-los al fitxer i executeu .sudo service udev RESTART. "
-"o  orsudo udevadm control --reload-rules udevadm trigger.."
+"Vegeu si  ``/etc/udev/rules.d/51-android.rules`` existeix i conté les regles "
+"següents. Si no, afegiu-los al fitxer i executeu ``sudo service udev "
+"restart`` o ``sudo udevadm control --reload-rules udevadm trigger``."
 
 #: ../../userguide/install.rst:102
 msgid "Other issues"
