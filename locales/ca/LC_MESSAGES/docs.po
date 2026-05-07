@@ -38,7 +38,7 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 04:09+0000\n"
-"PO-Revision-Date: 2026-05-06 15:59+0000\n"
+"PO-Revision-Date: 2026-05-08 07:44+0000\n"
 "Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/ubports/doc-"
 "ubports-com/ca/>\n"
@@ -11841,7 +11841,7 @@ msgid ""
 msgstr ""
 "Per a significar una configuració acabada i desbloquejar la interfície "
 "d'usuari d'encriptatge des de lomiri-system-settings, el commutador de "
-"configuració DeviceInfo  `FilesystemEncryption` s'ha d'establir a `true`."
+"configuració DeviceInfo `FilesystemEncryption` s'ha d'establir a `true`."
 
 #: ../../porting/configure_test_fix/Fscrypt.rst:59
 msgid "Example::"
@@ -13670,11 +13670,11 @@ msgid ""
 msgstr ""
 "Halium es construeix utilitzant codi font per a una versió modificada del "
 "sistema operatiu Android anomenada LineageOS (vegeu `el lloc web de "
-"LineageOS <https://lineageos.org/>`_ and i  el `wiki <https://"
-"wiki.lineageos.org/>`_). El codi font requerit està disponible en línia i ha "
-"de ser descarregat i configurat per construir la versió correcta de Halium "
-"per a cada port de dispositiu individual. La taula següent mostra quines "
-"versions són necessàries per a les diferents versions de Halium."
+"LineageOS <https://lineageos.org/>`_ i el `wiki <https://wiki.lineageos.org/>"
+"`_). El codi font requerit està disponible en línia i ha de ser descarregat "
+"i configurat per construir la versió correcta de Halium per a cada port de "
+"dispositiu individual. La taula següent mostra quines versions són "
+"necessàries per a les diferents versions de Halium."
 
 #: ../../porting/introduction/Intro.rst:44
 msgid "Android version"
@@ -14057,8 +14057,8 @@ msgid ""
 "Another rich source of information is the `XDA Developers Forum <https://"
 "www.xda-developers.com/>`_."
 msgstr ""
-"Una altra font rica d'informació és el  theXDA Developers Forum <https://"
-"www.xda-developers.com/> the."
+"Una altra font rica d'informació és el `XDA Developers Forum <https://"
+"www.xda-developers.com/>`_."
 
 #: ../../porting/introduction/Preparations.rst:34
 msgid "Unlock the bootloader"
@@ -14255,9 +14255,9 @@ msgid ""
 msgstr ""
 "Si el vostre ordinador amfitrió té una arquitectura de 64 bits, heu d'afegir "
 "el repositori [multilib] al vostre /etc/pacman.conf . Això us permetrà "
-"instal·lar i executar paquets i686. Consulteu  the‘Repositoris oficials/"
-"multilib' a la wiki d'arquitectura <https://wiki.archlinux.org/index.php/"
-"Officialrepositories>.."
+"instal·lar i executar paquets i686. Consulteu `«Repositoris oficials/multilib"
+"» a la wiki d'arquitectura <https://wiki.archlinux.org/index.php/"
+"Officialrepositories>`_."
 
 #: ../../porting/introduction/Setting_up.rst:82
 msgid "Make sure you have the base-devel package installed."
@@ -14331,7 +14331,7 @@ msgid ""
 "The `Calendar App <https://gitlab.com/ubports/apps/calendar-app>`_, "
 "providing the user interface"
 msgstr ""
-"La  TheApp del calendari <https://gitlab.com/ubports/apps/calendar-app> The, "
+"L'`aplicació del calendari <https://gitlab.com/ubports/apps/calendar-app>`_, "
 "que proporciona la interfície d'usuari"
 
 #: ../../systemdev/calendars.rst:7
@@ -14412,7 +14412,7 @@ msgstr ""
 
 #: ../../systemdev/calendars.rst:31
 msgid "Calendar data synchronisation issues"
-msgstr "Sincronització del CalDAV i del CardDAV"
+msgstr "Problemes de sincronització de les dades del calendari"
 
 #: ../../systemdev/calendars.rst:33
 msgid ""
@@ -14531,7 +14531,7 @@ msgstr ""
 
 #: ../../systemdev/debian-pkg.rst:18
 msgid "Non-native packages"
-msgstr "Eliminació d'un paquet:"
+msgstr "Paquets no nadius"
 
 #: ../../systemdev/debian-pkg.rst:20
 msgid ""
@@ -14765,9 +14765,7 @@ msgstr "Meizu MX4 ()arale <https://github.com/ubports/kernelarale>))"
 
 #: ../../systemdev/kernel-hal.rst:48
 msgid "Meizu Pro 5 (`turbo <https://github.com/ubports/kernel_turbo>`_)"
-msgstr ""
-"Obriu el seguidor d'errors per a l'`ubuntu-touch <https://github.com/ubports/"
-"ubuntu-touch>`_."
+msgstr "Meizu Pro 5 (`turbo <https://github.com/ubports/kernel_turbo>`_)"
 
 #: ../../systemdev/kernel-hal.rst:49
 msgid "Nexus 7 2013 GSM (deb)"
@@ -14927,8 +14925,8 @@ msgid ""
 "jumpdrive>`_ boot mode based on \"jumpdrive\". To get into the recovery "
 "press and hold the power and volume-up buttons until the led turns on."
 msgstr ""
-"La imatge d'Ubuntu Touch conté un mode d'arrencada  Therecovery <https://"
-"github.com/ubports/jumpdrive> The basat en «jumpdrive». Per entrar a la "
+"La imatge d'Ubuntu Touch conté un mode d'arrencada `recovery <https://"
+"github.com/ubports/jumpdrive>`_ basat en «jumpdrive». Per entrar a la "
 "recuperació premeu i mantingueu els botons d'encesa i volum fins que el led "
 "s'encengui."
 
@@ -14993,7 +14991,7 @@ msgstr ""
 
 #: ../../systemdev/kernel-pinephone.rst:51
 msgid "Install the kernel"
-msgstr "Instal·lació d'un paquet:"
+msgstr "Instal·leu el nucli"
 
 #: ../../systemdev/kernel-pinephone.rst:53
 msgid ""
@@ -15031,8 +15029,8 @@ msgid ""
 "`Main UBports repository <https://gitlab.com/ubports/community-ports/"
 "pinephone>`_ has instructions for how to install UT images on the PinePhone"
 msgstr ""
-"El  therepositori principal d'UBports <https://gitlab.com/ubports/community-"
-"ports/pinephone> the té instruccions per a instal·lar imatges UT al PinePhone"
+"El `repositori principal d'UBports <https://gitlab.com/ubports/community-"
+"ports/pinephone>`_ té instruccions per a instal·lar imatges UT al PinePhone"
 
 #: ../../systemdev/kernel-pinephone.rst:68
 msgid ""
@@ -15059,11 +15057,11 @@ msgid ""
 "Allwinner devices including the PinePhone takes place. Note their `build "
 "instructions <https://linux-sunxi.org/Mainline_Kernel_Howto>`_."
 msgstr ""
-"La comunitat  thesunxi <https://linux-sunxi.org> the és on té lloc gran part "
-"del  theesforç de manteniment <https://linux-sunxi.org/"
-"Linuxmainliningeffort> the per a dispositius Allwinner, incloent el "
-"PinePhone. Tingueu en compte les seves .instruccions de construcció <https://"
-"linux-sunxi.org/MainlineKernelHowto>.."
+"La comunitat `sunxi <https://linux-sunxi.org>`_ és on té lloc gran part de "
+"l'`esforç de manteniment <https://linux-sunxi.org/Linuxmainliningeffort>`_ "
+"per a dispositius Allwinner, incloent el PinePhone. Tingueu en compte les "
+"seves `instruccions de construcció <https://linux-sunxi.org/"
+"MainlineKernelHowto>`_."
 
 #: ../../systemdev/kernel-pinephone.rst:71
 msgid ""
@@ -15169,9 +15167,9 @@ msgid ""
 "<https://en.wikipedia.org/wiki/Multimedia_Messaging_Service>`_ and "
 "propagates the new MMS to upper layers."
 msgstr ""
-"El nuntium habilita el context MMS a ofono, recupera el contingut de  "
-"theMMSC <https://en.wikipedia.org/wiki/MultimediaMessagingService>. i "
-"propaga el nou MMS a les capes superiors."
+"El nuntium habilita el context MMS a ofono, recupera el contingut de `MMSC "
+"<https://en.wikipedia.org/wiki/MultimediaMessagingService>`_ i propaga el "
+"nou MMS a les capes superiors."
 
 #: ../../systemdev/mms-infrastructure.rst:24
 msgid "A new MMS arrives at telepathy-ofono."
@@ -15260,7 +15258,7 @@ msgstr "outgoing-MMS.png"
 
 #: ../../systemdev/mms-infrastructure.rst:55
 msgid "initial source: https://wiki.ubuntu.com/Touch/Specs/MMSInfrastructure"
-msgstr "font inicial:  https://wiki.ubuntu.com/Touch/ScreenRecording"
+msgstr "Font inicial: https://wiki.ubuntu.com/Touch/Specs/MMSInfrastructure"
 
 #: ../../systemdev/online-accounts.rst:2
 msgid "Working on the Online Accounts subsystem"
@@ -15277,9 +15275,9 @@ msgid ""
 "for the whole Online Accounts feature. More in detail, you will find these "
 "subdirectories:"
 msgstr ""
-"La  TheIU dels comptes <https://github.com/ubports/ubuntu-system-settings-"
-"online-accounts> The: proporciona a l'usuari els components que s'enfronten "
-"i les classes base per a tota la funció Comptes en línia. Més en detall, "
+"La `IU dels comptes <https://github.com/ubports/ubuntu-system-settings-"
+"online-accounts>`_: proporciona a l'usuari els components que s'enfronten i "
+"les classes base per a tota la funció Comptes en línia. Més en detall, "
 "trobareu aquests subdirectoris:"
 
 #: ../../systemdev/online-accounts.rst:8
@@ -15342,9 +15340,9 @@ msgid ""
 "the available account providers and implement the user interface and logic "
 "for creating the accounts"
 msgstr ""
-"Els  Theconnectors de comptes <https://github.com/ubports/account-plugins> "
-"The defineixen els proveïdors de comptes disponibles i implementen la "
-"interfície d'usuari i la lògica per crear els comptes"
+"Els `connectors de comptes <https://github.com/ubports/account-plugins>`_ "
+"defineixen els proveïdors de comptes disponibles i implementen la interfície "
+"d'usuari i la lògica per crear els comptes"
 
 #: ../../systemdev/online-accounts.rst:16
 msgid ""
@@ -15352,8 +15350,8 @@ msgid ""
 "accounts-sso>`_: while development happens in the upstream projects, the "
 "UBports forks add the Debian packaging. These projects are:"
 msgstr ""
-"Un conjunt de components del  theProjecte AccountsSSO <https://gitlab.com/"
-"accounts-sso> the: mentre el desenvolupament passa en els projectes "
+"Un conjunt de components del `Projecte AccountsSSO <https://gitlab.com/"
+"accounts-sso>`_: mentre el desenvolupament passa en els projectes "
 "ascendents, les bifurcacions d'UBports afegeixen el paquet Debian. Aquests "
 "projectes són:"
 
@@ -15416,10 +15414,10 @@ msgid ""
 "activity (the interval is decided by the `Ubuntu Push service <https://"
 "github.com/ubports/ubuntu-push>`_)"
 msgstr ""
-"El  Theservei de recompte <https://github.com/ubports/account-polld> The, "
-"que s'executa en segon pla i comprova cada 5 minuts per a l'activitat del "
-"compte nou (l'interval es decideix pel servei  theUbuntu Push <https://"
-"github.com/ubports/ubuntu-push> the)"
+"El `servei account-polld <https://github.com/ubports/account-polld>`_, que "
+"s'executa en segon pla i comprova cada 5 minuts per a l'activitat del compte "
+"nou (l'interval es decideix pel servei `Ubuntu Push <https://github.com/"
+"ubports/ubuntu-push>`_)"
 
 #: ../../systemdev/online-accounts.rst:26
 msgid ""
@@ -15713,19 +15711,19 @@ msgid ""
 "build environment. crossbuilder can also automatically deploy build packages "
 "on a connected device via ADB."
 msgstr ""
-"Sbuild utilitza un entorn de construcció basat en chroot més mínim, mentre "
+"sbuild utilitza un entorn de construcció basat en chroot més mínim, mentre "
 "que crossbuilder utilitza un contenidor LXD amb paquets més preinstal·lats. "
 "Quan es construeix amb un constructor creuat, es poden perdre les "
 "dependències de construcció preinstal·lades, que serien capturades per "
 "sbuild. El crossbuilder pot ser més ràpid per a construccions posteriors, ja "
 "que el contenidor LXD persisteix. sbuild instal·la totes les dependències de "
 "construcció en cada execució. Sbuild crea automàticament un fitxer de "
-"registre i executa  thelintian <https://lintian.debian.org/manual/"
-"lintian.html>. en els paquets construïts per tal de detectar qualsevol "
-"problema. L'ús de LXD per crossbuilder també permet una inspecció més fàcil, "
-"depuració i modificació manual de l'entorn de construcció. crossbuilder "
-"també pot desplegar automàticament paquets de construcció en un dispositiu "
-"connectat a través d'ADB."
+"registre i executa `lintian <https://lintian.debian.org/manual/lintian.html>"
+"`__ en els paquets construïts per tal de detectar qualsevol problema. L'ús "
+"de LXD per crossbuilder també permet una inspecció més fàcil, depuració i "
+"modificació manual de l'entorn de construcció. crossbuilder també pot "
+"desplegar automàticament paquets de construcció en un dispositiu connectat a "
+"través d'ADB."
 
 #: ../../systemdev/testing-locally.rst:21
 msgid ""
@@ -16122,7 +16120,7 @@ msgstr ""
 
 #: ../../systemdev/testing-locally.rst:258
 msgid "Further reading"
-msgstr "Per a la gravació de la transmissió:"
+msgstr "Més informació"
 
 #: ../../systemdev/testing-locally.rst:260
 msgid ""
@@ -16132,11 +16130,11 @@ msgid ""
 "createchroot.8.en.html>`__ manual pages and the `Debian wiki <https://"
 "wiki.debian.org/sbuild>`__."
 msgstr ""
-"Els detalls tècnics estan disponibles a les pàgines del manual  thesbuild(1) "
-"<https://manpages.debian.org/bullseye/sbuild/sbuild.1.en.html> and i  "
-"andsbuild-createchroot(8) <https://manpages.debian.org/bullseye/sbuild/"
-"sbuild-createchroot.8.en.html> the i al wiki de Debian <https://"
-"wiki.debian.org/sbuild> the."
+"Els detalls tècnics estan disponibles a les pàgines del manual `sbuild(1) "
+"<https://manpages.debian.org/bullseye/sbuild/sbuild.1.en.html>`__ i `sbuild-"
+"createchroot(8) <https://manpages.debian.org/bullseye/sbuild/sbuild-"
+"createchroot.8.en.html>`__ i al `wiki de Debian <https://wiki.debian.org/"
+"sbuild>`__."
 
 #: ../../systemdev/testing-locally.rst:263
 msgid "Building packages with crossbuilder"
@@ -16166,7 +16164,7 @@ msgid ""
 msgstr ""
 "Crossbuilder requereix una distribució Linux amb ``lxd`` instal·lat i el "
 "conjunt d'ordres sense privilegis disponible. En altres paraules, heu de "
-"poder executar l'ordre  ``lxc``.. Si esteu executant Ubuntu al vostre "
+"poder executar l'ordre ``lxc``.. Si esteu executant Ubuntu al vostre "
 "amfitrió, Crossbuilder us configurarà ``lxd``."
 
 #: ../../systemdev/testing-locally.rst:271
@@ -16297,7 +16295,7 @@ msgstr ""
 "de rapidesa). Tanmateix, l'emulació qemu està disponible a dins del "
 "contenidor, de manera que hauria de ser possible executar proves unitàries a "
 "dins del contenidor. Podeu fer això obtenint un intèrpret d'ordres dins del "
-"contenidor amb"
+"contenidor:"
 
 #: ../../systemdev/testing-locally.rst:323
 msgid ""
@@ -16539,7 +16537,7 @@ msgstr "Amb això fet, es pot començar la construcció:"
 
 #: ../../systemdev/ubp-5.1.rst:59
 msgid "Install the new image"
-msgstr "Instal·lació d'un paquet:"
+msgstr "Instal·leu la imatge nova"
 
 #: ../../systemdev/ubp-5.1.rst:61
 msgid ""
@@ -16593,10 +16591,10 @@ msgid ""
 "repo.ubports.com>`_. This capability is offered to any developer who wishes "
 "to take advantage of it."
 msgstr ""
-"El  Theservei de construcció d'UBports <https://ci.ubports.com> The és capaç "
-"de construir paquets Ubuntu Touch i desplegar-los al  therepositori "
-"d'UBports <https://repo.ubports.com> the. Aquesta capacitat s'ofereix a "
-"qualsevol desenvolupador que vulgui aprofitar-la."
+"El `servei de compilació de l'UBports <https://ci.ubports.com>`_ és capaç de "
+"construir paquets Ubuntu Touch i desplegar-los al `repositori d'UBports "
+"<https://repo.ubports.com>`_. Aquesta capacitat s'ofereix a qualsevol "
+"desenvolupador que vulgui aprofitar-la."
 
 #: ../../systemdev/uploading-changes.rst:6
 msgid ""
@@ -16638,7 +16636,7 @@ msgstr ""
 
 #: ../../systemdev/uploading-changes.rst:15
 msgid "Now you're ready to make changes!"
-msgstr "Ara ja podeu compilar el paquet:"
+msgstr "Ara ja podeu fer canvis."
 
 #: ../../systemdev/uploading-changes.rst:18
 msgid "Make and commit changes"
@@ -17003,7 +17001,7 @@ msgid ""
 msgstr ""
 "Executeu ``sudo ubports-qa install REPOSITORY PR``, substituint "
 "``REPOSITORY`` pel nom del repositori al qual heu enviat un PR i ``PR`` pel "
-"número de la vostra sol·licitud d'extracció sense el ``#``.  Per exemple, "
+"número de la vostra sol·licitud d'extracció sense el ``#``. Per exemple, "
 "executeu ``sudo ubports-qa morph-browser 123`` per instal·lar el PR número "
 "123 al repo morph-browser."
 
@@ -17027,8 +17025,8 @@ msgid ""
 "command) to `Ubuntu Pastebin <https://paste.ubuntu.com/>`_ and contact us "
 "for help."
 msgstr ""
-"Si  ``ubports-qa`` no instal·la els vostres paquets, executeu-lo de nou amb "
-"l'indicador ``-v`` (per exemple, ``ubports-qa -v install ...``.). Si encara "
+"Si ``ubports-qa`` no instal·la els vostres paquets, executeu-lo de nou amb "
+"l'indicador ``-v`` (per exemple, ``ubports-qa -v install ...``). Si encara "
 "falla, envieu tot el registre (a partir de la ``$`` abans de l'ordre "
 "``ubports-qa`` a `Ubuntu Pastebin <https://paste.ubuntu.com/>`_ i contacteu "
 "amb nosaltres per obtenir ajuda."
@@ -17117,7 +17115,7 @@ msgstr "Al Fedora:"
 
 #: ../../userguide/advanceduse/adb.rst:20
 msgid "And on macOS with `Homebrew <https://brew.sh>`_::"
-msgstr "I al  MacOS amb `Homebrew <https://brew.sh>`_:"
+msgstr "I al MacOS amb `Homebrew <https://brew.sh>`_:"
 
 #: ../../userguide/advanceduse/adb.rst:24
 msgid ""
@@ -17125,7 +17123,7 @@ msgid ""
 "`developer.android.com <https://developer.android.com/studio/"
 "index.html#downloads>`_."
 msgstr ""
-"Per a Windows, agafeu el paquet sols amb eines de línia d'ordres  d' `aquí "
+"Per a Windows, agafeu el paquet sols amb eines de línia d'ordres d' `aquí "
 "<https://developer.android.com/studio/index.html#downloads>`_."
 
 #: ../../userguide/advanceduse/adb.rst:27
@@ -17227,7 +17225,7 @@ msgid ""
 "For more ADB commands, refer to the `official documentation <https://"
 "developer.android.com/studio/command-line/adb>`_."
 msgstr ""
-"Per a Windows, agafeu el paquet sols amb eines de línia d'ordres  d' `aquí "
+"Per a Windows, agafeu el paquet sols amb eines de línia d'ordres d' `aquí "
 "<https://developer.android.com/studio/index.html#downloads>`_."
 
 #: ../../userguide/advanceduse/adb.rst:72
@@ -17333,8 +17331,8 @@ msgid ""
 "1. A simple guide proposed by `Bastos77 <https://gist.github.com/bastos77>`_ "
 "and `Vanyasem <https://gist.github.com/vanyasem>`_"
 msgstr ""
-"1. Una guia senzilla proposada per  andBastos77 <https://gist.github.com/"
-"bastos77> and i  andVanyasem <https://gist.github.com/vanyasem>"
+"1. Una guia senzilla proposada per `Bastos77 <https://gist.github.com/"
+"bastos77>`_ i `Vanyasem <https://gist.github.com/vanyasem>`_"
 
 #: ../../userguide/advanceduse/dav.rst:24
 msgid ""
@@ -17404,8 +17402,8 @@ msgid ""
 "2. Or a full featured guide proposed by `UT-ilities <https://github.com/UT-"
 "ilities>`_"
 msgstr ""
-"2. O una guia completa proposada per  aUT-ilities <https://github.com/UT-"
-"ilities>"
+"2. O una guia completa proposada per `UT-ilities <https://github.com/UT-"
+"ilities>`_"
 
 #: ../../userguide/advanceduse/dav.rst:49
 msgid ""
@@ -17655,7 +17653,8 @@ msgstr "`Fedora Magazine`_"
 
 #: ../../userguide/advanceduse/screencasting.rst:2
 msgid "Screencasting your Ubuntu touch device to your computer"
-msgstr "Exportació de la pantalla del vostre dispositiu UT a l'ordinador"
+msgstr ""
+"Exportació de la pantalla del vostre dispositiu Ubuntu Touch a l'ordinador"
 
 #: ../../userguide/advanceduse/screencasting.rst:4
 msgid ""
@@ -17693,7 +17692,7 @@ msgstr ""
 "Noteu: aquí s'usa ``timeout``per tancar adequadament el procés al dispositiu "
 "(aquí 120 segons). En cas contrari el procés continuarà encara tot i que "
 "s'hagi tancat a l'ordinador. Podeu reduir o incrementar els marcs per segon "
-"amb ``--cap-interval`` (1 = 60fps, 2=30fps, ...)  i la mida dels marcs ``384 "
+"amb ``--cap-interval`` (1 = 60fps, 2=30fps, ...) i la mida dels marcs ``384 "
 "650`` significa amplada=384 alçada=640"
 
 #: ../../userguide/advanceduse/screencasting.rst:21
@@ -17760,7 +17759,7 @@ msgstr "El podeu descarregar aquí: :download:`files/mircast.sh`"
 
 #: ../../userguide/advanceduse/screencasting.rst:76
 msgid "Initial source: https://wiki.ubuntu.com/Touch/ScreenRecording"
-msgstr "font inicial:  https://wiki.ubuntu.com/Touch/ScreenRecording"
+msgstr "Font inicial: https://wiki.ubuntu.com/Touch/ScreenRecording"
 
 #: ../../userguide/advanceduse/screencasting.rst:77
 msgid "Demo: https://www.youtube.com/watch?v=HYm4RUwwo5Q"
@@ -18086,9 +18085,8 @@ msgid ""
 "``-t type`` type can be either ``chroot`` or ``lxc``. The default is "
 "``chroot`` , which is compatible with every device."
 msgstr ""
-"`-t type`` type (tipus) pot ser ser o bé ``chroot`` o ``lxc``. Per defecte "
-"és ``chroot`` i és compatiible amb tots els dispositius. Si el nucli del "
-"vostre dispositiu li dóna suport aleshores se suggereix ``lxc``."
+"``-t type`` type (tipus) pot ser ser o bé ``chroot`` o ``lxc``. Per defecte "
+"és ``chroot`` i és compatible amb tots els dispositius."
 
 #: ../../userguide/dailyuse/libertine.rst:42
 msgid "If the kernel of your device supports it, ``lxc`` is suggested."
@@ -18112,7 +18110,7 @@ msgid ""
 msgstr ""
 "L'ordre ``create`` que es mostra a dalt no es pot executar directament a "
 "l'aplicació de terminal, per causa de restriccions de l'apparmor. La podeu "
-"executar des d'un altre dispositiu usant una connexió o bé  ADB o bé SSH. "
+"executar des d'un altre dispositiu usant una connexió o bé ADB o bé SSH. "
 "Alternativament, podeu executar-la des de l'aplicació de terminal usant una "
 "connexió ssh loopback executant l'ordre: ``ssh localhost``."
 
@@ -18156,7 +18154,7 @@ msgstr "També podeu llistar-los a través de la línia d'ordres:"
 
 #: ../../userguide/dailyuse/libertine.rst:77
 msgid "Install a package"
-msgstr "Instal·lació d'un paquet:"
+msgstr "Instal·lació d'un paquet"
 
 #: ../../userguide/dailyuse/libertine.rst:79
 msgid ""
@@ -18188,7 +18186,7 @@ msgstr "Els paquets també es poden instal·lar a través de la línia d'ordres:
 
 #: ../../userguide/dailyuse/libertine.rst:91
 msgid "Remove a package"
-msgstr "Eliminació d'un paquet:"
+msgstr "Eliminació d'un paquet"
 
 #: ../../userguide/dailyuse/libertine.rst:93
 msgid ""
@@ -18197,9 +18195,9 @@ msgid ""
 "*CONTAINER NAME*). An option to remove it will be revealed."
 msgstr ""
 "Elimina un paquet lliscant-lo cap a la dreta des de la seva entrada a la "
-"llista de paquets (a *Configuració del sistema*  the *Llibertina* ). "
-"*Gestiona els contenidors de llibertina*  the *NOM DEL CONTENIDOR*). Es "
-"revelarà una opció per eliminar-la."
+"llista de paquets (a *Configuració del sistema* > *Libertine* > *Gestiona "
+"els contenidors de Libertine* > *NOM DEL CONTENIDOR*). Es revelarà una opció "
+"per eliminar-la."
 
 #: ../../userguide/dailyuse/libertine.rst:95
 msgid "Or you can remove the package via the command-line::"
@@ -18210,7 +18208,7 @@ msgid ""
 "If you have more than one container, you can use the option ``-i CONTAINER-"
 "IDENTIFIER`` to specify which container you want to perform an operation on."
 msgstr ""
-"Si teniu més d'un contenidor, aleshores podeu usar l'opció  ``-i CONTAINER-"
+"Si teniu més d'un contenidor, aleshores podeu usar l'opció ``-i CONTAINER-"
 "IDENTIFIER`` per especificar per a quin contenidor voleu realitzar una "
 "operació."
 
@@ -18268,7 +18266,7 @@ msgid ""
 "A root directory ``~/.cache/libertine-container/CONTAINER-IDENTIFIER/rootfs/"
 "`` and"
 msgstr ""
-"Un directori arrel  ``~/.cache/libertine-container/CONTAINER-IDENTIFIER/"
+"Un directori arrel ``~/.cache/libertine-container/CONTAINER-IDENTIFIER/"
 "rootfs/`` i"
 
 #: ../../userguide/dailyuse/libertine.rst:130
@@ -18285,9 +18283,7 @@ msgstr "Accés a la consola"
 
 #: ../../userguide/dailyuse/libertine.rst:135
 msgid "There are two options for executing commands inside the container."
-msgstr ""
-"Per executar qualsevol ordre arbitrària com a root a dins del contenidor "
-"executeu:"
+msgstr "Hi ha dues opcions per executar ordres dins del contenidor."
 
 #: ../../userguide/dailyuse/libertine.rst:137
 msgid ""
@@ -18450,7 +18446,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/libertine.rst:216
 msgid "Installing packages manually"
-msgstr "Instal·lació d'un paquet:"
+msgstr "Instal·lació manual de paquets"
 
 #: ../../userguide/dailyuse/libertine.rst:218
 msgid ""
@@ -18930,7 +18926,9 @@ msgstr "La pàgina de configuració USB."
 msgid ""
 "And that's it, you are now sharing the internet from your Ubuntu Touch "
 "device to your computer"
-msgstr "Exportació de la pantalla del vostre dispositiu UT a l'ordinador"
+msgstr ""
+"I això és tot, ara esteu compartint l'Internet del vostre dispositiu Ubuntu "
+"Touch amb el vostre ordinador"
 
 #: ../../userguide/dailyuse/volte.rst:2
 msgid "Voice over LTE (VoLTE)"
@@ -19137,8 +19135,7 @@ msgstr "Com instal·lar APK nous"
 msgid ""
 "Copy the APK to ``/home/phablet/Downloads`` on your Ubuntu Touch device."
 msgstr ""
-"Copieu l'APK a ``/home/phablet/Baixades`` i, tot seguit, executeu aquesta "
-"ordre a l'amfitrió:"
+"Copieu l'APK a ``/home/phablet/Baixades`` al vostre dispositiu Ubuntu Touch."
 
 #: ../../userguide/dailyuse/waydroid.rst:32
 msgid ""
@@ -19220,8 +19217,8 @@ msgid ""
 "To uninstall apps from the Ubuntu Touch device, run ``adb uninstall "
 "[APP_ID]`` in your shell"
 msgstr ""
-"Per a desinstal·lar aplicacions, executeu ``adb uninstall [APP_ID]`` des del "
-"dispositiu Ubuntu Touch:"
+"Per a desinstal·lar aplicacions del dispositiu Ubuntu Touch, executeu ``adb "
+"uninstall [APP_ID]`` al vostre intèrpret d'ordres"
 
 #: ../../userguide/dailyuse/waydroid.rst:57
 msgid ""
@@ -19279,7 +19276,7 @@ msgstr ""
 
 #: ../../userguide/dailyuse/waydroid.rst:82
 msgid "Check that you typed the filename correctly."
-msgstr "cercioreu-vos que heu escrit el nom del fitxer correctament"
+msgstr "Verifiqueu que heu escrit el nom del fitxer correctament."
 
 #: ../../userguide/dailyuse/waydroid.rst:83
 msgid ""
@@ -19306,7 +19303,7 @@ msgid ""
 msgstr ""
 "Si us plau :doc:`informeu qualsevol error </contribute/bugreporting>` que "
 "trobeu. Els errors a l'Ubuntu Touch 16.04 s'informen al `seguidor normal de "
-"l'Ubuntu Touch <https://github.com/ubports/ubuntu-touch/issues>`_  i els "
+"l'Ubuntu Touch <https://github.com/ubports/ubuntu-touch/issues>`_ i els "
 "errors amb l'anbox es reporten a `la nostra bifurcació a la base de la "
 "cadena <https://github.com/ubports/anbox/issues>`_. Gràcies!"
 
@@ -19506,8 +19503,8 @@ msgid ""
 "Install the `universal adb driver <http://adb.clockworkmod.com/>`_ and "
 "reboot your computer."
 msgstr ""
-"Instal·leu el  thecontrolador d'adb universal <http://adb.clockworkmod.com/>"
-". i torneu a arrencar l'ordinador."
+"Instal·leu el `controlador d'adb universal <http://adb.clockworkmod.com/>`_ "
+"i torneu a arrencar l'ordinador."
 
 #: ../../userguide/install.rst:53
 msgid "Fairphone 2 Vendor-ID"
@@ -19539,7 +19536,7 @@ msgid ""
 "below. If not, add them to the file and run ``sudo service udev restart`` or "
 "``sudo udevadm control --reload-rules && udevadm trigger``."
 msgstr ""
-"Vegeu si  ``/etc/udev/rules.d/51-android.rules`` existeix i conté les regles "
+"Vegeu si ``/etc/udev/rules.d/51-android.rules`` existeix i conté les regles "
 "següents. Si no, afegiu-los al fitxer i executeu ``sudo service udev "
 "restart`` o ``sudo udevadm control --reload-rules udevadm trigger``."
 
@@ -19554,8 +19551,8 @@ msgid ""
 "<https://devices.ubuntu-touch.io/>`_."
 msgstr ""
 "Si els consells de resolució de problemes no funcionen, també podeu intentar "
-"seguir les instruccions d'instal·lació manual del vostre dispositiu  thea la "
-"pàgina de dispositius <https://devices.ubuntu-touch.io/>.."
+"seguir les instruccions d'instal·lació manual del vostre dispositiu `a la "
+"pàgina de dispositius <https://devices.ubuntu-touch.io/>`_."
 
 #, fuzzy
 #~ msgid "Modify the kernel configuration"
