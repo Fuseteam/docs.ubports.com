@@ -50,6 +50,7 @@ Android version  Halium version  Lineage OS (LOS)
 11.0             11.0            18.1
 12.0             12.0            19.1
 13.0             13.0            20.0
+14.0             14.0            21.0
 ===============  ==============  ================
 
 Since 20.04, Ubuntu Touch ports are normally based on Halium 9.0 or later. Older versions of Halium are considered deprecated and are no longer supported for new ports.
