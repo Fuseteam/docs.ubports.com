@@ -28,10 +28,11 @@ Halium is an indispensible part of an Ubuntu Touch port and is available in the 
 
 Thus an Ubuntu Touch port is composed of the these components:
     * The Ubuntu Touch (UT) root filesystem (rootfs)
-    * `Halium <https://halium.org/>`_ (contained in the boot and system images)
+    * The `Halium <https://halium.org/>`_ container
     * The vendor blobs
+    * The Linux Kernel (modified per device port)
 
-You, the porter, need to build a Halium kernel, which is installed together with the Ubuntu Touch rootfs and the Halium GSI, to create a functioning Ubuntu Touch port.
+You, the porter, need to modify and build your device's Linux Kernel. This modified Linux Kernel is installed together with the Ubuntu Touch rootfs and the Halium GSI, to create a functioning Ubuntu Touch port.
 
 .. _Android-and-Halium-versions:
 
