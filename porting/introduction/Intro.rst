@@ -39,7 +39,7 @@ You, the porter, need to modify and build your device's Linux Kernel. This modif
 Android and Halium versions
 ---------------------------
 
-Halium is built using source code for a modified version of the Android operating system called LineageOS (see `the LineageOS website <https://lineageos.org/>`_ and `wiki <https://wiki.lineageos.org/>`_). The required source code is available online and needs to be downloaded and configured to build the correct Halium version for each individual device port. The table below shows which versions are required for the different Halium versions.
+Halium is a minimal Android container built using the source code of LineageOS (see `the LineageOS website <https://lineageos.org/>`_ and `wiki <https://wiki.lineageos.org/>`_). The required source code is available online and needs to be downloaded and configured to build the correct Halium version for each individual device port. The table below shows which versions are required for the different Halium versions.
 
 ===============  ==============  ================
 Android version  Halium version  Lineage OS (LOS)
