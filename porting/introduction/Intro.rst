@@ -55,7 +55,7 @@ Android version  Halium version  Lineage OS (LOS)
 
 Since 20.04, Ubuntu Touch ports are normally based on Halium 9.0 or later. Older versions of Halium are considered deprecated and are no longer supported for new ports.
 
-To determine which Halium version should be used, you'll need to check for the VNDK version from a PC with developer mode + ADB enabled on the device side. You'll get a version you can then check against the `apilevel <https://apilevels.com/` of the corresponding Android version. That android version can compared against the table above to determine the Halium version that should be used.
+The halium version matching the latest available stock ROM should be used for porting a device. However Halium compatibility goes up to Android 14. If your device runs with an even newer version, you'll need to check for the VNDK version from a PC with developer mode + ADB enabled on the device side. You'll get a version you can then check against the `apilevel <https://apilevels.com/` of the corresponding Android version. As long as the resulting apilevel corresponds to an Android version listed in the above table, the device can be ported using that Halium version.
 
 .. _What-is-a-GSI:
 
